@@ -2,7 +2,7 @@
   "name": "world-cup-analysis-app",
   "version": "1.0.0",
   "private": true,
-  "description": "World Cup analysis and simulated betting app",
+  "description": "Professional football match analysis and score prediction app",
   "scripts": {
     "start": "node server.js"
   },
