@@ -3,7 +3,7 @@ services:
     name: world-cup-analysis
     runtime: node
     plan: free
-    buildCommand: ""
+    buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /
     autoDeploy: true
