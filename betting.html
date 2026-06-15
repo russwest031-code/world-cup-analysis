@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#07120f">
+  <title>模拟投注 - 赛研</title>
+  <link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body class="betting-page">
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="赛研首页">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span><strong>赛研</strong><small>MATCH INTELLIGENCE</small></span>
+      </a>
+      <button class="icon-btn" id="searchToggle" aria-label="搜索比赛">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> 2026 世界杯</span>
+          <h1>世界杯模拟投注<br><em>按体彩逻辑来选</em></h1>
+          <p>从比赛列表中选择玩法与结果，组合成模拟方案。不涉及真实交易。</p>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-ring"></div>
+          <div class="ball"><span></span></div>
+          <b>26</b>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="数据状态">
+        <span id="dataStatus"><i class="live-dot"></i> 正在连接竞彩</span>
+        <span id="matchCount">今日 -- 场</span>
+        <span id="lastUpdate">等待更新</span>
+      </section>
+
+      <div class="search-panel" id="searchPanel">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        <input id="searchInput" type="search" placeholder="搜索球队，例如：巴西" autocomplete="off">
+        <button id="clearSearch">清除</button>
+      </div>
+
+      <section class="date-strip" id="dateStrip" aria-label="选择比赛日期"></section>
+
+      <section class="content-head">
+        <div><span class="section-kicker">MATCHES</span><h2 id="matchHeading">今日比赛</h2></div>
+      </section>
+
+      <section class="match-list betting-list" id="matchList"></section>
+      <section class="empty-state" id="emptyState" hidden>
+        <span>00</span><h3>没有找到比赛</h3><p>换个日期，或者搜索别的球队试试。</p>
+      </section>
+    </main>
+
+    <aside class="bet-slip" id="betSlip">
+      <div class="bet-summary">
+        <span class="bet-count" id="betCount">0</span>
+        <div>
+          <strong id="betLabel">请选择比赛</strong>
+          <small id="betHint">模拟投注，不产生真实交易</small>
+        </div>
+      </div>
+      <div class="bet-controls">
+        <label><button type="button" id="minusMultiple">-</button><input id="multipleInput" type="number" value="1" min="1" max="999"><button type="button" id="plusMultiple">+</button><span>倍</span></label>
+        <div><span>投注 <strong id="stakeAmount">0</strong> 元</span><span>理论奖金 <strong id="potentialPayout">0.00</strong> 元</span></div>
+      </div>
+      <button class="clear-bets" id="clearBets">清空</button>
+      <button class="plan-btn" id="viewPlan">查看方案</button>
+    </aside>
+
+    <div class="plan-modal" id="planModal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="plan-sheet">
+        <header><div><small>BET SLIP</small><h3>模拟投注方案</h3></div><button data-close-modal>x</button></header>
+        <div id="planSelections" class="plan-selections"></div>
+        <div class="plan-total"><span>共 <strong id="planLines">0</strong> 注 · <strong id="planMultiple">1</strong> 倍</span><strong id="planStake">0 元</strong></div>
+        <p>理论奖金按当前固定奖金估算，实际结果以官方开奖为准。本功能仅用于模拟和赛事研究。</p>
+      </section>
+    </div>
+
+    <div class="more-modal" id="moreModal" hidden>
+      <div class="modal-backdrop" data-close-more></div>
+      <section class="more-sheet">
+        <header><div><small id="moreMatchNum">竞彩足球</small><h3 id="moreMatchName">更多玩法</h3></div><button data-close-more>x</button></header>
+        <nav class="market-tabs" id="marketTabs">
+          <button class="active" data-tab="crs">比分</button>
+          <button data-tab="ttg">总进球</button>
+          <button data-tab="hafu">半全场</button>
+        </nav>
+        <div class="market-panels" id="marketPanels"></div>
+        <footer><span id="moreSelectedCount">已选 0 项</span><button id="confirmMore">确认选择</button></footer>
+      </section>
+    </div>
+
+    <nav class="bottom-nav" aria-label="主导航">
+      <a href="index.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="18" width="4" height="4" rx="1"></rect><rect x="10" y="10" width="4" height="12" rx="1"></rect><rect x="18" y="2" width="4" height="20" rx="1"></rect></svg>
+        赛前分析
+      </a>
+      <a href="betting.html" class="active" aria-current="page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="9" y1="7" x2="15" y2="7"></line><line x1="9" y1="11" x2="15" y2="11"></line><line x1="9" y1="15" x2="12" y2="15"></line></svg>
+        投注
+      </a>
+    </nav>
+  </div>
+  <script src="data.js?v=6"></script>
+  <script src="sporttery.js?v=7"></script>
+  <script src="app.js?v=9"></script>
+</body>
+</html>
