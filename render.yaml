@@ -7,3 +7,12 @@ services:
     startCommand: npm start
     healthCheckPath: /
     autoDeploy: true
+  - type: web
+    name: world-cup-sporttery-proxy-sg
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeploy: true
