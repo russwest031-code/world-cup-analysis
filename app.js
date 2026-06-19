@@ -264,8 +264,13 @@
     var strength = inputs.teamStrength || {};
     var ad = inputs.attackDefense || {};
     var ext = inputs.externalSignals || {};
+    var dataNote = '';
+    if (!match.home.recentMatches || !match.home.recentMatches.length || match.home.recentMatches[0] && match.home.recentMatches[0].index === 1) {
+      dataNote = '<p class="data-source-note">注：近期比赛数据为基于球队实力评分的模拟推演，非真实历史比赛记录。真实比赛数据接入后将被替换。</p>';
+    }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>模型输入证据</h3><small>近况比分 / 攻防 / 外部信号</small></div>' +
+      dataNote +
       '<div class="evidence-list">' +
         recentCard(match.home, recent.home, recent.homeMatches) +
         recentCard(match.away, recent.away, recent.awayMatches) +
@@ -399,13 +404,56 @@
 
   // ─── DETAIL: 预测依据及各因素权重 ───
   function renderFactorModel(match) {
+    var contributions = match.factorContributions || [];
+    var probs = match.probabilities;
+
+    // If no factorContributions (old data), fall back to legacy display
+    if (!contributions.length) {
+      return renderFactorModelLegacy(match);
+    }
+
+    function contribBar(c) {
+      var dir, barCls, label;
+      if (c.contribution > 0.5) {
+        dir = "home"; barCls = "factor-contrib-home"; label = "有利主队 +" + c.contribution.toFixed(1);
+      } else if (c.contribution < -0.5) {
+        dir = "away"; barCls = "factor-contrib-away"; label = "有利客队 " + c.contribution.toFixed(1);
+      } else {
+        dir = "neutral"; barCls = "factor-contrib-neutral"; label = "双方接近";
+      }
+      var barWidth = Math.min(Math.abs(c.contribution) * 4.5, 85);
+      return '<div class="factor-contrib-track"><i class="' + barCls + '" style="width:' + barWidth + '%"></i></div>' +
+        '<span class="factor-contrib-label ' + barCls + '">' + label + '</span>';
+    }
+
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>10因子加权 · 权重合计100%</small></div>' +
+      '<div class="factor-model">' +
+        contributions.map(function (c) {
+          return '<div class="factor-row">' +
+            '<div class="factor-head">' +
+              '<strong>' + c.name + '</strong>' +
+              '<span class="factor-weight">权重 ' + c.weight + '%</span>' +
+            '</div>' +
+            '<div class="factor-scores"><small>' + c.homeScore + '</small>' + contribBar(c) + '<small>' + c.awayScore + '</small></div>' +
+            '<small class="factor-evidence">' + c.evidence + '</small>' +
+          '</div>';
+        }).join("") +
+      '</div>' +
+      '<div class="factor-result">' +
+        '<p class="factor-note">以上 ' + contributions.length + ' 个因素按权重加权，计算双方综合实力评分（0–100 分制），驱动泊松模型输出主胜 ' + probs[0] + '% / 平局 ' + probs[1] + '% / 客胜 ' + probs[2] + '%。每个因素均有可追溯的输入数据和计算逻辑。</p>' +
+      '</div>' +
+    '</section>';
+  }
+
+  // Legacy fallback (for old data without factorContributions)
+  function renderFactorModelLegacy(match) {
     var weights = { strength: 22, metrics: 24, recent: 20, motivation: 16, tactical: 10, external: 8 };
     var probs = match.probabilities;
     var homeRank = Number(match.home.rank) || 50;
     var awayRank = Number(match.away.rank) || 50;
     var rankDiff = awayRank - homeRank;
 
-    // Team strength evidence
     var strengthNote;
     if (rankDiff > 15) strengthNote = match.home.name + " 排名显著高于 " + match.away.name + "（第" + homeRank + " vs 第" + awayRank + "），实力层面优势明显。";
     else if (rankDiff > 5) strengthNote = match.home.name + " 排名略高于 " + match.away.name + "（第" + homeRank + " vs 第" + awayRank + "），实力差距有限。";
@@ -413,7 +461,6 @@
     else if (rankDiff > -15) strengthNote = match.away.name + " 排名略高于 " + match.home.name + "（第" + homeRank + " vs 第" + awayRank + "），客队实力稍占上风。";
     else strengthNote = match.away.name + " 排名显著高于 " + match.home.name + "（第" + homeRank + " vs 第" + awayRank + "），客队实力优势明显。";
 
-    // Attack/defense metrics evidence
     var offHome = 0, offAway = 0, defHome = 0, defAway = 0;
     if (match.metrics && match.metrics.length) {
       match.metrics.forEach(function (m) {
@@ -424,20 +471,17 @@
     var metricsNote = match.home.name + " 进攻指数 " + offHome + " / 防守指数 " + defHome + "，" +
       match.away.name + " 进攻指数 " + offAway + " / 防守指数 " + defAway + "。综合攻防指标反映了两队在不同环节的优劣。";
 
-    // Recent form evidence
     var homeForm = (match.home.form || []).slice(0, 5).join(" ");
     var awayForm = (match.away.form || []).slice(0, 5).join(" ");
-    function formWins(arr) { return (arr || []).slice(0, 5).filter(function (r) { return r === "W"; }).length; }
     var hs = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.home : {};
     var as = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.away : {};
-    var formNote = match.home.code + " 近5场 " + homeForm + "（" + formWins(match.home.form) + "胜，进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
-      match.away.code + " 近5场 " + awayForm + "（" + formWins(match.away.form) + "胜，进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
+    var formNote = match.home.code + " 近5场 " + homeForm + "（进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
+      match.away.code + " 近5场 " + awayForm + "（进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
 
-    // Tactical matchup evidence
-    var tacHome = 0, tacAway = 0, tacN = 0;
+    var tacHome = 0, tacAway = 0;
     if (match.metrics && match.metrics.length) {
       match.metrics.forEach(function (m) {
-        if (m.label === "中场") { tacHome = m.home; tacAway = m.away; tacN = 1; }
+        if (m.label === "中场") { tacHome = m.home; tacAway = m.away; }
       });
     }
     var tacNote = "中场控制力对比：" + match.home.name + " " + tacHome + " vs " + match.away.name + " " + tacAway + "。战术匹配度考察双方风格克制关系与关键对位。";
@@ -456,7 +500,7 @@
     }
 
     return '<section class="detail-section">' +
-      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>四因素加权 · 非官方数据</small></div>' +
+      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>旧版权重 · 非官方数据</small></div>' +
       '<div class="factor-model">' +
         factorRow("球队实力排名", weights.strength, strengthNote) +
         factorRow("攻防指标", weights.metrics, metricsNote) +
@@ -653,7 +697,7 @@
           '<div class="method-flow">' +
             '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>每日从公开数据源（openfootball/worldcup.json）获取世界杯赛程、对阵、比分和球队信息，结合内置的球队排名、近期战绩和攻防指标数据库，构建结构化赛前数据。</p></div>' +
             '<div class="flow-step"><span class="flow-num">02</span><strong>出线形势</strong><p>按照2026世界杯规则计算小组积分、净胜球、剩余场次和出线压力：小组前二直接晋级，8个成绩最好的小组第三进入32强。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">03</span><strong>因素加权</strong><p>综合球队实力、攻防指标、近期状态、比赛动机、平局价值、净胜球需求和攻防风格，评估双方竞争力。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">03</span><strong>10因素加权</strong><p>综合世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素和外部信号共10个因子，按权重（合计100%）计算双方综合实力评分。每个因子均可追溯输入数据和计算逻辑。</p></div>' +
             '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜概率、最可能比分和信心指数。</p></div>' +
             '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动从公开数据源拉取最新世界杯赛程、球队和比分数据，重新生成分析并通过云端自动部署上线。</p></div>' +
           '</div>' +
@@ -671,7 +715,7 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>信心指数解读</h3><small>如何理解百分比</small></div>' +
           '<div class="method-text">' +
-            '<p>信心指数反映模型对当前预测的把握程度，基于因素间的一致性和数据完整度计算：</p>' +
+            '<p>信心指数基于预测概率集中度和各因素间一致性计算（无随机成分），反映模型对当前预测的把握程度：</p>' +
             '<div class="confidence-guide">' +
               '<div class="conf-item high"><span class="conf-dot"></span><strong>高信心（≥80%）</strong><p>各因素指向一致，数据较为完整。模型判断相对稳定，但仍需注意足球比赛的固有随机性。</p></div>' +
               '<div class="conf-item medium"><span class="conf-dot"></span><strong>中等信心（65-79%）</strong><p>多数因素指向相似，但存在一定分歧或数据缺口。建议结合更多信息源综合参考。</p></div>' +

@@ -163,6 +163,18 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .factor-weight-track { height: 5px; margin-bottom: 8px; overflow: hidden; border-radius: 6px; background: rgba(255,255,255,.06); }
 .factor-weight-track i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
 .factor-evidence { display: block; color: var(--muted); font-size: 9px; line-height: 1.5; }
+.factor-scores { display: grid; grid-template-columns: 32px 1fr 32px; align-items: center; gap: 6px; margin-bottom: 8px; }
+.factor-scores > small { font-size: 10px; color: var(--text); font-weight: 700; text-align: center; }
+.factor-contrib-track { height: 6px; border-radius: 6px; background: rgba(16,36,28,.07); position: relative; overflow: hidden; display: flex; align-items: center; }
+.factor-contrib-track i { height: 100%; border-radius: inherit; display: block; min-width: 2px; }
+.factor-contrib-home { background: var(--accent); margin-left: auto; }
+.factor-contrib-away { background: var(--warn); margin-right: auto; }
+.factor-contrib-neutral { background: var(--muted); margin: 0 auto; }
+.factor-contrib-label { display: block; font-size: 8px; margin-top: 4px; text-align: center; font-weight: 600; }
+.factor-contrib-label.factor-contrib-home { color: var(--accent); }
+.factor-contrib-label.factor-contrib-away { color: var(--warn); }
+.factor-contrib-label.factor-contrib-neutral { color: var(--muted); }
+.data-source-note { margin: 0 0 12px; padding: 10px 13px; background: rgba(183,121,31,.06); border: 1px solid rgba(183,121,31,.15); border-radius: 12px; color: var(--warn); font-size: 10px; line-height: 1.55; }
 .factor-result { margin-top: 14px; padding: 16px; background: rgba(184,242,61,.05); border: 1px solid rgba(184,242,61,.12); border-radius: 16px; }
 .factor-note { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.55; }
 

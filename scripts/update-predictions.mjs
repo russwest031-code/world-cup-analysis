@@ -130,6 +130,116 @@ const COLORS = {
   TJK: "#006600", KGZ: "#e8112d",
 };
 
+const CONFED_STRENGTH = {
+  UEFA: 1.0, CONMEBOL: 0.92, CAF: 0.70,
+  AFC: 0.65, CONCACAF: 0.62, OFC: 0.35,
+};
+
+const VENUE_DATA = {
+  // USA venues
+  Atlanta: { country: "USA", altitude: 320 },
+  Boston: { country: "USA", altitude: 0 },
+  Dallas: { country: "USA", altitude: 130 },
+  Houston: { country: "USA", altitude: 13 },
+  "Kansas City": { country: "USA", altitude: 277 },
+  "Los Angeles": { country: "USA", altitude: 38 },
+  Miami: { country: "USA", altitude: 2 },
+  "New York/New Jersey": { country: "USA", altitude: 3 },
+  Philadelphia: { country: "USA", altitude: 12 },
+  "San Francisco": { country: "USA", altitude: 2 },
+  Seattle: { country: "USA", altitude: 50 },
+  // Canada venues
+  Toronto: { country: "CAN", altitude: 76 },
+  Vancouver: { country: "CAN", altitude: 2 },
+  // Mexico venues
+  Guadalajara: { country: "MEX", altitude: 1566 },
+  "Mexico City": { country: "MEX", altitude: 2250 },
+  Monterrey: { country: "MEX", altitude: 540 },
+};
+
+const H2H_DATABASE = {
+  // Key format: sorted 3-letter codes joined by "-"
+  "ARG-BRA": { total: 11, homeWins: 4, draws: 3, awayWins: 4, note: "南美德比，历史交锋极为接近" },
+  "ARG-ENG": { total: 5, homeWins: 1, draws: 2, awayWins: 2, note: "世界杯经典对决" },
+  "ARG-FRA": { total: 4, homeWins: 2, draws: 1, awayWins: 1, note: "最近一次为2022世界杯决赛" },
+  "ARG-GER": { total: 7, homeWins: 2, draws: 2, awayWins: 3, note: "三次世界杯决赛交锋" },
+  "ARG-NED": { total: 6, homeWins: 1, draws: 3, awayWins: 2, note: "世界杯多次相遇，2022八强战点球决胜" },
+  "ARG-URU": { total: 12, homeWins: 4, draws: 4, awayWins: 4, note: "南美经典德比" },
+  "ARG-CRO": { total: 3, homeWins: 2, draws: 0, awayWins: 1, note: "2022世界杯半决赛阿根廷3-0胜" },
+  "BEL-CRO": { total: 2, homeWins: 0, draws: 1, awayWins: 1, note: "2022世界杯小组赛0-0" },
+  "BEL-ENG": { total: 3, homeWins: 1, draws: 0, awayWins: 2, note: "2018世界杯两次交手" },
+  "BEL-FRA": { total: 4, homeWins: 0, draws: 2, awayWins: 2, note: "2018世界杯半决赛法国1-0胜" },
+  "BEL-NED": { total: 8, homeWins: 2, draws: 2, awayWins: 4, note: "低地国家德比" },
+  "BRA-ENG": { total: 4, homeWins: 2, draws: 1, awayWins: 1, note: "仅在世界杯交手4次" },
+  "BRA-FRA": { total: 5, homeWins: 1, draws: 2, awayWins: 2, note: "1998决赛、2006八强均为法国胜" },
+  "BRA-GER": { total: 3, homeWins: 1, draws: 1, awayWins: 1, note: "2014半决赛德国7-1巴西" },
+  "BRA-ITA": { total: 5, homeWins: 2, draws: 1, awayWins: 2, note: "两次世界杯决赛（1970, 1994）" },
+  "BRA-NED": { total: 5, homeWins: 1, draws: 2, awayWins: 2, note: "世界杯多次淘汰赛相遇" },
+  "BRA-POR": { total: 3, homeWins: 1, draws: 1, awayWins: 1, note: "葡语系德比，交手次数有限" },
+  "BRA-URU": { total: 8, homeWins: 3, draws: 2, awayWins: 3, note: "南美经典对决" },
+  "CRO-ENG": { total: 2, homeWins: 1, draws: 0, awayWins: 1, note: "2018世界杯半决赛克罗地亚加时胜" },
+  "CRO-FRA": { total: 2, homeWins: 0, draws: 1, awayWins: 1, note: "2018世界杯决赛法国4-2胜" },
+  "CRO-MAR": { total: 1, homeWins: 0, draws: 1, awayWins: 0, note: "2022世界杯季军战" },
+  "CRC-GER": { total: 1, homeWins: 0, draws: 0, awayWins: 1, note: "2022世界杯小组赛德国4-2胜" },
+  "DEN-FRA": { total: 3, homeWins: 1, draws: 0, awayWins: 2, note: "2022世界杯小组赛法国2-1胜" },
+  "ECU-SEN": { total: 1, homeWins: 0, draws: 0, awayWins: 1, note: "2022世界杯小组赛塞内加尔2-1胜" },
+  "ENG-FRA": { total: 4, homeWins: 2, draws: 0, awayWins: 2, note: "2022世界杯八强法国2-1胜" },
+  "ENG-GER": { total: 7, homeWins: 3, draws: 1, awayWins: 3, note: "足球史上最著名的宿敌之一" },
+  "ENG-ITA": { total: 4, homeWins: 1, draws: 2, awayWins: 1, note: "2020欧洲杯决赛意大利点球胜" },
+  "ESP-GER": { total: 5, homeWins: 2, draws: 2, awayWins: 1, note: "2022世界杯小组赛1-1" },
+  "ESP-ITA": { total: 5, homeWins: 2, draws: 2, awayWins: 1, note: "欧洲杯多次淘汰赛相遇" },
+  "ESP-MAR": { total: 2, homeWins: 0, draws: 1, awayWins: 1, note: "2022世界杯十六强摩洛哥点球胜" },
+  "ESP-POR": { total: 4, homeWins: 1, draws: 3, awayWins: 0, note: "伊比利亚德比，平局偏多" },
+  "FRA-MAR": { total: 1, homeWins: 1, draws: 0, awayWins: 0, note: "2022世界杯半决赛法国2-0胜" },
+  "FRA-POR": { total: 3, homeWins: 2, draws: 0, awayWins: 1, note: "2016欧洲杯决赛葡萄牙加时胜" },
+  "GER-ITA": { total: 6, homeWins: 1, draws: 4, awayWins: 1, note: "欧洲两大豪门的经典对决" },
+  "GER-JPN": { total: 1, homeWins: 1, draws: 0, awayWins: 0, note: "2022世界杯小组赛日本2-1逆转胜" },
+  "GER-NED": { total: 5, homeWins: 2, draws: 2, awayWins: 1, note: "欧洲经典死敌" },
+  "IRN-USA": { total: 2, homeWins: 0, draws: 1, awayWins: 1, note: "1998、2022世界杯小组赛" },
+  "JPN-CRC": { total: 1, homeWins: 0, draws: 0, awayWins: 1, note: "2022世界杯小组赛哥斯达黎加1-0胜" },
+  "JPN-KOR": { total: 6, homeWins: 2, draws: 2, awayWins: 2, note: "东亚足球经典对决" },
+  "KOR-URU": { total: 2, homeWins: 1, draws: 1, awayWins: 0, note: "2010世界杯十六强、2022小组赛" },
+  "MEX-USA": { total: 8, homeWins: 4, draws: 2, awayWins: 2, note: "北美德比" },
+  "NED-USA": { total: 1, homeWins: 1, draws: 0, awayWins: 0, note: "2022世界杯十六强荷兰3-1胜" },
+  "POR-SUI": { total: 2, homeWins: 1, draws: 0, awayWins: 1, note: "2022世界杯十六强葡萄牙6-1胜" },
+  "POR-URU": { total: 2, homeWins: 1, draws: 0, awayWins: 1, note: "2018世界杯十六强乌拉圭2-1胜" },
+};
+
+function h2hKey(codeA, codeB) {
+  const sorted = [codeA, codeB].sort();
+  return sorted.join("-");
+}
+
+const STYLE_CLASH_MATRIX = {
+  // [homeStyle][awayStyle] -> narrative + edge adjustment (-0.1 to 0.1)
+  "开放进攻型": {
+    "开放进攻型": { note: "双方都倾向开放打法，可能出现高比分对攻", edge: 0 },
+    "防守控制型": { note: "经典矛与盾：进攻方需要破解密集防守", edge: -0.05 },
+    "主动压迫型": { note: "压迫方可能在前场获得更多球权", edge: -0.03 },
+    "均衡型": { note: "开放打法对阵均衡体系", edge: 0.02 },
+  },
+  "防守控制型": {
+    "开放进攻型": { note: "防守反击战术遇上主动进攻", edge: 0.05 },
+    "防守控制型": { note: "双方都倾向保守，可能节奏缓慢", edge: 0 },
+    "主动压迫型": { note: "高压 vs 收缩：谁先失误谁被动", edge: -0.02 },
+    "均衡型": { note: "防守体系对阵均衡战术", edge: 0 },
+  },
+  "主动压迫型": {
+    "开放进攻型": { note: "压迫方有机会在转换中占据优势", edge: 0.03 },
+    "防守控制型": { note: "持续施压考验防守方的出球能力", edge: 0.02 },
+    "主动压迫型": { note: "双方都高压逼抢，中场争夺激烈", edge: 0 },
+    "均衡型": { note: "压迫对阵均衡，节奏由压迫方主导", edge: 0.02 },
+  },
+  "均衡型": {
+    "开放进攻型": { note: "均衡体系面临开放进攻的冲击", edge: -0.02 },
+    "防守控制型": { note: "均衡战术对阵收缩防守", edge: 0 },
+    "主动压迫型": { note: "均衡体系承受高压的考验", edge: -0.02 },
+    "均衡型": { note: "双方战术风格相近，比拼执行力", edge: 0 },
+  },
+};
+
+const HOST_NATIONS = ["USA", "CAN", "MEX"];
+
 function loadCachedMatches() {
   const code = fs.readFileSync(dataPath, "utf8");
   const sandbox = { window: {} };
@@ -250,9 +360,9 @@ function recentFormSummary(matches) {
 
 function profileFor(code, confed) {
   const row = PROFILE[code];
-  if (row) return { rank: row[0], attack: row[1], defense: row[2], midfield: row[3], formScore: row[4] };
+  if (row) return { rank: row[0], attack: row[1], defense: row[2], midfield: row[3], formScore: row[4], confed: confed || "UEFA" };
   const rank = confed === "UEFA" || confed === "CONMEBOL" ? 55 : confed === "CAF" ? 70 : 78;
-  return { rank, attack: 66, defense: 66, midfield: 66, formScore: 66 };
+  return { rank, attack: 66, defense: 66, midfield: 66, formScore: 66, confed: confed || "UEFA" };
 }
 
 function formPoints(form) {
@@ -359,6 +469,7 @@ function teamFromName(name, teamIndex) {
   return {
     name: TEAM_NAMES_ZH[code] || meta.name_normalised || meta.name || name,
     code,
+    confed: meta.confed || profile.confed || "UEFA",
     color: COLORS[code] || "#64748b",
     rank: profile.rank,
     form: formFor(code),
@@ -391,8 +502,8 @@ function normalizeExternalMatches(rawMatches, rawTeams) {
         status,
         actualScore: status === "completed" ? `${score[0]}-${score[1]}` : "",
         externalSourceId: `${match.date}-${match.team1}-${match.team2}`,
-        home: { name: home.name, code: home.code, color: home.color, rank: home.rank, form: home.form, recentMatches: home.recentMatches, recentSummary: home.recentSummary },
-        away: { name: away.name, code: away.code, color: away.color, rank: away.rank, form: away.form, recentMatches: away.recentMatches, recentSummary: away.recentSummary },
+        home: { name: home.name, code: home.code, confed: home.confed, color: home.color, rank: home.rank, form: home.form, recentMatches: home.recentMatches, recentSummary: home.recentSummary },
+        away: { name: away.name, code: away.code, confed: away.confed, color: away.color, rank: away.rank, form: away.form, recentMatches: away.recentMatches, recentSummary: away.recentSummary },
         metrics: [
           { label: "进攻", home: home.attack, away: away.attack },
           { label: "防守", home: home.defense, away: away.defense },
@@ -628,6 +739,108 @@ function sideNeed(row) {
   return { label: "止损抢分", intensity: 0.84, drawValue: 0.28, goalNeed: 0.65, text: "开局不利，需要尽快拿分，进球和净胜球同样重要。" };
 }
 
+function confedFactor(homeConfed, awayConfed) {
+  const homeMult = CONFED_STRENGTH[homeConfed] || 0.62;
+  const awayMult = CONFED_STRENGTH[awayConfed] || 0.62;
+  const homeScore = Math.round(homeMult * 100);
+  const awayScore = Math.round(awayMult * 100);
+  const contribution = (homeScore - awayScore) * 0.06;
+  const evidence = `${homeConfed || "未知"} 联合会强度系数 ${homeMult.toFixed(2)}，${awayConfed || "未知"} 联合会强度系数 ${awayMult.toFixed(2)}。${homeMult > awayMult ? "主队所在联合会竞争强度更高。" : homeMult < awayMult ? "客队所在联合会竞争强度更高。" : "双方联合会强度相当。"}`;
+  return { name: "联合会强度", weight: 6, homeScore, awayScore, contribution, evidence };
+}
+
+function h2hFactor(homeCode, awayCode) {
+  const key = h2hKey(homeCode, awayCode);
+  const record = H2H_DATABASE[key];
+  if (!record) {
+    const evidence = `暂无 ${homeCode} 与 ${awayCode} 的历史交锋数据，该因子保持中性。`;
+    return { name: "交锋历史", weight: 8, homeScore: 50, awayScore: 50, contribution: 0, evidence };
+  }
+  const total = record.total || 1;
+  const homeWinRate = record.homeWins / total;
+  const awayWinRate = record.awayWins / total;
+  const drawRate = record.draws / total;
+  const homeScore = Math.round(50 + (homeWinRate - awayWinRate) * 50 + drawRate * 10);
+  const awayScore = Math.round(50 + (awayWinRate - homeWinRate) * 50 + drawRate * 10);
+  const contribution = (homeScore - awayScore) * 0.08;
+  const evidence = `历史交锋 ${total} 场：主队 ${record.homeWins} 胜 ${record.draws} 平 ${record.awayWins} 负。${record.note || ""}`;
+  return { name: "交锋历史", weight: 8, homeScore: clamp(homeScore, 20, 80), awayScore: clamp(awayScore, 20, 80), contribution, evidence };
+}
+
+function venueFactor(homeCode, awayCode, venueName) {
+  const venue = VENUE_DATA[venueName] || null;
+  const homeHost = HOST_NATIONS.includes(homeCode);
+  const awayHost = HOST_NATIONS.includes(awayCode);
+  let homeScore = 50;
+  let awayScore = 50;
+  const details = [];
+  if (homeHost && venue && venue.country === homeCode) {
+    homeScore = 85;
+    details.push(`${homeCode} 主场作战`);
+  } else if (homeHost) {
+    homeScore = 62;
+    details.push(`${homeCode} 东道主在中立场地`);
+  }
+  if (awayHost && venue && venue.country === awayCode) {
+    awayScore = 85;
+    details.push(`${awayCode} 主场作战`);
+  } else if (awayHost) {
+    awayScore = 62;
+    details.push(`${awayCode} 东道主在中立场地`);
+  }
+  if (venue && venue.altitude >= 1500) {
+    const highAltNations = ["MEX", "ECU", "BOL", "COL", "PER"];
+    if (!highAltNations.includes(homeCode)) {
+      homeScore -= 10;
+      details.push(`${venueName} 海拔 ${venue.altitude}m 对 ${homeCode} 不利`);
+    }
+    if (!highAltNations.includes(awayCode)) {
+      awayScore -= 10;
+      details.push(`${venueName} 海拔 ${venue.altitude}m 对 ${awayCode} 不利`);
+    }
+  }
+  const contribution = (homeScore - awayScore) * 0.03;
+  const evidence = details.length ? details.join("；") + "。" : "中立场地，无特殊主场/海拔影响。";
+  return { name: "场地因素", weight: 3, homeScore: clamp(homeScore, 25, 90), awayScore: clamp(awayScore, 25, 90), contribution, evidence };
+}
+
+function restDaysFactor(homeCode, awayCode, matchDate, allMatches) {
+  function daysSinceLastMatch(code, date) {
+    const teamMatches = allMatches
+      .filter(m => (m.home?.code === code || m.away?.code === code) && m.date < date)
+      .sort((a, b) => b.date.localeCompare(a.date));
+    if (!teamMatches.length) return 7;
+    const lastDate = teamMatches[0].date;
+    const diff = Math.round((new Date(date) - new Date(lastDate)) / 86400000);
+    return Math.max(0, diff);
+  }
+  function daysToScore(days) {
+    if (days <= 2) return 30;
+    if (days === 3) return 50;
+    if (days === 4) return 65;
+    if (days === 5) return 80;
+    return 90;
+  }
+  const homeDays = daysSinceLastMatch(homeCode, matchDate);
+  const awayDays = daysSinceLastMatch(awayCode, matchDate);
+  const homeScore = daysToScore(homeDays);
+  const awayScore = daysToScore(awayDays);
+  const contribution = (homeScore - awayScore) * 0.03;
+  const homeNote = homeDays >= 6 ? `距上一场 ${homeDays} 天，体能充裕` : homeDays >= 3 ? `距上一场 ${homeDays} 天` : `仅休息 ${homeDays} 天，体能存忧`;
+  const awayNote = awayDays >= 6 ? `距上一场 ${awayDays} 天，体能充裕` : awayDays >= 3 ? `距上一场 ${awayDays} 天` : `仅休息 ${awayDays} 天，体能存忧`;
+  return { name: "休息天数", weight: 3, homeScore, awayScore, contribution, evidence: `${homeCode}：${homeNote}；${awayCode}：${awayNote}。` };
+}
+
+function styleClashFactor(homeStyle, awayStyle) {
+  const homeTempo = homeStyle?.tempo || "均衡型";
+  const awayTempo = awayStyle?.tempo || "均衡型";
+  const clash = (STYLE_CLASH_MATRIX[homeTempo] && STYLE_CLASH_MATRIX[homeTempo][awayTempo]) || { note: "双方风格接近，无显著克制关系", edge: 0 };
+  const homeScore = 50 + Math.round(clash.edge * 100);
+  const awayScore = 50 - Math.round(clash.edge * 100);
+  const contribution = (homeScore - awayScore) * 0.05;
+  return { name: "风格碰撞", weight: 5, homeScore, awayScore, contribution, evidence: `${homeTempo} vs ${awayTempo}：${clash.note}` };
+}
+
 async function loadExternalMatches() {
   const [worldCup, teams] = await Promise.all([fetchJson(MATCHES_URL), fetchJson(TEAMS_URL)]);
   const rawMatches = extractMatches(worldCup);
@@ -838,8 +1051,9 @@ function expertForMatch(match, expertContext) {
   };
 }
 
-function recalc(match, date, context, signalContext = {}) {
+function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const random = rng(`${date}:${match.id}:${match.actualScore || ""}`);
+
   const homeRank = Number(match.home.rank) || 50;
   const awayRank = Number(match.away.rank) || 50;
   const homeForm = formPoints(match.home.form);
@@ -850,29 +1064,94 @@ function recalc(match, date, context, signalContext = {}) {
   const awayAttack = metric(match, "进攻", "away");
   const homeDefense = metric(match, "防守", "home");
   const awayDefense = metric(match, "防守", "away");
+  const homeMidfield = metric(match, "中场", "home");
+  const awayMidfield = metric(match, "中场", "away");
   const motivation = motivationFor(match, context);
   const homeStyle = teamStyle(context, match.home, homeAttack, homeDefense);
   const awayStyle = teamStyle(context, match.away, awayAttack, awayDefense);
-  const homeProfile = profileFor(match.home.code);
-  const awayProfile = profileFor(match.away.code);
+
+  const homeProfile = profileFor(match.home.code, match.home.confed);
+  const awayProfile = profileFor(match.away.code, match.away.confed);
   const homeRecentMatches = (match.home.recentMatches && match.home.recentMatches.length) ? match.home.recentMatches : recentMatchesFor(match.home.code, homeProfile);
   const awayRecentMatches = (match.away.recentMatches && match.away.recentMatches.length) ? match.away.recentMatches : recentMatchesFor(match.away.code, awayProfile);
   const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
   const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
-  const homeRecentEdge = homeRecent.goalDiff * 0.9 + homeRecent.bigWins * 1.2 - homeRecent.heavyLosses * 1.4 + (homeRecent.trend === "上升" ? 1.3 : homeRecent.trend === "下滑" ? -1.3 : 0);
-  const awayRecentEdge = awayRecent.goalDiff * 0.9 + awayRecent.bigWins * 1.2 - awayRecent.heavyLosses * 1.4 + (awayRecent.trend === "上升" ? 1.3 : awayRecent.trend === "下滑" ? -1.3 : 0);
 
-  const homePower = (100 - homeRank) * 0.28 + homeAvg * 0.44 + homeForm * 1.25 + 2.5 +
-    (motivation.home?.intensity || 0) * 2.4 +
-    (motivation.home?.goalNeed || 0) * 1.8 +
-    homeRecentEdge * 0.32;
-  const awayPower = (100 - awayRank) * 0.28 + awayAvg * 0.44 + awayForm * 1.25 +
-    (motivation.away?.intensity || 0) * 2.4 +
-    (motivation.away?.goalNeed || 0) * 1.8 +
-    awayRecentEdge * 0.32;
-  const dayNoise = (random() - 0.5) * 7;
-  const edge = homePower - awayPower + dayNoise;
+  // ── Factor 1: World Ranking (18%) ──
+  const homeRankScore = clamp(100 - homeRank, 0, 100);
+  const awayRankScore = clamp(100 - awayRank, 0, 100);
+  const f1 = {
+    name: "世界排名", weight: 18,
+    homeScore: homeRankScore, awayScore: awayRankScore,
+    contribution: (homeRankScore - awayRankScore) * 0.18,
+    evidence: `${match.home.name} 世界第${homeRank}，${match.away.name} 世界第${awayRank}。排名差 ${Math.abs(homeRank - awayRank)} 位。`
+  };
 
+  // ── Factor 2: Confederation Strength (6%) ──
+  const f2 = confedFactor(match.home.confed, match.away.confed);
+
+  // ── Factor 3: Attack-Defense Composite (22%) ──
+  const homeComposite = Math.round((homeAttack + homeDefense + homeMidfield) / 3);
+  const awayComposite = Math.round((awayAttack + awayDefense + awayMidfield) / 3);
+  const f3 = {
+    name: "攻防综合", weight: 22,
+    homeScore: homeComposite, awayScore: awayComposite,
+    contribution: (homeComposite - awayComposite) * 0.22,
+    evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
+  };
+
+  // ── Factor 4: Recent Form (18%) ──
+  const homeFormScore = Math.round(homeForm / 15 * 100);
+  const awayFormScore = Math.round(awayForm / 15 * 100);
+  const f4 = {
+    name: "近期状态", weight: 18,
+    homeScore: homeFormScore, awayScore: awayFormScore,
+    contribution: (homeFormScore - awayFormScore) * 0.18,
+    evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
+  };
+
+  // ── Factor 5: Head-to-Head (8%) ──
+  const f5 = h2hFactor(match.home.code, match.away.code);
+
+  // ── Factor 6: Motivation (14%) ──
+  const homeMotScore = Math.round(((motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20) * 100);
+  const awayMotScore = Math.round(((motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20) * 100);
+  const f6 = {
+    name: "出线动机", weight: 14,
+    homeScore: homeMotScore, awayScore: awayMotScore,
+    contribution: (homeMotScore - awayMotScore) * 0.14,
+    evidence: motivation.note
+  };
+
+  // ── Factor 7: Style Clash (5%) ──
+  const f7 = styleClashFactor(homeStyle, awayStyle);
+
+  // ── Factor 8: Rest Days (3%) ──
+  const f8 = restDaysFactor(match.home.code, match.away.code, match.date, allMatches);
+
+  // ── Factor 9: Venue (3%) ──
+  const f9 = venueFactor(match.home.code, match.away.code, match.venue);
+
+  // ── Collect factors 1-9 and compute power ──
+  const factors = [f1, f2, f3, f4, f5, f6, f7, f8, f9];
+  let homePower = 0;
+  let awayPower = 0;
+  for (const f of factors) {
+    homePower += f.homeScore * f.weight / 100;
+    awayPower += f.awayScore * f.weight / 100;
+  }
+
+  // ── Venue home advantage bonus (only for host nations at home) ──
+  let venueBonus = 0;
+  const venueInfo = VENUE_DATA[match.venue];
+  if (venueInfo && HOST_NATIONS.includes(match.home.code) && venueInfo.country === match.home.code) {
+    venueBonus = 3.5;
+  }
+
+  const dayNoise = (random() - 0.5) * 4;  // reduced from ±3.5 to ±2
+  const edge = homePower - awayPower + venueBonus + dayNoise;
+
+  // ── Goal expectation ──
   const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
   const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
     ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
@@ -884,6 +1163,7 @@ function recalc(match, date, context, signalContext = {}) {
   const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
   const matrix = scoreMatrix(homeGoals, awayGoals);
 
+  // ── Probabilities ──
   const win = matrix.filter(row => row.h > row.a).reduce((sum, row) => sum + row.probability, 0);
   const draw = matrix.filter(row => row.h === row.a).reduce((sum, row) => sum + row.probability, 0);
   const away = matrix.filter(row => row.h < row.a).reduce((sum, row) => sum + row.probability, 0);
@@ -898,84 +1178,96 @@ function recalc(match, date, context, signalContext = {}) {
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+
+  // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
   const expertSignals = expertForMatch(match, signalContext.experts);
+
+  // ── Factor 10: External Signals (3%) ──
+  let extHomeScore = 50, extAwayScore = 50;
+  let extEvidence = "暂无可用赔率或专业球评信号。";
   if (marketSignals.status === "connected" && marketSignals.impliedProbabilities) {
+    extHomeScore = marketSignals.impliedProbabilities[0];
+    extAwayScore = marketSignals.impliedProbabilities[2];
+    extEvidence = `赔率市场隐含：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%。${marketSignals.bookmakers || 0} 家公司均值，市场倾向${marketSignals.marketFavorite || "不明"}。`;
     for (let i = 0; i < 3; i += 1) {
       probabilities[i] = Math.round(probabilities[i] * (1 - marketSignals.weight) + marketSignals.impliedProbabilities[i] * marketSignals.weight);
     }
     probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  } else if (marketSignals.status === "missing-key") {
+    extEvidence = "赔率接口已接入但未配置 API Key，当前无真实赔率。";
+  } else if (expertSignals.status === "connected") {
+    extHomeScore = 52; extAwayScore = 48;
+    extEvidence = expertSignals.note;
   }
+  const f10 = {
+    name: "外部信号", weight: 3,
+    homeScore: extHomeScore, awayScore: extAwayScore,
+    contribution: (extHomeScore - extAwayScore) * 0.03,
+    evidence: extEvidence
+  };
+  factors.push(f10);
 
+  // ── Score distribution ──
   const scoreOdds = matrix
     .sort((a, b) => b.probability - a.probability)
     .slice(0, 4)
     .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(5, Math.round(row.probability * 100)) }));
 
+  // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);
   const consistency = Math.abs(homeAvg - awayAvg) + Math.abs(homeForm - awayForm) * 2;
-  const confidence = Math.round(clamp(54 + top * 0.34 + consistency * 0.24 + random() * 4, 58, 92));
+  const confidence = Math.round(clamp(56 + top * 0.32 + consistency * 0.22, 58, 92));
+
   const tag = match.status === "completed" ? "已完场" : confidence >= 82 ? "高信心" : confidence >= 70 ? "稳健" : Math.abs(probabilities[0] - probabilities[2]) <= 8 ? "均衡" : "观察";
   const favoriteIndex = probabilities.indexOf(top);
   const favorite = favoriteIndex === 0 ? match.home.name : favoriteIndex === 2 ? match.away.name : "平局";
   const primaryScore = scoreOdds[0]?.score || "待定";
+
+  const factorNames = factors.map(f => f.name).join("、");
+  const summary = match.status === "completed"
+    ? `外部数据源显示本场已完场，最终比分 ${match.actualScore}。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。`
+    : `外部赛程数据已更新。本场模型倾向 ${favorite} 方向，最可能比分为 ${primaryScore}。判断综合了${factorNames}等 ${factors.length} 个因素，加权计算得出。`;
+
   return {
     ...match,
-    home: {
-      ...match.home,
-      recentMatches: homeRecentMatches,
-      recentSummary: homeRecent
-    },
-    away: {
-      ...match.away,
-      recentMatches: awayRecentMatches,
-      recentSummary: awayRecent
-    },
+    home: { ...match.home, recentMatches: homeRecentMatches, recentSummary: homeRecent },
+    away: { ...match.away, recentMatches: awayRecentMatches, recentSummary: awayRecent },
     probabilities,
     confidence,
     tag,
-    summary: match.status === "completed"
-      ? `外部数据源显示本场已完场，最终比分 ${match.actualScore}。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。`
-      : `外部赛程数据已更新。本场模型倾向 ${favorite} 方向，最可能比分为 ${primaryScore}。判断综合了排名实力、攻防风格、近期状态、小组出线压力和净胜球需求。`,
+    summary,
     scoreOdds,
     motivation,
-    tacticalProfile: {
-      home: homeStyle,
-      away: awayStyle
-    },
+    tacticalProfile: { home: homeStyle, away: awayStyle },
+    factorContributions: factors.map(f => ({
+      name: f.name,
+      weight: f.weight,
+      homeScore: f.homeScore,
+      awayScore: f.awayScore,
+      contribution: Math.round(f.contribution * 100) / 100,
+      evidence: f.evidence
+    })),
     modelInputs: {
       teamStrength: {
-        homeRank,
-        awayRank,
+        homeRank, awayRank,
         homeAverageMetric: Number(homeAvg.toFixed(1)),
         awayAverageMetric: Number(awayAvg.toFixed(1))
       },
       recentForm: {
-        home: homeRecent,
-        away: awayRecent,
-        homeMatches: homeRecentMatches,
-        awayMatches: awayRecentMatches
+        home: homeRecent, away: awayRecent,
+        homeMatches: homeRecentMatches, awayMatches: awayRecentMatches
       },
       attackDefense: {
-        homeAttack,
-        homeDefense,
-        awayAttack,
-        awayDefense
+        homeAttack, homeDefense, awayAttack, awayDefense
       },
       motivation: {
-        home: motivation.home || null,
-        away: motivation.away || null,
-        overall: {
-          intensity: motivation.intensity,
-          drawValue: motivation.drawValue,
-          goalNeed: motivation.goalNeed
-        }
+        home: motivation.home || null, away: motivation.away || null,
+        overall: { intensity: motivation.intensity, drawValue: motivation.drawValue, goalNeed: motivation.goalNeed }
       },
       externalSignals: {
-        marketStatus: marketSignals.status,
-        expertStatus: expertSignals.status,
-        marketWeight: marketSignals.weight,
-        expertWeight: expertSignals.weight
+        marketStatus: marketSignals.status, expertStatus: expertSignals.status,
+        marketWeight: marketSignals.weight, expertWeight: expertSignals.weight
       }
     },
     marketSignals,
@@ -1001,7 +1293,7 @@ function serialize(matches, metaOverrides = {}) {
     source: "openfootball-worldcup-json",
     externalFetchedAt: now.toISOString(),
     externalMatchCount: matches.length,
-    model: "rank-form-metrics-poisson-v1",
+    model: "ten-factor-weighted-poisson-v2",
     rulesModel: "wc2026-group-qualification-v1",
     marketSignals: "not-connected",
     expertSignals: "not-connected",
@@ -1044,7 +1336,7 @@ async function main() {
     expertProvider: experts.provider,
     expertArticleCount: experts.articles?.length || 0
   };
-  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts }));
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts }, matches));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
   console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}`);
 }
