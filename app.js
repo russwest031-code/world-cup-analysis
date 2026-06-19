@@ -16,6 +16,22 @@
     return { text: "低信心 " + c + "%", cls: "low" };
   }
 
+  // Keep legacy generated copy from implying that model priors are verified facts.
+  function sanitizeDisplayText(text) {
+    if (!text) return text;
+    return text
+      .replace(/判断综合了[^。]*等 10 个因素，加权计算得出。/g, "判断结合已接入真实数据和模型参数计算得出，具体事实证据见“真实数据源”和“临场情报”。")
+      .replace(/世界排名/g, "实力评估")
+      .replace(/近期战绩/g, "模型状态")
+      .replace(/近期状态/g, "模型状态")
+      .replace(/攻防指标/g, "模型综合评估")
+      .replace(/攻防风格/g, "战术风格")
+      .replace(/近期比分/g, "模型比分分布")
+      .replace(/模拟样本/g, "模型推断")
+      .replace(/实力对比/g, "实力参考")
+      .replace(/攻防综合/g, "综合能力");
+  }
+
   // ─── ANALYSIS HOME PAGE ────────────────────────────────────────
   function renderAnalysis() {
     var list = document.getElementById("matchList");
@@ -96,15 +112,15 @@
           '<a class="detail-link" href="detail.html?id=' + match.id + '">比赛分析 →</a>' +
         '</div>' +
         '<div class="team-row">' +
-          '<div class="team">' + flag(match.home) + '<div class="team-name"><strong>' + match.home.name + '</strong><small>世界第' + match.home.rank + '</small></div></div>' +
+          '<div class="team">' + flag(match.home) + '<div class="team-name"><strong>' + match.home.name + '</strong><small>' + (match.home.confed || match.home.code) + '</small></div></div>' +
           kickoffHTML +
-          '<div class="team away">' + flag(match.away) + '<div class="team-name"><strong>' + match.away.name + '</strong><small>世界第' + match.away.rank + '</small></div></div>' +
+          '<div class="team away">' + flag(match.away) + '<div class="team-name"><strong>' + match.away.name + '</strong><small>' + (match.away.confed || match.away.code) + '</small></div></div>' +
         '</div>' +
         scoreHTML +
         altsHTML +
         wdlHTML +
         metaHTML +
-        '<p class="analysis-summary">' + (match.summary || "") + '</p>' +
+        '<p class="analysis-summary">' + sanitizeDisplayText(match.summary || "") + '</p>' +
         '<div class="card-foot">' +
           '<span>' + (match.venue || "") + '</span>' +
           footBadgeHTML +
@@ -180,9 +196,9 @@
       '<section class="detail-hero">' +
         '<div class="detail-meta">' + (match.group || "") + " · " + match.date + " · " + match.venue + ' ' + completedHeroBadge + '</div>' +
         '<div class="detail-matchup">' +
-          '<div class="detail-team">' + flag(match.home) + '<h2>' + match.home.name + '</h2><p>世界排名 ' + match.home.rank + '</p></div>' +
+          '<div class="detail-team">' + flag(match.home) + '<h2>' + match.home.name + '</h2><p>' + (match.home.confed || match.home.code) + '</p></div>' +
           detailTimeHTML +
-          '<div class="detail-team">' + flag(match.away) + '<h2>' + match.away.name + '</h2><p>世界排名 ' + match.away.rank + '</p></div>' +
+          '<div class="detail-team">' + flag(match.away) + '<h2>' + match.away.name + '</h2><p>' + (match.away.confed || match.away.code) + '</p></div>' +
         '</div>' +
       '</section>' +
 
@@ -198,17 +214,14 @@
         // Section 1: 比赛判断
         '<section class="detail-section">' +
           '<div class="section-title"><h3>比赛判断</h3><small>模型综合分析</small></div>' +
-          '<p class="analysis-copy">' + match.summary + '</p>' +
+          '<p class="analysis-copy">' + sanitizeDisplayText(match.summary) + '</p>' +
         '</section>' +
 
         // Section 2: 参考结论
         renderConclusion(match) +
 
-        // Section 3: 实力对比
-        '<section class="detail-section">' +
-          '<div class="section-title"><h3>实力对比</h3><small>' + match.home.code + " / " + match.away.code + '</small></div>' +
-          '<div class="metrics">' + match.metrics.map(function (metric) { return '<div class="metric-row"><strong>' + metric.home + '</strong><div class="metric-track home"><i style="width:' + metric.home + '%"></i></div><span>' + metric.label + '</span><div class="metric-track away"><i style="width:' + metric.away + '%"></i></div><strong>' + metric.away + '</strong></div>'; }).join("") + '</div>' +
-        '</section>' +
+        // Section 3: 真实数据源
+        renderVerifiedDataSources(match) +
 
         // Section 4: 比分分布
         '<section class="detail-section">' +
@@ -216,28 +229,19 @@
           '<div class="score-grid">' + match.scoreOdds.map(function (item) { return '<div class="score-card"><strong>' + item.score + '</strong><span>' + item.chance + '%</span></div>'; }).join("") + '</div>' +
         '</section>' +
 
-        // Section 5: 预测依据及各因素权重
-        renderFactorModel(match) +
-
-        // Section 6: 模型输入证据
-        renderInputEvidence(match) +
-
-        // Section 7: 出线动机与比赛目标
+        // Section 5: 出线动机与比赛目标
         renderMotivation(match) +
 
-        // Section 8: 攻防风格与外部信号
-        renderStyleAndSignals(match) +
-
-        // Section 9: 临场情报
+        // Section 6: 临场情报
         renderMatchIntelligence(match) +
 
-        // Section 10: 扩展市场与赔率校准
+        // Section 7: 扩展市场与赔率校准
         renderMarketsAndCalibration(match) +
 
-        // Section 11: 比赛情景推演
+        // Section 8: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 12: 风险因素
+        // Section 9: 风险因素
         renderRiskAssessment(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
@@ -250,7 +254,52 @@
       : "未接入稳定赔率市场信号";
     return '<section class="data-boundary-card">' +
       '<div><strong>数据边界</strong><span>' + status + '</span></div>' +
-      '<p>模型不掌握实时首发阵容、伤病情况、天气条件、临场战术调整等信息；当前预测主要基于赛前结构化数据、球队强弱、模拟近况、出线动机、攻防风格和已接入的赔率信号。</p>' +
+      '<p>页面证据只展示已接入的真实来源：赛程/赛果、赔率、天气和新闻线索。未接入可靠来源的数据不会作为事实展示；模型预测属于算法输出，不等同于真实比赛数据。</p>' +
+    '</section>';
+  }
+
+  function renderVerifiedDataSources(match) {
+    var market = match.marketSignals || {};
+    var intel = match.matchIntelligence || {};
+    var weather = intel.weather || {};
+    var news = intel.teamNews || {};
+    var source = match.sourceInfo || {};
+    function statusText(status) {
+      var map = {
+        connected: "已接入",
+        "no-match": "未匹配",
+        "missing-key": "需密钥",
+        "news-derived": "新闻提取",
+        "provider-needed": "需权威源",
+        scheduled: "赛程",
+        completed: "赛果"
+      };
+      return map[status] || status || "-";
+    }
+    function card(title, status, text) {
+      return '<div class="verified-card"><div><strong>' + title + '</strong><span>' + statusText(status) + '</span></div><p>' + text + '</p></div>';
+    }
+    var scoreText = match.status === "completed" && match.actualScore
+      ? match.home.name + " vs " + match.away.name + "，最终比分 " + match.actualScore + "。来源：" + (source.provider || "赛程源") + "。"
+      : match.home.name + " vs " + match.away.name + "，" + match.date + " " + match.time + "，" + match.venue + "。来源：" + (source.provider || "赛程源") + "。";
+    var oddsText = market.averageOdds
+      ? "平均赔率：" + market.averageOdds.home + " / " + (market.averageOdds.draw || "-") + " / " + market.averageOdds.away + "，公司数 " + (market.bookmakers || "-") + "。"
+      : (market.note || "本场暂未匹配到赔率。");
+    var weatherText = weather.status === "connected"
+      ? (weather.text || "") + (weather.impact ? " " + weather.impact : "")
+      : (weather.text || weather.note || "暂无天气数据。");
+    var newsCount = (news.lineup?.articles?.length || 0) + (news.injuries?.articles?.length || 0) + (news.tactical?.articles?.length || 0);
+    var newsText = newsCount
+      ? "已提取 " + newsCount + " 条相关新闻线索，分布在首发/伤停/战术卡片中。"
+      : "暂无可用新闻线索；首发、伤停仍等待权威源或公开报道。";
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>真实数据源</h3><small>只展示已接入来源</small></div>' +
+      '<div class="verified-grid">' +
+        card("赛程 / 赛果", match.status, scoreText) +
+        card("赔率市场", market.status, oddsText) +
+        card("比赛天气", weather.status, weatherText) +
+        card("新闻情报", news.status, newsText) +
+      '</div>' +
     '</section>';
   }
 
@@ -345,62 +394,10 @@
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>临场情报</h3><small>首发 / 伤停 / 天气 / 战术</small></div>' +
       '<div class="intel-grid">' +
-        card("首发阵容", lineup.status, lineup.text, lineupExtra()) +
-        card("伤病停赛", injuries.status, injuries.text, injuryExtra()) +
+        card("首发阵容", lineup.status, sanitizeDisplayText(lineup.text), lineupExtra()) +
+        card("伤病停赛", injuries.status, sanitizeDisplayText(injuries.text), injuryExtra()) +
         card("比赛天气", weather.status, (weather.text || "") + (weather.impact ? " " + weather.impact : "")) +
-        card("临场战术", tactical.status, tactical.text, newsList(tactical.articles)) +
-      '</div>' +
-    '</section>';
-  }
-
-  // ─── DETAIL: 模型输入证据 ───
-  function renderInputEvidence(match) {
-    var inputs = match.modelInputs || {};
-    var recent = inputs.recentForm || {};
-    function recentCard(team, summary, games) {
-      games = games || [];
-      summary = summary || {};
-      return '<div class="evidence-card">' +
-        '<div class="evidence-head"><strong>' + team.name + '</strong><span>' + (summary.record || "-") + '</span></div>' +
-        '<em class="sim-source-pill">模拟样本 · 非真实赛果</em>' +
-        '<div class="recent-scores">' + games.map(function (game) {
-          return '<span class="' + game.result.toLowerCase() + '"><b>' + game.result + '</b>' + game.score + '</span>';
-        }).join("") + '</div>' +
-        '<div class="evidence-grid">' +
-          '<small>进球 <b>' + (summary.goalsFor ?? "-") + '</b></small>' +
-          '<small>失球 <b>' + (summary.goalsAgainst ?? "-") + '</b></small>' +
-          '<small>净胜球 <b>' + (summary.goalDiff ?? "-") + '</b></small>' +
-          '<small>场均进球 <b>' + (summary.avgGoalsFor ?? "-") + '</b></small>' +
-          '<small>场均失球 <b>' + (summary.avgGoalsAgainst ?? "-") + '</b></small>' +
-          '<small>零封 <b>' + (summary.cleanSheets ?? "-") + '</b></small>' +
-          '<small>被零封 <b>' + (summary.failedToScore ?? "-") + '</b></small>' +
-          '<small>大胜 <b>' + (summary.bigWins ?? "-") + '</b></small>' +
-          '<small>惨败 <b>' + (summary.heavyLosses ?? "-") + '</b></small>' +
-          '<small>趋势 <b>' + (summary.trend || "-") + '</b></small>' +
-        '</div>' +
-      '</div>';
-    }
-    var strength = inputs.teamStrength || {};
-    var ad = inputs.attackDefense || {};
-    var ext = inputs.externalSignals || {};
-    var dataNote = '';
-    if (!match.home.recentMatches || !match.home.recentMatches.length || match.home.recentMatches[0] && match.home.recentMatches[0].index === 1) {
-      dataNote = '<p class="data-source-note">注：下方“模拟近5场”是基于球队实力评分生成的模拟近况样本，用来解释模型输入，不是真实历史赛果；接入可靠赛果源后会自动替换。</p>';
-    }
-    return '<section class="detail-section">' +
-      '<div class="section-title"><h3>模型输入证据</h3><small>模拟近况 / 攻防 / 外部信号</small></div>' +
-      dataNote +
-      '<div class="evidence-list">' +
-        recentCard(match.home, recent.home, recent.homeMatches) +
-        recentCard(match.away, recent.away, recent.awayMatches) +
-      '</div>' +
-      '<div class="input-summary-grid">' +
-        '<div><small>排名差</small><strong>' + (strength.homeRank || "-") + ' / ' + (strength.awayRank || "-") + '</strong></div>' +
-        '<div><small>综合评分</small><strong>' + (strength.homeAverageMetric || "-") + ' / ' + (strength.awayAverageMetric || "-") + '</strong></div>' +
-        '<div><small>进攻指数</small><strong>' + (ad.homeAttack || "-") + ' / ' + (ad.awayAttack || "-") + '</strong></div>' +
-        '<div><small>防守指数</small><strong>' + (ad.homeDefense || "-") + ' / ' + (ad.awayDefense || "-") + '</strong></div>' +
-        '<div><small>赔率状态</small><strong>' + (ext.marketStatus || "-") + '</strong></div>' +
-        '<div><small>球评状态</small><strong>' + (ext.expertStatus || "-") + '</strong></div>' +
+        card("临场战术", tactical.status, sanitizeDisplayText(tactical.text), newsList(tactical.articles)) +
       '</div>' +
     '</section>';
   }
@@ -430,62 +427,6 @@
           '<div><small>净胜球需求</small><strong>' + pct(m.goalNeed) + '</strong></div>' +
         '</div>' +
         '<div class="motivation-sides">' + sideRows + '</div>' +
-      '</div>' +
-    '</section>';
-  }
-
-  // ─── DETAIL: 攻防风格与外部信号 ───
-  function renderStyleAndSignals(match) {
-    var profile = match.tacticalProfile || {};
-    var home = profile.home || {};
-    var away = profile.away || {};
-    var market = match.marketSignals || {};
-    var expert = match.expertSignals || {};
-    function styleCard(team, style) {
-      return '<div class="style-card">' +
-        '<strong>' + team.name + '</strong>' +
-        '<span>' + (style.tempo || "均衡型") + '</span>' +
-        '<div class="style-metrics">' +
-          '<small>场均进球 ' + (style.avgGoalsFor ?? "-") + '</small>' +
-          '<small>场均失球 ' + (style.avgGoalsAgainst ?? "-") + '</small>' +
-          '<small>大胜倾向 ' + (style.bigWinRate ?? "-") + '%</small>' +
-          '<small>零封倾向 ' + (style.cleanSheetRate ?? "-") + '%</small>' +
-        '</div>' +
-      '</div>';
-    }
-    function marketHTML() {
-      var odds = market.averageOdds;
-      var implied = market.impliedProbabilities || [];
-      var detail = "";
-      if (odds) {
-        detail = '<div class="signal-metrics">' +
-          '<span>主 ' + (odds.home || "-") + '</span>' +
-          '<span>平 ' + (odds.draw || "-") + '</span>' +
-          '<span>客 ' + (odds.away || "-") + '</span>' +
-        '</div>' +
-        '<div class="signal-metrics muted">' +
-          '<span>' + (implied[0] || "-") + '%</span>' +
-          '<span>' + (implied[1] || "-") + '%</span>' +
-          '<span>' + (implied[2] || "-") + '%</span>' +
-        '</div>';
-      }
-      return '<div><strong>赔率信号</strong><p>' + (market.note || "尚未接入赔率数据。") + '</p>' + detail + '</div>';
-    }
-    function expertHTML() {
-      var articles = (expert.articles || []).slice(0, 3);
-      var links = articles.length
-        ? '<div class="article-list">' + articles.map(function (article) {
-            return '<a href="' + article.link + '" target="_blank" rel="noopener">' + article.title + '<small>' + article.source + '</small></a>';
-          }).join("") + '</div>'
-        : "";
-      return '<div><strong>专业球评</strong><p>' + (expert.note || "尚未接入专业球评数据。") + '</p>' + links + '</div>';
-    }
-    return '<section class="detail-section">' +
-      '<div class="section-title"><h3>攻防风格与外部信号</h3><small>风格画像 / 市场数据</small></div>' +
-      '<div class="style-grid">' + styleCard(match.home, home) + styleCard(match.away, away) + '</div>' +
-      '<div class="signal-box">' +
-        marketHTML() +
-        expertHTML() +
       '</div>' +
     '</section>';
   }
@@ -521,119 +462,6 @@
     '</section>';
   }
 
-  // ─── DETAIL: 预测依据及各因素权重 ───
-  function renderFactorModel(match) {
-    var contributions = match.factorContributions || [];
-    var probs = match.probabilities;
-
-    // If no factorContributions (old data), fall back to legacy display
-    if (!contributions.length) {
-      return renderFactorModelLegacy(match);
-    }
-
-    function contribBar(c) {
-      var dir, barCls, label;
-      if (c.contribution > 0.5) {
-        dir = "home"; barCls = "factor-contrib-home"; label = "有利主队 +" + c.contribution.toFixed(1);
-      } else if (c.contribution < -0.5) {
-        dir = "away"; barCls = "factor-contrib-away"; label = "有利客队 " + c.contribution.toFixed(1);
-      } else {
-        dir = "neutral"; barCls = "factor-contrib-neutral"; label = "双方接近";
-      }
-      var barWidth = Math.min(Math.abs(c.contribution) * 4.5, 85);
-      return '<div class="factor-contrib-track"><i class="' + barCls + '" style="width:' + barWidth + '%"></i></div>' +
-        '<span class="factor-contrib-label ' + barCls + '">' + label + '</span>';
-    }
-
-    return '<section class="detail-section">' +
-      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>10因子加权 · 权重合计100%</small></div>' +
-      '<div class="factor-model">' +
-        contributions.map(function (c) {
-          return '<div class="factor-row">' +
-            '<div class="factor-head">' +
-              '<strong>' + c.name + '</strong>' +
-              '<span class="factor-weight">权重 ' + c.weight + '%</span>' +
-            '</div>' +
-            '<div class="factor-scores"><small>' + c.homeScore + '</small>' + contribBar(c) + '<small>' + c.awayScore + '</small></div>' +
-            '<small class="factor-evidence">' + c.evidence + '</small>' +
-          '</div>';
-        }).join("") +
-      '</div>' +
-      '<div class="factor-result">' +
-        '<p class="factor-note">以上 ' + contributions.length + ' 个因素按权重加权，计算双方综合实力评分（0–100 分制），驱动泊松模型输出主胜 ' + probs[0] + '% / 平局 ' + probs[1] + '% / 客胜 ' + probs[2] + '%。每个因素均有可追溯的输入数据和计算逻辑。</p>' +
-      '</div>' +
-    '</section>';
-  }
-
-  // Legacy fallback (for old data without factorContributions)
-  function renderFactorModelLegacy(match) {
-    var weights = { strength: 22, metrics: 24, recent: 20, motivation: 16, tactical: 10, external: 8 };
-    var probs = match.probabilities;
-    var homeRank = Number(match.home.rank) || 50;
-    var awayRank = Number(match.away.rank) || 50;
-    var rankDiff = awayRank - homeRank;
-
-    var strengthNote;
-    if (rankDiff > 15) strengthNote = match.home.name + " 排名显著高于 " + match.away.name + "（第" + homeRank + " vs 第" + awayRank + "），实力层面优势明显。";
-    else if (rankDiff > 5) strengthNote = match.home.name + " 排名略高于 " + match.away.name + "（第" + homeRank + " vs 第" + awayRank + "），实力差距有限。";
-    else if (rankDiff > -5) strengthNote = "两队世界排名接近（第" + homeRank + " vs 第" + awayRank + "），实力层面难分伯仲。";
-    else if (rankDiff > -15) strengthNote = match.away.name + " 排名略高于 " + match.home.name + "（第" + homeRank + " vs 第" + awayRank + "），客队实力稍占上风。";
-    else strengthNote = match.away.name + " 排名显著高于 " + match.home.name + "（第" + homeRank + " vs 第" + awayRank + "），客队实力优势明显。";
-
-    var offHome = 0, offAway = 0, defHome = 0, defAway = 0;
-    if (match.metrics && match.metrics.length) {
-      match.metrics.forEach(function (m) {
-        if (m.label === "进攻") { offHome = m.home; offAway = m.away; }
-        if (m.label === "防守") { defHome = m.home; defAway = m.away; }
-      });
-    }
-    var metricsNote = match.home.name + " 进攻指数 " + offHome + " / 防守指数 " + defHome + "，" +
-      match.away.name + " 进攻指数 " + offAway + " / 防守指数 " + defAway + "。综合攻防指标反映了两队在不同环节的优劣。";
-
-    var homeForm = (match.home.form || []).slice(0, 5).join(" ");
-    var awayForm = (match.away.form || []).slice(0, 5).join(" ");
-    var hs = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.home : {};
-    var as = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.away : {};
-    var formNote = match.home.code + " 模拟近5场 " + homeForm + "（进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
-      match.away.code + " 模拟近5场 " + awayForm + "（进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
-
-    var tacHome = 0, tacAway = 0;
-    if (match.metrics && match.metrics.length) {
-      match.metrics.forEach(function (m) {
-        if (m.label === "中场") { tacHome = m.home; tacAway = m.away; }
-      });
-    }
-    var tacNote = "中场控制力对比：" + match.home.name + " " + tacHome + " vs " + match.away.name + " " + tacAway + "。战术匹配度考察双方风格克制关系与关键对位。";
-    var motivation = match.motivation || {};
-    var motivationNote = (motivation.note || "暂无出线形势信息。") + " 求胜强度 " + Math.round((motivation.intensity || 0) * 100) + "%，平局价值 " + Math.round((motivation.drawValue || 0) * 100) + "%。";
-    var market = match.marketSignals || {};
-    var expert = match.expertSignals || {};
-    var externalNote = "赔率：" + (market.note || market.status || "无") + " 球评：" + (expert.note || expert.status || "无");
-
-    function factorRow(name, weight, evidence) {
-      return '<div class="factor-row">' +
-        '<div class="factor-head"><strong>' + name + '</strong><span class="factor-weight">权重 ' + weight + '%</span></div>' +
-        '<div class="factor-weight-track"><i style="width:' + weight + '%"></i></div>' +
-        '<small class="factor-evidence">' + evidence + '</small>' +
-      '</div>';
-    }
-
-    return '<section class="detail-section">' +
-      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>旧版权重 · 非官方数据</small></div>' +
-      '<div class="factor-model">' +
-        factorRow("球队实力排名", weights.strength, strengthNote) +
-        factorRow("攻防指标", weights.metrics, metricsNote) +
-        factorRow("模拟近期状态", weights.recent, formNote) +
-        factorRow("出线动机", weights.motivation, motivationNote) +
-        factorRow("战术匹配度", weights.tactical, tacNote) +
-        factorRow("外部信号", weights.external, externalNote) +
-      '</div>' +
-      '<div class="factor-result">' +
-        '<p class="factor-note">多项权重合计 100%。模型通过以上因素综合计算W/D/L概率（主胜 ' + probs[0] + '% / 平局 ' + probs[1] + '% / 客胜 ' + probs[2] + '%），本区解释模型预测的形成依据，不另行生成第二套概率结果。</p>' +
-      '</div>' +
-    '</section>';
-  }
-
   // ─── DETAIL: 比赛情景推演 ───
   function renderScenarios(match) {
     var probs = match.probabilities;
@@ -660,7 +488,7 @@
     } else {
       scenarios.push({
         title: "预期情景：客队占优",
-        text: "按模型概率分布，" + awayName + " 取胜是最可能的结果。" + awayName + "在攻防指标上的优势可能转化为比分的领先。" + homeName + "需要把握有限的反击机会才能改变被动局面。",
+        text: "按模型概率分布，" + awayName + " 取胜是最可能的结果。" + awayName + "在综合评估上的优势可能转化为比分的领先。" + homeName + "需要把握有限的反击机会才能改变被动局面。",
         cls: "scenario-primary"
       });
     }
@@ -757,27 +585,18 @@
     // Risk 3: Data scope limitation
     risks.push({
       type: "数据范围限制",
-      text: "当前分析仅基于赛前可获取的结构化数据（世界排名、近期战绩、攻防指标等）。模型不掌握实时首发阵容、伤病情况、天气条件、临场战术调整等信息，这些因素可能对比赛结果产生重要影响。",
+      text: "当前事实证据层只展示已接入的赛程/赛果、赔率、天气和公开新闻线索。首发阵容、伤停名单、球员级数据和临场战术只有在匹配到可靠来源时才展示；未接入的数据不会伪造成事实。",
       cls: "risk-medium"
     });
 
-        // Risk 4: Model calibration note
-        var probs = match.probabilities;
-        var spread = Math.max.apply(null, probs) - Math.min.apply(null, probs);
-        if (spread >= 40) {
+    // Risk 4: Model calibration note
+    var probs = match.probabilities;
+    var spread = Math.max.apply(null, probs) - Math.min.apply(null, probs);
+    if (spread >= 40) {
       risks.push({
         type: "强弱悬殊注意",
         text: "本场模型概率分布明显偏向一方（差距 " + spread + "pp），强弱对比清晰。但足球比赛尤其是杯赛中的冷门并不罕见，弱势方在单场淘汰制下的爆发力不应被完全忽视。",
         cls: "risk-low"
-        });
-      }
-
-    // Risk 5: early tournament sample size
-    if (match.tacticalProfile && match.tacticalProfile.home && match.tacticalProfile.away) {
-      risks.push({
-        type: "赛事样本偏小",
-        text: "攻防风格中的场均进球、大胜倾向和零封倾向会参考本届世界杯已完场比赛。小组赛早期样本量有限，单场大胜或意外比分可能放大球队风格判断，需要结合长期实力指标一起看。",
-        cls: "risk-medium"
       });
     }
 
@@ -794,7 +613,7 @@
           '</div>';
         }).join('') +
       '</div>' +
-      '<p class="risk-disclaimer">以上风险因素仅基于现有比赛数据结构化推导，不包含伤病、首发、天气、临场事件等未获取信息。足球分析存在固有不确定性，请理性看待模型输出。</p>' +
+      '<p class="risk-disclaimer">以上风险因素来自当前已接入真实数据和模型概率分布。未确认的伤病、首发、临场事件不会作为事实写入页面；足球分析存在固有不确定性，请理性看待模型输出。</p>' +
     '</section>';
   }
 
@@ -814,11 +633,11 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>模型工作流程</h3><small>从数据到预测</small></div>' +
           '<div class="method-flow">' +
-            '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>每日从公开数据源（openfootball/worldcup.json）获取世界杯赛程、对阵、比分和球队信息，结合内置的球队排名、近期战绩和攻防指标数据库，构建结构化赛前数据。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">01</span><strong>真实数据采集</strong><p>每日从公开数据源获取世界杯赛程、对阵和比分，从 The Odds API 拉取赔率，从 Open-Meteo 获取天气，并从公开新闻源提取首发、伤停、战术相关线索。</p></div>' +
             '<div class="flow-step"><span class="flow-num">02</span><strong>出线形势</strong><p>按照2026世界杯规则计算小组积分、净胜球、剩余场次和出线压力：小组前二直接晋级，8个成绩最好的小组第三进入32强。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">03</span><strong>10因素加权</strong><p>综合世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素和外部信号共10个因子，按权重（合计100%）计算双方综合实力评分。每个因子均可追溯输入数据和计算逻辑。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜概率、最可能比分和信心指数。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动从公开数据源拉取最新世界杯赛程、球队和比分数据，重新生成分析并通过云端自动部署上线。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">03</span><strong>证据与模型分层</strong><p>页面把真实证据和模型输出分开展示：赛程/赛果、赔率、天气、新闻线索作为事实证据；比分分布、胜平负概率和信心指数作为算法预测。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于已接入数据和模型参数生成胜平负概率、最可能比分和信心指数；未接入可靠来源的信息不会被包装成事实证据。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动拉取最新赛程/赛果、赔率、天气和公开新闻线索，重新生成分析并通过云端自动部署上线。</p></div>' +
           '</div>' +
         '</section>' +
 
@@ -848,12 +667,11 @@
           '<div class="method-text">' +
             '<p>本模型存在以下重要局限，使用分析结果时请务必考虑：</p>' +
             '<ul class="method-limits">' +
-              '<li><strong>赛前数据</strong>：所有分析基于赛前可获取的结构化数据，不反映临场变化。</li>' +
-              '<li><strong>信息缺失</strong>：模型暂不获取实时首发、伤病、天气、裁判、球队内部状态等信息。</li>' +
-              '<li><strong>市场信号</strong>：赔率和专业球评接口已预留权重位置，但当前线上版尚未接入稳定付费数据源，不会伪造市场共识。</li>' +
+              '<li><strong>赛前数据</strong>：所有分析基于赛前和公开可获取数据，不反映未发布的临场变化。</li>' +
+              '<li><strong>信息缺口</strong>：实时首发、权威伤停和球员级统计只有在稳定来源接入后才展示；未确认内容不会伪造。</li>' +
+              '<li><strong>市场信号</strong>：赔率已接入 The Odds API；未匹配到赔率的场次会明确显示缺口，不会伪造市场共识。</li>' +
               '<li><strong>简化假设</strong>：泊松模型假设进球独立分布，实际比赛中进球往往存在相关性。</li>' +
-              '<li><strong>排名局限</strong>：世界排名存在滞后性，不能完全反映球队当前的真实水平。</li>' +
-              '<li><strong>样本有限</strong>：近期状态仅参考5场比赛，样本量较小可能放大偶然性。</li>' +
+              '<li><strong>新闻线索</strong>：公开新闻源可辅助识别伤停、首发和战术话题，但不等同于官方确认名单。</li>' +
               '<li><strong>无法量化的因素</strong>：球队士气、球迷氛围、历史恩怨、裁判尺度等因素无法纳入模型。</li>' +
             '</ul>' +
           '</div>' +
@@ -862,10 +680,10 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>更新策略</h3><small>预测刷新说明</small></div>' +
           '<div class="method-text">' +
-            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动从公开数据源（openfootball/worldcup.json）拉取最新世界杯赛程、球队和比分数据，重新计算出线动机、攻防风格、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
+            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动拉取最新赛程/赛果、赔率、天气和公开新闻线索，重新计算出线动机、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
             '<p>赔率接口已按 The Odds API 接入，配置 THE_ODDS_API_KEY 后会在每日刷新中拉取真实赔率并按小权重校准模型概率；未配置 key 时不会伪造赔率。</p>' +
-            '<p>专业球评当前接入 ESPN Soccer RSS 等公开新闻源，按球队名匹配相关文章；付费实时首发、伤病和天气数据仍待后续接入。</p>' +
+            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；付费实时首发、权威伤停和球员级数据仍待后续接入。</p>' +
           '</div>' +
         '</section>' +
 
