@@ -228,13 +228,16 @@
         // Section 8: 攻防风格与外部信号
         renderStyleAndSignals(match) +
 
-        // Section 9: 扩展市场与赔率校准
+        // Section 9: 临场情报
+        renderMatchIntelligence(match) +
+
+        // Section 10: 扩展市场与赔率校准
         renderMarketsAndCalibration(match) +
 
-        // Section 10: 比赛情景推演
+        // Section 11: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 11: 风险因素
+        // Section 12: 风险因素
         renderRiskAssessment(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
@@ -284,6 +287,33 @@
         '<strong>赔率校准</strong>' +
         '<p>' + (cal.summary || "暂无市场校准数据。") + '</p>' +
         calibration +
+      '</div>' +
+    '</section>';
+  }
+
+  function renderMatchIntelligence(match) {
+    var intel = match.matchIntelligence || {};
+    var weather = intel.weather || {};
+    var news = intel.teamNews || {};
+    var injuries = news.injuries || {};
+    var lineup = news.lineup || {};
+    var tactical = news.tactical || {};
+    var articles = (injuries.articles || []).slice(0, 3);
+    var articleHtml = articles.length
+      ? '<div class="article-list intel-articles">' + articles.map(function (article) {
+          return '<a href="' + article.link + '" target="_blank" rel="noopener">' + article.title + '<small>' + article.source + '</small></a>';
+        }).join("") + '</div>'
+      : "";
+    function card(title, status, text, extra) {
+      return '<div class="intel-card"><div><strong>' + title + '</strong><span>' + (status || "-") + '</span></div><p>' + (text || "暂无数据。") + '</p>' + (extra || "") + '</div>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>临场情报</h3><small>首发 / 伤停 / 天气 / 战术</small></div>' +
+      '<div class="intel-grid">' +
+        card("首发阵容", lineup.status, lineup.text) +
+        card("伤病停赛", injuries.status, injuries.text, articleHtml) +
+        card("比赛天气", weather.status, (weather.text || "") + (weather.impact ? " " + weather.impact : "")) +
+        card("临场战术", tactical.status, tactical.text) +
       '</div>' +
     '</section>';
   }

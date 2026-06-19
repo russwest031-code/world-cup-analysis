@@ -15,7 +15,10 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 44,
   "expertProvider": "public-rss",
-  "expertArticleCount": 0
+  "expertArticleCount": 0,
+  "weatherSignals": "connected",
+  "weatherProvider": "Open-Meteo",
+  "weatherForecastCount": 43
 };
 
 window.ANALYSIS_BACKTEST = {
@@ -1078,6 +1081,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:34:59.064Z",
+        "venue": "Mexico City",
+        "date": "2026-06-12",
+        "temperatureMax": 23.2,
+        "temperatureMin": 14.6,
+        "precipitationProbability": 96,
+        "windSpeedMax": 15.1,
+        "timezone": "America/Mexico_City",
+        "text": "Mexico City 当日约 14.6-23.2°C，降雨概率 96%，最大风速 15.1km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -1669,6 +1707,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -2260,6 +2325,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:34:59.361Z",
+        "venue": "Toronto",
+        "date": "2026-06-13",
+        "temperatureMax": 24.8,
+        "temperatureMin": 14.2,
+        "precipitationProbability": 1,
+        "windSpeedMax": 27.2,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 14.2-24.8°C，降雨概率 1%，最大风速 27.2km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -2851,6 +2951,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -3442,6 +3569,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -4033,6 +4187,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -4624,6 +4805,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -5215,6 +5423,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:34:59.661Z",
+        "venue": "Vancouver",
+        "date": "2026-06-14",
+        "temperatureMax": 28.8,
+        "temperatureMin": 14.6,
+        "precipitationProbability": 1,
+        "windSpeedMax": 15.3,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 14.6-28.8°C，降雨概率 1%，最大风速 15.3km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -5806,6 +6049,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:34:59.949Z",
+        "venue": "Houston",
+        "date": "2026-06-15",
+        "temperatureMax": 28.9,
+        "temperatureMin": 24.5,
+        "precipitationProbability": 78,
+        "windSpeedMax": 14.3,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 24.5-28.9°C，降雨概率 78%，最大风速 14.3km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -6397,6 +6675,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -6988,6 +7293,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:00.237Z",
+        "venue": "Philadelphia",
+        "date": "2026-06-15",
+        "temperatureMax": 25.6,
+        "temperatureMin": 19,
+        "precipitationProbability": 94,
+        "windSpeedMax": 21.5,
+        "timezone": "America/New_York",
+        "text": "Philadelphia 当日约 19-25.6°C，降雨概率 94%，最大风速 21.5km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -7579,6 +7919,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -8170,6 +8537,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:00.531Z",
+        "venue": "Atlanta",
+        "date": "2026-06-16",
+        "temperatureMax": 22.1,
+        "temperatureMin": 19.6,
+        "precipitationProbability": 32,
+        "windSpeedMax": 12,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 19.6-22.1°C，降雨概率 32%，最大风速 12km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -8761,6 +9163,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:00.829Z",
+        "venue": "Seattle",
+        "date": "2026-06-16",
+        "temperatureMax": 24.6,
+        "temperatureMin": 15,
+        "precipitationProbability": 2,
+        "windSpeedMax": 14.7,
+        "timezone": "America/Los_Angeles",
+        "text": "Seattle 当日约 15-24.6°C，降雨概率 2%，最大风速 14.7km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -9352,6 +9789,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -9943,6 +10407,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -10534,6 +11025,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -11125,6 +11643,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -11716,6 +12261,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:01.117Z",
+        "venue": "Kansas City",
+        "date": "2026-06-17",
+        "temperatureMax": 33.3,
+        "temperatureMin": 22.1,
+        "precipitationProbability": 41,
+        "windSpeedMax": 36.4,
+        "timezone": "America/Chicago",
+        "text": "Kansas City 当日约 22.1-33.3°C，降雨概率 41%，最大风速 36.4km/h。",
+        "impact": "风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -12307,6 +12887,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -12898,6 +13505,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:01.411Z",
+        "venue": "Houston",
+        "date": "2026-06-18",
+        "temperatureMax": 35.3,
+        "temperatureMin": 25.7,
+        "precipitationProbability": 5,
+        "windSpeedMax": 19,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 25.7-35.3°C，降雨概率 5%，最大风速 19km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -13489,6 +14131,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -14080,6 +14749,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:01.711Z",
+        "venue": "Toronto",
+        "date": "2026-06-18",
+        "temperatureMax": 21.4,
+        "temperatureMin": 13.9,
+        "precipitationProbability": 100,
+        "windSpeedMax": 34.3,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 13.9-21.4°C，降雨概率 100%，最大风速 34.3km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -14671,6 +15375,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:02.001Z",
+        "venue": "Mexico City",
+        "date": "2026-06-18",
+        "temperatureMax": 24.5,
+        "temperatureMin": 12.4,
+        "precipitationProbability": 98,
+        "windSpeedMax": 10.3,
+        "timezone": "America/Mexico_City",
+        "text": "Mexico City 当日约 12.4-24.5°C，降雨概率 98%，最大风速 10.3km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -15262,6 +16001,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:02.294Z",
+        "venue": "Atlanta",
+        "date": "2026-06-19",
+        "temperatureMax": 29.4,
+        "temperatureMin": 21.2,
+        "precipitationProbability": 71,
+        "windSpeedMax": 18.7,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 21.2-29.4°C，降雨概率 71%，最大风速 18.7km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -15853,6 +16627,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -16444,6 +17245,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:02.594Z",
+        "venue": "Vancouver",
+        "date": "2026-06-19",
+        "temperatureMax": 22,
+        "temperatureMin": 14.2,
+        "precipitationProbability": 0,
+        "windSpeedMax": 31.8,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 14.2-22°C，降雨概率 0%，最大风速 31.8km/h。",
+        "impact": "风速偏高，长传和高球处理风险上升。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -17035,6 +17871,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -17674,6 +18537,41 @@ window.MATCHES = [
         -10
       ],
       "summary": "模型原始概率 51/20/29%；市场隐含概率 59/22/19%；按 16% 权重校准后为 53/20/27%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:02.881Z",
+        "venue": "Seattle",
+        "date": "2026-06-20",
+        "temperatureMax": 24.5,
+        "temperatureMin": 12.8,
+        "precipitationProbability": 0,
+        "windSpeedMax": 10.7,
+        "timezone": "America/Los_Angeles",
+        "text": "Seattle 当日约 12.8-24.5°C，降雨概率 0%，最大风速 10.7km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -18313,6 +19211,33 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 25/22/53%；市场隐含概率 17/26/57%；按 16% 权重校准后为 23/23/54%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -18952,6 +19877,41 @@ window.MATCHES = [
         -8
       ],
       "summary": "模型原始概率 69/19/12%；市场隐含概率 87/9/4%；按 16% 权重校准后为 72/17/11%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:03.170Z",
+        "venue": "Philadelphia",
+        "date": "2026-06-20",
+        "temperatureMax": 28.5,
+        "temperatureMin": 16.9,
+        "precipitationProbability": 2,
+        "windSpeedMax": 23.4,
+        "timezone": "America/New_York",
+        "text": "Philadelphia 当日约 16.9-28.5°C，降雨概率 2%，最大风速 23.4km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -19591,6 +20551,33 @@ window.MATCHES = [
         -5
       ],
       "summary": "模型原始概率 49/21/30%；市场隐含概率 47/28/25%；按 16% 权重校准后为 49/22/29%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -20230,6 +21217,41 @@ window.MATCHES = [
         -7
       ],
       "summary": "模型原始概率 54/18/28%；市场隐含概率 54/25/21%；按 16% 权重校准后为 54/19/27%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:03.476Z",
+        "venue": "Houston",
+        "date": "2026-06-21",
+        "temperatureMax": 33.6,
+        "temperatureMin": 26.4,
+        "precipitationProbability": 15,
+        "windSpeedMax": 22.3,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 26.4-33.6°C，降雨概率 15%，最大风速 22.3km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -20869,6 +21891,41 @@ window.MATCHES = [
         -10
       ],
       "summary": "模型原始概率 57/17/26%；市场隐含概率 63/21/16%；按 16% 权重校准后为 58/18/24%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:05.650Z",
+        "venue": "Toronto",
+        "date": "2026-06-21",
+        "temperatureMax": 24.3,
+        "temperatureMin": 12.3,
+        "precipitationProbability": 7,
+        "windSpeedMax": 12.2,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 12.3-24.3°C，降雨概率 7%，最大风速 12.2km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -21508,6 +22565,41 @@ window.MATCHES = [
         -8
       ],
       "summary": "模型原始概率 69/19/12%；市场隐含概率 87/9/4%；按 16% 权重校准后为 72/17/11%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:05.937Z",
+        "venue": "Kansas City",
+        "date": "2026-06-21",
+        "temperatureMax": 23.3,
+        "temperatureMin": 17.8,
+        "precipitationProbability": 89,
+        "windSpeedMax": 33.5,
+        "timezone": "America/Chicago",
+        "text": "Kansas City 当日约 17.8-23.3°C，降雨概率 89%，最大风速 33.5km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -22147,6 +23239,33 @@ window.MATCHES = [
         8
       ],
       "summary": "模型原始概率 27/19/54%；市场隐含概率 15/23/62%；按 16% 权重校准后为 25/20/55%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -22786,6 +23905,41 @@ window.MATCHES = [
         -7
       ],
       "summary": "模型原始概率 72/17/11%；市场隐含概率 87/9/4%；按 16% 权重校准后为 74/16/10%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:06.229Z",
+        "venue": "Atlanta",
+        "date": "2026-06-22",
+        "temperatureMax": 33.8,
+        "temperatureMin": 22.6,
+        "precipitationProbability": 40,
+        "windSpeedMax": 22,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 22.6-33.8°C，降雨概率 40%，最大风速 22km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -23425,6 +24579,33 @@ window.MATCHES = [
         -21
       ],
       "summary": "模型原始概率 45/22/33%；市场隐含概率 68/20/12%；按 16% 权重校准后为 48/22/30%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -24064,6 +25245,33 @@ window.MATCHES = [
         -4
       ],
       "summary": "模型原始概率 65/19/16%；市场隐含概率 65/23/12%；按 16% 权重校准后为 65/20/15%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -24703,6 +25911,41 @@ window.MATCHES = [
         -8
       ],
       "summary": "模型原始概率 15/18/67%；市场隐含概率 17/24/59%；按 16% 权重校准后为 15/19/66%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:06.530Z",
+        "venue": "Vancouver",
+        "date": "2026-06-22",
+        "temperatureMax": 26.9,
+        "temperatureMin": 15.9,
+        "precipitationProbability": 0,
+        "windSpeedMax": 12.6,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 15.9-26.9°C，降雨概率 0%，最大风速 12.6km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -25342,6 +26585,33 @@ window.MATCHES = [
         -4
       ],
       "summary": "模型原始概率 64/16/20%；市场隐含概率 60/24/16%；按 16% 权重校准后为 64/17/19%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -25981,6 +27251,41 @@ window.MATCHES = [
         -11
       ],
       "summary": "模型原始概率 71/15/14%；市场隐含概率 88/9/3%；按 16% 权重校准后为 74/14/12%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:06.829Z",
+        "venue": "Philadelphia",
+        "date": "2026-06-23",
+        "temperatureMax": 23.9,
+        "temperatureMin": 17.8,
+        "precipitationProbability": 66,
+        "windSpeedMax": 11.6,
+        "timezone": "America/New_York",
+        "text": "Philadelphia 当日约 17.8-23.9°C，降雨概率 66%，最大风速 11.6km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -26620,6 +27925,33 @@ window.MATCHES = [
         -11
       ],
       "summary": "模型原始概率 38/19/43%；市场隐含概率 41/27/32%；按 16% 权重校准后为 39/20/41%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -27259,6 +28591,33 @@ window.MATCHES = [
         10
       ],
       "summary": "模型原始概率 28/21/51%；市场隐含概率 16/23/61%；按 16% 权重校准后为 26/21/53%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -27898,6 +29257,41 @@ window.MATCHES = [
         -8
       ],
       "summary": "模型原始概率 70/16/14%；市场隐含概率 80/14/6%；按 16% 权重校准后为 71/16/13%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:07.116Z",
+        "venue": "Houston",
+        "date": "2026-06-24",
+        "temperatureMax": 36.1,
+        "temperatureMin": 25,
+        "precipitationProbability": 9,
+        "windSpeedMax": 19.8,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 25-36.1°C，降雨概率 9%，最大风速 19.8km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -28537,6 +29931,33 @@ window.MATCHES = [
         -4
       ],
       "summary": "模型原始概率 76/13/11%；市场隐含概率 78/15/7%；按 16% 权重校准后为 77/13/10%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -29176,6 +30597,41 @@ window.MATCHES = [
         -6
       ],
       "summary": "模型原始概率 15/17/68%；市场隐含概率 14/24/62%；按 16% 权重校准后为 15/18/67%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:07.404Z",
+        "venue": "Toronto",
+        "date": "2026-06-24",
+        "temperatureMax": 24.5,
+        "temperatureMin": 14.7,
+        "precipitationProbability": 16,
+        "windSpeedMax": 13.9,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 14.7-24.5°C，降雨概率 16%，最大风速 13.9km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -29815,6 +31271,33 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 77/13/10%；市场隐含概率 63/23/14%；按 16% 权重校准后为 74/15/11%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -30454,6 +31937,41 @@ window.MATCHES = [
         -4
       ],
       "summary": "模型原始概率 45/21/34%；市场隐含概率 39/31/30%；按 16% 权重校准后为 44/23/33%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:07.702Z",
+        "venue": "Vancouver",
+        "date": "2026-06-25",
+        "temperatureMax": 19.6,
+        "temperatureMin": 12.8,
+        "precipitationProbability": 10,
+        "windSpeedMax": 13.6,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 12.8-19.6°C，降雨概率 10%，最大风速 13.6km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -31093,6 +32611,41 @@ window.MATCHES = [
         -15
       ],
       "summary": "模型原始概率 53/19/28%；市场隐含概率 67/20/13%；按 16% 权重校准后为 55/19/26%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:07.991Z",
+        "venue": "Seattle",
+        "date": "2026-06-25",
+        "temperatureMax": 20.4,
+        "temperatureMin": 13,
+        "precipitationProbability": 4,
+        "windSpeedMax": 12.5,
+        "timezone": "America/Los_Angeles",
+        "text": "Seattle 当日约 13-20.4°C，降雨概率 4%，最大风速 12.5km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -31732,6 +33285,33 @@ window.MATCHES = [
         13
       ],
       "summary": "模型原始概率 24/22/54%；市场隐含概率 13/20/67%；按 16% 权重校准后为 22/22/56%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -32371,6 +33951,41 @@ window.MATCHES = [
         -4
       ],
       "summary": "模型原始概率 66/21/13%；市场隐含概率 74/17/9%；按 16% 权重校准后为 68/20/12%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:08.279Z",
+        "venue": "Atlanta",
+        "date": "2026-06-25",
+        "temperatureMax": 33.8,
+        "temperatureMin": 22.5,
+        "precipitationProbability": 19,
+        "windSpeedMax": 15.5,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 22.5-33.8°C，降雨概率 19%，最大风速 15.5km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -33010,6 +34625,41 @@ window.MATCHES = [
         12
       ],
       "summary": "模型原始概率 46/21/33%；市场隐含概率 28/27/45%；按 16% 权重校准后为 43/22/35%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:08.573Z",
+        "venue": "Mexico City",
+        "date": "2026-06-25",
+        "temperatureMax": 19.5,
+        "temperatureMin": 13.3,
+        "precipitationProbability": 95,
+        "windSpeedMax": 5.8,
+        "timezone": "America/Mexico_City",
+        "text": "Mexico City 当日约 13.3-19.5°C，降雨概率 95%，最大风速 5.8km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -33649,6 +35299,33 @@ window.MATCHES = [
         -1
       ],
       "summary": "模型原始概率 20/20/60%；市场隐含概率 17/24/59%；按 16% 权重校准后为 19/21/60%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -34288,6 +35965,41 @@ window.MATCHES = [
         21
       ],
       "summary": "模型原始概率 16/21/63%；市场隐含概率 5/11/84%；按 16% 权重校准后为 15/19/66%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:08.871Z",
+        "venue": "Philadelphia",
+        "date": "2026-06-26",
+        "temperatureMax": 30.7,
+        "temperatureMin": 18.7,
+        "precipitationProbability": 30,
+        "windSpeedMax": 12.2,
+        "timezone": "America/New_York",
+        "text": "Philadelphia 当日约 18.7-30.7°C，降雨概率 30%，最大风速 12.2km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -34927,6 +36639,33 @@ window.MATCHES = [
         13
       ],
       "summary": "模型原始概率 38/19/43%；市场隐含概率 19/25/56%；按 16% 权重校准后为 35/20/45%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -35566,6 +37305,33 @@ window.MATCHES = [
         -1
       ],
       "summary": "模型原始概率 53/18/29%；市场隐含概率 44/28/28%；按 16% 权重校准后为 51/20/29%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -36205,6 +37971,41 @@ window.MATCHES = [
         17
       ],
       "summary": "模型原始概率 25/20/55%；市场隐含概率 10/18/72%；按 16% 权重校准后为 22/20/58%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:09.168Z",
+        "venue": "Kansas City",
+        "date": "2026-06-26",
+        "temperatureMax": 28.9,
+        "temperatureMin": 19.3,
+        "precipitationProbability": 29,
+        "windSpeedMax": 25.5,
+        "timezone": "America/Chicago",
+        "text": "Kansas City 当日约 19.3-28.9°C，降雨概率 29%，最大风速 25.5km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -36844,6 +38645,33 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 44/20/36%；市场隐含概率 34/26/40%；按 16% 权重校准后为 42/21/37%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -37483,6 +39311,33 @@ window.MATCHES = [
         -5
       ],
       "summary": "模型原始概率 46/21/33%；市场隐含概率 43/29/28%；按 16% 权重校准后为 46/22/32%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -38122,6 +39977,33 @@ window.MATCHES = [
         -6
       ],
       "summary": "模型原始概率 25/17/58%；市场隐含概率 23/25/52%；按 16% 权重校准后为 25/18/57%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -38761,6 +40643,41 @@ window.MATCHES = [
         -15
       ],
       "summary": "模型原始概率 55/20/25%；市场隐含概率 72/18/10%；按 16% 权重校准后为 57/20/23%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:09.462Z",
+        "venue": "Toronto",
+        "date": "2026-06-27",
+        "temperatureMax": 20.3,
+        "temperatureMin": 16.6,
+        "precipitationProbability": 18,
+        "windSpeedMax": 16.2,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 16.6-20.3°C，降雨概率 18%，最大风速 16.2km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -39400,6 +41317,41 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 39/26/35%；市场隐含概率 35/26/39%；按 16% 权重校准后为 38/26/36%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:09.760Z",
+        "venue": "Houston",
+        "date": "2026-06-27",
+        "temperatureMax": 34.8,
+        "temperatureMin": 26.4,
+        "precipitationProbability": 7,
+        "windSpeedMax": 21.7,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 26.4-34.8°C，降雨概率 7%，最大风速 21.7km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -40039,6 +41991,33 @@ window.MATCHES = [
         10
       ],
       "summary": "模型原始概率 28/21/51%；市场隐含概率 16/23/61%；按 16% 权重校准后为 26/21/53%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -40678,6 +42657,41 @@ window.MATCHES = [
         -15
       ],
       "summary": "模型原始概率 40/20/40%；市场隐含概率 45/30/25%；按 16% 权重校准后为 40/22/38%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:10.058Z",
+        "venue": "Seattle",
+        "date": "2026-06-27",
+        "temperatureMax": 20.1,
+        "temperatureMin": 14.1,
+        "precipitationProbability": 27,
+        "windSpeedMax": 9.3,
+        "timezone": "America/Los_Angeles",
+        "text": "Seattle 当日约 14.1-20.1°C，降雨概率 27%，最大风速 9.3km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -41317,6 +43331,41 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 11/16/73%；市场隐含概率 8/15/77%；按 16% 权重校准后为 10/16/74%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:10.348Z",
+        "venue": "Vancouver",
+        "date": "2026-06-27",
+        "temperatureMax": 16.5,
+        "temperatureMin": 13.6,
+        "precipitationProbability": 19,
+        "windSpeedMax": 14.5,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 13.6-16.5°C，降雨概率 19%，最大风速 14.5km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -41956,6 +44005,33 @@ window.MATCHES = [
         -1
       ],
       "summary": "模型原始概率 10/14/76%；市场隐含概率 10/15/75%；按 16% 权重校准后为 10/14/76%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -42595,6 +44671,41 @@ window.MATCHES = [
         4
       ],
       "summary": "模型原始概率 70/17/13%；市场隐含概率 58/25/17%；按 16% 权重校准后为 68/18/14%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:10.638Z",
+        "venue": "Philadelphia",
+        "date": "2026-06-28",
+        "temperatureMax": 29.5,
+        "temperatureMin": 19.4,
+        "precipitationProbability": 19,
+        "windSpeedMax": 14.2,
+        "timezone": "America/New_York",
+        "text": "Philadelphia 当日约 19.4-29.5°C，降雨概率 19%，最大风速 14.2km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -43234,6 +45345,33 @@ window.MATCHES = [
         -2
       ],
       "summary": "模型原始概率 35/18/47%；市场隐含概率 27/28/45%；按 16% 权重校准后为 33/20/47%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -43873,6 +46011,41 @@ window.MATCHES = [
         -14
       ],
       "summary": "模型原始概率 34/23/43%；市场隐含概率 44/27/29%；按 16% 权重校准后为 35/24/41%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:10.931Z",
+        "venue": "Atlanta",
+        "date": "2026-06-28",
+        "temperatureMax": 36.9,
+        "temperatureMin": 24.9,
+        "precipitationProbability": 25,
+        "windSpeedMax": 16.2,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 24.9-36.9°C，降雨概率 25%，最大风速 16.2km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -44512,6 +46685,41 @@ window.MATCHES = [
         -2
       ],
       "summary": "模型原始概率 40/20/40%；市场隐含概率 31/31/38%；按 16% 权重校准后为 38/22/40%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:11.229Z",
+        "venue": "Kansas City",
+        "date": "2026-06-28",
+        "temperatureMax": 28.6,
+        "temperatureMin": 20.1,
+        "precipitationProbability": 25,
+        "windSpeedMax": 28.2,
+        "timezone": "America/Chicago",
+        "text": "Kansas City 当日约 20.1-28.6°C，降雨概率 25%，最大风速 28.2km/h。",
+        "impact": "风速偏高，长传和高球处理风险上升。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -45151,6 +47359,33 @@ window.MATCHES = [
         2
       ],
       "summary": "模型原始概率 10/13/77%；市场隐含概率 7/14/79%；按 16% 权重校准后为 10/13/77%。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -45742,6 +47977,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -46333,6 +48595,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:11.518Z",
+        "venue": "Houston",
+        "date": "2026-06-30",
+        "temperatureMax": 35.3,
+        "temperatureMin": 26.1,
+        "precipitationProbability": 13,
+        "windSpeedMax": 23.3,
+        "timezone": "America/Chicago",
+        "text": "Houston 当日约 26.1-35.3°C，降雨概率 13%，最大风速 23.3km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -46924,6 +49221,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -47515,6 +49839,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -48106,6 +50457,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -48697,6 +51075,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -49288,6 +51693,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:11.809Z",
+        "venue": "Mexico City",
+        "date": "2026-07-01",
+        "temperatureMax": 20.6,
+        "temperatureMin": 10,
+        "precipitationProbability": 86,
+        "windSpeedMax": 10.1,
+        "timezone": "America/Mexico_City",
+        "text": "Mexico City 当日约 10-20.6°C，降雨概率 86%，最大风速 10.1km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -49879,6 +52319,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:12.107Z",
+        "venue": "Atlanta",
+        "date": "2026-07-02",
+        "temperatureMax": 35.7,
+        "temperatureMin": 20.6,
+        "precipitationProbability": 28,
+        "windSpeedMax": 23,
+        "timezone": "America/New_York",
+        "text": "Atlanta 当日约 20.6-35.7°C，降雨概率 28%，最大风速 23km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -50470,6 +52945,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:12.400Z",
+        "venue": "Seattle",
+        "date": "2026-07-02",
+        "temperatureMax": 24.4,
+        "temperatureMin": 10.7,
+        "precipitationProbability": 13,
+        "windSpeedMax": 14.1,
+        "timezone": "America/Los_Angeles",
+        "text": "Seattle 当日约 10.7-24.4°C，降雨概率 13%，最大风速 14.1km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -51061,6 +53571,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -51652,6 +54189,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -52243,6 +54807,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:12.689Z",
+        "venue": "Toronto",
+        "date": "2026-07-03",
+        "temperatureMax": 32.7,
+        "temperatureMin": 19.9,
+        "precipitationProbability": 23,
+        "windSpeedMax": 18.9,
+        "timezone": "America/Toronto",
+        "text": "Toronto 当日约 19.9-32.7°C，降雨概率 23%，最大风速 18.9km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -52834,6 +55433,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:12.988Z",
+        "venue": "Vancouver",
+        "date": "2026-07-03",
+        "temperatureMax": 20.6,
+        "temperatureMin": 14.3,
+        "precipitationProbability": 13,
+        "windSpeedMax": 10.5,
+        "timezone": "America/Vancouver",
+        "text": "Vancouver 当日约 14.3-20.6°C，降雨概率 13%，最大风速 10.5km/h。",
+        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -53425,6 +56059,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -54016,6 +56677,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -54607,6 +57295,41 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "connected",
+        "provider": "Open-Meteo",
+        "fetchedAt": "2026-06-19T14:35:13.274Z",
+        "venue": "Kansas City",
+        "date": "2026-07-04",
+        "temperatureMax": 31.4,
+        "temperatureMin": 21.4,
+        "precipitationProbability": 17,
+        "windSpeedMax": 23.6,
+        "timezone": "America/Chicago",
+        "text": "Kansas City 当日约 21.4-31.4°C，降雨概率 17%，最大风速 23.6km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -55198,6 +57921,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Houston",
+        "date": "2026-07-05",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -55789,6 +58542,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Philadelphia",
+        "date": "2026-07-05",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -56380,6 +59163,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -56971,6 +59781,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Mexico City",
+        "date": "2026-07-06",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -57562,6 +60402,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -58153,6 +61020,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Seattle",
+        "date": "2026-07-07",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -58744,6 +61641,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Atlanta",
+        "date": "2026-07-08",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -59335,6 +62262,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Vancouver",
+        "date": "2026-07-08",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -59926,6 +62883,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -60517,6 +63501,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -61108,6 +64119,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -61699,6 +64737,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Kansas City",
+        "date": "2026-07-12",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -62290,6 +65358,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -62881,6 +65976,36 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "unavailable",
+        "provider": "Open-Meteo",
+        "venue": "Atlanta",
+        "date": "2026-07-16",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -63472,6 +66597,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   },
   {
@@ -64063,6 +67215,33 @@ window.MATCHES = [
       "blendWeight": 0,
       "deltas": null,
       "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    },
+    "matchIntelligence": {
+      "weather": {
+        "status": "not-connected",
+        "provider": "Open-Meteo",
+        "text": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
+      },
+      "teamNews": {
+        "status": "provider-needed",
+        "provider": "pending-structured-provider",
+        "lineup": {
+          "status": "pending",
+          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+          "source": "provider-needed"
+        },
+        "injuries": {
+          "status": "provider-needed",
+          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+          "articles": []
+        },
+        "tactical": {
+          "status": "model-derived",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+        }
+      },
+      "updatedAt": "2026-06-19T14:35:17.086Z"
     }
   }
 ];

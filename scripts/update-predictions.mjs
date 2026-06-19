@@ -16,6 +16,7 @@ const ODDS_API_KEY = process.env.THE_ODDS_API_KEY || "";
 const ODDS_SPORT_KEY = process.env.THE_ODDS_SPORT_KEY || "soccer_fifa_world_cup";
 const ODDS_REGIONS = process.env.THE_ODDS_REGIONS || "eu,uk,us";
 const ODDS_MARKETS = process.env.THE_ODDS_MARKETS || "h2h";
+const WEATHER_ENABLED = process.env.WEATHER_ENABLED !== "0";
 const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
   "https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD,https://www.espn.com/espn/rss/soccer/news")
   .split(",")
@@ -137,24 +138,24 @@ const CONFED_STRENGTH = {
 
 const VENUE_DATA = {
   // USA venues
-  Atlanta: { country: "USA", altitude: 320 },
-  Boston: { country: "USA", altitude: 0 },
-  Dallas: { country: "USA", altitude: 130 },
-  Houston: { country: "USA", altitude: 13 },
-  "Kansas City": { country: "USA", altitude: 277 },
-  "Los Angeles": { country: "USA", altitude: 38 },
-  Miami: { country: "USA", altitude: 2 },
-  "New York/New Jersey": { country: "USA", altitude: 3 },
-  Philadelphia: { country: "USA", altitude: 12 },
-  "San Francisco": { country: "USA", altitude: 2 },
-  Seattle: { country: "USA", altitude: 50 },
+  Atlanta: { country: "USA", altitude: 320, lat: 33.755, lon: -84.401 },
+  Boston: { country: "USA", altitude: 0, lat: 42.091, lon: -71.264 },
+  Dallas: { country: "USA", altitude: 130, lat: 32.748, lon: -97.093 },
+  Houston: { country: "USA", altitude: 13, lat: 29.684, lon: -95.411 },
+  "Kansas City": { country: "USA", altitude: 277, lat: 39.049, lon: -94.484 },
+  "Los Angeles": { country: "USA", altitude: 38, lat: 33.953, lon: -118.339 },
+  Miami: { country: "USA", altitude: 2, lat: 25.958, lon: -80.239 },
+  "New York/New Jersey": { country: "USA", altitude: 3, lat: 40.813, lon: -74.074 },
+  Philadelphia: { country: "USA", altitude: 12, lat: 39.901, lon: -75.167 },
+  "San Francisco": { country: "USA", altitude: 2, lat: 37.713, lon: -122.386 },
+  Seattle: { country: "USA", altitude: 50, lat: 47.595, lon: -122.331 },
   // Canada venues
-  Toronto: { country: "CAN", altitude: 76 },
-  Vancouver: { country: "CAN", altitude: 2 },
+  Toronto: { country: "CAN", altitude: 76, lat: 43.633, lon: -79.419 },
+  Vancouver: { country: "CAN", altitude: 2, lat: 49.276, lon: -123.111 },
   // Mexico venues
-  Guadalajara: { country: "MEX", altitude: 1566 },
-  "Mexico City": { country: "MEX", altitude: 2250 },
-  Monterrey: { country: "MEX", altitude: 540 },
+  Guadalajara: { country: "MEX", altitude: 1566, lat: 20.681, lon: -103.462 },
+  "Mexico City": { country: "MEX", altitude: 2250, lat: 19.303, lon: -99.151 },
+  Monterrey: { country: "MEX", altitude: 540, lat: 25.668, lon: -100.244 },
 };
 
 const H2H_DATABASE = {
@@ -945,6 +946,60 @@ async function loadExpertSignals() {
   };
 }
 
+async function loadWeatherSignals(matches) {
+  if (!WEATHER_ENABLED) {
+    return { status: "disabled", provider: "Open-Meteo", forecasts: {}, errors: [] };
+  }
+  const forecasts = {};
+  const errors = [];
+  const keys = Array.from(new Set(matches.map(match => `${match.venue}|${match.date}`))).slice(0, 140);
+  for (const key of keys) {
+    const [venue, date] = key.split("|");
+    const venueInfo = VENUE_DATA[venue];
+    if (!venueInfo?.lat || !venueInfo?.lon) continue;
+    const url = new URL("https://api.open-meteo.com/v1/forecast");
+    url.searchParams.set("latitude", venueInfo.lat);
+    url.searchParams.set("longitude", venueInfo.lon);
+    url.searchParams.set("daily", "temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max");
+    url.searchParams.set("timezone", "auto");
+    url.searchParams.set("start_date", date);
+    url.searchParams.set("end_date", date);
+    try {
+      const data = await fetchJson(url.toString());
+      const daily = data.daily || {};
+      forecasts[key] = {
+        status: "connected",
+        provider: "Open-Meteo",
+        fetchedAt: now.toISOString(),
+        venue,
+        date,
+        temperatureMax: daily.temperature_2m_max?.[0] ?? null,
+        temperatureMin: daily.temperature_2m_min?.[0] ?? null,
+        precipitationProbability: daily.precipitation_probability_max?.[0] ?? null,
+        windSpeedMax: daily.wind_speed_10m_max?.[0] ?? null,
+        timezone: data.timezone || null
+      };
+    } catch (error) {
+      forecasts[key] = {
+        status: "unavailable",
+        provider: "Open-Meteo",
+        venue,
+        date,
+        note: "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        error: error.message
+      };
+      errors.push(`${key}: ${error.message}`);
+    }
+  }
+  return {
+    status: Object.values(forecasts).some(item => item.status === "connected") ? "connected" : "unavailable",
+    provider: "Open-Meteo",
+    fetchedAt: now.toISOString(),
+    forecasts,
+    errors
+  };
+}
+
 async function fetchText(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
@@ -1075,6 +1130,74 @@ function expertForMatch(match, expertContext) {
       pubDate: article.pubDate
     })),
     note: `已匹配 ${matched.length} 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。`
+  };
+}
+
+function teamNewsForMatch(match, expertContext) {
+  const articles = expertContext?.articles || [];
+  const home = normalizeText(match.sourceInfo?.homeName || match.home.name);
+  const away = normalizeText(match.sourceInfo?.awayName || match.away.name);
+  const matched = articles.filter(article => {
+    const text = normalizeText(`${article.title} ${article.description}`);
+    const teamHit = (home && text.includes(home)) || (away && text.includes(away));
+    const infoHit = /injur|fitness|lineup|starting xi|suspend|doubt|ruled out|coach|tactic|training|availability/i.test(`${article.title} ${article.description}`);
+    return teamHit && infoHit;
+  }).slice(0, 5);
+  return {
+    status: matched.length ? "connected" : "no-structured-source",
+    provider: matched.length ? expertContext.provider : "pending-structured-provider",
+    lineup: {
+      status: "pending",
+      text: "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
+      source: "provider-needed"
+    },
+    injuries: {
+      status: matched.length ? "news-derived" : "provider-needed",
+      text: matched.length ? `从公开新闻源匹配到 ${matched.length} 条可能涉及伤停/阵容的报道。` : "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+      articles: matched.map(article => ({
+        title: article.title,
+        source: article.source,
+        link: article.link,
+        pubDate: article.pubDate
+      }))
+    },
+    tactical: {
+      status: matched.length ? "news-derived" : "model-derived",
+      text: matched.length ? "临场战术信息来自公开新闻匹配，需结合赛前发布会和首发确认。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+    }
+  };
+}
+
+function weatherForMatch(match, weatherContext) {
+  const key = `${match.venue}|${match.date}`;
+  const weather = weatherContext?.forecasts?.[key] || null;
+  if (!weather) {
+    return {
+      status: "not-connected",
+      provider: weatherContext?.provider || "Open-Meteo",
+      text: "未找到该场馆比赛日天气数据。"
+    };
+  }
+  if (weather.status !== "connected") return weather;
+  const rain = Number(weather.precipitationProbability);
+  const wind = Number(weather.windSpeedMax);
+  const hot = Number(weather.temperatureMax);
+  const impacts = [];
+  if (rain >= 55) impacts.push("降雨概率较高，可能降低传控稳定性并增加定位球/失误权重");
+  if (wind >= 28) impacts.push("风速偏高，长传和高球处理风险上升");
+  if (hot >= 30) impacts.push("气温偏高，体能消耗和下半场节奏需要保守评估");
+  return {
+    ...weather,
+    text: `${weather.venue} 当日约 ${weather.temperatureMin ?? "-"}-${weather.temperatureMax ?? "-"}°C，降雨概率 ${weather.precipitationProbability ?? "-"}%，最大风速 ${weather.windSpeedMax ?? "-"}km/h。`,
+    impact: impacts.length ? impacts.join("；") + "。" : "天气风险未见明显异常，暂不显著调整基础判断。"
+  };
+}
+
+function intelligenceForMatch(match, signalContext) {
+  return {
+    weather: weatherForMatch(match, signalContext.weather),
+    teamNews: teamNewsForMatch(match, signalContext.experts),
+    updatedAt: now.toISOString()
   };
 }
 
@@ -1212,6 +1335,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
   const expertSignals = expertForMatch(match, signalContext.experts);
+  const matchIntelligence = intelligenceForMatch(match, signalContext);
 
   // ── Factor 10: External Signals (3%) ──
   // Priority: odds > expert articles
@@ -1327,6 +1451,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     },
     marketSignals,
     expertSignals,
+    matchIntelligence,
     insights: [
       motivation.note,
       `${match.home.name}属于${homeStyle.tempo}，场均进球参考值 ${homeStyle.avgGoalsFor}，大胜倾向 ${homeStyle.bigWinRate}%。${match.away.name}属于${awayStyle.tempo}，场均进球参考值 ${awayStyle.avgGoalsFor}，大胜倾向 ${awayStyle.bigWinRate}%。`,
@@ -1440,20 +1565,23 @@ async function main() {
   }
 
   const context = buildTournamentContext(matches);
-  const [odds, experts] = await Promise.all([loadOddsSignals(), loadExpertSignals()]);
+  const [odds, experts, weather] = await Promise.all([loadOddsSignals(), loadExpertSignals(), loadWeatherSignals(matches)]);
   metaOverrides = {
     ...metaOverrides,
     marketSignals: odds.status,
     expertSignals: experts.status,
+    weatherSignals: weather.status,
     oddsProvider: odds.provider,
     oddsSportKey: odds.sportKey || ODDS_SPORT_KEY,
     oddsEventCount: odds.events?.length || 0,
     expertProvider: experts.provider,
-    expertArticleCount: experts.articles?.length || 0
+    expertArticleCount: experts.articles?.length || 0,
+    weatherProvider: weather.provider,
+    weatherForecastCount: Object.values(weather.forecasts || {}).filter(item => item.status === "connected").length
   };
-  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts }, matches));
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather }, matches));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}`);
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}`);
 }
 
 await main();
