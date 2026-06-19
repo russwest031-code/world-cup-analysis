@@ -24,11 +24,13 @@
     var input = document.getElementById("searchInput");
     var empty = document.getElementById("emptyState");
     var heading = document.getElementById("matchHeading");
-    var selectedDate = days[0] ? days[0].date : "";
+    var todayKey = new Date().toISOString().slice(0, 10);
+    var defaultDay = days.find(function (day) { return day.date >= todayKey; }) || days[0];
+    var selectedDate = defaultDay ? defaultDay.date : "";
 
     strip.innerHTML = days.map(function (day, index) {
-      var active = index === 0 ? "active" : "";
-      return '<button class="date-chip ' + active + '" data-date="' + day.date + '"><small>' + day.week + '</small><strong>' + day.day + '</strong><small>6月</small></button>';
+      var active = day.date === selectedDate ? "active" : "";
+      return '<button class="date-chip ' + active + '" data-date="' + day.date + '"><small>' + day.week + '</small><strong>' + day.day + '</strong><small>' + day.month + '月</small></button>';
     }).join("");
 
     function renderCard(match) {
@@ -67,18 +69,34 @@
         '<span class="confidence-badge ' + conf.cls + '">' + conf.text + '</span>' +
       '</div>';
 
+      var completedBadgeHTML = match.status === "completed"
+        ? '<span class="match-tag completed-tag">已完赛</span>'
+        : '';
+
+      var kickoffHTML;
+      if (match.status === "completed" && match.actualScore) {
+        kickoffHTML = '<div class="kickoff completed-kickoff"><strong>' + match.actualScore + '</strong><i></i><small>最终比分</small></div>';
+      } else {
+        kickoffHTML = '<div class="kickoff"><strong>' + match.time + '</strong><i></i><small>北京时间</small></div>';
+      }
+
+      var footBadgeHTML = match.status === "completed"
+        ? '<span class="single-badge completed-foot-badge">已完赛</span>'
+        : '<span class="single-badge">模型预测</span>';
+
       return '<article class="match-card analysis-card">' +
         '<div class="card-top">' +
           '<div class="card-top-left">' +
             '<span class="match-num">' + (match.group || "") + '</span>' +
             '<span class="match-tag">' + match.tag + '</span>' +
+            completedBadgeHTML +
             '<small>模型分析</small>' +
           '</div>' +
           '<a class="detail-link" href="detail.html?id=' + match.id + '">比赛分析 →</a>' +
         '</div>' +
         '<div class="team-row">' +
           '<div class="team">' + flag(match.home) + '<div class="team-name"><strong>' + match.home.name + '</strong><small>世界第' + match.home.rank + '</small></div></div>' +
-          '<div class="kickoff"><strong>' + match.time + '</strong><i></i><small>北京时间</small></div>' +
+          kickoffHTML +
           '<div class="team away">' + flag(match.away) + '<div class="team-name"><strong>' + match.away.name + '</strong><small>世界第' + match.away.rank + '</small></div></div>' +
         '</div>' +
         scoreHTML +
@@ -88,7 +106,7 @@
         '<p class="analysis-summary">' + (match.summary || "") + '</p>' +
         '<div class="card-foot">' +
           '<span>' + (match.venue || "") + '</span>' +
-          '<span class="single-badge">模型预测</span>' +
+          footBadgeHTML +
         '</div>' +
       '</article>';
     }
@@ -101,7 +119,7 @@
         return dateOk && queryOk;
       });
 
-      heading.textContent = selectedDate && days[0] && selectedDate === days[0].date
+      heading.textContent = selectedDate && selectedDate === todayKey
         ? "今日比赛"
         : (selectedDate ? selectedDate.slice(5).replace("-", "月") + "日比赛" : "全部比赛");
 
@@ -146,12 +164,23 @@
     document.title = match.home.name + " vs " + match.away.name + " - 赛研";
     var labels = ["主胜", "平局", "客胜"];
 
+    var completedHeroBadge = match.status === "completed"
+      ? '<span class="completed-hero-badge">已完赛</span>'
+      : '';
+
+    var detailTimeHTML;
+    if (match.status === "completed" && match.actualScore) {
+      detailTimeHTML = '<div class="detail-time completed-detail-time"><strong>' + match.actualScore + '</strong><i></i><span>最终比分</span></div>';
+    } else {
+      detailTimeHTML = '<div class="detail-time"><strong>' + match.time + '</strong><i></i><span>北京时间</span></div>';
+    }
+
     root.innerHTML =
       '<section class="detail-hero">' +
-        '<div class="detail-meta">' + (match.group || "") + " · " + match.date + " · " + match.venue + '</div>' +
+        '<div class="detail-meta">' + (match.group || "") + " · " + match.date + " · " + match.venue + ' ' + completedHeroBadge + '</div>' +
         '<div class="detail-matchup">' +
           '<div class="detail-team">' + flag(match.home) + '<h2>' + match.home.name + '</h2><p>世界排名 ' + match.home.rank + '</p></div>' +
-          '<div class="detail-time"><strong>' + match.time + '</strong><i></i><span>北京时间</span></div>' +
+          detailTimeHTML +
           '<div class="detail-team">' + flag(match.away) + '<h2>' + match.away.name + '</h2><p>世界排名 ' + match.away.rank + '</p></div>' +
         '</div>' +
       '</section>' +
@@ -464,10 +493,10 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>模型工作流程</h3><small>从数据到预测</small></div>' +
           '<div class="method-flow">' +
-            '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>收集球队世界排名、近期战绩（近5场W/D/L）、攻防指标（进攻/防守/中场/状态四维评分）等结构化赛前数据。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>每日从公开数据源（openfootball/worldcup.json）获取世界杯赛程、对阵、比分和球队信息，结合内置的球队排名、近期战绩和攻防指标数据库，构建结构化赛前数据。</p></div>' +
             '<div class="flow-step"><span class="flow-num">02</span><strong>因素加权</strong><p>通过四因素加权框架（球队实力30%、攻防指标30%、近期状态20%、战术匹配度20%）综合评估双方竞争力。</p></div>' +
             '<div class="flow-step"><span class="flow-num">03</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜的概率分布及最可能比分。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">04</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）重新计算W/D/L概率、比分分布、信心指数、比赛情景推演及风险提示，并通过云端自动部署上线。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">04</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动从公开数据源拉取最新世界杯赛程、球队和比分数据，重新计算W/D/L概率、比分分布、信心指数、比赛情景推演及风险提示，并通过云端自动部署上线。</p></div>' +
           '</div>' +
         '</section>' +
 
@@ -510,9 +539,9 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>更新策略</h3><small>预测刷新说明</small></div>' +
           '<div class="method-text">' +
-            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动运行预测脚本，重新计算比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
+            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动从公开数据源（openfootball/worldcup.json）拉取最新世界杯赛程、球队和比分数据，重新计算比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
-            '<p>这不是实时数据流，也不接入官方赔率接口；所有分析结论仅供赛事研究和娱乐参考。</p>' +
+            '<p>这不是实时数据流；目前尚未接入付费的实时首发阵容、伤病、天气或赔率数据提供商。所有分析结论仅供赛事研究和娱乐参考。</p>' +
           '</div>' +
         '</section>' +
 
@@ -522,13 +551,16 @@
   // ─── SHARED DATA INIT ──────────────────────────────────────────
   days = Array.from(new Set(matches.map(function (item) { return item.date; }))).map(function (date) {
     var parsed = new Date(date + "T12:00:00");
-    return { date: date, week: weekNames[parsed.getDay()], day: date.slice(8, 10) };
+    return { date: date, week: weekNames[parsed.getDay()], month: String(parsed.getMonth() + 1), day: date.slice(8, 10) };
   });
 
   var status = document.getElementById("dataStatus");
   var count = document.getElementById("matchCount");
   var update = document.getElementById("lastUpdate");
-  if (status) status.innerHTML = '<i class="live-dot"></i> 模型分析数据集';
+  if (status) {
+    var sourceLabel = analysisMeta.source === "openfootball-worldcup-json" ? "外部赛程数据已接入" : "模型分析数据集";
+    status.innerHTML = '<i class="live-dot"></i> ' + sourceLabel;
+  }
   if (count) count.textContent = "共 " + matches.length + " 场";
   if (update) {
     var updatedAt = analysisMeta.updatedAt ? new Date(analysisMeta.updatedAt) : new Date();
