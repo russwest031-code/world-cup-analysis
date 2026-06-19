@@ -159,7 +159,10 @@ function serialize(matches) {
     updatedAt: now.toISOString(),
     runDate,
     source: "daily-model-refresh",
-    model: "rank-form-metrics-poisson-v1"
+    model: "rank-form-metrics-poisson-v1",
+    refreshCadence: "daily",
+    refreshTimeLocal: "15:00",
+    refreshTimeZone: "Asia/Shanghai"
   };
   return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n`;
 }
