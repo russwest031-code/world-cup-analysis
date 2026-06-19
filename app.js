@@ -1,6 +1,7 @@
 (async function () {
   var matches = window.MATCHES || [];
   var analysisMeta = window.ANALYSIS_META || {};
+  var backtest = window.ANALYSIS_BACKTEST || {};
   var days = [];
 
   var weekNames = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
@@ -225,14 +226,54 @@
         // Section 8: 攻防风格与外部信号
         renderStyleAndSignals(match) +
 
-        // Section 9: 比赛情景推演
+        // Section 9: 扩展市场与赔率校准
+        renderMarketsAndCalibration(match) +
+
+        // Section 10: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 10: 风险因素
+        // Section 11: 风险因素
         renderRiskAssessment(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  function renderMarketsAndCalibration(match) {
+    var markets = match.expandedMarkets || {};
+    var cal = match.marketCalibration || {};
+    var deltas = cal.deltas || [];
+    function marketItem(label, value, note) {
+      return '<div class="market-item"><small>' + label + '</small><strong>' + (value ?? "-") + '</strong><span>' + (note || "") + '</span></div>';
+    }
+    var calibration = cal.market
+      ? '<div class="calibration-grid">' +
+          '<div><small>模型原始</small><strong>' + cal.modelOnly.join(" / ") + '%</strong></div>' +
+          '<div><small>市场隐含</small><strong>' + cal.market.join(" / ") + '%</strong></div>' +
+          '<div><small>校准后</small><strong>' + cal.blended.join(" / ") + '%</strong></div>' +
+        '</div>' +
+        '<div class="delta-row">' +
+          '<span>主胜差 ' + (deltas[0] > 0 ? "+" : "") + (deltas[0] ?? "-") + 'pp</span>' +
+          '<span>平局差 ' + (deltas[1] > 0 ? "+" : "") + (deltas[1] ?? "-") + 'pp</span>' +
+          '<span>客胜差 ' + (deltas[2] > 0 ? "+" : "") + (deltas[2] ?? "-") + 'pp</span>' +
+        '</div>'
+      : '<p class="calibration-note">' + (cal.summary || "暂无市场校准数据。") + '</p>';
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>扩展市场与赔率校准</h3><small>大小球 / BTTS / 市场对照</small></div>' +
+      '<div class="market-grid">' +
+        marketItem("大小球2.5", (markets.over25 ?? "-") + "%", markets.totalGoalsLean || "") +
+        marketItem("双方进球", (markets.bttsYes ?? "-") + "%", markets.bttsLean || "") +
+        marketItem("主队大胜", (markets.homeWinBy2Plus ?? "-") + "%", "赢2球+") +
+        marketItem("客队大胜", (markets.awayWinBy2Plus ?? "-") + "%", "赢2球+") +
+        marketItem("低比分平局", (markets.lowScoreDraw ?? "-") + "%", "0-0/1-1") +
+        marketItem("冷门风险", markets.upsetRisk || "-", "弱侧概率") +
+      '</div>' +
+      '<div class="calibration-box">' +
+        '<strong>赔率校准</strong>' +
+        '<p>' + (cal.summary || "暂无市场校准数据。") + '</p>' +
+        calibration +
+      '</div>' +
+    '</section>';
   }
 
   // ─── DETAIL: 模型输入证据 ───
@@ -753,6 +794,48 @@
       '</div>';
   }
 
+  function renderBacktest() {
+    var root = document.getElementById("backtestRoot");
+    if (!root) return;
+    var rows = backtest.rows || [];
+    function metric(label, value, note) {
+      return '<div class="backtest-metric"><small>' + label + '</small><strong>' + (value ?? "-") + '</strong><span>' + (note || "") + '</span></div>';
+    }
+    root.innerHTML =
+      '<section class="methodology-hero">' +
+        '<h1>模型回测</h1>' +
+        '<p>用已完场比赛验证预测概率、比分覆盖和赔率市场对照，避免模型只会输出、不会自我评估。</p>' +
+      '</section>' +
+      '<div class="methodology-content">' +
+        '<section class="detail-section">' +
+          '<div class="section-title"><h3>回测概览</h3><small>已完场样本</small></div>' +
+          '<div class="backtest-grid">' +
+            metric("已完场", backtest.completedCount || 0, "场") +
+            metric("胜平负命中", (backtest.outcomeHitRate ?? "-") + "%", "模型主方向") +
+            metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
+            metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
+            metric("高信心样本", backtest.highConfidenceCount || 0, "场") +
+            metric("高信心命中", (backtest.highConfidenceHitRate ?? "-") + "%", ">=80%") +
+            metric("赔率可比", backtest.marketComparableCount || 0, "场") +
+            metric("市场命中", (backtest.marketHitRate ?? "-") + "%", "赔率倾向") +
+          '</div>' +
+        '</section>' +
+        '<section class="detail-section">' +
+          '<div class="section-title"><h3>样本明细</h3><small>最近24场</small></div>' +
+          '<div class="backtest-table">' +
+            rows.map(function (row) {
+              return '<div class="backtest-row">' +
+                '<strong>' + row.match + '</strong>' +
+                '<div><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
+                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "比分覆盖" : "比分未覆盖") + '</span></div>' +
+                '<small>概率 ' + row.probabilities.join(" / ") + '% · Brier ' + row.brier + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
+              '</div>';
+            }).join("") +
+          '</div>' +
+        '</section>' +
+      '</div>';
+  }
+
   // ─── SHARED DATA INIT ──────────────────────────────────────────
   days = Array.from(new Set(matches.map(function (item) { return item.date; }))).map(function (date) {
     var parsed = new Date(date + "T12:00:00");
@@ -783,6 +866,8 @@
   // ─── PAGE DISPATCH ──────────────────────────────────────────────
   if (document.getElementById("detailRoot")) {
     renderDetail();
+  } else if (document.getElementById("backtestRoot")) {
+    renderBacktest();
   } else if (document.getElementById("methodologyRoot")) {
     renderMethodology();
   } else {

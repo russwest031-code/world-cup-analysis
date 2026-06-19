@@ -403,6 +403,33 @@ function scoreMatrix(homeGoals, awayGoals) {
   return rows.map(row => ({ ...row, probability: row.probability / total }));
 }
 
+function pct(value) {
+  return Math.round(value * 100);
+}
+
+function expandedMarketsFromMatrix(matrix, probabilities, homeGoals, awayGoals) {
+  const over25 = matrix.filter(row => row.h + row.a > 2.5).reduce((sum, row) => sum + row.probability, 0);
+  const bttsYes = matrix.filter(row => row.h > 0 && row.a > 0).reduce((sum, row) => sum + row.probability, 0);
+  const homeWinBy2 = matrix.filter(row => row.h - row.a >= 2).reduce((sum, row) => sum + row.probability, 0);
+  const awayWinBy2 = matrix.filter(row => row.a - row.h >= 2).reduce((sum, row) => sum + row.probability, 0);
+  const lowScoreDraw = matrix.filter(row => row.h === row.a && row.h + row.a <= 2).reduce((sum, row) => sum + row.probability, 0);
+  const totalGoalsExpected = Number((homeGoals + awayGoals).toFixed(2));
+  const upsetRisk = Math.min(probabilities[0], probabilities[2]);
+  return {
+    over25: pct(over25),
+    under25: pct(1 - over25),
+    bttsYes: pct(bttsYes),
+    bttsNo: pct(1 - bttsYes),
+    homeWinBy2Plus: pct(homeWinBy2),
+    awayWinBy2Plus: pct(awayWinBy2),
+    lowScoreDraw: pct(lowScoreDraw),
+    expectedTotalGoals: totalGoalsExpected,
+    totalGoalsLean: over25 >= 0.55 ? "大于2.5球" : over25 <= 0.45 ? "小于2.5球" : "大小球均衡",
+    bttsLean: bttsYes >= 0.55 ? "双方进球" : bttsYes <= 0.45 ? "至少一方零封" : "双方进球均衡",
+    upsetRisk: upsetRisk >= 30 ? "高" : upsetRisk >= 22 ? "中" : "低"
+  };
+}
+
 function parseBeijingKickoff(date, timeText) {
   const match = String(timeText || "12:00 UTC").match(/(\d{1,2}):(\d{2})\s+UTC([+-]\d+)?/i);
   if (!match) return { date, time: "待定" };
@@ -1180,6 +1207,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  const modelOnlyProbabilities = probabilities.slice();
 
   // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
@@ -1210,6 +1238,19 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     }
     probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
   }
+  const marketCalibration = {
+    status: marketSignals.status,
+    modelOnly: modelOnlyProbabilities,
+    market: marketSignals.impliedProbabilities || null,
+    blended: probabilities.slice(),
+    blendWeight: extBlendWeight,
+    deltas: marketSignals.impliedProbabilities
+      ? marketSignals.impliedProbabilities.map((value, index) => value - modelOnlyProbabilities[index])
+      : null,
+    summary: marketSignals.impliedProbabilities
+      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 ${Math.round(extBlendWeight * 100)}% 权重校准后为 ${probabilities.join("/")}%。`
+      : "暂无可用市场概率，模型未进行赔率校准。"
+  };
 
   const f10 = {
     name: "外部信号", weight: 3,
@@ -1224,6 +1265,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     .sort((a, b) => b.probability - a.probability)
     .slice(0, 4)
     .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(5, Math.round(row.probability * 100)) }));
+  const expandedMarkets = expandedMarketsFromMatrix(matrix, probabilities, homeGoals, awayGoals);
 
   // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);
@@ -1249,6 +1291,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     tag,
     summary,
     scoreOdds,
+    expandedMarkets,
+    marketCalibration,
     motivation,
     tacticalProfile: { home: homeStyle, away: awayStyle },
     factorContributions: factors.map(f => ({
@@ -1297,6 +1341,65 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   };
 }
 
+function actualOutcome(match) {
+  const score = parseActualScore(match);
+  if (!score) return null;
+  if (score[0] > score[1]) return 0;
+  if (score[0] === score[1]) return 1;
+  return 2;
+}
+
+function brierScore(probs, actualIndex) {
+  return probs.reduce((sum, value, index) => {
+    const p = value / 100;
+    const o = index === actualIndex ? 1 : 0;
+    return sum + Math.pow(p - o, 2);
+  }, 0);
+}
+
+function calculateBacktest(matches) {
+  const completed = matches.filter(match => match.status === "completed" && actualOutcome(match) !== null);
+  const rows = completed.map(match => {
+    const actual = actualOutcome(match);
+    const predicted = match.probabilities.indexOf(Math.max(...match.probabilities));
+    const actualScore = match.actualScore;
+    const topScores = (match.scoreOdds || []).map(item => item.score);
+    const market = match.marketSignals?.impliedProbabilities || null;
+    const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
+    return {
+      id: match.id,
+      match: `${match.home.name} vs ${match.away.name}`,
+      actualOutcome: ["主胜", "平局", "客胜"][actual],
+      predictedOutcome: ["主胜", "平局", "客胜"][predicted],
+      outcomeHit: actual === predicted,
+      actualScore,
+      topScoreHit: topScores.includes(actualScore),
+      confidence: match.confidence,
+      brier: Number(brierScore(match.probabilities, actual).toFixed(4)),
+      marketOutcome: marketPredicted === null ? "" : ["主胜", "平局", "客胜"][marketPredicted],
+      marketHit: marketPredicted === null ? null : marketPredicted === actual,
+      probabilities: match.probabilities,
+      marketProbabilities: market
+    };
+  });
+  const count = rows.length || 1;
+  const high = rows.filter(row => row.confidence >= 80);
+  const marketRows = rows.filter(row => row.marketHit !== null);
+  const hitRate = list => list.length ? Math.round(list.filter(row => row.outcomeHit).length / list.length * 100) : null;
+  return {
+    updatedAt: now.toISOString(),
+    completedCount: rows.length,
+    outcomeHitRate: hitRate(rows),
+    highConfidenceCount: high.length,
+    highConfidenceHitRate: hitRate(high),
+    topScoreCoverage: Math.round(rows.filter(row => row.topScoreHit).length / count * 100),
+    averageBrier: Number((rows.reduce((sum, row) => sum + row.brier, 0) / count).toFixed(4)),
+    marketComparableCount: marketRows.length,
+    marketHitRate: marketRows.length ? Math.round(marketRows.filter(row => row.marketHit).length / marketRows.length * 100) : null,
+    rows: rows.slice(0, 24)
+  };
+}
+
 function serialize(matches, metaOverrides = {}) {
   const meta = {
     updatedAt: now.toISOString(),
@@ -1317,7 +1420,8 @@ function serialize(matches, metaOverrides = {}) {
   if (meta.source === "cached-local-fallback" && !metaOverrides.externalFetchedAt) {
     meta.externalFetchedAt = null;
   }
-  return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n`;
+  const backtest = calculateBacktest(matches);
+  return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.ANALYSIS_BACKTEST = ${JSON.stringify(backtest, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n`;
 }
 
 async function main() {

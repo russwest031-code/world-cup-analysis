@@ -18,6 +18,476 @@ window.ANALYSIS_META = {
   "expertArticleCount": 0
 };
 
+window.ANALYSIS_BACKTEST = {
+  "updatedAt": "2026-06-19T13:28:23.854Z",
+  "completedCount": 28,
+  "outcomeHitRate": 57,
+  "highConfidenceCount": 9,
+  "highConfidenceHitRate": 56,
+  "topScoreCoverage": 54,
+  "averageBrier": 0.5836,
+  "marketComparableCount": 0,
+  "marketHitRate": null,
+  "rows": [
+    {
+      "id": "mex-rsa-1",
+      "match": "墨西哥 vs 南非",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "2-0",
+      "topScoreHit": true,
+      "confidence": 81,
+      "brier": 0.1898,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        65,
+        23,
+        12
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "kor-cze-2",
+      "match": "韩国 vs 捷克",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "2-1",
+      "topScoreHit": true,
+      "confidence": 70,
+      "brier": 0.5418,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        40,
+        27,
+        33
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "can-bih-7",
+      "match": "加拿大 vs 波黑",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 74,
+      "brier": 0.9206,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        51,
+        23,
+        26
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "usa-par-19",
+      "match": "美国 vs 巴拉圭",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "4-1",
+      "topScoreHit": false,
+      "confidence": 74,
+      "brier": 0.3914,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        49,
+        23,
+        28
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "qat-sui-8",
+      "match": "卡塔尔 vs 瑞士",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 78,
+      "brier": 0.9734,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        18,
+        23,
+        59
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bra-mar-13",
+      "match": "巴西 vs 摩洛哥",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 70,
+      "brier": 0.8664,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        38,
+        24,
+        38
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "hai-sco-14",
+      "match": "海地 vs 苏格兰",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "0-1",
+      "topScoreHit": true,
+      "confidence": 81,
+      "brier": 0.2472,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        14,
+        26,
+        60
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "aus-tur-20",
+      "match": "澳大利亚 vs 土耳其",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "2-0",
+      "topScoreHit": false,
+      "confidence": 74,
+      "brier": 0.8306,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        27,
+        24,
+        49
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ger-cuw-25",
+      "match": "德国 vs 库拉索",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "7-1",
+      "topScoreHit": false,
+      "confidence": 88,
+      "brier": 0.0806,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        77,
+        14,
+        9
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ned-jpn-31",
+      "match": "荷兰 vs 日本",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "2-2",
+      "topScoreHit": true,
+      "confidence": 72,
+      "brier": 0.8918,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        42,
+        23,
+        35
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "civ-ecu-26",
+      "match": "科特迪瓦 vs 厄瓜多尔",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-0",
+      "topScoreHit": true,
+      "confidence": 70,
+      "brier": 0.6794,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        33,
+        28,
+        39
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "swe-tun-32",
+      "match": "瑞典 vs 突尼斯",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "5-1",
+      "topScoreHit": false,
+      "confidence": 71,
+      "brier": 0.4562,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        45,
+        24,
+        31
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "esp-cpv-43",
+      "match": "西班牙 vs 佛得角",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "0-0",
+      "topScoreHit": false,
+      "confidence": 85,
+      "brier": 1.1582,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        70,
+        19,
+        11
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bel-egy-37",
+      "match": "比利时 vs 埃及",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 72,
+      "brier": 0.8702,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        49,
+        25,
+        26
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ksa-uru-44",
+      "match": "沙特阿拉伯 vs 乌拉圭",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 81,
+      "brier": 0.9816,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        14,
+        24,
+        62
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "irn-nzl-38",
+      "match": "伊朗 vs 新西兰",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "2-2",
+      "topScoreHit": false,
+      "confidence": 80,
+      "brier": 1.0184,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        62,
+        22,
+        16
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "fra-sen-49",
+      "match": "法国 vs 塞内加尔",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-1",
+      "topScoreHit": true,
+      "confidence": 78,
+      "brier": 0.2906,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        56,
+        21,
+        23
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "irq-nor-50",
+      "match": "伊拉克 vs 挪威",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-4",
+      "topScoreHit": false,
+      "confidence": 77,
+      "brier": 0.2906,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        23,
+        21,
+        56
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "arg-alg-55",
+      "match": "阿根廷 vs 阿尔及利亚",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-0",
+      "topScoreHit": false,
+      "confidence": 81,
+      "brier": 0.2058,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        63,
+        20,
+        17
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "aut-jor-56",
+      "match": "奥地利 vs 约旦",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-1",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.3038,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        55,
+        22,
+        23
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "por-cod-61",
+      "match": "葡萄牙 vs 刚果（金）",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 83,
+      "brier": 1.0986,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        68,
+        21,
+        11
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "eng-cro-67",
+      "match": "英格兰 vs 克罗地亚",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "4-2",
+      "topScoreHit": false,
+      "confidence": 75,
+      "brier": 0.3626,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        51,
+        21,
+        28
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "gha-pan-68",
+      "match": "加纳 vs 巴拿马",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "1-0",
+      "topScoreHit": true,
+      "confidence": 71,
+      "brier": 0.5048,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        42,
+        30,
+        28
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "uzb-col-62",
+      "match": "乌兹别克斯坦 vs 哥伦比亚",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-3",
+      "topScoreHit": false,
+      "confidence": 82,
+      "brier": 0.1742,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        15,
+        19,
+        66
+      ],
+      "marketProbabilities": null
+    }
+  ]
+};
+
 window.MATCHES = [
   {
     "id": "mex-rsa-1",
@@ -578,7 +1048,37 @@ window.MATCHES = [
       "home": 1.72,
       "away": 0.57
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.29,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 35
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        65,
+        23,
+        12
+      ],
+      "market": null,
+      "blended": [
+        65,
+        23,
+        12
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "kor-cze-2",
@@ -1139,7 +1639,37 @@ window.MATCHES = [
       "home": 1.35,
       "away": 1.21
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.56,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        27,
+        33
+      ],
+      "market": null,
+      "blended": [
+        40,
+        27,
+        33
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "can-bih-7",
@@ -1700,7 +2230,37 @@ window.MATCHES = [
       "home": 1.82,
       "away": 1.23
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.05,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 49
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        51,
+        23,
+        26
+      ],
+      "market": null,
+      "blended": [
+        51,
+        23,
+        26
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "usa-par-19",
@@ -2261,7 +2821,37 @@ window.MATCHES = [
       "home": 1.93,
       "away": 1.38
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 64,
+      "under25": 36,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 13,
+      "expectedTotalGoals": 3.31,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 51
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        49,
+        23,
+        28
+      ],
+      "market": null,
+      "blended": [
+        49,
+        23,
+        28
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "qat-sui-8",
@@ -2822,7 +3412,37 @@ window.MATCHES = [
       "home": 0.91,
       "away": 1.86
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 35,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.77,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 41
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        18,
+        23,
+        59
+      ],
+      "market": null,
+      "blended": [
+        18,
+        23,
+        59
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "bra-mar-13",
@@ -3383,7 +4003,37 @@ window.MATCHES = [
       "home": 1.51,
       "away": 1.5
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.01,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 62
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        24,
+        38
+      ],
+      "market": null,
+      "blended": [
+        38,
+        24,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "hai-sco-14",
@@ -3944,7 +4594,37 @@ window.MATCHES = [
       "home": 0.58,
       "away": 1.49
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 31,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.07,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 40
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        14,
+        26,
+        60
+      ],
+      "market": null,
+      "blended": [
+        14,
+        26,
+        60
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "aus-tur-20",
@@ -4505,7 +5185,37 @@ window.MATCHES = [
       "home": 1.19,
       "away": 1.68
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 26,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.87,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 51
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        27,
+        24,
+        49
+      ],
+      "market": null,
+      "blended": [
+        27,
+        24,
+        49
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "ger-cuw-25",
@@ -5066,7 +5776,37 @@ window.MATCHES = [
       "home": 2.99,
       "away": 0.94
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 74,
+      "under25": 26,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 58,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 8,
+      "expectedTotalGoals": 3.93,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 23
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        77,
+        14,
+        9
+      ],
+      "market": null,
+      "blended": [
+        77,
+        14,
+        9
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "ned-jpn-31",
@@ -5627,7 +6367,37 @@ window.MATCHES = [
       "home": 1.86,
       "away": 1.65
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 68,
+      "under25": 32,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.51,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        42,
+        23,
+        35
+      ],
+      "market": null,
+      "blended": [
+        42,
+        23,
+        35
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "civ-ecu-26",
@@ -6188,7 +6958,37 @@ window.MATCHES = [
       "home": 1.12,
       "away": 1.25
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 13,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.37,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 61
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        33,
+        28,
+        39
+      ],
+      "market": null,
+      "blended": [
+        33,
+        28,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "swe-tun-32",
@@ -6749,7 +7549,37 @@ window.MATCHES = [
       "home": 1.65,
       "away": 1.32
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.97,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 55
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        45,
+        24,
+        31
+      ],
+      "market": null,
+      "blended": [
+        45,
+        24,
+        31
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "esp-cpv-43",
@@ -7310,7 +8140,37 @@ window.MATCHES = [
       "home": 2.07,
       "away": 0.65
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 45,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.72,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 30
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        70,
+        19,
+        11
+      ],
+      "market": null,
+      "blended": [
+        70,
+        19,
+        11
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "bel-egy-37",
@@ -7871,7 +8731,37 @@ window.MATCHES = [
       "home": 1.65,
       "away": 1.14
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 26,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.79,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 51
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        49,
+        25,
+        26
+      ],
+      "market": null,
+      "blended": [
+        49,
+        25,
+        26
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "ksa-uru-44",
@@ -8432,7 +9322,37 @@ window.MATCHES = [
       "home": 0.65,
       "away": 1.7
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.35,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 38
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        14,
+        24,
+        62
+      ],
+      "market": null,
+      "blended": [
+        14,
+        24,
+        62
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "irn-nzl-38",
@@ -8993,7 +9913,37 @@ window.MATCHES = [
       "home": 1.9,
       "away": 0.83
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 37,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.73,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 38
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        62,
+        22,
+        16
+      ],
+      "market": null,
+      "blended": [
+        62,
+        22,
+        16
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "fra-sen-49",
@@ -9554,7 +10504,37 @@ window.MATCHES = [
       "home": 2.25,
       "away": 1.35
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 69,
+      "under25": 31,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 36,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 11,
+      "expectedTotalGoals": 3.6,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 44
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        56,
+        21,
+        23
+      ],
+      "market": null,
+      "blended": [
+        56,
+        21,
+        23
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "irq-nor-50",
@@ -10115,7 +11095,37 @@ window.MATCHES = [
       "home": 1.3,
       "away": 2.14
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 67,
+      "under25": 33,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 9,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.44,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 44
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        23,
+        21,
+        56
+      ],
+      "market": null,
+      "blended": [
+        23,
+        21,
+        56
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "arg-alg-55",
@@ -10676,7 +11686,37 @@ window.MATCHES = [
       "home": 2.22,
       "away": 1.05
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 40,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 13,
+      "expectedTotalGoals": 3.27,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 37
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        63,
+        20,
+        17
+      ],
+      "market": null,
+      "blended": [
+        63,
+        20,
+        17
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "aut-jor-56",
@@ -11237,7 +12277,37 @@ window.MATCHES = [
       "home": 1.95,
       "away": 1.17
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 32,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.12,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 45
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        55,
+        22,
+        23
+      ],
+      "market": null,
+      "blended": [
+        55,
+        22,
+        23
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "por-cod-61",
@@ -11798,7 +12868,37 @@ window.MATCHES = [
       "home": 1.92,
       "away": 0.61
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 42,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.53,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 32
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        68,
+        21,
+        11
+      ],
+      "market": null,
+      "blended": [
+        68,
+        21,
+        11
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "eng-cro-67",
@@ -12359,7 +13459,37 @@ window.MATCHES = [
       "home": 2.33,
       "away": 1.65
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 76,
+      "under25": 24,
+      "bttsYes": 73,
+      "bttsNo": 27,
+      "homeWinBy2Plus": 32,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 3.98,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 49
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        51,
+        21,
+        28
+      ],
+      "market": null,
+      "blended": [
+        51,
+        21,
+        28
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "gha-pan-68",
@@ -12920,7 +14050,37 @@ window.MATCHES = [
       "home": 1.14,
       "away": 0.86
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        42,
+        30,
+        28
+      ],
+      "market": null,
+      "blended": [
+        42,
+        30,
+        28
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "uzb-col-62",
@@ -13481,7 +14641,37 @@ window.MATCHES = [
       "home": 0.99,
       "away": 2.33
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 64,
+      "under25": 36,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 44,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.32,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 34
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        15,
+        19,
+        66
+      ],
+      "market": null,
+      "blended": [
+        15,
+        19,
+        66
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "cze-rsa-3",
@@ -14042,7 +15232,37 @@ window.MATCHES = [
       "home": 1.38,
       "away": 0.74
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 26,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.12,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 48
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        52,
+        28,
+        20
+      ],
+      "market": null,
+      "blended": [
+        52,
+        28,
+        20
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "sui-bih-9",
@@ -14603,7 +15823,37 @@ window.MATCHES = [
       "home": 1.69,
       "away": 1.09
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.78,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 49
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        51,
+        24,
+        25
+      ],
+      "market": null,
+      "blended": [
+        51,
+        24,
+        25
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "can-qat-10",
@@ -15164,7 +16414,37 @@ window.MATCHES = [
       "home": 2.04,
       "away": 1.04
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 37,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 14,
+      "expectedTotalGoals": 3.08,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 40
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        60,
+        21,
+        19
+      ],
+      "market": null,
+      "blended": [
+        60,
+        21,
+        19
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "mex-kor-4",
@@ -15725,7 +17005,37 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.43
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.89,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 62
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        25,
+        37
+      ],
+      "market": null,
+      "blended": [
+        38,
+        25,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "usa-aus-21",
@@ -16326,7 +17636,45 @@ window.MATCHES = [
       "home": 2.09,
       "away": 1.46
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 69,
+      "under25": 31,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 31,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.55,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 47
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        51,
+        20,
+        29
+      ],
+      "market": [
+        59,
+        22,
+        19
+      ],
+      "blended": [
+        53,
+        20,
+        27
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        8,
+        2,
+        -10
+      ],
+      "summary": "模型原始概率 51/20/29%；市场隐含概率 59/22/19%；按 16% 权重校准后为 53/20/27%。"
+    }
   },
   {
     "id": "sco-mar-15",
@@ -16927,7 +18275,45 @@ window.MATCHES = [
       "home": 1.07,
       "away": 1.7
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 9,
+      "awayWinBy2Plus": 28,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.77,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 46
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        25,
+        22,
+        53
+      ],
+      "market": [
+        17,
+        26,
+        57
+      ],
+      "blended": [
+        23,
+        23,
+        54
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -8,
+        4,
+        4
+      ],
+      "summary": "模型原始概率 25/22/53%；市场隐含概率 17/26/57%；按 16% 权重校准后为 23/23/54%。"
+    }
   },
   {
     "id": "bra-hai-16",
@@ -17528,7 +18914,45 @@ window.MATCHES = [
       "home": 1.85,
       "away": 0.58
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 37,
+      "bttsNo": 63,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.43,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 28
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        69,
+        19,
+        12
+      ],
+      "market": [
+        87,
+        9,
+        4
+      ],
+      "blended": [
+        72,
+        17,
+        11
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        18,
+        -10,
+        -8
+      ],
+      "summary": "模型原始概率 69/19/12%；市场隐含概率 87/9/4%；按 16% 权重校准后为 72/17/11%。"
+    }
   },
   {
     "id": "tur-par-22",
@@ -18129,7 +19553,45 @@ window.MATCHES = [
       "home": 1.63,
       "away": 1.21
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.84,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 51
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        49,
+        21,
+        30
+      ],
+      "market": [
+        47,
+        28,
+        25
+      ],
+      "blended": [
+        49,
+        22,
+        29
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -2,
+        7,
+        -5
+      ],
+      "summary": "模型原始概率 49/21/30%；市场隐含概率 47/28/25%；按 16% 权重校准后为 49/22/29%。"
+    }
   },
   {
     "id": "ned-swe-33",
@@ -18730,7 +20192,45 @@ window.MATCHES = [
       "home": 2.31,
       "away": 1.65
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 75,
+      "under25": 25,
+      "bttsYes": 73,
+      "bttsNo": 27,
+      "homeWinBy2Plus": 32,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 3.96,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 46
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        54,
+        18,
+        28
+      ],
+      "market": [
+        54,
+        25,
+        21
+      ],
+      "blended": [
+        54,
+        19,
+        27
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        0,
+        7,
+        -7
+      ],
+      "summary": "模型原始概率 54/18/28%；市场隐含概率 54/25/21%；按 16% 权重校准后为 54/19/27%。"
+    }
   },
   {
     "id": "ger-civ-27",
@@ -19331,7 +20831,45 @@ window.MATCHES = [
       "home": 2.59,
       "away": 1.66
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 79,
+      "under25": 21,
+      "bttsYes": 75,
+      "bttsNo": 25,
+      "homeWinBy2Plus": 37,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 8,
+      "expectedTotalGoals": 4.25,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 42
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        57,
+        17,
+        26
+      ],
+      "market": [
+        63,
+        21,
+        16
+      ],
+      "blended": [
+        58,
+        18,
+        24
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        6,
+        4,
+        -10
+      ],
+      "summary": "模型原始概率 57/17/26%；市场隐含概率 63/21/16%；按 16% 权重校准后为 58/18/24%。"
+    }
   },
   {
     "id": "ecu-cuw-28",
@@ -19932,7 +21470,45 @@ window.MATCHES = [
       "home": 1.79,
       "away": 0.57
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 40,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.36,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 28
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        69,
+        19,
+        12
+      ],
+      "market": [
+        87,
+        9,
+        4
+      ],
+      "blended": [
+        72,
+        17,
+        11
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        18,
+        -10,
+        -8
+      ],
+      "summary": "模型原始概率 69/19/12%；市场隐含概率 87/9/4%；按 16% 权重校准后为 72/17/11%。"
+    }
   },
   {
     "id": "tun-jpn-34",
@@ -20533,7 +22109,45 @@ window.MATCHES = [
       "home": 1.23,
       "away": 1.91
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 10,
+      "awayWinBy2Plus": 30,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.14,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 45
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        27,
+        19,
+        54
+      ],
+      "market": [
+        15,
+        23,
+        62
+      ],
+      "blended": [
+        25,
+        20,
+        55
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -12,
+        4,
+        8
+      ],
+      "summary": "模型原始概率 27/19/54%；市场隐含概率 15/23/62%；按 16% 权重校准后为 25/20/55%。"
+    }
   },
   {
     "id": "esp-ksa-45",
@@ -21134,7 +22748,45 @@ window.MATCHES = [
       "home": 2.13,
       "away": 0.67
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 46,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 2.8,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 26
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        72,
+        17,
+        11
+      ],
+      "market": [
+        87,
+        9,
+        4
+      ],
+      "blended": [
+        74,
+        16,
+        10
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        15,
+        -8,
+        -7
+      ],
+      "summary": "模型原始概率 72/17/11%；市场隐含概率 87/9/4%；按 16% 权重校准后为 74/16/10%。"
+    }
   },
   {
     "id": "bel-irn-39",
@@ -21735,7 +23387,45 @@ window.MATCHES = [
       "home": 1.59,
       "away": 1.34
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 22,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.93,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 52
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        45,
+        22,
+        33
+      ],
+      "market": [
+        68,
+        20,
+        12
+      ],
+      "blended": [
+        48,
+        22,
+        30
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        23,
+        -2,
+        -21
+      ],
+      "summary": "模型原始概率 45/22/33%；市场隐含概率 68/20/12%；按 16% 权重校准后为 48/22/30%。"
+    }
   },
   {
     "id": "uru-cpv-46",
@@ -22336,7 +24026,45 @@ window.MATCHES = [
       "home": 1.9,
       "away": 0.77
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 46,
+      "bttsNo": 54,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.67,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 35
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        65,
+        19,
+        16
+      ],
+      "market": [
+        65,
+        23,
+        12
+      ],
+      "blended": [
+        65,
+        20,
+        15
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        0,
+        4,
+        -4
+      ],
+      "summary": "模型原始概率 65/19/16%；市场隐含概率 65/23/12%；按 16% 权重校准后为 65/20/15%。"
+    }
   },
   {
     "id": "nzl-egy-40",
@@ -22937,7 +24665,45 @@ window.MATCHES = [
       "home": 0.89,
       "away": 2.15
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 42,
+      "lowScoreDraw": 14,
+      "expectedTotalGoals": 3.04,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 34
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        15,
+        18,
+        67
+      ],
+      "market": [
+        17,
+        24,
+        59
+      ],
+      "blended": [
+        15,
+        19,
+        66
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        2,
+        6,
+        -8
+      ],
+      "summary": "模型原始概率 15/18/67%；市场隐含概率 17/24/59%；按 16% 权重校准后为 15/19/66%。"
+    }
   },
   {
     "id": "arg-aut-57",
@@ -23538,7 +25304,45 @@ window.MATCHES = [
       "home": 2.82,
       "away": 1.43
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 79,
+      "under25": 21,
+      "bttsYes": 71,
+      "bttsNo": 29,
+      "homeWinBy2Plus": 45,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 7,
+      "expectedTotalGoals": 4.25,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 36
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        64,
+        16,
+        20
+      ],
+      "market": [
+        60,
+        24,
+        16
+      ],
+      "blended": [
+        64,
+        17,
+        19
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -4,
+        8,
+        -4
+      ],
+      "summary": "模型原始概率 64/16/20%；市场隐含概率 60/24/16%；按 16% 权重校准后为 64/17/19%。"
+    }
   },
   {
     "id": "fra-irq-51",
@@ -24139,7 +25943,45 @@ window.MATCHES = [
       "home": 2.66,
       "away": 1.08
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 72,
+      "under25": 28,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 49,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 3.74,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 26
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        71,
+        15,
+        14
+      ],
+      "market": [
+        88,
+        9,
+        3
+      ],
+      "blended": [
+        74,
+        14,
+        12
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        17,
+        -6,
+        -11
+      ],
+      "summary": "模型原始概率 71/15/14%；市场隐含概率 88/9/3%；按 16% 权重校准后为 74/14/12%。"
+    }
   },
   {
     "id": "nor-sen-52",
@@ -24740,7 +26582,45 @@ window.MATCHES = [
       "home": 1.82,
       "away": 1.93
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 72,
+      "under25": 28,
+      "bttsYes": 72,
+      "bttsNo": 28,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 22,
+      "lowScoreDraw": 11,
+      "expectedTotalGoals": 3.75,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        38,
+        19,
+        43
+      ],
+      "market": [
+        41,
+        27,
+        32
+      ],
+      "blended": [
+        39,
+        20,
+        41
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        3,
+        8,
+        -11
+      ],
+      "summary": "模型原始概率 38/19/43%；市场隐含概率 41/27/32%；按 16% 权重校准后为 39/20/41%。"
+    }
   },
   {
     "id": "jor-alg-58",
@@ -25341,7 +27221,45 @@ window.MATCHES = [
       "home": 1.17,
       "away": 1.64
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 25,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.81,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 47
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        28,
+        21,
+        51
+      ],
+      "market": [
+        16,
+        23,
+        61
+      ],
+      "blended": [
+        26,
+        21,
+        53
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -12,
+        2,
+        10
+      ],
+      "summary": "模型原始概率 28/21/51%；市场隐含概率 16/23/61%；按 16% 权重校准后为 26/21/53%。"
+    }
   },
   {
     "id": "por-uzb-63",
@@ -25942,7 +27860,45 @@ window.MATCHES = [
       "home": 2.27,
       "away": 0.89
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 45,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 13,
+      "expectedTotalGoals": 3.16,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 29
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        70,
+        16,
+        14
+      ],
+      "market": [
+        80,
+        14,
+        6
+      ],
+      "blended": [
+        71,
+        16,
+        13
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        10,
+        -2,
+        -8
+      ],
+      "summary": "模型原始概率 70/16/14%；市场隐含概率 80/14/6%；按 16% 权重校准后为 71/16/13%。"
+    }
   },
   {
     "id": "eng-gha-69",
@@ -26543,7 +28499,45 @@ window.MATCHES = [
       "home": 2.86,
       "away": 0.9
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 72,
+      "under25": 28,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 57,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 3.76,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 23
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        76,
+        13,
+        11
+      ],
+      "market": [
+        78,
+        15,
+        7
+      ],
+      "blended": [
+        77,
+        13,
+        10
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        2,
+        2,
+        -4
+      ],
+      "summary": "模型原始概率 76/13/11%；市场隐含概率 78/15/7%；按 16% 权重校准后为 77/13/10%。"
+    }
   },
   {
     "id": "pan-cro-70",
@@ -27144,7 +29138,45 @@ window.MATCHES = [
       "home": 0.75,
       "away": 1.96
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 40,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.71,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 33
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        15,
+        17,
+        68
+      ],
+      "market": [
+        14,
+        24,
+        62
+      ],
+      "blended": [
+        15,
+        18,
+        67
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -1,
+        7,
+        -6
+      ],
+      "summary": "模型原始概率 15/17/68%；市场隐含概率 14/24/62%；按 16% 权重校准后为 15/18/67%。"
+    }
   },
   {
     "id": "col-cod-64",
@@ -27745,7 +29777,45 @@ window.MATCHES = [
       "home": 2.59,
       "away": 0.85
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 66,
+      "under25": 34,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 52,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 10,
+      "expectedTotalGoals": 3.44,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 26
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        77,
+        13,
+        10
+      ],
+      "market": [
+        63,
+        23,
+        14
+      ],
+      "blended": [
+        74,
+        15,
+        11
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -14,
+        10,
+        4
+      ],
+      "summary": "模型原始概率 77/13/10%；市场隐含概率 63/23/14%；按 16% 权重校准后为 74/15/11%。"
+    }
   },
   {
     "id": "sui-can-11",
@@ -28346,7 +30416,45 @@ window.MATCHES = [
       "home": 1.86,
       "away": 1.58
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 67,
+      "under25": 33,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 13,
+      "expectedTotalGoals": 3.44,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 56
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        45,
+        21,
+        34
+      ],
+      "market": [
+        39,
+        31,
+        30
+      ],
+      "blended": [
+        44,
+        23,
+        33
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -6,
+        10,
+        -4
+      ],
+      "summary": "模型原始概率 45/21/34%；市场隐含概率 39/31/30%；按 16% 权重校准后为 44/23/33%。"
+    }
   },
   {
     "id": "bih-qat-12",
@@ -28947,7 +31055,45 @@ window.MATCHES = [
       "home": 1.74,
       "away": 1.22
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 27,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.96,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 45
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        53,
+        19,
+        28
+      ],
+      "market": [
+        67,
+        20,
+        13
+      ],
+      "blended": [
+        55,
+        19,
+        26
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        14,
+        1,
+        -15
+      ],
+      "summary": "模型原始概率 53/19/28%；市场隐含概率 67/20/13%；按 16% 权重校准后为 55/19/26%。"
+    }
   },
   {
     "id": "sco-bra-17",
@@ -29548,7 +31694,45 @@ window.MATCHES = [
       "home": 1.05,
       "away": 1.68
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 9,
+      "awayWinBy2Plus": 28,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.73,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 44
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        24,
+        22,
+        54
+      ],
+      "market": [
+        13,
+        20,
+        67
+      ],
+      "blended": [
+        22,
+        22,
+        56
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -11,
+        -2,
+        13
+      ],
+      "summary": "模型原始概率 24/22/54%；市场隐含概率 13/20/67%；按 16% 权重校准后为 22/22/56%。"
+    }
   },
   {
     "id": "mar-hai-18",
@@ -30149,7 +32333,45 @@ window.MATCHES = [
       "home": 1.74,
       "away": 0.55
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 39,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.29,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 32
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        66,
+        21,
+        13
+      ],
+      "market": [
+        74,
+        17,
+        9
+      ],
+      "blended": [
+        68,
+        20,
+        12
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        8,
+        -4,
+        -4
+      ],
+      "summary": "模型原始概率 66/21/13%；市场隐含概率 74/17/9%；按 16% 权重校准后为 68/20/12%。"
+    }
   },
   {
     "id": "cze-mex-5",
@@ -30750,7 +32972,45 @@ window.MATCHES = [
       "home": 1.69,
       "away": 1.45
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.14,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 57
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        46,
+        21,
+        33
+      ],
+      "market": [
+        28,
+        27,
+        45
+      ],
+      "blended": [
+        43,
+        22,
+        35
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -18,
+        6,
+        12
+      ],
+      "summary": "模型原始概率 46/21/33%；市场隐含概率 28/27/45%；按 16% 权重校准后为 43/22/35%。"
+    }
   },
   {
     "id": "rsa-kor-6",
@@ -31351,7 +33611,45 @@ window.MATCHES = [
       "home": 0.87,
       "away": 1.7
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 32,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.57,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 40
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        20,
+        20,
+        60
+      ],
+      "market": [
+        17,
+        24,
+        59
+      ],
+      "blended": [
+        19,
+        21,
+        60
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -3,
+        4,
+        -1
+      ],
+      "summary": "模型原始概率 20/20/60%；市场隐含概率 17/24/59%；按 16% 权重校准后为 19/21/60%。"
+    }
   },
   {
     "id": "cuw-civ-29",
@@ -31952,7 +34250,45 @@ window.MATCHES = [
       "home": 0.77,
       "away": 1.8
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.57,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 34
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        16,
+        21,
+        63
+      ],
+      "market": [
+        5,
+        11,
+        84
+      ],
+      "blended": [
+        15,
+        19,
+        66
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -11,
+        -10,
+        21
+      ],
+      "summary": "模型原始概率 16/21/63%；市场隐含概率 5/11/84%；按 16% 权重校准后为 15/19/66%。"
+    }
   },
   {
     "id": "ecu-ger-30",
@@ -32553,7 +34889,45 @@ window.MATCHES = [
       "home": 1.93,
       "away": 2.09
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 76,
+      "under25": 24,
+      "bttsYes": 75,
+      "bttsNo": 25,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 24,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 4.02,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 55
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        38,
+        19,
+        43
+      ],
+      "market": [
+        19,
+        25,
+        56
+      ],
+      "blended": [
+        35,
+        20,
+        45
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -19,
+        6,
+        13
+      ],
+      "summary": "模型原始概率 38/19/43%；市场隐含概率 19/25/56%；按 16% 权重校准后为 35/20/45%。"
+    }
   },
   {
     "id": "jpn-swe-35",
@@ -33154,7 +35528,45 @@ window.MATCHES = [
       "home": 2.29,
       "away": 1.67
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 75,
+      "under25": 25,
+      "bttsYes": 73,
+      "bttsNo": 27,
+      "homeWinBy2Plus": 31,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 9,
+      "expectedTotalGoals": 3.96,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 49
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        53,
+        18,
+        29
+      ],
+      "market": [
+        44,
+        28,
+        28
+      ],
+      "blended": [
+        51,
+        20,
+        29
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -9,
+        10,
+        -1
+      ],
+      "summary": "模型原始概率 53/18/29%；市场隐含概率 44/28/28%；按 16% 权重校准后为 51/20/29%。"
+    }
   },
   {
     "id": "tun-ned-36",
@@ -33755,7 +36167,45 @@ window.MATCHES = [
       "home": 1.15,
       "away": 1.84
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 9,
+      "awayWinBy2Plus": 30,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.99,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 42
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        25,
+        20,
+        55
+      ],
+      "market": [
+        10,
+        18,
+        72
+      ],
+      "blended": [
+        22,
+        20,
+        58
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -15,
+        -2,
+        17
+      ],
+      "summary": "模型原始概率 25/20/55%；市场隐含概率 10/18/72%；按 16% 权重校准后为 22/20/58%。"
+    }
   },
   {
     "id": "tur-usa-23",
@@ -34356,7 +36806,45 @@ window.MATCHES = [
       "home": 1.86,
       "away": 1.73
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 69,
+      "under25": 31,
+      "bttsYes": 69,
+      "bttsNo": 31,
+      "homeWinBy2Plus": 22,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.59,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        44,
+        20,
+        36
+      ],
+      "market": [
+        34,
+        26,
+        40
+      ],
+      "blended": [
+        42,
+        21,
+        37
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -10,
+        6,
+        4
+      ],
+      "summary": "模型原始概率 44/20/36%；市场隐含概率 34/26/40%；按 16% 权重校准后为 42/21/37%。"
+    }
   },
   {
     "id": "par-aus-24",
@@ -34957,7 +37445,45 @@ window.MATCHES = [
       "home": 1.66,
       "away": 1.38
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.04,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 54
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        46,
+        21,
+        33
+      ],
+      "market": [
+        43,
+        29,
+        28
+      ],
+      "blended": [
+        46,
+        22,
+        32
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -3,
+        8,
+        -5
+      ],
+      "summary": "模型原始概率 46/21/33%；市场隐含概率 43/29/28%；按 16% 权重校准后为 46/22/32%。"
+    }
   },
   {
     "id": "nor-fra-53",
@@ -35558,7 +38084,45 @@ window.MATCHES = [
       "home": 1.65,
       "away": 2.6
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 79,
+      "under25": 21,
+      "bttsYes": 75,
+      "bttsNo": 25,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 37,
+      "lowScoreDraw": 8,
+      "expectedTotalGoals": 4.25,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 43
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        25,
+        17,
+        58
+      ],
+      "market": [
+        23,
+        25,
+        52
+      ],
+      "blended": [
+        25,
+        18,
+        57
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -2,
+        8,
+        -6
+      ],
+      "summary": "模型原始概率 25/17/58%；市场隐含概率 23/25/52%；按 16% 权重校准后为 25/18/57%。"
+    }
   },
   {
     "id": "sen-irq-54",
@@ -36159,7 +38723,45 @@ window.MATCHES = [
       "home": 1.77,
       "away": 1.08
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 30,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.85,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 43
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        55,
+        20,
+        25
+      ],
+      "market": [
+        72,
+        18,
+        10
+      ],
+      "blended": [
+        57,
+        20,
+        23
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        17,
+        -2,
+        -15
+      ],
+      "summary": "模型原始概率 55/20/25%；市场隐含概率 72/18/10%；按 16% 权重校准后为 57/20/23%。"
+    }
   },
   {
     "id": "cpv-ksa-47",
@@ -36760,7 +39362,45 @@ window.MATCHES = [
       "home": 1.16,
       "away": 1.1
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 46,
+      "bttsNo": 54,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.26,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 62
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        39,
+        26,
+        35
+      ],
+      "market": [
+        35,
+        26,
+        39
+      ],
+      "blended": [
+        38,
+        26,
+        36
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -4,
+        0,
+        4
+      ],
+      "summary": "模型原始概率 39/26/35%；市场隐含概率 35/26/39%；按 16% 权重校准后为 38/26/36%。"
+    }
   },
   {
     "id": "uru-esp-48",
@@ -37361,7 +40001,45 @@ window.MATCHES = [
       "home": 1.27,
       "away": 1.8
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.07,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 47
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        28,
+        21,
+        51
+      ],
+      "market": [
+        16,
+        23,
+        61
+      ],
+      "blended": [
+        26,
+        21,
+        53
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -12,
+        2,
+        10
+      ],
+      "summary": "模型原始概率 28/21/51%；市场隐含概率 16/23/61%；按 16% 权重校准后为 26/21/53%。"
+    }
   },
   {
     "id": "egy-irn-41",
@@ -37962,7 +40640,45 @@ window.MATCHES = [
       "home": 1.57,
       "away": 1.6
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.17,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        40,
+        20,
+        40
+      ],
+      "market": [
+        45,
+        30,
+        25
+      ],
+      "blended": [
+        40,
+        22,
+        38
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        5,
+        10,
+        -15
+      ],
+      "summary": "模型原始概率 40/20/40%；市场隐含概率 45/30/25%；按 16% 权重校准后为 40/22/38%。"
+    }
   },
   {
     "id": "nzl-bel-42",
@@ -38563,7 +41279,45 @@ window.MATCHES = [
       "home": 0.69,
       "away": 2.18
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 44,
+      "bttsNo": 56,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 47,
+      "lowScoreDraw": 14,
+      "expectedTotalGoals": 2.87,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 26
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        11,
+        16,
+        73
+      ],
+      "market": [
+        8,
+        15,
+        77
+      ],
+      "blended": [
+        10,
+        16,
+        74
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -3,
+        -1,
+        4
+      ],
+      "summary": "模型原始概率 11/16/73%；市场隐含概率 8/15/77%；按 16% 权重校准后为 10/16/74%。"
+    }
   },
   {
     "id": "pan-eng-71",
@@ -39164,7 +41918,45 @@ window.MATCHES = [
       "home": 0.82,
       "away": 2.61
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 66,
+      "under25": 34,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 54,
+      "lowScoreDraw": 10,
+      "expectedTotalGoals": 3.43,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 24
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        10,
+        14,
+        76
+      ],
+      "market": [
+        10,
+        15,
+        75
+      ],
+      "blended": [
+        10,
+        14,
+        76
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        0,
+        1,
+        -1
+      ],
+      "summary": "模型原始概率 10/14/76%；市场隐含概率 10/15/75%；按 16% 权重校准后为 10/14/76%。"
+    }
   },
   {
     "id": "cro-gha-72",
@@ -39765,7 +42557,45 @@ window.MATCHES = [
       "home": 2.11,
       "away": 0.8
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 43,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 2.91,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 32
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        70,
+        17,
+        13
+      ],
+      "market": [
+        58,
+        25,
+        17
+      ],
+      "blended": [
+        68,
+        18,
+        14
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -12,
+        8,
+        4
+      ],
+      "summary": "模型原始概率 70/17/13%；市场隐含概率 58/25/17%；按 16% 权重校准后为 68/18/14%。"
+    }
   },
   {
     "id": "col-por-65",
@@ -40366,7 +43196,45 @@ window.MATCHES = [
       "home": 1.72,
       "away": 2.09
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 73,
+      "under25": 27,
+      "bttsYes": 72,
+      "bttsNo": 28,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 10,
+      "expectedTotalGoals": 3.81,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 53
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        35,
+        18,
+        47
+      ],
+      "market": [
+        27,
+        28,
+        45
+      ],
+      "blended": [
+        33,
+        20,
+        47
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -8,
+        10,
+        -2
+      ],
+      "summary": "模型原始概率 35/18/47%；市场隐含概率 27/28/45%；按 16% 权重校准后为 33/20/47%。"
+    }
   },
   {
     "id": "cod-uzb-66",
@@ -40967,7 +43835,45 @@ window.MATCHES = [
       "home": 1.26,
       "away": 1.43
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.69,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        34,
+        23,
+        43
+      ],
+      "market": [
+        44,
+        27,
+        29
+      ],
+      "blended": [
+        35,
+        24,
+        41
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        10,
+        4,
+        -14
+      ],
+      "summary": "模型原始概率 34/23/43%；市场隐含概率 44/27/29%；按 16% 权重校准后为 35/24/41%。"
+    }
   },
   {
     "id": "alg-aut-59",
@@ -41568,7 +44474,45 @@ window.MATCHES = [
       "home": 1.73,
       "away": 1.77
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 68,
+      "under25": 32,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 12,
+      "expectedTotalGoals": 3.5,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        40,
+        20,
+        40
+      ],
+      "market": [
+        31,
+        31,
+        38
+      ],
+      "blended": [
+        38,
+        22,
+        40
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -9,
+        11,
+        -2
+      ],
+      "summary": "模型原始概率 40/20/40%；市场隐含概率 31/31/38%；按 16% 权重校准后为 38/22/40%。"
+    }
   },
   {
     "id": "jor-arg-60",
@@ -42169,7 +45113,45 @@ window.MATCHES = [
       "home": 0.91,
       "away": 2.88
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 72,
+      "under25": 28,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 57,
+      "lowScoreDraw": 8,
+      "expectedTotalGoals": 3.79,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 23
+    },
+    "marketCalibration": {
+      "status": "connected",
+      "modelOnly": [
+        10,
+        13,
+        77
+      ],
+      "market": [
+        7,
+        14,
+        79
+      ],
+      "blended": [
+        10,
+        13,
+        77
+      ],
+      "blendWeight": 0.16,
+      "deltas": [
+        -3,
+        1,
+        2
+      ],
+      "summary": "模型原始概率 10/13/77%；市场隐含概率 7/14/79%；按 16% 权重校准后为 10/13/77%。"
+    }
   },
   {
     "id": "2a-2b-73",
@@ -42730,7 +45712,37 @@ window.MATCHES = [
       "home": 1.33,
       "away": 1.45
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.78,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        37,
+        21,
+        42
+      ],
+      "market": null,
+      "blended": [
+        37,
+        21,
+        42
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1c-2f-76",
@@ -43291,7 +46303,37 @@ window.MATCHES = [
       "home": 1.42,
       "away": 1.4
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.82,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        21,
+        39
+      ],
+      "market": null,
+      "blended": [
+        40,
+        21,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1e-3abcdf-74",
@@ -43852,7 +46894,37 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.3
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.71,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        22,
+        37
+      ],
+      "market": null,
+      "blended": [
+        41,
+        22,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1f-2c-75",
@@ -44413,7 +47485,37 @@ window.MATCHES = [
       "home": 1.5,
       "away": 1.55
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.05,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        20,
+        41
+      ],
+      "market": null,
+      "blended": [
+        39,
+        20,
+        41
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "2e-2i-78",
@@ -44974,7 +48076,37 @@ window.MATCHES = [
       "home": 1.44,
       "away": 1.38
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.82,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        21,
+        38
+      ],
+      "market": null,
+      "blended": [
+        41,
+        21,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1i-3cdfgh-77",
@@ -45535,7 +48667,37 @@ window.MATCHES = [
       "home": 1.35,
       "away": 1.41
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        22,
+        40
+      ],
+      "market": null,
+      "blended": [
+        38,
+        22,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1a-3cefhi-79",
@@ -46096,7 +49258,37 @@ window.MATCHES = [
       "home": 1.48,
       "away": 1.37
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.85,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        42,
+        21,
+        37
+      ],
+      "market": null,
+      "blended": [
+        42,
+        21,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1l-3ehijk-80",
@@ -46657,7 +49849,37 @@ window.MATCHES = [
       "home": 1.31,
       "away": 1.4
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.71,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        37,
+        22,
+        41
+      ],
+      "market": null,
+      "blended": [
+        37,
+        22,
+        41
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1g-3aehij-82",
@@ -47218,7 +50440,37 @@ window.MATCHES = [
       "home": 1.47,
       "away": 1.5
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.97,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        21,
+        40
+      ],
+      "market": null,
+      "blended": [
+        39,
+        21,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1d-3befij-81",
@@ -47779,7 +51031,37 @@ window.MATCHES = [
       "home": 1.31,
       "away": 1.37
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.68,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        22,
+        40
+      ],
+      "market": null,
+      "blended": [
+        38,
+        22,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1h-2j-84",
@@ -48340,7 +51622,37 @@ window.MATCHES = [
       "home": 1.44,
       "away": 1.44
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.88,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        21,
+        40
+      ],
+      "market": null,
+      "blended": [
+        39,
+        21,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "2k-2l-83",
@@ -48901,7 +52213,37 @@ window.MATCHES = [
       "home": 1.48,
       "away": 1.4
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.88,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        21,
+        38
+      ],
+      "market": null,
+      "blended": [
+        41,
+        21,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1b-3efgij-85",
@@ -49462,7 +52804,37 @@ window.MATCHES = [
       "home": 1.34,
       "away": 1.33
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.67,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 61
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        22,
+        39
+      ],
+      "market": null,
+      "blended": [
+        39,
+        22,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "2d-2g-88",
@@ -50023,7 +53395,37 @@ window.MATCHES = [
       "home": 1.33,
       "away": 1.25
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.58,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        22,
+        37
+      ],
+      "market": null,
+      "blended": [
+        41,
+        22,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1j-2h-86",
@@ -50584,7 +53986,37 @@ window.MATCHES = [
       "home": 1.42,
       "away": 1.38
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.8,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        21,
+        38
+      ],
+      "market": null,
+      "blended": [
+        41,
+        21,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "1k-3deijl-87",
@@ -51145,7 +54577,37 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.45
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.91,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        21,
+        39
+      ],
+      "market": null,
+      "blended": [
+        40,
+        21,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w73-w75-90",
@@ -51706,7 +55168,37 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.46
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.87,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        21,
+        40
+      ],
+      "market": null,
+      "blended": [
+        39,
+        21,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w74-w77-89",
@@ -52267,7 +55759,37 @@ window.MATCHES = [
       "home": 1.26,
       "away": 1.28
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.54,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "一方零封倾向",
+      "upsetRisk": 61
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        23,
+        39
+      ],
+      "market": null,
+      "blended": [
+        38,
+        23,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w76-w78-91",
@@ -52828,7 +56350,37 @@ window.MATCHES = [
       "home": 1.42,
       "away": 1.5
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.92,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        38,
+        21,
+        41
+      ],
+      "market": null,
+      "blended": [
+        38,
+        21,
+        41
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w79-w80-92",
@@ -53389,7 +56941,37 @@ window.MATCHES = [
       "home": 1.37,
       "away": 1.32
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.69,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        22,
+        38
+      ],
+      "market": null,
+      "blended": [
+        40,
+        22,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w83-w84-93",
@@ -53950,7 +57532,37 @@ window.MATCHES = [
       "home": 1.37,
       "away": 1.36
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.73,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 61
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        22,
+        39
+      ],
+      "market": null,
+      "blended": [
+        39,
+        22,
+        39
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w81-w82-94",
@@ -54511,7 +58123,37 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.43
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.84,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        21,
+        40
+      ],
+      "market": null,
+      "blended": [
+        39,
+        21,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w86-w88-95",
@@ -55072,7 +58714,37 @@ window.MATCHES = [
       "home": 1.29,
       "away": 1.38
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.67,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        37,
+        22,
+        41
+      ],
+      "market": null,
+      "blended": [
+        37,
+        22,
+        41
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w85-w87-96",
@@ -55633,7 +59305,37 @@ window.MATCHES = [
       "home": 1.37,
       "away": 1.27
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.64,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        42,
+        22,
+        36
+      ],
+      "market": null,
+      "blended": [
+        42,
+        22,
+        36
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w89-w90-97",
@@ -56194,7 +59896,37 @@ window.MATCHES = [
       "home": 1.42,
       "away": 1.55
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.97,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 57
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        36,
+        21,
+        43
+      ],
+      "market": null,
+      "blended": [
+        36,
+        21,
+        43
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w93-w94-98",
@@ -56755,7 +60487,37 @@ window.MATCHES = [
       "home": 1.51,
       "away": 1.39
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 20,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        42,
+        21,
+        37
+      ],
+      "market": null,
+      "blended": [
+        42,
+        21,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w91-w92-99",
@@ -57316,7 +61078,37 @@ window.MATCHES = [
       "home": 1.44,
       "away": 1.54
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 2.98,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 58
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        37,
+        21,
+        42
+      ],
+      "market": null,
+      "blended": [
+        37,
+        21,
+        42
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w95-w96-100",
@@ -57877,7 +61669,37 @@ window.MATCHES = [
       "home": 1.31,
       "away": 1.4
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.71,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        37,
+        22,
+        41
+      ],
+      "market": null,
+      "blended": [
+        37,
+        22,
+        41
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w97-w98-101",
@@ -58438,7 +62260,37 @@ window.MATCHES = [
       "home": 1.36,
       "away": 1.26
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.62,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 59
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        41,
+        22,
+        37
+      ],
+      "market": null,
+      "blended": [
+        41,
+        22,
+        37
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w99-w100-102",
@@ -58999,7 +62851,37 @@ window.MATCHES = [
       "home": 1.43,
       "away": 1.47
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "倾向大于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        39,
+        21,
+        40
+      ],
+      "market": null,
+      "blended": [
+        39,
+        21,
+        40
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "l101-l102-103",
@@ -59560,7 +63442,37 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.35
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        22,
+        38
+      ],
+      "market": null,
+      "blended": [
+        40,
+        22,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   },
   {
     "id": "w101-w102-104",
@@ -60121,6 +64033,36 @@ window.MATCHES = [
       "home": 1.33,
       "away": 1.3
     },
-    "analysisUpdated": "2026-06-19"
+    "analysisUpdated": "2026-06-19",
+    "expandedMarkets": {
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.63,
+      "totalGoalsLean": "倾向小于2.5球",
+      "bttsLean": "双方都有进球倾向",
+      "upsetRisk": 60
+    },
+    "marketCalibration": {
+      "status": "no-match",
+      "modelOnly": [
+        40,
+        22,
+        38
+      ],
+      "market": null,
+      "blended": [
+        40,
+        22,
+        38
+      ],
+      "blendWeight": 0,
+      "deltas": null,
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+    }
   }
 ];
