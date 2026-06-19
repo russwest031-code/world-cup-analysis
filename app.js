@@ -298,12 +298,14 @@
     var injuries = news.injuries || {};
     var lineup = news.lineup || {};
     var tactical = news.tactical || {};
-    var articles = (injuries.articles || []).slice(0, 3);
-    var articleHtml = articles.length
-      ? '<div class="article-list intel-articles">' + articles.map(function (article) {
-          return '<a href="' + article.link + '" target="_blank" rel="noopener">' + article.title + '<small>' + article.source + '</small></a>';
+    function newsList(articles) {
+      articles = (articles || []).slice(0, 3);
+      return articles.length
+        ? '<div class="news-fact-list">' + articles.map(function (article) {
+          return '<div class="news-fact"><strong>' + article.title + '</strong><small>' + (article.source || "公开新闻源") + (article.pubDate ? " · " + article.pubDate : "") + '</small></div>';
         }).join("") + '</div>'
-      : "";
+        : "";
+    }
     function statusLabel(status) {
       var map = {
         "connected": "已接入",
@@ -324,17 +326,18 @@
     }
     function lineupExtra() {
       var teams = lineup.teams || [];
-      if (!teams.length) return "";
+      var articles = newsList(lineup.articles);
+      if (!teams.length) return articles;
       return '<div class="lineup-list">' + teams.map(function (team) {
         return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '</strong><small>' + (team.starters || []).join(" / ") + '</small></div>';
-      }).join("") + '</div>';
+      }).join("") + '</div>' + articles;
     }
     function injuryExtra() {
       var players = injuries.players || [];
-      if (!players.length) return articleHtml;
+      if (!players.length) return newsList(injuries.articles);
       return '<div class="injury-list">' + players.slice(0, 8).map(function (item) {
         return '<span>' + item.player + ' · ' + (item.reason || "未说明") + '</span>';
-      }).join("") + '</div>';
+      }).join("") + '</div>' + newsList(injuries.articles);
     }
     function card(title, status, text, extra) {
       return '<div class="intel-card"><div><strong>' + title + '</strong><span>' + statusLabel(status) + '</span></div><p>' + (text || "暂无数据。") + '</p>' + (extra || "") + '</div>';
@@ -345,7 +348,7 @@
         card("首发阵容", lineup.status, lineup.text, lineupExtra()) +
         card("伤病停赛", injuries.status, injuries.text, injuryExtra()) +
         card("比赛天气", weather.status, (weather.text || "") + (weather.impact ? " " + weather.impact : "")) +
-        card("临场战术", tactical.status, tactical.text) +
+        card("临场战术", tactical.status, tactical.text, newsList(tactical.articles)) +
       '</div>' +
     '</section>';
   }

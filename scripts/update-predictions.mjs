@@ -23,7 +23,7 @@ const API_FOOTBALL_LEAGUE = process.env.API_FOOTBALL_LEAGUE || "1";
 const API_FOOTBALL_SEASON = process.env.API_FOOTBALL_SEASON || "2026";
 const API_FOOTBALL_LINEUP_WINDOW_DAYS = Number(process.env.API_FOOTBALL_LINEUP_WINDOW_DAYS || 3);
 const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
-  "https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD,https://www.espn.com/espn/rss/soccer/news")
+  "https://feeds.bbci.co.uk/sport/football/rss.xml,https://www.theguardian.com/football/rss,https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD,https://www.espn.com/espn/rss/soccer/news")
   .split(",")
   .map(url => url.trim())
   .filter(Boolean);
@@ -938,6 +938,7 @@ async function loadOddsSignals() {
 
 async function loadExpertSignals() {
   const articles = [];
+  const seen = new Set();
   const errors = [];
   for (const url of EXPERT_RSS_URLS) {
     try {
@@ -950,6 +951,9 @@ async function loadExpertSignals() {
         const pubDate = xmlField(item, "pubDate");
         const text = `${title} ${description}`;
         if (!/world cup|fifa|soccer|football/i.test(text)) continue;
+        const key = normalizeText(link || title);
+        if (seen.has(key)) continue;
+        seen.add(key);
         articles.push({ title, description, link, pubDate, source: new URL(url).hostname });
       }
     } catch (error) {
@@ -1301,22 +1305,62 @@ function formatApiFootballInjuries(rows) {
   })).filter(item => item.player);
 }
 
-function teamNewsForMatch(match, expertContext, liveContext) {
+function compactArticle(article) {
+  return {
+    title: article.title,
+    source: article.source,
+    link: article.link,
+    pubDate: article.pubDate
+  };
+}
+
+function newsSignalsForMatch(match, expertContext, allMatches = []) {
+  const articles = expertContext?.articles || [];
+  const homeNames = [match.sourceInfo?.homeName, match.home.name].map(normalizeText).filter(name => name.length > 3);
+  const awayNames = [match.sourceInfo?.awayName, match.away.name].map(normalizeText).filter(name => name.length > 3);
+  const allTeamNames = Array.from(new Set(allMatches.flatMap(item => [
+    item.sourceInfo?.homeName,
+    item.sourceInfo?.awayName,
+    item.home?.name,
+    item.away?.name
+  ]).map(normalizeText).filter(name => name.length > 3)));
+  const currentNames = new Set([...homeNames, ...awayNames]);
+  const otherTeamNames = allTeamNames.filter(name => !currentNames.has(name));
+  const matched = articles.filter(article => {
+    const text = normalizeText(`${article.title} ${article.description}`);
+    const homeHit = homeNames.some(name => text.includes(name));
+    const awayHit = awayNames.some(name => text.includes(name));
+    if (homeHit && awayHit) return true;
+    if (!homeHit && !awayHit) return false;
+    return !otherTeamNames.some(name => text.includes(name));
+  });
+  const withText = matched.map(article => ({
+    article,
+    raw: `${article.title} ${article.description}`,
+    text: normalizeText(`${article.title} ${article.description}`)
+  }));
+  const lineup = withText.filter(item =>
+    /lineup|starting xi|team news|predicted xi|start|bench|formation|squad|selection|unchanged|returns/i.test(item.raw)
+  ).slice(0, 5).map(item => compactArticle(item.article));
+  const injuries = withText.filter(item =>
+    /injur|fitness|suspend|doubt|ruled out|absence|absent|knock|illness|hamstring|ankle|knee|calf|available|unavailable/i.test(item.raw) &&
+    !/scouting|counter|tactic|formation|approach|system/i.test(item.article.title || "")
+  ).slice(0, 5).map(item => compactArticle(item.article));
+  const tactical = withText.filter(item =>
+    /coach|manager|tactic|press conference|training|formation|selection|system|approach|style|plan/i.test(item.raw)
+  ).slice(0, 5).map(item => compactArticle(item.article));
+  return { lineup, injuries, tactical };
+}
+
+function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
   const fixture = apiFootballFixtureForMatch(match, liveContext);
   const fixtureId = fixture?.fixture?.id;
   const providerStatus = liveContext?.status || "not-connected";
   const apiLineups = fixtureId ? formatApiFootballLineup(liveContext?.lineupsByFixture?.[fixtureId] || []) : null;
   const apiInjuries = fixtureId ? formatApiFootballInjuries(liveContext?.injuriesByFixture?.[fixtureId] || []) : [];
 
-  const articles = expertContext?.articles || [];
-  const home = normalizeText(match.sourceInfo?.homeName || match.home.name);
-  const away = normalizeText(match.sourceInfo?.awayName || match.away.name);
-  const matched = articles.filter(article => {
-    const text = normalizeText(`${article.title} ${article.description}`);
-    const teamHit = (home && text.includes(home)) || (away && text.includes(away));
-    const infoHit = /injur|fitness|lineup|starting xi|suspend|doubt|ruled out|coach|tactic|training|availability/i.test(`${article.title} ${article.description}`);
-    return teamHit && infoHit;
-  }).slice(0, 5);
+  const news = newsSignalsForMatch(match, expertContext, allMatches);
+  const hasNews = news.lineup.length || news.injuries.length || news.tactical.length;
 
   if (apiLineups || apiInjuries.length) {
     return {
@@ -1328,17 +1372,20 @@ function teamNewsForMatch(match, expertContext, liveContext) {
         status: apiLineups ? "confirmed" : "not-yet-released",
         text: apiLineups ? "已从 API-Football 获取赛前/赛中阵容。" : "权威数据源已接入，但本场首发尚未公布。",
         source: liveContext.provider,
-        teams: apiLineups || []
+        teams: apiLineups || [],
+        articles: news.lineup
       },
       injuries: {
         status: apiInjuries.length ? "confirmed" : "none-reported",
         text: apiInjuries.length ? `API-Football 当前返回 ${apiInjuries.length} 条伤停/缺阵记录。` : "权威数据源当前未返回本场伤停记录。",
         source: liveContext.provider,
-        players: apiInjuries
+        players: apiInjuries,
+        articles: news.injuries
       },
       tactical: {
-        status: apiLineups ? "lineup-derived" : matched.length ? "news-derived" : "model-derived",
-        text: apiLineups ? "已基于首发阵型和人员结构更新临场战术参考。" : matched.length ? "临场战术信息来自公开新闻匹配，需结合首发确认。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待首发确认。"
+        status: apiLineups ? "lineup-derived" : news.tactical.length ? "news-derived" : "model-derived",
+        text: apiLineups ? "已基于首发阵型和人员结构更新临场战术参考。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待首发确认。",
+        articles: news.tactical
       }
     };
   }
@@ -1347,23 +1394,20 @@ function teamNewsForMatch(match, expertContext, liveContext) {
     status: providerStatus === "connected" ? "no-fixture-match" : providerStatus,
     provider: providerStatus === "connected" ? liveContext.provider : "API-Football",
     lineup: {
-      status: providerStatus === "missing-key" ? "provider-needed" : "pending",
-      text: providerStatus === "missing-key" ? "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-      source: providerStatus === "missing-key" ? "provider-needed" : liveContext?.provider || "provider-needed"
+      status: news.lineup.length ? "news-derived" : providerStatus === "missing-key" ? "provider-needed" : "pending",
+      text: news.lineup.length ? `从公开新闻源匹配到 ${news.lineup.length} 条预计首发/阵容线索，尚非官方确认。` : providerStatus === "missing-key" ? "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
+      source: news.lineup.length ? "public-rss" : providerStatus === "missing-key" ? "provider-needed" : liveContext?.provider || "provider-needed",
+      articles: news.lineup
     },
     injuries: {
-      status: matched.length ? "news-derived" : providerStatus === "missing-key" ? "provider-needed" : "none-confirmed",
-      text: matched.length ? `从公开新闻源匹配到 ${matched.length} 条可能涉及伤停/阵容的报道。` : providerStatus === "missing-key" ? "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源当前未返回本场伤停记录。",
-      articles: matched.map(article => ({
-        title: article.title,
-        source: article.source,
-        link: article.link,
-        pubDate: article.pubDate
-      }))
+      status: news.injuries.length ? "news-derived" : providerStatus === "missing-key" ? "provider-needed" : "none-confirmed",
+      text: news.injuries.length ? `从公开新闻源匹配到 ${news.injuries.length} 条伤停/身体状态线索，尚非官方伤停名单。` : providerStatus === "missing-key" ? "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源当前未返回本场伤停记录。",
+      articles: news.injuries
     },
     tactical: {
-      status: matched.length ? "news-derived" : "model-derived",
-      text: matched.length ? "临场战术信息来自公开新闻匹配，需结合赛前发布会和首发确认。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+      status: news.tactical.length ? "news-derived" : "model-derived",
+      text: news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : hasNews ? "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+      articles: news.tactical
     }
   };
 }
@@ -1393,10 +1437,10 @@ function weatherForMatch(match, weatherContext) {
   };
 }
 
-function intelligenceForMatch(match, signalContext) {
+function intelligenceForMatch(match, signalContext, allMatches = []) {
   return {
     weather: weatherForMatch(match, signalContext.weather),
-    teamNews: teamNewsForMatch(match, signalContext.experts, signalContext.live),
+    teamNews: teamNewsForMatch(match, signalContext.experts, signalContext.live, allMatches),
     updatedAt: now.toISOString()
   };
 }
@@ -1535,7 +1579,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
   const expertSignals = expertForMatch(match, signalContext.experts);
-  const matchIntelligence = intelligenceForMatch(match, signalContext);
+  const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
 
   // ── Factor 10: External Signals (3%) ──
   // Priority: odds > expert articles

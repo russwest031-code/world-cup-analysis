@@ -7,7 +7,7 @@ window.ANALYSIS_META = {
   "model": "ten-factor-weighted-poisson-v2",
   "rulesModel": "wc2026-group-qualification-v1",
   "marketSignals": "connected",
-  "expertSignals": "no-articles",
+  "expertSignals": "connected",
   "refreshCadence": "daily",
   "refreshTimeLocal": "15:00",
   "refreshTimeZone": "Asia/Shanghai",
@@ -15,7 +15,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 44,
   "expertProvider": "public-rss",
-  "expertArticleCount": 0,
+  "expertArticleCount": 48,
   "weatherSignals": "connected",
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 43,
@@ -23,7 +23,20 @@ window.ANALYSIS_META = {
   "liveTeamNewsProvider": "API-Football",
   "liveFixtureCount": 0,
   "liveLineupFixtureCount": 0,
-  "liveInjuryCount": 0
+  "liveInjuryCount": 0,
+  "expertSources": [
+    "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "https://www.theguardian.com/football/rss",
+    "https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD",
+    "https://www.espn.com/espn/rss/soccer/news"
+  ],
+  "expertErrors": [
+    "https://feeds.bbci.co.uk/sport/football/rss.xml: fetch failed",
+    "https://www.theguardian.com/football/rss: fetch failed"
+  ],
+  "newsLineupSignalCount": 0,
+  "newsInjurySignalCount": 8,
+  "newsTacticalSignalCount": 6
 };
 
 window.ANALYSIS_BACKTEST = {
@@ -1108,7 +1121,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -1118,7 +1132,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -1727,7 +1742,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -1737,7 +1753,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -2354,7 +2371,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -2364,7 +2382,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -2973,7 +2992,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -2983,7 +3003,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -3592,7 +3613,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -3602,7 +3624,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -4211,7 +4234,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -4221,7 +4245,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -4830,7 +4855,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -4840,7 +4866,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -5452,22 +5479,44 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            },
+            {
+              "title": "Opposition scouting: How the USMNT can counter Aus...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49110484/opposition-scouting-how-usmnt-counter-australia-threat-world-cup-group-d-second-match",
+              "pubDate": "Fri, 19 Jun 2026 09:17:24 EST"
+            }
+          ]
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -6084,7 +6133,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -6094,7 +6144,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -6703,7 +6754,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -6713,7 +6765,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -7330,7 +7383,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -7340,7 +7394,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -7949,7 +8004,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -7959,7 +8015,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -8576,7 +8633,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -8586,7 +8644,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -9203,7 +9262,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -9213,7 +9273,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -9822,7 +9883,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -9832,7 +9894,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -10441,7 +10504,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -10451,7 +10515,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -11060,7 +11125,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -11070,7 +11136,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -11679,7 +11746,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -11689,7 +11757,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -12306,7 +12375,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -12316,7 +12386,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -12925,7 +12996,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -12935,7 +13007,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -13552,7 +13625,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -13562,7 +13636,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -14166,22 +14241,31 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -14798,7 +14882,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -14808,7 +14893,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -15425,7 +15511,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -15435,7 +15522,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -16052,7 +16140,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -16062,7 +16151,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -16671,7 +16761,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -16681,7 +16772,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -17298,7 +17390,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -17308,7 +17401,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -17912,22 +18006,37 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 2 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            },
+            {
+              "title": "Aguirre relishes Azteca return after Group A win",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -18587,22 +18696,44 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            },
+            {
+              "title": "Opposition scouting: How the USMNT can counter Aus...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49110484/opposition-scouting-how-usmnt-counter-australia-threat-world-cup-group-d-second-match",
+              "pubDate": "Fri, 19 Jun 2026 09:17:24 EST"
+            }
+          ]
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -19259,7 +19390,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -19269,7 +19401,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -19934,7 +20067,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -19944,7 +20078,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -20601,7 +20736,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -20611,7 +20747,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -21276,7 +21413,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -21286,7 +21424,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -21951,7 +22090,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -21961,7 +22101,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -22626,7 +22767,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -22636,7 +22778,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -23293,7 +23436,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -23303,7 +23447,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -23968,7 +24113,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -23978,7 +24124,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -24635,7 +24782,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -24645,7 +24793,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -25302,7 +25451,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -25312,7 +25462,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -25977,7 +26128,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -25987,7 +26139,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -26644,7 +26797,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -26654,7 +26808,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -27319,7 +27474,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -27329,7 +27485,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -27986,7 +28143,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -27996,7 +28154,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -28653,7 +28812,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -28663,7 +28823,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -29328,7 +29489,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -29338,7 +29500,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -29990,22 +30153,31 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -30670,7 +30842,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -30680,7 +30853,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -31337,7 +31511,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -31347,7 +31522,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -32012,7 +32188,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -32022,7 +32199,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -32687,7 +32865,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -32697,7 +32876,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -33354,7 +33534,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -33364,7 +33545,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -34029,7 +34211,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -34039,7 +34222,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -34704,7 +34888,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -34714,7 +34899,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -35371,7 +35557,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -35381,7 +35568,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -36046,7 +36234,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -36056,7 +36245,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -36713,7 +36903,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -36723,7 +36914,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -37380,7 +37572,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -37390,7 +37583,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -38055,7 +38249,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -38065,7 +38260,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -38722,7 +38918,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -38732,7 +38929,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -39384,22 +39582,44 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "articles": [
+            {
+              "title": "Pulisic still training solo a day before U.S. game...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49109849/usmnt-christian-pulisic-trains-apart-team-again-pochettino-due-address-status",
+              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+            },
+            {
+              "title": "Opposition scouting: How the USMNT can counter Aus...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49110484/opposition-scouting-how-usmnt-counter-australia-threat-world-cup-group-d-second-match",
+              "pubDate": "Fri, 19 Jun 2026 09:17:24 EST"
+            }
+          ]
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -40056,7 +40276,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -40066,7 +40287,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -40731,7 +40953,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -40741,7 +40964,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -41406,7 +41630,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -41416,7 +41641,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -42073,7 +42299,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -42083,7 +42310,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -42748,7 +42976,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -42758,7 +42987,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -43423,7 +43653,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -43433,7 +43664,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -44085,22 +44317,31 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "missing-key",
-        "provider": "API-Football",
+        "status": "news-derived",
+        "provider": "public-rss + API-Football-ready",
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
-          "status": "provider-needed",
-          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "articles": [],
-          "source": "API-Football"
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
+            }
+          ],
+          "source": "public-rss"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -44765,7 +45006,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -44775,7 +45017,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -45432,7 +45675,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -45442,7 +45686,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -46107,7 +46352,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -46117,7 +46363,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -46782,7 +47029,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -46792,7 +47040,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -47449,7 +47698,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -47459,7 +47709,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -48068,7 +48319,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -48078,7 +48330,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -48695,7 +48948,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -48705,7 +48959,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -49314,7 +49569,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -49324,7 +49580,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -49933,7 +50190,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -49943,7 +50201,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -50552,7 +50811,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -50562,7 +50822,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -51171,7 +51432,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -51181,7 +51443,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -51798,7 +52061,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -51808,7 +52072,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -52425,7 +52690,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -52435,7 +52701,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -53052,7 +53319,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -53062,7 +53330,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -53671,7 +53940,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -53681,7 +53951,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -54290,7 +54561,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -54300,7 +54572,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -54917,7 +55190,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -54927,7 +55201,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -55544,7 +55819,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -55554,7 +55830,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -56163,7 +56440,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -56173,7 +56451,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -56782,7 +57061,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -56792,7 +57072,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -57409,7 +57690,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -57419,7 +57701,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -58031,7 +58314,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -58041,7 +58325,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -58653,7 +58938,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -58663,7 +58949,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -59272,7 +59559,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -59282,7 +59570,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -59894,7 +60183,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -59904,7 +60194,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -60513,7 +60804,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -60523,7 +60815,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -61135,7 +61428,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -61145,7 +61439,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -61757,7 +62052,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -61767,7 +62063,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -62379,7 +62676,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -62389,7 +62687,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -62998,7 +63297,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -63008,7 +63308,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -63617,7 +63918,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -63627,7 +63929,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -64236,7 +64539,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -64246,7 +64550,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -64858,7 +65163,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -64868,7 +65174,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -65477,7 +65784,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -65487,7 +65795,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -66099,7 +66408,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -66109,7 +66419,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -66718,7 +67029,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -66728,7 +67040,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -67337,7 +67650,8 @@ window.MATCHES = [
         "lineup": {
           "status": "provider-needed",
           "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
-          "source": "API-Football"
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "provider-needed",
@@ -67347,7 +67661,8 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "articles": []
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
