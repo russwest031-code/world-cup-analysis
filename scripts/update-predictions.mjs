@@ -17,6 +17,11 @@ const ODDS_SPORT_KEY = process.env.THE_ODDS_SPORT_KEY || "soccer_fifa_world_cup"
 const ODDS_REGIONS = process.env.THE_ODDS_REGIONS || "eu,uk,us";
 const ODDS_MARKETS = process.env.THE_ODDS_MARKETS || "h2h";
 const WEATHER_ENABLED = process.env.WEATHER_ENABLED !== "0";
+const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY || "";
+const API_FOOTBALL_BASE = process.env.API_FOOTBALL_BASE || "https://v3.football.api-sports.io";
+const API_FOOTBALL_LEAGUE = process.env.API_FOOTBALL_LEAGUE || "1";
+const API_FOOTBALL_SEASON = process.env.API_FOOTBALL_SEASON || "2026";
+const API_FOOTBALL_LINEUP_WINDOW_DAYS = Number(process.env.API_FOOTBALL_LINEUP_WINDOW_DAYS || 3);
 const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
   "https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD,https://www.espn.com/espn/rss/soccer/news")
   .split(",")
@@ -254,6 +259,21 @@ async function fetchJson(url) {
   const timer = setTimeout(() => controller.abort(), 20000);
   try {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchJsonWithHeaders(url, headers = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { "User-Agent": "world-cup-analysis-app", ...headers }
+    });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     return await res.json();
   } finally {
@@ -1000,6 +1020,129 @@ async function loadWeatherSignals(matches) {
   };
 }
 
+function apiFootballHeaders() {
+  return { "x-apisports-key": API_FOOTBALL_KEY };
+}
+
+function apiFootballUrl(pathname, params = {}) {
+  const url = new URL(pathname, API_FOOTBALL_BASE);
+  Object.entries(params).forEach(([key, value]) => {
+    if (value !== undefined && value !== null && value !== "") url.searchParams.set(key, value);
+  });
+  return url.toString();
+}
+
+function apiFootballMatchTeams(fixture, match) {
+  const homeNames = [match.sourceInfo?.homeName, match.home.name, match.home.code].map(normalizeText);
+  const awayNames = [match.sourceInfo?.awayName, match.away.name, match.away.code].map(normalizeText);
+  const apiHome = normalizeText(fixture.teams?.home?.name || "");
+  const apiAway = normalizeText(fixture.teams?.away?.name || "");
+  const homeHit = homeNames.some(name => name && (apiHome.includes(name) || name.includes(apiHome)));
+  const awayHit = awayNames.some(name => name && (apiAway.includes(name) || name.includes(apiAway)));
+  return homeHit && awayHit;
+}
+
+function apiFootballFixtureForMatch(match, liveContext) {
+  const fixtures = liveContext?.fixtures || [];
+  const sameTeams = fixtures.filter(fixture => apiFootballMatchTeams(fixture, match));
+  if (!sameTeams.length) return null;
+  const sameDate = sameTeams.find(fixture => {
+    const apiDate = fixture.fixture?.date ? fixture.fixture.date.slice(0, 10) : "";
+    return apiDate === match.date || apiDate === match.sourceInfo?.sourceDate;
+  });
+  return sameDate || sameTeams[0];
+}
+
+function shouldFetchLineup(fixture) {
+  const iso = fixture.fixture?.date;
+  if (!iso) return false;
+  const kickoff = new Date(iso).getTime();
+  if (!Number.isFinite(kickoff)) return false;
+  const deltaDays = Math.abs(kickoff - now.getTime()) / 86400000;
+  const status = fixture.fixture?.status?.short || "";
+  return deltaDays <= API_FOOTBALL_LINEUP_WINDOW_DAYS || ["1H", "HT", "2H", "ET", "P", "FT", "AET", "PEN"].includes(status);
+}
+
+async function loadApiFootballSignals(matches) {
+  if (!API_FOOTBALL_KEY) {
+    return {
+      status: "missing-key",
+      provider: "API-Football",
+      fixtures: [],
+      lineupsByFixture: {},
+      injuriesByFixture: {},
+      note: "未配置 API_FOOTBALL_KEY，权威首发/伤停源尚未启用。"
+    };
+  }
+  try {
+    const fixturesResponse = await fetchJsonWithHeaders(apiFootballUrl("/fixtures", {
+      league: API_FOOTBALL_LEAGUE,
+      season: API_FOOTBALL_SEASON,
+      timezone: "Asia/Shanghai"
+    }), apiFootballHeaders());
+    const fixtures = fixturesResponse.response || [];
+
+    let injuryRows = [];
+    try {
+      const injuriesResponse = await fetchJsonWithHeaders(apiFootballUrl("/injuries", {
+        league: API_FOOTBALL_LEAGUE,
+        season: API_FOOTBALL_SEASON
+      }), apiFootballHeaders());
+      injuryRows = injuriesResponse.response || [];
+    } catch (error) {
+      injuryRows = [];
+    }
+
+    const fixtureIds = new Set();
+    for (const match of matches) {
+      const fixture = apiFootballFixtureForMatch(match, { fixtures });
+      if (fixture && shouldFetchLineup(fixture)) fixtureIds.add(fixture.fixture.id);
+    }
+
+    const lineupsByFixture = {};
+    for (const fixtureId of Array.from(fixtureIds).slice(0, 60)) {
+      try {
+        const lineupsResponse = await fetchJsonWithHeaders(apiFootballUrl("/fixtures/lineups", { fixture: fixtureId }), apiFootballHeaders());
+        lineupsByFixture[fixtureId] = lineupsResponse.response || [];
+      } catch (error) {
+        lineupsByFixture[fixtureId] = [];
+      }
+    }
+
+    const injuriesByFixture = {};
+    for (const row of injuryRows) {
+      const fixtureId = row.fixture?.id;
+      if (!fixtureId) continue;
+      if (!injuriesByFixture[fixtureId]) injuriesByFixture[fixtureId] = [];
+      injuriesByFixture[fixtureId].push(row);
+    }
+
+    return {
+      status: "connected",
+      provider: "API-Football",
+      fetchedAt: now.toISOString(),
+      league: API_FOOTBALL_LEAGUE,
+      season: API_FOOTBALL_SEASON,
+      fixtureCount: fixtures.length,
+      lineupFixtureCount: Object.values(lineupsByFixture).filter(rows => rows.length).length,
+      injuryCount: injuryRows.length,
+      fixtures,
+      lineupsByFixture,
+      injuriesByFixture
+    };
+  } catch (error) {
+    return {
+      status: "error",
+      provider: "API-Football",
+      fixtures: [],
+      lineupsByFixture: {},
+      injuriesByFixture: {},
+      error: error.message,
+      note: "API-Football 请求失败，首发/伤停保持未确认状态。"
+    };
+  }
+}
+
 async function fetchText(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
@@ -1133,7 +1276,38 @@ function expertForMatch(match, expertContext) {
   };
 }
 
-function teamNewsForMatch(match, expertContext) {
+function formatApiFootballLineup(lineups) {
+  if (!Array.isArray(lineups) || !lineups.length) return null;
+  return lineups.map(team => {
+    const starters = (team.startXI || []).map(item => item.player?.name).filter(Boolean);
+    return {
+      team: team.team?.name || "",
+      formation: team.formation || "",
+      coach: team.coach?.name || "",
+      starters: starters.slice(0, 11),
+      substitutes: (team.substitutes || []).map(item => item.player?.name).filter(Boolean).slice(0, 12)
+    };
+  });
+}
+
+function formatApiFootballInjuries(rows) {
+  if (!Array.isArray(rows) || !rows.length) return [];
+  return rows.map(row => ({
+    team: row.team?.name || "",
+    player: row.player?.name || "",
+    reason: row.player?.reason || row.reason || "未说明",
+    type: row.player?.type || "",
+    fixtureId: row.fixture?.id || null
+  })).filter(item => item.player);
+}
+
+function teamNewsForMatch(match, expertContext, liveContext) {
+  const fixture = apiFootballFixtureForMatch(match, liveContext);
+  const fixtureId = fixture?.fixture?.id;
+  const providerStatus = liveContext?.status || "not-connected";
+  const apiLineups = fixtureId ? formatApiFootballLineup(liveContext?.lineupsByFixture?.[fixtureId] || []) : null;
+  const apiInjuries = fixtureId ? formatApiFootballInjuries(liveContext?.injuriesByFixture?.[fixtureId] || []) : [];
+
   const articles = expertContext?.articles || [];
   const home = normalizeText(match.sourceInfo?.homeName || match.home.name);
   const away = normalizeText(match.sourceInfo?.awayName || match.away.name);
@@ -1143,17 +1317,43 @@ function teamNewsForMatch(match, expertContext) {
     const infoHit = /injur|fitness|lineup|starting xi|suspend|doubt|ruled out|coach|tactic|training|availability/i.test(`${article.title} ${article.description}`);
     return teamHit && infoHit;
   }).slice(0, 5);
+
+  if (apiLineups || apiInjuries.length) {
+    return {
+      status: "connected",
+      provider: liveContext.provider,
+      fixtureId,
+      fixtureDate: fixture?.fixture?.date || null,
+      lineup: {
+        status: apiLineups ? "confirmed" : "not-yet-released",
+        text: apiLineups ? "已从 API-Football 获取赛前/赛中阵容。" : "权威数据源已接入，但本场首发尚未公布。",
+        source: liveContext.provider,
+        teams: apiLineups || []
+      },
+      injuries: {
+        status: apiInjuries.length ? "confirmed" : "none-reported",
+        text: apiInjuries.length ? `API-Football 当前返回 ${apiInjuries.length} 条伤停/缺阵记录。` : "权威数据源当前未返回本场伤停记录。",
+        source: liveContext.provider,
+        players: apiInjuries
+      },
+      tactical: {
+        status: apiLineups ? "lineup-derived" : matched.length ? "news-derived" : "model-derived",
+        text: apiLineups ? "已基于首发阵型和人员结构更新临场战术参考。" : matched.length ? "临场战术信息来自公开新闻匹配，需结合首发确认。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待首发确认。"
+      }
+    };
+  }
+
   return {
-    status: matched.length ? "connected" : "no-structured-source",
-    provider: matched.length ? expertContext.provider : "pending-structured-provider",
+    status: providerStatus === "connected" ? "no-fixture-match" : providerStatus,
+    provider: providerStatus === "connected" ? liveContext.provider : "API-Football",
     lineup: {
-      status: "pending",
-      text: "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-      source: "provider-needed"
+      status: providerStatus === "missing-key" ? "provider-needed" : "pending",
+      text: providerStatus === "missing-key" ? "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
+      source: providerStatus === "missing-key" ? "provider-needed" : liveContext?.provider || "provider-needed"
     },
     injuries: {
-      status: matched.length ? "news-derived" : "provider-needed",
-      text: matched.length ? `从公开新闻源匹配到 ${matched.length} 条可能涉及伤停/阵容的报道。` : "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
+      status: matched.length ? "news-derived" : providerStatus === "missing-key" ? "provider-needed" : "none-confirmed",
+      text: matched.length ? `从公开新闻源匹配到 ${matched.length} 条可能涉及伤停/阵容的报道。` : providerStatus === "missing-key" ? "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源当前未返回本场伤停记录。",
       articles: matched.map(article => ({
         title: article.title,
         source: article.source,
@@ -1196,7 +1396,7 @@ function weatherForMatch(match, weatherContext) {
 function intelligenceForMatch(match, signalContext) {
   return {
     weather: weatherForMatch(match, signalContext.weather),
-    teamNews: teamNewsForMatch(match, signalContext.experts),
+    teamNews: teamNewsForMatch(match, signalContext.experts, signalContext.live),
     updatedAt: now.toISOString()
   };
 }
@@ -1565,23 +1765,33 @@ async function main() {
   }
 
   const context = buildTournamentContext(matches);
-  const [odds, experts, weather] = await Promise.all([loadOddsSignals(), loadExpertSignals(), loadWeatherSignals(matches)]);
+  const [odds, experts, weather, live] = await Promise.all([
+    loadOddsSignals(),
+    loadExpertSignals(),
+    loadWeatherSignals(matches),
+    loadApiFootballSignals(matches)
+  ]);
   metaOverrides = {
     ...metaOverrides,
     marketSignals: odds.status,
     expertSignals: experts.status,
     weatherSignals: weather.status,
+    liveTeamNewsSignals: live.status,
     oddsProvider: odds.provider,
     oddsSportKey: odds.sportKey || ODDS_SPORT_KEY,
     oddsEventCount: odds.events?.length || 0,
     expertProvider: experts.provider,
     expertArticleCount: experts.articles?.length || 0,
     weatherProvider: weather.provider,
-    weatherForecastCount: Object.values(weather.forecasts || {}).filter(item => item.status === "connected").length
+    weatherForecastCount: Object.values(weather.forecasts || {}).filter(item => item.status === "connected").length,
+    liveTeamNewsProvider: live.provider,
+    liveFixtureCount: live.fixtureCount || 0,
+    liveLineupFixtureCount: live.lineupFixtureCount || 0,
+    liveInjuryCount: live.injuryCount || 0
   };
-  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather }, matches));
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live }, matches));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}`);
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}`);
 }
 
 await main();

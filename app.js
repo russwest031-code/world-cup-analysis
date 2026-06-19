@@ -304,14 +304,46 @@
           return '<a href="' + article.link + '" target="_blank" rel="noopener">' + article.title + '<small>' + article.source + '</small></a>';
         }).join("") + '</div>'
       : "";
+    function statusLabel(status) {
+      var map = {
+        "connected": "已接入",
+        "confirmed": "已确认",
+        "not-yet-released": "未公布",
+        "pending": "待公布",
+        "provider-needed": "需权威源",
+        "missing-key": "需密钥",
+        "news-derived": "新闻提取",
+        "model-derived": "模型推断",
+        "lineup-derived": "首发推导",
+        "none-reported": "暂无记录",
+        "none-confirmed": "未确认",
+        "no-fixture-match": "未匹配",
+        "unavailable": "暂无预报"
+      };
+      return map[status] || status || "-";
+    }
+    function lineupExtra() {
+      var teams = lineup.teams || [];
+      if (!teams.length) return "";
+      return '<div class="lineup-list">' + teams.map(function (team) {
+        return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '</strong><small>' + (team.starters || []).join(" / ") + '</small></div>';
+      }).join("") + '</div>';
+    }
+    function injuryExtra() {
+      var players = injuries.players || [];
+      if (!players.length) return articleHtml;
+      return '<div class="injury-list">' + players.slice(0, 8).map(function (item) {
+        return '<span>' + item.player + ' · ' + (item.reason || "未说明") + '</span>';
+      }).join("") + '</div>';
+    }
     function card(title, status, text, extra) {
-      return '<div class="intel-card"><div><strong>' + title + '</strong><span>' + (status || "-") + '</span></div><p>' + (text || "暂无数据。") + '</p>' + (extra || "") + '</div>';
+      return '<div class="intel-card"><div><strong>' + title + '</strong><span>' + statusLabel(status) + '</span></div><p>' + (text || "暂无数据。") + '</p>' + (extra || "") + '</div>';
     }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>临场情报</h3><small>首发 / 伤停 / 天气 / 战术</small></div>' +
       '<div class="intel-grid">' +
-        card("首发阵容", lineup.status, lineup.text) +
-        card("伤病停赛", injuries.status, injuries.text, articleHtml) +
+        card("首发阵容", lineup.status, lineup.text, lineupExtra()) +
+        card("伤病停赛", injuries.status, injuries.text, injuryExtra()) +
         card("比赛天气", weather.status, (weather.text || "") + (weather.impact ? " " + weather.impact : "")) +
         card("临场战术", tactical.status, tactical.text) +
       '</div>' +

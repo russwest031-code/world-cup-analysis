@@ -18,7 +18,12 @@ window.ANALYSIS_META = {
   "expertArticleCount": 0,
   "weatherSignals": "connected",
   "weatherProvider": "Open-Meteo",
-  "weatherForecastCount": 43
+  "weatherForecastCount": 43,
+  "liveTeamNewsSignals": "missing-key",
+  "liveTeamNewsProvider": "API-Football",
+  "liveFixtureCount": 0,
+  "liveLineupFixtureCount": 0,
+  "liveInjuryCount": 0
 };
 
 window.ANALYSIS_BACKTEST = {
@@ -1098,21 +1103,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -1716,21 +1722,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -2342,21 +2349,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -2960,21 +2968,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -3578,21 +3587,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -4196,21 +4206,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -4814,21 +4825,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -5440,21 +5452,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -6066,21 +6079,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -6684,21 +6698,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -7310,21 +7325,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -7928,21 +7944,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -8554,21 +8571,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -9180,21 +9198,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -9798,21 +9817,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -10416,21 +10436,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -11034,21 +11055,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -11652,21 +11674,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -12278,21 +12301,22 @@ window.MATCHES = [
         "impact": "风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -12896,21 +12920,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -13522,21 +13547,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -14140,21 +14166,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -14766,21 +14793,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -15392,21 +15420,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -16018,21 +16047,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -16636,21 +16666,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -17262,21 +17293,22 @@ window.MATCHES = [
         "impact": "风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -17880,21 +17912,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -18554,21 +18587,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -19220,21 +19254,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -19894,21 +19929,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -20560,21 +20596,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -21234,21 +21271,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -21908,21 +21946,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -22582,21 +22621,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -23248,21 +23288,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -23922,21 +23963,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -24588,21 +24630,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -25254,21 +25297,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -25928,21 +25972,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -26594,21 +26639,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -27268,21 +27314,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -27934,21 +27981,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -28600,21 +28648,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -29274,21 +29323,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -29940,21 +29990,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -30614,21 +30665,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -31280,21 +31332,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -31954,21 +32007,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -32628,21 +32682,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -33294,21 +33349,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -33968,21 +34024,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -34642,21 +34699,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -35308,21 +35366,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -35982,21 +36041,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -36648,21 +36708,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -37314,21 +37375,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -37988,21 +38050,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -38654,21 +38717,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -39320,21 +39384,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -39986,21 +40051,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -40660,21 +40726,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -41334,21 +41401,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -42000,21 +42068,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -42674,21 +42743,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -43348,21 +43418,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -44014,21 +44085,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -44688,21 +44760,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -45354,21 +45427,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -46028,21 +46102,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -46702,21 +46777,22 @@ window.MATCHES = [
         "impact": "风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -47368,21 +47444,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -47986,21 +48063,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -48612,21 +48690,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -49230,21 +49309,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -49848,21 +49928,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -50466,21 +50547,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -51084,21 +51166,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -51710,21 +51793,22 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -52336,21 +52420,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -52962,21 +53047,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -53580,21 +53666,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -54198,21 +54285,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -54824,21 +54912,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -55450,21 +55539,22 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -56068,21 +56158,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -56686,21 +56777,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -57312,21 +57404,22 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -57933,21 +58026,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -58554,21 +58648,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -59172,21 +59267,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -59793,21 +59889,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -60411,21 +60508,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -61032,21 +61130,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -61653,21 +61752,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -62274,21 +62374,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -62892,21 +62993,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -63510,21 +63612,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -64128,21 +64231,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -64749,21 +64853,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -65367,21 +65472,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -65988,21 +66094,22 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -66606,21 +66713,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
@@ -67224,21 +67332,22 @@ window.MATCHES = [
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。"
       },
       "teamNews": {
-        "status": "provider-needed",
-        "provider": "pending-structured-provider",
+        "status": "missing-key",
+        "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "官方首发通常在开赛前约60分钟公布；当前未接入稳定首发数据源。",
-          "source": "provider-needed"
+          "status": "provider-needed",
+          "text": "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "source": "API-Football"
         },
         "injuries": {
           "status": "provider-needed",
-          "text": "当前未接入稳定伤停名单；需要 API-Football、Sportmonks 或同类 provider。",
-          "articles": []
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": [],
+          "source": "API-Football"
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，未接入赛前发布会结构化数据。"
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。"
         }
       },
       "updatedAt": "2026-06-19T14:35:17.086Z"
