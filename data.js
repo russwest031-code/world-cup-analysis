@@ -1,12 +1,12 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-19T13:09:51.783Z",
+  "updatedAt": "2026-06-19T13:22:36.599Z",
   "runDate": "2026-06-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-19T13:09:51.783Z",
+  "externalFetchedAt": "2026-06-19T13:22:36.599Z",
   "externalMatchCount": 104,
   "model": "ten-factor-weighted-poisson-v2",
   "rulesModel": "wc2026-group-qualification-v1",
-  "marketSignals": "missing-key",
+  "marketSignals": "connected",
   "expertSignals": "no-articles",
   "refreshCadence": "daily",
   "refreshTimeLocal": "15:00",
@@ -14,7 +14,7 @@ window.ANALYSIS_META = {
   "onsideSignals": "connected",
   "oddsProvider": "The Odds API",
   "oddsSportKey": "soccer_fifa_world_cup",
-  "oddsEventCount": 0,
+  "oddsEventCount": 44,
   "expertProvider": "public-rss",
   "expertArticleCount": 0,
   "onsideProvider": "onsidearena.com",
@@ -236,7 +236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -553,17 +553,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -810,7 +812,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1127,17 +1129,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -1384,7 +1388,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -1701,17 +1705,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -1958,7 +1964,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -2275,17 +2281,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -2532,7 +2540,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -2849,17 +2857,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -3106,7 +3116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -3423,17 +3433,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -3680,7 +3692,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -3997,17 +4009,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -4254,7 +4268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -4571,17 +4585,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -4828,7 +4844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -5145,17 +5161,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -5402,7 +5420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -5719,17 +5737,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -5976,7 +5996,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -6293,17 +6313,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -6550,7 +6572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -6867,17 +6889,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -7124,7 +7148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -7441,17 +7465,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -7698,7 +7724,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -8015,17 +8041,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -8272,7 +8300,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -8589,17 +8617,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -8846,7 +8876,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -9163,17 +9193,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -9420,7 +9452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -9737,17 +9769,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -9994,7 +10028,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -10311,17 +10345,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -10568,7 +10604,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -10885,17 +10921,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -11142,7 +11180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -11459,17 +11497,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -11716,7 +11756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -12033,17 +12073,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -12290,7 +12332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -12607,17 +12649,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -12864,7 +12908,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -13181,17 +13225,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -13438,7 +13484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -13755,17 +13801,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -14012,7 +14060,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -14329,17 +14377,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -14586,7 +14636,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -14903,17 +14953,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -15160,7 +15212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -15477,17 +15529,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -15734,7 +15788,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -16051,17 +16105,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -16308,7 +16364,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -16456,10 +16512,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 62,
-        "awayScore": 17,
-        "contribution": 1.35,
-        "evidence": "Onside 公开模型：主62% / 平21% / 客17%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 59,
+        "awayScore": 19,
+        "contribution": 1.2,
+        "evidence": "赔率市场：主59% / 平22% / 客19%。48 家公司均值，倾向美国。"
       }
     ],
     "modelInputs": {
@@ -16651,17 +16707,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "065b3573e875f8d23803357f73e5b99e",
+      "commenceTime": "2026-06-19T19:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 1.61,
+        "draw": 4.34,
+        "away": 5.11
+      },
+      "impliedProbabilities": [
+        59,
+        22,
+        19
+      ],
+      "marketFavorite": "美国",
+      "note": "已接入赔率市场，48 家公司均值：主 1.61 / 平 4.34 / 客 5.11。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -16908,7 +16980,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -16916,8 +16988,8 @@ window.MATCHES = [
     },
     "probabilities": [
       23,
-      22,
-      55
+      23,
+      54
     ],
     "confidence": 77,
     "tag": "稳健",
@@ -17056,10 +17128,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 13,
-        "awayScore": 70,
-        "contribution": -1.71,
-        "evidence": "Onside 公开模型：主13% / 平17% / 客70%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 17,
+        "awayScore": 57,
+        "contribution": -1.2,
+        "evidence": "赔率市场：主17% / 平26% / 客57%。48 家公司均值，倾向摩洛哥。"
       }
     ],
     "modelInputs": {
@@ -17251,17 +17323,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "commenceTime": "2026-06-19T22:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 5.74,
+        "draw": 3.62,
+        "away": 1.67
+      },
+      "impliedProbabilities": [
+        17,
+        26,
+        57
+      ],
+      "marketFavorite": "摩洛哥",
+      "note": "已接入赔率市场，48 家公司均值：主 5.74 / 平 3.62 / 客 1.67。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -17508,7 +17596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -17656,10 +17744,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 96,
-        "awayScore": 1,
-        "contribution": 2.85,
-        "evidence": "Onside 公开模型：主96% / 平3% / 客1%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 87,
+        "awayScore": 4,
+        "contribution": 2.49,
+        "evidence": "赔率市场：主87% / 平9% / 客4%。48 家公司均值，倾向巴西。"
       }
     ],
     "modelInputs": {
@@ -17851,17 +17939,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "ef0f74a991d3e35798ae5af77667bce1",
+      "commenceTime": "2026-06-20T00:30:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 1.1,
+        "draw": 10.79,
+        "away": 22.32
+      },
+      "impliedProbabilities": [
+        87,
+        9,
+        4
+      ],
+      "marketFavorite": "巴西",
+      "note": "已接入赔率市场，48 家公司均值：主 1.1 / 平 10.79 / 客 22.32。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -18108,15 +18212,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
       "awayName": "Paraguay"
     },
     "probabilities": [
-      50,
-      21,
+      49,
+      22,
       29
     ],
     "confidence": 74,
@@ -18256,10 +18360,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 57,
-        "awayScore": 20,
-        "contribution": 1.11,
-        "evidence": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 47,
+        "awayScore": 25,
+        "contribution": 0.66,
+        "evidence": "赔率市场：主47% / 平28% / 客25%。48 家公司均值，倾向土耳其。"
       }
     ],
     "modelInputs": {
@@ -18451,17 +18555,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
+      "commenceTime": "2026-06-20T03:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 2.05,
+        "draw": 3.37,
+        "away": 3.79
+      },
+      "impliedProbabilities": [
+        47,
+        28,
+        25
+      ],
+      "marketFavorite": "土耳其",
+      "note": "已接入赔率市场，48 家公司均值：主 2.05 / 平 3.37 / 客 3.79。市场倾向 土耳其。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -18708,18 +18828,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
       "awayName": "Sweden"
     },
     "probabilities": [
-      56,
-      18,
-      26
+      54,
+      19,
+      27
     ],
-    "confidence": 77,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 荷兰 方向，最可能比分为 2-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -18856,10 +18976,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 72,
-        "awayScore": 12,
-        "contribution": 1.8,
-        "evidence": "Onside 公开模型：主72% / 平16% / 客12%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 54,
+        "awayScore": 21,
+        "contribution": 0.99,
+        "evidence": "赔率市场：主54% / 平25% / 客21%。47 家公司均值，倾向荷兰。"
       }
     ],
     "modelInputs": {
@@ -19051,17 +19171,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "4f0c518545b0096c68326daf25bffc1e",
+      "commenceTime": "2026-06-20T17:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.75,
+        "draw": 3.84,
+        "away": 4.62
+      },
+      "impliedProbabilities": [
+        54,
+        25,
+        21
+      ],
+      "marketFavorite": "荷兰",
+      "note": "已接入赔率市场，47 家公司均值：主 1.75 / 平 3.84 / 客 4.62。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -19308,7 +19444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -19456,10 +19592,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 68,
-        "awayScore": 14,
-        "contribution": 1.62,
-        "evidence": "Onside 公开模型：主68% / 平18% / 客14%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 63,
+        "awayScore": 16,
+        "contribution": 1.41,
+        "evidence": "赔率市场：主63% / 平21% / 客16%。48 家公司均值，倾向德国。"
       }
     ],
     "modelInputs": {
@@ -19651,17 +19787,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "f1ab0f69832972a329243522ceaa7804",
+      "commenceTime": "2026-06-20T20:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 1.52,
+        "draw": 4.53,
+        "away": 5.77
+      },
+      "impliedProbabilities": [
+        63,
+        21,
+        16
+      ],
+      "marketFavorite": "德国",
+      "note": "已接入赔率市场，48 家公司均值：主 1.52 / 平 4.53 / 客 5.77。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -19908,7 +20060,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -20056,10 +20208,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 91,
-        "awayScore": 3,
-        "contribution": 2.64,
-        "evidence": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 87,
+        "awayScore": 4,
+        "contribution": 2.49,
+        "evidence": "赔率市场：主87% / 平9% / 客4%。48 家公司均值，倾向厄瓜多尔。"
       }
     ],
     "modelInputs": {
@@ -20251,17 +20403,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "681895f294b670b4c7b14495dfb583bc",
+      "commenceTime": "2026-06-21T00:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 1.1,
+        "draw": 10.12,
+        "away": 24.74
+      },
+      "impliedProbabilities": [
+        87,
+        9,
+        4
+      ],
+      "marketFavorite": "厄瓜多尔",
+      "note": "已接入赔率市场，48 家公司均值：主 1.1 / 平 10.12 / 客 24.74。市场倾向 厄瓜多尔。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -20508,7 +20676,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -20657,9 +20825,9 @@ window.MATCHES = [
         "name": "外部信号",
         "weight": 3,
         "homeScore": 15,
-        "awayScore": 65,
-        "contribution": -1.5,
-        "evidence": "Onside 公开模型：主15% / 平20% / 客65%（基于排名、英超阵容、主场和联合会因素）。"
+        "awayScore": 62,
+        "contribution": -1.41,
+        "evidence": "赔率市场：主15% / 平23% / 客62%。48 家公司均值，倾向日本。"
       }
     ],
     "modelInputs": {
@@ -20851,17 +21019,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "commenceTime": "2026-06-21T04:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 6.68,
+        "draw": 4.07,
+        "away": 1.53
+      },
+      "impliedProbabilities": [
+        15,
+        23,
+        62
+      ],
+      "marketFavorite": "日本",
+      "note": "已接入赔率市场，48 家公司均值：主 6.68 / 平 4.07 / 客 1.53。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -21108,7 +21292,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -21256,10 +21440,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 92,
-        "awayScore": 3,
-        "contribution": 2.67,
-        "evidence": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 87,
+        "awayScore": 4,
+        "contribution": 2.49,
+        "evidence": "赔率市场：主87% / 平9% / 客4%。48 家公司均值，倾向西班牙。"
       }
     ],
     "modelInputs": {
@@ -21451,17 +21635,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "73529a242e319a86bf3d00ddb4accc37",
+      "commenceTime": "2026-06-21T16:00:00Z",
+      "bookmakers": 48,
+      "averageOdds": {
+        "home": 1.1,
+        "draw": 10.05,
+        "away": 24.91
+      },
+      "impliedProbabilities": [
+        87,
+        9,
+        4
+      ],
+      "marketFavorite": "西班牙",
+      "note": "已接入赔率市场，48 家公司均值：主 1.1 / 平 10.05 / 客 24.91。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -21708,16 +21908,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
       "awayName": "Iran"
     },
     "probabilities": [
-      46,
+      48,
       22,
-      32
+      30
     ],
     "confidence": 72,
     "tag": "稳健",
@@ -21856,10 +22056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 57,
-        "awayScore": 20,
-        "contribution": 1.11,
-        "evidence": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 68,
+        "awayScore": 12,
+        "contribution": 1.68,
+        "evidence": "赔率市场：主68% / 平20% / 客12%。47 家公司均值，倾向比利时。"
       }
     ],
     "modelInputs": {
@@ -22051,17 +22251,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "commenceTime": "2026-06-21T19:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.42,
+        "draw": 4.67,
+        "away": 7.65
+      },
+      "impliedProbabilities": [
+        68,
+        20,
+        12
+      ],
+      "marketFavorite": "比利时",
+      "note": "已接入赔率市场，47 家公司均值：主 1.42 / 平 4.67 / 客 7.65。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -22308,18 +22524,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
       "awayName": "Cape Verde"
     },
     "probabilities": [
-      68,
-      18,
-      14
+      65,
+      20,
+      15
     ],
-    "confidence": 81,
+    "confidence": 80,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 乌拉圭 方向，最可能比分为 1-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -22456,10 +22672,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 88,
-        "awayScore": 4,
-        "contribution": 2.52,
-        "evidence": "Onside 公开模型：主88% / 平8% / 客4%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 65,
+        "awayScore": 12,
+        "contribution": 1.59,
+        "evidence": "赔率市场：主65% / 平23% / 客12%。47 家公司均值，倾向乌拉圭。"
       }
     ],
     "modelInputs": {
@@ -22651,17 +22867,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "852a3abe6d46820720febc0fedebff9a",
+      "commenceTime": "2026-06-21T22:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.46,
+        "draw": 4.21,
+        "away": 7.94
+      },
+      "impliedProbabilities": [
+        65,
+        23,
+        12
+      ],
+      "marketFavorite": "乌拉圭",
+      "note": "已接入赔率市场，47 家公司均值：主 1.46 / 平 4.21 / 客 7.94。市场倾向 乌拉圭。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -22908,18 +23140,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
       "awayName": "Egypt"
     },
     "probabilities": [
-      14,
-      17,
-      69
+      15,
+      19,
+      66
     ],
-    "confidence": 83,
+    "confidence": 82,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 埃及 方向，最可能比分为 0-2。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -23056,10 +23288,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 4,
-        "awayScore": 90,
-        "contribution": -2.58,
-        "evidence": "Onside 公开模型：主4% / 平6% / 客90%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 17,
+        "awayScore": 59,
+        "contribution": -1.26,
+        "evidence": "赔率市场：主17% / 平24% / 客59%。47 家公司均值，倾向埃及。"
       }
     ],
     "modelInputs": {
@@ -23251,17 +23483,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "commenceTime": "2026-06-22T01:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 5.64,
+        "draw": 4.01,
+        "away": 1.6
+      },
+      "impliedProbabilities": [
+        17,
+        24,
+        59
+      ],
+      "marketFavorite": "埃及",
+      "note": "已接入赔率市场，47 家公司均值：主 5.64 / 平 4.01 / 客 1.6。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -23508,7 +23756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -23657,9 +23905,9 @@ window.MATCHES = [
         "name": "外部信号",
         "weight": 3,
         "homeScore": 60,
-        "awayScore": 18,
-        "contribution": 1.26,
-        "evidence": "Onside 公开模型：主60% / 平22% / 客18%（基于排名、英超阵容、主场和联合会因素）。"
+        "awayScore": 16,
+        "contribution": 1.32,
+        "evidence": "赔率市场：主60% / 平24% / 客16%。47 家公司均值，倾向阿根廷。"
       }
     ],
     "modelInputs": {
@@ -23851,17 +24099,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "be6c63f416c67bca1300a98f5b89c3af",
+      "commenceTime": "2026-06-22T17:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.59,
+        "draw": 3.92,
+        "away": 5.98
+      },
+      "impliedProbabilities": [
+        60,
+        24,
+        16
+      ],
+      "marketFavorite": "阿根廷",
+      "note": "已接入赔率市场，47 家公司均值：主 1.59 / 平 3.92 / 客 5.98。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -24108,18 +24372,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
       "awayName": "Iraq"
     },
     "probabilities": [
-      73,
+      74,
       14,
-      13
+      12
     ],
-    "confidence": 86,
+    "confidence": 87,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 2-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -24256,10 +24520,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 91,
+        "homeScore": 88,
         "awayScore": 3,
-        "contribution": 2.64,
-        "evidence": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
+        "contribution": 2.55,
+        "evidence": "赔率市场：主88% / 平9% / 客3%。47 家公司均值，倾向法国。"
       }
     ],
     "modelInputs": {
@@ -24451,17 +24715,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "7ad7a0ce2ef2618bb59b066da5642f70",
+      "commenceTime": "2026-06-22T21:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.09,
+        "draw": 10.87,
+        "away": 29.69
+      },
+      "impliedProbabilities": [
+        88,
+        9,
+        3
+      ],
+      "marketFavorite": "法国",
+      "note": "已接入赔率市场，47 家公司均值：主 1.09 / 平 10.87 / 客 29.69。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -24708,19 +24988,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
       "awayName": "Senegal"
     },
     "probabilities": [
-      36,
+      39,
       20,
-      44
+      41
     ],
-    "confidence": 70,
-    "tag": "稳健",
+    "confidence": 69,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 塞内加尔 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -24856,10 +25136,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 24,
-        "awayScore": 51,
-        "contribution": -0.81,
-        "evidence": "Onside 公开模型：主24% / 平25% / 客51%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 41,
+        "awayScore": 32,
+        "contribution": 0.27,
+        "evidence": "赔率市场：主41% / 平27% / 客32%。47 家公司均值，倾向挪威。"
       }
     ],
     "modelInputs": {
@@ -25051,17 +25331,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "3f48473742ca0fd2a85930554720c75e",
+      "commenceTime": "2026-06-23T00:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 2.32,
+        "draw": 3.47,
+        "away": 3.02
+      },
+      "impliedProbabilities": [
+        41,
+        27,
+        32
+      ],
+      "marketFavorite": "挪威",
+      "note": "已接入赔率市场，47 家公司均值：主 2.32 / 平 3.47 / 客 3.02。市场倾向 挪威。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -25308,15 +25604,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
       "awayName": "Algeria"
     },
     "probabilities": [
-      27,
-      20,
+      26,
+      21,
       53
     ],
     "confidence": 75,
@@ -25456,10 +25752,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 11,
-        "awayScore": 74,
-        "contribution": -1.89,
-        "evidence": "Onside 公开模型：主11% / 平15% / 客74%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 16,
+        "awayScore": 61,
+        "contribution": -1.35,
+        "evidence": "赔率市场：主16% / 平23% / 客61%。47 家公司均值，倾向阿尔及利亚。"
       }
     ],
     "modelInputs": {
@@ -25651,17 +25947,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "fd8533b650e655030f6a7946f8795db2",
+      "commenceTime": "2026-06-23T03:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 5.91,
+        "draw": 4.09,
+        "away": 1.57
+      },
+      "impliedProbabilities": [
+        16,
+        23,
+        61
+      ],
+      "marketFavorite": "阿尔及利亚",
+      "note": "已接入赔率市场，47 家公司均值：主 5.91 / 平 4.09 / 客 1.57。市场倾向 阿尔及利亚。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -25908,15 +26220,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
       "awayName": "Uzbekistan"
     },
     "probabilities": [
-      72,
-      15,
+      71,
+      16,
       13
     ],
     "confidence": 84,
@@ -26056,10 +26368,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 85,
-        "awayScore": 5,
-        "contribution": 2.4,
-        "evidence": "Onside 公开模型：主85% / 平10% / 客5%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 80,
+        "awayScore": 6,
+        "contribution": 2.22,
+        "evidence": "赔率市场：主80% / 平14% / 客6%。47 家公司均值，倾向葡萄牙。"
       }
     ],
     "modelInputs": {
@@ -26251,17 +26563,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "8ba93d190f1f934e33862a97a6353a6e",
+      "commenceTime": "2026-06-23T17:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.2,
+        "draw": 6.81,
+        "away": 14.69
+      },
+      "impliedProbabilities": [
+        80,
+        14,
+        6
+      ],
+      "marketFavorite": "葡萄牙",
+      "note": "已接入赔率市场，47 家公司均值：主 1.2 / 平 6.81 / 客 14.69。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -26508,18 +26836,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
       "awayName": "Ghana"
     },
     "probabilities": [
-      79,
-      12,
-      9
+      77,
+      13,
+      10
     ],
-    "confidence": 89,
+    "confidence": 88,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 英格兰 方向，最可能比分为 2-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -26656,10 +26984,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 95,
-        "awayScore": 2,
-        "contribution": 2.79,
-        "evidence": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 78,
+        "awayScore": 7,
+        "contribution": 2.13,
+        "evidence": "赔率市场：主78% / 平15% / 客7%。47 家公司均值，倾向英格兰。"
       }
     ],
     "modelInputs": {
@@ -26851,17 +27179,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "2f49dd8deae3079dc4eb2d634d18a99c",
+      "commenceTime": "2026-06-23T20:00:00Z",
+      "bookmakers": 47,
+      "averageOdds": {
+        "home": 1.22,
+        "draw": 6.39,
+        "away": 13.72
+      },
+      "impliedProbabilities": [
+        78,
+        15,
+        7
+      ],
+      "marketFavorite": "英格兰",
+      "note": "已接入赔率市场，47 家公司均值：主 1.22 / 平 6.39 / 客 13.72。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -27108,7 +27452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -27116,10 +27460,10 @@ window.MATCHES = [
     },
     "probabilities": [
       15,
-      17,
-      68
+      18,
+      67
     ],
-    "confidence": 84,
+    "confidence": 83,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 克罗地亚 方向，最可能比分为 0-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -27256,10 +27600,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 15,
-        "awayScore": 66,
-        "contribution": -1.53,
-        "evidence": "Onside 公开模型：主15% / 平19% / 客66%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 14,
+        "awayScore": 62,
+        "contribution": -1.44,
+        "evidence": "赔率市场：主14% / 平24% / 客62%。46 家公司均值，倾向克罗地亚。"
       }
     ],
     "modelInputs": {
@@ -27451,17 +27795,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "c1bc8c26480cd42b89a0de5329581314",
+      "commenceTime": "2026-06-23T23:00:00Z",
+      "bookmakers": 46,
+      "averageOdds": {
+        "home": 6.69,
+        "draw": 3.97,
+        "away": 1.53
+      },
+      "impliedProbabilities": [
+        14,
+        24,
+        62
+      ],
+      "marketFavorite": "克罗地亚",
+      "note": "已接入赔率市场，46 家公司均值：主 6.69 / 平 3.97 / 客 1.53。市场倾向 克罗地亚。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -27708,18 +28068,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
       "awayName": "DR Congo"
     },
     "probabilities": [
-      75,
-      14,
+      74,
+      15,
       11
     ],
-    "confidence": 85,
+    "confidence": 84,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 哥伦比亚 方向，最可能比分为 2-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -27856,10 +28216,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 75,
-        "awayScore": 10,
-        "contribution": 1.95,
-        "evidence": "Onside 公开模型：主75% / 平15% / 客10%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 63,
+        "awayScore": 14,
+        "contribution": 1.47,
+        "evidence": "赔率市场：主63% / 平23% / 客14%。44 家公司均值，倾向哥伦比亚。"
       }
     ],
     "modelInputs": {
@@ -28051,17 +28411,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "commenceTime": "2026-06-24T02:00:00Z",
+      "bookmakers": 44,
+      "averageOdds": {
+        "home": 1.5,
+        "draw": 4.14,
+        "away": 7
+      },
+      "impliedProbabilities": [
+        63,
+        23,
+        14
+      ],
+      "marketFavorite": "哥伦比亚",
+      "note": "已接入赔率市场，44 家公司均值：主 1.5 / 平 4.14 / 客 7。市场倾向 哥伦比亚。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -28308,7 +28684,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28316,8 +28692,8 @@ window.MATCHES = [
     },
     "probabilities": [
       44,
-      22,
-      34
+      23,
+      33
     ],
     "confidence": 72,
     "tag": "稳健",
@@ -28456,10 +28832,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 43,
-        "awayScore": 31,
-        "contribution": 0.36,
-        "evidence": "Onside 公开模型：主43% / 平26% / 客31%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 39,
+        "awayScore": 30,
+        "contribution": 0.27,
+        "evidence": "赔率市场：主39% / 平31% / 客30%。43 家公司均值，倾向瑞士。"
       }
     ],
     "modelInputs": {
@@ -28651,17 +29027,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "c9ef5822ee64fd5275f7c73251bb56c7",
+      "commenceTime": "2026-06-24T19:00:00Z",
+      "bookmakers": 43,
+      "averageOdds": {
+        "home": 2.42,
+        "draw": 3.07,
+        "away": 3.17
+      },
+      "impliedProbabilities": [
+        39,
+        31,
+        30
+      ],
+      "marketFavorite": "瑞士",
+      "note": "已接入赔率市场，43 家公司均值：主 2.42 / 平 3.07 / 客 3.17。市场倾向 瑞士。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -28908,18 +29300,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
       "awayName": "Qatar"
     },
     "probabilities": [
-      50,
-      20,
-      30
+      55,
+      19,
+      26
     ],
-    "confidence": 74,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 波黑 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -29056,10 +29448,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 31,
-        "awayScore": 42,
-        "contribution": -0.33,
-        "evidence": "Onside 公开模型：主31% / 平27% / 客42%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 67,
+        "awayScore": 13,
+        "contribution": 1.62,
+        "evidence": "赔率市场：主67% / 平20% / 客13%。43 家公司均值，倾向波黑。"
       }
     ],
     "modelInputs": {
@@ -29251,17 +29643,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "512ac18beb5aa936a59f7ea3e497ada2",
+      "commenceTime": "2026-06-24T19:00:00Z",
+      "bookmakers": 43,
+      "averageOdds": {
+        "home": 1.42,
+        "draw": 4.82,
+        "away": 7.07
+      },
+      "impliedProbabilities": [
+        67,
+        20,
+        13
+      ],
+      "marketFavorite": "波黑",
+      "note": "已接入赔率市场，43 家公司均值：主 1.42 / 平 4.82 / 客 7.07。市场倾向 波黑。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -29508,15 +29916,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
       "awayName": "Brazil"
     },
     "probabilities": [
-      23,
-      21,
+      22,
+      22,
       56
     ],
     "confidence": 76,
@@ -29656,10 +30064,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 10,
-        "awayScore": 76,
-        "contribution": -1.98,
-        "evidence": "Onside 公开模型：主10% / 平14% / 客76%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 13,
+        "awayScore": 67,
+        "contribution": -1.62,
+        "evidence": "赔率市场：主13% / 平20% / 客67%。40 家公司均值，倾向巴西。"
       }
     ],
     "modelInputs": {
@@ -29851,17 +30259,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "885ba95805db310a7bcc3fb1a7a6dd28",
+      "commenceTime": "2026-06-24T22:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 7.08,
+        "draw": 4.84,
+        "away": 1.41
+      },
+      "impliedProbabilities": [
+        13,
+        20,
+        67
+      ],
+      "marketFavorite": "巴西",
+      "note": "已接入赔率市场，40 家公司均值：主 7.08 / 平 4.84 / 客 1.41。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -30108,18 +30532,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
       "awayName": "Haiti"
     },
     "probabilities": [
-      71,
-      18,
-      11
+      68,
+      20,
+      12
     ],
-    "confidence": 88,
+    "confidence": 87,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 摩洛哥 方向，最可能比分为 1-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -30256,10 +30680,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 95,
-        "awayScore": 2,
-        "contribution": 2.79,
-        "evidence": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 74,
+        "awayScore": 9,
+        "contribution": 1.95,
+        "evidence": "赔率市场：主74% / 平17% / 客9%。40 家公司均值，倾向摩洛哥。"
       }
     ],
     "modelInputs": {
@@ -30451,17 +30875,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "d1279ce7f33136a33e99ad442fc855e8",
+      "commenceTime": "2026-06-24T22:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 1.27,
+        "draw": 5.66,
+        "away": 10.78
+      },
+      "impliedProbabilities": [
+        74,
+        17,
+        9
+      ],
+      "marketFavorite": "摩洛哥",
+      "note": "已接入赔率市场，40 家公司均值：主 1.27 / 平 5.66 / 客 10.78。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -30708,16 +31148,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
       "awayName": "Mexico"
     },
     "probabilities": [
-      42,
-      21,
-      37
+      43,
+      22,
+      35
     ],
     "confidence": 71,
     "tag": "稳健",
@@ -30856,10 +31296,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 12,
-        "awayScore": 71,
-        "contribution": -1.77,
-        "evidence": "Onside 公开模型：主12% / 平17% / 客71%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 28,
+        "awayScore": 45,
+        "contribution": -0.51,
+        "evidence": "赔率市场：主28% / 平27% / 客45%。40 家公司均值，倾向墨西哥。"
       }
     ],
     "modelInputs": {
@@ -31051,17 +31491,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "5993bd5196ca09f83990f0c3261e442e",
+      "commenceTime": "2026-06-25T01:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 3.37,
+        "draw": 3.54,
+        "away": 2.09
+      },
+      "impliedProbabilities": [
+        28,
+        27,
+        45
+      ],
+      "marketFavorite": "墨西哥",
+      "note": "已接入赔率市场，40 家公司均值：主 3.37 / 平 3.54 / 客 2.09。市场倾向 墨西哥。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -31308,7 +31764,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -31316,8 +31772,8 @@ window.MATCHES = [
     },
     "probabilities": [
       19,
-      20,
-      61
+      21,
+      60
     ],
     "confidence": 80,
     "tag": "稳健",
@@ -31456,10 +31912,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 11,
-        "awayScore": 73,
-        "contribution": -1.86,
-        "evidence": "Onside 公开模型：主11% / 平16% / 客73%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 17,
+        "awayScore": 59,
+        "contribution": -1.26,
+        "evidence": "赔率市场：主17% / 平24% / 客59%。43 家公司均值，倾向韩国。"
       }
     ],
     "modelInputs": {
@@ -31651,17 +32107,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "c0355dfc6e26ec327e379b6ef5824a5f",
+      "commenceTime": "2026-06-25T01:00:00Z",
+      "bookmakers": 43,
+      "averageOdds": {
+        "home": 5.58,
+        "draw": 3.87,
+        "away": 1.62
+      },
+      "impliedProbabilities": [
+        17,
+        24,
+        59
+      ],
+      "marketFavorite": "韩国",
+      "note": "已接入赔率市场，43 家公司均值：主 5.58 / 平 3.87 / 客 1.62。市场倾向 韩国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -31908,16 +32380,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
       "awayName": "Ivory Coast"
     },
     "probabilities": [
-      16,
+      15,
       19,
-      65
+      66
     ],
     "confidence": 83,
     "tag": "高信心",
@@ -32056,10 +32528,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 6,
+        "homeScore": 5,
         "awayScore": 84,
-        "contribution": -2.34,
-        "evidence": "Onside 公开模型：主6% / 平10% / 客84%（基于排名、英超阵容、主场和联合会因素）。"
+        "contribution": -2.37,
+        "evidence": "赔率市场：主5% / 平11% / 客84%。40 家公司均值，倾向科特迪瓦。"
       }
     ],
     "modelInputs": {
@@ -32251,17 +32723,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "a5a0b544a984ab16e564264f3e859b43",
+      "commenceTime": "2026-06-25T20:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 19.44,
+        "draw": 8.35,
+        "away": 1.13
+      },
+      "impliedProbabilities": [
+        5,
+        11,
+        84
+      ],
+      "marketFavorite": "科特迪瓦",
+      "note": "已接入赔率市场，40 家公司均值：主 19.44 / 平 8.35 / 客 1.13。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -32508,18 +32996,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
       "awayName": "Germany"
     },
     "probabilities": [
-      36,
+      35,
       20,
-      44
+      45
     ],
-    "confidence": 70,
+    "confidence": 71,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 德国 方向，最可能比分为 1-2。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -32656,10 +33144,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 23,
-        "awayScore": 52,
-        "contribution": -0.87,
-        "evidence": "Onside 公开模型：主23% / 平25% / 客52%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 19,
+        "awayScore": 56,
+        "contribution": -1.11,
+        "evidence": "赔率市场：主19% / 平25% / 客56%。40 家公司均值，倾向德国。"
       }
     ],
     "modelInputs": {
@@ -32851,17 +33339,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+      "commenceTime": "2026-06-25T20:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 4.89,
+        "draw": 3.8,
+        "away": 1.7
+      },
+      "impliedProbabilities": [
+        19,
+        25,
+        56
+      ],
+      "marketFavorite": "德国",
+      "note": "已接入赔率市场，40 家公司均值：主 4.89 / 平 3.8 / 客 1.7。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -33108,16 +33612,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
       "awayName": "Sweden"
     },
     "probabilities": [
-      52,
+      51,
       20,
-      28
+      29
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -33256,10 +33760,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 53,
-        "awayScore": 23,
-        "contribution": 0.9,
-        "evidence": "Onside 公开模型：主53% / 平24% / 客23%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 44,
+        "awayScore": 28,
+        "contribution": 0.48,
+        "evidence": "赔率市场：主44% / 平28% / 客28%。40 家公司均值，倾向日本。"
       }
     ],
     "modelInputs": {
@@ -33451,17 +33955,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "0ed0233bddc4eafc8507f86a9c17b998",
+      "commenceTime": "2026-06-25T23:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 2.13,
+        "draw": 3.4,
+        "away": 3.38
+      },
+      "impliedProbabilities": [
+        44,
+        28,
+        28
+      ],
+      "marketFavorite": "日本",
+      "note": "已接入赔率市场，40 家公司均值：主 2.13 / 平 3.4 / 客 3.38。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -33708,15 +34228,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
       "awayName": "Netherlands"
     },
     "probabilities": [
-      23,
-      19,
+      22,
+      20,
       58
     ],
     "confidence": 78,
@@ -33856,10 +34376,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 7,
-        "awayScore": 81,
-        "contribution": -2.22,
-        "evidence": "Onside 公开模型：主7% / 平12% / 客81%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 10,
+        "awayScore": 72,
+        "contribution": -1.86,
+        "evidence": "赔率市场：主10% / 平18% / 客72%。40 家公司均值，倾向荷兰。"
       }
     ],
     "modelInputs": {
@@ -34051,17 +34571,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "f3c4657daa143a0c5bd62cb370d01ce4",
+      "commenceTime": "2026-06-25T23:00:00Z",
+      "bookmakers": 40,
+      "averageOdds": {
+        "home": 9.37,
+        "draw": 5.32,
+        "away": 1.31
+      },
+      "impliedProbabilities": [
+        10,
+        18,
+        72
+      ],
+      "marketFavorite": "荷兰",
+      "note": "已接入赔率市场，40 家公司均值：主 9.37 / 平 5.32 / 客 1.31。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -34308,19 +34844,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
       "awayName": "USA"
     },
     "probabilities": [
-      41,
+      42,
       21,
-      38
+      37
     ],
-    "confidence": 69,
-    "tag": "均衡",
+    "confidence": 70,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 土耳其 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -34456,10 +34992,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 25,
-        "awayScore": 50,
-        "contribution": -0.75,
-        "evidence": "Onside 公开模型：主25% / 平25% / 客50%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 34,
+        "awayScore": 40,
+        "contribution": -0.18,
+        "evidence": "赔率市场：主34% / 平26% / 客40%。39 家公司均值，倾向美国。"
       }
     ],
     "modelInputs": {
@@ -34651,17 +35187,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "f41aeac9a8343a84b4950f15ea25fba2",
+      "commenceTime": "2026-06-26T02:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 2.78,
+        "draw": 3.64,
+        "away": 2.36
+      },
+      "impliedProbabilities": [
+        34,
+        26,
+        40
+      ],
+      "marketFavorite": "美国",
+      "note": "已接入赔率市场，39 家公司均值：主 2.78 / 平 3.64 / 客 2.36。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -34908,18 +35460,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
       "awayName": "Australia"
     },
     "probabilities": [
-      44,
+      46,
       22,
-      34
+      32
     ],
-    "confidence": 70,
+    "confidence": 71,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 巴拉圭 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -35056,10 +35608,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 28,
-        "awayScore": 46,
-        "contribution": -0.54,
-        "evidence": "Onside 公开模型：主28% / 平26% / 客46%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 43,
+        "awayScore": 28,
+        "contribution": 0.45,
+        "evidence": "赔率市场：主43% / 平29% / 客28%。39 家公司均值，倾向巴拉圭。"
       }
     ],
     "modelInputs": {
@@ -35251,17 +35803,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "22f6ac06dfcc88a847920f62633e6459",
+      "commenceTime": "2026-06-26T02:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 2.17,
+        "draw": 3.27,
+        "away": 3.4
+      },
+      "impliedProbabilities": [
+        43,
+        29,
+        28
+      ],
+      "marketFavorite": "巴拉圭",
+      "note": "已接入赔率市场，39 家公司均值：主 2.17 / 平 3.27 / 客 3.4。市场倾向 巴拉圭。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -35508,18 +36076,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
       "awayName": "France"
     },
     "probabilities": [
-      24,
-      17,
-      59
+      25,
+      18,
+      57
     ],
-    "confidence": 79,
+    "confidence": 78,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 1-2。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -35656,10 +36224,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 13,
-        "awayScore": 69,
-        "contribution": -1.68,
-        "evidence": "Onside 公开模型：主13% / 平18% / 客69%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 23,
+        "awayScore": 52,
+        "contribution": -0.87,
+        "evidence": "赔率市场：主23% / 平25% / 客52%。39 家公司均值，倾向法国。"
       }
     ],
     "modelInputs": {
@@ -35851,17 +36419,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "b86b4d60f773e9e3c46c00e9a6496e79",
+      "commenceTime": "2026-06-26T19:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 4.24,
+        "draw": 3.72,
+        "away": 1.8
+      },
+      "impliedProbabilities": [
+        23,
+        25,
+        52
+      ],
+      "marketFavorite": "法国",
+      "note": "已接入赔率市场，39 家公司均值：主 4.24 / 平 3.72 / 客 1.8。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -36108,18 +36692,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
       "awayName": "Iraq"
     },
     "probabilities": [
-      58,
-      19,
+      57,
+      20,
       23
     ],
-    "confidence": 78,
+    "confidence": 77,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 塞内加尔 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -36256,10 +36840,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 82,
-        "awayScore": 7,
-        "contribution": 2.25,
-        "evidence": "Onside 公开模型：主82% / 平11% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 72,
+        "awayScore": 10,
+        "contribution": 1.86,
+        "evidence": "赔率市场：主72% / 平18% / 客10%。39 家公司均值，倾向塞内加尔。"
       }
     ],
     "modelInputs": {
@@ -36451,17 +37035,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "7e6aee294ea1a4792c59558791084528",
+      "commenceTime": "2026-06-26T19:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 1.31,
+        "draw": 5.13,
+        "away": 9.81
+      },
+      "impliedProbabilities": [
+        72,
+        18,
+        10
+      ],
+      "marketFavorite": "塞内加尔",
+      "note": "已接入赔率市场，39 家公司均值：主 1.31 / 平 5.13 / 客 9.81。市场倾向 塞内加尔。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -36708,19 +37308,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
       "awayName": "Saudi Arabia"
     },
     "probabilities": [
-      37,
+      38,
       26,
-      37
+      36
     ],
-    "confidence": 69,
-    "tag": "均衡",
+    "confidence": 70,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 佛得角 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -36856,10 +37456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 29,
-        "awayScore": 44,
-        "contribution": -0.45,
-        "evidence": "Onside 公开模型：主29% / 平27% / 客44%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 35,
+        "awayScore": 39,
+        "contribution": -0.12,
+        "evidence": "赔率市场：主35% / 平26% / 客39%。39 家公司均值，倾向沙特阿拉伯。"
       }
     ],
     "modelInputs": {
@@ -37051,17 +37651,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "e07b1926be5a4d515c7eb108dbcee9c5",
+      "commenceTime": "2026-06-27T00:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 2.74,
+        "draw": 3.58,
+        "away": 2.41
+      },
+      "impliedProbabilities": [
+        35,
+        26,
+        39
+      ],
+      "marketFavorite": "沙特阿拉伯",
+      "note": "已接入赔率市场，39 家公司均值：主 2.74 / 平 3.58 / 客 2.41。市场倾向 沙特阿拉伯。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -37308,16 +37924,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
       "awayName": "Spain"
     },
     "probabilities": [
-      28,
+      26,
       21,
-      51
+      53
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -37456,10 +38072,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 22,
-        "awayScore": 54,
-        "contribution": -0.96,
-        "evidence": "Onside 公开模型：主22% / 平24% / 客54%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 16,
+        "awayScore": 61,
+        "contribution": -1.35,
+        "evidence": "赔率市场：主16% / 平23% / 客61%。39 家公司均值，倾向西班牙。"
       }
     ],
     "modelInputs": {
@@ -37651,17 +38267,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "dcff2e31c0bce001a4db5caaf4fa8822",
+      "commenceTime": "2026-06-27T00:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 5.92,
+        "draw": 4.14,
+        "away": 1.54
+      },
+      "impliedProbabilities": [
+        16,
+        23,
+        61
+      ],
+      "marketFavorite": "西班牙",
+      "note": "已接入赔率市场，39 家公司均值：主 5.92 / 平 4.14 / 客 1.54。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -37908,20 +38540,20 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
       "awayName": "Iran"
     },
     "probabilities": [
-      38,
+      40,
       22,
-      40
+      38
     ],
     "confidence": 69,
     "tag": "均衡",
-    "summary": "外部赛程数据已更新。本场模型倾向 伊朗 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
+    "summary": "外部赛程数据已更新。本场模型倾向 埃及 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
         "score": "1-1",
@@ -38056,10 +38688,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 31,
-        "awayScore": 43,
-        "contribution": -0.36,
-        "evidence": "Onside 公开模型：主31% / 平26% / 客43%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 45,
+        "awayScore": 25,
+        "contribution": 0.6,
+        "evidence": "赔率市场：主45% / 平30% / 客25%。39 家公司均值，倾向埃及。"
       }
     ],
     "modelInputs": {
@@ -38251,17 +38883,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "3e3b5fa2b3c963e74cf044c60db0b573",
+      "commenceTime": "2026-06-27T03:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 2.09,
+        "draw": 3.12,
+        "away": 3.78
+      },
+      "impliedProbabilities": [
+        45,
+        30,
+        25
+      ],
+      "marketFavorite": "埃及",
+      "note": "已接入赔率市场，39 家公司均值：主 2.09 / 平 3.12 / 客 3.78。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -38508,7 +39156,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -38516,8 +39164,8 @@ window.MATCHES = [
     },
     "probabilities": [
       10,
-      15,
-      75
+      16,
+      74
     ],
     "confidence": 85,
     "tag": "高信心",
@@ -38656,10 +39304,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 1,
-        "awayScore": 96,
-        "contribution": -2.85,
-        "evidence": "Onside 公开模型：主1% / 平3% / 客96%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 8,
+        "awayScore": 77,
+        "contribution": -2.07,
+        "evidence": "赔率市场：主8% / 平15% / 客77%。39 家公司均值，倾向比利时。"
       }
     ],
     "modelInputs": {
@@ -38851,17 +39499,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "581691da05dcd75b5c6d3be91ee9d2ab",
+      "commenceTime": "2026-06-27T03:00:00Z",
+      "bookmakers": 39,
+      "averageOdds": {
+        "home": 12.02,
+        "draw": 6.14,
+        "away": 1.22
+      },
+      "impliedProbabilities": [
+        8,
+        15,
+        77
+      ],
+      "marketFavorite": "比利时",
+      "note": "已接入赔率市场，39 家公司均值：主 12.02 / 平 6.14 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -39108,7 +39772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -39259,7 +39923,7 @@ window.MATCHES = [
         "homeScore": 10,
         "awayScore": 75,
         "contribution": -1.95,
-        "evidence": "Onside 公开模型：主10% / 平15% / 客75%（基于排名、英超阵容、主场和联合会因素）。"
+        "evidence": "赔率市场：主10% / 平15% / 客75%。38 家公司均值，倾向英格兰。"
       }
     ],
     "modelInputs": {
@@ -39451,17 +40115,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+      "commenceTime": "2026-06-27T21:00:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 10.26,
+        "draw": 6.11,
+        "away": 1.25
+      },
+      "impliedProbabilities": [
+        10,
+        15,
+        75
+      ],
+      "marketFavorite": "英格兰",
+      "note": "已接入赔率市场，38 家公司均值：主 10.26 / 平 6.11 / 客 1.25。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -39708,18 +40388,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
       "awayName": "Ghana"
     },
     "probabilities": [
-      72,
-      16,
-      12
+      68,
+      18,
+      14
     ],
-    "confidence": 83,
+    "confidence": 82,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 克罗地亚 方向，最可能比分为 2-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -39856,10 +40536,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 92,
-        "awayScore": 3,
-        "contribution": 2.67,
-        "evidence": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 58,
+        "awayScore": 17,
+        "contribution": 1.23,
+        "evidence": "赔率市场：主58% / 平25% / 客17%。38 家公司均值，倾向克罗地亚。"
       }
     ],
     "modelInputs": {
@@ -40051,17 +40731,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "537c0997cd899394f47f16545b7068b2",
+      "commenceTime": "2026-06-27T21:00:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 1.61,
+        "draw": 3.79,
+        "away": 5.63
+      },
+      "impliedProbabilities": [
+        58,
+        25,
+        17
+      ],
+      "marketFavorite": "克罗地亚",
+      "note": "已接入赔率市场，38 家公司均值：主 1.61 / 平 3.79 / 客 5.63。市场倾向 克罗地亚。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -40308,7 +41004,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -40456,10 +41152,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 28,
-        "awayScore": 47,
-        "contribution": -0.57,
-        "evidence": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 27,
+        "awayScore": 45,
+        "contribution": -0.54,
+        "evidence": "赔率市场：主27% / 平28% / 客45%。38 家公司均值，倾向葡萄牙。"
       }
     ],
     "modelInputs": {
@@ -40651,17 +41347,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "67ae5751c401a98409b8566ae4897069",
+      "commenceTime": "2026-06-27T23:30:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 3.52,
+        "draw": 3.38,
+        "away": 2.07
+      },
+      "impliedProbabilities": [
+        27,
+        28,
+        45
+      ],
+      "marketFavorite": "葡萄牙",
+      "note": "已接入赔率市场，38 家公司均值：主 3.52 / 平 3.38 / 客 2.07。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -40908,7 +41620,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -40916,8 +41628,8 @@ window.MATCHES = [
     },
     "probabilities": [
       35,
-      23,
-      42
+      24,
+      41
     ],
     "confidence": 69,
     "tag": "均衡",
@@ -41056,10 +41768,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 42,
-        "awayScore": 32,
-        "contribution": 0.3,
-        "evidence": "Onside 公开模型：主42% / 平26% / 客32%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 44,
+        "awayScore": 29,
+        "contribution": 0.45,
+        "evidence": "赔率市场：主44% / 平27% / 客29%。38 家公司均值，倾向刚果（金）。"
       }
     ],
     "modelInputs": {
@@ -41251,17 +41963,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "13eab94a136b9c264ba974cf437a5f71",
+      "commenceTime": "2026-06-27T23:30:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 2.1,
+        "draw": 3.53,
+        "away": 3.29
+      },
+      "impliedProbabilities": [
+        44,
+        27,
+        29
+      ],
+      "marketFavorite": "刚果（金）",
+      "note": "已接入赔率市场，38 家公司均值：主 2.1 / 平 3.53 / 客 3.29。市场倾向 刚果（金）。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -41508,7 +42236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -41516,8 +42244,8 @@ window.MATCHES = [
     },
     "probabilities": [
       38,
-      21,
-      41
+      22,
+      40
     ],
     "confidence": 69,
     "tag": "均衡",
@@ -41656,10 +42384,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 28,
-        "awayScore": 47,
-        "contribution": -0.57,
-        "evidence": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 31,
+        "awayScore": 38,
+        "contribution": -0.21,
+        "evidence": "赔率市场：主31% / 平31% / 客38%。38 家公司均值，倾向奥地利。"
       }
     ],
     "modelInputs": {
@@ -41851,17 +42579,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "8756200e539155e571557c4f2e0d7f05",
+      "commenceTime": "2026-06-28T02:00:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 3.03,
+        "draw": 3.04,
+        "away": 2.46
+      },
+      "impliedProbabilities": [
+        31,
+        31,
+        38
+      ],
+      "marketFavorite": "奥地利",
+      "note": "已接入赔率市场，38 家公司均值：主 3.03 / 平 3.04 / 客 2.46。市场倾向 奥地利。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -42108,16 +42852,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
       "awayName": "Argentina"
     },
     "probabilities": [
-      9,
-      12,
-      79
+      10,
+      13,
+      77
     ],
     "confidence": 88,
     "tag": "高信心",
@@ -42256,10 +43000,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 3,
-        "awayScore": 92,
-        "contribution": -2.67,
-        "evidence": "Onside 公开模型：主3% / 平5% / 客92%（基于排名、英超阵容、主场和联合会因素）。"
+        "homeScore": 7,
+        "awayScore": 79,
+        "contribution": -2.16,
+        "evidence": "赔率市场：主7% / 平14% / 客79%。38 家公司均值，倾向阿根廷。"
       }
     ],
     "modelInputs": {
@@ -42451,17 +43195,33 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "connected",
         "expertStatus": "no-articles",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "onsideStatus": "connected",
+        "marketWeight": 0.16,
+        "expertWeight": 0,
+        "onsideWeight": 0.1
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "weight": 0.16,
+      "eventId": "54697f453437ab26276d773be1d72e9b",
+      "commenceTime": "2026-06-28T02:00:00Z",
+      "bookmakers": 38,
+      "averageOdds": {
+        "home": 13.65,
+        "draw": 6.68,
+        "away": 1.19
+      },
+      "impliedProbabilities": [
+        7,
+        14,
+        79
+      ],
+      "marketFavorite": "阿根廷",
+      "note": "已接入赔率市场，38 家公司均值：主 13.65 / 平 6.68 / 客 1.19。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -42708,7 +43468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -42845,7 +43605,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -43025,17 +43785,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -43275,7 +44037,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -43412,7 +44174,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -43592,17 +44354,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -43842,7 +44606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -43979,7 +44743,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -44159,17 +44923,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -44409,7 +45175,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -44546,7 +45312,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -44726,17 +45492,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -44976,7 +45744,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -45113,7 +45881,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -45293,17 +46061,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -45543,7 +46313,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -45680,7 +46450,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -45860,17 +46630,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -46110,7 +46882,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -46247,7 +47019,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -46427,17 +47199,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -46677,7 +47451,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -46814,7 +47588,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -46994,17 +47768,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -47244,7 +48020,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -47381,7 +48157,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -47561,17 +48337,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -47811,7 +48589,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -47948,7 +48726,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -48128,17 +48906,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -48378,7 +49158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -48515,7 +49295,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -48695,17 +49475,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -48945,7 +49727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -49082,7 +49864,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -49262,17 +50044,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -49512,7 +50296,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -49649,7 +50433,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -49829,17 +50613,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -50079,7 +50865,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -50216,7 +51002,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -50396,17 +51182,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -50646,7 +51434,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -50783,7 +51571,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -50963,17 +51751,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -51213,7 +52003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -51350,7 +52140,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -51530,17 +52320,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -51780,7 +52572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -51917,7 +52709,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -52097,17 +52889,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -52347,7 +53141,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -52484,7 +53278,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -52664,17 +53458,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -52914,7 +53710,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -53051,7 +53847,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -53231,17 +54027,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -53481,7 +54279,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -53618,7 +54416,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -53798,17 +54596,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -54048,7 +54848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -54185,7 +54985,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -54365,17 +55165,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -54615,7 +55417,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -54752,7 +55554,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -54932,17 +55734,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -55182,7 +55986,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -55319,7 +56123,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -55499,17 +56303,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -55749,7 +56555,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -55886,7 +56692,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -56066,17 +56872,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -56316,7 +57124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -56453,7 +57261,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -56633,17 +57441,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -56883,7 +57693,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -57020,7 +57830,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -57200,17 +58010,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -57450,7 +58262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -57587,7 +58399,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -57767,17 +58579,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -58017,7 +58831,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -58154,7 +58968,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -58334,17 +59148,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -58584,7 +59400,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -58721,7 +59537,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -58901,17 +59717,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -59151,7 +59969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -59288,7 +60106,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -59468,17 +60286,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -59718,7 +60538,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -59855,7 +60675,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -60035,17 +60855,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
@@ -60285,7 +61107,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T13:09:51.783Z",
+      "fetchedAt": "2026-06-19T13:22:36.599Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -60422,7 +61244,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
+        "evidence": "暂无可用赔率、外部模型或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -60602,17 +61424,19 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "missing-key",
+        "marketStatus": "no-match",
         "expertStatus": "no-articles",
+        "onsideStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0,
+        "onsideWeight": 0
       }
     },
     "marketSignals": {
-      "status": "missing-key",
+      "status": "no-match",
       "provider": "The Odds API",
       "weight": 0,
-      "note": "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
       "status": "no-articles",
