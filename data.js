@@ -1,5 +1,5 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-19T10:08:23.628Z",
+  "updatedAt": "2026-06-19T10:09:36.155Z",
   "runDate": "2026-06-19",
   "source": "daily-model-refresh",
   "model": "rank-form-metrics-poisson-v1"
