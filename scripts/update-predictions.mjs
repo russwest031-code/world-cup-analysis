@@ -1365,8 +1365,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
         overall: { intensity: motivation.intensity, drawValue: motivation.drawValue, goalNeed: motivation.goalNeed }
       },
       externalSignals: {
-        marketStatus: marketSignals.status, expertStatus: expertSignals.status,
-        marketWeight: marketSignals.weight, expertWeight: expertSignals.weight
+        marketStatus: marketSignals.status, expertStatus: expertSignals.status, onsideStatus: onsideSignals.status,
+        marketWeight: marketSignals.weight, expertWeight: expertSignals.weight, onsideWeight: onsideSignals.weight
       }
     },
     marketSignals,
