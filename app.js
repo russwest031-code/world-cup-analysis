@@ -322,7 +322,6 @@
     var away = profile.away || {};
     var market = match.marketSignals || {};
     var expert = match.expertSignals || {};
-    var onside = match.onsideSignals || {};
     function styleCard(team, style) {
       return '<div class="style-card">' +
         '<strong>' + team.name + '</strong>' +
@@ -362,27 +361,11 @@
         : "";
       return '<div><strong>专业球评</strong><p>' + (expert.note || "尚未接入专业球评数据。") + '</p>' + links + '</div>';
     }
-    function onsideHTML() {
-      var implied = onside.impliedProbabilities || [];
-      var detail = "";
-      if (onside.status === "connected" && implied.length) {
-        detail = '<div class="signal-metrics">' +
-          '<span>主 ' + implied[0] + '%</span>' +
-          '<span>平 ' + implied[1] + '%</span>' +
-          '<span>客 ' + implied[2] + '%</span>' +
-        '</div>';
-      }
-      var srcNote = onside.status === "connected"
-        ? '（模型：' + (onside.model || "logistic opponent-rating") + '，CC-BY-4.0）'
-        : '';
-      return '<div><strong>Onside 公开模型</strong><p>' + (onside.note || "Onside 模型暂不可用。") + srcNote + '</p>' + detail + '</div>';
-    }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>攻防风格与外部信号</h3><small>风格画像 / 市场数据</small></div>' +
       '<div class="style-grid">' + styleCard(match.home, home) + styleCard(match.away, away) + '</div>' +
       '<div class="signal-box">' +
         marketHTML() +
-        onsideHTML() +
         expertHTML() +
       '</div>' +
     '</section>';
