@@ -250,7 +250,7 @@
       : "未接入稳定赔率市场信号";
     return '<section class="data-boundary-card">' +
       '<div><strong>数据边界</strong><span>' + status + '</span></div>' +
-      '<p>模型不掌握实时首发阵容、伤病情况、天气条件、临场战术调整等信息；当前预测主要基于赛前结构化数据、球队强弱、近期比分表现、出线动机、攻防风格和已接入的赔率信号。</p>' +
+      '<p>模型不掌握实时首发阵容、伤病情况、天气条件、临场战术调整等信息；当前预测主要基于赛前结构化数据、球队强弱、模拟近况、出线动机、攻防风格和已接入的赔率信号。</p>' +
     '</section>';
   }
 
@@ -362,6 +362,7 @@
       summary = summary || {};
       return '<div class="evidence-card">' +
         '<div class="evidence-head"><strong>' + team.name + '</strong><span>' + (summary.record || "-") + '</span></div>' +
+        '<em class="sim-source-pill">模拟样本 · 非真实赛果</em>' +
         '<div class="recent-scores">' + games.map(function (game) {
           return '<span class="' + game.result.toLowerCase() + '"><b>' + game.result + '</b>' + game.score + '</span>';
         }).join("") + '</div>' +
@@ -384,10 +385,10 @@
     var ext = inputs.externalSignals || {};
     var dataNote = '';
     if (!match.home.recentMatches || !match.home.recentMatches.length || match.home.recentMatches[0] && match.home.recentMatches[0].index === 1) {
-      dataNote = '<p class="data-source-note">注：近期比赛数据为基于球队实力评分的模拟推演，非真实历史比赛记录。真实比赛数据接入后将被替换。</p>';
+      dataNote = '<p class="data-source-note">注：下方“模拟近5场”是基于球队实力评分生成的模拟近况样本，用来解释模型输入，不是真实历史赛果；接入可靠赛果源后会自动替换。</p>';
     }
     return '<section class="detail-section">' +
-      '<div class="section-title"><h3>模型输入证据</h3><small>近况比分 / 攻防 / 外部信号</small></div>' +
+      '<div class="section-title"><h3>模型输入证据</h3><small>模拟近况 / 攻防 / 外部信号</small></div>' +
       dataNote +
       '<div class="evidence-list">' +
         recentCard(match.home, recent.home, recent.homeMatches) +
@@ -593,8 +594,8 @@
     var awayForm = (match.away.form || []).slice(0, 5).join(" ");
     var hs = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.home : {};
     var as = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.away : {};
-    var formNote = match.home.code + " 近5场 " + homeForm + "（进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
-      match.away.code + " 近5场 " + awayForm + "（进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
+    var formNote = match.home.code + " 模拟近5场 " + homeForm + "（进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
+      match.away.code + " 模拟近5场 " + awayForm + "（进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
 
     var tacHome = 0, tacAway = 0;
     if (match.metrics && match.metrics.length) {
@@ -622,7 +623,7 @@
       '<div class="factor-model">' +
         factorRow("球队实力排名", weights.strength, strengthNote) +
         factorRow("攻防指标", weights.metrics, metricsNote) +
-        factorRow("近期比分状态", weights.recent, formNote) +
+        factorRow("模拟近期状态", weights.recent, formNote) +
         factorRow("出线动机", weights.motivation, motivationNote) +
         factorRow("战术匹配度", weights.tactical, tacNote) +
         factorRow("外部信号", weights.external, externalNote) +

@@ -189,6 +189,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .evidence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 11px; }
 .evidence-head strong { font-size: 14px; }
 .evidence-head span { color: var(--accent); font-size: 11px; }
+.sim-source-pill { display: inline-block; margin: -2px 0 10px; padding: 4px 8px; border-radius: 999px; background: #fff4df; color: #b66a16; font-style: normal; font-size: 9px; font-weight: 800; }
 .recent-scores { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
 .recent-scores span { display: inline-flex; align-items: center; gap: 5px; padding: 6px 8px; border-radius: 10px; background: rgba(255,255,255,.045); color: var(--text); font-size: 10px; }
 .recent-scores b { color: var(--muted); font-size: 9px; }
