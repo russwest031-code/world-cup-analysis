@@ -180,7 +180,13 @@ function buildTeamData(matches, targetCodes) {
     team.recentForm = team.matches.slice(0, 5).map(m => {
       const gf = m.side === "home" ? m.homeScore : m.awayScore;
       const ga = m.side === "home" ? m.awayScore : m.homeScore;
+      const opponentRaw = m.side === "home" ? m.awayTeam : m.homeTeam;
+      const opponentCode = resolveCode(opponentRaw) || opponentRaw.slice(0, 3).toUpperCase();
       return {
+        date: m.date,
+        opponent: opponentRaw,
+        opponentCode,
+        tournament: m.tournament || "Unknown",
         result: gf > ga ? "W" : gf < ga ? "L" : "D",
         score: `${gf}-${ga}`,
         goalsFor: gf,

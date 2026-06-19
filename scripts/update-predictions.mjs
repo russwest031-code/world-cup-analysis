@@ -521,7 +521,22 @@ function teamFromName(name, teamIndex) {
 
   if (realTeam && realTeam.recentForm?.length) {
     // Use real match data
-    const recentMatches = realTeam.recentForm.map((r, i) => ({ ...r, index: i + 1 }));
+    const recentMatches = realTeam.recentForm.map((r, i) => ({
+      index: i + 1,
+      date: r.date,
+      opponent: r.opponent || "",
+      opponentCode: r.opponentCode || "",
+      tournament: r.tournament || "",
+      result: r.result,
+      score: r.score,
+      goalsFor: r.goalsFor,
+      goalsAgainst: r.goalsAgainst,
+      goalDiff: r.goalDiff,
+      cleanSheet: r.cleanSheet,
+      failedToScore: r.failedToScore,
+      bigWin: r.bigWin,
+      heavyLoss: r.heavyLoss,
+    }));
     const form = realTeam.recentForm.map(r => r.result);
     return {
       name: TEAM_NAMES_ZH[code] || meta.name_normalised || meta.name || name,
