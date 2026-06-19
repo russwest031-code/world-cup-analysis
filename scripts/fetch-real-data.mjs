@@ -78,6 +78,53 @@ function resolveCode(csvName) {
   return TEAM_NAME_MAP[key] || null;
 }
 
+// ---- Chinese team name mapping ----
+const TEAM_NAMES_ZH = {
+  MEX:"墨西哥",RSA:"南非",KOR:"韩国",CZE:"捷克",CAN:"加拿大",BIH:"波黑",QAT:"卡塔尔",SUI:"瑞士",
+  BRA:"巴西",MAR:"摩洛哥",HAI:"海地",SCO:"苏格兰",USA:"美国",PAR:"巴拉圭",AUS:"澳大利亚",TUR:"土耳其",
+  GER:"德国",CUW:"库拉索",CIV:"科特迪瓦",ECU:"厄瓜多尔",NED:"荷兰",JPN:"日本",SWE:"瑞典",TUN:"突尼斯",
+  BEL:"比利时",EGY:"埃及",IRN:"伊朗",NZL:"新西兰",ESP:"西班牙",CPV:"佛得角",KSA:"沙特",URU:"乌拉圭",
+  FRA:"法国",SEN:"塞内加尔",IRQ:"伊拉克",NOR:"挪威",ARG:"阿根廷",ALG:"阿尔及利亚",AUT:"奥地利",JOR:"约旦",
+  POR:"葡萄牙",COD:"刚果(金)",UZB:"乌兹别克斯坦",COL:"哥伦比亚",ENG:"英格兰",CRO:"克罗地亚",GHA:"加纳",PAN:"巴拿马",
+  ITA:"意大利",GRE:"希腊",UKR:"乌克兰",NGA:"尼日利亚",CHI:"智利",UAE:"阿联酋",CMR:"喀麦隆",CHN:"中国",
+  DEN:"丹麦",SRB:"塞尔维亚",POL:"波兰",HUN:"匈牙利",RUS:"俄罗斯",SVK:"斯洛伐克",ROU:"罗马尼亚",WAL:"威尔士",
+  CRC:"哥斯达黎加",BFA:"布基纳法索",MLI:"马里",VEN:"委内瑞拉",BOL:"玻利维亚",JAM:"牙买加",ISL:"冰岛",FIN:"芬兰",
+  BUL:"保加利亚",PER:"秘鲁",HON:"洪都拉斯",IRL:"爱尔兰",SVN:"斯洛文尼亚",MNE:"黑山",MKD:"北马其顿",
+  ALB:"阿尔巴尼亚",GEO:"格鲁吉亚",ARM:"亚美尼亚",AZE:"阿塞拜疆",KAZ:"哈萨克斯坦",BLR:"白俄罗斯",LUX:"卢森堡",
+  LTU:"立陶宛",LVA:"拉脱维亚",EST:"爱沙尼亚",MDA:"摩尔多瓦",MLT:"马耳他",AND:"安道尔",SMR:"圣马力诺",
+  LIE:"列支敦士登",FRO:"法罗群岛",GIB:"直布罗陀",CYP:"塞浦路斯",ISR:"以色列",PLE:"巴勒斯坦",
+  LBN:"黎巴嫩",SYR:"叙利亚",OMA:"阿曼",BHR:"巴林",KUW:"科威特",KGZ:"吉尔吉斯斯坦",TJK:"塔吉克斯坦",
+  THA:"泰国",VIE:"越南",IDN:"印尼",MAS:"马来西亚",PRK:"朝鲜",PHI:"菲律宾",SGP:"新加坡",IND:"印度",
+};
+
+function opponentZh(code) {
+  return TEAM_NAMES_ZH[code] || code;
+}
+
+// ---- Tournament name translation ----
+const TOURNAMENT_ZH = {
+  "FIFA World Cup": "世界杯",
+  "FIFA World Cup qualification": "世预赛",
+  "Friendly": "友谊赛",
+  "UEFA Nations League": "欧国联",
+  "CONCACAF Nations League": "中北美联",
+  "Copa América": "美洲杯",
+  "Africa Cup of Nations": "非洲杯",
+  "Africa Cup of Nations qualification": "非洲杯预选",
+  "AFC Asian Cup": "亚洲杯",
+  "AFC Asian Cup qualification": "亚洲杯预选",
+  "UEFA Euro": "欧洲杯",
+  "UEFA Euro qualification": "欧洲杯预选",
+  "CONCACAF Gold Cup": "金杯赛",
+  "CONCACAF Gold Cup qualification": "金杯赛预选",
+  "OFC Nations Cup": "大洋洲杯",
+  "Confederations Cup": "联合会杯",
+};
+
+function tournamentZh(name) {
+  return TOURNAMENT_ZH[name] || name;
+}
+
 // ---- Parse CSV ----
 function parseResultsCSV(filePath) {
   const text = fs.readFileSync(filePath, "utf8");
@@ -184,9 +231,9 @@ function buildTeamData(matches, targetCodes) {
       const opponentCode = resolveCode(opponentRaw) || opponentRaw.slice(0, 3).toUpperCase();
       return {
         date: m.date,
-        opponent: opponentRaw,
+        opponent: opponentZh(opponentCode),
         opponentCode,
-        tournament: m.tournament || "Unknown",
+        tournament: tournamentZh(m.tournament),
         result: gf > ga ? "W" : gf < ga ? "L" : "D",
         score: `${gf}-${ga}`,
         goalsFor: gf,

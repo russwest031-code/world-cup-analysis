@@ -254,20 +254,21 @@
   function renderRecentForm(match) {
     function recentTable(team) {
       var games = team.recentMatches || [];
+      var rank = team.rank || "-";
       if (!games.length) return '<p>暂无近期比赛数据。</p>';
-      var rows = games.slice(0, 5).map(function (g, i) {
+      var rows = games.slice(0, 5).map(function (g) {
         var cls = g.result === "W" ? "w" : g.result === "D" ? "d" : "l";
-        var tLabel = (g.tournament || "").replace("FIFA World Cup", "世界杯").replace("FIFA World Cup qualification", "世预赛").replace("Friendly", "友谊赛").replace("UEFA Nations League", "欧国联").replace("CONCACAF Nations League", "中北美联").replace("Copa América", "美洲杯").replace("Africa Cup of Nations", "非洲杯") || g.tournament || "";
+        var resultZh = g.result === "W" ? "胜" : g.result === "D" ? "平" : "负";
         return '<tr class="' + cls + '">' +
           '<td><small>' + (g.date || "").slice(5) + '</small></td>' +
-          '<td><b>' + g.result + '</b></td>' +
+          '<td><b class="result-' + cls + '">' + resultZh + '</b></td>' +
           '<td><strong>' + g.score + '</strong></td>' +
-          '<td>vs ' + (g.opponent || "-") + '</td>' +
-          '<td><small>' + tLabel + '</small></td>' +
+          '<td>' + (g.opponent || "-") + '</td>' +
+          '<td><small>' + (g.tournament || "") + '</small></td>' +
         '</tr>';
       }).join("");
       return '<div class="recent-table-wrap">' +
-        '<div class="recent-table-head"><strong>' + team.name + '</strong><span>' + (team.recentSummary?.record || "") + '</span></div>' +
+        '<div class="recent-table-head"><strong>' + team.name + '</strong><span>世界第' + rank + ' · ' + (team.recentSummary?.record || "") + '</span></div>' +
         '<table class="recent-table">' + rows + '</table>' +
       '</div>';
     }

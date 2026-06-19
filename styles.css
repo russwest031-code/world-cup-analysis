@@ -368,6 +368,10 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .recent-table .w td b { color: var(--accent); }
 .recent-table .d td b { color: var(--warn); }
 .recent-table .l td b { color: var(--danger); }
+.recent-table .result-w, .recent-table .result-d, .recent-table .result-l { font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px; }
+.recent-table .result-w { background: rgba(22,138,85,.12); color: var(--accent); }
+.recent-table .result-d { background: rgba(183,121,31,.12); color: var(--warn); }
+.recent-table .result-l { background: rgba(216,76,69,.12); color: var(--danger); }
 .recent-table .w { background: rgba(22,138,85,.04); }
 .recent-table .d { background: rgba(183,121,31,.04); }
 .recent-table .l { background: rgba(216,76,69,.04); }
