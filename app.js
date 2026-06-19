@@ -1,5 +1,6 @@
 (async function () {
   var matches = window.MATCHES || [];
+  var analysisMeta = window.ANALYSIS_META || {};
   var days = [];
 
   var weekNames = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
@@ -466,7 +467,7 @@
             '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>收集球队世界排名、近期战绩（近5场W/D/L）、攻防指标（进攻/防守/中场/状态四维评分）等结构化赛前数据。</p></div>' +
             '<div class="flow-step"><span class="flow-num">02</span><strong>因素加权</strong><p>通过四因素加权框架（球队实力30%、攻防指标30%、近期状态20%、战术匹配度20%）综合评估双方竞争力。</p></div>' +
             '<div class="flow-step"><span class="flow-num">03</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜的概率分布及最可能比分。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">04</span><strong>结果输出</strong><p>生成W/D/L概率、比分分布、信心指数、比赛情景推演及风险提示，以结构化方式呈现分析结论。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">04</span><strong>每日刷新</strong><p>每日定时重新计算W/D/L概率、比分分布、信心指数、比赛情景推演及风险提示，并通过云端自动部署上线。</p></div>' +
           '</div>' +
         '</section>' +
 
@@ -509,9 +510,9 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>更新策略</h3><small>预测刷新说明</small></div>' +
           '<div class="method-text">' +
-            '<p>本应用为静态分析工具，数据随代码部署更新。预测结果基于预设的比赛分析数据集，不接入实时数据流。</p>' +
-            '<p>如使用云端部署（如Render），可通过重新部署来刷新数据。本地运行时，修改data.js中的比赛数据后重启服务即可看到更新。</p>' +
-            '<p>我们不声称提供实时或官方数据接口。所有分析结论仅供赛事研究和娱乐参考。</p>' +
+            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天自动运行预测脚本，重新计算比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
+            '<p>Render 会根据最新提交自动部署，因此手机端通常每天看到一次更新后的分析结果。</p>' +
+            '<p>这不是实时数据流，也不接入官方赔率接口；所有分析结论仅供赛事研究和娱乐参考。</p>' +
           '</div>' +
         '</section>' +
 
@@ -529,7 +530,10 @@
   var update = document.getElementById("lastUpdate");
   if (status) status.innerHTML = '<i class="live-dot"></i> 模型分析数据集';
   if (count) count.textContent = "共 " + matches.length + " 场";
-  if (update) update.innerHTML = '更新 <strong>' + new Date().toISOString().slice(11, 16) + '</strong>';
+  if (update) {
+    var updatedAt = analysisMeta.updatedAt ? new Date(analysisMeta.updatedAt) : new Date();
+    update.innerHTML = '更新 <strong>' + updatedAt.toISOString().slice(5, 10).replace("-", "/") + '</strong>';
+  }
 
   // ─── PAGE DISPATCH ──────────────────────────────────────────────
   if (document.getElementById("detailRoot")) {

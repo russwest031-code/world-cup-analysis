@@ -4,7 +4,8 @@
   "private": true,
   "description": "Professional football match analysis and score prediction app",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "update:predictions": "node scripts/update-predictions.mjs"
   },
   "engines": {
     "node": ">=18"
