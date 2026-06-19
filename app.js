@@ -191,6 +191,8 @@
         '<div class="prob-row">' + match.probabilities.map(function (value, index) { return '<div class="prob"><strong>' + value + '%</strong><span>' + labels[index] + '</span><div class="prob-bar"><i style="width:' + value + '%"></i></div></div>'; }).join("") + '</div>' +
       '</section>' +
 
+      renderDataBoundary(match) +
+
       '<div class="detail-content">' +
 
         // Section 1: 比赛判断
@@ -237,6 +239,16 @@
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  function renderDataBoundary(match) {
+    var status = match.marketSignals && match.marketSignals.status === "connected"
+      ? "已接入赔率市场信号"
+      : "未接入稳定赔率市场信号";
+    return '<section class="data-boundary-card">' +
+      '<div><strong>数据边界</strong><span>' + status + '</span></div>' +
+      '<p>模型不掌握实时首发阵容、伤病情况、天气条件、临场战术调整等信息；当前预测主要基于赛前结构化数据、球队强弱、近期比分表现、出线动机、攻防风格和已接入的赔率信号。</p>' +
+    '</section>';
   }
 
   function renderMarketsAndCalibration(match) {
