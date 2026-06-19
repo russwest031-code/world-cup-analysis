@@ -836,9 +836,9 @@ function confedFactor(homeConfed, awayConfed) {
   const awayMult = CONFED_STRENGTH[awayConfed] || 0.62;
   const homeScore = Math.round(homeMult * 100);
   const awayScore = Math.round(awayMult * 100);
-  const contribution = (homeScore - awayScore) * 0.06;
+  const contribution = (homeScore - awayScore) * 0.02;
   const evidence = `${homeConfed || "未知"} 联合会强度系数 ${homeMult.toFixed(2)}，${awayConfed || "未知"} 联合会强度系数 ${awayMult.toFixed(2)}。${homeMult > awayMult ? "主队所在联合会竞争强度更高。" : homeMult < awayMult ? "客队所在联合会竞争强度更高。" : "双方联合会强度相当。"}`;
-  return { name: "联合会强度", weight: 6, homeScore, awayScore, contribution, evidence };
+  return { name: "联合会强度", weight: 2, homeScore, awayScore, contribution, evidence };
 }
 
 function h2hFactor(homeCode, awayCode) {
@@ -846,7 +846,7 @@ function h2hFactor(homeCode, awayCode) {
   const record = H2H_DATABASE[key];
   if (!record) {
     const evidence = `暂无 ${homeCode} 与 ${awayCode} 的历史交锋数据，该因子保持中性。`;
-    return { name: "交锋历史", weight: 8, homeScore: 50, awayScore: 50, contribution: 0, evidence };
+    return { name: "交锋历史", weight: 4, homeScore: 50, awayScore: 50, contribution: 0, evidence };
   }
   const total = record.total || 1;
   const homeWinRate = record.homeWins / total;
@@ -854,9 +854,9 @@ function h2hFactor(homeCode, awayCode) {
   const drawRate = record.draws / total;
   const homeScore = Math.round(50 + (homeWinRate - awayWinRate) * 50 + drawRate * 10);
   const awayScore = Math.round(50 + (awayWinRate - homeWinRate) * 50 + drawRate * 10);
-  const contribution = (homeScore - awayScore) * 0.08;
+  const contribution = (homeScore - awayScore) * 0.04;
   const evidence = `历史交锋 ${total} 场：主队 ${record.homeWins} 胜 ${record.draws} 平 ${record.awayWins} 负。${record.note || ""}`;
-  return { name: "交锋历史", weight: 8, homeScore: clamp(homeScore, 20, 80), awayScore: clamp(awayScore, 20, 80), contribution, evidence };
+  return { name: "交锋历史", weight: 4, homeScore: clamp(homeScore, 20, 80), awayScore: clamp(awayScore, 20, 80), contribution, evidence };
 }
 
 function venueFactor(homeCode, awayCode, venueName) {
@@ -891,9 +891,9 @@ function venueFactor(homeCode, awayCode, venueName) {
       details.push(`${venueName} 海拔 ${venue.altitude}m 对 ${awayCode} 不利`);
     }
   }
-  const contribution = (homeScore - awayScore) * 0.03;
+  const contribution = (homeScore - awayScore) * 0.02;
   const evidence = details.length ? details.join("；") + "。" : "中立场地，无特殊主场/海拔影响。";
-  return { name: "场地因素", weight: 3, homeScore: clamp(homeScore, 25, 90), awayScore: clamp(awayScore, 25, 90), contribution, evidence };
+  return { name: "场地因素", weight: 2, homeScore: clamp(homeScore, 25, 90), awayScore: clamp(awayScore, 25, 90), contribution, evidence };
 }
 
 function restDaysFactor(homeCode, awayCode, matchDate, allMatches) {
@@ -917,10 +917,10 @@ function restDaysFactor(homeCode, awayCode, matchDate, allMatches) {
   const awayDays = daysSinceLastMatch(awayCode, matchDate);
   const homeScore = daysToScore(homeDays);
   const awayScore = daysToScore(awayDays);
-  const contribution = (homeScore - awayScore) * 0.03;
+  const contribution = (homeScore - awayScore) * 0.02;
   const homeNote = homeDays >= 6 ? `距上一场 ${homeDays} 天，体能充裕` : homeDays >= 3 ? `距上一场 ${homeDays} 天` : `仅休息 ${homeDays} 天，体能存忧`;
   const awayNote = awayDays >= 6 ? `距上一场 ${awayDays} 天，体能充裕` : awayDays >= 3 ? `距上一场 ${awayDays} 天` : `仅休息 ${awayDays} 天，体能存忧`;
-  return { name: "休息天数", weight: 3, homeScore, awayScore, contribution, evidence: `${homeCode}：${homeNote}；${awayCode}：${awayNote}。` };
+  return { name: "休息天数", weight: 2, homeScore, awayScore, contribution, evidence: `${homeCode}：${homeNote}；${awayCode}：${awayNote}。` };
 }
 
 function styleClashFactor(homeStyle, awayStyle) {
@@ -929,8 +929,8 @@ function styleClashFactor(homeStyle, awayStyle) {
   const clash = (STYLE_CLASH_MATRIX[homeTempo] && STYLE_CLASH_MATRIX[homeTempo][awayTempo]) || { note: "双方风格接近，无显著克制关系", edge: 0 };
   const homeScore = 50 + Math.round(clash.edge * 100);
   const awayScore = 50 - Math.round(clash.edge * 100);
-  const contribution = (homeScore - awayScore) * 0.05;
-  return { name: "风格碰撞", weight: 5, homeScore, awayScore, contribution, evidence: `${homeTempo} vs ${awayTempo}：${clash.note}` };
+  const contribution = (homeScore - awayScore) * 0.02;
+  return { name: "风格碰撞", weight: 2, homeScore, awayScore, contribution, evidence: `${homeTempo} vs ${awayTempo}：${clash.note}` };
 }
 
 async function loadExternalMatches() {
@@ -1515,61 +1515,61 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
   const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
 
-  // ── Factor 1: World Ranking (18%) ──
+  // ── Factor 1: World Ranking (28%) ──
   const homeRankScore = clamp(100 - homeRank, 0, 100);
   const awayRankScore = clamp(100 - awayRank, 0, 100);
   const f1 = {
-    name: "世界排名", weight: 18,
+    name: "世界排名", weight: 28,
     homeScore: homeRankScore, awayScore: awayRankScore,
-    contribution: (homeRankScore - awayRankScore) * 0.18,
+    contribution: (homeRankScore - awayRankScore) * 0.28,
     evidence: `${match.home.name} 世界第${homeRank}，${match.away.name} 世界第${awayRank}。排名差 ${Math.abs(homeRank - awayRank)} 位。`
   };
 
-  // ── Factor 2: Confederation Strength (6%) ──
+  // ── Factor 2: Confederation Strength (2%) ──
   const f2 = confedFactor(match.home.confed, match.away.confed);
 
-  // ── Factor 3: Attack-Defense Composite (22%) ──
+  // ── Factor 3: Attack-Defense Composite (26%) ──
   const homeComposite = Math.round((homeAttack + homeDefense + homeMidfield) / 3);
   const awayComposite = Math.round((awayAttack + awayDefense + awayMidfield) / 3);
   const f3 = {
-    name: "攻防综合", weight: 22,
+    name: "攻防综合", weight: 26,
     homeScore: homeComposite, awayScore: awayComposite,
-    contribution: (homeComposite - awayComposite) * 0.22,
+    contribution: (homeComposite - awayComposite) * 0.26,
     evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
   };
 
-  // ── Factor 4: Recent Form (18%) ──
+  // ── Factor 4: Recent Form (24%) ──
   const homeFormScore = Math.round(homeForm / 15 * 100);
   const awayFormScore = Math.round(awayForm / 15 * 100);
   const f4 = {
-    name: "近期状态", weight: 18,
+    name: "近期状态", weight: 24,
     homeScore: homeFormScore, awayScore: awayFormScore,
-    contribution: (homeFormScore - awayFormScore) * 0.18,
+    contribution: (homeFormScore - awayFormScore) * 0.24,
     evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
   };
 
-  // ── Factor 5: Head-to-Head (8%) ──
+  // ── Factor 5: Head-to-Head (4%) ──
   const f5 = h2hFactor(match.home.code, match.away.code);
 
-  // ── Factor 6: Motivation (14%) ──
+  // ── Factor 6: Motivation (8%) ──
   const homeMotRaw = (motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20;
   const awayMotRaw = (motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20;
   const homeMotScore = Math.round(clamp(homeMotRaw, 0, 100));
   const awayMotScore = Math.round(clamp(awayMotRaw, 0, 100));
   const f6 = {
-    name: "出线动机", weight: 14,
+    name: "出线动机", weight: 8,
     homeScore: homeMotScore, awayScore: awayMotScore,
-    contribution: (homeMotScore - awayMotScore) * 0.14,
+    contribution: (homeMotScore - awayMotScore) * 0.08,
     evidence: motivation.note
   };
 
-  // ── Factor 7: Style Clash (5%) ──
+  // ── Factor 7: Style Clash (2%) ──
   const f7 = styleClashFactor(homeStyle, awayStyle);
 
-  // ── Factor 8: Rest Days (3%) ──
+  // ── Factor 8: Rest Days (2%) ──
   const f8 = restDaysFactor(match.home.code, match.away.code, match.date, allMatches);
 
-  // ── Factor 9: Venue (3%) ──
+  // ── Factor 9: Venue (2%) ──
   const f9 = venueFactor(match.home.code, match.away.code, match.venue);
 
   // ── Collect factors 1-9 and compute power ──
@@ -1625,7 +1625,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const expertSignals = expertForMatch(match, signalContext.experts);
   const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
 
-  // ── Factor 10: External Signals (3%) ──
+  // ── Factor 10: External Signals (2%) ──
   // Priority: odds > expert articles
   let extHomeScore = 50, extAwayScore = 50;
   let extEvidence = "暂无可用赔率或专业球评信号。";
@@ -1665,9 +1665,9 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   };
 
   const f10 = {
-    name: "外部信号", weight: 3,
+    name: "外部信号", weight: 2,
     homeScore: extHomeScore, awayScore: extAwayScore,
-    contribution: (extHomeScore - extAwayScore) * 0.03,
+    contribution: (extHomeScore - extAwayScore) * 0.02,
     evidence: extEvidence
   };
   factors.push(f10);
