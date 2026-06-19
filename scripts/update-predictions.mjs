@@ -1114,8 +1114,10 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const f5 = h2hFactor(match.home.code, match.away.code);
 
   // ── Factor 6: Motivation (14%) ──
-  const homeMotScore = Math.round(((motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20) * 100);
-  const awayMotScore = Math.round(((motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20) * 100);
+  const homeMotRaw = (motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20;
+  const awayMotRaw = (motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20;
+  const homeMotScore = Math.round(clamp(homeMotRaw, 0, 100));
+  const awayMotScore = Math.round(clamp(awayMotRaw, 0, 100));
   const f6 = {
     name: "出线动机", weight: 14,
     homeScore: homeMotScore, awayScore: awayMotScore,
