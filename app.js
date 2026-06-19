@@ -216,14 +216,78 @@
         // Section 5: 预测依据及各因素权重
         renderFactorModel(match) +
 
-        // Section 6: 比赛情景推演
+        // Section 6: 出线动机与比赛目标
+        renderMotivation(match) +
+
+        // Section 7: 攻防风格与外部信号
+        renderStyleAndSignals(match) +
+
+        // Section 8: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 7: 风险因素
+        // Section 9: 风险因素
         renderRiskAssessment(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  // ─── DETAIL: 出线动机与比赛目标 ───
+  function renderMotivation(match) {
+    var m = match.motivation || {};
+    var home = m.home || {};
+    var away = m.away || {};
+    function pct(value) {
+      return Math.round((Number(value) || 0) * 100) + "%";
+    }
+    var sideRows = "";
+    if (home.text || away.text) {
+      sideRows =
+        '<div class="motivation-side"><strong>' + match.home.name + '</strong><span>' + (home.label || "待评估") + '</span><p>' + (home.text || "暂无完整出线形势。") + '</p></div>' +
+        '<div class="motivation-side"><strong>' + match.away.name + '</strong><span>' + (away.label || "待评估") + '</span><p>' + (away.text || "暂无完整出线形势。") + '</p></div>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>出线动机与比赛目标</h3><small>小组规则 / 净胜球需求</small></div>' +
+      '<div class="motivation-box">' +
+        '<div class="motivation-head"><strong>' + (m.label || "待评估") + '</strong><span>' + (m.phase === "knockout" ? "淘汰赛" : "小组赛") + '</span></div>' +
+        '<p>' + (m.note || "暂无出线形势数据。") + '</p>' +
+        '<div class="motivation-grid">' +
+          '<div><small>求胜强度</small><strong>' + pct(m.intensity) + '</strong></div>' +
+          '<div><small>平局价值</small><strong>' + pct(m.drawValue) + '</strong></div>' +
+          '<div><small>净胜球需求</small><strong>' + pct(m.goalNeed) + '</strong></div>' +
+        '</div>' +
+        '<div class="motivation-sides">' + sideRows + '</div>' +
+      '</div>' +
+    '</section>';
+  }
+
+  // ─── DETAIL: 攻防风格与外部信号 ───
+  function renderStyleAndSignals(match) {
+    var profile = match.tacticalProfile || {};
+    var home = profile.home || {};
+    var away = profile.away || {};
+    var market = match.marketSignals || {};
+    var expert = match.expertSignals || {};
+    function styleCard(team, style) {
+      return '<div class="style-card">' +
+        '<strong>' + team.name + '</strong>' +
+        '<span>' + (style.tempo || "均衡型") + '</span>' +
+        '<div class="style-metrics">' +
+          '<small>场均进球 ' + (style.avgGoalsFor ?? "-") + '</small>' +
+          '<small>场均失球 ' + (style.avgGoalsAgainst ?? "-") + '</small>' +
+          '<small>大胜倾向 ' + (style.bigWinRate ?? "-") + '%</small>' +
+          '<small>零封倾向 ' + (style.cleanSheetRate ?? "-") + '%</small>' +
+        '</div>' +
+      '</div>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>攻防风格与外部信号</h3><small>风格画像 / 市场数据</small></div>' +
+      '<div class="style-grid">' + styleCard(match.home, home) + styleCard(match.away, away) + '</div>' +
+      '<div class="signal-box">' +
+        '<div><strong>赔率信号</strong><p>' + (market.note || "尚未接入赔率数据。") + '</p></div>' +
+        '<div><strong>专业球评</strong><p>' + (expert.note || "尚未接入专业球评数据。") + '</p></div>' +
+      '</div>' +
+    '</section>';
   }
 
   // ─── DETAIL: 参考结论 ───
@@ -449,14 +513,23 @@
       cls: "risk-medium"
     });
 
-    // Risk 4: Model calibration note
-    var probs = match.probabilities;
-    var spread = Math.max.apply(null, probs) - Math.min.apply(null, probs);
-    if (spread >= 40) {
+        // Risk 4: Model calibration note
+        var probs = match.probabilities;
+        var spread = Math.max.apply(null, probs) - Math.min.apply(null, probs);
+        if (spread >= 40) {
       risks.push({
         type: "强弱悬殊注意",
         text: "本场模型概率分布明显偏向一方（差距 " + spread + "pp），强弱对比清晰。但足球比赛尤其是杯赛中的冷门并不罕见，弱势方在单场淘汰制下的爆发力不应被完全忽视。",
         cls: "risk-low"
+        });
+      }
+
+    // Risk 5: early tournament sample size
+    if (match.tacticalProfile && match.tacticalProfile.home && match.tacticalProfile.away) {
+      risks.push({
+        type: "赛事样本偏小",
+        text: "攻防风格中的场均进球、大胜倾向和零封倾向会参考本届世界杯已完场比赛。小组赛早期样本量有限，单场大胜或意外比分可能放大球队风格判断，需要结合长期实力指标一起看。",
+        cls: "risk-medium"
       });
     }
 
@@ -494,9 +567,10 @@
           '<div class="section-title"><h3>模型工作流程</h3><small>从数据到预测</small></div>' +
           '<div class="method-flow">' +
             '<div class="flow-step"><span class="flow-num">01</span><strong>数据采集</strong><p>每日从公开数据源（openfootball/worldcup.json）获取世界杯赛程、对阵、比分和球队信息，结合内置的球队排名、近期战绩和攻防指标数据库，构建结构化赛前数据。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">02</span><strong>因素加权</strong><p>通过四因素加权框架（球队实力30%、攻防指标30%、近期状态20%、战术匹配度20%）综合评估双方竞争力。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">03</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜的概率分布及最可能比分。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">04</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动从公开数据源拉取最新世界杯赛程、球队和比分数据，重新计算W/D/L概率、比分分布、信心指数、比赛情景推演及风险提示，并通过云端自动部署上线。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">02</span><strong>出线形势</strong><p>按照2026世界杯规则计算小组积分、净胜球、剩余场次和出线压力：小组前二直接晋级，8个成绩最好的小组第三进入32强。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">03</span><strong>因素加权</strong><p>综合球队实力、攻防指标、近期状态、比赛动机、平局价值、净胜球需求和攻防风格，评估双方竞争力。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于加权综合评分，结合泊松分布模型，计算主胜/平局/客胜概率、最可能比分和信心指数。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动从公开数据源拉取最新世界杯赛程、球队和比分数据，重新生成分析并通过云端自动部署上线。</p></div>' +
           '</div>' +
         '</section>' +
 
@@ -527,7 +601,8 @@
             '<p>本模型存在以下重要局限，使用分析结果时请务必考虑：</p>' +
             '<ul class="method-limits">' +
               '<li><strong>赛前数据</strong>：所有分析基于赛前可获取的结构化数据，不反映临场变化。</li>' +
-              '<li><strong>信息缺失</strong>：模型不获取实时首发、伤病、天气、裁判、球队内部状态等信息。</li>' +
+              '<li><strong>信息缺失</strong>：模型暂不获取实时首发、伤病、天气、裁判、球队内部状态等信息。</li>' +
+              '<li><strong>市场信号</strong>：赔率和专业球评接口已预留权重位置，但当前线上版尚未接入稳定付费数据源，不会伪造市场共识。</li>' +
               '<li><strong>简化假设</strong>：泊松模型假设进球独立分布，实际比赛中进球往往存在相关性。</li>' +
               '<li><strong>排名局限</strong>：世界排名存在滞后性，不能完全反映球队当前的真实水平。</li>' +
               '<li><strong>样本有限</strong>：近期状态仅参考5场比赛，样本量较小可能放大偶然性。</li>' +
@@ -539,7 +614,7 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>更新策略</h3><small>预测刷新说明</small></div>' +
           '<div class="method-text">' +
-            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动从公开数据源（openfootball/worldcup.json）拉取最新世界杯赛程、球队和比分数据，重新计算比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
+            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动从公开数据源（openfootball/worldcup.json）拉取最新世界杯赛程、球队和比分数据，重新计算出线动机、攻防风格、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
             '<p>这不是实时数据流；目前尚未接入付费的实时首发阵容、伤病、天气或赔率数据提供商。所有分析结论仅供赛事研究和娱乐参考。</p>' +
           '</div>' +

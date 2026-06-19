@@ -311,6 +311,213 @@ function extractMatches(data) {
   return [];
 }
 
+function groupLetter(match) {
+  const value = String(match.group || "");
+  const found = value.match(/[A-L]/i);
+  return found ? found[0].toUpperCase() : "";
+}
+
+function parseActualScore(match) {
+  if (!match.actualScore) return null;
+  const parts = String(match.actualScore).split("-").map(Number);
+  if (parts.length !== 2 || parts.some(Number.isNaN)) return null;
+  return parts;
+}
+
+function emptyRow(team) {
+  return {
+    code: team.code,
+    name: team.name,
+    played: 0,
+    points: 0,
+    wins: 0,
+    draws: 0,
+    losses: 0,
+    gf: 0,
+    ga: 0,
+    gd: 0
+  };
+}
+
+function sortRows(rows) {
+  return rows.sort((a, b) =>
+    b.points - a.points ||
+    b.gd - a.gd ||
+    b.gf - a.gf ||
+    a.name.localeCompare(b.name)
+  ).map((row, index) => ({ ...row, rank: index + 1 }));
+}
+
+function buildTournamentContext(matches) {
+  const groups = new Map();
+  const teamStats = new Map();
+
+  function ensureGroupRow(group, team) {
+    if (!group) return null;
+    if (!groups.has(group)) groups.set(group, new Map());
+    const table = groups.get(group);
+    if (!table.has(team.code)) table.set(team.code, emptyRow(team));
+    return table.get(team.code);
+  }
+
+  function ensureTeamStats(team) {
+    if (!teamStats.has(team.code)) {
+      teamStats.set(team.code, {
+        code: team.code,
+        name: team.name,
+        played: 0,
+        gf: 0,
+        ga: 0,
+        winsBy2Plus: 0,
+        cleanSheets: 0,
+        failedToScore: 0
+      });
+    }
+    return teamStats.get(team.code);
+  }
+
+  for (const match of matches) {
+    const group = groupLetter(match);
+    ensureGroupRow(group, match.home);
+    ensureGroupRow(group, match.away);
+    const score = parseActualScore(match);
+    if (!score || !group) continue;
+
+    const [homeGoals, awayGoals] = score;
+    const homeRow = ensureGroupRow(group, match.home);
+    const awayRow = ensureGroupRow(group, match.away);
+    homeRow.played += 1;
+    awayRow.played += 1;
+    homeRow.gf += homeGoals;
+    homeRow.ga += awayGoals;
+    awayRow.gf += awayGoals;
+    awayRow.ga += homeGoals;
+    homeRow.gd = homeRow.gf - homeRow.ga;
+    awayRow.gd = awayRow.gf - awayRow.ga;
+    if (homeGoals > awayGoals) {
+      homeRow.points += 3;
+      homeRow.wins += 1;
+      awayRow.losses += 1;
+    } else if (homeGoals < awayGoals) {
+      awayRow.points += 3;
+      awayRow.wins += 1;
+      homeRow.losses += 1;
+    } else {
+      homeRow.points += 1;
+      awayRow.points += 1;
+      homeRow.draws += 1;
+      awayRow.draws += 1;
+    }
+
+    const homeStats = ensureTeamStats(match.home);
+    const awayStats = ensureTeamStats(match.away);
+    homeStats.played += 1;
+    awayStats.played += 1;
+    homeStats.gf += homeGoals;
+    homeStats.ga += awayGoals;
+    awayStats.gf += awayGoals;
+    awayStats.ga += homeGoals;
+    if (homeGoals - awayGoals >= 2) homeStats.winsBy2Plus += 1;
+    if (awayGoals - homeGoals >= 2) awayStats.winsBy2Plus += 1;
+    if (awayGoals === 0) homeStats.cleanSheets += 1;
+    if (homeGoals === 0) awayStats.cleanSheets += 1;
+    if (homeGoals === 0) homeStats.failedToScore += 1;
+    if (awayGoals === 0) awayStats.failedToScore += 1;
+  }
+
+  const sortedGroups = new Map();
+  for (const [group, table] of groups.entries()) {
+    sortedGroups.set(group, sortRows(Array.from(table.values())));
+  }
+
+  return { groups: sortedGroups, teamStats };
+}
+
+function rowFor(context, group, code) {
+  return (context.groups.get(group) || []).find(row => row.code === code) || null;
+}
+
+function teamStyle(context, team, attack, defense) {
+  const stats = context.teamStats.get(team.code);
+  const played = stats?.played || 0;
+  const avgFor = played ? stats.gf / played : attack / 55;
+  const avgAgainst = played ? stats.ga / played : (100 - defense) / 45;
+  const bigWinRate = played ? stats.winsBy2Plus / played : attack >= 84 ? 0.34 : 0.12;
+  const cleanSheetRate = played ? stats.cleanSheets / played : defense >= 82 ? 0.36 : 0.16;
+  const failedToScoreRate = played ? stats.failedToScore / played : attack <= 66 ? 0.32 : 0.12;
+  const tempo = attack >= 82 && defense <= 76 ? "开放进攻型" :
+    defense >= 82 && attack <= 76 ? "防守控制型" :
+    attack >= 80 ? "主动压迫型" :
+    "均衡型";
+  return {
+    tempo,
+    avgGoalsFor: Number(avgFor.toFixed(2)),
+    avgGoalsAgainst: Number(avgAgainst.toFixed(2)),
+    bigWinRate: Number((bigWinRate * 100).toFixed(0)),
+    cleanSheetRate: Number((cleanSheetRate * 100).toFixed(0)),
+    failedToScoreRate: Number((failedToScoreRate * 100).toFixed(0))
+  };
+}
+
+function motivationFor(match, context) {
+  const group = groupLetter(match);
+  const knockout = !group || !/^Matchday/i.test(String(match.round || ""));
+  if (match.status === "completed") {
+    return {
+      phase: knockout ? "knockout" : "group",
+      label: "赛后复盘",
+      intensity: 0,
+      drawValue: 0,
+      goalNeed: 0,
+      note: "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+    };
+  }
+  if (knockout) {
+    return {
+      phase: "knockout",
+      label: "淘汰赛必须分胜负",
+      intensity: 1,
+      drawValue: 0,
+      goalNeed: 1,
+      note: "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。"
+    };
+  }
+
+  const homeRow = rowFor(context, group, match.home.code);
+  const awayRow = rowFor(context, group, match.away.code);
+  const homeNeed = sideNeed(homeRow);
+  const awayNeed = sideNeed(awayRow);
+  const intensity = Math.max(homeNeed.intensity, awayNeed.intensity);
+  const drawValue = Math.max(homeNeed.drawValue, awayNeed.drawValue);
+  const goalNeed = Math.max(homeNeed.goalNeed, awayNeed.goalNeed);
+  return {
+    phase: "group",
+    label: intensity >= 0.85 ? "强求胜" : drawValue >= 0.7 ? "平局有价值" : "争主动",
+    intensity,
+    drawValue,
+    goalNeed,
+    home: homeNeed,
+    away: awayNeed,
+    note: `小组前二直接晋级，另外8个成绩最好的小组第三晋级。${match.home.name}当前${homeRow?.points ?? 0}分、净胜球${homeRow?.gd ?? 0}；${match.away.name}当前${awayRow?.points ?? 0}分、净胜球${awayRow?.gd ?? 0}。`
+  };
+}
+
+function sideNeed(row) {
+  if (!row) {
+    return { label: "信息不足", intensity: 0.5, drawValue: 0.35, goalNeed: 0.3, text: "暂无完整小组积分信息。" };
+  }
+  const remaining = Math.max(0, 3 - row.played);
+  if (remaining <= 1) {
+    if (row.points >= 6) return { label: "争头名/控风险", intensity: 0.48, drawValue: 0.78, goalNeed: 0.15, text: "已掌握出线主动，平局价值较高，更多关注小组排名和体能管理。" };
+    if (row.points >= 4) return { label: "平局够用", intensity: 0.58, drawValue: 0.72, goalNeed: 0.25, text: "平局通常能维持出线主动，赢球则争取更好签位。" };
+    if (row.points === 3) return { label: "赢球稳线", intensity: 0.82, drawValue: 0.38, goalNeed: 0.72, text: "需要主动争胜，平局可能要比较小组第三成绩和净胜球。" };
+    return { label: "必须争胜", intensity: 0.96, drawValue: 0.12, goalNeed: 0.9, text: "积分压力很大，需要赢球并尽量改善净胜球。" };
+  }
+  if (row.points >= 3) return { label: "抢占主动", intensity: 0.68, drawValue: 0.52, goalNeed: 0.38, text: "已有积分基础，赢球可大幅提高出线主动权。" };
+  if (row.points === 1) return { label: "至少不败", intensity: 0.72, drawValue: 0.5, goalNeed: 0.45, text: "需要避免落败，若能赢球会显著改善出线形势。" };
+  return { label: "止损抢分", intensity: 0.84, drawValue: 0.28, goalNeed: 0.65, text: "开局不利，需要尽快拿分，进球和净胜球同样重要。" };
+}
+
 async function loadExternalMatches() {
   const [worldCup, teams] = await Promise.all([fetchJson(MATCHES_URL), fetchJson(TEAMS_URL)]);
   const rawMatches = extractMatches(worldCup);
@@ -320,7 +527,7 @@ async function loadExternalMatches() {
   return matches;
 }
 
-function recalc(match, date) {
+function recalc(match, date, context) {
   const random = rng(`${date}:${match.id}:${match.actualScore || ""}`);
   const homeRank = Number(match.home.rank) || 50;
   const awayRank = Number(match.away.rank) || 50;
@@ -332,13 +539,23 @@ function recalc(match, date) {
   const awayAttack = metric(match, "进攻", "away");
   const homeDefense = metric(match, "防守", "home");
   const awayDefense = metric(match, "防守", "away");
+  const motivation = motivationFor(match, context);
+  const homeStyle = teamStyle(context, match.home, homeAttack, homeDefense);
+  const awayStyle = teamStyle(context, match.away, awayAttack, awayDefense);
 
-  const homePower = (100 - homeRank) * 0.28 + homeAvg * 0.44 + homeForm * 1.25 + 2.5;
-  const awayPower = (100 - awayRank) * 0.28 + awayAvg * 0.44 + awayForm * 1.25;
+  const homePower = (100 - homeRank) * 0.28 + homeAvg * 0.44 + homeForm * 1.25 + 2.5 +
+    (motivation.home?.intensity || 0) * 2.4 +
+    (motivation.home?.goalNeed || 0) * 1.8;
+  const awayPower = (100 - awayRank) * 0.28 + awayAvg * 0.44 + awayForm * 1.25 +
+    (motivation.away?.intensity || 0) * 2.4 +
+    (motivation.away?.goalNeed || 0) * 1.8;
   const dayNoise = (random() - 0.5) * 7;
   const edge = homePower - awayPower + dayNoise;
 
-  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + (random() - 0.5) * 0.35, 1.55, 3.85);
+  const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
+  const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
+    ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
+  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
   const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
   const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
@@ -347,7 +564,16 @@ function recalc(match, date) {
   const win = matrix.filter(row => row.h > row.a).reduce((sum, row) => sum + row.probability, 0);
   const draw = matrix.filter(row => row.h === row.a).reduce((sum, row) => sum + row.probability, 0);
   const away = matrix.filter(row => row.h < row.a).reduce((sum, row) => sum + row.probability, 0);
-  const probabilities = [Math.round(win * 100), Math.round(draw * 100), Math.round(away * 100)];
+  let adjustedWin = win;
+  let adjustedDraw = draw;
+  let adjustedAway = away;
+  if (match.status !== "completed") {
+    adjustedDraw *= clamp(1 + motivation.drawValue * 0.18 - motivation.intensity * 0.2, 0.76, 1.18);
+    adjustedWin *= clamp(1 + (motivation.home?.intensity || 0) * 0.08 + (motivation.home?.goalNeed || 0) * 0.07, 0.9, 1.18);
+    adjustedAway *= clamp(1 + (motivation.away?.intensity || 0) * 0.08 + (motivation.away?.goalNeed || 0) * 0.07, 0.9, 1.18);
+  }
+  const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
+  const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
 
   const scoreOdds = matrix
@@ -362,6 +588,16 @@ function recalc(match, date) {
   const favoriteIndex = probabilities.indexOf(top);
   const favorite = favoriteIndex === 0 ? match.home.name : favoriteIndex === 2 ? match.away.name : "平局";
   const primaryScore = scoreOdds[0]?.score || "待定";
+  const marketSignals = {
+    status: "not-connected",
+    weight: 0,
+    note: "尚未接入赔率或付费市场数据源；当前版本不伪造赔率，只保留模型侧判断。"
+  };
+  const expertSignals = {
+    status: "not-connected",
+    weight: 0,
+    note: "尚未接入稳定的专业球评聚合源；后续可加入来源权重、观点一致性和反向风险。"
+  };
 
   return {
     ...match,
@@ -369,12 +605,20 @@ function recalc(match, date) {
     confidence,
     tag,
     summary: match.status === "completed"
-      ? `外部数据源显示本场已完场，最终比分 ${match.actualScore}。模型仍保留赛前结构化判断，用于复盘双方实力、节奏和比分分布是否与结果接近。`
-      : `外部赛程数据已更新。本场模型倾向 ${favorite} 方向，最可能比分为 ${primaryScore}。判断主要来自世界排名、攻防指标、近期状态和赛程场地信息。`,
+      ? `外部数据源显示本场已完场，最终比分 ${match.actualScore}。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。`
+      : `外部赛程数据已更新。本场模型倾向 ${favorite} 方向，最可能比分为 ${primaryScore}。判断综合了排名实力、攻防风格、近期状态、小组出线压力和净胜球需求。`,
     scoreOdds,
+    motivation,
+    tacticalProfile: {
+      home: homeStyle,
+      away: awayStyle
+    },
+    marketSignals,
+    expertSignals,
     insights: [
-      `${match.home.name} 进攻指数 ${homeAttack}，${match.away.name} 防守指数 ${awayDefense}，这是判断主队进球上限的关键。`,
-      `${match.away.name} 进攻指数 ${awayAttack}，${match.home.name} 防守指数 ${homeDefense}，客队反击和转换质量需要重点观察。`,
+      motivation.note,
+      `${match.home.name}属于${homeStyle.tempo}，场均进球参考值 ${homeStyle.avgGoalsFor}，大胜倾向 ${homeStyle.bigWinRate}%。${match.away.name}属于${awayStyle.tempo}，场均进球参考值 ${awayStyle.avgGoalsFor}，大胜倾向 ${awayStyle.bigWinRate}%。`,
+      `${match.home.name} 进攻指数 ${homeAttack}，${match.away.name} 防守指数 ${awayDefense}；${match.away.name} 进攻指数 ${awayAttack}，${match.home.name} 防守指数 ${homeDefense}。`,
       match.status === "completed" ? "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。" : "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
     ],
     expectedGoals: {
@@ -393,6 +637,9 @@ function serialize(matches, metaOverrides = {}) {
     externalFetchedAt: now.toISOString(),
     externalMatchCount: matches.length,
     model: "rank-form-metrics-poisson-v1",
+    rulesModel: "wc2026-group-qualification-v1",
+    marketSignals: "not-connected",
+    expertSignals: "not-connected",
     refreshCadence: "daily",
     refreshTimeLocal: "15:00",
     refreshTimeZone: "Asia/Shanghai",
@@ -420,7 +667,8 @@ async function main() {
     };
   }
 
-  const refreshed = matches.map(match => recalc(match, runDate));
+  const context = buildTournamentContext(matches);
+  const refreshed = matches.map(match => recalc(match, runDate, context));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
   console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}`);
 }
