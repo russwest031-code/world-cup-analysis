@@ -220,7 +220,10 @@
         // Section 2: 参考结论
         renderConclusion(match) +
 
-        // Section 3: 真实数据源
+        // Section 3: 近期状态（真实比赛数据）
+        renderRecentForm(match) +
+
+        // Section 4: 真实数据源
         renderVerifiedDataSources(match) +
 
         // Section 4: 比分分布
@@ -246,6 +249,40 @@
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  function renderRecentForm(match) {
+    function recentTable(team) {
+      var games = team.recentMatches || [];
+      if (!games.length) return '<p>暂无近期比赛数据。</p>';
+      var rows = games.slice(0, 5).map(function (g, i) {
+        var cls = g.result === "W" ? "w" : g.result === "D" ? "d" : "l";
+        var tLabel = (g.tournament || "").replace("FIFA World Cup", "世界杯").replace("FIFA World Cup qualification", "世预赛").replace("Friendly", "友谊赛").replace("UEFA Nations League", "欧国联").replace("CONCACAF Nations League", "中北美联").replace("Copa América", "美洲杯").replace("Africa Cup of Nations", "非洲杯") || g.tournament || "";
+        return '<tr class="' + cls + '">' +
+          '<td><small>' + (g.date || "").slice(5) + '</small></td>' +
+          '<td><b>' + g.result + '</b></td>' +
+          '<td><strong>' + g.score + '</strong></td>' +
+          '<td>vs ' + (g.opponent || "-") + '</td>' +
+          '<td><small>' + tLabel + '</small></td>' +
+        '</tr>';
+      }).join("");
+      return '<div class="recent-table-wrap">' +
+        '<div class="recent-table-head"><strong>' + team.name + '</strong><span>' + (team.recentSummary?.record || "") + '</span></div>' +
+        '<table class="recent-table">' + rows + '</table>' +
+      '</div>';
+    }
+    var summaryNote = "";
+    if (match.home.recentMatches && match.home.recentMatches[0] && match.home.recentMatches[0].date) {
+      summaryNote = '<p class="data-source-note">数据来源：Kaggle 国际比赛数据库（1872–2026），共 49,478 场真实比赛记录。</p>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>近期状态</h3><small>近 5 场真实比赛</small></div>' +
+      '<div class="recent-dual">' +
+        recentTable(match.home) +
+        recentTable(match.away) +
+      '</div>' +
+      summaryNote +
+    '</section>';
   }
 
   function renderDataBoundary(match) {

@@ -351,6 +351,30 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .method-limits li { padding: 12px 14px; background: rgba(255,255,255,.025); border: 1px solid var(--line); border-radius: 12px; color: #b8c5bf; font-size: 12px; line-height: 1.6; }
 .method-limits li strong { display: block; margin-bottom: 3px; color: var(--text); font-size: 13px; }
 
+/* ─── Recent Form Table ─── */
+.recent-dual { display: grid; gap: 12px; }
+.recent-table-wrap { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--surface); }
+.recent-table-head { display: flex; justify-content: space-between; align-items: center; padding: 11px 14px; border-bottom: 1px solid var(--line); }
+.recent-table-head strong { font-size: 13px; }
+.recent-table-head span { font-size: 10px; color: var(--accent); }
+.recent-table { width: 100%; border-collapse: collapse; }
+.recent-table tr { border-bottom: 1px solid rgba(16,36,28,.06); }
+.recent-table tr:last-child { border-bottom: 0; }
+.recent-table td { padding: 8px 14px; font-size: 12px; white-space: nowrap; }
+.recent-table td:first-child { color: var(--muted); font-size: 10px; }
+.recent-table td b { font-size: 10px; min-width: 14px; display: inline-block; }
+.recent-table td strong { font-size: 13px; }
+.recent-table td small { color: var(--muted); font-size: 9px; }
+.recent-table .w td b { color: var(--accent); }
+.recent-table .d td b { color: var(--warn); }
+.recent-table .l td b { color: var(--danger); }
+.recent-table .w { background: rgba(22,138,85,.04); }
+.recent-table .d { background: rgba(183,121,31,.04); }
+.recent-table .l { background: rgba(216,76,69,.04); }
+
+/* ─── Data Source Note ─── */
+.data-source-note { margin: 8px 0 0; padding: 8px 12px; border-radius: 10px; background: rgba(22,138,85,.06); color: var(--accent); font-size: 9px; line-height: 1.5; }
+
 /* Animations */
 @keyframes slideDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
 
@@ -429,6 +453,14 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .completed-hero-badge { background: rgba(216,76,69,.10) !important; color: var(--danger) !important; }
 .signal-box div { background: #fffaf0; border-color: rgba(183,121,31,.18); }
 .disclaimer { color: #7b8b83; }
+
+/* Light theme: recent form table */
+.recent-table-wrap { background: #fff; border-color: var(--line); box-shadow: 0 10px 28px rgba(16,36,28,.055); }
+.recent-table tr { border-color: rgba(16,36,28,.04); }
+.recent-table .w { background: rgba(22,138,85,.03); }
+.recent-table .d { background: rgba(183,121,31,.03); }
+.recent-table .l { background: rgba(216,76,69,.03); }
+.data-source-note { background: rgba(22,138,85,.08); color: var(--accent); }
 
 /* Responsive */
 @media (min-width: 681px) { body { padding: 24px 0; }.app-shell { min-height: calc(100vh - 48px); border-radius: 32px; box-shadow: 0 30px 90px rgba(16,36,28,.16); } }
