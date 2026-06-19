@@ -1051,6 +1051,83 @@ function expertForMatch(match, expertContext) {
   };
 }
 
+const ONSIDE_PREDICTIONS_URL = "https://onsidearena.com/data/predictions.csv";
+
+async function loadOnsideSignals() {
+  try {
+    const csvText = await fetchText(ONSIDE_PREDICTIONS_URL);
+    const lines = csvText.trim().split("\n");
+    if (lines.length < 2) {
+      return { status: "empty", provider: "onsidearena.com", predictions: [], note: "Onside 数据为空。" };
+    }
+    const headers = lines[0].split(",").map(h => h.trim());
+    const predictions = [];
+    for (let i = 1; i < lines.length; i += 1) {
+      const cols = lines[i].split(",").map(c => c.trim());
+      if (cols.length < 11) continue;
+      const row = {};
+      headers.forEach((h, idx) => { row[h] = cols[idx] || ""; });
+      predictions.push({
+        fixtureId: row.fixture_id || "",
+        homeCode: (row.home_code || "").toUpperCase(),
+        awayCode: (row.away_code || "").toUpperCase(),
+        modelHomePct: parseFloat(row.model_home_pct) || 0,
+        modelDrawPct: parseFloat(row.model_draw_pct) || 0,
+        modelAwayPct: parseFloat(row.model_away_pct) || 0,
+        favouriteCode: (row.favourite_code || "").toUpperCase(),
+        actualHomeGoals: row.actual_home_goals || "",
+        actualAwayGoals: row.actual_away_goals || "",
+        verdict: row.verdict || ""
+      });
+    }
+    return {
+      status: "connected",
+      provider: "onsidearena.com",
+      model: "logistic-opponent-rating-v1",
+      license: "CC-BY-4.0",
+      fetchedAt: now.toISOString(),
+      predictions,
+      note: `Onside 公开预测模型已接入，共 ${predictions.length} 场小组赛。`
+    };
+  } catch (error) {
+    return {
+      status: "error",
+      provider: "onsidearena.com",
+      predictions: [],
+      error: error.message,
+      note: "Onside 模型数据拉取失败，外部信号退回到仅使用球评。"
+    };
+  }
+}
+
+function onsideForMatch(match, onsideContext) {
+  if (!onsideContext || onsideContext.status !== "connected" || !onsideContext.predictions?.length) {
+    return { status: onsideContext?.status || "not-connected", provider: "onsidearena.com", weight: 0, note: "Onside 公开模型暂不可用。" };
+  }
+  const homeCode = (match.home.code || "").toUpperCase();
+  const awayCode = (match.away.code || "").toUpperCase();
+  const pred = onsideContext.predictions.find(p => p.homeCode === homeCode && p.awayCode === awayCode);
+  if (!pred) {
+    return { status: "no-match", provider: "onsidearena.com", weight: 0, note: "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。" };
+  }
+  const implied = [pred.modelHomePct, pred.modelDrawPct, pred.modelAwayPct];
+  const total = implied.reduce((s, v) => s + v, 0);
+  if (total < 90 || total > 110) {
+    return { status: "invalid", provider: "onsidearena.com", weight: 0, note: "Onside 概率之和不接近100%，跳过。" };
+  }
+  const normalized = implied.map(v => Math.round(v / total * 100));
+  normalized[0] += 100 - normalized.reduce((s, v) => s + v, 0);
+  return {
+    status: "connected",
+    provider: "onsidearena.com",
+    weight: 0.10,
+    model: "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+    impliedProbabilities: normalized,
+    modelFavorite: normalized.indexOf(Math.max(...normalized)) === 0 ? match.home.name : normalized.indexOf(Math.max(...normalized)) === 2 ? match.away.name : "平局",
+    note: `Onside 公开模型：主${normalized[0]}% / 平${normalized[1]}% / 客${normalized[2]}%（基于排名、英超阵容、主场和联合会因素）。`
+  };
+}
+
 function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const random = rng(`${date}:${match.id}:${match.actualScore || ""}`);
 
@@ -1184,24 +1261,44 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
   const expertSignals = expertForMatch(match, signalContext.experts);
+  const onsideSignals = onsideForMatch(match, signalContext.onside);
 
   // ── Factor 10: External Signals (3%) ──
+  // Priority: odds > onside model > expert articles
   let extHomeScore = 50, extAwayScore = 50;
-  let extEvidence = "暂无可用赔率或专业球评信号。";
+  let extEvidence = "暂无可用赔率、外部模型或专业球评信号。";
+  let extBlendWeight = 0;
+
   if (marketSignals.status === "connected" && marketSignals.impliedProbabilities) {
     extHomeScore = marketSignals.impliedProbabilities[0];
     extAwayScore = marketSignals.impliedProbabilities[2];
-    extEvidence = `赔率市场隐含：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%。${marketSignals.bookmakers || 0} 家公司均值，市场倾向${marketSignals.marketFavorite || "不明"}。`;
-    for (let i = 0; i < 3; i += 1) {
-      probabilities[i] = Math.round(probabilities[i] * (1 - marketSignals.weight) + marketSignals.impliedProbabilities[i] * marketSignals.weight);
-    }
-    probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
-  } else if (marketSignals.status === "missing-key") {
-    extEvidence = "赔率接口已接入但未配置 API Key，当前无真实赔率。";
+    extBlendWeight = marketSignals.weight;
+    extEvidence = `赔率市场：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%。${marketSignals.bookmakers || 0} 家公司均值，倾向${marketSignals.marketFavorite || "不明"}。`;
+  } else if (onsideSignals.status === "connected" && onsideSignals.impliedProbabilities) {
+    extHomeScore = onsideSignals.impliedProbabilities[0];
+    extAwayScore = onsideSignals.impliedProbabilities[2];
+    extBlendWeight = onsideSignals.weight;
+    extEvidence = onsideSignals.note;
   } else if (expertSignals.status === "connected") {
     extHomeScore = 52; extAwayScore = 48;
     extEvidence = expertSignals.note;
+  } else if (marketSignals.status === "missing-key" && onsideSignals.status !== "connected") {
+    extEvidence = "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。";
   }
+
+  // Blend external signal into model probabilities
+  if (extBlendWeight > 0 && marketSignals.status === "connected" && marketSignals.impliedProbabilities) {
+    for (let i = 0; i < 3; i += 1) {
+      probabilities[i] = Math.round(probabilities[i] * (1 - extBlendWeight) + marketSignals.impliedProbabilities[i] * extBlendWeight);
+    }
+    probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  } else if (extBlendWeight > 0 && onsideSignals.status === "connected" && onsideSignals.impliedProbabilities) {
+    for (let i = 0; i < 3; i += 1) {
+      probabilities[i] = Math.round(probabilities[i] * (1 - extBlendWeight) + onsideSignals.impliedProbabilities[i] * extBlendWeight);
+    }
+    probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  }
+
   const f10 = {
     name: "外部信号", weight: 3,
     homeScore: extHomeScore, awayScore: extAwayScore,
@@ -1274,6 +1371,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     },
     marketSignals,
     expertSignals,
+    onsideSignals,
     insights: [
       motivation.note,
       `${match.home.name}属于${homeStyle.tempo}，场均进球参考值 ${homeStyle.avgGoalsFor}，大胜倾向 ${homeStyle.bigWinRate}%。${match.away.name}属于${awayStyle.tempo}，场均进球参考值 ${awayStyle.avgGoalsFor}，大胜倾向 ${awayStyle.bigWinRate}%。`,
@@ -1327,20 +1425,23 @@ async function main() {
   }
 
   const context = buildTournamentContext(matches);
-  const [odds, experts] = await Promise.all([loadOddsSignals(), loadExpertSignals()]);
+  const [odds, experts, onside] = await Promise.all([loadOddsSignals(), loadExpertSignals(), loadOnsideSignals()]);
   metaOverrides = {
     ...metaOverrides,
     marketSignals: odds.status,
     expertSignals: experts.status,
+    onsideSignals: onside.status,
     oddsProvider: odds.provider,
     oddsSportKey: odds.sportKey || ODDS_SPORT_KEY,
     oddsEventCount: odds.events?.length || 0,
     expertProvider: experts.provider,
-    expertArticleCount: experts.articles?.length || 0
+    expertArticleCount: experts.articles?.length || 0,
+    onsideProvider: onside.provider,
+    onsidePredictionCount: onside.predictions?.length || 0
   };
-  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts }, matches));
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, onside }, matches));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}`);
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; onside=${onside.status}`);
 }
 
 await main();
