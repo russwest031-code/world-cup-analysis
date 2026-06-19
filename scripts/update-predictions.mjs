@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { loadRealTeamData } from "./fetch-real-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
@@ -509,9 +510,36 @@ function buildTeamIndex(teams) {
   return byName;
 }
 
+// Real team data cache — populated by loadRealTeamData() in main()
+let realDataCache = null;
+
 function teamFromName(name, teamIndex) {
   const meta = teamIndex.get(String(name).toLowerCase()) || {};
   const code = meta.fifa_code || (/\d/.test(name) ? name.replace(/[^a-zA-Z0-9]/g, "").toUpperCase() : String(name).slice(0, 3).toUpperCase());
+  const realTeam = realDataCache?.teamData?.get(code);
+  const realRank = realDataCache?.rankings?.get(code);
+
+  if (realTeam && realTeam.recentForm?.length) {
+    // Use real match data
+    const recentMatches = realTeam.recentForm.map((r, i) => ({ ...r, index: i + 1 }));
+    const form = realTeam.recentForm.map(r => r.result);
+    return {
+      name: TEAM_NAMES_ZH[code] || meta.name_normalised || meta.name || name,
+      code,
+      confed: meta.confed || "UEFA",
+      color: COLORS[code] || "#64748b",
+      rank: realRank || realTeam.strengthScore || 50,
+      form,
+      recentMatches,
+      recentSummary: recentFormSummary(recentMatches),
+      attack: realTeam.attack || 66,
+      defense: realTeam.defense || 66,
+      midfield: realTeam.midfield || 66,
+      formScore: realTeam.formScore || 66,
+    };
+  }
+
+  // Fallback to synthetic PROFILE data (should rarely happen now)
   const profile = profileFor(code, meta.confed);
   const recentMatches = recentMatchesFor(code, profile);
   return {
@@ -1794,6 +1822,18 @@ function serialize(matches, metaOverrides = {}) {
 }
 
 async function main() {
+  // Load real match data to replace synthetic PROFILE
+  const wc48Codes = Object.keys(PROFILE);
+  try {
+    const realData = loadRealTeamData(wc48Codes);
+    if (realData) {
+      realDataCache = realData;
+      console.log(`Real team data loaded: ${realData.teamData.size} teams, ${realData.rankings.size} rankings.`);
+    }
+  } catch (err) {
+    console.warn(`Real team data unavailable, falling back to PROFILE: ${err.message}`);
+  }
+
   let matches;
   let metaOverrides = {};
   try {
@@ -1821,6 +1861,8 @@ async function main() {
     expertSignals: experts.status,
     weatherSignals: weather.status,
     liveTeamNewsSignals: live.status,
+    teamData: realDataCache ? "real-kaggle-results" : "synthetic-profile",
+    teamDataCount: realDataCache?.teamData?.size || 0,
     oddsProvider: odds.provider,
     oddsSportKey: odds.sportKey || ODDS_SPORT_KEY,
     oddsEventCount: odds.events?.length || 0,
@@ -1835,7 +1877,7 @@ async function main() {
   };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live }, matches));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}`);
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}`);
 }
 
 await main();
