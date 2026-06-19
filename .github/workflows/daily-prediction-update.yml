@@ -21,6 +21,8 @@ jobs:
 
       - name: Refresh model predictions
         run: npm run update:predictions
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
 
       - name: Commit refreshed predictions
         run: |
