@@ -280,12 +280,39 @@
         '</div>' +
       '</div>';
     }
+    function marketHTML() {
+      var odds = market.averageOdds;
+      var implied = market.impliedProbabilities || [];
+      var detail = "";
+      if (odds) {
+        detail = '<div class="signal-metrics">' +
+          '<span>主 ' + (odds.home || "-") + '</span>' +
+          '<span>平 ' + (odds.draw || "-") + '</span>' +
+          '<span>客 ' + (odds.away || "-") + '</span>' +
+        '</div>' +
+        '<div class="signal-metrics muted">' +
+          '<span>' + (implied[0] || "-") + '%</span>' +
+          '<span>' + (implied[1] || "-") + '%</span>' +
+          '<span>' + (implied[2] || "-") + '%</span>' +
+        '</div>';
+      }
+      return '<div><strong>赔率信号</strong><p>' + (market.note || "尚未接入赔率数据。") + '</p>' + detail + '</div>';
+    }
+    function expertHTML() {
+      var articles = (expert.articles || []).slice(0, 3);
+      var links = articles.length
+        ? '<div class="article-list">' + articles.map(function (article) {
+            return '<a href="' + article.link + '" target="_blank" rel="noopener">' + article.title + '<small>' + article.source + '</small></a>';
+          }).join("") + '</div>'
+        : "";
+      return '<div><strong>专业球评</strong><p>' + (expert.note || "尚未接入专业球评数据。") + '</p>' + links + '</div>';
+    }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>攻防风格与外部信号</h3><small>风格画像 / 市场数据</small></div>' +
       '<div class="style-grid">' + styleCard(match.home, home) + styleCard(match.away, away) + '</div>' +
       '<div class="signal-box">' +
-        '<div><strong>赔率信号</strong><p>' + (market.note || "尚未接入赔率数据。") + '</p></div>' +
-        '<div><strong>专业球评</strong><p>' + (expert.note || "尚未接入专业球评数据。") + '</p></div>' +
+        marketHTML() +
+        expertHTML() +
       '</div>' +
     '</section>';
   }
@@ -616,7 +643,8 @@
           '<div class="method-text">' +
             '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动从公开数据源（openfootball/worldcup.json）拉取最新世界杯赛程、球队和比分数据，重新计算出线动机、攻防风格、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
-            '<p>这不是实时数据流；目前尚未接入付费的实时首发阵容、伤病、天气或赔率数据提供商。所有分析结论仅供赛事研究和娱乐参考。</p>' +
+            '<p>赔率接口已按 The Odds API 接入，配置 THE_ODDS_API_KEY 后会在每日刷新中拉取真实赔率并按小权重校准模型概率；未配置 key 时不会伪造赔率。</p>' +
+            '<p>专业球评当前接入 ESPN Soccer RSS 等公开新闻源，按球队名匹配相关文章；付费实时首发、伤病和天气数据仍待后续接入。</p>' +
           '</div>' +
         '</section>' +
 

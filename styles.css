@@ -191,6 +191,12 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .signal-box div { padding: 14px; border-radius: 16px; border: 1px solid rgba(232,180,75,.18); background: rgba(232,180,75,.06); }
 .signal-box strong { color: var(--warn); font-size: 12px; }
 .signal-box p { margin: 7px 0 0; color: #b8c5bf; font-size: 10px; line-height: 1.65; }
+.signal-metrics { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; margin-top: 10px; }
+.signal-metrics span { padding: 7px 6px; border-radius: 10px; background: rgba(255,255,255,.05); color: var(--text); font-size: 10px; text-align: center; }
+.signal-metrics.muted span { color: var(--muted); font-size: 9px; }
+.article-list { display: grid; gap: 7px; margin-top: 10px; }
+.article-list a { display: block; color: var(--text); text-decoration: none; font-size: 10px; line-height: 1.45; padding: 9px; border-radius: 12px; background: rgba(255,255,255,.045); border: 1px solid var(--line); }
+.article-list small { display: block; color: var(--muted); margin-top: 3px; }
 
 /* ─── Scenarios ─── */
 .scenario-list { display: grid; gap: 10px; }

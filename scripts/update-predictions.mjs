@@ -12,6 +12,15 @@ const MATCHES_URL = process.env.WORLD_CUP_MATCHES_URL ||
   "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json";
 const TEAMS_URL = process.env.WORLD_CUP_TEAMS_URL ||
   "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.teams.json";
+const ODDS_API_KEY = process.env.THE_ODDS_API_KEY || "";
+const ODDS_SPORT_KEY = process.env.THE_ODDS_SPORT_KEY || "soccer_fifa_world_cup";
+const ODDS_REGIONS = process.env.THE_ODDS_REGIONS || "eu,uk,us";
+const ODDS_MARKETS = process.env.THE_ODDS_MARKETS || "h2h";
+const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
+  "https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD,https://www.espn.com/espn/rss/soccer/news")
+  .split(",")
+  .map(url => url.trim())
+  .filter(Boolean);
 
 const TEAM_NAMES_ZH = {
   MEX: "墨西哥", RSA: "南非", KOR: "韩国", CZE: "捷克",
@@ -237,6 +246,33 @@ function slug(text) {
     .replace(/^-+|-+$/g, "");
 }
 
+function normalizeText(text) {
+  return String(text || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function decodeXml(text) {
+  return String(text || "")
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function xmlField(item, field) {
+  const match = item.match(new RegExp(`<${field}[^>]*>([\\s\\S]*?)<\\/${field}>`, "i"));
+  return match ? decodeXml(match[1]) : "";
+}
+
 function buildTeamIndex(teams) {
   const byName = new Map();
   for (const team of teams || []) {
@@ -295,7 +331,9 @@ function normalizeExternalMatches(rawMatches, rawTeams) {
           provider: "openfootball/worldcup.json",
           fetchedAt: now.toISOString(),
           rawDate: match.date,
-          rawTime: match.time
+          rawTime: match.time,
+          homeName: match.team1,
+          awayName: match.team2
         }
       };
     })
@@ -527,7 +565,208 @@ async function loadExternalMatches() {
   return matches;
 }
 
-function recalc(match, date, context) {
+async function loadOddsSignals() {
+  if (!ODDS_API_KEY) {
+    return {
+      status: "missing-key",
+      provider: "The Odds API",
+      events: [],
+      note: "未配置 THE_ODDS_API_KEY，赔率接口已接入但本次刷新未请求真实赔率。"
+    };
+  }
+  const url = new URL(`https://api.the-odds-api.com/v4/sports/${ODDS_SPORT_KEY}/odds`);
+  url.searchParams.set("apiKey", ODDS_API_KEY);
+  url.searchParams.set("regions", ODDS_REGIONS);
+  url.searchParams.set("markets", ODDS_MARKETS);
+  url.searchParams.set("oddsFormat", "decimal");
+  url.searchParams.set("dateFormat", "iso");
+  try {
+    const events = await fetchJson(url.toString());
+    return {
+      status: "connected",
+      provider: "The Odds API",
+      sportKey: ODDS_SPORT_KEY,
+      regions: ODDS_REGIONS,
+      markets: ODDS_MARKETS,
+      fetchedAt: now.toISOString(),
+      events: Array.isArray(events) ? events : []
+    };
+  } catch (error) {
+    return {
+      status: "error",
+      provider: "The Odds API",
+      sportKey: ODDS_SPORT_KEY,
+      events: [],
+      error: error.message,
+      note: "赔率接口请求失败，本次刷新仅使用模型侧判断。"
+    };
+  }
+}
+
+async function loadExpertSignals() {
+  const articles = [];
+  const errors = [];
+  for (const url of EXPERT_RSS_URLS) {
+    try {
+      const xml = await fetchText(url);
+      const items = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
+      for (const item of items.slice(0, 30)) {
+        const title = xmlField(item, "title");
+        const description = xmlField(item, "description");
+        const link = xmlField(item, "link");
+        const pubDate = xmlField(item, "pubDate");
+        const text = `${title} ${description}`;
+        if (!/world cup|fifa|soccer|football/i.test(text)) continue;
+        articles.push({ title, description, link, pubDate, source: new URL(url).hostname });
+      }
+    } catch (error) {
+      errors.push(`${url}: ${error.message}`);
+    }
+  }
+  return {
+    status: articles.length ? "connected" : errors.length ? "partial-error" : "no-articles",
+    provider: "public-rss",
+    sources: EXPERT_RSS_URLS,
+    fetchedAt: now.toISOString(),
+    articles,
+    errors
+  };
+}
+
+async function fetchText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  try {
+    const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    return await res.text();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function matchTeams(event, match) {
+  const homeNames = [match.sourceInfo?.homeName, match.home.name, match.home.code].map(normalizeText);
+  const awayNames = [match.sourceInfo?.awayName, match.away.name, match.away.code].map(normalizeText);
+  const eventHome = normalizeText(event.home_team || event.homeTeam || "");
+  const eventAway = normalizeText(event.away_team || event.awayTeam || "");
+  const teams = (event.teams || []).map(normalizeText);
+  const directHome = homeNames.some(name => name && (eventHome.includes(name) || name.includes(eventHome)));
+  const directAway = awayNames.some(name => name && (eventAway.includes(name) || name.includes(eventAway)));
+  const listHome = homeNames.some(name => name && teams.some(team => team.includes(name) || name.includes(team)));
+  const listAway = awayNames.some(name => name && teams.some(team => team.includes(name) || name.includes(team)));
+  return (directHome && directAway) || (listHome && listAway);
+}
+
+function oddsForMatch(match, oddsContext) {
+  if (!oddsContext || oddsContext.status !== "connected") {
+    return {
+      status: oddsContext?.status || "not-connected",
+      provider: oddsContext?.provider || "The Odds API",
+      weight: 0,
+      note: oddsContext?.note || oddsContext?.error || "赔率接口未接入。"
+    };
+  }
+  const event = oddsContext.events.find(item => matchTeams(item, match));
+  if (!event) {
+    return {
+      status: "no-match",
+      provider: oddsContext.provider,
+      weight: 0,
+      note: "已连接赔率接口，但本场暂未匹配到可用赔率。"
+    };
+  }
+
+  const homeOdds = [];
+  const drawOdds = [];
+  const awayOdds = [];
+  for (const book of event.bookmakers || []) {
+    const h2h = (book.markets || []).find(market => market.key === "h2h");
+    for (const outcome of h2h?.outcomes || []) {
+      const name = normalizeText(outcome.name);
+      const price = Number(outcome.price);
+      if (!Number.isFinite(price) || price <= 1) continue;
+      if (name === "draw") drawOdds.push(price);
+      else if (normalizeText(match.sourceInfo?.homeName).includes(name) || name.includes(normalizeText(match.sourceInfo?.homeName)) || name === normalizeText(match.home.code)) homeOdds.push(price);
+      else if (normalizeText(match.sourceInfo?.awayName).includes(name) || name.includes(normalizeText(match.sourceInfo?.awayName)) || name === normalizeText(match.away.code)) awayOdds.push(price);
+    }
+  }
+
+  function avg(values) {
+    return values.length ? Number((values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(2)) : null;
+  }
+  const homeAvg = avg(homeOdds);
+  const drawAvg = avg(drawOdds);
+  const awayAvg = avg(awayOdds);
+  if (!homeAvg || !awayAvg) {
+    return {
+      status: "partial",
+      provider: oddsContext.provider,
+      weight: 0.08,
+      eventId: event.id,
+      bookmakers: event.bookmakers?.length || 0,
+      note: "已匹配到赔率事件，但主/客赔率不完整，暂不强行调整模型。"
+    };
+  }
+  const impliedRaw = [1 / homeAvg, drawAvg ? 1 / drawAvg : 0, 1 / awayAvg];
+  const total = impliedRaw.reduce((sum, value) => sum + value, 0);
+  const implied = impliedRaw.map(value => Math.round(value / total * 100));
+  implied[0] += 100 - implied.reduce((sum, value) => sum + value, 0);
+  const favoriteIndex = implied.indexOf(Math.max(...implied));
+  const labels = [match.home.name, "平局", match.away.name];
+  return {
+    status: "connected",
+    provider: oddsContext.provider,
+    weight: 0.16,
+    eventId: event.id,
+    commenceTime: event.commence_time,
+    bookmakers: event.bookmakers?.length || 0,
+    averageOdds: { home: homeAvg, draw: drawAvg, away: awayAvg },
+    impliedProbabilities: implied,
+    marketFavorite: labels[favoriteIndex],
+    note: `已接入赔率市场，${event.bookmakers?.length || 0} 家公司均值：主 ${homeAvg}${drawAvg ? " / 平 " + drawAvg : ""} / 客 ${awayAvg}。市场倾向 ${labels[favoriteIndex]}。`
+  };
+}
+
+function expertForMatch(match, expertContext) {
+  if (!expertContext || !expertContext.articles?.length) {
+    return {
+      status: expertContext?.status || "not-connected",
+      provider: expertContext?.provider || "public-rss",
+      weight: 0,
+      note: "专业球评源暂无可匹配文章。"
+    };
+  }
+  const home = normalizeText(match.sourceInfo?.homeName || match.home.name);
+  const away = normalizeText(match.sourceInfo?.awayName || match.away.name);
+  const matched = expertContext.articles.filter(article => {
+    const text = normalizeText(`${article.title} ${article.description}`);
+    return (home && text.includes(home)) || (away && text.includes(away));
+  }).slice(0, 4);
+  if (!matched.length) {
+    return {
+      status: "no-match",
+      provider: expertContext.provider,
+      weight: 0,
+      note: "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+    };
+  }
+  return {
+    status: "connected",
+    provider: expertContext.provider,
+    weight: 0.08,
+    articleCount: matched.length,
+    articles: matched.map(article => ({
+      title: article.title,
+      source: article.source,
+      link: article.link,
+      pubDate: article.pubDate
+    })),
+    note: `已匹配 ${matched.length} 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。`
+  };
+}
+
+function recalc(match, date, context, signalContext = {}) {
   const random = rng(`${date}:${match.id}:${match.actualScore || ""}`);
   const homeRank = Number(match.home.rank) || 50;
   const awayRank = Number(match.away.rank) || 50;
@@ -575,6 +814,14 @@ function recalc(match, date, context) {
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  const marketSignals = oddsForMatch(match, signalContext.odds);
+  const expertSignals = expertForMatch(match, signalContext.experts);
+  if (marketSignals.status === "connected" && marketSignals.impliedProbabilities) {
+    for (let i = 0; i < 3; i += 1) {
+      probabilities[i] = Math.round(probabilities[i] * (1 - marketSignals.weight) + marketSignals.impliedProbabilities[i] * marketSignals.weight);
+    }
+    probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+  }
 
   const scoreOdds = matrix
     .sort((a, b) => b.probability - a.probability)
@@ -588,17 +835,6 @@ function recalc(match, date, context) {
   const favoriteIndex = probabilities.indexOf(top);
   const favorite = favoriteIndex === 0 ? match.home.name : favoriteIndex === 2 ? match.away.name : "平局";
   const primaryScore = scoreOdds[0]?.score || "待定";
-  const marketSignals = {
-    status: "not-connected",
-    weight: 0,
-    note: "尚未接入赔率或付费市场数据源；当前版本不伪造赔率，只保留模型侧判断。"
-  };
-  const expertSignals = {
-    status: "not-connected",
-    weight: 0,
-    note: "尚未接入稳定的专业球评聚合源；后续可加入来源权重、观点一致性和反向风险。"
-  };
-
   return {
     ...match,
     probabilities,
@@ -668,9 +904,20 @@ async function main() {
   }
 
   const context = buildTournamentContext(matches);
-  const refreshed = matches.map(match => recalc(match, runDate, context));
+  const [odds, experts] = await Promise.all([loadOddsSignals(), loadExpertSignals()]);
+  metaOverrides = {
+    ...metaOverrides,
+    marketSignals: odds.status,
+    expertSignals: experts.status,
+    oddsProvider: odds.provider,
+    oddsSportKey: odds.sportKey || ODDS_SPORT_KEY,
+    oddsEventCount: odds.events?.length || 0,
+    expertProvider: experts.provider,
+    expertArticleCount: experts.articles?.length || 0
+  };
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts }));
   fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}`);
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}`);
 }
 
 await main();

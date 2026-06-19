@@ -45,9 +45,22 @@ Render 线上站点
 - 泊松分布：根据预期进球生成比分概率矩阵。
 - 信心指数：结合结果概率集中度和因素一致性计算。
 
-## 外部信号设计
+## 外部信号接入
 
-赔率和专业球评属于高价值数据，但稳定来源通常需要 API key 或付费服务。当前版本在数据结构中保留了 `marketSignals` 和 `expertSignals`，线上不伪造赔率或球评共识；后续可以接入 The Odds API、API-Football、Sportmonks 或自建球评聚合源。
+赔率和专业球评属于高价值数据。当前版本已经接入两类信号：
+
+- 赔率信号：通过 The Odds API v4 接入。配置 `THE_ODDS_API_KEY` 后，刷新脚本会请求 `soccer_fifa_world_cup` 的 `h2h` 市场，计算主/平/客均值赔率和隐含概率，并以小权重校准模型概率。未配置 key 时不会伪造赔率。
+- 专业球评：通过 ESPN Soccer RSS 等公开新闻源接入，按球队名匹配相关文章，作为赛前信息面信号展示在详情页。
+
+可选环境变量：
+
+```bash
+THE_ODDS_API_KEY=your_api_key
+THE_ODDS_SPORT_KEY=soccer_fifa_world_cup
+THE_ODDS_REGIONS=eu,uk,us
+THE_ODDS_MARKETS=h2h
+EXPERT_RSS_URLS=https://www.espn.com/espn/rss/soccer/news?league=FIFA.WORLD
+```
 
 ## 自动刷新
 
