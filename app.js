@@ -216,20 +216,69 @@
         // Section 5: 预测依据及各因素权重
         renderFactorModel(match) +
 
-        // Section 6: 出线动机与比赛目标
+        // Section 6: 模型输入证据
+        renderInputEvidence(match) +
+
+        // Section 7: 出线动机与比赛目标
         renderMotivation(match) +
 
-        // Section 7: 攻防风格与外部信号
+        // Section 8: 攻防风格与外部信号
         renderStyleAndSignals(match) +
 
-        // Section 8: 比赛情景推演
+        // Section 9: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 9: 风险因素
+        // Section 10: 风险因素
         renderRiskAssessment(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  // ─── DETAIL: 模型输入证据 ───
+  function renderInputEvidence(match) {
+    var inputs = match.modelInputs || {};
+    var recent = inputs.recentForm || {};
+    function recentCard(team, summary, games) {
+      games = games || [];
+      summary = summary || {};
+      return '<div class="evidence-card">' +
+        '<div class="evidence-head"><strong>' + team.name + '</strong><span>' + (summary.record || "-") + '</span></div>' +
+        '<div class="recent-scores">' + games.map(function (game) {
+          return '<span class="' + game.result.toLowerCase() + '"><b>' + game.result + '</b>' + game.score + '</span>';
+        }).join("") + '</div>' +
+        '<div class="evidence-grid">' +
+          '<small>进球 <b>' + (summary.goalsFor ?? "-") + '</b></small>' +
+          '<small>失球 <b>' + (summary.goalsAgainst ?? "-") + '</b></small>' +
+          '<small>净胜球 <b>' + (summary.goalDiff ?? "-") + '</b></small>' +
+          '<small>场均进球 <b>' + (summary.avgGoalsFor ?? "-") + '</b></small>' +
+          '<small>场均失球 <b>' + (summary.avgGoalsAgainst ?? "-") + '</b></small>' +
+          '<small>零封 <b>' + (summary.cleanSheets ?? "-") + '</b></small>' +
+          '<small>被零封 <b>' + (summary.failedToScore ?? "-") + '</b></small>' +
+          '<small>大胜 <b>' + (summary.bigWins ?? "-") + '</b></small>' +
+          '<small>惨败 <b>' + (summary.heavyLosses ?? "-") + '</b></small>' +
+          '<small>趋势 <b>' + (summary.trend || "-") + '</b></small>' +
+        '</div>' +
+      '</div>';
+    }
+    var strength = inputs.teamStrength || {};
+    var ad = inputs.attackDefense || {};
+    var ext = inputs.externalSignals || {};
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>模型输入证据</h3><small>近况比分 / 攻防 / 外部信号</small></div>' +
+      '<div class="evidence-list">' +
+        recentCard(match.home, recent.home, recent.homeMatches) +
+        recentCard(match.away, recent.away, recent.awayMatches) +
+      '</div>' +
+      '<div class="input-summary-grid">' +
+        '<div><small>排名差</small><strong>' + (strength.homeRank || "-") + ' / ' + (strength.awayRank || "-") + '</strong></div>' +
+        '<div><small>综合评分</small><strong>' + (strength.homeAverageMetric || "-") + ' / ' + (strength.awayAverageMetric || "-") + '</strong></div>' +
+        '<div><small>进攻指数</small><strong>' + (ad.homeAttack || "-") + ' / ' + (ad.awayAttack || "-") + '</strong></div>' +
+        '<div><small>防守指数</small><strong>' + (ad.homeDefense || "-") + ' / ' + (ad.awayDefense || "-") + '</strong></div>' +
+        '<div><small>赔率状态</small><strong>' + (ext.marketStatus || "-") + '</strong></div>' +
+        '<div><small>球评状态</small><strong>' + (ext.expertStatus || "-") + '</strong></div>' +
+      '</div>' +
+    '</section>';
   }
 
   // ─── DETAIL: 出线动机与比赛目标 ───
@@ -350,7 +399,7 @@
 
   // ─── DETAIL: 预测依据及各因素权重 ───
   function renderFactorModel(match) {
-    var weights = { strength: 30, metrics: 30, form: 20, tactical: 20 };
+    var weights = { strength: 22, metrics: 24, recent: 20, motivation: 16, tactical: 10, external: 8 };
     var probs = match.probabilities;
     var homeRank = Number(match.home.rank) || 50;
     var awayRank = Number(match.away.rank) || 50;
@@ -379,8 +428,10 @@
     var homeForm = (match.home.form || []).slice(0, 5).join(" ");
     var awayForm = (match.away.form || []).slice(0, 5).join(" ");
     function formWins(arr) { return (arr || []).slice(0, 5).filter(function (r) { return r === "W"; }).length; }
-    var formNote = match.home.code + " 近5场 " + homeForm + "（" + formWins(match.home.form) + "胜），" +
-      match.away.code + " 近5场 " + awayForm + "（" + formWins(match.away.form) + "胜）。近期状态是预测的重要参考维度。";
+    var hs = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.home : {};
+    var as = match.modelInputs && match.modelInputs.recentForm ? match.modelInputs.recentForm.away : {};
+    var formNote = match.home.code + " 近5场 " + homeForm + "（" + formWins(match.home.form) + "胜，进" + (hs.goalsFor ?? "-") + "失" + (hs.goalsAgainst ?? "-") + "，趋势" + (hs.trend || "-") + "），" +
+      match.away.code + " 近5场 " + awayForm + "（" + formWins(match.away.form) + "胜，进" + (as.goalsFor ?? "-") + "失" + (as.goalsAgainst ?? "-") + "，趋势" + (as.trend || "-") + "）。";
 
     // Tactical matchup evidence
     var tacHome = 0, tacAway = 0, tacN = 0;
@@ -390,6 +441,11 @@
       });
     }
     var tacNote = "中场控制力对比：" + match.home.name + " " + tacHome + " vs " + match.away.name + " " + tacAway + "。战术匹配度考察双方风格克制关系与关键对位。";
+    var motivation = match.motivation || {};
+    var motivationNote = (motivation.note || "暂无出线形势信息。") + " 求胜强度 " + Math.round((motivation.intensity || 0) * 100) + "%，平局价值 " + Math.round((motivation.drawValue || 0) * 100) + "%。";
+    var market = match.marketSignals || {};
+    var expert = match.expertSignals || {};
+    var externalNote = "赔率：" + (market.note || market.status || "无") + " 球评：" + (expert.note || expert.status || "无");
 
     function factorRow(name, weight, evidence) {
       return '<div class="factor-row">' +
@@ -404,11 +460,13 @@
       '<div class="factor-model">' +
         factorRow("球队实力排名", weights.strength, strengthNote) +
         factorRow("攻防指标", weights.metrics, metricsNote) +
-        factorRow("近期状态", weights.form, formNote) +
+        factorRow("近期比分状态", weights.recent, formNote) +
+        factorRow("出线动机", weights.motivation, motivationNote) +
         factorRow("战术匹配度", weights.tactical, tacNote) +
+        factorRow("外部信号", weights.external, externalNote) +
       '</div>' +
       '<div class="factor-result">' +
-        '<p class="factor-note">四项权重合计 100%。模型通过以上因素综合计算W/D/L概率（主胜 ' + probs[0] + '% / 平局 ' + probs[1] + '% / 客胜 ' + probs[2] + '%），本区解释模型预测的形成依据，不另行生成第二套概率结果。</p>' +
+        '<p class="factor-note">多项权重合计 100%。模型通过以上因素综合计算W/D/L概率（主胜 ' + probs[0] + '% / 平局 ' + probs[1] + '% / 客胜 ' + probs[2] + '%），本区解释模型预测的形成依据，不另行生成第二套概率结果。</p>' +
       '</div>' +
     '</section>';
   }

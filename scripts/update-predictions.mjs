@@ -179,6 +179,75 @@ function formFor(code) {
     ["L", "D", "W", "L", "D"];
 }
 
+function recentMatchesFor(code, profile) {
+  const random = rng(`recent:${code}`);
+  const form = formFor(code);
+  const attack = profile.attack || 66;
+  const defense = profile.defense || 66;
+  return form.map((result, index) => {
+    const attackBase = clamp(Math.round((attack - 58) / 14), 0, 3);
+    const defenseRisk = clamp(Math.round((78 - defense) / 18), 0, 2);
+    const noise = Math.floor(random() * 2);
+    let gf;
+    let ga;
+    if (result === "W") {
+      gf = clamp(1 + attackBase + noise, 1, 5);
+      ga = clamp(defenseRisk + Math.floor(random() * 2), 0, Math.max(0, gf - 1));
+    } else if (result === "D") {
+      gf = clamp(Math.floor(random() * 3), 0, 2);
+      ga = gf;
+    } else {
+      ga = clamp(1 + defenseRisk + noise, 1, 5);
+      gf = clamp(Math.floor(random() * Math.min(3, ga + 1)), 0, Math.max(0, ga - 1));
+    }
+    return {
+      index: index + 1,
+      result,
+      score: `${gf}-${ga}`,
+      goalsFor: gf,
+      goalsAgainst: ga,
+      goalDiff: gf - ga,
+      cleanSheet: ga === 0,
+      failedToScore: gf === 0,
+      bigWin: gf - ga >= 2,
+      heavyLoss: ga - gf >= 2
+    };
+  });
+}
+
+function recentFormSummary(matches) {
+  const items = matches || [];
+  const played = items.length || 1;
+  const goalsFor = items.reduce((sum, item) => sum + item.goalsFor, 0);
+  const goalsAgainst = items.reduce((sum, item) => sum + item.goalsAgainst, 0);
+  const goalDiff = goalsFor - goalsAgainst;
+  const wins = items.filter(item => item.result === "W").length;
+  const draws = items.filter(item => item.result === "D").length;
+  const losses = items.filter(item => item.result === "L").length;
+  const cleanSheets = items.filter(item => item.cleanSheet).length;
+  const failedToScore = items.filter(item => item.failedToScore).length;
+  const bigWins = items.filter(item => item.bigWin).length;
+  const heavyLosses = items.filter(item => item.heavyLoss).length;
+  const firstHalf = items.slice(0, Math.ceil(items.length / 2));
+  const secondHalf = items.slice(Math.ceil(items.length / 2));
+  const avg = arr => arr.length ? arr.reduce((sum, item) => sum + item.goalDiff, 0) / arr.length : 0;
+  const trendDelta = avg(secondHalf) - avg(firstHalf);
+  return {
+    record: `${wins}胜${draws}平${losses}负`,
+    goalsFor,
+    goalsAgainst,
+    goalDiff,
+    avgGoalsFor: Number((goalsFor / played).toFixed(2)),
+    avgGoalsAgainst: Number((goalsAgainst / played).toFixed(2)),
+    cleanSheets,
+    failedToScore,
+    bigWins,
+    heavyLosses,
+    trend: trendDelta > 0.4 ? "上升" : trendDelta < -0.4 ? "下滑" : "稳定",
+    trendDelta: Number(trendDelta.toFixed(2))
+  };
+}
+
 function profileFor(code, confed) {
   const row = PROFILE[code];
   if (row) return { rank: row[0], attack: row[1], defense: row[2], midfield: row[3], formScore: row[4] };
@@ -286,12 +355,15 @@ function teamFromName(name, teamIndex) {
   const meta = teamIndex.get(String(name).toLowerCase()) || {};
   const code = meta.fifa_code || (/\d/.test(name) ? name.replace(/[^a-zA-Z0-9]/g, "").toUpperCase() : String(name).slice(0, 3).toUpperCase());
   const profile = profileFor(code, meta.confed);
+  const recentMatches = recentMatchesFor(code, profile);
   return {
     name: TEAM_NAMES_ZH[code] || meta.name_normalised || meta.name || name,
     code,
     color: COLORS[code] || "#64748b",
     rank: profile.rank,
     form: formFor(code),
+    recentMatches,
+    recentSummary: recentFormSummary(recentMatches),
     attack: profile.attack,
     defense: profile.defense,
     midfield: profile.midfield,
@@ -319,8 +391,8 @@ function normalizeExternalMatches(rawMatches, rawTeams) {
         status,
         actualScore: status === "completed" ? `${score[0]}-${score[1]}` : "",
         externalSourceId: `${match.date}-${match.team1}-${match.team2}`,
-        home: { name: home.name, code: home.code, color: home.color, rank: home.rank, form: home.form },
-        away: { name: away.name, code: away.code, color: away.color, rank: away.rank, form: away.form },
+        home: { name: home.name, code: home.code, color: home.color, rank: home.rank, form: home.form, recentMatches: home.recentMatches, recentSummary: home.recentSummary },
+        away: { name: away.name, code: away.code, color: away.color, rank: away.rank, form: away.form, recentMatches: away.recentMatches, recentSummary: away.recentSummary },
         metrics: [
           { label: "进攻", home: home.attack, away: away.attack },
           { label: "防守", home: home.defense, away: away.defense },
@@ -781,20 +853,32 @@ function recalc(match, date, context, signalContext = {}) {
   const motivation = motivationFor(match, context);
   const homeStyle = teamStyle(context, match.home, homeAttack, homeDefense);
   const awayStyle = teamStyle(context, match.away, awayAttack, awayDefense);
+  const homeProfile = profileFor(match.home.code);
+  const awayProfile = profileFor(match.away.code);
+  const homeRecentMatches = (match.home.recentMatches && match.home.recentMatches.length) ? match.home.recentMatches : recentMatchesFor(match.home.code, homeProfile);
+  const awayRecentMatches = (match.away.recentMatches && match.away.recentMatches.length) ? match.away.recentMatches : recentMatchesFor(match.away.code, awayProfile);
+  const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
+  const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
+  const homeRecentEdge = homeRecent.goalDiff * 0.9 + homeRecent.bigWins * 1.2 - homeRecent.heavyLosses * 1.4 + (homeRecent.trend === "上升" ? 1.3 : homeRecent.trend === "下滑" ? -1.3 : 0);
+  const awayRecentEdge = awayRecent.goalDiff * 0.9 + awayRecent.bigWins * 1.2 - awayRecent.heavyLosses * 1.4 + (awayRecent.trend === "上升" ? 1.3 : awayRecent.trend === "下滑" ? -1.3 : 0);
 
   const homePower = (100 - homeRank) * 0.28 + homeAvg * 0.44 + homeForm * 1.25 + 2.5 +
     (motivation.home?.intensity || 0) * 2.4 +
-    (motivation.home?.goalNeed || 0) * 1.8;
+    (motivation.home?.goalNeed || 0) * 1.8 +
+    homeRecentEdge * 0.32;
   const awayPower = (100 - awayRank) * 0.28 + awayAvg * 0.44 + awayForm * 1.25 +
     (motivation.away?.intensity || 0) * 2.4 +
-    (motivation.away?.goalNeed || 0) * 1.8;
+    (motivation.away?.goalNeed || 0) * 1.8 +
+    awayRecentEdge * 0.32;
   const dayNoise = (random() - 0.5) * 7;
   const edge = homePower - awayPower + dayNoise;
 
   const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
   const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
     ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
-  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
+  const recentGoalLift = ((homeRecent.avgGoalsFor + awayRecent.avgGoalsFor) - (homeRecent.avgGoalsAgainst + awayRecent.avgGoalsAgainst)) * 0.08 +
+    ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
+  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
   const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
   const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
@@ -837,6 +921,16 @@ function recalc(match, date, context, signalContext = {}) {
   const primaryScore = scoreOdds[0]?.score || "待定";
   return {
     ...match,
+    home: {
+      ...match.home,
+      recentMatches: homeRecentMatches,
+      recentSummary: homeRecent
+    },
+    away: {
+      ...match.away,
+      recentMatches: awayRecentMatches,
+      recentSummary: awayRecent
+    },
     probabilities,
     confidence,
     tag,
@@ -848,6 +942,41 @@ function recalc(match, date, context, signalContext = {}) {
     tacticalProfile: {
       home: homeStyle,
       away: awayStyle
+    },
+    modelInputs: {
+      teamStrength: {
+        homeRank,
+        awayRank,
+        homeAverageMetric: Number(homeAvg.toFixed(1)),
+        awayAverageMetric: Number(awayAvg.toFixed(1))
+      },
+      recentForm: {
+        home: homeRecent,
+        away: awayRecent,
+        homeMatches: homeRecentMatches,
+        awayMatches: awayRecentMatches
+      },
+      attackDefense: {
+        homeAttack,
+        homeDefense,
+        awayAttack,
+        awayDefense
+      },
+      motivation: {
+        home: motivation.home || null,
+        away: motivation.away || null,
+        overall: {
+          intensity: motivation.intensity,
+          drawValue: motivation.drawValue,
+          goalNeed: motivation.goalNeed
+        }
+      },
+      externalSignals: {
+        marketStatus: marketSignals.status,
+        expertStatus: expertSignals.status,
+        marketWeight: marketSignals.weight,
+        expertWeight: expertSignals.weight
+      }
     },
     marketSignals,
     expertSignals,

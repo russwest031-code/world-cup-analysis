@@ -166,6 +166,26 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .factor-result { margin-top: 14px; padding: 16px; background: rgba(184,242,61,.05); border: 1px solid rgba(184,242,61,.12); border-radius: 16px; }
 .factor-note { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.55; }
 
+/* ─── Input Evidence ─── */
+.evidence-list { display: grid; gap: 10px; }
+.evidence-card { padding: 15px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+.evidence-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 11px; }
+.evidence-head strong { font-size: 14px; }
+.evidence-head span { color: var(--accent); font-size: 11px; }
+.recent-scores { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.recent-scores span { display: inline-flex; align-items: center; gap: 5px; padding: 6px 8px; border-radius: 10px; background: rgba(255,255,255,.045); color: var(--text); font-size: 10px; }
+.recent-scores b { color: var(--muted); font-size: 9px; }
+.recent-scores .w { border: 1px solid rgba(184,242,61,.18); }.recent-scores .w b { color: var(--accent); }
+.recent-scores .d { border: 1px solid rgba(255,255,255,.12); }.recent-scores .d b { color: var(--muted); }
+.recent-scores .l { border: 1px solid rgba(255,107,97,.18); }.recent-scores .l b { color: var(--danger); }
+.evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 7px; }
+.evidence-grid small { color: var(--muted); font-size: 9px; }
+.evidence-grid b { color: var(--text); font-size: 11px; }
+.input-summary-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; margin-top: 10px; }
+.input-summary-grid div { padding: 11px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255,255,255,.035); }
+.input-summary-grid small { display: block; color: var(--muted); font-size: 9px; margin-bottom: 5px; }
+.input-summary-grid strong { font-size: 12px; color: var(--text); word-break: break-word; }
+
 /* ─── Motivation & Signals ─── */
 .motivation-box { padding: 17px; border: 1px solid rgba(184,242,61,.16); border-radius: 20px; background: linear-gradient(145deg, rgba(184,242,61,.07), rgba(17,36,30,.72)); }
 .motivation-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
