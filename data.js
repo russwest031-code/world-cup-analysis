@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-19T12:46:21.691Z",
+  "updatedAt": "2026-06-19T13:09:51.783Z",
   "runDate": "2026-06-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-19T12:46:21.691Z",
+  "externalFetchedAt": "2026-06-19T13:09:51.783Z",
   "externalMatchCount": 104,
   "model": "ten-factor-weighted-poisson-v2",
   "rulesModel": "wc2026-group-qualification-v1",
@@ -11,11 +11,14 @@ window.ANALYSIS_META = {
   "refreshCadence": "daily",
   "refreshTimeLocal": "15:00",
   "refreshTimeZone": "Asia/Shanghai",
+  "onsideSignals": "connected",
   "oddsProvider": "The Odds API",
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss",
-  "expertArticleCount": 0
+  "expertArticleCount": 0,
+  "onsideProvider": "onsidearena.com",
+  "onsidePredictionCount": 72
 };
 
 window.MATCHES = [
@@ -233,18 +236,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
       "awayName": "South Africa"
     },
     "probabilities": [
-      65,
-      23,
-      12
+      68,
+      21,
+      11
     ],
-    "confidence": 81,
+    "confidence": 82,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -367,10 +370,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 88,
+        "awayScore": 5,
+        "contribution": 2.49,
+        "evidence": "Onside 公开模型：主88% / 平7% / 客5%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -567,6 +570,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        88,
+        7,
+        5
+      ],
+      "modelFavorite": "墨西哥",
+      "note": "Onside 公开模型：主88% / 平7% / 客5%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -794,18 +810,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
       "awayName": "Czech Republic"
     },
     "probabilities": [
-      40,
+      41,
       27,
-      33
+      32
     ],
-    "confidence": 70,
+    "confidence": 71,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -928,10 +944,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 49,
+        "awayScore": 26,
+        "contribution": 0.69,
+        "evidence": "Onside 公开模型：主49% / 平25% / 客26%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -1128,6 +1144,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        49,
+        25,
+        26
+      ],
+      "modelFavorite": "韩国",
+      "note": "Onside 公开模型：主49% / 平25% / 客26%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1355,18 +1384,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
       "awayName": "Bosnia & Herzegovina"
     },
     "probabilities": [
-      51,
-      23,
-      26
+      54,
+      22,
+      24
     ],
-    "confidence": 74,
+    "confidence": 75,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -1489,10 +1518,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 79,
+        "awayScore": 8,
+        "contribution": 2.13,
+        "evidence": "Onside 公开模型：主79% / 平13% / 客8%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -1689,6 +1718,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        79,
+        13,
+        8
+      ],
+      "modelFavorite": "加拿大",
+      "note": "Onside 公开模型：主79% / 平13% / 客8%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1916,16 +1958,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
       "awayName": "Paraguay"
     },
     "probabilities": [
-      49,
-      23,
-      28
+      51,
+      22,
+      27
     ],
     "confidence": 74,
     "tag": "已完场",
@@ -2050,10 +2092,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 70,
+        "awayScore": 13,
+        "contribution": 1.71,
+        "evidence": "Onside 公开模型：主70% / 平17% / 客13%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -2250,6 +2292,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        70,
+        17,
+        13
+      ],
+      "modelFavorite": "美国",
+      "note": "Onside 公开模型：主70% / 平17% / 客13%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2477,18 +2532,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
       "awayName": "Switzerland"
     },
     "probabilities": [
-      18,
-      23,
-      59
+      17,
+      22,
+      61
     ],
-    "confidence": 78,
+    "confidence": 79,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -2611,10 +2666,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 8,
+        "awayScore": 79,
+        "contribution": -2.13,
+        "evidence": "Onside 公开模型：主8% / 平13% / 客79%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -2811,6 +2866,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        8,
+        13,
+        79
+      ],
+      "modelFavorite": "瑞士",
+      "note": "Onside 公开模型：主8% / 平13% / 客79%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3038,16 +3106,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
       "awayName": "Morocco"
     },
     "probabilities": [
-      38,
+      39,
       24,
-      38
+      37
     ],
     "confidence": 70,
     "tag": "已完场",
@@ -3172,10 +3240,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 44,
+        "awayScore": 30,
+        "contribution": 0.42,
+        "evidence": "Onside 公开模型：主44% / 平26% / 客30%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -3372,6 +3440,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        44,
+        26,
+        30
+      ],
+      "modelFavorite": "巴西",
+      "note": "Onside 公开模型：主44% / 平26% / 客30%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3599,16 +3680,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
       "awayName": "Scotland"
     },
     "probabilities": [
-      14,
-      26,
-      60
+      13,
+      25,
+      62
     ],
     "confidence": 81,
     "tag": "已完场",
@@ -3733,10 +3814,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 7,
+        "awayScore": 81,
+        "contribution": -2.22,
+        "evidence": "Onside 公开模型：主7% / 平12% / 客81%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -3933,6 +4014,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        7,
+        12,
+        81
+      ],
+      "modelFavorite": "苏格兰",
+      "note": "Onside 公开模型：主7% / 平12% / 客81%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4160,7 +4254,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -4294,10 +4388,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 27,
+        "awayScore": 48,
+        "contribution": -0.63,
+        "evidence": "Onside 公开模型：主27% / 平25% / 客48%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -4494,6 +4588,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        27,
+        25,
+        48
+      ],
+      "modelFavorite": "土耳其",
+      "note": "Onside 公开模型：主27% / 平25% / 客48%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4721,18 +4828,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
       "awayName": "Curaçao"
     },
     "probabilities": [
-      77,
-      14,
-      9
+      79,
+      13,
+      8
     ],
-    "confidence": 88,
+    "confidence": 89,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 7-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -4855,10 +4962,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 95,
+        "awayScore": 2,
+        "contribution": 2.79,
+        "evidence": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -5055,6 +5162,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        95,
+        3,
+        2
+      ],
+      "modelFavorite": "德国",
+      "note": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5282,16 +5402,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
       "awayName": "Japan"
     },
     "probabilities": [
-      42,
+      43,
       23,
-      35
+      34
     ],
     "confidence": 72,
     "tag": "已完场",
@@ -5416,10 +5536,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 57,
+        "awayScore": 20,
+        "contribution": 1.11,
+        "evidence": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -5616,6 +5736,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        57,
+        23,
+        20
+      ],
+      "modelFavorite": "荷兰",
+      "note": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5843,16 +5976,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
       "awayName": "Ecuador"
     },
     "probabilities": [
-      33,
+      32,
       28,
-      39
+      40
     ],
     "confidence": 70,
     "tag": "已完场",
@@ -5977,10 +6110,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 23,
+        "awayScore": 53,
+        "contribution": -0.9,
+        "evidence": "Onside 公开模型：主23% / 平24% / 客53%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -6177,6 +6310,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        23,
+        24,
+        53
+      ],
+      "modelFavorite": "厄瓜多尔",
+      "note": "Onside 公开模型：主23% / 平24% / 客53%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6404,7 +6550,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -6538,10 +6684,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 49,
+        "awayScore": 26,
+        "contribution": 0.69,
+        "evidence": "Onside 公开模型：主49% / 平25% / 客26%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -6738,6 +6884,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        49,
+        25,
+        26
+      ],
+      "modelFavorite": "瑞典",
+      "note": "Onside 公开模型：主49% / 平25% / 客26%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6965,18 +7124,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
       "awayName": "Cape Verde"
     },
     "probabilities": [
-      70,
-      19,
-      11
+      72,
+      18,
+      10
     ],
-    "confidence": 85,
+    "confidence": 86,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7099,10 +7258,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 94,
+        "awayScore": 2,
+        "contribution": 2.76,
+        "evidence": "Onside 公开模型：主94% / 平4% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -7299,6 +7458,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        94,
+        4,
+        2
+      ],
+      "modelFavorite": "西班牙",
+      "note": "Onside 公开模型：主94% / 平4% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7526,18 +7698,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
       "awayName": "Egypt"
     },
     "probabilities": [
-      49,
+      50,
       25,
-      26
+      25
     ],
-    "confidence": 72,
+    "confidence": 73,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7660,10 +7832,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 63,
+        "awayScore": 16,
+        "contribution": 1.41,
+        "evidence": "Onside 公开模型：主63% / 平21% / 客16%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -7860,6 +8032,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        63,
+        21,
+        16
+      ],
+      "modelFavorite": "比利时",
+      "note": "Onside 公开模型：主63% / 平21% / 客16%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8087,16 +8272,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
       "awayName": "Uruguay"
     },
     "probabilities": [
-      14,
-      24,
-      62
+      13,
+      23,
+      64
     ],
     "confidence": 81,
     "tag": "已完场",
@@ -8221,10 +8406,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 6,
+        "awayScore": 84,
+        "contribution": -2.34,
+        "evidence": "Onside 公开模型：主6% / 平10% / 客84%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -8421,6 +8606,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        6,
+        10,
+        84
+      ],
+      "modelFavorite": "乌拉圭",
+      "note": "Onside 公开模型：主6% / 平10% / 客84%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8648,18 +8846,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
       "awayName": "New Zealand"
     },
     "probabilities": [
-      62,
-      22,
-      16
+      65,
+      20,
+      15
     ],
-    "confidence": 80,
+    "confidence": 81,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -8782,10 +8980,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 92,
+        "awayScore": 3,
+        "contribution": 2.67,
+        "evidence": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -8982,6 +9180,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        92,
+        5,
+        3
+      ],
+      "modelFavorite": "伊朗",
+      "note": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9209,7 +9420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -9343,10 +9554,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 56,
+        "awayScore": 21,
+        "contribution": 1.05,
+        "evidence": "Onside 公开模型：主56% / 平23% / 客21%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -9543,6 +9754,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        56,
+        23,
+        21
+      ],
+      "modelFavorite": "法国",
+      "note": "Onside 公开模型：主56% / 平23% / 客21%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9770,16 +9994,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
       "awayName": "Norway"
     },
     "probabilities": [
-      23,
       21,
-      56
+      21,
+      58
     ],
     "confidence": 77,
     "tag": "已完场",
@@ -9904,10 +10128,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 12,
+        "awayScore": 71,
+        "contribution": -1.77,
+        "evidence": "Onside 公开模型：主12% / 平17% / 客71%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -10104,6 +10328,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        12,
+        17,
+        71
+      ],
+      "modelFavorite": "挪威",
+      "note": "Onside 公开模型：主12% / 平17% / 客71%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10331,7 +10568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -10465,10 +10702,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 70,
+        "awayScore": 13,
+        "contribution": 1.71,
+        "evidence": "Onside 公开模型：主70% / 平17% / 客13%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -10665,6 +10902,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        70,
+        17,
+        13
+      ],
+      "modelFavorite": "阿根廷",
+      "note": "Onside 公开模型：主70% / 平17% / 客13%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10892,18 +11142,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
       "awayName": "Jordan"
     },
     "probabilities": [
-      55,
-      22,
-      23
+      58,
+      21,
+      21
     ],
-    "confidence": 76,
+    "confidence": 77,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -11026,10 +11276,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 81,
+        "awayScore": 7,
+        "contribution": 2.22,
+        "evidence": "Onside 公开模型：主81% / 平12% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -11226,6 +11476,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        81,
+        12,
+        7
+      ],
+      "modelFavorite": "奥地利",
+      "note": "Onside 公开模型：主81% / 平12% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11453,18 +11716,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
       "awayName": "DR Congo"
     },
     "probabilities": [
-      68,
-      21,
+      69,
+      20,
       11
     ],
-    "confidence": 83,
+    "confidence": 84,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -11587,10 +11850,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 82,
+        "awayScore": 7,
+        "contribution": 2.25,
+        "evidence": "Onside 公开模型：主82% / 平11% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -11787,6 +12050,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        82,
+        11,
+        7
+      ],
+      "modelFavorite": "葡萄牙",
+      "note": "Onside 公开模型：主82% / 平11% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12014,15 +12290,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
       "awayName": "Croatia"
     },
     "probabilities": [
-      51,
-      21,
+      50,
+      22,
       28
     ],
     "confidence": 75,
@@ -12148,10 +12424,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 47,
+        "awayScore": 27,
+        "contribution": 0.6,
+        "evidence": "Onside 公开模型：主47% / 平26% / 客27%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -12348,6 +12624,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        47,
+        26,
+        27
+      ],
+      "modelFavorite": "英格兰",
+      "note": "Onside 公开模型：主47% / 平26% / 客27%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12575,18 +12864,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
       "awayName": "Panama"
     },
     "probabilities": [
-      42,
-      30,
-      28
+      39,
+      28,
+      33
     ],
-    "confidence": 71,
+    "confidence": 70,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -12709,10 +12998,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 8,
+        "awayScore": 78,
+        "contribution": -2.1,
+        "evidence": "Onside 公开模型：主8% / 平14% / 客78%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -12909,6 +13198,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        8,
+        14,
+        78
+      ],
+      "modelFavorite": "巴拿马",
+      "note": "Onside 公开模型：主8% / 平14% / 客78%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13136,7 +13438,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -13144,8 +13446,8 @@ window.MATCHES = [
     },
     "probabilities": [
       15,
-      19,
-      66
+      18,
+      67
     ],
     "confidence": 82,
     "tag": "已完场",
@@ -13270,10 +13572,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 8,
+        "awayScore": 79,
+        "contribution": -2.13,
+        "evidence": "Onside 公开模型：主8% / 平13% / 客79%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -13470,6 +13772,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        8,
+        13,
+        79
+      ],
+      "modelFavorite": "哥伦比亚",
+      "note": "Onside 公开模型：主8% / 平13% / 客79%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13697,15 +14012,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
       "awayName": "South Africa"
     },
     "probabilities": [
-      52,
-      28,
+      53,
+      27,
       20
     ],
     "confidence": 76,
@@ -13831,10 +14146,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 62,
+        "awayScore": 17,
+        "contribution": 1.35,
+        "evidence": "Onside 公开模型：主62% / 平21% / 客17%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -14031,6 +14346,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        62,
+        21,
+        17
+      ],
+      "modelFavorite": "捷克",
+      "note": "Onside 公开模型：主62% / 平21% / 客17%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14258,16 +14586,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
       "awayName": "Bosnia & Herzegovina"
     },
     "probabilities": [
-      51,
-      24,
-      25
+      54,
+      23,
+      23
     ],
     "confidence": 74,
     "tag": "已完场",
@@ -14392,10 +14720,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 83,
+        "awayScore": 6,
+        "contribution": 2.31,
+        "evidence": "Onside 公开模型：主83% / 平11% / 客6%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -14592,6 +14920,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        83,
+        11,
+        6
+      ],
+      "modelFavorite": "瑞士",
+      "note": "Onside 公开模型：主83% / 平11% / 客6%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14819,16 +15160,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
       "awayName": "Qatar"
     },
     "probabilities": [
-      60,
-      21,
-      19
+      62,
+      20,
+      18
     ],
     "confidence": 79,
     "tag": "已完场",
@@ -14953,10 +15294,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 75,
+        "awayScore": 10,
+        "contribution": 1.95,
+        "evidence": "Onside 公开模型：主75% / 平15% / 客10%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -15153,6 +15494,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        75,
+        15,
+        10
+      ],
+      "modelFavorite": "加拿大",
+      "note": "Onside 公开模型：主75% / 平15% / 客10%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15380,18 +15734,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
       "awayName": "South Korea"
     },
     "probabilities": [
-      38,
+      40,
       25,
-      37
+      35
     ],
-    "confidence": 68,
+    "confidence": 69,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -15514,10 +15868,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 60,
+        "awayScore": 18,
+        "contribution": 1.26,
+        "evidence": "Onside 公开模型：主60% / 平22% / 客18%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -15714,6 +16068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        60,
+        22,
+        18
+      ],
+      "modelFavorite": "墨西哥",
+      "note": "Onside 公开模型：主60% / 平22% / 客18%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15941,16 +16308,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
       "awayName": "Australia"
     },
     "probabilities": [
-      52,
+      53,
       20,
-      28
+      27
     ],
     "confidence": 75,
     "tag": "稳健",
@@ -16089,10 +16456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 62,
+        "awayScore": 17,
+        "contribution": 1.35,
+        "evidence": "Onside 公开模型：主62% / 平21% / 客17%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -16301,6 +16668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        62,
+        21,
+        17
+      ],
+      "modelFavorite": "美国",
+      "note": "Onside 公开模型：主62% / 平21% / 客17%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。美国当前3分、净胜球3；澳大利亚当前3分、净胜球2。",
@@ -16528,18 +16908,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
       "awayName": "Morocco"
     },
     "probabilities": [
-      25,
+      23,
       22,
-      53
+      55
     ],
-    "confidence": 76,
+    "confidence": 77,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 摩洛哥 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -16676,10 +17056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 13,
+        "awayScore": 70,
+        "contribution": -1.71,
+        "evidence": "Onside 公开模型：主13% / 平17% / 客70%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -16888,6 +17268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        13,
+        17,
+        70
+      ],
+      "modelFavorite": "摩洛哥",
+      "note": "Onside 公开模型：主13% / 平17% / 客70%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球1；摩洛哥当前1分、净胜球0。",
@@ -17115,18 +17508,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
       "awayName": "Haiti"
     },
     "probabilities": [
-      69,
-      19,
-      12
+      72,
+      17,
+      11
     ],
-    "confidence": 86,
+    "confidence": 87,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 巴西 方向，最可能比分为 1-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -17263,10 +17656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 96,
+        "awayScore": 1,
+        "contribution": 2.85,
+        "evidence": "Onside 公开模型：主96% / 平3% / 客1%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -17475,6 +17868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        96,
+        3,
+        1
+      ],
+      "modelFavorite": "巴西",
+      "note": "Onside 公开模型：主96% / 平3% / 客1%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴西当前1分、净胜球0；海地当前0分、净胜球-1。",
@@ -17702,16 +18108,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
       "awayName": "Paraguay"
     },
     "probabilities": [
-      49,
+      50,
       21,
-      30
+      29
     ],
     "confidence": 74,
     "tag": "稳健",
@@ -17850,10 +18256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 57,
+        "awayScore": 20,
+        "contribution": 1.11,
+        "evidence": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -18062,6 +18468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        57,
+        23,
+        20
+      ],
+      "modelFavorite": "土耳其",
+      "note": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-2；巴拉圭当前0分、净胜球-3。",
@@ -18289,18 +18708,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
       "awayName": "Sweden"
     },
     "probabilities": [
-      54,
+      56,
       18,
-      28
+      26
     ],
-    "confidence": 76,
+    "confidence": 77,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 荷兰 方向，最可能比分为 2-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -18437,10 +18856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 72,
+        "awayScore": 12,
+        "contribution": 1.8,
+        "evidence": "Onside 公开模型：主72% / 平16% / 客12%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -18649,6 +19068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        72,
+        16,
+        12
+      ],
+      "modelFavorite": "荷兰",
+      "note": "Onside 公开模型：主72% / 平16% / 客12%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。荷兰当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -18876,16 +19308,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
       "awayName": "Ivory Coast"
     },
     "probabilities": [
-      57,
+      58,
       18,
-      25
+      24
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -19024,10 +19456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 68,
+        "awayScore": 14,
+        "contribution": 1.62,
+        "evidence": "Onside 公开模型：主68% / 平18% / 客14%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -19236,6 +19668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        68,
+        18,
+        14
+      ],
+      "modelFavorite": "德国",
+      "note": "Onside 公开模型：主68% / 平18% / 客14%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。德国当前3分、净胜球6；科特迪瓦当前3分、净胜球1。",
@@ -19463,16 +19908,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
       "awayName": "Curaçao"
     },
     "probabilities": [
-      70,
-      18,
-      12
+      72,
+      17,
+      11
     ],
     "confidence": 86,
     "tag": "高信心",
@@ -19611,10 +20056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 91,
+        "awayScore": 3,
+        "contribution": 2.64,
+        "evidence": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -19823,6 +20268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        91,
+        6,
+        3
+      ],
+      "modelFavorite": "厄瓜多尔",
+      "note": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；库拉索当前0分、净胜球-6。",
@@ -20050,16 +20508,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
       "awayName": "Japan"
     },
     "probabilities": [
-      26,
+      25,
       20,
-      54
+      55
     ],
     "confidence": 77,
     "tag": "稳健",
@@ -20198,10 +20656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 15,
+        "awayScore": 65,
+        "contribution": -1.5,
+        "evidence": "Onside 公开模型：主15% / 平20% / 客65%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -20410,6 +20868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        15,
+        20,
+        65
+      ],
+      "modelFavorite": "日本",
+      "note": "Onside 公开模型：主15% / 平20% / 客65%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；日本当前1分、净胜球0。",
@@ -20637,18 +21108,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
       "awayName": "Saudi Arabia"
     },
     "probabilities": [
-      72,
-      17,
-      11
+      74,
+      16,
+      10
     ],
-    "confidence": 87,
+    "confidence": 88,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 西班牙 方向，最可能比分为 2-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -20785,10 +21256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 92,
+        "awayScore": 3,
+        "contribution": 2.67,
+        "evidence": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -20997,6 +21468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        92,
+        5,
+        3
+      ],
+      "modelFavorite": "西班牙",
+      "note": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -21224,18 +21708,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
       "awayName": "Iran"
     },
     "probabilities": [
-      45,
+      46,
       22,
-      33
+      32
     ],
-    "confidence": 71,
+    "confidence": 72,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 比利时 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -21372,10 +21856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 57,
+        "awayScore": 20,
+        "contribution": 1.11,
+        "evidence": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -21584,6 +22068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        57,
+        23,
+        20
+      ],
+      "modelFavorite": "比利时",
+      "note": "Onside 公开模型：主57% / 平23% / 客20%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -21811,18 +22308,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
       "awayName": "Cape Verde"
     },
     "probabilities": [
-      66,
-      19,
-      15
+      68,
+      18,
+      14
     ],
-    "confidence": 80,
+    "confidence": 81,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 乌拉圭 方向，最可能比分为 1-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -21959,10 +22456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 88,
+        "awayScore": 4,
+        "contribution": 2.52,
+        "evidence": "Onside 公开模型：主88% / 平8% / 客4%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -22171,6 +22668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        88,
+        8,
+        4
+      ],
+      "modelFavorite": "乌拉圭",
+      "note": "Onside 公开模型：主88% / 平8% / 客4%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -22398,18 +22908,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
       "awayName": "Egypt"
     },
     "probabilities": [
-      15,
-      18,
-      67
+      14,
+      17,
+      69
     ],
-    "confidence": 82,
+    "confidence": 83,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 埃及 方向，最可能比分为 0-2。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -22546,10 +23056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 4,
+        "awayScore": 90,
+        "contribution": -2.58,
+        "evidence": "Onside 公开模型：主4% / 平6% / 客90%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -22758,6 +23268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        4,
+        6,
+        90
+      ],
+      "modelFavorite": "埃及",
+      "note": "Onside 公开模型：主4% / 平6% / 客90%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -22985,15 +23508,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
       "awayName": "Austria"
     },
     "probabilities": [
-      65,
-      16,
+      64,
+      17,
       19
     ],
     "confidence": 81,
@@ -23133,10 +23656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 60,
+        "awayScore": 18,
+        "contribution": 1.26,
+        "evidence": "Onside 公开模型：主60% / 平22% / 客18%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -23345,6 +23868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        60,
+        22,
+        18
+      ],
+      "modelFavorite": "阿根廷",
+      "note": "Onside 公开模型：主60% / 平22% / 客18%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -23572,16 +24108,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
       "awayName": "Iraq"
     },
     "probabilities": [
-      71,
-      15,
-      14
+      73,
+      14,
+      13
     ],
     "confidence": 86,
     "tag": "高信心",
@@ -23720,10 +24256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 91,
+        "awayScore": 3,
+        "contribution": 2.64,
+        "evidence": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -23932,6 +24468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        91,
+        6,
+        3
+      ],
+      "modelFavorite": "法国",
+      "note": "Onside 公开模型：主91% / 平6% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -24159,16 +24708,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
       "awayName": "Senegal"
     },
     "probabilities": [
-      38,
-      19,
-      43
+      36,
+      20,
+      44
     ],
     "confidence": 70,
     "tag": "稳健",
@@ -24307,10 +24856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 24,
+        "awayScore": 51,
+        "contribution": -0.81,
+        "evidence": "Onside 公开模型：主24% / 平25% / 客51%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -24519,6 +25068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        24,
+        25,
+        51
+      ],
+      "modelFavorite": "塞内加尔",
+      "note": "Onside 公开模型：主24% / 平25% / 客51%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -24746,16 +25308,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
       "awayName": "Algeria"
     },
     "probabilities": [
-      28,
-      21,
-      51
+      27,
+      20,
+      53
     ],
     "confidence": 75,
     "tag": "稳健",
@@ -24894,10 +25456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 11,
+        "awayScore": 74,
+        "contribution": -1.89,
+        "evidence": "Onside 公开模型：主11% / 平15% / 客74%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -25106,6 +25668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        11,
+        15,
+        74
+      ],
+      "modelFavorite": "阿尔及利亚",
+      "note": "Onside 公开模型：主11% / 平15% / 客74%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -25333,16 +25908,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
       "awayName": "Uzbekistan"
     },
     "probabilities": [
-      70,
-      16,
-      14
+      72,
+      15,
+      13
     ],
     "confidence": 84,
     "tag": "高信心",
@@ -25481,10 +26056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 85,
+        "awayScore": 5,
+        "contribution": 2.4,
+        "evidence": "Onside 公开模型：主85% / 平10% / 客5%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -25693,6 +26268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        85,
+        10,
+        5
+      ],
+      "modelFavorite": "葡萄牙",
+      "note": "Onside 公开模型：主85% / 平10% / 客5%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -25920,18 +26508,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
       "awayName": "Ghana"
     },
     "probabilities": [
-      77,
-      13,
-      10
+      79,
+      12,
+      9
     ],
-    "confidence": 88,
+    "confidence": 89,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 英格兰 方向，最可能比分为 2-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -26068,10 +26656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 95,
+        "awayScore": 2,
+        "contribution": 2.79,
+        "evidence": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -26280,6 +26868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        95,
+        3,
+        2
+      ],
+      "modelFavorite": "英格兰",
+      "note": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -26507,7 +27108,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -26655,10 +27256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 15,
+        "awayScore": 66,
+        "contribution": -1.53,
+        "evidence": "Onside 公开模型：主15% / 平19% / 客66%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -26867,6 +27468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        15,
+        19,
+        66
+      ],
+      "modelFavorite": "克罗地亚",
+      "note": "Onside 公开模型：主15% / 平19% / 客66%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -27094,7 +27708,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -27242,10 +27856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 75,
+        "awayScore": 10,
+        "contribution": 1.95,
+        "evidence": "Onside 公开模型：主75% / 平15% / 客10%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -27454,6 +28068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        75,
+        15,
+        10
+      ],
+      "modelFavorite": "哥伦比亚",
+      "note": "Onside 公开模型：主75% / 平15% / 客10%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -27681,7 +28308,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27829,10 +28456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 43,
+        "awayScore": 31,
+        "contribution": 0.36,
+        "evidence": "Onside 公开模型：主43% / 平26% / 客31%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -28041,6 +28668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        43,
+        26,
+        31
+      ],
+      "modelFavorite": "瑞士",
+      "note": "Onside 公开模型：主43% / 平26% / 客31%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -28268,18 +28908,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
       "awayName": "Qatar"
     },
     "probabilities": [
-      52,
-      19,
-      29
+      50,
+      20,
+      30
     ],
-    "confidence": 75,
+    "confidence": 74,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 波黑 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -28416,10 +29056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 31,
+        "awayScore": 42,
+        "contribution": -0.33,
+        "evidence": "Onside 公开模型：主31% / 平27% / 客42%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -28628,6 +29268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        31,
+        27,
+        42
+      ],
+      "modelFavorite": "卡塔尔",
+      "note": "Onside 公开模型：主31% / 平27% / 客42%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -28855,16 +29508,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
       "awayName": "Brazil"
     },
     "probabilities": [
-      24,
-      22,
-      54
+      23,
+      21,
+      56
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -29003,10 +29656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 10,
+        "awayScore": 76,
+        "contribution": -1.98,
+        "evidence": "Onside 公开模型：主10% / 平14% / 客76%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -29215,6 +29868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        10,
+        14,
+        76
+      ],
+      "modelFavorite": "巴西",
+      "note": "Onside 公开模型：主10% / 平14% / 客76%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球1；巴西当前1分、净胜球0。",
@@ -29442,18 +30108,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
       "awayName": "Haiti"
     },
     "probabilities": [
-      68,
-      20,
-      12
+      71,
+      18,
+      11
     ],
-    "confidence": 87,
+    "confidence": 88,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 摩洛哥 方向，最可能比分为 1-0。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -29590,10 +30256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 95,
+        "awayScore": 2,
+        "contribution": 2.79,
+        "evidence": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -29802,6 +30468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        95,
+        3,
+        2
+      ],
+      "modelFavorite": "摩洛哥",
+      "note": "Onside 公开模型：主95% / 平3% / 客2%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前1分、净胜球0；海地当前0分、净胜球-1。",
@@ -30029,18 +30708,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
       "awayName": "Mexico"
     },
     "probabilities": [
-      46,
+      42,
       21,
-      33
+      37
     ],
-    "confidence": 72,
+    "confidence": 71,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 捷克 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -30177,10 +30856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 12,
+        "awayScore": 71,
+        "contribution": -1.77,
+        "evidence": "Onside 公开模型：主12% / 平17% / 客71%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -30389,6 +31068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        12,
+        17,
+        71
+      ],
+      "modelFavorite": "墨西哥",
+      "note": "Onside 公开模型：主12% / 平17% / 客71%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -30616,16 +31308,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
       "awayName": "South Korea"
     },
     "probabilities": [
+      19,
       20,
-      20,
-      60
+      61
     ],
     "confidence": 80,
     "tag": "稳健",
@@ -30764,10 +31456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 11,
+        "awayScore": 73,
+        "contribution": -1.86,
+        "evidence": "Onside 公开模型：主11% / 平16% / 客73%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -30976,6 +31668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        11,
+        16,
+        73
+      ],
+      "modelFavorite": "韩国",
+      "note": "Onside 公开模型：主11% / 平16% / 客73%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -31203,18 +31908,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
       "awayName": "Ivory Coast"
     },
     "probabilities": [
-      17,
-      20,
-      63
+      16,
+      19,
+      65
     ],
-    "confidence": 82,
+    "confidence": 83,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 科特迪瓦 方向，最可能比分为 0-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -31351,10 +32056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 6,
+        "awayScore": 84,
+        "contribution": -2.34,
+        "evidence": "Onside 公开模型：主6% / 平10% / 客84%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -31563,6 +32268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        6,
+        10,
+        84
+      ],
+      "modelFavorite": "科特迪瓦",
+      "note": "Onside 公开模型：主6% / 平10% / 客84%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前0分、净胜球-6；科特迪瓦当前3分、净胜球1。",
@@ -31790,16 +32508,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
       "awayName": "Germany"
     },
     "probabilities": [
-      38,
-      19,
-      43
+      36,
+      20,
+      44
     ],
     "confidence": 70,
     "tag": "稳健",
@@ -31938,10 +32656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 23,
+        "awayScore": 52,
+        "contribution": -0.87,
+        "evidence": "Onside 公开模型：主23% / 平25% / 客52%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -32150,6 +32868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        23,
+        25,
+        52
+      ],
+      "modelFavorite": "德国",
+      "note": "Onside 公开模型：主23% / 平25% / 客52%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；德国当前3分、净胜球6。",
@@ -32377,7 +33108,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -32385,8 +33116,8 @@ window.MATCHES = [
     },
     "probabilities": [
       52,
-      19,
-      29
+      20,
+      28
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -32525,10 +33256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 53,
+        "awayScore": 23,
+        "contribution": 0.9,
+        "evidence": "Onside 公开模型：主53% / 平24% / 客23%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -32737,6 +33468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        53,
+        24,
+        23
+      ],
+      "modelFavorite": "日本",
+      "note": "Onside 公开模型：主53% / 平24% / 客23%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -32964,18 +33708,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
       "awayName": "Netherlands"
     },
     "probabilities": [
-      25,
-      20,
-      55
+      23,
+      19,
+      58
     ],
-    "confidence": 77,
+    "confidence": 78,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 荷兰 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -33112,10 +33856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 7,
+        "awayScore": 81,
+        "contribution": -2.22,
+        "evidence": "Onside 公开模型：主7% / 平12% / 客81%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -33324,6 +34068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        7,
+        12,
+        81
+      ],
+      "modelFavorite": "荷兰",
+      "note": "Onside 公开模型：主7% / 平12% / 客81%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；荷兰当前1分、净胜球0。",
@@ -33551,19 +34308,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
       "awayName": "USA"
     },
     "probabilities": [
-      43,
-      20,
-      37
+      41,
+      21,
+      38
     ],
-    "confidence": 70,
-    "tag": "稳健",
+    "confidence": 69,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 土耳其 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -33699,10 +34456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
+        "homeScore": 25,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "contribution": -0.75,
+        "evidence": "Onside 公开模型：主25% / 平25% / 客50%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -33911,6 +34668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        25,
+        25,
+        50
+      ],
+      "modelFavorite": "美国",
+      "note": "Onside 公开模型：主25% / 平25% / 客50%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-2；美国当前3分、净胜球3。",
@@ -34138,18 +34908,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
       "awayName": "Australia"
     },
     "probabilities": [
-      46,
-      21,
-      33
+      44,
+      22,
+      34
     ],
-    "confidence": 71,
+    "confidence": 70,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 巴拉圭 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -34286,10 +35056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 28,
+        "awayScore": 46,
+        "contribution": -0.54,
+        "evidence": "Onside 公开模型：主28% / 平26% / 客46%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -34498,6 +35268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        28,
+        26,
+        46
+      ],
+      "modelFavorite": "澳大利亚",
+      "note": "Onside 公开模型：主28% / 平26% / 客46%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前0分、净胜球-3；澳大利亚当前3分、净胜球2。",
@@ -34725,18 +35508,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
       "awayName": "France"
     },
     "probabilities": [
-      25,
+      24,
       17,
-      58
+      59
     ],
-    "confidence": 78,
+    "confidence": 79,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 1-2。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -34873,10 +35656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 13,
+        "awayScore": 69,
+        "contribution": -1.68,
+        "evidence": "Onside 公开模型：主13% / 平18% / 客69%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -35085,6 +35868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        13,
+        18,
+        69
+      ],
+      "modelFavorite": "法国",
+      "note": "Onside 公开模型：主13% / 平18% / 客69%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -35312,18 +36108,18 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
       "awayName": "Iraq"
     },
     "probabilities": [
-      55,
-      20,
-      25
+      58,
+      19,
+      23
     ],
-    "confidence": 77,
+    "confidence": 78,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 塞内加尔 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
@@ -35460,10 +36256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 82,
+        "awayScore": 7,
+        "contribution": 2.25,
+        "evidence": "Onside 公开模型：主82% / 平11% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -35672,6 +36468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        82,
+        11,
+        7
+      ],
+      "modelFavorite": "塞内加尔",
+      "note": "Onside 公开模型：主82% / 平11% / 客7%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -35899,19 +36708,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
       "awayName": "Saudi Arabia"
     },
     "probabilities": [
-      38,
+      37,
       26,
-      36
+      37
     ],
-    "confidence": 70,
-    "tag": "稳健",
+    "confidence": 69,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 佛得角 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -36047,10 +36856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 29,
+        "awayScore": 44,
+        "contribution": -0.45,
+        "evidence": "Onside 公开模型：主29% / 平27% / 客44%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -36259,6 +37068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        29,
+        27,
+        44
+      ],
+      "modelFavorite": "沙特阿拉伯",
+      "note": "Onside 公开模型：主29% / 平27% / 客44%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -36486,7 +37308,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -36634,10 +37456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 22,
+        "awayScore": 54,
+        "contribution": -0.96,
+        "evidence": "Onside 公开模型：主22% / 平24% / 客54%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -36846,6 +37668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        22,
+        24,
+        54
+      ],
+      "modelFavorite": "西班牙",
+      "note": "Onside 公开模型：主22% / 平24% / 客54%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -37073,15 +37908,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
       "awayName": "Iran"
     },
     "probabilities": [
-      39,
-      21,
+      38,
+      22,
       40
     ],
     "confidence": 69,
@@ -37221,10 +38056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 31,
+        "awayScore": 43,
+        "contribution": -0.36,
+        "evidence": "Onside 公开模型：主31% / 平26% / 客43%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -37433,6 +38268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        31,
+        26,
+        43
+      ],
+      "modelFavorite": "伊朗",
+      "note": "Onside 公开模型：主31% / 平26% / 客43%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -37660,16 +38508,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
       "awayName": "Belgium"
     },
     "probabilities": [
-      11,
-      16,
-      73
+      10,
+      15,
+      75
     ],
     "confidence": 85,
     "tag": "高信心",
@@ -37808,10 +38656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 1,
+        "awayScore": 96,
+        "contribution": -2.85,
+        "evidence": "Onside 公开模型：主1% / 平3% / 客96%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -38020,6 +38868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        1,
+        3,
+        96
+      ],
+      "modelFavorite": "比利时",
+      "note": "Onside 公开模型：主1% / 平3% / 客96%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -38247,7 +39108,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -38395,10 +39256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 10,
+        "awayScore": 75,
+        "contribution": -1.95,
+        "evidence": "Onside 公开模型：主10% / 平15% / 客75%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -38607,6 +39468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        10,
+        15,
+        75
+      ],
+      "modelFavorite": "英格兰",
+      "note": "Onside 公开模型：主10% / 平15% / 客75%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -38834,16 +39708,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
       "awayName": "Ghana"
     },
     "probabilities": [
-      70,
-      17,
-      13
+      72,
+      16,
+      12
     ],
     "confidence": 83,
     "tag": "高信心",
@@ -38982,10 +39856,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 92,
+        "awayScore": 3,
+        "contribution": 2.67,
+        "evidence": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -39194,6 +40068,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        92,
+        5,
+        3
+      ],
+      "modelFavorite": "克罗地亚",
+      "note": "Onside 公开模型：主92% / 平5% / 客3%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -39421,15 +40308,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
       "awayName": "Portugal"
     },
     "probabilities": [
-      34,
-      19,
+      33,
+      20,
       47
     ],
     "confidence": 72,
@@ -39569,10 +40456,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 28,
+        "awayScore": 47,
+        "contribution": -0.57,
+        "evidence": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -39781,6 +40668,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        28,
+        25,
+        47
+      ],
+      "modelFavorite": "葡萄牙",
+      "note": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -40008,19 +40908,19 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
       "awayName": "Uzbekistan"
     },
     "probabilities": [
-      34,
+      35,
       23,
-      43
+      42
     ],
-    "confidence": 70,
-    "tag": "稳健",
+    "confidence": 69,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 乌兹别克斯坦 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -40156,10 +41056,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 42,
+        "awayScore": 32,
+        "contribution": 0.3,
+        "evidence": "Onside 公开模型：主42% / 平26% / 客32%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -40368,6 +41268,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        42,
+        26,
+        32
+      ],
+      "modelFavorite": "刚果（金）",
+      "note": "Onside 公开模型：主42% / 平26% / 客32%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -40595,20 +41508,20 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
       "awayName": "Austria"
     },
     "probabilities": [
-      40,
-      20,
-      40
+      38,
+      21,
+      41
     ],
     "confidence": 69,
     "tag": "均衡",
-    "summary": "外部赛程数据已更新。本场模型倾向 阿尔及利亚 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
+    "summary": "外部赛程数据已更新。本场模型倾向 奥地利 方向，最可能比分为 1-1。判断综合了世界排名、联合会强度、攻防综合、近期状态、交锋历史、出线动机、风格碰撞、休息天数、场地因素、外部信号等 10 个因素，加权计算得出。",
     "scoreOdds": [
       {
         "score": "1-1",
@@ -40743,10 +41656,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 28,
+        "awayScore": 47,
+        "contribution": -0.57,
+        "evidence": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -40955,6 +41868,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        28,
+        25,
+        47
+      ],
+      "modelFavorite": "奥地利",
+      "note": "Onside 公开模型：主28% / 平25% / 客47%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -41182,16 +42108,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
       "awayName": "Argentina"
     },
     "probabilities": [
-      10,
-      13,
-      77
+      9,
+      12,
+      79
     ],
     "confidence": 88,
     "tag": "高信心",
@@ -41330,10 +42256,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "homeScore": 3,
+        "awayScore": 92,
+        "contribution": -2.67,
+        "evidence": "Onside 公开模型：主3% / 平5% / 客92%（基于排名、英超阵容、主场和联合会因素）。"
       }
     ],
     "modelInputs": {
@@ -41542,6 +42468,19 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "connected",
+      "provider": "onsidearena.com",
+      "weight": 0.1,
+      "model": "logistic-opponent-rating (FIFA rank + PL squad + host + confed)",
+      "impliedProbabilities": [
+        3,
+        5,
+        92
+      ],
+      "modelFavorite": "阿根廷",
+      "note": "Onside 公开模型：主3% / 平5% / 客92%（基于排名、英超阵容、主场和联合会因素）。"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -41769,7 +42708,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -41906,7 +42845,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -42103,6 +43042,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -42330,7 +43275,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -42467,7 +43412,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -42664,6 +43609,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -42891,7 +43842,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -43028,7 +43979,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -43225,6 +44176,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -43452,7 +44409,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -43589,7 +44546,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -43786,6 +44743,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -44013,7 +44976,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -44150,7 +45113,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -44347,6 +45310,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -44574,7 +45543,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -44711,7 +45680,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -44908,6 +45877,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -45135,7 +46110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -45272,7 +46247,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -45469,6 +46444,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -45696,7 +46677,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -45833,7 +46814,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -46030,6 +47011,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -46257,7 +47244,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -46394,7 +47381,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -46591,6 +47578,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -46818,7 +47811,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -46955,7 +47948,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -47152,6 +48145,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -47379,7 +48378,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -47516,7 +48515,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -47713,6 +48712,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -47940,7 +48945,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -48077,7 +49082,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -48274,6 +49279,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -48501,7 +49512,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -48638,7 +49649,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -48835,6 +49846,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -49062,7 +50079,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -49199,7 +50216,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -49396,6 +50413,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -49623,7 +50646,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -49760,7 +50783,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -49957,6 +50980,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -50184,7 +51213,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -50321,7 +51350,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -50518,6 +51547,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -50745,7 +51780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -50882,7 +51917,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -51079,6 +52114,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -51306,7 +52347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -51443,7 +52484,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -51640,6 +52681,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -51867,7 +52914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -52004,7 +53051,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -52201,6 +53248,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -52428,7 +53481,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -52565,7 +53618,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -52762,6 +53815,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -52989,7 +54048,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -53126,7 +54185,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -53323,6 +54382,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -53550,7 +54615,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -53687,7 +54752,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -53884,6 +54949,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -54111,7 +55182,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -54248,7 +55319,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -54445,6 +55516,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -54672,7 +55749,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -54809,7 +55886,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -55006,6 +56083,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -55233,7 +56316,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -55370,7 +56453,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -55567,6 +56650,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -55794,7 +56883,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -55931,7 +57020,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -56128,6 +57217,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -56355,7 +57450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -56492,7 +57587,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -56689,6 +57784,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -56916,7 +58017,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -57053,7 +58154,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -57250,6 +58351,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -57477,7 +58584,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -57614,7 +58721,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -57811,6 +58918,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58038,7 +59151,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -58175,7 +59288,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -58372,6 +59485,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58599,7 +59718,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -58736,7 +59855,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -58933,6 +60052,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -59160,7 +60285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T12:46:21.691Z",
+      "fetchedAt": "2026-06-19T13:09:51.783Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -59297,7 +60422,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率接口已接入但未配置 API Key，当前无真实赔率。"
+        "evidence": "赔率接口未配置 API Key，Onside 模型数据暂不可用。外部信号保持中性。"
       }
     ],
     "modelInputs": {
@@ -59494,6 +60619,12 @@ window.MATCHES = [
       "provider": "public-rss",
       "weight": 0,
       "note": "专业球评源暂无可匹配文章。"
+    },
+    "onsideSignals": {
+      "status": "no-match",
+      "provider": "onsidearena.com",
+      "weight": 0,
+      "note": "本场不在 Onside 模型覆盖范围（可能为淘汰赛阶段）。"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
