@@ -200,35 +200,47 @@ function buildTeamData(matches, targetCodes) {
     }
   }
 
-  // Compute stats
+  // Compute stats with opponent strength adjustment
   for (const [code, team] of byCode) {
-    let totalGf = 0, totalGa = 0, totalPlayed = 0;
-    for (const m of team.matches.slice(0, 10)) {
-      totalPlayed += 1;
+    let totalWgf = 0, totalWga = 0, totalWeight = 0;
+    const recent = team.matches.slice(0, 10);
+    for (const m of recent) {
       const gf = m.side === "home" ? m.homeScore : m.awayScore;
       const ga = m.side === "home" ? m.awayScore : m.homeScore;
-      totalGf += gf;
-      totalGa += ga;
+      const oppCode = m.side === "home" ? resolveCode(m.awayTeam) : resolveCode(m.homeTeam);
+      const oppRank = oppCode ? (FIFA_RANKINGS[oppCode] || 100) : 100;
+      // Opponent strength: 0-1, higher = stronger opponent
+      const strength = Math.max(0.1, (200 - oppRank) / 200);
+      // Attack weight: goals against strong teams count more
+      const attWeight = 0.4 + 0.6 * strength;
+      // Defense weight: conceding to weak teams is penalized
+      const defWeight = 1.6 - 0.6 * strength;
+      totalWgf += gf * attWeight;
+      totalWga += ga * defWeight;
+      totalWeight += 1;
+
+      // Raw stats (unweighted, for W/D/L records)
       if (gf > ga) { team.wins += 1; if (gf - ga >= 2) team.bigWins += 1; }
       else if (gf < ga) { team.losses += 1; if (ga - gf >= 2) team.heavyLosses += 1; }
       else team.draws += 1;
       if (ga === 0) team.cleanSheets += 1;
       if (gf === 0) team.failedToScore += 1;
     }
-    team.played = Math.min(10, team.matches.length);
-    team.goalsFor = totalGf;
-    team.goalsAgainst = totalGa;
-    team.avgGoalsFor = team.played ? +(totalGf / team.played).toFixed(2) : 0;
-    team.avgGoalsAgainst = team.played ? +(totalGa / team.played).toFixed(2) : 0;
+    team.played = Math.min(10, recent.length);
+    team.goalsFor = Math.round(totalWgf);
+    team.goalsAgainst = Math.round(totalWga);
+    // Opponent-adjusted averages
+    team.avgGoalsFor = team.played ? +(totalWgf / team.played).toFixed(2) : 0;
+    team.avgGoalsAgainst = team.played ? +(totalWga / team.played).toFixed(2) : 0;
     team.winRate = team.played ? +(team.wins / team.played * 100).toFixed(0) : 0;
 
     // Derive metrics (normalize to 50-95 range)
-    // Attack: based on goals scored per match (typical range 0.3–3.5 → map to 50-95)
+    // Attack: weighted goals per match (typical range 0.3–3.5 → map to 50-95)
     team.attack = Math.round(50 + Math.min(team.avgGoalsFor / 3.5 * 45, 45));
-    // Defense: based on goals conceded per match (lower is better)
-    team.defense = Math.round(95 - Math.min(team.avgGoalsAgainst / 3.5 * 45, 45));
-    // Midfield: weighted combo of win rate and goal diff
-    const gdPerGame = team.played ? (totalGf - totalGa) / team.played : 0;
+    // Defense: weighted goals conceded per match (lower is better)
+    team.defense = Math.round(95 - Math.min(team.avgGoalsAgainst / 4.0 * 45, 45));
+    // Midfield: weighted combo of goal diff and win rate
+    const gdPerGame = team.played ? (totalWgf - totalWga) / team.played : 0;
     team.midfield = Math.round(50 + Math.max(-25, Math.min(gdPerGame * 8, 25)) + (team.winRate - 30) * 0.15);
     // Form score: win rate normalized
     team.formScore = Math.round(50 + (team.winRate - 30) * 0.8);
