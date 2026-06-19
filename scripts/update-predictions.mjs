@@ -1275,7 +1275,7 @@ function oddsForMatch(match, oddsContext) {
   return {
     status: "connected",
     provider: oddsContext.provider,
-    weight: 0.16,
+    weight: 0.28,
     eventId: event.id,
     commenceTime: event.commence_time,
     bookmakers: event.bookmakers?.length || 0,
@@ -1515,36 +1515,36 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
   const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
 
-  // ── Factor 1: World Ranking (28%) ──
+  // ── Factor 1: World Ranking (27%) ──
   const homeRankScore = clamp(100 - homeRank, 0, 100);
   const awayRankScore = clamp(100 - awayRank, 0, 100);
   const f1 = {
-    name: "世界排名", weight: 28,
+    name: "世界排名", weight: 27,
     homeScore: homeRankScore, awayScore: awayRankScore,
-    contribution: (homeRankScore - awayRankScore) * 0.28,
+    contribution: (homeRankScore - awayRankScore) * 0.27,
     evidence: `${match.home.name} 世界第${homeRank}，${match.away.name} 世界第${awayRank}。排名差 ${Math.abs(homeRank - awayRank)} 位。`
   };
 
   // ── Factor 2: Confederation Strength (2%) ──
   const f2 = confedFactor(match.home.confed, match.away.confed);
 
-  // ── Factor 3: Attack-Defense Composite (26%) ──
+  // ── Factor 3: Attack-Defense Composite (25%) ──
   const homeComposite = Math.round((homeAttack + homeDefense + homeMidfield) / 3);
   const awayComposite = Math.round((awayAttack + awayDefense + awayMidfield) / 3);
   const f3 = {
-    name: "攻防综合", weight: 26,
+    name: "攻防综合", weight: 25,
     homeScore: homeComposite, awayScore: awayComposite,
-    contribution: (homeComposite - awayComposite) * 0.26,
+    contribution: (homeComposite - awayComposite) * 0.25,
     evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
   };
 
-  // ── Factor 4: Recent Form (24%) ──
+  // ── Factor 4: Recent Form (23%) ──
   const homeFormScore = Math.round(homeForm / 15 * 100);
   const awayFormScore = Math.round(awayForm / 15 * 100);
   const f4 = {
-    name: "近期状态", weight: 24,
+    name: "近期状态", weight: 23,
     homeScore: homeFormScore, awayScore: awayFormScore,
-    contribution: (homeFormScore - awayFormScore) * 0.24,
+    contribution: (homeFormScore - awayFormScore) * 0.23,
     evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
   };
 
@@ -1625,8 +1625,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const expertSignals = expertForMatch(match, signalContext.experts);
   const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
 
-  // ── Factor 10: External Signals (2%) ──
-  // Priority: odds > expert articles
+  // ── Factor 10: External Signals (5%) ──
+  // Priority: odds > expert articles. Odds blend 28% into final probabilities
   let extHomeScore = 50, extAwayScore = 50;
   let extEvidence = "暂无可用赔率或专业球评信号。";
   let extBlendWeight = 0;
@@ -1635,7 +1635,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     extHomeScore = marketSignals.impliedProbabilities[0];
     extAwayScore = marketSignals.impliedProbabilities[2];
     extBlendWeight = marketSignals.weight;
-    extEvidence = `赔率市场：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%。${marketSignals.bookmakers || 0} 家公司均值，倾向${marketSignals.marketFavorite || "不明"}。`;
+    extEvidence = `赔率市场：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%。${marketSignals.bookmakers || 0} 家公司均值（融合28%权重），倾向${marketSignals.marketFavorite || "不明"}。`;
   } else if (expertSignals.status === "connected") {
     extHomeScore = 52; extAwayScore = 48;
     extEvidence = expertSignals.note;
@@ -1665,9 +1665,9 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   };
 
   const f10 = {
-    name: "外部信号", weight: 2,
+    name: "外部信号", weight: 5,
     homeScore: extHomeScore, awayScore: extAwayScore,
-    contribution: (extHomeScore - extAwayScore) * 0.02,
+    contribution: (extHomeScore - extAwayScore) * 0.05,
     evidence: extEvidence
   };
   factors.push(f10);
