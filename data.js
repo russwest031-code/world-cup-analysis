@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-19T16:04:34.506Z",
+  "updatedAt": "2026-06-19T16:17:25.717Z",
   "runDate": "2026-06-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-19T16:04:34.506Z",
+  "externalFetchedAt": "2026-06-19T16:17:25.717Z",
   "externalMatchCount": 104,
   "model": "ten-factor-weighted-poisson-v2",
   "rulesModel": "wc2026-group-qualification-v1",
@@ -19,7 +19,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 44,
   "expertProvider": "public-rss",
-  "expertArticleCount": 63,
+  "expertArticleCount": 44,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 43,
   "liveTeamNewsProvider": "API-Football",
@@ -29,7 +29,7 @@ window.ANALYSIS_META = {
 };
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-19T16:04:34.506Z",
+  "updatedAt": "2026-06-19T16:17:25.717Z",
   "completedCount": 28,
   "outcomeHitRate": 54,
   "highConfidenceCount": 10,
@@ -526,9 +526,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -542,9 +542,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -558,9 +558,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -574,9 +574,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -590,9 +590,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-05-22",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -636,9 +636,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -652,9 +652,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -668,9 +668,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -684,9 +684,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -700,9 +700,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -753,7 +753,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -920,7 +920,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -963,9 +963,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -979,9 +979,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -995,9 +995,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -1011,9 +1011,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -1027,9 +1027,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-05-22",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -1045,9 +1045,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -1061,9 +1061,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -1077,9 +1077,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -1093,9 +1093,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -1109,9 +1109,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -1156,7 +1156,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
@@ -1169,27 +1169,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/19/happy-hosts-as-canada-claim-first-win-and-mexico-seal-knockout-spot-world-cup-daily",
           "pubDate": "Fri, 19 Jun 2026 07:38:35 GMT"
-        },
-        {
-          "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Aguirre relishes Azteca return after Group A win",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1220,7 +1208,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1261,9 +1249,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -1277,9 +1265,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -1293,9 +1281,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -1309,9 +1297,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Trinidad and Tobago",
+          "opponent": "TRI",
           "opponentCode": "TRI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -1325,9 +1313,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -1371,9 +1359,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -1387,9 +1375,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -1403,9 +1391,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -1419,9 +1407,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -1435,9 +1423,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -1488,7 +1476,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1655,7 +1643,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -1698,9 +1686,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -1714,9 +1702,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -1730,9 +1718,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -1746,9 +1734,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Trinidad and Tobago",
+            "opponent": "TRI",
             "opponentCode": "TRI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -1762,9 +1750,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -1780,9 +1768,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -1796,9 +1784,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -1812,9 +1800,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -1828,9 +1816,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -1844,9 +1832,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -1891,28 +1879,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.com/sport/football/videos/ce8kd23y37lo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Thu, 18 Jun 2026 18:49:27 GMT"
-        },
-        {
-          "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Aguirre relishes Azteca return after Group A win",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -1940,7 +1916,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1981,9 +1957,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "6-0",
           "goalsFor": 6,
@@ -1997,9 +1973,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -2013,9 +1989,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -2029,9 +2005,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-06-01",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -2045,9 +2021,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -2091,9 +2067,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -2107,9 +2083,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -2123,9 +2099,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -2139,9 +2115,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -2155,9 +2131,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Italy",
+          "opponent": "意大利",
           "opponentCode": "ITA",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -2208,7 +2184,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2418,9 +2394,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "6-0",
             "goalsFor": 6,
@@ -2434,9 +2410,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -2450,9 +2426,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -2466,9 +2442,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-06-01",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -2482,9 +2458,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -2500,9 +2476,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -2516,9 +2492,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -2532,9 +2508,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -2548,9 +2524,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -2564,9 +2540,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Italy",
+            "opponent": "意大利",
             "opponentCode": "ITA",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -2644,7 +2620,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2682,7 +2658,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2723,9 +2699,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -2739,9 +2715,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -2755,9 +2731,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -2771,9 +2747,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -2787,9 +2763,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-5",
           "goalsFor": 2,
@@ -2833,9 +2809,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -2849,9 +2825,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -2865,9 +2841,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -2881,9 +2857,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -2897,9 +2873,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -2950,7 +2926,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3117,7 +3093,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -3160,9 +3136,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -3176,9 +3152,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -3192,9 +3168,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -3208,9 +3184,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -3224,9 +3200,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-5",
             "goalsFor": 2,
@@ -3242,9 +3218,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -3258,9 +3234,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -3274,9 +3250,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -3290,9 +3266,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -3306,9 +3282,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -3353,7 +3329,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Why Pochettino's fluid USA midfield is thriving",
@@ -3365,16 +3341,10 @@ window.MATCHES = [
           "title": "World Cup 2026: Dias backs Ronaldo to handle flak; Kane’s Wonderwall moment; Pochettino on spies – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-          "pubDate": "Fri, 19 Jun 2026 15:52:03 GMT"
-        },
-        {
-          "title": "Social sensation Payne signs deal with Olimpia",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49112651/new-zealand-social-sensation-payne-signs-deal-olimpia",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
+          "pubDate": "Fri, 19 Jun 2026 16:06:54 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -3402,7 +3372,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3443,9 +3413,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-6",
           "goalsFor": 0,
@@ -3459,9 +3429,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -3475,9 +3445,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -3491,9 +3461,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-28",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -3507,7 +3477,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-12-07",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
           "tournament": "Arab Cup",
           "result": "L",
@@ -3553,9 +3523,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -3569,9 +3539,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -3585,9 +3555,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -3601,9 +3571,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -3617,9 +3587,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -3670,7 +3640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -3880,9 +3850,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-6",
             "goalsFor": 0,
@@ -3896,9 +3866,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -3912,9 +3882,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -3928,9 +3898,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-28",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -3944,7 +3914,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-12-07",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
             "tournament": "Arab Cup",
             "result": "L",
@@ -3962,9 +3932,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -3978,9 +3948,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -3994,9 +3964,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -4010,9 +3980,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -4026,9 +3996,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -4128,7 +4098,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4169,9 +4139,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -4185,9 +4155,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -4201,9 +4171,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "6-2",
           "goalsFor": 6,
@@ -4217,9 +4187,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -4233,9 +4203,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -4279,9 +4249,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -4295,9 +4265,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -4311,9 +4281,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Madagascar",
+          "opponent": "MAD",
           "opponentCode": "MAD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -4327,9 +4297,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-26",
-          "opponent": "Burundi",
+          "opponent": "BDI",
           "opponentCode": "BDI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -4343,9 +4313,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -4396,7 +4366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -4606,9 +4576,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -4622,9 +4592,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -4638,9 +4608,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "6-2",
             "goalsFor": 6,
@@ -4654,9 +4624,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -4670,9 +4640,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -4688,9 +4658,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -4704,9 +4674,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -4720,9 +4690,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Madagascar",
+            "opponent": "MAD",
             "opponentCode": "MAD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -4736,9 +4706,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-26",
-            "opponent": "Burundi",
+            "opponent": "BDI",
             "opponentCode": "BDI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -4752,9 +4722,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -4875,7 +4845,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4916,9 +4886,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -4932,9 +4902,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -4948,9 +4918,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -4964,9 +4934,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -4980,9 +4950,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -5026,9 +4996,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -5042,9 +5012,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -5058,9 +5028,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -5074,9 +5044,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -5090,9 +5060,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -5143,7 +5113,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -5353,9 +5323,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -5369,9 +5339,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -5385,9 +5355,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -5401,9 +5371,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -5417,9 +5387,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -5435,9 +5405,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -5451,9 +5421,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -5467,9 +5437,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -5483,9 +5453,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -5499,9 +5469,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -5601,7 +5571,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5642,9 +5612,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Turkey",
+          "opponent": "土耳其",
           "opponentCode": "TUR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -5658,9 +5628,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -5674,9 +5644,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -5690,7 +5660,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
           "tournament": "FIFA Series",
           "result": "W",
@@ -5706,7 +5676,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Cameroon",
+          "opponent": "喀麦隆",
           "opponentCode": "CMR",
           "tournament": "FIFA Series",
           "result": "W",
@@ -5752,9 +5722,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -5768,9 +5738,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -5784,9 +5754,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -5800,9 +5770,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -5816,9 +5786,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Romania",
+          "opponent": "罗马尼亚",
           "opponentCode": "ROU",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -5869,7 +5839,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -6079,9 +6049,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Turkey",
+            "opponent": "土耳其",
             "opponentCode": "TUR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -6095,9 +6065,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -6111,9 +6081,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -6127,7 +6097,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
             "tournament": "FIFA Series",
             "result": "W",
@@ -6143,7 +6113,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Cameroon",
+            "opponent": "喀麦隆",
             "opponentCode": "CMR",
             "tournament": "FIFA Series",
             "result": "W",
@@ -6161,9 +6131,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -6177,9 +6147,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -6193,9 +6163,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -6209,9 +6179,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -6225,9 +6195,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Romania",
+            "opponent": "罗马尼亚",
             "opponentCode": "ROU",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -6284,7 +6254,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Dias backs Ronaldo to handle flak; Kane’s Wonderwall moment; Pochettino on spies – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-          "pubDate": "Fri, 19 Jun 2026 15:52:03 GMT"
+          "pubDate": "Fri, 19 Jun 2026 16:06:54 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -6305,7 +6275,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -6349,7 +6319,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6390,9 +6360,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "7-1",
           "goalsFor": 7,
@@ -6406,9 +6376,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -6422,9 +6392,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -6438,9 +6408,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -6454,9 +6424,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-3",
           "goalsFor": 4,
@@ -6500,9 +6470,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-7",
           "goalsFor": 1,
@@ -6516,9 +6486,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Aruba",
+          "opponent": "ARU",
           "opponentCode": "ARU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -6532,9 +6502,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -6548,7 +6518,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
           "tournament": "FIFA Series",
           "result": "L",
@@ -6564,7 +6534,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "China",
+          "opponent": "中国",
           "opponentCode": "CHN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -6617,7 +6587,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -6827,9 +6797,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "7-1",
             "goalsFor": 7,
@@ -6843,9 +6813,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -6859,9 +6829,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -6875,9 +6845,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -6891,9 +6861,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-3",
             "goalsFor": 4,
@@ -6909,9 +6879,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-7",
             "goalsFor": 1,
@@ -6925,9 +6895,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Aruba",
+            "opponent": "ARU",
             "opponentCode": "ARU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -6941,9 +6911,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -6957,7 +6927,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
             "tournament": "FIFA Series",
             "result": "L",
@@ -6973,7 +6943,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "China",
+            "opponent": "中国",
             "opponentCode": "CHN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -7035,7 +7005,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -7066,7 +7036,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7107,9 +7077,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -7123,9 +7093,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -7139,9 +7109,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -7155,9 +7125,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -7171,9 +7141,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -7217,9 +7187,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -7233,9 +7203,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-05-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -7249,9 +7219,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -7265,9 +7235,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -7281,7 +7251,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
           "tournament": "Kirin Cup",
           "result": "W",
@@ -7334,7 +7304,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -7544,9 +7514,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -7560,9 +7530,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -7576,9 +7546,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -7592,9 +7562,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -7608,9 +7578,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -7626,9 +7596,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -7642,9 +7612,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-05-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -7658,9 +7628,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -7674,9 +7644,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -7690,7 +7660,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
             "tournament": "Kirin Cup",
             "result": "W",
@@ -7774,7 +7744,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7815,9 +7785,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -7831,9 +7801,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -7847,9 +7817,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -7863,9 +7833,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -7879,7 +7849,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-01-10",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
           "tournament": "African Cup of Nations",
           "result": "L",
@@ -7925,9 +7895,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -7941,9 +7911,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -7957,9 +7927,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -7973,9 +7943,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -7989,9 +7959,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -8042,7 +8012,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -8252,9 +8222,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -8268,9 +8238,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -8284,9 +8254,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -8300,9 +8270,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -8316,7 +8286,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-01-10",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
             "tournament": "African Cup of Nations",
             "result": "L",
@@ -8334,9 +8304,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -8350,9 +8320,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -8366,9 +8336,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -8382,9 +8352,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -8398,9 +8368,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -8451,7 +8421,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -8482,7 +8452,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8523,9 +8493,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -8539,9 +8509,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -8555,9 +8525,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -8571,9 +8541,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Poland",
+          "opponent": "波兰",
           "opponentCode": "POL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -8587,9 +8557,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Ukraine",
+          "opponent": "乌克兰",
           "opponentCode": "UKR",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -8633,9 +8603,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -8649,9 +8619,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-5",
           "goalsFor": 0,
@@ -8665,9 +8635,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -8681,9 +8651,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -8697,9 +8667,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -8750,7 +8720,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -8960,9 +8930,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -8976,9 +8946,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -8992,9 +8962,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -9008,9 +8978,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Poland",
+            "opponent": "波兰",
             "opponentCode": "POL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -9024,9 +8994,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Ukraine",
+            "opponent": "乌克兰",
             "opponentCode": "UKR",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -9042,9 +9012,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -9058,9 +9028,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-5",
             "goalsFor": 0,
@@ -9074,9 +9044,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -9090,9 +9060,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -9106,9 +9076,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -9190,7 +9160,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9231,9 +9201,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Cape Verde",
+          "opponent": "佛得角",
           "opponentCode": "CPV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -9247,9 +9217,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -9263,9 +9233,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -9279,9 +9249,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -9295,9 +9265,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -9341,9 +9311,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -9357,9 +9327,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -9373,9 +9343,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -9389,7 +9359,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -9405,7 +9375,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "L",
@@ -9458,7 +9428,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -9668,9 +9638,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Cape Verde",
+            "opponent": "佛得角",
             "opponentCode": "CPV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -9684,9 +9654,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -9700,9 +9670,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -9716,9 +9686,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -9732,9 +9702,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -9750,9 +9720,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -9766,9 +9736,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -9782,9 +9752,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -9798,7 +9768,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -9814,7 +9784,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "L",
@@ -9882,7 +9852,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -9934,7 +9904,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9975,9 +9945,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -9991,9 +9961,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -10007,9 +9977,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -10023,9 +9993,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -10039,9 +10009,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-2",
           "goalsFor": 5,
@@ -10085,9 +10055,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -10101,9 +10071,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -10117,9 +10087,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-28",
-          "opponent": "Russia",
+          "opponent": "俄罗斯",
           "opponentCode": "RUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -10133,9 +10103,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -10149,9 +10119,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -10202,7 +10172,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -10412,9 +10382,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -10428,9 +10398,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -10444,9 +10414,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -10460,9 +10430,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -10476,9 +10446,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-2",
             "goalsFor": 5,
@@ -10494,9 +10464,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -10510,9 +10480,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -10526,9 +10496,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-28",
-            "opponent": "Russia",
+            "opponent": "俄罗斯",
             "opponentCode": "RUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -10542,9 +10512,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -10558,9 +10528,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -10611,7 +10581,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -10642,7 +10612,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10683,9 +10653,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -10699,9 +10669,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -10715,9 +10685,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Puerto Rico",
+          "opponent": "PUE",
           "opponentCode": "PUE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -10731,9 +10701,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -10747,9 +10717,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -10793,9 +10763,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -10809,9 +10779,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-03-31",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -10825,9 +10795,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-27",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -10841,9 +10811,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2025-11-18",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -10857,9 +10827,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-15",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -10910,7 +10880,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -11120,9 +11090,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -11136,9 +11106,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -11152,9 +11122,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Puerto Rico",
+            "opponent": "PUE",
             "opponentCode": "PUE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -11168,9 +11138,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -11184,9 +11154,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -11202,9 +11172,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -11218,9 +11188,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-03-31",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -11234,9 +11204,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-27",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -11250,9 +11220,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2025-11-18",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -11266,9 +11236,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-15",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -11341,7 +11311,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11382,9 +11352,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -11398,9 +11368,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Mali",
+          "opponent": "马里",
           "opponentCode": "MLI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -11414,9 +11384,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-29",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -11430,9 +11400,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -11446,9 +11416,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -11492,9 +11462,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Iran",
+          "opponent": "伊朗",
           "opponentCode": "IRN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -11508,9 +11478,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -11524,9 +11494,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-4",
           "goalsFor": 0,
@@ -11540,7 +11510,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "W",
@@ -11556,7 +11526,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -11609,7 +11579,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -11776,7 +11746,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -11819,9 +11789,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -11835,9 +11805,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Mali",
+            "opponent": "马里",
             "opponentCode": "MLI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -11851,9 +11821,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-29",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -11867,9 +11837,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -11883,9 +11853,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -11901,9 +11871,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Iran",
+            "opponent": "伊朗",
             "opponentCode": "IRN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -11917,9 +11887,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -11933,9 +11903,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-4",
             "goalsFor": 0,
@@ -11949,7 +11919,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "W",
@@ -11965,7 +11935,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -12012,22 +11982,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Iran to lodge complaint over travel restrictions",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.com/sport/football/articles/c4gy62p4e67o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 19 Jun 2026 07:50:32 GMT"
-        },
-        {
-          "title": "Social sensation Payne signs deal with Olimpia",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49112651/new-zealand-social-sensation-payne-signs-deal-olimpia",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -12055,7 +12019,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12096,9 +12060,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -12112,9 +12076,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Northern Ireland",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -12128,9 +12092,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -12144,9 +12108,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -12160,9 +12124,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -12206,9 +12170,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -12222,9 +12186,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -12238,9 +12202,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-3",
           "goalsFor": 2,
@@ -12254,9 +12218,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -12270,9 +12234,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -12323,7 +12287,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -12533,9 +12497,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -12549,9 +12513,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Northern Ireland",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -12565,9 +12529,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -12581,9 +12545,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -12597,9 +12561,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -12615,9 +12579,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -12631,9 +12595,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -12647,9 +12611,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-3",
             "goalsFor": 2,
@@ -12663,9 +12627,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -12679,9 +12643,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -12769,7 +12733,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12810,9 +12774,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -12826,9 +12790,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -12842,9 +12806,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -12858,9 +12822,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Andorra",
+          "opponent": "安道尔",
           "opponentCode": "AND",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -12874,9 +12838,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -12920,9 +12884,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -12936,9 +12900,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -12952,9 +12916,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -12968,9 +12932,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -12984,9 +12948,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -13037,7 +13001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -13247,9 +13211,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -13263,9 +13227,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -13279,9 +13243,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -13295,9 +13259,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Andorra",
+            "opponent": "安道尔",
             "opponentCode": "AND",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -13311,9 +13275,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -13329,9 +13293,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -13345,9 +13309,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -13361,9 +13325,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -13377,9 +13341,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -13393,9 +13357,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -13477,7 +13441,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13518,9 +13482,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -13534,9 +13498,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -13550,9 +13514,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Honduras",
+          "opponent": "洪都拉斯",
           "opponentCode": "HON",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -13566,9 +13530,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Zambia",
+          "opponent": "ZAM",
           "opponentCode": "ZAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -13582,9 +13546,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Mauritania",
+          "opponent": "MTN",
           "opponentCode": "MTN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -13628,9 +13592,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Argentina",
+          "opponent": "阿根廷",
           "opponentCode": "ARG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -13644,9 +13608,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -13660,9 +13624,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -13676,9 +13640,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -13692,9 +13656,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "7-0",
           "goalsFor": 7,
@@ -13745,7 +13709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -13955,9 +13919,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -13971,9 +13935,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -13987,9 +13951,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Honduras",
+            "opponent": "洪都拉斯",
             "opponentCode": "HON",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -14003,9 +13967,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Zambia",
+            "opponent": "ZAM",
             "opponentCode": "ZAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -14019,9 +13983,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Mauritania",
+            "opponent": "MTN",
             "opponentCode": "MTN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -14037,9 +14001,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Argentina",
+            "opponent": "阿根廷",
             "opponentCode": "ARG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -14053,9 +14017,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -14069,9 +14033,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -14085,9 +14049,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -14101,9 +14065,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "7-0",
             "goalsFor": 7,
@@ -14163,7 +14127,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -14194,7 +14158,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14235,9 +14199,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -14251,9 +14215,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-01",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -14267,9 +14231,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -14283,9 +14247,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -14299,9 +14263,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -14345,9 +14309,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -14361,9 +14325,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -14377,9 +14341,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -14393,9 +14357,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -14409,9 +14373,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -14462,7 +14426,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -14672,9 +14636,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -14688,9 +14652,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-01",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -14704,9 +14668,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -14720,9 +14684,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -14736,9 +14700,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -14754,9 +14718,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -14770,9 +14734,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -14786,9 +14750,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -14802,9 +14766,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -14818,9 +14782,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -14914,7 +14878,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14955,9 +14919,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "DR Congo",
+          "opponent": "刚果(金)",
           "opponentCode": "COD",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -14971,9 +14935,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -14987,9 +14951,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -15003,9 +14967,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -15019,9 +14983,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -15065,9 +15029,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -15081,9 +15045,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -15097,9 +15061,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -15113,9 +15077,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -15129,9 +15093,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-25",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -15182,7 +15146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -15349,7 +15313,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15392,9 +15356,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "DR Congo",
+            "opponent": "刚果(金)",
             "opponentCode": "COD",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -15408,9 +15372,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -15424,9 +15388,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -15440,9 +15404,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -15456,9 +15420,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -15474,9 +15438,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -15490,9 +15454,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -15506,9 +15470,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -15522,9 +15486,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -15538,9 +15502,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-25",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -15585,28 +15549,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
-        },
-        {
-          "title": "Portugal have a Ronaldo problem (again)",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49098603/portugal-cristiano-ronaldo-problem-congo-dr-roberto-martinez-fifa-world-cup-analysis",
-          "pubDate": "Thu, 18 Jun 2026 21:12:03 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -15637,7 +15595,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15678,9 +15636,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -15694,9 +15652,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -15710,9 +15668,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -15726,9 +15684,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -15742,9 +15700,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -15788,9 +15746,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "2-4",
           "goalsFor": 2,
@@ -15804,9 +15762,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Slovenia",
+          "opponent": "斯洛文尼亚",
           "opponentCode": "SVN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -15820,9 +15778,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -15836,9 +15794,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -15852,9 +15810,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -15905,7 +15863,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -16115,9 +16073,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -16131,9 +16089,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -16147,9 +16105,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -16163,9 +16121,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -16179,9 +16137,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -16197,9 +16155,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "2-4",
             "goalsFor": 2,
@@ -16213,9 +16171,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Slovenia",
+            "opponent": "斯洛文尼亚",
             "opponentCode": "SVN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -16229,9 +16187,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -16245,9 +16203,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -16261,9 +16219,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -16361,19 +16319,13 @@ window.MATCHES = [
         },
         "injuries": {
           "status": "news-derived",
-          "text": "从公开新闻源匹配到 2 条伤停/身体状态线索，尚非官方伤停名单。",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
           "articles": [
             {
               "title": "ITV wins World Cup ratings battle with BBC in tournament’s first week",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jun/19/itv-wins-world-cup-ratings-battle-bbc-first-week-england-croatia",
               "pubDate": "Fri, 19 Jun 2026 10:53:56 GMT"
-            },
-            {
-              "title": "Every team's odds to win the World Cup: England's ...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
             }
           ]
         },
@@ -16383,7 +16335,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16424,9 +16376,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -16440,9 +16392,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-02",
-          "opponent": "Wales",
+          "opponent": "威尔士",
           "opponentCode": "WAL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -16456,9 +16408,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-22",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -16472,9 +16424,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -16488,9 +16440,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -16534,9 +16486,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -16550,9 +16502,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -16566,9 +16518,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Dominican Republic",
+          "opponent": "DOM",
           "opponentCode": "DOM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -16582,9 +16534,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-6",
           "goalsFor": 2,
@@ -16598,9 +16550,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -16651,7 +16603,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -16861,9 +16813,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -16877,9 +16829,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-02",
-            "opponent": "Wales",
+            "opponent": "威尔士",
             "opponentCode": "WAL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -16893,9 +16845,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-22",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -16909,9 +16861,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -16925,9 +16877,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -16943,9 +16895,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -16959,9 +16911,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -16975,9 +16927,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Dominican Republic",
+            "opponent": "DOM",
             "opponentCode": "DOM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -16991,9 +16943,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-6",
             "goalsFor": 2,
@@ -17007,9 +16959,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -17069,7 +17021,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -17100,7 +17052,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17141,9 +17093,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -17157,9 +17109,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -17173,9 +17125,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -17189,7 +17141,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -17205,7 +17157,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Gabon",
+          "opponent": "GAB",
           "opponentCode": "GAB",
           "tournament": "FIFA Series",
           "result": "W",
@@ -17251,9 +17203,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -17267,9 +17219,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -17283,9 +17235,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -17299,9 +17251,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -17315,9 +17267,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -17368,7 +17320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -17578,9 +17530,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -17594,9 +17546,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -17610,9 +17562,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -17626,7 +17578,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -17642,7 +17594,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Gabon",
+            "opponent": "GAB",
             "opponentCode": "GAB",
             "tournament": "FIFA Series",
             "result": "W",
@@ -17660,9 +17612,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -17676,9 +17628,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -17692,9 +17644,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -17708,9 +17660,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -17724,9 +17676,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -17777,7 +17729,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -17808,7 +17760,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17849,9 +17801,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -17865,9 +17817,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -17881,9 +17833,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -17897,9 +17849,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -17913,9 +17865,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -17959,9 +17911,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -17975,9 +17927,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -17991,9 +17943,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -18007,9 +17959,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -18023,9 +17975,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -18076,7 +18028,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -18286,9 +18238,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -18302,9 +18254,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -18318,9 +18270,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -18334,9 +18286,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -18350,9 +18302,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -18368,9 +18320,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -18384,9 +18336,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -18400,9 +18352,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -18416,9 +18368,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -18432,9 +18384,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -18494,7 +18446,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.5,
@@ -18525,7 +18477,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18566,9 +18518,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -18582,9 +18534,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -18598,9 +18550,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -18614,9 +18566,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -18630,9 +18582,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -18676,9 +18628,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -18692,9 +18644,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -18708,9 +18660,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -18724,9 +18676,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -18740,9 +18692,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Italy",
+          "opponent": "意大利",
           "opponentCode": "ITA",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -18793,7 +18745,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -19003,9 +18955,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -19019,9 +18971,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19035,9 +18987,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19051,9 +19003,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -19067,9 +19019,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -19085,9 +19037,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -19101,9 +19053,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19117,9 +19069,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19133,9 +19085,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -19149,9 +19101,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Italy",
+            "opponent": "意大利",
             "opponentCode": "ITA",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19239,7 +19191,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19280,9 +19232,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "6-0",
           "goalsFor": 6,
@@ -19296,9 +19248,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -19312,9 +19264,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -19328,9 +19280,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-06-01",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -19344,9 +19296,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -19390,9 +19342,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-6",
           "goalsFor": 0,
@@ -19406,9 +19358,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -19422,9 +19374,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -19438,9 +19390,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-28",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -19454,7 +19406,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-12-07",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
           "tournament": "Arab Cup",
           "result": "L",
@@ -19507,7 +19459,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -19717,9 +19669,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "6-0",
             "goalsFor": 6,
@@ -19733,9 +19685,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19749,9 +19701,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19765,9 +19717,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-06-01",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -19781,9 +19733,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -19799,9 +19751,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-6",
             "goalsFor": 0,
@@ -19815,9 +19767,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -19831,9 +19783,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -19847,9 +19799,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-28",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -19863,7 +19815,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-12-07",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
             "tournament": "Arab Cup",
             "result": "L",
@@ -19943,7 +19895,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 21.9,
@@ -20012,7 +19964,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20053,9 +20005,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -20069,9 +20021,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -20085,9 +20037,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -20101,9 +20053,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -20117,9 +20069,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-05-22",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -20163,9 +20115,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -20179,9 +20131,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -20195,9 +20147,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -20211,9 +20163,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Trinidad and Tobago",
+          "opponent": "TRI",
           "opponentCode": "TRI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -20227,9 +20179,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -20280,7 +20232,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -20447,7 +20399,7 @@ window.MATCHES = [
         "homeScore": 52,
         "awayScore": 48,
         "contribution": 0.12,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -20490,9 +20442,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -20506,9 +20458,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -20522,9 +20474,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -20538,9 +20490,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -20554,9 +20506,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-05-22",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -20572,9 +20524,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -20588,9 +20540,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -20604,9 +20556,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -20620,9 +20572,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Trinidad and Tobago",
+            "opponent": "TRI",
             "opponentCode": "TRI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -20636,9 +20588,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -20683,34 +20635,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Happy hosts as Canada claim first win and Mexico seal knockout spot | World Cup Daily",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/19/happy-hosts-as-canada-claim-first-win-and-mexico-seal-knockout-spot-world-cup-daily",
           "pubDate": "Fri, 19 Jun 2026 07:38:35 GMT"
-        },
-        {
-          "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Aguirre relishes Azteca return after Group A win",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Mexico rejoice after second World Cup win in 2026....",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
-          "pubDate": "Fri, 19 Jun 2026 04:42:08 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -20728,30 +20662,17 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 2 条伤停/身体状态线索，尚非官方伤停名单。",
-          "articles": [
-            {
-              "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-            },
-            {
-              "title": "Aguirre relishes Azteca return after Group A win",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-              "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-            }
-          ]
+          "status": "provider-needed",
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": []
         },
         "tactical": {
           "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20792,9 +20713,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -20808,9 +20729,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -20824,9 +20745,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -20840,9 +20761,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -20856,9 +20777,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-5",
           "goalsFor": 2,
@@ -20902,9 +20823,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Turkey",
+          "opponent": "土耳其",
           "opponentCode": "TUR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -20918,9 +20839,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -20934,9 +20855,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -20950,7 +20871,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
           "tournament": "FIFA Series",
           "result": "W",
@@ -20966,7 +20887,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Cameroon",
+          "opponent": "喀麦隆",
           "opponentCode": "CMR",
           "tournament": "FIFA Series",
           "result": "W",
@@ -21019,7 +20940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -21251,9 +21172,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -21267,9 +21188,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -21283,9 +21204,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -21299,9 +21220,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -21315,9 +21236,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-5",
             "goalsFor": 2,
@@ -21333,9 +21254,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Turkey",
+            "opponent": "土耳其",
             "opponentCode": "TUR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -21349,9 +21270,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -21365,9 +21286,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -21381,7 +21302,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
             "tournament": "FIFA Series",
             "result": "W",
@@ -21397,7 +21318,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Cameroon",
+            "opponent": "喀麦隆",
             "opponentCode": "CMR",
             "tournament": "FIFA Series",
             "result": "W",
@@ -21455,8 +21376,8 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 1.61,
-        "draw": 4.39,
-        "away": 5.05
+        "draw": 4.37,
+        "away": 5.06
       },
       "impliedProbabilities": [
         59,
@@ -21464,7 +21385,7 @@ window.MATCHES = [
         19
       ],
       "marketFavorite": "美国",
-      "note": "已接入赔率市场，48 家公司均值：主 1.61 / 平 4.39 / 客 5.05。市场倾向 美国。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.61 / 平 4.37 / 客 5.06。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -21488,7 +21409,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Dias backs Ronaldo to handle flak; Kane’s Wonderwall moment; Pochettino on spies – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-          "pubDate": "Fri, 19 Jun 2026 15:52:03 GMT"
+          "pubDate": "Fri, 19 Jun 2026 16:06:54 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -21503,7 +21424,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 24.5,
@@ -21547,7 +21468,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。美国当前3分、净胜球3；澳大利亚当前3分、净胜球2。",
@@ -21588,9 +21509,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -21604,9 +21525,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -21620,9 +21541,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -21636,9 +21557,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -21652,9 +21573,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -21698,9 +21619,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -21714,9 +21635,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -21730,9 +21651,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Madagascar",
+          "opponent": "MAD",
           "opponentCode": "MAD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -21746,9 +21667,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-26",
-          "opponent": "Burundi",
+          "opponent": "BDI",
           "opponentCode": "BDI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -21762,9 +21683,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -21815,16 +21736,16 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
       "awayName": "Morocco"
     },
     "probabilities": [
-      32,
+      33,
       23,
-      45
+      44
     ],
     "confidence": 71,
     "tag": "稳健",
@@ -21868,22 +21789,22 @@ window.MATCHES = [
         42
       ],
       "market": [
-        16,
+        17,
         26,
-        58
+        57
       ],
       "blended": [
-        32,
+        33,
         23,
-        45
+        44
       ],
       "blendWeight": 0.16,
       "deltas": [
-        -19,
+        -18,
         3,
-        16
+        15
       ],
-      "summary": "模型原始概率 35/23/42%；市场隐含概率 16/26/58%；按 16% 权重校准后为 32/23/45%。"
+      "summary": "模型原始概率 35/23/42%；市场隐含概率 17/26/57%；按 16% 权重校准后为 33/23/44%。"
     },
     "motivation": {
       "phase": "group",
@@ -22001,10 +21922,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 16,
-        "awayScore": 58,
-        "contribution": -1.26,
-        "evidence": "赔率市场：主16% / 平26% / 客58%。48 家公司均值，倾向摩洛哥。"
+        "homeScore": 17,
+        "awayScore": 57,
+        "contribution": -1.2,
+        "evidence": "赔率市场：主17% / 平26% / 客57%。48 家公司均值，倾向摩洛哥。"
       }
     ],
     "modelInputs": {
@@ -22047,9 +21968,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -22063,9 +21984,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -22079,9 +22000,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -22095,9 +22016,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -22111,9 +22032,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -22129,9 +22050,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -22145,9 +22066,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -22161,9 +22082,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Madagascar",
+            "opponent": "MAD",
             "opponentCode": "MAD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -22177,9 +22098,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-26",
-            "opponent": "Burundi",
+            "opponent": "BDI",
             "opponentCode": "BDI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -22193,9 +22114,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -22250,17 +22171,17 @@ window.MATCHES = [
       "commenceTime": "2026-06-19T22:00:00Z",
       "bookmakers": 48,
       "averageOdds": {
-        "home": 5.87,
-        "draw": 3.64,
+        "home": 5.83,
+        "draw": 3.63,
         "away": 1.66
       },
       "impliedProbabilities": [
-        16,
+        17,
         26,
-        58
+        57
       ],
       "marketFavorite": "摩洛哥",
-      "note": "已接入赔率市场，48 家公司均值：主 5.87 / 平 3.64 / 客 1.66。市场倾向 摩洛哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 5.83 / 平 3.63 / 客 1.66。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -22328,7 +22249,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球1；摩洛哥当前1分、净胜球0。",
@@ -22369,9 +22290,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -22385,9 +22306,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -22401,9 +22322,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "6-2",
           "goalsFor": 6,
@@ -22417,9 +22338,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -22433,9 +22354,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -22479,9 +22400,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -22495,9 +22416,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -22511,9 +22432,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -22527,9 +22448,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -22543,9 +22464,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -22596,7 +22517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -22649,9 +22570,9 @@ window.MATCHES = [
         22
       ],
       "market": [
-        87,
+        86,
         9,
-        4
+        5
       ],
       "blended": [
         60,
@@ -22660,11 +22581,11 @@ window.MATCHES = [
       ],
       "blendWeight": 0.16,
       "deltas": [
-        32,
+        31,
         -14,
-        -18
+        -17
       ],
-      "summary": "模型原始概率 55/23/22%；市场隐含概率 87/9/4%；按 16% 权重校准后为 60/21/19%。"
+      "summary": "模型原始概率 55/23/22%；市场隐含概率 86/9/5%；按 16% 权重校准后为 60/21/19%。"
     },
     "motivation": {
       "phase": "group",
@@ -22782,10 +22703,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 87,
-        "awayScore": 4,
-        "contribution": 2.49,
-        "evidence": "赔率市场：主87% / 平9% / 客4%。45 家公司均值，倾向巴西。"
+        "homeScore": 86,
+        "awayScore": 5,
+        "contribution": 2.43,
+        "evidence": "赔率市场：主86% / 平9% / 客5%。48 家公司均值，倾向巴西。"
       }
     ],
     "modelInputs": {
@@ -22828,9 +22749,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -22844,9 +22765,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -22860,9 +22781,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "6-2",
             "goalsFor": 6,
@@ -22876,9 +22797,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -22892,9 +22813,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -22910,9 +22831,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -22926,9 +22847,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -22942,9 +22863,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -22958,9 +22879,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -22974,9 +22895,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -23029,25 +22950,25 @@ window.MATCHES = [
       "weight": 0.16,
       "eventId": "ef0f74a991d3e35798ae5af77667bce1",
       "commenceTime": "2026-06-20T00:30:00Z",
-      "bookmakers": 45,
+      "bookmakers": 48,
       "averageOdds": {
-        "home": 1.1,
-        "draw": 10.91,
-        "away": 21.46
+        "home": 1.11,
+        "draw": 10.73,
+        "away": 21.09
       },
       "impliedProbabilities": [
-        87,
+        86,
         9,
-        4
+        5
       ],
       "marketFavorite": "巴西",
-      "note": "已接入赔率市场，45 家公司均值：主 1.1 / 平 10.91 / 客 21.46。市场倾向 巴西。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.11 / 平 10.73 / 客 21.09。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "More than the Score",
@@ -23066,21 +22987,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/18/womens-world-cup-playoffs-england-greece-scotland-czechia",
           "pubDate": "Thu, 18 Jun 2026 11:11:37 GMT"
-        },
-        {
-          "title": "World Cup Daily: Meet Scotland superfan Donny the ...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113556/fifa-world-cup-daily-brazil-usmnt-action-day-9",
-          "pubDate": "Fri, 19 Jun 2026 09:42:58 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.5,
@@ -23132,7 +23047,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴西当前1分、净胜球0；海地当前0分、净胜球-1。",
@@ -23173,9 +23088,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -23189,9 +23104,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -23205,9 +23120,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -23221,9 +23136,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -23237,9 +23152,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Romania",
+          "opponent": "罗马尼亚",
           "opponentCode": "ROU",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -23283,9 +23198,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -23299,9 +23214,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -23315,9 +23230,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -23331,9 +23246,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -23347,9 +23262,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -23400,7 +23315,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -23632,9 +23547,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -23648,9 +23563,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -23664,9 +23579,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -23680,9 +23595,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -23696,9 +23611,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Romania",
+            "opponent": "罗马尼亚",
             "opponentCode": "ROU",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -23714,9 +23629,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -23730,9 +23645,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -23746,9 +23661,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -23762,9 +23677,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -23778,9 +23693,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -23822,9 +23737,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0.16,
-        "expertWeight": 0.08
+        "expertWeight": 0
       }
     },
     "marketSignals": {
@@ -23835,7 +23750,7 @@ window.MATCHES = [
       "commenceTime": "2026-06-20T03:00:00Z",
       "bookmakers": 48,
       "averageOdds": {
-        "home": 2.05,
+        "home": 2.06,
         "draw": 3.37,
         "away": 3.77
       },
@@ -23845,22 +23760,13 @@ window.MATCHES = [
         25
       ],
       "marketFavorite": "土耳其",
-      "note": "已接入赔率市场，48 家公司均值：主 2.05 / 平 3.37 / 客 3.77。市场倾向 土耳其。"
+      "note": "已接入赔率市场，48 家公司均值：主 2.06 / 平 3.37 / 客 3.77。市场倾向 土耳其。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Social sensation Payne signs deal with Olimpia",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49112651/new-zealand-social-sensation-payne-signs-deal-olimpia",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -23888,7 +23794,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-2；巴拉圭当前0分、净胜球-3。",
@@ -23929,9 +23835,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -23945,9 +23851,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -23961,9 +23867,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -23977,9 +23883,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -23993,9 +23899,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -24039,9 +23945,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -24055,9 +23961,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -24071,9 +23977,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -24087,9 +23993,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Poland",
+          "opponent": "波兰",
           "opponentCode": "POL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -24103,9 +24009,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Ukraine",
+          "opponent": "乌克兰",
           "opponentCode": "UKR",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -24156,7 +24062,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -24209,8 +24115,8 @@ window.MATCHES = [
         27
       ],
       "market": [
-        54,
-        25,
+        55,
+        24,
         21
       ],
       "blended": [
@@ -24220,11 +24126,11 @@ window.MATCHES = [
       ],
       "blendWeight": 0.16,
       "deltas": [
-        -1,
-        7,
+        0,
+        6,
         -6
       ],
-      "summary": "模型原始概率 55/18/27%；市场隐含概率 54/25/21%；按 16% 权重校准后为 55/19/26%。"
+      "summary": "模型原始概率 55/18/27%；市场隐含概率 55/24/21%；按 16% 权重校准后为 55/19/26%。"
     },
     "motivation": {
       "phase": "group",
@@ -24342,10 +24248,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 54,
+        "homeScore": 55,
         "awayScore": 21,
-        "contribution": 0.99,
-        "evidence": "赔率市场：主54% / 平25% / 客21%。45 家公司均值，倾向荷兰。"
+        "contribution": 1.02,
+        "evidence": "赔率市场：主55% / 平24% / 客21%。45 家公司均值，倾向荷兰。"
       }
     ],
     "modelInputs": {
@@ -24388,9 +24294,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -24404,9 +24310,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -24420,9 +24326,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -24436,9 +24342,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -24452,9 +24358,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -24470,9 +24376,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -24486,9 +24392,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -24502,9 +24408,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -24518,9 +24424,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Poland",
+            "opponent": "波兰",
             "opponentCode": "POL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -24534,9 +24440,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Ukraine",
+            "opponent": "乌克兰",
             "opponentCode": "UKR",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -24592,16 +24498,16 @@ window.MATCHES = [
       "bookmakers": 45,
       "averageOdds": {
         "home": 1.74,
-        "draw": 3.88,
-        "away": 4.65
+        "draw": 3.9,
+        "away": 4.63
       },
       "impliedProbabilities": [
-        54,
-        25,
+        55,
+        24,
         21
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，45 家公司均值：主 1.74 / 平 3.88 / 客 4.65。市场倾向 荷兰。"
+      "note": "已接入赔率市场，45 家公司均值：主 1.74 / 平 3.9 / 客 4.63。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -24628,7 +24534,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 33.6,
@@ -24659,7 +24565,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。荷兰当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -24700,9 +24606,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "7-1",
           "goalsFor": 7,
@@ -24716,9 +24622,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -24732,9 +24638,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -24748,9 +24654,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -24764,9 +24670,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-3",
           "goalsFor": 4,
@@ -24810,9 +24716,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -24826,9 +24732,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -24842,9 +24748,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -24858,9 +24764,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -24874,7 +24780,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-01-10",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
           "tournament": "African Cup of Nations",
           "result": "L",
@@ -24927,7 +24833,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -24980,9 +24886,9 @@ window.MATCHES = [
         23
       ],
       "market": [
-        63,
+        62,
         21,
-        16
+        17
       ],
       "blended": [
         60,
@@ -24991,11 +24897,11 @@ window.MATCHES = [
       ],
       "blendWeight": 0.16,
       "deltas": [
-        3,
+        2,
         4,
-        -7
+        -6
       ],
-      "summary": "模型原始概率 60/17/23%；市场隐含概率 63/21/16%；按 16% 权重校准后为 60/18/22%。"
+      "summary": "模型原始概率 60/17/23%；市场隐含概率 62/21/17%；按 16% 权重校准后为 60/18/22%。"
     },
     "motivation": {
       "phase": "group",
@@ -25113,10 +25019,10 @@ window.MATCHES = [
       {
         "name": "外部信号",
         "weight": 3,
-        "homeScore": 63,
-        "awayScore": 16,
-        "contribution": 1.41,
-        "evidence": "赔率市场：主63% / 平21% / 客16%。48 家公司均值，倾向德国。"
+        "homeScore": 62,
+        "awayScore": 17,
+        "contribution": 1.35,
+        "evidence": "赔率市场：主62% / 平21% / 客17%。48 家公司均值，倾向德国。"
       }
     ],
     "modelInputs": {
@@ -25159,9 +25065,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "7-1",
             "goalsFor": 7,
@@ -25175,9 +25081,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -25191,9 +25097,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -25207,9 +25113,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -25223,9 +25129,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-3",
             "goalsFor": 4,
@@ -25241,9 +25147,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -25257,9 +25163,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -25273,9 +25179,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -25289,9 +25195,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -25305,7 +25211,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-01-10",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
             "tournament": "African Cup of Nations",
             "result": "L",
@@ -25362,17 +25268,17 @@ window.MATCHES = [
       "commenceTime": "2026-06-20T20:00:00Z",
       "bookmakers": 48,
       "averageOdds": {
-        "home": 1.52,
-        "draw": 4.54,
-        "away": 5.79
+        "home": 1.53,
+        "draw": 4.51,
+        "away": 5.7
       },
       "impliedProbabilities": [
-        63,
+        62,
         21,
-        16
+        17
       ],
       "marketFavorite": "德国",
-      "note": "已接入赔率市场，48 家公司均值：主 1.52 / 平 4.54 / 客 5.79。市场倾向 德国。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.53 / 平 4.51 / 客 5.7。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -25393,7 +25299,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 24.3,
@@ -25424,7 +25330,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。德国当前3分、净胜球6；科特迪瓦当前3分、净胜球1。",
@@ -25465,9 +25371,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -25481,9 +25387,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -25497,9 +25403,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -25513,9 +25419,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -25529,9 +25435,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -25575,9 +25481,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-7",
           "goalsFor": 1,
@@ -25591,9 +25497,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Aruba",
+          "opponent": "ARU",
           "opponentCode": "ARU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -25607,9 +25513,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -25623,7 +25529,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
           "tournament": "FIFA Series",
           "result": "L",
@@ -25639,7 +25545,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "China",
+          "opponent": "中国",
           "opponentCode": "CHN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -25692,7 +25598,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -25924,9 +25830,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -25940,9 +25846,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -25956,9 +25862,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -25972,9 +25878,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -25988,9 +25894,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -26006,9 +25912,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-7",
             "goalsFor": 1,
@@ -26022,9 +25928,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Aruba",
+            "opponent": "ARU",
             "opponentCode": "ARU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -26038,9 +25944,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -26054,7 +25960,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
             "tournament": "FIFA Series",
             "result": "L",
@@ -26070,7 +25976,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "China",
+            "opponent": "中国",
             "opponentCode": "CHN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -26149,7 +26055,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 23.3,
@@ -26180,7 +26086,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；库拉索当前0分、净胜球-6。",
@@ -26221,9 +26127,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -26237,9 +26143,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-5",
           "goalsFor": 0,
@@ -26253,9 +26159,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -26269,9 +26175,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -26285,9 +26191,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -26331,9 +26237,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -26347,9 +26253,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-05-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -26363,9 +26269,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -26379,9 +26285,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -26395,7 +26301,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
           "tournament": "Kirin Cup",
           "result": "W",
@@ -26448,7 +26354,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -26680,9 +26586,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -26696,9 +26602,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-5",
             "goalsFor": 0,
@@ -26712,9 +26618,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -26728,9 +26634,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -26744,9 +26650,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -26762,9 +26668,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -26778,9 +26684,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-05-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -26794,9 +26700,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -26810,9 +26716,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -26826,7 +26732,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
             "tournament": "Kirin Cup",
             "result": "W",
@@ -26936,7 +26842,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；日本当前1分、净胜球0。",
@@ -26977,9 +26883,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Cape Verde",
+          "opponent": "佛得角",
           "opponentCode": "CPV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -26993,9 +26899,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -27009,9 +26915,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -27025,9 +26931,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -27041,9 +26947,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -27087,9 +26993,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -27103,9 +27009,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -27119,9 +27025,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Puerto Rico",
+          "opponent": "PUE",
           "opponentCode": "PUE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -27135,9 +27041,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -27151,9 +27057,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -27204,7 +27110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -27436,9 +27342,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Cape Verde",
+            "opponent": "佛得角",
             "opponentCode": "CPV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -27452,9 +27358,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -27468,9 +27374,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -27484,9 +27390,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -27500,9 +27406,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -27518,9 +27424,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -27534,9 +27440,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -27550,9 +27456,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Puerto Rico",
+            "opponent": "PUE",
             "opponentCode": "PUE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -27566,9 +27472,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -27582,9 +27488,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -27676,7 +27582,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 33.8,
@@ -27728,7 +27634,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -27769,9 +27675,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -27785,9 +27691,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -27801,9 +27707,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -27817,9 +27723,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -27833,9 +27739,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-2",
           "goalsFor": 5,
@@ -27879,9 +27785,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -27895,9 +27801,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Mali",
+          "opponent": "马里",
           "opponentCode": "MLI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -27911,9 +27817,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-29",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -27927,9 +27833,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -27943,9 +27849,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -27996,7 +27902,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -28228,9 +28134,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -28244,9 +28150,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -28260,9 +28166,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -28276,9 +28182,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -28292,9 +28198,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-2",
             "goalsFor": 5,
@@ -28310,9 +28216,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -28326,9 +28232,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Mali",
+            "opponent": "马里",
             "opponentCode": "MLI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -28342,9 +28248,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-29",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -28358,9 +28264,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -28374,9 +28280,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -28433,7 +28339,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.42,
         "draw": 4.66,
-        "away": 7.65
+        "away": 7.64
       },
       "impliedProbabilities": [
         68,
@@ -28441,7 +28347,7 @@ window.MATCHES = [
         12
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，47 家公司均值：主 1.42 / 平 4.66 / 客 7.65。市场倾向 比利时。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.42 / 平 4.66 / 客 7.64。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -28484,7 +28390,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -28525,9 +28431,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -28541,9 +28447,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-03-31",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -28557,9 +28463,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-27",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -28573,9 +28479,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2025-11-18",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -28589,9 +28495,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-15",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -28635,9 +28541,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -28651,9 +28557,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -28667,9 +28573,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -28683,7 +28589,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -28699,7 +28605,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "L",
@@ -28752,7 +28658,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -28984,9 +28890,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -29000,9 +28906,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-03-31",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -29016,9 +28922,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-27",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -29032,9 +28938,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2025-11-18",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -29048,9 +28954,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-15",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -29066,9 +28972,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -29082,9 +28988,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -29098,9 +29004,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -29114,7 +29020,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -29130,7 +29036,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "L",
@@ -29231,7 +29137,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -29272,9 +29178,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Iran",
+          "opponent": "伊朗",
           "opponentCode": "IRN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -29288,9 +29194,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -29304,9 +29210,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-4",
           "goalsFor": 0,
@@ -29320,7 +29226,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "W",
@@ -29336,7 +29242,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -29382,9 +29288,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -29398,9 +29304,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -29414,9 +29320,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-28",
-          "opponent": "Russia",
+          "opponent": "俄罗斯",
           "opponentCode": "RUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -29430,9 +29336,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -29446,9 +29352,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -29499,7 +29405,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -29731,9 +29637,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Iran",
+            "opponent": "伊朗",
             "opponentCode": "IRN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -29747,9 +29653,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -29763,9 +29669,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-4",
             "goalsFor": 0,
@@ -29779,7 +29685,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "W",
@@ -29795,7 +29701,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -29813,9 +29719,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -29829,9 +29735,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -29845,9 +29751,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-28",
-            "opponent": "Russia",
+            "opponent": "俄罗斯",
             "opponentCode": "RUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -29861,9 +29767,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -29877,9 +29783,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -29921,9 +29827,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0.16,
-        "expertWeight": 0.08
+        "expertWeight": 0
       }
     },
     "marketSignals": {
@@ -29947,25 +29853,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 5.69 / 平 4.01 / 客 1.6。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Social sensation Payne signs deal with Olimpia",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49112651/new-zealand-social-sensation-payne-signs-deal-olimpia",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.9,
@@ -29996,7 +29893,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -30037,9 +29934,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -30053,9 +29950,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -30069,9 +29966,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Honduras",
+          "opponent": "洪都拉斯",
           "opponentCode": "HON",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -30085,9 +29982,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Zambia",
+          "opponent": "ZAM",
           "opponentCode": "ZAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -30101,9 +29998,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Mauritania",
+          "opponent": "MTN",
           "opponentCode": "MTN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -30147,9 +30044,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -30163,9 +30060,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-01",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -30179,9 +30076,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -30195,9 +30092,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -30211,9 +30108,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -30264,7 +30161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -30496,9 +30393,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -30512,9 +30409,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -30528,9 +30425,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Honduras",
+            "opponent": "洪都拉斯",
             "opponentCode": "HON",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -30544,9 +30441,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Zambia",
+            "opponent": "ZAM",
             "opponentCode": "ZAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -30560,9 +30457,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Mauritania",
+            "opponent": "MTN",
             "opponentCode": "MTN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -30578,9 +30475,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -30594,9 +30491,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-01",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -30610,9 +30507,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -30626,9 +30523,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -30642,9 +30539,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -30758,7 +30655,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -30799,9 +30696,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -30815,9 +30712,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Northern Ireland",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -30831,9 +30728,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -30847,9 +30744,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -30863,9 +30760,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -30909,9 +30806,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -30925,9 +30822,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -30941,9 +30838,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -30957,9 +30854,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Andorra",
+          "opponent": "安道尔",
           "opponentCode": "AND",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -30973,9 +30870,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -31026,7 +30923,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -31258,9 +31155,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -31274,9 +31171,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Northern Ireland",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -31290,9 +31187,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -31306,9 +31203,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -31322,9 +31219,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -31340,9 +31237,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -31356,9 +31253,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -31372,9 +31269,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -31388,9 +31285,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Andorra",
+            "opponent": "安道尔",
             "opponentCode": "AND",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -31404,9 +31301,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -31463,7 +31360,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.09,
         "draw": 10.89,
-        "away": 29.48
+        "away": 29.39
       },
       "impliedProbabilities": [
         88,
@@ -31471,7 +31368,7 @@ window.MATCHES = [
         3
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，47 家公司均值：主 1.09 / 平 10.89 / 客 29.48。市场倾向 法国。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.09 / 平 10.89 / 客 29.39。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -31498,7 +31395,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 23.9,
@@ -31529,7 +31426,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -31570,9 +31467,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -31586,9 +31483,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -31602,9 +31499,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -31618,9 +31515,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -31634,9 +31531,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -31680,9 +31577,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -31696,9 +31593,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -31712,9 +31609,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-3",
           "goalsFor": 2,
@@ -31728,9 +31625,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -31744,9 +31641,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -31797,7 +31694,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -32029,9 +31926,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -32045,9 +31942,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -32061,9 +31958,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -32077,9 +31974,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -32093,9 +31990,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -32111,9 +32008,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -32127,9 +32024,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -32143,9 +32040,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-3",
             "goalsFor": 2,
@@ -32159,9 +32056,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -32175,9 +32072,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -32285,7 +32182,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -32326,9 +32223,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -32342,9 +32239,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -32358,9 +32255,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -32374,9 +32271,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -32390,9 +32287,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -32436,9 +32333,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Argentina",
+          "opponent": "阿根廷",
           "opponentCode": "ARG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -32452,9 +32349,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -32468,9 +32365,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -32484,9 +32381,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -32500,9 +32397,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "7-0",
           "goalsFor": 7,
@@ -32553,7 +32450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -32785,9 +32682,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -32801,9 +32698,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -32817,9 +32714,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -32833,9 +32730,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -32849,9 +32746,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -32867,9 +32764,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Argentina",
+            "opponent": "阿根廷",
             "opponentCode": "ARG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -32883,9 +32780,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -32899,9 +32796,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -32915,9 +32812,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -32931,9 +32828,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "7-0",
             "goalsFor": 7,
@@ -33059,7 +32956,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -33100,9 +32997,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "DR Congo",
+          "opponent": "刚果(金)",
           "opponentCode": "COD",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -33116,9 +33013,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -33132,9 +33029,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -33148,9 +33045,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -33164,9 +33061,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -33210,9 +33107,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -33226,9 +33123,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -33242,9 +33139,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -33258,7 +33155,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -33274,7 +33171,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Gabon",
+          "opponent": "GAB",
           "opponentCode": "GAB",
           "tournament": "FIFA Series",
           "result": "W",
@@ -33327,7 +33224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -33559,9 +33456,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "DR Congo",
+            "opponent": "刚果(金)",
             "opponentCode": "COD",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -33575,9 +33472,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -33591,9 +33488,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -33607,9 +33504,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -33623,9 +33520,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -33641,9 +33538,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -33657,9 +33554,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -33673,9 +33570,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -33689,7 +33586,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -33705,7 +33602,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Gabon",
+            "opponent": "GAB",
             "opponentCode": "GAB",
             "tournament": "FIFA Series",
             "result": "W",
@@ -33778,28 +33675,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
-        },
-        {
-          "title": "Portugal have a Ronaldo problem (again)",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49098603/portugal-cristiano-ronaldo-problem-congo-dr-roberto-martinez-fifa-world-cup-analysis",
-          "pubDate": "Thu, 18 Jun 2026 21:12:03 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 36.1,
@@ -33830,7 +33721,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -33871,9 +33762,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -33887,9 +33778,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -33903,9 +33794,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -33919,9 +33810,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -33935,9 +33826,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -33981,9 +33872,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -33997,9 +33888,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-02",
-          "opponent": "Wales",
+          "opponent": "威尔士",
           "opponentCode": "WAL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -34013,9 +33904,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-22",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -34029,9 +33920,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -34045,9 +33936,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -34098,7 +33989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -34330,9 +34221,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -34346,9 +34237,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -34362,9 +34253,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -34378,9 +34269,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -34394,9 +34285,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -34412,9 +34303,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -34428,9 +34319,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-02",
-            "opponent": "Wales",
+            "opponent": "威尔士",
             "opponentCode": "WAL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -34444,9 +34335,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-22",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -34460,9 +34351,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -34476,9 +34367,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -34601,16 +34492,9 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
-          "articles": [
-            {
-              "title": "Every team's odds to win the World Cup: England's ...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
-            }
-          ]
+          "status": "provider-needed",
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": []
         },
         "tactical": {
           "status": "news-derived",
@@ -34625,7 +34509,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -34666,9 +34550,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -34682,9 +34566,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -34698,9 +34582,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Dominican Republic",
+          "opponent": "DOM",
           "opponentCode": "DOM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -34714,9 +34598,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-6",
           "goalsFor": 2,
@@ -34730,9 +34614,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -34776,9 +34660,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "2-4",
           "goalsFor": 2,
@@ -34792,9 +34676,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Slovenia",
+          "opponent": "斯洛文尼亚",
           "opponentCode": "SVN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -34808,9 +34692,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -34824,9 +34708,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -34840,9 +34724,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -34893,7 +34777,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -35125,9 +35009,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -35141,9 +35025,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -35157,9 +35041,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Dominican Republic",
+            "opponent": "DOM",
             "opponentCode": "DOM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -35173,9 +35057,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-6",
             "goalsFor": 2,
@@ -35189,9 +35073,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -35207,9 +35091,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "2-4",
             "goalsFor": 2,
@@ -35223,9 +35107,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Slovenia",
+            "opponent": "斯洛文尼亚",
             "opponentCode": "SVN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -35239,9 +35123,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -35255,9 +35139,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -35271,9 +35155,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -35344,7 +35228,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "England hit four in World Cup opener against Croatia",
@@ -35363,21 +35247,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/itv-wins-world-cup-ratings-battle-bbc-first-week-england-croatia",
           "pubDate": "Fri, 19 Jun 2026 10:53:56 GMT"
-        },
-        {
-          "title": "Kane and Bellingham put on a show in England's thr...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49100772/kane-bellingham-put-show-england-thrilling-win-croatia",
-          "pubDate": "Thu, 18 Jun 2026 21:12:03 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.5,
@@ -35408,7 +35286,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -35449,9 +35327,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -35465,9 +35343,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -35481,9 +35359,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -35497,9 +35375,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -35513,9 +35391,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -35559,9 +35437,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -35575,9 +35453,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -35591,9 +35469,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -35607,9 +35485,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -35623,9 +35501,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-25",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -35676,7 +35554,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -35908,9 +35786,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -35924,9 +35802,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -35940,9 +35818,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -35956,9 +35834,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -35972,9 +35850,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -35990,9 +35868,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -36006,9 +35884,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -36022,9 +35900,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -36038,9 +35916,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -36054,9 +35932,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-25",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -36164,7 +36042,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -36205,9 +36083,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -36221,9 +36099,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -36237,9 +36115,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -36253,9 +36131,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -36269,9 +36147,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -36315,9 +36193,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Qatar",
+          "opponent": "卡塔尔",
           "opponentCode": "QAT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "6-0",
           "goalsFor": 6,
@@ -36331,9 +36209,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -36347,9 +36225,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -36363,9 +36241,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-06-01",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -36379,9 +36257,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -36432,7 +36310,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -36664,9 +36542,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -36680,9 +36558,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -36696,9 +36574,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -36712,9 +36590,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -36728,9 +36606,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -36746,9 +36624,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Qatar",
+            "opponent": "卡塔尔",
             "opponentCode": "QAT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "6-0",
             "goalsFor": 6,
@@ -36762,9 +36640,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -36778,9 +36656,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -36794,9 +36672,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-06-01",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -36810,9 +36688,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -36916,7 +36794,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 19.6,
@@ -36954,7 +36832,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -36995,9 +36873,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -37011,9 +36889,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-12",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -37027,9 +36905,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -37043,9 +36921,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -37059,9 +36937,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Italy",
+          "opponent": "意大利",
           "opponentCode": "ITA",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -37105,9 +36983,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-6",
           "goalsFor": 0,
@@ -37121,9 +36999,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-13",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -37137,9 +37015,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -37153,9 +37031,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-28",
-          "opponent": "Republic of Ireland",
+          "opponent": "爱尔兰",
           "opponentCode": "IRL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -37169,7 +37047,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-12-07",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
           "tournament": "Arab Cup",
           "result": "L",
@@ -37222,7 +37100,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -37454,9 +37332,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -37470,9 +37348,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-12",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -37486,9 +37364,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -37502,9 +37380,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -37518,9 +37396,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Italy",
+            "opponent": "意大利",
             "opponentCode": "ITA",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -37536,9 +37414,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-6",
             "goalsFor": 0,
@@ -37552,9 +37430,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-13",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -37568,9 +37446,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -37584,9 +37462,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-28",
-            "opponent": "Republic of Ireland",
+            "opponent": "爱尔兰",
             "opponentCode": "IRL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -37600,7 +37478,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-12-07",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
             "tournament": "Arab Cup",
             "result": "L",
@@ -37706,7 +37584,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 20.4,
@@ -37737,7 +37615,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -37778,9 +37656,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -37794,9 +37672,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -37810,9 +37688,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -37826,9 +37704,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -37842,9 +37720,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -37888,9 +37766,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -37904,9 +37782,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -37920,9 +37798,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "6-2",
           "goalsFor": 6,
@@ -37936,9 +37814,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -37952,9 +37830,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -38005,7 +37883,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -38237,9 +38115,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -38253,9 +38131,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -38269,9 +38147,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -38285,9 +38163,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -38301,9 +38179,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -38319,9 +38197,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -38335,9 +38213,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -38351,9 +38229,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "6-2",
             "goalsFor": 6,
@@ -38367,9 +38245,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -38383,9 +38261,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -38532,7 +38410,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球1；巴西当前1分、净胜球0。",
@@ -38573,9 +38451,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -38589,9 +38467,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -38605,9 +38483,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Madagascar",
+          "opponent": "MAD",
           "opponentCode": "MAD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -38621,9 +38499,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-26",
-          "opponent": "Burundi",
+          "opponent": "BDI",
           "opponentCode": "BDI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -38637,9 +38515,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -38683,9 +38561,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -38699,9 +38577,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -38715,9 +38593,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -38731,9 +38609,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -38747,9 +38625,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -38800,7 +38678,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -39032,9 +38910,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -39048,9 +38926,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -39064,9 +38942,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Madagascar",
+            "opponent": "MAD",
             "opponentCode": "MAD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -39080,9 +38958,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-26",
-            "opponent": "Burundi",
+            "opponent": "BDI",
             "opponentCode": "BDI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -39096,9 +38974,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -39114,9 +38992,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -39130,9 +39008,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -39146,9 +39024,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -39162,9 +39040,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -39178,9 +39056,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -39278,7 +39156,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 33.8,
@@ -39309,7 +39187,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前1分、净胜球0；海地当前0分、净胜球-1。",
@@ -39350,9 +39228,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -39366,9 +39244,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -39382,9 +39260,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -39398,9 +39276,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -39414,9 +39292,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -39460,9 +39338,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -39476,9 +39354,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -39492,9 +39370,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -39508,9 +39386,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -39524,9 +39402,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-05-22",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -39577,7 +39455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -39809,9 +39687,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -39825,9 +39703,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -39841,9 +39719,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -39857,9 +39735,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -39873,9 +39751,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -39891,9 +39769,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -39907,9 +39785,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -39923,9 +39801,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -39939,9 +39817,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -39955,9 +39833,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-05-22",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -40028,7 +39906,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
@@ -40041,27 +39919,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/19/happy-hosts-as-canada-claim-first-win-and-mexico-seal-knockout-spot-world-cup-daily",
           "pubDate": "Fri, 19 Jun 2026 07:38:35 GMT"
-        },
-        {
-          "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Aguirre relishes Azteca return after Group A win",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 19.5,
@@ -40092,7 +39958,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -40133,9 +39999,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -40149,9 +40015,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -40165,9 +40031,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -40181,9 +40047,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -40197,9 +40063,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -40243,9 +40109,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -40259,9 +40125,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-11",
-          "opponent": "Czech Republic",
+          "opponent": "捷克",
           "opponentCode": "CZE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -40275,9 +40141,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "El Salvador",
+          "opponent": "SLV",
           "opponentCode": "SLV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -40291,9 +40157,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Trinidad and Tobago",
+          "opponent": "TRI",
           "opponentCode": "TRI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -40307,9 +40173,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -40360,7 +40226,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -40549,7 +40415,7 @@ window.MATCHES = [
         "homeScore": 17,
         "awayScore": 59,
         "contribution": -1.26,
-        "evidence": "赔率市场：主17% / 平24% / 客59%。43 家公司均值，倾向韩国。"
+        "evidence": "赔率市场：主17% / 平24% / 客59%。42 家公司均值，倾向韩国。"
       }
     ],
     "modelInputs": {
@@ -40592,9 +40458,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -40608,9 +40474,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -40624,9 +40490,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -40640,9 +40506,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -40656,9 +40522,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -40674,9 +40540,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -40690,9 +40556,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-11",
-            "opponent": "Czech Republic",
+            "opponent": "捷克",
             "opponentCode": "CZE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -40706,9 +40572,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "El Salvador",
+            "opponent": "SLV",
             "opponentCode": "SLV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -40722,9 +40588,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Trinidad and Tobago",
+            "opponent": "TRI",
             "opponentCode": "TRI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -40738,9 +40604,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -40793,11 +40659,11 @@ window.MATCHES = [
       "weight": 0.16,
       "eventId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "commenceTime": "2026-06-25T01:00:00Z",
-      "bookmakers": 43,
+      "bookmakers": 42,
       "averageOdds": {
-        "home": 5.63,
+        "home": 5.62,
         "draw": 3.88,
-        "away": 1.62
+        "away": 1.61
       },
       "impliedProbabilities": [
         17,
@@ -40805,34 +40671,22 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "韩国",
-      "note": "已接入赔率市场，43 家公司均值：主 5.63 / 平 3.88 / 客 1.62。市场倾向 韩国。"
+      "note": "已接入赔率市场，42 家公司均值：主 5.62 / 平 3.88 / 客 1.61。市场倾向 韩国。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Mokoena's late penalty earns South Africa draw against Czech Republic",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.com/sport/football/videos/ce8kd23y37lo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Thu, 18 Jun 2026 18:49:27 GMT"
-        },
-        {
-          "title": "Korea GK gaffe helps Mexico clinch 1st in Group A",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49113839/mexico-beats-south-korea-clinch-first-place-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        },
-        {
-          "title": "Aguirre relishes Azteca return after Group A win",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49114368/aguirre-relishes-azteca-knockout-matches-mexico-win-group-a",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -40860,7 +40714,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -40901,9 +40755,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-7",
           "goalsFor": 1,
@@ -40917,9 +40771,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Aruba",
+          "opponent": "ARU",
           "opponentCode": "ARU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -40933,9 +40787,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -40949,7 +40803,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
           "tournament": "FIFA Series",
           "result": "L",
@@ -40965,7 +40819,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "China",
+          "opponent": "中国",
           "opponentCode": "CHN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -41011,9 +40865,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -41027,9 +40881,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -41043,9 +40897,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -41059,9 +40913,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -41075,7 +40929,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-01-10",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
           "tournament": "African Cup of Nations",
           "result": "L",
@@ -41128,7 +40982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -41360,9 +41214,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-7",
             "goalsFor": 1,
@@ -41376,9 +41230,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Aruba",
+            "opponent": "ARU",
             "opponentCode": "ARU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -41392,9 +41246,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -41408,7 +41262,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
             "tournament": "FIFA Series",
             "result": "L",
@@ -41424,7 +41278,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "China",
+            "opponent": "中国",
             "opponentCode": "CHN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -41442,9 +41296,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -41458,9 +41312,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -41474,9 +41328,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -41490,9 +41344,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -41506,7 +41360,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-01-10",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
             "tournament": "African Cup of Nations",
             "result": "L",
@@ -41564,7 +41418,7 @@ window.MATCHES = [
       "bookmakers": 40,
       "averageOdds": {
         "home": 19.14,
-        "draw": 8.73,
+        "draw": 8.72,
         "away": 1.13
       },
       "impliedProbabilities": [
@@ -41573,7 +41427,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，40 家公司均值：主 19.14 / 平 8.73 / 客 1.13。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，40 家公司均值：主 19.14 / 平 8.72 / 客 1.13。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -41585,7 +41439,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 30.7,
@@ -41616,7 +41470,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前0分、净胜球-6；科特迪瓦当前3分、净胜球1。",
@@ -41657,9 +41511,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -41673,9 +41527,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -41689,9 +41543,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -41705,9 +41559,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -41721,9 +41575,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -41767,9 +41621,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "7-1",
           "goalsFor": 7,
@@ -41783,9 +41637,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -41799,9 +41653,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -41815,9 +41669,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -41831,9 +41685,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-3",
           "goalsFor": 4,
@@ -41884,7 +41738,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -42116,9 +41970,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -42132,9 +41986,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -42148,9 +42002,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -42164,9 +42018,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -42180,9 +42034,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -42198,9 +42052,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "7-1",
             "goalsFor": 7,
@@ -42214,9 +42068,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -42230,9 +42084,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -42246,9 +42100,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -42262,9 +42116,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-3",
             "goalsFor": 4,
@@ -42372,7 +42226,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；德国当前3分、净胜球6。",
@@ -42413,9 +42267,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -42429,9 +42283,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-05-31",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -42445,9 +42299,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -42461,9 +42315,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-28",
-          "opponent": "Scotland",
+          "opponent": "苏格兰",
           "opponentCode": "SCO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -42477,7 +42331,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
           "tournament": "Kirin Cup",
           "result": "W",
@@ -42523,9 +42377,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -42539,9 +42393,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -42555,9 +42409,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -42571,9 +42425,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Poland",
+          "opponent": "波兰",
           "opponentCode": "POL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -42587,9 +42441,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Ukraine",
+          "opponent": "乌克兰",
           "opponentCode": "UKR",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -42640,7 +42494,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -42872,9 +42726,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -42888,9 +42742,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-05-31",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -42904,9 +42758,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -42920,9 +42774,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-28",
-            "opponent": "Scotland",
+            "opponent": "苏格兰",
             "opponentCode": "SCO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -42936,7 +42790,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
             "tournament": "Kirin Cup",
             "result": "W",
@@ -42954,9 +42808,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -42970,9 +42824,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -42986,9 +42840,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -43002,9 +42856,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Poland",
+            "opponent": "波兰",
             "opponentCode": "POL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -43018,9 +42872,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Ukraine",
+            "opponent": "乌克兰",
             "opponentCode": "UKR",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -43134,7 +42988,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -43175,9 +43029,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -43191,9 +43045,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-5",
           "goalsFor": 0,
@@ -43207,9 +43061,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -43223,9 +43077,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -43239,9 +43093,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -43285,9 +43139,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-14",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -43301,9 +43155,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -43317,9 +43171,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -43333,9 +43187,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -43349,9 +43203,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -43402,7 +43256,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -43634,9 +43488,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -43650,9 +43504,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-5",
             "goalsFor": 0,
@@ -43666,9 +43520,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -43682,9 +43536,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -43698,9 +43552,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -43716,9 +43570,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-14",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -43732,9 +43586,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -43748,9 +43602,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -43764,9 +43618,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -43780,9 +43634,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -43868,7 +43722,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.9,
@@ -43899,7 +43753,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；荷兰当前1分、净胜球0。",
@@ -43940,9 +43794,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Australia",
+          "opponent": "澳大利亚",
           "opponentCode": "AUS",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -43956,9 +43810,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -43972,9 +43826,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "North Macedonia",
+          "opponent": "北马其顿",
           "opponentCode": "MKD",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -43988,9 +43842,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Kosovo",
+          "opponent": "KOS",
           "opponentCode": "KOS",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -44004,9 +43858,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Romania",
+          "opponent": "罗马尼亚",
           "opponentCode": "ROU",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -44050,9 +43904,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "Paraguay",
+          "opponent": "巴拉圭",
           "opponentCode": "PAR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -44066,9 +43920,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -44082,9 +43936,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-2",
           "goalsFor": 3,
@@ -44098,9 +43952,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -44114,9 +43968,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-5",
           "goalsFor": 2,
@@ -44167,7 +44021,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -44399,9 +44253,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Australia",
+            "opponent": "澳大利亚",
             "opponentCode": "AUS",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -44415,9 +44269,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -44431,9 +44285,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "North Macedonia",
+            "opponent": "北马其顿",
             "opponentCode": "MKD",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -44447,9 +44301,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Kosovo",
+            "opponent": "KOS",
             "opponentCode": "KOS",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -44463,9 +44317,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Romania",
+            "opponent": "罗马尼亚",
             "opponentCode": "ROU",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -44481,9 +44335,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "Paraguay",
+            "opponent": "巴拉圭",
             "opponentCode": "PAR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -44497,9 +44351,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -44513,9 +44367,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-2",
             "goalsFor": 3,
@@ -44529,9 +44383,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -44545,9 +44399,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-5",
             "goalsFor": 2,
@@ -44630,7 +44484,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Dias backs Ronaldo to handle flak; Kane’s Wonderwall moment; Pochettino on spies – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-          "pubDate": "Fri, 19 Jun 2026 15:52:03 GMT"
+          "pubDate": "Fri, 19 Jun 2026 16:06:54 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -44661,7 +44515,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-2；美国当前3分、净胜球3。",
@@ -44702,9 +44556,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-12",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -44718,9 +44572,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-05",
-          "opponent": "Nicaragua",
+          "opponent": "NCA",
           "opponentCode": "NCA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -44734,9 +44588,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -44750,9 +44604,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Greece",
+          "opponent": "希腊",
           "opponentCode": "GRE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -44766,9 +44620,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -44812,9 +44666,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-13",
-          "opponent": "Turkey",
+          "opponent": "土耳其",
           "opponentCode": "TUR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -44828,9 +44682,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -44844,9 +44698,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-30",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -44860,7 +44714,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Curaçao",
+          "opponent": "库拉索",
           "opponentCode": "CUW",
           "tournament": "FIFA Series",
           "result": "W",
@@ -44876,7 +44730,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Cameroon",
+          "opponent": "喀麦隆",
           "opponentCode": "CMR",
           "tournament": "FIFA Series",
           "result": "W",
@@ -44929,7 +44783,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -45161,9 +45015,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-12",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -45177,9 +45031,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-05",
-            "opponent": "Nicaragua",
+            "opponent": "NCA",
             "opponentCode": "NCA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -45193,9 +45047,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -45209,9 +45063,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Greece",
+            "opponent": "希腊",
             "opponentCode": "GRE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -45225,9 +45079,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -45243,9 +45097,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-13",
-            "opponent": "Turkey",
+            "opponent": "土耳其",
             "opponentCode": "TUR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -45259,9 +45113,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -45275,9 +45129,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-30",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -45291,7 +45145,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Curaçao",
+            "opponent": "库拉索",
             "opponentCode": "CUW",
             "tournament": "FIFA Series",
             "result": "W",
@@ -45307,7 +45161,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Cameroon",
+            "opponent": "喀麦隆",
             "opponentCode": "CMR",
             "tournament": "FIFA Series",
             "result": "W",
@@ -45392,7 +45246,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Dias backs Ronaldo to handle flak; Kane’s Wonderwall moment; Pochettino on spies – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/19/world-cup-2026-news-kone-injury-canada-rout-scotland-big-challenge-morocco-usa-australia-buildup-live",
-          "pubDate": "Fri, 19 Jun 2026 15:52:03 GMT"
+          "pubDate": "Fri, 19 Jun 2026 16:06:54 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -45448,7 +45302,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前0分、净胜球-3；澳大利亚当前3分、净胜球2。",
@@ -45489,9 +45343,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-1",
           "goalsFor": 4,
@@ -45505,9 +45359,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Morocco",
+          "opponent": "摩洛哥",
           "opponentCode": "MAR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -45521,9 +45375,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Sweden",
+          "opponent": "瑞典",
           "opponentCode": "SWE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -45537,9 +45391,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -45553,9 +45407,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -45599,9 +45453,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -45615,9 +45469,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Northern Ireland",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -45631,9 +45485,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Ivory Coast",
+          "opponent": "科特迪瓦",
           "opponentCode": "CIV",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -45647,9 +45501,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -45663,9 +45517,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -45716,7 +45570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -45948,9 +45802,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-1",
             "goalsFor": 4,
@@ -45964,9 +45818,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Morocco",
+            "opponent": "摩洛哥",
             "opponentCode": "MAR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -45980,9 +45834,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Sweden",
+            "opponent": "瑞典",
             "opponentCode": "SWE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -45996,9 +45850,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -46012,9 +45866,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -46030,9 +45884,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -46046,9 +45900,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Northern Ireland",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -46062,9 +45916,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Ivory Coast",
+            "opponent": "科特迪瓦",
             "opponentCode": "CIV",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -46078,9 +45932,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -46094,9 +45948,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -46210,7 +46064,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -46251,9 +46105,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -46267,9 +46121,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -46283,9 +46137,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-3",
           "goalsFor": 2,
@@ -46299,9 +46153,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -46315,9 +46169,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -46361,9 +46215,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Norway",
+          "opponent": "挪威",
           "opponentCode": "NOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -46377,9 +46231,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -46393,9 +46247,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -46409,9 +46263,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-29",
-          "opponent": "Andorra",
+          "opponent": "安道尔",
           "opponentCode": "AND",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -46425,9 +46279,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -46478,7 +46332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -46710,9 +46564,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -46726,9 +46580,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -46742,9 +46596,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-3",
             "goalsFor": 2,
@@ -46758,9 +46612,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -46774,9 +46628,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -46792,9 +46646,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Norway",
+            "opponent": "挪威",
             "opponentCode": "NOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -46808,9 +46662,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -46824,9 +46678,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -46840,9 +46694,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-29",
-            "opponent": "Andorra",
+            "opponent": "安道尔",
             "opponentCode": "AND",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -46856,9 +46710,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -46944,7 +46798,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 20.3,
@@ -46975,7 +46829,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -47016,9 +46870,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47032,9 +46886,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -47048,9 +46902,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -47064,7 +46918,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -47080,7 +46934,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "L",
@@ -47126,9 +46980,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -47142,9 +46996,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Senegal",
+          "opponent": "塞内加尔",
           "opponentCode": "SEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47158,9 +47012,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-05",
-          "opponent": "Puerto Rico",
+          "opponent": "PUE",
           "opponentCode": "PUE",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -47174,9 +47028,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-30",
-          "opponent": "Ecuador",
+          "opponent": "厄瓜多尔",
           "opponentCode": "ECU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -47190,9 +47044,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -47243,7 +47097,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -47475,9 +47329,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -47491,9 +47345,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -47507,9 +47361,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -47523,7 +47377,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -47539,7 +47393,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "L",
@@ -47557,9 +47411,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -47573,9 +47427,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Senegal",
+            "opponent": "塞内加尔",
             "opponentCode": "SEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -47589,9 +47443,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-05",
-            "opponent": "Puerto Rico",
+            "opponent": "PUE",
             "opponentCode": "PUE",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -47605,9 +47459,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-30",
-            "opponent": "Ecuador",
+            "opponent": "厄瓜多尔",
             "opponentCode": "ECU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -47621,9 +47475,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -47700,7 +47554,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 34.8,
@@ -47731,7 +47585,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -47772,9 +47626,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -47788,9 +47642,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-03-31",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47804,9 +47658,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-27",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -47820,9 +47674,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2025-11-18",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -47836,9 +47690,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-15",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47882,9 +47736,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Cape Verde",
+          "opponent": "佛得角",
           "opponentCode": "CPV",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47898,9 +47752,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Peru",
+          "opponent": "秘鲁",
           "opponentCode": "PER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -47914,9 +47768,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-04",
-          "opponent": "Iraq",
+          "opponent": "伊拉克",
           "opponentCode": "IRQ",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -47930,9 +47784,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -47946,9 +47800,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Serbia",
+          "opponent": "塞尔维亚",
           "opponentCode": "SRB",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -47999,7 +47853,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -48231,9 +48085,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -48247,9 +48101,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-03-31",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -48263,9 +48117,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-27",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -48279,9 +48133,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2025-11-18",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -48295,9 +48149,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-15",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -48313,9 +48167,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Cape Verde",
+            "opponent": "佛得角",
             "opponentCode": "CPV",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -48329,9 +48183,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Peru",
+            "opponent": "秘鲁",
             "opponentCode": "PER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -48345,9 +48199,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-04",
-            "opponent": "Iraq",
+            "opponent": "伊拉克",
             "opponentCode": "IRQ",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -48361,9 +48215,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -48377,9 +48231,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Serbia",
+            "opponent": "塞尔维亚",
             "opponentCode": "SRB",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -48435,7 +48289,7 @@ window.MATCHES = [
       "bookmakers": 39,
       "averageOdds": {
         "home": 5.93,
-        "draw": 4.13,
+        "draw": 4.14,
         "away": 1.54
       },
       "impliedProbabilities": [
@@ -48444,7 +48298,7 @@ window.MATCHES = [
         61
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，39 家公司均值：主 5.93 / 平 4.13 / 客 1.54。市场倾向 西班牙。"
+      "note": "已接入赔率市场，39 家公司均值：主 5.93 / 平 4.14 / 客 1.54。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -48514,7 +48368,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -48555,9 +48409,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -48571,9 +48425,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -48587,9 +48441,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-28",
-          "opponent": "Russia",
+          "opponent": "俄罗斯",
           "opponentCode": "RUS",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -48603,9 +48457,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Spain",
+          "opponent": "西班牙",
           "opponentCode": "ESP",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -48619,9 +48473,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Saudi Arabia",
+          "opponent": "沙特",
           "opponentCode": "KSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -48665,9 +48519,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -48681,9 +48535,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-04",
-          "opponent": "Mali",
+          "opponent": "马里",
           "opponentCode": "MLI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -48697,9 +48551,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-29",
-          "opponent": "Gambia",
+          "opponent": "GAM",
           "opponentCode": "GAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -48713,9 +48567,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -48729,9 +48583,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -48782,7 +48636,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -49014,9 +48868,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -49030,9 +48884,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -49046,9 +48900,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-28",
-            "opponent": "Russia",
+            "opponent": "俄罗斯",
             "opponentCode": "RUS",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -49062,9 +48916,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Spain",
+            "opponent": "西班牙",
             "opponentCode": "ESP",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -49078,9 +48932,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Saudi Arabia",
+            "opponent": "沙特",
             "opponentCode": "KSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -49096,9 +48950,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -49112,9 +48966,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-04",
-            "opponent": "Mali",
+            "opponent": "马里",
             "opponentCode": "MLI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -49128,9 +48982,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-29",
-            "opponent": "Gambia",
+            "opponent": "GAM",
             "opponentCode": "GAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -49144,9 +48998,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -49160,9 +49014,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -49248,7 +49102,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 20.1,
@@ -49279,7 +49133,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -49320,9 +49174,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Iran",
+          "opponent": "伊朗",
           "opponentCode": "IRN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -49336,9 +49190,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -49352,9 +49206,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Haiti",
+          "opponent": "海地",
           "opponentCode": "HAI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-4",
           "goalsFor": 0,
@@ -49368,7 +49222,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
           "tournament": "FIFA Series",
           "result": "W",
@@ -49384,7 +49238,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Finland",
+          "opponent": "芬兰",
           "opponentCode": "FIN",
           "tournament": "FIFA Series",
           "result": "L",
@@ -49430,9 +49284,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-15",
-          "opponent": "Egypt",
+          "opponent": "埃及",
           "opponentCode": "EGY",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -49446,9 +49300,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -49462,9 +49316,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -49478,9 +49332,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -49494,9 +49348,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-2",
           "goalsFor": 5,
@@ -49547,7 +49401,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -49779,9 +49633,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Iran",
+            "opponent": "伊朗",
             "opponentCode": "IRN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -49795,9 +49649,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -49811,9 +49665,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Haiti",
+            "opponent": "海地",
             "opponentCode": "HAI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-4",
             "goalsFor": 0,
@@ -49827,7 +49681,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
             "tournament": "FIFA Series",
             "result": "W",
@@ -49843,7 +49697,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Finland",
+            "opponent": "芬兰",
             "opponentCode": "FIN",
             "tournament": "FIFA Series",
             "result": "L",
@@ -49861,9 +49715,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-15",
-            "opponent": "Egypt",
+            "opponent": "埃及",
             "opponentCode": "EGY",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -49877,9 +49731,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -49893,9 +49747,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -49909,9 +49763,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -49925,9 +49779,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-2",
             "goalsFor": 5,
@@ -49969,9 +49823,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0.16,
-        "expertWeight": 0.08
+        "expertWeight": 0
       }
     },
     "marketSignals": {
@@ -49983,7 +49837,7 @@ window.MATCHES = [
       "bookmakers": 39,
       "averageOdds": {
         "home": 12.02,
-        "draw": 6.14,
+        "draw": 6.13,
         "away": 1.22
       },
       "impliedProbabilities": [
@@ -49992,28 +49846,19 @@ window.MATCHES = [
         77
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，39 家公司均值：主 12.02 / 平 6.14 / 客 1.22。市场倾向 比利时。"
+      "note": "已接入赔率市场，39 家公司均值：主 12.02 / 平 6.13 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Social sensation Payne signs deal with Olimpia",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49112651/new-zealand-social-sensation-payne-signs-deal-olimpia",
-          "pubDate": "Fri, 19 Jun 2026 09:16:43 EST"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 16.5,
@@ -50044,7 +49889,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -50085,9 +49930,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -50101,9 +49946,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-06",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -50117,9 +49962,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Dominican Republic",
+          "opponent": "DOM",
           "opponentCode": "DOM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -50133,9 +49978,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-05-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "2-6",
           "goalsFor": 2,
@@ -50149,9 +49994,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-31",
-          "opponent": "South Africa",
+          "opponent": "南非",
           "opponentCode": "RSA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -50195,9 +50040,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "4-2",
           "goalsFor": 4,
@@ -50211,9 +50056,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -50227,9 +50072,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "New Zealand",
+          "opponent": "新西兰",
           "opponentCode": "NZL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -50243,9 +50088,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Japan",
+          "opponent": "日本",
           "opponentCode": "JPN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-1",
           "goalsFor": 0,
@@ -50259,9 +50104,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -50312,7 +50157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -50544,9 +50389,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -50560,9 +50405,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-06",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -50576,9 +50421,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Dominican Republic",
+            "opponent": "DOM",
             "opponentCode": "DOM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -50592,9 +50437,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-05-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "2-6",
             "goalsFor": 2,
@@ -50608,9 +50453,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-31",
-            "opponent": "South Africa",
+            "opponent": "南非",
             "opponentCode": "RSA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -50626,9 +50471,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "4-2",
             "goalsFor": 4,
@@ -50642,9 +50487,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -50658,9 +50503,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "New Zealand",
+            "opponent": "新西兰",
             "opponentCode": "NZL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -50674,9 +50519,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Japan",
+            "opponent": "日本",
             "opponentCode": "JPN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-1",
             "goalsFor": 0,
@@ -50690,9 +50535,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -50808,24 +50653,17 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
-          "articles": [
-            {
-              "title": "Every team's odds to win the World Cup: England's ...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
-              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
-            }
-          ]
+          "status": "provider-needed",
+          "text": "权威伤停源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。",
+          "articles": []
         },
         "tactical": {
           "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -50866,9 +50704,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "England",
+          "opponent": "英格兰",
           "opponentCode": "ENG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "2-4",
           "goalsFor": 2,
@@ -50882,9 +50720,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Slovenia",
+          "opponent": "斯洛文尼亚",
           "opponentCode": "SVN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -50898,9 +50736,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-02",
-          "opponent": "Belgium",
+          "opponent": "比利时",
           "opponentCode": "BEL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -50914,9 +50752,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Brazil",
+          "opponent": "巴西",
           "opponentCode": "BRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -50930,9 +50768,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -50976,9 +50814,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Panama",
+          "opponent": "巴拿马",
           "opponentCode": "PAN",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -50992,9 +50830,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-02",
-          "opponent": "Wales",
+          "opponent": "威尔士",
           "opponentCode": "WAL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -51008,9 +50846,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-22",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -51024,9 +50862,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Germany",
+          "opponent": "德国",
           "opponentCode": "GER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -51040,9 +50878,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-5",
           "goalsFor": 1,
@@ -51093,7 +50931,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -51325,9 +51163,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "England",
+            "opponent": "英格兰",
             "opponentCode": "ENG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "2-4",
             "goalsFor": 2,
@@ -51341,9 +51179,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Slovenia",
+            "opponent": "斯洛文尼亚",
             "opponentCode": "SVN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -51357,9 +51195,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-02",
-            "opponent": "Belgium",
+            "opponent": "比利时",
             "opponentCode": "BEL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -51373,9 +51211,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Brazil",
+            "opponent": "巴西",
             "opponentCode": "BRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -51389,9 +51227,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -51407,9 +51245,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Panama",
+            "opponent": "巴拿马",
             "opponentCode": "PAN",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -51423,9 +51261,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-02",
-            "opponent": "Wales",
+            "opponent": "威尔士",
             "opponentCode": "WAL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -51439,9 +51277,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-22",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -51455,9 +51293,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Germany",
+            "opponent": "德国",
             "opponentCode": "GER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -51471,9 +51309,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-5",
             "goalsFor": 1,
@@ -51577,7 +51415,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.5,
@@ -51608,7 +51446,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -51649,9 +51487,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Uzbekistan",
+          "opponent": "乌兹别克斯坦",
           "opponentCode": "UZB",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -51665,9 +51503,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -51681,9 +51519,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -51697,9 +51535,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-29",
-          "opponent": "France",
+          "opponent": "法国",
           "opponentCode": "FRA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -51713,9 +51551,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-26",
-          "opponent": "Croatia",
+          "opponent": "克罗地亚",
           "opponentCode": "CRO",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -51759,9 +51597,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "DR Congo",
+          "opponent": "刚果(金)",
           "opponentCode": "COD",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -51775,9 +51613,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -51791,9 +51629,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -51807,9 +51645,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "United States",
+          "opponent": "美国",
           "opponentCode": "USA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -51823,9 +51661,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-28",
-          "opponent": "Mexico",
+          "opponent": "墨西哥",
           "opponentCode": "MEX",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -51876,7 +51714,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -52108,9 +51946,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Uzbekistan",
+            "opponent": "乌兹别克斯坦",
             "opponentCode": "UZB",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -52124,9 +51962,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -52140,9 +51978,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -52156,9 +51994,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-29",
-            "opponent": "France",
+            "opponent": "法国",
             "opponentCode": "FRA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -52172,9 +52010,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-26",
-            "opponent": "Croatia",
+            "opponent": "克罗地亚",
             "opponentCode": "CRO",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -52190,9 +52028,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "DR Congo",
+            "opponent": "刚果(金)",
             "opponentCode": "COD",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -52206,9 +52044,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -52222,9 +52060,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -52238,9 +52076,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "United States",
+            "opponent": "美国",
             "opponentCode": "USA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -52254,9 +52092,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-28",
-            "opponent": "Mexico",
+            "opponent": "墨西哥",
             "opponentCode": "MEX",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -52312,7 +52150,7 @@ window.MATCHES = [
       "bookmakers": 39,
       "averageOdds": {
         "home": 3.51,
-        "draw": 3.38,
+        "draw": 3.39,
         "away": 2.07
       },
       "impliedProbabilities": [
@@ -52321,28 +52159,22 @@ window.MATCHES = [
         45
       ],
       "marketFavorite": "葡萄牙",
-      "note": "已接入赔率市场，39 家公司均值：主 3.51 / 平 3.38 / 客 2.07。市场倾向 葡萄牙。"
+      "note": "已接入赔率市场，39 家公司均值：主 3.51 / 平 3.39 / 客 2.07。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
-        },
-        {
-          "title": "Portugal have a Ronaldo problem (again)",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49098603/portugal-cristiano-ronaldo-problem-congo-dr-roberto-martinez-fifa-world-cup-analysis",
-          "pubDate": "Thu, 18 Jun 2026 21:12:03 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -52370,7 +52202,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -52411,9 +52243,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Portugal",
+          "opponent": "葡萄牙",
           "opponentCode": "POR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -52427,9 +52259,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Chile",
+          "opponent": "智利",
           "opponentCode": "CHI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -52443,9 +52275,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Denmark",
+          "opponent": "丹麦",
           "opponentCode": "DEN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -52459,9 +52291,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Jamaica",
+          "opponent": "牙买加",
           "opponentCode": "JAM",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -52475,9 +52307,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-25",
-          "opponent": "Bermuda",
+          "opponent": "BER",
           "opponentCode": "BER",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -52521,9 +52353,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-17",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -52537,9 +52369,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-08",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -52553,9 +52385,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-01",
-          "opponent": "Canada",
+          "opponent": "加拿大",
           "opponentCode": "CAN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -52569,7 +52401,7 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-30",
-          "opponent": "Venezuela",
+          "opponent": "委内瑞拉",
           "opponentCode": "VEN",
           "tournament": "FIFA Series",
           "result": "D",
@@ -52585,7 +52417,7 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Gabon",
+          "opponent": "GAB",
           "opponentCode": "GAB",
           "tournament": "FIFA Series",
           "result": "W",
@@ -52638,7 +52470,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -52870,9 +52702,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Portugal",
+            "opponent": "葡萄牙",
             "opponentCode": "POR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -52886,9 +52718,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Chile",
+            "opponent": "智利",
             "opponentCode": "CHI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -52902,9 +52734,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Denmark",
+            "opponent": "丹麦",
             "opponentCode": "DEN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -52918,9 +52750,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Jamaica",
+            "opponent": "牙买加",
             "opponentCode": "JAM",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -52934,9 +52766,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-25",
-            "opponent": "Bermuda",
+            "opponent": "BER",
             "opponentCode": "BER",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -52952,9 +52784,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-17",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -52968,9 +52800,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-08",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -52984,9 +52816,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-01",
-            "opponent": "Canada",
+            "opponent": "加拿大",
             "opponentCode": "CAN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -53000,7 +52832,7 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-30",
-            "opponent": "Venezuela",
+            "opponent": "委内瑞拉",
             "opponentCode": "VEN",
             "tournament": "FIFA Series",
             "result": "D",
@@ -53016,7 +52848,7 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Gabon",
+            "opponent": "GAB",
             "opponentCode": "GAB",
             "tournament": "FIFA Series",
             "result": "W",
@@ -53104,7 +52936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 36.9,
@@ -53135,7 +52967,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -53176,9 +53008,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Argentina",
+          "opponent": "阿根廷",
           "opponentCode": "ARG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "0-3",
           "goalsFor": 0,
@@ -53192,9 +53024,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-10",
-          "opponent": "Bolivia",
+          "opponent": "玻利维亚",
           "opponentCode": "BOL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "4-0",
           "goalsFor": 4,
@@ -53208,9 +53040,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-03",
-          "opponent": "Netherlands",
+          "opponent": "荷兰",
           "opponentCode": "NED",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -53224,9 +53056,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Uruguay",
+          "opponent": "乌拉圭",
           "opponentCode": "URU",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "0-0",
           "goalsFor": 0,
@@ -53240,9 +53072,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Guatemala",
+          "opponent": "GUA",
           "opponentCode": "GUA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "7-0",
           "goalsFor": 7,
@@ -53286,9 +53118,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Jordan",
+          "opponent": "约旦",
           "opponentCode": "JOR",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-1",
           "goalsFor": 3,
@@ -53302,9 +53134,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-01",
-          "opponent": "Tunisia",
+          "opponent": "突尼斯",
           "opponentCode": "TUN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -53318,9 +53150,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-03-31",
-          "opponent": "South Korea",
+          "opponent": "韩国",
           "opponentCode": "KOR",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "1-0",
           "goalsFor": 1,
@@ -53334,9 +53166,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-27",
-          "opponent": "Ghana",
+          "opponent": "加纳",
           "opponentCode": "GHA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-1",
           "goalsFor": 5,
@@ -53350,9 +53182,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2025-11-18",
-          "opponent": "Bosnia and Herzegovina",
+          "opponent": "波黑",
           "opponentCode": "BIH",
-          "tournament": "FIFA World Cup qualification",
+          "tournament": "世预赛",
           "result": "D",
           "score": "1-1",
           "goalsFor": 1,
@@ -53403,7 +53235,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -53635,9 +53467,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Argentina",
+            "opponent": "阿根廷",
             "opponentCode": "ARG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "0-3",
             "goalsFor": 0,
@@ -53651,9 +53483,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-10",
-            "opponent": "Bolivia",
+            "opponent": "玻利维亚",
             "opponentCode": "BOL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "4-0",
             "goalsFor": 4,
@@ -53667,9 +53499,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-03",
-            "opponent": "Netherlands",
+            "opponent": "荷兰",
             "opponentCode": "NED",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -53683,9 +53515,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Uruguay",
+            "opponent": "乌拉圭",
             "opponentCode": "URU",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "0-0",
             "goalsFor": 0,
@@ -53699,9 +53531,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Guatemala",
+            "opponent": "GUA",
             "opponentCode": "GUA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "7-0",
             "goalsFor": 7,
@@ -53717,9 +53549,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Jordan",
+            "opponent": "约旦",
             "opponentCode": "JOR",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-1",
             "goalsFor": 3,
@@ -53733,9 +53565,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-01",
-            "opponent": "Tunisia",
+            "opponent": "突尼斯",
             "opponentCode": "TUN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -53749,9 +53581,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-03-31",
-            "opponent": "South Korea",
+            "opponent": "韩国",
             "opponentCode": "KOR",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "1-0",
             "goalsFor": 1,
@@ -53765,9 +53597,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-27",
-            "opponent": "Ghana",
+            "opponent": "加纳",
             "opponentCode": "GHA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-1",
             "goalsFor": 5,
@@ -53781,9 +53613,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2025-11-18",
-            "opponent": "Bosnia and Herzegovina",
+            "opponent": "波黑",
             "opponentCode": "BIH",
-            "tournament": "FIFA World Cup qualification",
+            "tournament": "世预赛",
             "result": "D",
             "score": "1-1",
             "goalsFor": 1,
@@ -53875,7 +53707,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 28.6,
@@ -53906,7 +53738,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -53947,9 +53779,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Austria",
+          "opponent": "奥地利",
           "opponentCode": "AUT",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "L",
           "score": "1-3",
           "goalsFor": 1,
@@ -53963,9 +53795,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-07",
-          "opponent": "Colombia",
+          "opponent": "哥伦比亚",
           "opponentCode": "COL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "0-2",
           "goalsFor": 0,
@@ -53979,9 +53811,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-05-31",
-          "opponent": "Switzerland",
+          "opponent": "瑞士",
           "opponentCode": "SUI",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-4",
           "goalsFor": 1,
@@ -53995,9 +53827,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Nigeria",
+          "opponent": "尼日利亚",
           "opponentCode": "NGA",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -54011,9 +53843,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Costa Rica",
+          "opponent": "哥斯达黎加",
           "opponentCode": "CRC",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "D",
           "score": "2-2",
           "goalsFor": 2,
@@ -54057,9 +53889,9 @@ window.MATCHES = [
         {
           "index": 1,
           "date": "2026-06-16",
-          "opponent": "Algeria",
+          "opponent": "阿尔及利亚",
           "opponentCode": "ALG",
-          "tournament": "FIFA World Cup",
+          "tournament": "世界杯",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -54073,9 +53905,9 @@ window.MATCHES = [
         {
           "index": 2,
           "date": "2026-06-09",
-          "opponent": "Iceland",
+          "opponent": "冰岛",
           "opponentCode": "ISL",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "3-0",
           "goalsFor": 3,
@@ -54089,9 +53921,9 @@ window.MATCHES = [
         {
           "index": 3,
           "date": "2026-06-06",
-          "opponent": "Honduras",
+          "opponent": "洪都拉斯",
           "opponentCode": "HON",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-0",
           "goalsFor": 2,
@@ -54105,9 +53937,9 @@ window.MATCHES = [
         {
           "index": 4,
           "date": "2026-03-31",
-          "opponent": "Zambia",
+          "opponent": "ZAM",
           "opponentCode": "ZAM",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "5-0",
           "goalsFor": 5,
@@ -54121,9 +53953,9 @@ window.MATCHES = [
         {
           "index": 5,
           "date": "2026-03-27",
-          "opponent": "Mauritania",
+          "opponent": "MTN",
           "opponentCode": "MTN",
-          "tournament": "Friendly",
+          "tournament": "友谊赛",
           "result": "W",
           "score": "2-1",
           "goalsFor": 2,
@@ -54174,7 +54006,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -54406,9 +54238,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Austria",
+            "opponent": "奥地利",
             "opponentCode": "AUT",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "L",
             "score": "1-3",
             "goalsFor": 1,
@@ -54422,9 +54254,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-07",
-            "opponent": "Colombia",
+            "opponent": "哥伦比亚",
             "opponentCode": "COL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "0-2",
             "goalsFor": 0,
@@ -54438,9 +54270,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-05-31",
-            "opponent": "Switzerland",
+            "opponent": "瑞士",
             "opponentCode": "SUI",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-4",
             "goalsFor": 1,
@@ -54454,9 +54286,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Nigeria",
+            "opponent": "尼日利亚",
             "opponentCode": "NGA",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -54470,9 +54302,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Costa Rica",
+            "opponent": "哥斯达黎加",
             "opponentCode": "CRC",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "D",
             "score": "2-2",
             "goalsFor": 2,
@@ -54488,9 +54320,9 @@ window.MATCHES = [
           {
             "index": 1,
             "date": "2026-06-16",
-            "opponent": "Algeria",
+            "opponent": "阿尔及利亚",
             "opponentCode": "ALG",
-            "tournament": "FIFA World Cup",
+            "tournament": "世界杯",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -54504,9 +54336,9 @@ window.MATCHES = [
           {
             "index": 2,
             "date": "2026-06-09",
-            "opponent": "Iceland",
+            "opponent": "冰岛",
             "opponentCode": "ISL",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "3-0",
             "goalsFor": 3,
@@ -54520,9 +54352,9 @@ window.MATCHES = [
           {
             "index": 3,
             "date": "2026-06-06",
-            "opponent": "Honduras",
+            "opponent": "洪都拉斯",
             "opponentCode": "HON",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-0",
             "goalsFor": 2,
@@ -54536,9 +54368,9 @@ window.MATCHES = [
           {
             "index": 4,
             "date": "2026-03-31",
-            "opponent": "Zambia",
+            "opponent": "ZAM",
             "opponentCode": "ZAM",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "5-0",
             "goalsFor": 5,
@@ -54552,9 +54384,9 @@ window.MATCHES = [
           {
             "index": 5,
             "date": "2026-03-27",
-            "opponent": "Mauritania",
+            "opponent": "MTN",
             "opponentCode": "MTN",
-            "tournament": "Friendly",
+            "tournament": "友谊赛",
             "result": "W",
             "score": "2-1",
             "goalsFor": 2,
@@ -54609,7 +54441,7 @@ window.MATCHES = [
       "commenceTime": "2026-06-28T02:00:00Z",
       "bookmakers": 39,
       "averageOdds": {
-        "home": 13.68,
+        "home": 13.7,
         "draw": 6.7,
         "away": 1.19
       },
@@ -54619,7 +54451,7 @@ window.MATCHES = [
         79
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，39 家公司均值：主 13.68 / 平 6.7 / 客 1.19。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，39 家公司均值：主 13.7 / 平 6.7 / 客 1.19。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -54680,7 +54512,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -54908,7 +54740,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -55299,7 +55131,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -55527,7 +55359,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -55896,7 +55728,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.3,
@@ -55927,7 +55759,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -56155,7 +55987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -56546,7 +56378,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -56774,7 +56606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -57165,7 +56997,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -57393,7 +57225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -57784,7 +57616,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58012,7 +57844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -58403,7 +58235,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58631,7 +58463,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -59000,7 +58832,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.6,
@@ -59031,7 +58863,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -59259,7 +59091,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -59628,7 +59460,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 35.7,
@@ -59659,7 +59491,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -59887,7 +59719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -60256,7 +60088,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.4,
@@ -60287,7 +60119,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60515,7 +60347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -60906,7 +60738,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61134,7 +60966,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -61525,7 +61357,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61753,7 +61585,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -62122,7 +61954,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 32.7,
@@ -62153,7 +61985,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62381,7 +62213,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -62750,7 +62582,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -62781,7 +62613,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63009,7 +62841,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -63400,7 +63232,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63628,7 +63460,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -64019,7 +63851,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64247,7 +64079,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -64616,7 +64448,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-19T16:04:34.506Z",
+        "fetchedAt": "2026-06-19T16:17:25.717Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 31.4,
@@ -64647,7 +64479,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64875,7 +64707,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -65269,7 +65101,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65497,7 +65329,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -65891,7 +65723,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -66119,7 +65951,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -66510,7 +66342,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -66738,7 +66570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -67132,7 +66964,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67360,7 +67192,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -67751,7 +67583,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67979,7 +67811,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -68373,7 +68205,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -68601,7 +68433,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -68995,7 +68827,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69223,7 +69055,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -69617,7 +69449,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69845,7 +69677,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -70236,7 +70068,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70464,7 +70296,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -70855,7 +70687,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71083,7 +70915,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -71474,7 +71306,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71702,7 +71534,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -72096,7 +71928,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72324,7 +72156,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -72715,7 +72547,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72943,7 +72775,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -73337,7 +73169,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73565,7 +73397,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -73956,7 +73788,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74184,7 +74016,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-19T16:04:34.506Z",
+      "fetchedAt": "2026-06-19T16:17:25.717Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -74575,7 +74407,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-19T16:04:34.506Z"
+      "updatedAt": "2026-06-19T16:17:25.717Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
