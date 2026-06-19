@@ -526,6 +526,7 @@ function teamFromName(name, teamIndex) {
       date: r.date,
       opponent: r.opponent || "",
       opponentCode: r.opponentCode || "",
+      opponentRank: r.opponentRank || null,
       tournament: r.tournament || "",
       result: r.result,
       score: r.score,

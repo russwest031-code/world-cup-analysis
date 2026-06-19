@@ -263,7 +263,7 @@
           '<td><small>' + (g.date || "").slice(5) + '</small></td>' +
           '<td><b class="result-' + cls + '">' + resultZh + '</b></td>' +
           '<td><strong>' + g.score + '</strong></td>' +
-          '<td>' + (g.opponent || "-") + '</td>' +
+          '<td>' + (g.opponent || "-") + (g.opponentRank ? ' <small>(' + g.opponentRank + ')</small>' : '') + '</td>' +
           '<td><small>' + (g.tournament || "") + '</small></td>' +
         '</tr>';
       }).join("");

@@ -243,6 +243,7 @@ function buildTeamData(matches, targetCodes) {
         date: m.date,
         opponent: opponentZh(opponentCode),
         opponentCode,
+        opponentRank: FIFA_RANKINGS[opponentCode] || null,
         tournament: tournamentZh(m.tournament),
         result: gf > ga ? "W" : gf < ga ? "L" : "D",
         score: `${gf}-${ga}`,
