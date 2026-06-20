@@ -415,8 +415,8 @@ function poisson(lambda, goals) {
 
 // Dixon-Coles (1997) adjustment: corrects Poisson independence for low-scoring draws
 // ρ (rho) accounts for the correlation between team scores in close matches
-// Typical ρ for World Cup: 0.10–0.15
-const DIXON_COLES_RHO = 0.13;
+// Typical ρ for World Cup: 0.10–0.18. Higher = more draws.
+const DIXON_COLES_RHO = 0.17;
 
 function scoreMatrix(homeGoals, awayGoals) {
   const lh = homeGoals;
@@ -1295,7 +1295,7 @@ function oddsForMatch(match, oddsContext) {
   return {
     status: "connected",
     provider: oddsContext.provider,
-    weight: 0.28,
+    weight: 0.36,
     eventId: event.id,
     commenceTime: event.commence_time,
     bookmakers: event.bookmakers?.length || 0,
@@ -1634,7 +1634,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const closeMatchBonus = (1 - Math.abs(homeShare - 0.5) * 2) * 0.18;
   const lowScoreBonus = Math.max(0, (3.0 - totalGoals) * 0.10);
   const drawBoost = closeMatchBonus + lowScoreBonus;
-  adjustedDraw *= clamp(1 + motivation.drawValue * 0.40 - motivation.intensity * 0.08 + drawBoost, 0.88, 1.55);
+  adjustedDraw *= clamp(1 + motivation.drawValue * 0.45 - motivation.intensity * 0.04 + drawBoost, 0.90, 1.55);
   adjustedWin *= clamp(1 + (motivation.home?.intensity || 0) * 0.08 + (motivation.home?.goalNeed || 0) * 0.07, 0.9, 1.18);
   adjustedAway *= clamp(1 + (motivation.away?.intensity || 0) * 0.08 + (motivation.away?.goalNeed || 0) * 0.07, 0.9, 1.18);
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
