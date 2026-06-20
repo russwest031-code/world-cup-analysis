@@ -1626,6 +1626,20 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
+
+  // Draw redistribution: when the match is close, shift probability from win/loss to draw
+  const maxProb = Math.max(...probabilities);
+  const maxIdx = probabilities.indexOf(maxProb);
+  const drawProb = probabilities[1];
+  if (drawProb > 15 && maxProb < 50) {
+    const shift = Math.round(Math.min(maxProb - drawProb, 8) * 0.5);
+    if (shift > 0 && (maxIdx === 0 || maxIdx === 2)) {
+      probabilities[1] += shift;
+      probabilities[maxIdx] -= shift;
+      probabilities[0] += 100 - probabilities.reduce((s, v) => s + v, 0); // re-normalize
+    }
+  }
+
   const modelOnlyProbabilities = probabilities.slice();
 
   // ── External signals ──
