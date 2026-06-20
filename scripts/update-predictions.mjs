@@ -413,12 +413,26 @@ function poisson(lambda, goals) {
   return (Math.exp(-lambda) * Math.pow(lambda, goals)) / factorial;
 }
 
+// Dixon-Coles (1997) adjustment: corrects Poisson independence for low-scoring draws
+// ρ (rho) accounts for the correlation between team scores in close matches
+// Typical ρ for World Cup: 0.10–0.15
+const DIXON_COLES_RHO = 0.13;
+
 function scoreMatrix(homeGoals, awayGoals) {
+  const lh = homeGoals;
+  const la = awayGoals;
   const rows = [];
   let total = 0;
   for (let h = 0; h <= 5; h += 1) {
     for (let a = 0; a <= 5; a += 1) {
-      const probability = poisson(homeGoals, h) * poisson(awayGoals, a);
+      let probability = poisson(lh, h) * poisson(la, a);
+      // Dixon-Coles adjustment for low scores
+      if (h === 0 && a === 0) probability *= (1 + lh * la * DIXON_COLES_RHO);
+      else if (h === 1 && a === 0) probability *= (1 - la * DIXON_COLES_RHO);
+      else if (h === 0 && a === 1) probability *= (1 - lh * DIXON_COLES_RHO);
+      else if (h === 1 && a === 1) probability *= (1 + DIXON_COLES_RHO);
+      // Clamp to prevent negative probabilities
+      probability = Math.max(0, probability);
       rows.push({ h, a, probability });
       total += probability;
     }
@@ -1839,7 +1853,7 @@ function serialize(matches, metaOverrides = {}, backtestData = null) {
     source: "openfootball-worldcup-json",
     externalFetchedAt: now.toISOString(),
     externalMatchCount: matches.length,
-    model: "ten-factor-weighted-poisson-v2",
+    model: "ten-factor-dixon-coles-v3",
     rulesModel: "wc2026-group-qualification-v1",
     marketSignals: "not-connected",
     expertSignals: "not-connected",
