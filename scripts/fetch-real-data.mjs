@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadShotData } from "./fetch-shot-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const resultsPath = path.join(root, "scripts", "data", "kaggle-results.csv");
@@ -245,6 +246,11 @@ function buildTeamData(matches, targetCodes) {
     // Form score: win rate normalized
     team.formScore = Math.round(50 + (team.winRate - 30) * 0.8);
 
+    // Store raw goals-based metrics for fallback
+    team.attackRaw = team.attack;
+    team.defenseRaw = team.defense;
+    team.midfieldRaw = team.midfield;
+
     // Recent 5 form
     team.recentForm = team.matches.slice(0, 5).map(m => {
       const gf = m.side === "home" ? m.homeScore : m.awayScore;
@@ -302,6 +308,32 @@ export function loadRealTeamData(targetCodes) {
   console.log(`Parsed ${allMatches.length} matches with actual scores.`);
 
   const teamData = buildTeamData(allMatches, targetCodes);
+
+  // Blend real shot/possession data from AFCON 2025-26 where available
+  const shotData = loadShotData();
+  if (shotData) {
+    for (const [code, team] of teamData) {
+      const shots = shotData.get(code);
+      if (shots && shots.matches >= 2) {
+        // Attack: 60% goals-based + 40% shot-based (shots per game normalised to 50-95)
+        const shotAttack = Math.round(50 + Math.min(shots.avgShotsPerGame / 18 * 45, 45));
+        team.attack = Math.round(team.attackRaw * 0.6 + shotAttack * 0.4);
+        // Defense: blend shot accuracy into defense evaluation
+        const shotDefense = Math.round(50 + shots.shotAccuracy * 0.4);
+        team.defense = Math.round(team.defenseRaw * 0.7 + shotDefense * 0.3);
+        // Midfield: blend possession data
+        const possMid = Math.round(shots.avgPossession);
+        team.midfield = Math.round(team.midfieldRaw * 0.5 + possMid * 0.5);
+        // Store source info
+        team.shotDataSource = "AFCON 2025-26";
+        team.shotsPerGame = shots.avgShotsPerGame;
+        team.shotAccuracy = shots.shotAccuracy;
+        team.possession = shots.avgPossession;
+      }
+    }
+    console.log(`Shot data blended for ${[...teamData.values()].filter(t=>t.shotDataSource).length} teams.`);
+  }
+
   const rankings = computeRankings(teamData);
   console.log(`Computed data for ${teamData.size} teams.`);
 
