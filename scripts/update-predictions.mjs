@@ -3,6 +3,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 import { loadRealTeamData } from "./fetch-real-data.mjs";
+import { loadESPNStats } from "./fetch-espn-stats.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
@@ -1832,8 +1833,16 @@ function serialize(matches, metaOverrides = {}) {
 async function main() {
   // Load real match data to replace synthetic PROFILE
   const wc48Codes = Object.keys(PROFILE);
+  // Load ESPN WC2026 live stats first (shot/possession data from completed matches)
+  let espnStats = null;
   try {
-    const realData = loadRealTeamData(wc48Codes);
+    espnStats = await loadESPNStats();
+    console.log(`ESPN WC2026 stats loaded: ${espnStats?.size || 0} teams`);
+  } catch (err) {
+    console.warn(`ESPN stats unavailable: ${err.message}`);
+  }
+  try {
+    const realData = loadRealTeamData(wc48Codes, espnStats);
     if (realData) {
       realDataCache = realData;
       console.log(`Real team data loaded: ${realData.teamData.size} teams, ${realData.rankings.size} rankings.`);

@@ -297,7 +297,7 @@ function computeRankings(teamData) {
 }
 
 // ---- Main export ----
-export function loadRealTeamData(targetCodes) {
+export function loadRealTeamData(targetCodes, espnStats = null) {
   if (!fs.existsSync(resultsPath)) {
     console.warn("Kaggle results CSV not found, cannot load real data.");
     return null;
@@ -309,44 +309,63 @@ export function loadRealTeamData(targetCodes) {
 
   const teamData = buildTeamData(allMatches, targetCodes);
 
-  // Blend real shot/possession data from AFCON 2025-26 where available
+  // Priority 1: ESPN WC2026 live stats (real shot/possession from THIS tournament)
+  if (espnStats && espnStats.size > 0) {
+    for (const [code, team] of teamData) {
+      const espn = espnStats.get(code);
+      if (espn && espn.matches >= 1) {
+        // Attack: 70% ESPN shot-based + 30% goals-based
+        const espnAttack = Math.round(50 + Math.min(espn.avgShots / 15 * 45, 45));
+        const espnSOT = Math.round(50 + Math.min(espn.avgShotsOnTarget / 7 * 45, 45));
+        team.attack = Math.round(espnAttack * 0.6 + espnSOT * 0.2 + team.attackRaw * 0.2);
+        // Defense: blend possession and clean sheets
+        const possDefense = Math.round(50 + espn.avgPossession * 0.4);
+        team.defense = Math.round(team.defenseRaw * 0.5 + possDefense * 0.5);
+        // Midfield: possession-driven
+        team.midfield = Math.round(espn.avgPossession * 0.7 + team.midfieldRaw * 0.3);
+        team.shotDataSource = `ESPN WC2026 (${espn.matches}场)`;
+        team.shotsPerGame = espn.avgShots;
+        team.shotsOnTarget = espn.avgShotsOnTarget;
+        team.possession = espn.avgPossession;
+        team.shotAccuracy = espn.shotAccuracy;
+      }
+    }
+    console.log(`ESPN data blended for ${[...teamData.values()].filter(t=>t.shotDataSource?.startsWith('ESPN')).length} teams.`);
+  }
+
+  // Priority 2: AFCON 2025-26 shot data (for teams not covered by ESPN)
   const shotData = loadShotData();
   if (shotData) {
     for (const [code, team] of teamData) {
+      if (team.shotDataSource?.startsWith("ESPN")) continue; // ESPN is better
       const shots = shotData.get(code);
       if (shots && shots.matches >= 2) {
-        // Attack: 60% goals-based + 40% shot-based (shots per game normalised to 50-95)
         const shotAttack = Math.round(50 + Math.min(shots.avgShotsPerGame / 18 * 45, 45));
         team.attack = Math.round(team.attackRaw * 0.6 + shotAttack * 0.4);
-        // Defense: blend shot accuracy into defense evaluation
         const shotDefense = Math.round(50 + shots.shotAccuracy * 0.4);
         team.defense = Math.round(team.defenseRaw * 0.7 + shotDefense * 0.3);
-        // Midfield: blend possession data
         const possMid = Math.round(shots.avgPossession);
         team.midfield = Math.round(team.midfieldRaw * 0.5 + possMid * 0.5);
-        // Store source info
         team.shotDataSource = "AFCON 2025-26";
         team.shotsPerGame = shots.avgShotsPerGame;
         team.shotAccuracy = shots.shotAccuracy;
         team.possession = shots.avgPossession;
       }
     }
-    console.log(`Shot data blended for ${[...teamData.values()].filter(t=>t.shotDataSource).length} teams.`);
+    console.log(`AFCON data blended for ${[...teamData.values()].filter(t=>t.shotDataSource==='AFCON 2025-26').length} teams.`);
   }
 
-  // Blend 2022 World Cup xG data where available
+  // Priority 3: 2022 World Cup xG (fallback for remaining teams)
   const xgData = loadXGData();
   if (xgData) {
     for (const [code, team] of teamData) {
+      if (team.shotDataSource) continue; // already have better data
       const xg = xgData.get(code);
       if (xg && xg.matches >= 2) {
-        // Attack: 50% opponent-adjusted goals + 50% xG-based (normalized)
         const xgAttack = Math.round(50 + Math.min(xg.avgXG / 3.0 * 45, 45));
         team.attack = Math.round(team.attack * 0.5 + xgAttack * 0.5);
-        // Defense: blend xGA
         const xgDefense = Math.round(95 - Math.min(xg.avgXGA / 2.5 * 45, 45));
         team.defense = Math.round(team.defense * 0.5 + xgDefense * 0.5);
-        // xG diff contributes to midfield
         const xgMid = Math.round(50 + xg.xgDiff * 12);
         team.midfield = Math.round(team.midfield * 0.5 + xgMid * 0.5);
         team.xgDataSource = "WC 2022 xG";
