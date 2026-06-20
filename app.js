@@ -54,6 +54,7 @@
       var probs = match.probabilities;
       var primaryScore = (match.scoreOdds && match.scoreOdds[0]) ? match.scoreOdds[0] : null;
       var altScores = (match.scoreOdds || []).slice(1, 4);
+      var topBand = (match.scoreBands && match.scoreBands[0]) ? match.scoreBands[0] : null;
       var conf = confidenceLabel(match.confidence);
 
       var scoreHTML = "";
@@ -75,6 +76,9 @@
           }).join("") +
         '</div>';
       }
+      var bandHTML = topBand
+        ? '<div class="score-band-pill"><small>比分区间</small><strong>' + topBand.label + '</strong><span>' + topBand.chance + '% · ' + (topBand.examples || []).join(" / ") + '</span></div>'
+        : '';
 
       var wdlHTML = '<div class="wdl-bars">' +
         ['胜', '平', '负'].map(function (label, i) {
@@ -118,6 +122,7 @@
         '</div>' +
         scoreHTML +
         altsHTML +
+        bandHTML +
         wdlHTML +
         metaHTML +
         '<p class="analysis-summary">' + sanitizeDisplayText(match.summary || "") + '</p>' +
@@ -230,6 +235,7 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>比分分布</h3><small>模型概率</small></div>' +
           '<div class="score-grid">' + match.scoreOdds.map(function (item) { return '<div class="score-card"><strong>' + item.score + '</strong><span>' + item.chance + '%</span></div>'; }).join("") + '</div>' +
+          ((match.scoreBands || []).length ? '<div class="score-band-grid">' + match.scoreBands.map(function (item) { return '<div class="score-band-card"><strong>' + item.label + '</strong><span>' + item.chance + '%</span><small>' + (item.examples || []).join(" / ") + '</small></div>'; }).join("") + '</div>' : '') +
         '</section>' +
 
         // Section 5: 出线动机与比赛目标
@@ -786,6 +792,7 @@
             metric("胜平负命中", (backtest.outcomeHitRate ?? "-") + "%", "模型主方向") +
             metric("平局召回", (backtest.drawRecall ?? "-") + "%", "实际平局识别") +
             metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
+            metric("区间覆盖", (backtest.scoreBandCoverage ?? "-") + "%", "Top3比分区间") +
             metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
             metric("Log Loss", backtest.averageLogLoss ?? "-", "概率惩罚") +
             metric("赛前锁定", backtest.lockedPredictionCount || 0, "用于严谨回测") +
@@ -813,8 +820,8 @@
               return '<div class="backtest-row">' +
                 '<strong>' + row.match + '</strong>' +
                 '<div><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
-                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "比分覆盖" : "比分未覆盖") + '</span></div>' +
-                '<small>概率 ' + row.probabilities.join(" / ") + '% · Brier ' + row.brier + (row.predictionSource === "locked-pre-match" ? ' · 赛前锁定' : ' · 当前模型') + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
+                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span></div>' +
+                '<small>概率 ' + row.probabilities.join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.predictionSource === "locked-pre-match" ? ' · 赛前锁定' : ' · 当前模型') + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
               '</div>';
             }).join("") +
           '</div>' +

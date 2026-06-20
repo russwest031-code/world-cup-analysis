@@ -89,6 +89,10 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .score-alt { background: rgba(255,255,255,.035); border: 1px solid var(--line); border-radius: 10px; padding: 5px 10px; font-size: 12px; }
 .score-alt strong { color: var(--text); }
 .score-alt small { color: var(--muted); margin-left: 3px; }
+.score-band-pill { margin: -5px 0 14px; padding: 10px 12px; border-radius: 14px; border: 1px solid rgba(22,138,85,.16); background: rgba(22,138,85,.06); display: grid; grid-template-columns: auto 1fr; gap: 2px 9px; align-items: baseline; }
+.score-band-pill small { color: var(--muted); font-size: 8.5px; text-transform: uppercase; letter-spacing: .08em; }
+.score-band-pill strong { color: var(--accent); font-size: 13px; }
+.score-band-pill span { grid-column: 2; color: var(--muted); font-size: 9px; }
 .wdl-bars { display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; margin-bottom: 14px; }
 .wdl-bar-item { text-align: center; }
 .wdl-bar-item span { display: block; font-size: 9px; color: var(--muted); margin-bottom: 5px; }
@@ -151,6 +155,11 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 
 /* Detail: score grid */
 .score-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 7px; }.score-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 13px 5px; text-align: center; }.score-card strong { display: block; font-size: 20px; }.score-card span { color: var(--muted); font-size: 9px; }.score-card:first-child { border-color: rgba(184,242,61,.3); }.score-card:first-child strong { color: var(--accent); }
+.score-band-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; margin-top: 10px; }
+.score-band-card { background: #fff; border: 1px solid rgba(22,138,85,.14); border-radius: 16px; padding: 12px; box-shadow: 0 10px 24px rgba(16,36,28,.045); }
+.score-band-card strong { display: block; color: var(--accent); font-size: 13px; }
+.score-band-card span { display: block; color: var(--text); font-size: 18px; font-weight: 900; margin-top: 4px; }
+.score-band-card small { display: block; color: var(--muted); font-size: 9px; margin-top: 4px; }
 
 /* Detail: insights */
 .insight-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }.insight-list li { padding: 13px 14px 13px 37px; border-bottom: 1px solid var(--line); position: relative; color: #c3d0ca; font-size: 12px; line-height: 1.6; }.insight-list li:before { content: counter(list-item, decimal-leading-zero); position: absolute; left: 4px; color: var(--accent); font-size: 9px; font-weight: 800; top: 16px; }

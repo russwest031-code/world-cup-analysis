@@ -515,6 +515,45 @@ function scoreOddsFromMatrix(matrix, probabilities, expectedTotalGoals, limit = 
     .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(1, Math.round(row.probability * 100)) }));
 }
 
+function scoreBandForGoals(home, away) {
+  const total = home + away;
+  const diff = home - away;
+  if (diff === 0) return total <= 2 ? "低比分平局" : "高比分平局";
+  if (diff > 0) {
+    if (diff >= 3) return "主队大胜";
+    if (total >= 4) return "主队对攻胜";
+    return "主队小胜";
+  }
+  if (Math.abs(diff) >= 3) return "客队大胜";
+  if (total >= 4) return "客队对攻胜";
+  return "客队小胜";
+}
+
+function scoreBandsFromMatrix(matrix, limit = 3) {
+  const bands = new Map();
+  for (const row of matrix) {
+    const label = scoreBandForGoals(row.h, row.a);
+    if (!bands.has(label)) bands.set(label, { label, probability: 0, examples: [] });
+    const band = bands.get(label);
+    band.probability += row.probability;
+    band.examples.push(row);
+  }
+  return [...bands.values()]
+    .map(band => {
+      const examples = band.examples
+        .sort((a, b) => b.probability - a.probability)
+        .slice(0, 3)
+        .map(row => `${row.h}-${row.a}`);
+      return {
+        label: band.label,
+        chance: Math.max(1, Math.round(band.probability * 100)),
+        examples
+      };
+    })
+    .sort((a, b) => b.chance - a.chance)
+    .slice(0, limit);
+}
+
 function pct(value) {
   return Math.round(value * 100);
 }
@@ -1860,6 +1899,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── Score distribution ──
   const calibratedMatrix = calibrateScoreMatrixToOutcome(matrix, probabilities);
   const scoreOdds = scoreOddsFromMatrix(calibratedMatrix, probabilities, homeGoals + awayGoals, 4);
+  const scoreBands = scoreBandsFromMatrix(calibratedMatrix, 3);
   const expandedMarkets = expandedMarketsFromMatrix(calibratedMatrix, probabilities, homeGoals, awayGoals);
 
   // ── Confidence (deterministic, no random noise) ──
@@ -1886,6 +1926,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     tag,
     summary,
     scoreOdds,
+    scoreBands,
     expandedMarkets,
     marketCalibration,
     motivation,
@@ -1986,6 +2027,7 @@ function updatePredictionLocks(matches) {
         confidence: match.confidence,
         tag: match.tag,
         scoreOdds: match.scoreOdds,
+        scoreBands: match.scoreBands,
         expectedGoals: match.expectedGoals,
         marketSignals: match.marketSignals,
         marketCalibration: match.marketCalibration
@@ -2023,10 +2065,16 @@ function calculateBacktest(matches, predictionLocks = null) {
     const locked = predictionLocks?.matches?.[match.id]?.prediction || null;
     const evaluationProbabilities = locked?.probabilities || match.probabilities;
     const evaluationScoreOdds = locked?.scoreOdds || match.scoreOdds || [];
+    const evaluationScoreBands = locked?.scoreBands || match.scoreBands || [];
     const evaluationMarketSignals = locked?.marketSignals || match.marketSignals || {};
     const predicted = evaluationProbabilities.indexOf(Math.max(...evaluationProbabilities));
     const actualScore = match.actualScore;
     const topScores = evaluationScoreOdds.map(item => item.score);
+    const [actualHomeGoals, actualAwayGoals] = String(actualScore).split("-").map(Number);
+    const actualScoreBand = Number.isFinite(actualHomeGoals) && Number.isFinite(actualAwayGoals)
+      ? scoreBandForGoals(actualHomeGoals, actualAwayGoals)
+      : "";
+    const topBands = evaluationScoreBands.map(item => item.label);
     const market = evaluationMarketSignals?.impliedProbabilities || null;
     const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
     return {
@@ -2038,13 +2086,16 @@ function calculateBacktest(matches, predictionLocks = null) {
       predictedOutcome: ["主胜", "平局", "客胜"][predicted],
       outcomeHit: actual === predicted,
       actualScore,
+      actualScoreBand,
       topScoreHit: topScores.includes(actualScore),
+      scoreBandHit: actualScoreBand ? topBands.includes(actualScoreBand) : false,
       confidence: locked?.confidence ?? match.confidence,
       brier: Number(brierScore(evaluationProbabilities, actual).toFixed(4)),
       logLoss: Number(logLoss(evaluationProbabilities, actual).toFixed(4)),
       marketOutcome: marketPredicted === null ? "" : ["主胜", "平局", "客胜"][marketPredicted],
       marketHit: marketPredicted === null ? null : marketPredicted === actual,
       probabilities: evaluationProbabilities,
+      scoreBands: evaluationScoreBands,
       marketProbabilities: market
     };
   });
@@ -2090,6 +2141,7 @@ function calculateBacktest(matches, predictionLocks = null) {
     highConfidenceCount: high.length,
     highConfidenceHitRate: hitRate(high),
     topScoreCoverage: Math.round(rows.filter(row => row.topScoreHit).length / count * 100),
+    scoreBandCoverage: Math.round(rows.filter(row => row.scoreBandHit).length / count * 100),
     averageBrier: Number((rows.reduce((sum, row) => sum + row.brier, 0) / count).toFixed(4)),
     averageLogLoss: Number((rows.reduce((sum, row) => sum + row.logLoss, 0) / count).toFixed(4)),
     drawRecall: outcomeBreakdown.find(item => item.outcome === "平局")?.hitRate ?? null,
