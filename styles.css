@@ -383,6 +383,20 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .shot-stats-mini b { color: var(--accent); font-size: 13px; margin-left: 2px; }
 .shot-stats-mini small { width: 100%; font-size: 8px; color: var(--muted); margin-top: 2px; }
 
+/* ─── Match Autopsy ─── */
+.autopsy-box { padding: 16px; border-radius: 16px; border: 1px solid var(--line); margin-top: 0; }
+.autopsy-correct { border-left: 3px solid var(--accent); background: rgba(22,138,85,.03); }
+.autopsy-wrong { border-left: 3px solid var(--warn); background: rgba(183,121,31,.03); }
+.autopsy-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.autopsy-icon { font-size: 18px; font-weight: 900; }
+.autopsy-correct .autopsy-icon { color: var(--accent); }
+.autopsy-wrong .autopsy-icon { color: var(--warn); }
+.autopsy-head strong { font-size: 14px; }
+.autopsy-text { margin: 0 0 10px; font-size: 12px; line-height: 1.7; color: var(--text); }
+.autopsy-factors { font-size: 11px; padding: 6px 10px; border-radius: 8px; margin-top: 6px; }
+.autopsy-factors.right { background: rgba(22,138,85,.06); color: var(--accent); }
+.autopsy-factors.wrong { background: rgba(183,121,31,.06); color: var(--warn); }
+
 /* ─── Data Source Note ─── */
 .data-source-note { margin: 8px 0 0; padding: 8px 12px; border-radius: 10px; background: rgba(22,138,85,.06); color: var(--accent); font-size: 9px; line-height: 1.5; }
 
@@ -475,6 +489,11 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 
 /* Light theme: shot stats */
 .shot-stats-mini { background: #fff; border-color: var(--line); box-shadow: 0 8px 20px rgba(16,36,28,.04); }
+/* Light theme: autopsy */
+.autopsy-correct { background: rgba(22,138,85,.02); }
+.autopsy-wrong { background: rgba(183,121,31,.02); }
+.autopsy-factors.right { background: rgba(22,138,85,.08); }
+.autopsy-factors.wrong { background: rgba(183,121,31,.08); }
 
 /* Responsive */
 @media (min-width: 681px) { body { padding: 24px 0; }.app-shell { min-height: calc(100vh - 48px); border-radius: 32px; box-shadow: 0 30px 90px rgba(16,36,28,.16); } }

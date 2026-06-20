@@ -1811,7 +1811,7 @@ function calculateBacktest(matches) {
   };
 }
 
-function serialize(matches, metaOverrides = {}) {
+function serialize(matches, metaOverrides = {}, backtestData = null) {
   const meta = {
     updatedAt: now.toISOString(),
     runDate,
@@ -1832,7 +1832,8 @@ function serialize(matches, metaOverrides = {}) {
     meta.externalFetchedAt = null;
   }
   const backtest = calculateBacktest(matches);
-  return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.ANALYSIS_BACKTEST = ${JSON.stringify(backtest, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n`;
+  const backtestBlock = backtestData ? `\nwindow.ANALYSIS_BACKTEST = ${JSON.stringify(backtestData, null, 2)};\n` : "";
+  return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n${backtestBlock}`;
 }
 
 async function main() {
@@ -1898,8 +1899,53 @@ async function main() {
     liveInjuryCount: live.injuryCount || 0
   };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live }, matches));
-  fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}`);
+
+  // Loop 1: Backtest completed matches, auto-adjust weights if needed
+  let backtestData = null;
+  try {
+    const { runBacktest } = await import("./loop-backtest.mjs");
+    backtestData = runBacktest();
+    if (backtestData) {
+      console.log(`Backtest: ${backtestData.accuracy}% accuracy (${backtestData.correct}/${backtestData.totalMatches})`);
+      if (backtestData.needsAdjust) {
+        console.log("Auto-adjusting weights:", JSON.stringify(backtestData.adjustments));
+      }
+    }
+  } catch (err) {
+    console.warn(`Backtest skipped: ${err.message}`);
+  }
+
+  // Loop 2: Generate match autopsies for completed matches
+  let autopsyData = null;
+  try {
+    const { runAutopsy } = await import("./loop-autopsy.mjs");
+    autopsyData = runAutopsy();
+    if (autopsyData) {
+      // Merge autopsy text into each match
+      const autopsyMap = new Map(autopsyData.map(a => [a.matchId, a]));
+      for (const m of refreshed) {
+        const a = autopsyMap.get(m.id);
+        if (a) m.matchAutopsy = a;
+      }
+      console.log(`Autopsy: ${autopsyData.length} matches analyzed`);
+    }
+  } catch (err) {
+    console.warn(`Autopsy skipped: ${err.message}`);
+  }
+
+  fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides, backtestData), "utf8");
+  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}; backtest=${backtestData?.accuracy || "N/A"}%`);
+
+  // Loop 3: Self-check
+  try {
+    const { runGuard } = await import("./loop-guard.mjs");
+    const guardResult = await runGuard();
+    if (!guardResult.allOk) {
+      console.warn("Guard check found issues — see above.");
+    }
+  } catch (err) {
+    console.warn(`Guard skipped: ${err.message}`);
+  }
 }
 
 await main();

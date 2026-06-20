@@ -241,6 +241,9 @@
         // Section 7: 扩展市场与赔率校准
         renderMarketsAndCalibration(match) +
 
+        // Section 8: 比赛复盘（仅已完赛）
+        renderAutopsy(match) +
+
         // Section 8: 比赛情景推演
         renderScenarios(match) +
 
@@ -454,6 +457,28 @@
   }
 
   // ─── DETAIL: 出线动机与比赛目标 ───
+  function renderAutopsy(match) {
+    var a = match.matchAutopsy;
+    if (!a) return "";
+    var icon = a.correct ? "✓" : "✗";
+    var cls = a.correct ? "autopsy-correct" : "autopsy-wrong";
+    var factorsHTML = "";
+    if (a.rightFactors && a.rightFactors.length) {
+      factorsHTML += '<div class="autopsy-factors right"><strong>判断正确：</strong>' + a.rightFactors.join("、") + '</div>';
+    }
+    if (a.wrongFactors && a.wrongFactors.length) {
+      factorsHTML += '<div class="autopsy-factors wrong"><strong>判断错误：</strong>' + a.wrongFactors.join("、") + '</div>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>比赛复盘</h3><small>模型 vs 真实结果</small></div>' +
+      '<div class="autopsy-box ' + cls + '">' +
+        '<div class="autopsy-head"><span class="autopsy-icon">' + icon + '</span><strong>' + (a.correct ? "模型预测正确" : "模型预测偏差") + '</strong></div>' +
+        '<p class="autopsy-text">' + (a.text || "") + '</p>' +
+        factorsHTML +
+      '</div>' +
+    '</section>';
+  }
+
   function renderMotivation(match) {
     var m = match.motivation || {};
     var home = m.home || {};
