@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-20T12:41:27.185Z",
+  "updatedAt": "2026-06-20T12:56:03.836Z",
   "runDate": "2026-06-20",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-20T12:41:27.185Z",
+  "externalFetchedAt": "2026-06-20T12:56:03.836Z",
   "externalMatchCount": 104,
   "model": "ten-factor-weighted-poisson-v2",
   "rulesModel": "wc2026-group-qualification-v1",
@@ -19,7 +19,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 40,
   "expertProvider": "public-rss",
-  "expertArticleCount": 45,
+  "expertArticleCount": 63,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 45,
   "liveTeamNewsProvider": "API-Football",
@@ -29,7 +29,7 @@ window.ANALYSIS_META = {
 };
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-20T12:41:27.185Z",
+  "updatedAt": "2026-06-20T12:56:03.836Z",
   "completedCount": 32,
   "outcomeHitRate": 59,
   "highConfidenceCount": 14,
@@ -763,7 +763,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -930,7 +930,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -1161,9 +1161,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -1173,16 +1173,31 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Mexico rejoice after second World Cup win in 2026....",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
+          "pubDate": "Fri, 19 Jun 2026 14:11:57 EST"
+        },
+        {
+          "title": "World Cup's best viral moments: Mexico, Scotland d...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49114224/world-cup-best-viral-moments-social-media-us-mexico-canada",
+          "pubDate": "Fri, 19 Jun 2026 05:34:44 EST"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1213,7 +1228,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1491,7 +1506,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1932,7 +1947,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2210,7 +2225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2629,7 +2644,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2660,7 +2675,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2938,7 +2953,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3406,7 +3421,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3684,7 +3699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4125,7 +4140,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4403,7 +4418,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -4871,7 +4886,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5149,7 +5164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -5617,7 +5632,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5895,7 +5910,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -6341,7 +6356,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -6385,7 +6400,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6663,7 +6678,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -7085,10 +7100,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 12:35:17 GMT"
         },
         {
-          "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-          "pubDate": "Sat, 20 Jun 2026 12:19:33 GMT"
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
         },
         {
           "title": "‘That penalty changed my life’: Panenka’s pride 50 years on from special spot-kick",
@@ -7109,7 +7124,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -7140,7 +7155,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7418,7 +7433,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -7585,7 +7600,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7816,9 +7831,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -7828,10 +7843,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7859,7 +7883,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8137,7 +8161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -8565,7 +8589,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -8596,7 +8620,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8874,7 +8898,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -9041,7 +9065,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -9287,16 +9311,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
+        },
         {
           "title": "US players agree with Zlatan Ibrahimovic that World Cup title is possible: ‘That’s our mindset’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/usa-world-cup-zlatan-ibrahimovic-comments",
           "pubDate": "Sat, 20 Jun 2026 01:39:23 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -9324,7 +9360,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9602,7 +9638,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -10036,7 +10072,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -10081,7 +10117,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10359,7 +10395,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -10526,7 +10562,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -10757,9 +10793,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -10769,16 +10805,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Iran to file complaint over WC travel restrictions...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
+          "pubDate": "Sat, 20 Jun 2026 03:00:12 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -10809,7 +10854,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11087,7 +11132,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -11254,7 +11299,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -11485,9 +11530,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -11497,10 +11542,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sat, 20 Jun 2026 08:18:39 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -11528,7 +11582,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11806,7 +11860,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -11973,7 +12027,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -12219,7 +12273,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 4,
       "articles": [
         {
           "title": "White House in talks over Iran travel restrictions",
@@ -12232,9 +12286,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/20/david-raya-when-you-lose-a-champions-league-final-it-destroys-you-inside",
           "pubDate": "Sat, 20 Jun 2026 11:00:04 GMT"
+        },
+        {
+          "title": "Iran to file complaint over WC travel restrictions...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
+          "pubDate": "Sat, 20 Jun 2026 03:00:12 EST"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sat, 20 Jun 2026 08:18:38 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -12262,7 +12328,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12540,7 +12606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -13002,7 +13068,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13280,7 +13346,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -13447,7 +13513,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -13693,16 +13759,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Golden Boot: World Cup 2026 top goalscorers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
           "pubDate": "Thu, 18 Jun 2026 08:17:30 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -13730,7 +13802,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14008,7 +14080,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -14448,7 +14520,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -14479,7 +14551,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14757,7 +14829,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -15207,7 +15279,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15485,7 +15557,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -15919,7 +15991,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -15950,7 +16022,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16228,7 +16300,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -16687,13 +16759,19 @@ window.MATCHES = [
         },
         "injuries": {
           "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "text": "从公开新闻源匹配到 2 条伤停/身体状态线索，尚非官方伤停名单。",
           "articles": [
             {
               "title": "ITV wins World Cup ratings battle with BBC in tournament’s first week",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jun/19/itv-wins-world-cup-ratings-battle-bbc-first-week-england-croatia",
               "pubDate": "Fri, 19 Jun 2026 10:53:56 GMT"
+            },
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
             }
           ]
         },
@@ -16703,7 +16781,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16981,7 +17059,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -17400,7 +17478,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -17431,7 +17509,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17709,7 +17787,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -18137,7 +18215,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -18168,7 +18246,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18446,7 +18524,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -18865,7 +18943,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -18896,7 +18974,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19174,7 +19252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -19615,7 +19693,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19893,7 +19971,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -20312,7 +20390,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -20343,7 +20421,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20621,7 +20699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -20788,7 +20866,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -21019,9 +21097,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -21031,10 +21109,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Mexico rejoice after second World Cup win in 2026....",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
+          "pubDate": "Fri, 19 Jun 2026 14:11:57 EST"
+        },
+        {
+          "title": "World Cup's best viral moments: Mexico, Scotland d...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49114224/world-cup-best-viral-moments-social-media-us-mexico-canada",
+          "pubDate": "Fri, 19 Jun 2026 05:34:44 EST"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21062,7 +21155,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21340,7 +21433,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -21768,10 +21861,10 @@ window.MATCHES = [
           "pubDate": "Fri, 19 Jun 2026 21:46:26 GMT"
         },
         {
-          "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-          "pubDate": "Sat, 20 Jun 2026 12:19:33 GMT"
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
         },
         {
           "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
@@ -21786,7 +21879,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 22.8,
@@ -21830,7 +21923,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22108,7 +22201,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -22574,13 +22667,19 @@ window.MATCHES = [
         },
         "injuries": {
           "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "text": "从公开新闻源匹配到 2 条伤停/身体状态线索，尚非官方伤停名单。",
           "articles": [
             {
               "title": "Scotland fall to narrow defeat against Morocco",
               "source": "feeds.bbci.co.uk",
               "link": "https://www.bbc.com/sport/videos/cn59zxl376ro?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sat, 20 Jun 2026 00:47:02 GMT"
+            },
+            {
+              "title": "Scotland's World Cup dreams on the ropes as Morocc...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
+              "pubDate": "Sat, 20 Jun 2026 03:36:02 EST"
             }
           ]
         },
@@ -22590,7 +22689,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22868,7 +22967,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -23314,7 +23413,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 29.2,
@@ -23345,7 +23444,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23623,7 +23722,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -24057,10 +24156,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 05:49:51 GMT"
         },
         {
-          "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
+          "title": "‘Everybody’s crying’: Turkey crash out as 10-man Paraguay hang on for World Cup win",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-          "pubDate": "Sat, 20 Jun 2026 12:19:33 GMT"
+          "link": "https://www.theguardian.com/football/2026/jun/20/turkey-paraguay-world-cup-2026-group-d-match-report",
+          "pubDate": "Sat, 20 Jun 2026 07:57:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -24098,7 +24197,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24376,7 +24475,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -24823,7 +24922,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.7,
         "draw": 4.01,
-        "away": 4.7
+        "away": 4.71
       },
       "impliedProbabilities": [
         56,
@@ -24831,28 +24930,40 @@ window.MATCHES = [
         20
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，46 家公司均值：主 1.7 / 平 4.01 / 客 4.7。市场倾向 荷兰。"
+      "note": "已接入赔率市场，46 家公司均值：主 1.7 / 平 4.01 / 客 4.71。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
+        },
         {
           "title": "US players agree with Zlatan Ibrahimovic that World Cup title is possible: ‘That’s our mindset’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/usa-world-cup-zlatan-ibrahimovic-comments",
           "pubDate": "Sat, 20 Jun 2026 01:39:23 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 27.3,
@@ -24867,10 +24978,17 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
-          "articles": []
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条预计首发/阵容线索，尚非官方确认。",
+          "source": "public-rss",
+          "articles": [
+            {
+              "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+              "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
+            }
+          ]
         },
         "injuries": {
           "status": "none-confirmed",
@@ -24879,11 +24997,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。荷兰当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -25161,7 +25279,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -25607,7 +25725,7 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.5,
-        "draw": 4.62,
+        "draw": 4.63,
         "away": 6.08
       },
       "impliedProbabilities": [
@@ -25616,7 +25734,7 @@ window.MATCHES = [
         16
       ],
       "marketFavorite": "德国",
-      "note": "已接入赔率市场，47 家公司均值：主 1.5 / 平 4.62 / 客 6.08。市场倾向 德国。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.5 / 平 4.63 / 客 6.08。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -25631,10 +25749,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 08:56:58 GMT"
         },
         {
-          "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-          "pubDate": "Sat, 20 Jun 2026 12:19:33 GMT"
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
         },
         {
           "title": "‘That penalty changed my life’: Panenka’s pride 50 years on from special spot-kick",
@@ -25655,7 +25773,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21,
@@ -25686,7 +25804,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。德国当前3分、净胜球6；科特迪瓦当前3分、净胜球1。",
@@ -25964,7 +26082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -26410,8 +26528,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.12,
-        "draw": 9.28,
-        "away": 21.91
+        "draw": 9.23,
+        "away": 21.87
       },
       "impliedProbabilities": [
         86,
@@ -26419,7 +26537,7 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "厄瓜多尔",
-      "note": "已接入赔率市场，47 家公司均值：主 1.12 / 平 9.28 / 客 21.91。市场倾向 厄瓜多尔。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.12 / 平 9.23 / 客 21.87。市场倾向 厄瓜多尔。"
     },
     "expertSignals": {
       "status": "connected",
@@ -26440,7 +26558,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.8,
@@ -26471,7 +26589,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；库拉索当前0分、净胜球-6。",
@@ -26749,15 +26867,15 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
       "awayName": "Japan"
     },
     "probabilities": [
-      12,
-      20,
+      13,
+      19,
       68
     ],
     "confidence": 84,
@@ -26802,22 +26920,22 @@ window.MATCHES = [
         70
       ],
       "market": [
-        14,
-        24,
+        15,
+        23,
         62
       ],
       "blended": [
-        12,
-        20,
+        13,
+        19,
         68
       ],
       "blendWeight": 0.28,
       "deltas": [
-        2,
-        6,
+        3,
+        5,
         -8
       ],
-      "summary": "模型原始概率 12/18/70%；市场隐含概率 14/24/62%；按 28% 权重校准后为 12/20/68%。"
+      "summary": "模型原始概率 12/18/70%；市场隐含概率 15/23/62%；按 28% 权重校准后为 13/19/68%。"
     },
     "motivation": {
       "phase": "group",
@@ -26938,7 +27056,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合28%）：主14% / 平24% / 客62%，倾向日本。"
+        "evidence": "赔率市场（48家博彩公司均值，融合28%）：主15% / 平23% / 客62%，倾向日本。"
       }
     ],
     "modelInputs": {
@@ -27194,17 +27312,17 @@ window.MATCHES = [
       "commenceTime": "2026-06-21T04:00:00Z",
       "bookmakers": 47,
       "averageOdds": {
-        "home": 6.63,
+        "home": 6.64,
         "draw": 4.05,
-        "away": 1.54
+        "away": 1.53
       },
       "impliedProbabilities": [
-        14,
-        24,
+        15,
+        23,
         62
       ],
       "marketFavorite": "日本",
-      "note": "已接入赔率市场，47 家公司均值：主 6.63 / 平 4.05 / 客 1.54。市场倾向 日本。"
+      "note": "已接入赔率市场，47 家公司均值：主 6.64 / 平 4.05 / 客 1.53。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -27238,7 +27356,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；日本当前1分、净胜球0。",
@@ -27516,7 +27634,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -27962,8 +28080,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.09,
-        "draw": 10.62,
-        "away": 26.2
+        "draw": 10.65,
+        "away": 26.39
       },
       "impliedProbabilities": [
         87,
@@ -27971,13 +28089,13 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，47 家公司均值：主 1.09 / 平 10.62 / 客 26.2。市场倾向 西班牙。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.09 / 平 10.65 / 客 26.39。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "David Raya: ‘When you lose a Champions League final it destroys you inside’",
@@ -27990,15 +28108,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/when-real-come-for-you-its-very-difficult-to-say-no-cucurella-explains-chelsea-exit",
           "pubDate": "Thu, 18 Jun 2026 23:01:15 GMT"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sat, 20 Jun 2026 08:18:39 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 33.5,
@@ -28043,7 +28167,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -28321,7 +28445,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -28767,7 +28891,7 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.43,
-        "draw": 4.59,
+        "draw": 4.6,
         "away": 7.57
       },
       "impliedProbabilities": [
@@ -28776,22 +28900,34 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，47 家公司均值：主 1.43 / 平 4.59 / 客 7.57。市场倾向 比利时。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.43 / 平 4.6 / 客 7.57。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "White House in talks over Iran travel restrictions",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 20 Jun 2026 08:52:50 GMT"
+        },
+        {
+          "title": "Iran to file complaint over WC travel restrictions...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
+          "pubDate": "Sat, 20 Jun 2026 03:00:12 EST"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sat, 20 Jun 2026 08:18:38 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -28819,7 +28955,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -29097,7 +29233,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -29529,9 +29665,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0.28,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -29543,8 +29679,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.43,
-        "draw": 4.27,
-        "away": 8.35
+        "draw": 4.26,
+        "away": 8.41
       },
       "impliedProbabilities": [
         67,
@@ -29552,13 +29688,22 @@ window.MATCHES = [
         11
       ],
       "marketFavorite": "乌拉圭",
-      "note": "已接入赔率市场，47 家公司均值：主 1.43 / 平 4.27 / 客 8.35。市场倾向 乌拉圭。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.43 / 平 4.26 / 客 8.41。市场倾向 乌拉圭。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sat, 20 Jun 2026 08:18:39 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -29586,7 +29731,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -29864,7 +30009,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -30310,8 +30455,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 5.62,
-        "draw": 4.07,
-        "away": 1.6
+        "draw": 4.08,
+        "away": 1.59
       },
       "impliedProbabilities": [
         17,
@@ -30319,7 +30464,7 @@ window.MATCHES = [
         60
       ],
       "marketFavorite": "埃及",
-      "note": "已接入赔率市场，47 家公司均值：主 5.62 / 平 4.07 / 客 1.6。市场倾向 埃及。"
+      "note": "已接入赔率市场，47 家公司均值：主 5.62 / 平 4.08 / 客 1.59。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "connected",
@@ -30340,7 +30485,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 24.9,
@@ -30371,7 +30516,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -30649,7 +30794,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -31095,8 +31240,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.57,
-        "draw": 3.93,
-        "away": 6.12
+        "draw": 3.94,
+        "away": 6.13
       },
       "impliedProbabilities": [
         61,
@@ -31104,7 +31249,7 @@ window.MATCHES = [
         15
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，47 家公司均值：主 1.57 / 平 3.93 / 客 6.12。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.57 / 平 3.94 / 客 6.13。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -31165,7 +31310,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -31443,7 +31588,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -31889,8 +32034,8 @@ window.MATCHES = [
       "bookmakers": 46,
       "averageOdds": {
         "home": 1.08,
-        "draw": 11.32,
-        "away": 30.01
+        "draw": 11.39,
+        "away": 29.92
       },
       "impliedProbabilities": [
         89,
@@ -31898,7 +32043,7 @@ window.MATCHES = [
         3
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，46 家公司均值：主 1.08 / 平 11.32 / 客 30.01。市场倾向 法国。"
+      "note": "已接入赔率市场，46 家公司均值：主 1.08 / 平 11.39 / 客 29.92。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -31931,7 +32076,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.7,
@@ -31962,7 +32107,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -32240,7 +32385,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -32701,16 +32846,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Golden Boot: World Cup 2026 top goalscorers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
           "pubDate": "Thu, 18 Jun 2026 08:17:30 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32738,7 +32889,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -33016,7 +33167,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -33461,7 +33612,7 @@ window.MATCHES = [
       "commenceTime": "2026-06-23T03:00:00Z",
       "bookmakers": 46,
       "averageOdds": {
-        "home": 5.96,
+        "home": 5.97,
         "draw": 4.13,
         "away": 1.56
       },
@@ -33471,7 +33622,7 @@ window.MATCHES = [
         61
       ],
       "marketFavorite": "阿尔及利亚",
-      "note": "已接入赔率市场，46 家公司均值：主 5.96 / 平 4.13 / 客 1.56。市场倾向 阿尔及利亚。"
+      "note": "已接入赔率市场，46 家公司均值：主 5.97 / 平 4.13 / 客 1.56。市场倾向 阿尔及利亚。"
     },
     "expertSignals": {
       "status": "connected",
@@ -33520,7 +33671,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -33798,7 +33949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -34280,7 +34431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35,
@@ -34311,7 +34462,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -34589,7 +34740,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -35036,7 +35187,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.21,
         "draw": 6.53,
-        "away": 14.06
+        "away": 14.1
       },
       "impliedProbabilities": [
         78,
@@ -35044,7 +35195,7 @@ window.MATCHES = [
         7
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，46 家公司均值：主 1.21 / 平 6.53 / 客 14.06。市场倾向 英格兰。"
+      "note": "已接入赔率市场，46 家公司均值：主 1.21 / 平 6.53 / 客 14.1。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -35095,17 +35246,24 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
-          "text": "权威数据源当前未返回本场伤停记录。",
-          "articles": []
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
+            }
+          ]
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -35383,7 +35541,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -35865,7 +36023,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.2,
@@ -35896,7 +36054,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -36174,7 +36332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -36684,7 +36842,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -36962,7 +37120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -37429,7 +37587,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.1,
@@ -37460,7 +37618,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -37738,7 +37896,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -38205,7 +38363,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 26,
@@ -38236,7 +38394,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -38514,7 +38672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -39030,7 +39188,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
@@ -39308,7 +39466,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -39754,8 +39912,8 @@ window.MATCHES = [
       "bookmakers": 44,
       "averageOdds": {
         "home": 1.2,
-        "draw": 6.7,
-        "away": 15.11
+        "draw": 6.72,
+        "away": 15.15
       },
       "impliedProbabilities": [
         80,
@@ -39763,7 +39921,7 @@ window.MATCHES = [
         6
       ],
       "marketFavorite": "摩洛哥",
-      "note": "已接入赔率市场，44 家公司均值：主 1.2 / 平 6.7 / 客 15.11。市场倾向 摩洛哥。"
+      "note": "已接入赔率市场，44 家公司均值：主 1.2 / 平 6.72 / 客 15.15。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -39802,7 +39960,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 33.4,
@@ -39833,7 +39991,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
@@ -40111,7 +40269,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -40543,9 +40701,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0.28,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -40569,24 +40727,39 @@ window.MATCHES = [
       "note": "已接入赔率市场，41 家公司均值：主 3.53 / 平 3.71 / 客 2.01。市场倾向 墨西哥。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Mexico rejoice after second World Cup win in 2026....",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49113986/mexico-south-korea-world-cup-reaction-analysis",
+          "pubDate": "Fri, 19 Jun 2026 14:11:57 EST"
+        },
+        {
+          "title": "World Cup's best viral moments: Mexico, Scotland d...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49114224/world-cup-best-viral-moments-social-media-us-mexico-canada",
+          "pubDate": "Fri, 19 Jun 2026 05:34:44 EST"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
-        "temperatureMax": 19.1,
-        "temperatureMin": 13.9,
+        "temperatureMax": 20.5,
+        "temperatureMin": 13.7,
         "precipitationProbability": 100,
-        "windSpeedMax": 6.5,
+        "windSpeedMax": 8.1,
         "timezone": "America/Mexico_City",
-        "text": "Mexico City 当日约 13.9-19.1°C，降雨概率 100%，最大风速 6.5km/h。",
+        "text": "Mexico City 当日约 13.7-20.5°C，降雨概率 100%，最大风速 8.1km/h。",
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
@@ -40609,7 +40782,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -40887,7 +41060,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -41376,7 +41549,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -41654,7 +41827,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -42136,7 +42309,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 30,
@@ -42167,7 +42340,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前0分、净胜球-6；科特迪瓦当前3分、净胜球1。",
@@ -42445,7 +42618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -42909,10 +43082,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s tears and Almíron’s red for covering mouth – live",
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
-          "pubDate": "Sat, 20 Jun 2026 12:19:33 GMT"
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
         },
         {
           "title": "‘That penalty changed my life’: Panenka’s pride 50 years on from special spot-kick",
@@ -42961,7 +43134,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前0分、净胜球-1；德国当前3分、净胜球6。",
@@ -43239,7 +43412,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -43700,16 +43873,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "World Cup 2026: USA’s ‘high IQ’ squad backed to handle hype; Almíron’s historic red; Sweden’s Dutch test– live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan",
+          "pubDate": "Sat, 20 Jun 2026 12:42:51 GMT"
+        },
         {
           "title": "US players agree with Zlatan Ibrahimovic that World Cup title is possible: ‘That’s our mindset’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/usa-world-cup-zlatan-ibrahimovic-comments",
           "pubDate": "Sat, 20 Jun 2026 01:39:23 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -43737,7 +43922,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前1分、净胜球0；瑞典当前3分、净胜球4。",
@@ -44015,7 +44200,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -44447,9 +44632,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0.28,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -44473,16 +44658,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，41 家公司均值：主 9.74 / 平 5.42 / 客 1.3。市场倾向 荷兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.4,
@@ -44513,7 +44707,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-4；荷兰当前1分、净胜球0。",
@@ -44791,7 +44985,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -45236,7 +45430,7 @@ window.MATCHES = [
       "commenceTime": "2026-06-26T02:00:00Z",
       "bookmakers": 40,
       "averageOdds": {
-        "home": 3.04,
+        "home": 3.05,
         "draw": 3.92,
         "away": 2.12
       },
@@ -45246,7 +45440,7 @@ window.MATCHES = [
         45
       ],
       "marketFavorite": "美国",
-      "note": "已接入赔率市场，40 家公司均值：主 3.04 / 平 3.92 / 客 2.12。市场倾向 美国。"
+      "note": "已接入赔率市场，40 家公司均值：主 3.05 / 平 3.92 / 客 2.12。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -45307,7 +45501,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
@@ -45585,7 +45779,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -46114,7 +46308,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
@@ -46392,7 +46586,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -46853,7 +47047,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "World Cup still waits for real Brazil to show up",
@@ -46872,9 +47066,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/16/argentina-algeria-world-cup-group-j-match-report",
           "pubDate": "Wed, 17 Jun 2026 03:08:57 GMT"
+        },
+        {
+          "title": "World Cup Daily: Norway fans' 'Viking Row' takes o...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sat, 20 Jun 2026 05:41:12 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -46902,7 +47102,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -47180,7 +47380,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -47647,7 +47847,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 20.1,
@@ -47678,7 +47878,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -47956,7 +48156,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -48388,9 +48588,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "connected",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0.28,
-        "expertWeight": 0
+        "expertWeight": 0.08
       }
     },
     "marketSignals": {
@@ -48414,16 +48614,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，40 家公司均值：主 2.74 / 平 3.59 / 客 2.41。市场倾向 沙特阿拉伯。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sat, 20 Jun 2026 08:18:39 EST"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 34.3,
@@ -48454,7 +48663,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -48732,7 +48941,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -49193,7 +49402,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "David Raya: ‘When you lose a Champions League final it destroys you inside’",
@@ -49206,9 +49415,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/19/when-real-come-for-you-its-very-difficult-to-say-no-cucurella-explains-chelsea-exit",
           "pubDate": "Thu, 18 Jun 2026 23:01:15 GMT"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sat, 20 Jun 2026 08:18:39 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -49250,7 +49465,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -49528,7 +49743,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -49989,22 +50204,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "White House in talks over Iran travel restrictions",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.com/sport/football/articles/c5yz70gjy3xo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 20 Jun 2026 08:52:50 GMT"
+        },
+        {
+          "title": "Iran to file complaint over WC travel restrictions...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
+          "pubDate": "Sat, 20 Jun 2026 03:00:12 EST"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sat, 20 Jun 2026 08:18:38 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.4,
@@ -50035,7 +50262,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -50313,7 +50540,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -50774,22 +51001,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "David Raya: ‘When you lose a Champions League final it destroys you inside’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/20/david-raya-when-you-lose-a-champions-league-final-it-destroys-you-inside",
           "pubDate": "Sat, 20 Jun 2026 11:00:04 GMT"
+        },
+        {
+          "title": "Iran to file complaint over WC travel restrictions...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49120177/iran-fifa-complaint-world-cup-travel-usa",
+          "pubDate": "Sat, 20 Jun 2026 03:00:12 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 18.4,
@@ -50820,7 +51053,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -51098,7 +51331,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -51604,17 +51837,24 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
-          "text": "权威数据源当前未返回本场伤停记录。",
-          "articles": []
+          "status": "news-derived",
+          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "articles": [
+            {
+              "title": "Every team's odds to win the World Cup: England's ...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/espn/betting/story/_/id/48386952/espn-soccer-futbol-world-cup-betting-odds-championship-groups",
+              "pubDate": "Thu, 18 Jun 2026 15:12:39 EST"
+            }
+          ]
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -51892,7 +52132,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -52374,7 +52614,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 33.1,
@@ -52405,7 +52645,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -52683,7 +52923,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -53193,7 +53433,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -53471,7 +53711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -53953,7 +54193,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.1,
@@ -53984,7 +54224,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -54262,7 +54502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -54744,7 +54984,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
@@ -54775,7 +55015,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -55053,7 +55293,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -55569,7 +55809,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -55797,7 +56037,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -56188,7 +56428,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -56416,7 +56656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -56785,7 +57025,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.2,
@@ -56816,7 +57056,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -57044,7 +57284,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -57435,7 +57675,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -57663,7 +57903,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -58054,7 +58294,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58282,7 +58522,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -58673,7 +58913,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -58901,7 +59141,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -59292,7 +59532,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -59520,7 +59760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -59889,7 +60129,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.7,
@@ -59920,7 +60160,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60148,7 +60388,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -60517,15 +60757,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 31,
         "temperatureMin": 21.5,
-        "precipitationProbability": 23,
+        "precipitationProbability": 45,
         "windSpeedMax": 22.7,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 21.5-31°C，降雨概率 23%，最大风速 22.7km/h。",
+        "text": "Atlanta 当日约 21.5-31°C，降雨概率 45%，最大风速 22.7km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -60548,7 +60788,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60776,7 +61016,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -61145,15 +61385,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 25.7,
         "temperatureMin": 10.8,
-        "precipitationProbability": 11,
+        "precipitationProbability": 0,
         "windSpeedMax": 14.1,
         "timezone": "America/Los_Angeles",
-        "text": "Seattle 当日约 10.8-25.7°C，降雨概率 11%，最大风速 14.1km/h。",
+        "text": "Seattle 当日约 10.8-25.7°C，降雨概率 0%，最大风速 14.1km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -61176,7 +61416,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61404,7 +61644,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -61795,7 +62035,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62023,7 +62263,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -62414,7 +62654,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62642,7 +62882,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -63011,15 +63251,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 24.9,
         "temperatureMin": 16.4,
-        "precipitationProbability": 23,
+        "precipitationProbability": 26,
         "windSpeedMax": 17.9,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 16.4-24.9°C，降雨概率 23%，最大风速 17.9km/h。",
+        "text": "Toronto 当日约 16.4-24.9°C，降雨概率 26%，最大风速 17.9km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -63042,7 +63282,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63270,7 +63510,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -63639,15 +63879,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.4,
         "temperatureMin": 12.8,
-        "precipitationProbability": 16,
+        "precipitationProbability": 3,
         "windSpeedMax": 12.8,
         "timezone": "America/Vancouver",
-        "text": "Vancouver 当日约 12.8-20.4°C，降雨概率 16%，最大风速 12.8km/h。",
+        "text": "Vancouver 当日约 12.8-20.4°C，降雨概率 3%，最大风速 12.8km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -63670,7 +63910,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63898,7 +64138,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -64289,7 +64529,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64517,7 +64757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -64908,7 +65148,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65136,7 +65376,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -65505,15 +65745,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.6,
         "temperatureMin": 18.4,
-        "precipitationProbability": 23,
+        "precipitationProbability": 34,
         "windSpeedMax": 12.1,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 18.4-27.6°C，降雨概率 23%，最大风速 12.1km/h。",
+        "text": "Kansas City 当日约 18.4-27.6°C，降雨概率 34%，最大风速 12.1km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -65536,7 +65776,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65764,7 +66004,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -66133,15 +66373,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 36.3,
         "temperatureMin": 24.6,
-        "precipitationProbability": 35,
+        "precipitationProbability": 13,
         "windSpeedMax": 20.1,
         "timezone": "America/Chicago",
-        "text": "Houston 当日约 24.6-36.3°C，降雨概率 35%，最大风速 20.1km/h。",
+        "text": "Houston 当日约 24.6-36.3°C，降雨概率 13%，最大风速 20.1km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -66164,7 +66404,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -66392,7 +66632,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -66761,15 +67001,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-20T12:41:27.185Z",
+        "fetchedAt": "2026-06-20T12:56:03.836Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 28.7,
         "temperatureMin": 19.7,
-        "precipitationProbability": 40,
+        "precipitationProbability": 28,
         "windSpeedMax": 20.6,
         "timezone": "America/New_York",
-        "text": "Philadelphia 当日约 19.7-28.7°C，降雨概率 40%，最大风速 20.6km/h。",
+        "text": "Philadelphia 当日约 19.7-28.7°C，降雨概率 28%，最大风速 20.6km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -66792,7 +67032,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67020,7 +67260,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -67411,7 +67651,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67639,7 +67879,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -68033,7 +68273,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -68261,7 +68501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -68652,7 +68892,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -68880,7 +69120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -69274,7 +69514,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69502,7 +69742,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -69896,7 +70136,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70124,7 +70364,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -70518,7 +70758,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70746,7 +70986,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -71137,7 +71377,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71365,7 +71605,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -71756,7 +71996,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71984,7 +72224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -72375,7 +72615,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72603,7 +72843,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -72997,7 +73237,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73225,7 +73465,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -73616,7 +73856,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73844,7 +74084,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -74238,7 +74478,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74466,7 +74706,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -74857,7 +75097,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -75085,7 +75325,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-20T12:41:27.185Z",
+      "fetchedAt": "2026-06-20T12:56:03.836Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -75476,7 +75716,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-20T12:41:27.185Z"
+      "updatedAt": "2026-06-20T12:56:03.836Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
