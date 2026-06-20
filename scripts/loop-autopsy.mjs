@@ -3,6 +3,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -11,7 +12,6 @@ const dataPath = path.join(root, "data.js");
 function loadMatches() {
   const code = fs.readFileSync(dataPath, "utf8");
   const sandbox = { window: {} };
-  const vm = require("node:vm");
   vm.createContext(sandbox);
   vm.runInContext(code, sandbox, { filename: "data.js" });
   return sandbox.window.MATCHES || [];

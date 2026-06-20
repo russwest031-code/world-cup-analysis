@@ -3,6 +3,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -12,7 +13,6 @@ function loadData() {
   try {
     const code = fs.readFileSync(dataPath, "utf8");
     const sandbox = { window: {} };
-    const vm = require("node:vm");
     vm.createContext(sandbox);
     vm.runInContext(code, sandbox, { filename: "data.js" });
     return { meta: sandbox.window.ANALYSIS_META || {}, matches: sandbox.window.MATCHES || [] };
@@ -38,9 +38,12 @@ function checkVersionConsistency() {
 
 async function checkDeployment() {
   try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
     const res = await fetch("https://russwest031-code.github.io/world-cup-analysis/data.js", {
-      signal: AbortSignal.timeout(15000),
+      signal: controller.signal,
     });
+    clearTimeout(timer);
     if (!res.ok) return `HTTP ${res.status}`;
     const text = await res.text();
     const hasMatches = text.includes("window.MATCHES");
