@@ -1,10 +1,10 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-20T14:26:16.800Z",
+  "updatedAt": "2026-06-20T14:40:30.453Z",
   "runDate": "2026-06-20",
   "source": "openfootball-worldcup-json",
   "externalFetchedAt": "2026-06-20T14:26:16.800Z",
   "externalMatchCount": 104,
-  "model": "ten-factor-dixon-coles-v3",
+  "model": "calibrated-draw-guard-v4",
   "rulesModel": "wc2026-group-qualification-v1",
   "marketSignals": "connected",
   "expertSignals": "connected",
@@ -25,7 +25,8 @@ window.ANALYSIS_META = {
   "liveTeamNewsProvider": "API-Football",
   "liveFixtureCount": 0,
   "liveLineupFixtureCount": 0,
-  "liveInjuryCount": 0
+  "liveInjuryCount": 0,
+  "calibration": "low-goal-draw-guard+confidence-temperature"
 };
 
 window.MATCHES = [
@@ -326,7 +327,7 @@ window.MATCHES = [
       26,
       9
     ],
-    "confidence": 85,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -375,7 +376,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -1080,7 +1083,7 @@ window.MATCHES = [
       42,
       24
     ],
-    "confidence": 72,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -1129,7 +1132,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -1815,7 +1820,7 @@ window.MATCHES = [
       23,
       9
     ],
-    "confidence": 83,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -1864,7 +1869,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -2559,7 +2566,7 @@ window.MATCHES = [
       31,
       22
     ],
-    "confidence": 76,
+    "confidence": 73,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -2608,7 +2615,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -3322,7 +3331,7 @@ window.MATCHES = [
       28,
       63
     ],
-    "confidence": 84,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -3371,7 +3380,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -4066,7 +4077,7 @@ window.MATCHES = [
       39,
       29
     ],
-    "confidence": 70,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -4115,7 +4126,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -4825,10 +4838,10 @@ window.MATCHES = [
     },
     "probabilities": [
       11,
-      31,
-      58
+      49,
+      40
     ],
-    "confidence": 78,
+    "confidence": 70,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -4872,12 +4885,14 @@ window.MATCHES = [
       "market": null,
       "blended": [
         11,
-        31,
-        58
+        49,
+        40
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -5585,7 +5600,7 @@ window.MATCHES = [
       42,
       37
     ],
-    "confidence": 74,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -5634,7 +5649,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -6364,7 +6381,7 @@ window.MATCHES = [
       18,
       8
     ],
-    "confidence": 91,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 7-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -6413,7 +6430,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -7135,7 +7154,7 @@ window.MATCHES = [
       41,
       33
     ],
-    "confidence": 72,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7184,7 +7203,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -7874,7 +7895,7 @@ window.MATCHES = [
       39,
       26
     ],
-    "confidence": 72,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7923,7 +7944,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -8628,7 +8651,7 @@ window.MATCHES = [
       27,
       19
     ],
-    "confidence": 77,
+    "confidence": 74,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 5-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -8677,7 +8700,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -9376,11 +9401,11 @@ window.MATCHES = [
       "awayName": "Cape Verde"
     },
     "probabilities": [
-      57,
-      34,
+      43,
+      48,
       9
     ],
-    "confidence": 82,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -9423,13 +9448,15 @@ window.MATCHES = [
       ],
       "market": null,
       "blended": [
-        57,
-        34,
+        43,
+        48,
         9
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -10149,11 +10176,11 @@ window.MATCHES = [
       "awayName": "Egypt"
     },
     "probabilities": [
-      53,
-      30,
+      39,
+      44,
       17
     ],
-    "confidence": 76,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -10196,13 +10223,15 @@ window.MATCHES = [
       ],
       "market": null,
       "blended": [
-        53,
-        30,
+        39,
+        44,
         17
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -10903,10 +10932,10 @@ window.MATCHES = [
     },
     "probabilities": [
       14,
-      34,
-      52
+      44,
+      42
     ],
-    "confidence": 76,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -10950,12 +10979,14 @@ window.MATCHES = [
       "market": null,
       "blended": [
         14,
-        34,
-        52
+        44,
+        42
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -11650,7 +11681,7 @@ window.MATCHES = [
       24,
       9
     ],
-    "confidence": 82,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -11699,7 +11730,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -12412,7 +12445,7 @@ window.MATCHES = [
       27,
       17
     ],
-    "confidence": 79,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -12461,7 +12494,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -13162,7 +13197,7 @@ window.MATCHES = [
       26,
       59
     ],
-    "confidence": 78,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-4。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -13211,7 +13246,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -13912,7 +13949,7 @@ window.MATCHES = [
       24,
       12
     ],
-    "confidence": 81,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -13961,7 +13998,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -14671,7 +14710,7 @@ window.MATCHES = [
       23,
       9
     ],
-    "confidence": 86,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -14720,7 +14759,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -15410,7 +15451,7 @@ window.MATCHES = [
       28,
       9
     ],
-    "confidence": 81,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -15459,7 +15500,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -16169,7 +16212,7 @@ window.MATCHES = [
       26,
       20
     ],
-    "confidence": 77,
+    "confidence": 74,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -16218,7 +16261,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -16941,10 +16986,10 @@ window.MATCHES = [
     },
     "probabilities": [
       12,
-      38,
-      50
+      48,
+      40
     ],
-    "confidence": 75,
+    "confidence": 69,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -16988,12 +17033,14 @@ window.MATCHES = [
       "market": null,
       "blended": [
         12,
-        38,
-        50
+        48,
+        40
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -17688,7 +17735,7 @@ window.MATCHES = [
       21,
       70
     ],
-    "confidence": 85,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-3。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -17737,7 +17784,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -18441,7 +18490,7 @@ window.MATCHES = [
       43,
       20
     ],
-    "confidence": 71,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -18490,7 +18539,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -19185,7 +19236,7 @@ window.MATCHES = [
       24,
       9
     ],
-    "confidence": 83,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -19234,7 +19285,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -19920,7 +19973,7 @@ window.MATCHES = [
       25,
       9
     ],
-    "confidence": 85,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 6-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -19969,7 +20022,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -20668,7 +20723,7 @@ window.MATCHES = [
       28,
       15
     ],
-    "confidence": 78,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -20717,7 +20772,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -21418,7 +21475,7 @@ window.MATCHES = [
       38,
       32
     ],
-    "confidence": 72,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -21467,7 +21524,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -22203,7 +22262,7 @@ window.MATCHES = [
       28,
       60
     ],
-    "confidence": 77,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -22252,7 +22311,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -22985,7 +23046,7 @@ window.MATCHES = [
       24,
       9
     ],
-    "confidence": 82,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -23034,7 +23095,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -23754,11 +23817,11 @@ window.MATCHES = [
       "awayName": "Paraguay"
     },
     "probabilities": [
-      51,
-      34,
+      41,
+      44,
       15
     ],
-    "confidence": 78,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -23801,13 +23864,15 @@ window.MATCHES = [
       ],
       "market": null,
       "blended": [
-        51,
-        34,
+        41,
+        44,
         15
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -24527,7 +24592,7 @@ window.MATCHES = [
       26,
       23
     ],
-    "confidence": 75,
+    "confidence": 74,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 荷兰 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -24584,7 +24649,9 @@ window.MATCHES = [
         -4,
         -6
       ],
-      "summary": "模型原始概率 46/28/26%；市场隐含概率 56/24/20%；按 50% 权重校准后为 51/26/23%。"
+      "summary": "模型原始概率 46/28/26%；市场隐含概率 56/24/20%；按 50% 权重校准后为 51/26/23%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -25308,7 +25375,7 @@ window.MATCHES = [
       22,
       15
     ],
-    "confidence": 80,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 德国 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -25365,7 +25432,9 @@ window.MATCHES = [
         -1,
         1
       ],
-      "summary": "模型原始概率 64/22/14%；市场隐含概率 64/21/15%；按 50% 权重校准后为 63/22/15%。"
+      "summary": "模型原始概率 64/22/14%；市场隐含概率 64/21/15%；按 50% 权重校准后为 63/22/15%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -26088,7 +26157,7 @@ window.MATCHES = [
       20,
       7
     ],
-    "confidence": 83,
+    "confidence": 88,
     "tag": "高信心",
     "summary": "外部赛程数据已更新。本场模型倾向 厄瓜多尔 方向，最可能比分为 1-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -26145,7 +26214,9 @@ window.MATCHES = [
         -17,
         -5
       ],
-      "summary": "模型原始概率 63/28/9%；市场隐含概率 85/11/4%；按 50% 权重校准后为 73/20/7%。"
+      "summary": "模型原始概率 63/28/9%；市场隐含概率 85/11/4%；按 50% 权重校准后为 73/20/7%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -26855,8 +26926,8 @@ window.MATCHES = [
       26,
       63
     ],
-    "confidence": 82,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 日本 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -26912,7 +26983,9 @@ window.MATCHES = [
         -5,
         -1
       ],
-      "summary": "模型原始概率 9/28/63%；市场隐含概率 15/23/62%；按 50% 权重校准后为 11/26/63%。"
+      "summary": "模型原始概率 9/28/63%；市场隐含概率 15/23/62%；按 50% 权重校准后为 11/26/63%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -27604,8 +27677,8 @@ window.MATCHES = [
       19,
       7
     ],
-    "confidence": 87,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 西班牙 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -27661,7 +27734,9 @@ window.MATCHES = [
         -20,
         -5
       ],
-      "summary": "模型原始概率 62/29/9%；市场隐含概率 87/9/4%；按 50% 权重校准后为 74/19/7%。"
+      "summary": "模型原始概率 62/29/9%；市场隐含概率 87/9/4%；按 50% 权重校准后为 74/19/7%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -28397,7 +28472,7 @@ window.MATCHES = [
       26,
       20
     ],
-    "confidence": 75,
+    "confidence": 74,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 比利时 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -28454,7 +28529,9 @@ window.MATCHES = [
         -9,
         -14
       ],
-      "summary": "模型原始概率 43/30/27%；市场隐含概率 66/21/13%；按 50% 权重校准后为 54/26/20%。"
+      "summary": "模型原始概率 43/30/27%；市场隐含概率 66/21/13%；按 50% 权重校准后为 54/26/20%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -29162,7 +29239,7 @@ window.MATCHES = [
       29,
       11
     ],
-    "confidence": 80,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 乌拉圭 方向，最可能比分为 1-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -29219,7 +29296,9 @@ window.MATCHES = [
         -14,
         1
       ],
-      "summary": "模型原始概率 54/36/10%；市场隐含概率 67/22/11%；按 50% 权重校准后为 60/29/11%。"
+      "summary": "模型原始概率 54/36/10%；市场隐含概率 67/22/11%；按 50% 权重校准后为 60/29/11%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -29920,7 +29999,7 @@ window.MATCHES = [
       26,
       62
     ],
-    "confidence": 79,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 埃及 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -29977,7 +30056,9 @@ window.MATCHES = [
         -5,
         -3
       ],
-      "summary": "模型原始概率 9/28/63%；市场隐含概率 17/23/60%；按 50% 权重校准后为 12/26/62%。"
+      "summary": "模型原始概率 9/28/63%；市场隐含概率 17/23/60%；按 50% 权重校准后为 12/26/62%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -30687,7 +30768,7 @@ window.MATCHES = [
       25,
       19
     ],
-    "confidence": 75,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 阿根廷 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -30744,7 +30825,9 @@ window.MATCHES = [
         -1,
         -7
       ],
-      "summary": "模型原始概率 53/25/22%；市场隐含概率 61/24/15%；按 50% 权重校准后为 56/25/19%。"
+      "summary": "模型原始概率 53/25/22%；市场隐含概率 61/24/15%；按 50% 权重校准后为 56/25/19%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -31457,8 +31540,8 @@ window.MATCHES = [
       15,
       6
     ],
-    "confidence": 87,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -31514,7 +31597,9 @@ window.MATCHES = [
         -13,
         -6
       ],
-      "summary": "模型原始概率 70/21/9%；市场隐含概率 89/8/3%；按 50% 权重校准后为 79/15/6%。"
+      "summary": "模型原始概率 70/21/9%；市场隐含概率 89/8/3%；按 50% 权重校准后为 79/15/6%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -32230,8 +32315,8 @@ window.MATCHES = [
       29,
       36
     ],
-    "confidence": 70,
-    "tag": "稳健",
+    "confidence": 60,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 塞内加尔 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -32287,7 +32372,9 @@ window.MATCHES = [
         -2,
         -12
       ],
-      "summary": "模型原始概率 28/30/42%；市场隐含概率 42/28/30%；按 50% 权重校准后为 35/29/36%。"
+      "summary": "模型原始概率 28/30/42%；市场隐含概率 42/28/30%；按 50% 权重校准后为 35/29/36%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -32994,8 +33081,8 @@ window.MATCHES = [
       25,
       63
     ],
-    "confidence": 82,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 阿尔及利亚 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -33051,7 +33138,9 @@ window.MATCHES = [
         -3,
         -3
       ],
-      "summary": "模型原始概率 10/26/64%；市场隐含概率 16/23/61%；按 50% 权重校准后为 12/25/63%。"
+      "summary": "模型原始概率 10/26/64%；市场隐含概率 16/23/61%；按 50% 权重校准后为 12/25/63%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -33752,8 +33841,8 @@ window.MATCHES = [
       21,
       8
     ],
-    "confidence": 85,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 葡萄牙 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -33809,7 +33898,9 @@ window.MATCHES = [
         -13,
         -3
       ],
-      "summary": "模型原始概率 64/27/9%；市场隐含概率 80/14/6%；按 50% 权重校准后为 71/21/8%。"
+      "summary": "模型原始概率 64/27/9%；市场隐含概率 80/14/6%；按 50% 权重校准后为 71/21/8%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -34525,8 +34616,8 @@ window.MATCHES = [
       19,
       8
     ],
-    "confidence": 87,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 英格兰 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -34582,7 +34673,9 @@ window.MATCHES = [
         -8,
         -2
       ],
-      "summary": "模型原始概率 68/23/9%；市场隐含概率 78/15/7%；按 50% 权重校准后为 73/19/8%。"
+      "summary": "模型原始概率 68/23/9%；市场隐含概率 78/15/7%；按 50% 权重校准后为 73/19/8%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -35305,11 +35398,11 @@ window.MATCHES = [
     },
     "probabilities": [
       19,
-      33,
-      48
+      43,
+      38
     ],
-    "confidence": 73,
-    "tag": "稳健",
+    "confidence": 65,
+    "tag": "观察",
     "summary": "外部赛程数据已更新。本场模型倾向 克罗地亚 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -35356,8 +35449,8 @@ window.MATCHES = [
       ],
       "blended": [
         19,
-        33,
-        48
+        43,
+        38
       ],
       "blendWeight": 0.5,
       "deltas": [
@@ -35365,7 +35458,9 @@ window.MATCHES = [
         -17,
         29
       ],
-      "summary": "模型原始概率 26/41/33%；市场隐含概率 14/24/62%；按 50% 权重校准后为 19/33/48%。"
+      "summary": "模型原始概率 26/41/33%；市场隐含概率 14/24/62%；按 50% 权重校准后为 19/33/48%。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -36076,7 +36171,7 @@ window.MATCHES = [
       24,
       14
     ],
-    "confidence": 80,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 哥伦比亚 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -36133,7 +36228,9 @@ window.MATCHES = [
         -2,
         -1
       ],
-      "summary": "模型原始概率 61/25/14%；市场隐含概率 64/23/13%；按 50% 权重校准后为 62/24/14%。"
+      "summary": "模型原始概率 61/25/14%；市场隐含概率 64/23/13%；按 50% 权重校准后为 62/24/14%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -36846,7 +36943,7 @@ window.MATCHES = [
       35,
       29
     ],
-    "confidence": 68,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 瑞士 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -36903,7 +37000,9 @@ window.MATCHES = [
         -7,
         2
       ],
-      "summary": "模型原始概率 34/38/28%；市场隐含概率 39/31/30%；按 50% 权重校准后为 36/35/29%。"
+      "summary": "模型原始概率 34/38/28%；市场隐含概率 39/31/30%；按 50% 权重校准后为 36/35/29%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -37600,12 +37699,12 @@ window.MATCHES = [
       "awayName": "Qatar"
     },
     "probabilities": [
-      50,
-      29,
+      38,
+      41,
       21
     ],
-    "confidence": 75,
-    "tag": "稳健",
+    "confidence": 63,
+    "tag": "观察",
     "summary": "外部赛程数据已更新。本场模型倾向 波黑 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -37651,8 +37750,8 @@ window.MATCHES = [
         14
       ],
       "blended": [
-        50,
-        29,
+        38,
+        41,
         21
       ],
       "blendWeight": 0.5,
@@ -37661,7 +37760,9 @@ window.MATCHES = [
         -17,
         -14
       ],
-      "summary": "模型原始概率 35/37/28%；市场隐含概率 66/20/14%；按 50% 权重校准后为 50/29/21%。"
+      "summary": "模型原始概率 35/37/28%；市场隐含概率 66/20/14%；按 50% 权重校准后为 50/29/21%。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -38371,7 +38472,7 @@ window.MATCHES = [
       24,
       63
     ],
-    "confidence": 77,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 巴西 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -38428,7 +38529,9 @@ window.MATCHES = [
         -10,
         13
       ],
-      "summary": "模型原始概率 15/29/56%；市场隐含概率 12/19/69%；按 50% 权重校准后为 13/24/63%。"
+      "summary": "模型原始概率 15/29/56%；市场隐含概率 12/19/69%；按 50% 权重校准后为 13/24/63%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -39147,8 +39250,8 @@ window.MATCHES = [
       21,
       8
     ],
-    "confidence": 84,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 摩洛哥 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -39204,7 +39307,9 @@ window.MATCHES = [
         -14,
         -3
       ],
-      "summary": "模型原始概率 63/28/9%；市场隐含概率 80/14/6%；按 50% 权重校准后为 71/21/8%。"
+      "summary": "模型原始概率 63/28/9%；市场隐含概率 80/14/6%；按 50% 权重校准后为 71/21/8%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -39932,7 +40037,7 @@ window.MATCHES = [
       27,
       53
     ],
-    "confidence": 79,
+    "confidence": 74,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 墨西哥 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -39989,7 +40094,9 @@ window.MATCHES = [
         -2,
         -11
       ],
-      "summary": "模型原始概率 14/28/58%；市场隐含概率 27/26/47%；按 50% 权重校准后为 20/27/53%。"
+      "summary": "模型原始概率 14/28/58%；市场隐含概率 27/26/47%；按 50% 权重校准后为 20/27/53%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -40700,7 +40807,7 @@ window.MATCHES = [
       27,
       58
     ],
-    "confidence": 79,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 韩国 方向，最可能比分为 0-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -40757,7 +40864,9 @@ window.MATCHES = [
         -6,
         2
       ],
-      "summary": "模型原始概率 13/30/57%；市场隐含概率 17/24/59%；按 50% 权重校准后为 15/27/58%。"
+      "summary": "模型原始概率 13/30/57%；市场隐含概率 17/24/59%；按 50% 权重校准后为 15/27/58%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -41439,8 +41548,8 @@ window.MATCHES = [
       20,
       74
     ],
-    "confidence": 87,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 科特迪瓦 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -41496,7 +41605,9 @@ window.MATCHES = [
         -17,
         21
       ],
-      "summary": "模型原始概率 9/28/63%；市场隐含概率 5/11/84%；按 50% 权重校准后为 6/20/74%。"
+      "summary": "模型原始概率 9/28/63%；市场隐含概率 5/11/84%；按 50% 权重校准后为 6/20/74%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -42212,8 +42323,8 @@ window.MATCHES = [
       23,
       62
     ],
-    "confidence": 83,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 德国 方向，最可能比分为 1-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -42269,7 +42380,9 @@ window.MATCHES = [
         5,
         -12
       ],
-      "summary": "模型原始概率 12/20/68%；市场隐含概率 19/25/56%；按 50% 权重校准后为 15/23/62%。"
+      "summary": "模型原始概率 12/20/68%；市场隐含概率 19/25/56%；按 50% 权重校准后为 15/23/62%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -42982,7 +43095,7 @@ window.MATCHES = [
       26,
       22
     ],
-    "confidence": 77,
+    "confidence": 74,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 日本 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -43039,7 +43152,9 @@ window.MATCHES = [
         4,
         12
       ],
-      "summary": "模型原始概率 60/24/16%；市场隐含概率 44/28/28%；按 50% 权重校准后为 52/26/22%。"
+      "summary": "模型原始概率 60/24/16%；市场隐含概率 44/28/28%；按 50% 权重校准后为 52/26/22%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -43752,7 +43867,7 @@ window.MATCHES = [
       26,
       63
     ],
-    "confidence": 79,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 荷兰 方向，最可能比分为 0-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -43809,7 +43924,9 @@ window.MATCHES = [
         -17,
         20
       ],
-      "summary": "模型原始概率 13/34/53%；市场隐含概率 10/17/73%；按 50% 权重校准后为 11/26/63%。"
+      "summary": "模型原始概率 13/34/53%；市场隐含概率 10/17/73%；按 50% 权重校准后为 11/26/63%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -44514,8 +44631,8 @@ window.MATCHES = [
       27,
       31
     ],
-    "confidence": 74,
-    "tag": "稳健",
+    "confidence": 66,
+    "tag": "观察",
     "summary": "外部赛程数据已更新。本场模型倾向 土耳其 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -44571,7 +44688,9 @@ window.MATCHES = [
         -6,
         29
       ],
-      "summary": "模型原始概率 54/30/16%；市场隐含概率 31/24/45%；按 50% 权重校准后为 42/27/31%。"
+      "summary": "模型原始概率 54/30/16%；市场隐含概率 31/24/45%；按 50% 权重校准后为 42/27/31%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -45290,7 +45409,7 @@ window.MATCHES = [
       36,
       35
     ],
-    "confidence": 69,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -45347,7 +45466,9 @@ window.MATCHES = [
         11,
         -20
       ],
-      "summary": "模型原始概率 25/30/45%；市场隐含概率 34/41/25%；按 50% 权重校准后为 29/36/35%。"
+      "summary": "模型原始概率 25/30/45%；市场隐含概率 34/41/25%；按 50% 权重校准后为 29/36/35%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -46079,7 +46200,7 @@ window.MATCHES = [
       24,
       57
     ],
-    "confidence": 77,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 1-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -46136,7 +46257,9 @@ window.MATCHES = [
         2,
         -8
       ],
-      "summary": "模型原始概率 16/23/61%；市场隐含概率 22/25/53%；按 50% 权重校准后为 19/24/57%。"
+      "summary": "模型原始概率 16/23/61%；市场隐含概率 22/25/53%；按 50% 权重校准后为 19/24/57%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -46849,7 +46972,7 @@ window.MATCHES = [
       26,
       13
     ],
-    "confidence": 77,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 塞内加尔 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -46906,7 +47029,9 @@ window.MATCHES = [
         -15,
         -8
       ],
-      "summary": "模型原始概率 50/33/17%；市场隐含概率 73/18/9%；按 50% 权重校准后为 61/26/13%。"
+      "summary": "模型原始概率 50/33/17%；市场隐含概率 73/18/9%；按 50% 权重校准后为 61/26/13%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -47599,11 +47724,11 @@ window.MATCHES = [
     },
     "probabilities": [
       29,
-      33,
-      38
+      39,
+      32
     ],
-    "confidence": 69,
-    "tag": "观察",
+    "confidence": 64,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 沙特阿拉伯 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -47650,8 +47775,8 @@ window.MATCHES = [
       ],
       "blended": [
         29,
-        33,
-        38
+        39,
+        32
       ],
       "blendWeight": 0.5,
       "deltas": [
@@ -47659,7 +47784,9 @@ window.MATCHES = [
         -14,
         3
       ],
-      "summary": "模型原始概率 24/40/36%；市场隐含概率 35/26/39%；按 50% 权重校准后为 29/33/38%。"
+      "summary": "模型原始概率 24/40/36%；市场隐含概率 35/26/39%；按 50% 权重校准后为 29/33/38%。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -48366,11 +48493,11 @@ window.MATCHES = [
     },
     "probabilities": [
       15,
-      29,
-      56
+      47,
+      38
     ],
-    "confidence": 78,
-    "tag": "稳健",
+    "confidence": 69,
+    "tag": "观察",
     "summary": "外部赛程数据已更新。本场模型倾向 西班牙 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -48417,8 +48544,8 @@ window.MATCHES = [
       ],
       "blended": [
         15,
-        29,
-        56
+        47,
+        38
       ],
       "blendWeight": 0.5,
       "deltas": [
@@ -48426,7 +48553,9 @@ window.MATCHES = [
         -11,
         10
       ],
-      "summary": "模型原始概率 15/34/51%；市场隐含概率 16/23/61%；按 50% 权重校准后为 15/29/56%。"
+      "summary": "模型原始概率 15/34/51%；市场隐含概率 16/23/61%；按 50% 权重校准后为 15/29/56%。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -49153,7 +49282,7 @@ window.MATCHES = [
       35,
       30
     ],
-    "confidence": 68,
+    "confidence": 59,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 埃及 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -49210,7 +49339,9 @@ window.MATCHES = [
         -9,
         -9
       ],
-      "summary": "模型原始概率 27/39/34%；市场隐含概率 45/30/25%；按 50% 权重校准后为 35/35/30%。"
+      "summary": "模型原始概率 27/39/34%；市场隐含概率 45/30/25%；按 50% 权重校准后为 35/35/30%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -49932,8 +50063,8 @@ window.MATCHES = [
       19,
       73
     ],
-    "confidence": 86,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 比利时 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -49989,7 +50120,9 @@ window.MATCHES = [
         -8,
         9
       ],
-      "summary": "模型原始概率 9/23/68%；市场隐含概率 8/15/77%；按 50% 权重校准后为 8/19/73%。"
+      "summary": "模型原始概率 9/23/68%；市场隐含概率 8/15/77%；按 50% 权重校准后为 8/19/73%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -50705,8 +50838,8 @@ window.MATCHES = [
       21,
       68
     ],
-    "confidence": 82,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 英格兰 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -50762,7 +50895,9 @@ window.MATCHES = [
         -11,
         16
       ],
-      "summary": "模型原始概率 14/26/60%；市场隐含概率 9/15/76%；按 50% 权重校准后为 11/21/68%。"
+      "summary": "模型原始概率 14/26/60%；市场隐含概率 9/15/76%；按 50% 权重校准后为 11/21/68%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -51488,7 +51623,7 @@ window.MATCHES = [
       26,
       13
     ],
-    "confidence": 79,
+    "confidence": 76,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 克罗地亚 方向，最可能比分为 2-0。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -51545,7 +51680,9 @@ window.MATCHES = [
         -2,
         7
       ],
-      "summary": "模型原始概率 64/27/9%；市场隐含概率 59/25/16%；按 50% 权重校准后为 61/26/13%。"
+      "summary": "模型原始概率 64/27/9%；市场隐含概率 59/25/16%；按 50% 权重校准后为 61/26/13%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -52261,7 +52398,7 @@ window.MATCHES = [
       29,
       46
     ],
-    "confidence": 72,
+    "confidence": 73,
     "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 葡萄牙 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -52318,7 +52455,9 @@ window.MATCHES = [
         -2,
         0
       ],
-      "summary": "模型原始概率 24/30/46%；市场隐含概率 26/28/46%；按 50% 权重校准后为 25/29/46%。"
+      "summary": "模型原始概率 24/30/46%；市场隐含概率 26/28/46%；按 50% 权重校准后为 25/29/46%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -53022,12 +53161,12 @@ window.MATCHES = [
       "awayName": "Uzbekistan"
     },
     "probabilities": [
-      41,
-      32,
+      31,
+      42,
       27
     ],
-    "confidence": 71,
-    "tag": "稳健",
+    "confidence": 66,
+    "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 刚果（金） 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -53073,8 +53212,8 @@ window.MATCHES = [
         28
       ],
       "blended": [
-        41,
-        32,
+        31,
+        42,
         27
       ],
       "blendWeight": 0.5,
@@ -53083,7 +53222,9 @@ window.MATCHES = [
         -12,
         3
       ],
-      "summary": "模型原始概率 37/38/25%；市场隐含概率 46/26/28%；按 50% 权重校准后为 41/32/27%。"
+      "summary": "模型原始概率 37/38/25%；市场隐含概率 46/26/28%；按 50% 权重校准后为 41/32/27%。已触发低进球平局保护。",
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
     },
     "motivation": {
       "phase": "group",
@@ -53799,8 +53940,8 @@ window.MATCHES = [
       31,
       40
     ],
-    "confidence": 71,
-    "tag": "稳健",
+    "confidence": 66,
+    "tag": "观察",
     "summary": "外部赛程数据已更新。本场模型倾向 奥地利 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -53856,7 +53997,9 @@ window.MATCHES = [
         1,
         -4
       ],
-      "summary": "模型原始概率 28/30/42%；市场隐含概率 31/31/38%；按 50% 权重校准后为 29/31/40%。"
+      "summary": "模型原始概率 28/30/42%；市场隐含概率 31/31/38%；按 50% 权重校准后为 29/31/40%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -54566,8 +54709,8 @@ window.MATCHES = [
       17,
       76
     ],
-    "confidence": 90,
-    "tag": "高信心",
+    "confidence": 76,
+    "tag": "稳健",
     "summary": "外部赛程数据已更新。本场模型倾向 阿根廷 方向，最可能比分为 0-2。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
       {
@@ -54623,7 +54766,9 @@ window.MATCHES = [
         -6,
         7
       ],
-      "summary": "模型原始概率 8/20/72%；市场隐含概率 7/14/79%；按 50% 权重校准后为 7/17/76%。"
+      "summary": "模型原始概率 8/20/72%；市场隐含概率 7/14/79%；按 50% 权重校准后为 7/17/76%。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "group",
@@ -55264,7 +55409,7 @@ window.MATCHES = [
       36,
       31
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -55313,7 +55458,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -55843,7 +55990,7 @@ window.MATCHES = [
       39,
       32
     ],
-    "confidence": 68,
+    "confidence": 64,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -55892,7 +56039,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -56431,7 +56580,7 @@ window.MATCHES = [
       37,
       32
     ],
-    "confidence": 68,
+    "confidence": 62,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -56480,7 +56629,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -57010,7 +57161,7 @@ window.MATCHES = [
       36,
       33
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -57059,7 +57210,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -57589,7 +57742,7 @@ window.MATCHES = [
       38,
       32
     ],
-    "confidence": 68,
+    "confidence": 63,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -57638,7 +57791,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -58168,7 +58323,7 @@ window.MATCHES = [
       34,
       33
     ],
-    "confidence": 67,
+    "confidence": 59,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -58217,7 +58372,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -58747,7 +58904,7 @@ window.MATCHES = [
       38,
       33
     ],
-    "confidence": 68,
+    "confidence": 63,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -58796,7 +58953,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -59335,7 +59494,7 @@ window.MATCHES = [
       36,
       32
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -59384,7 +59543,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -59923,7 +60084,7 @@ window.MATCHES = [
       36,
       34
     ],
-    "confidence": 68,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -59972,7 +60133,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -60511,7 +60674,7 @@ window.MATCHES = [
       39,
       30
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -60560,7 +60723,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -61090,7 +61255,7 @@ window.MATCHES = [
       37,
       32
     ],
-    "confidence": 68,
+    "confidence": 62,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -61139,7 +61304,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -61669,7 +61836,7 @@ window.MATCHES = [
       36,
       34
     ],
-    "confidence": 68,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -61718,7 +61885,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -62257,7 +62426,7 @@ window.MATCHES = [
       39,
       30
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -62306,7 +62475,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -62845,7 +63016,7 @@ window.MATCHES = [
       37,
       32
     ],
-    "confidence": 68,
+    "confidence": 62,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -62894,7 +63065,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -63424,7 +63597,7 @@ window.MATCHES = [
       38,
       32
     ],
-    "confidence": 68,
+    "confidence": 63,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -63473,7 +63646,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -64003,7 +64178,7 @@ window.MATCHES = [
       39,
       30
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -64052,7 +64227,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -64591,7 +64768,7 @@ window.MATCHES = [
       38,
       30
     ],
-    "confidence": 68,
+    "confidence": 63,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -64640,7 +64817,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -65179,7 +65358,7 @@ window.MATCHES = [
       36,
       34
     ],
-    "confidence": 68,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -65228,7 +65407,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -65767,7 +65948,7 @@ window.MATCHES = [
       36,
       34
     ],
-    "confidence": 68,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -65816,7 +65997,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -66346,7 +66529,7 @@ window.MATCHES = [
       37,
       32
     ],
-    "confidence": 68,
+    "confidence": 62,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -66395,7 +66578,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -66928,7 +67113,7 @@ window.MATCHES = [
       36,
       31
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -66977,7 +67162,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -67507,7 +67694,7 @@ window.MATCHES = [
       36,
       31
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -67556,7 +67743,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -68089,7 +68278,7 @@ window.MATCHES = [
       36,
       33
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -68138,7 +68327,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -68671,7 +68862,7 @@ window.MATCHES = [
       36,
       32
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -68720,7 +68911,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -69253,7 +69446,7 @@ window.MATCHES = [
       36,
       33
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -69302,7 +69495,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -69832,7 +70027,7 @@ window.MATCHES = [
       36,
       33
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -69881,7 +70076,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -70411,7 +70608,7 @@ window.MATCHES = [
       36,
       33
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -70460,7 +70657,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -70990,7 +71189,7 @@ window.MATCHES = [
       36,
       32
     ],
-    "confidence": 68,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -71039,7 +71238,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -71572,7 +71773,7 @@ window.MATCHES = [
       34,
       33
     ],
-    "confidence": 67,
+    "confidence": 59,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -71621,7 +71822,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -72151,7 +72354,7 @@ window.MATCHES = [
       39,
       32
     ],
-    "confidence": 68,
+    "confidence": 64,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -72200,7 +72403,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -72733,7 +72938,7 @@ window.MATCHES = [
       39,
       30
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -72782,7 +72987,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -73312,7 +73519,7 @@ window.MATCHES = [
       35,
       35
     ],
-    "confidence": 67,
+    "confidence": 59,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、出线动机、赔率市场等 5 个因素，加权计算得出。",
     "scoreOdds": [
@@ -73361,7 +73568,9 @@ window.MATCHES = [
       ],
       "blendWeight": 0,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null
     },
     "motivation": {
       "phase": "knockout",
@@ -73669,2488 +73878,557 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-20T14:26:24.393Z",
-  "totalMatches": 32,
-  "correct": 19,
-  "accuracy": 59.4,
-  "needsAdjust": false,
-  "factorAccuracy": {
-    "世界排名": 59,
-    "联合会强度": 33,
-    "攻防综合": 56,
-    "近期状态": 53,
-    "交锋历史": 33,
-    "出线动机": 33,
-    "风格碰撞": 33,
-    "休息天数": 33,
-    "场地因素": 33,
-    "赔率市场": 33
-  },
-  "adjustments": {},
-  "results": [
+  "updatedAt": "2026-06-20T14:40:30.453Z",
+  "completedCount": 32,
+  "outcomeHitRate": 66,
+  "highConfidenceCount": 0,
+  "highConfidenceHitRate": null,
+  "topScoreCoverage": 47,
+  "averageBrier": 0.5109,
+  "averageLogLoss": 0.8634,
+  "drawRecall": 60,
+  "outcomeBreakdown": [
     {
-      "matchId": "mex-rsa-1",
-      "date": "2026-06-12",
-      "home": "墨西哥",
-      "away": "南非",
+      "outcome": "主胜",
+      "actualCount": 17,
+      "hitCount": 12,
+      "hitRate": 71
+    },
+    {
+      "outcome": "平局",
+      "actualCount": 10,
+      "hitCount": 6,
+      "hitRate": 60
+    },
+    {
+      "outcome": "客胜",
+      "actualCount": 5,
+      "hitCount": 3,
+      "hitRate": 60
+    }
+  ],
+  "predictedBreakdown": [
+    {
+      "outcome": "主胜",
+      "predictedCount": 15,
+      "hitCount": 12,
+      "precision": 80
+    },
+    {
+      "outcome": "平局",
+      "predictedCount": 13,
+      "hitCount": 6,
+      "precision": 46
+    },
+    {
+      "outcome": "客胜",
+      "predictedCount": 4,
+      "hitCount": 3,
+      "precision": 75
+    }
+  ],
+  "confidenceBuckets": [
+    {
+      "label": "低信心",
+      "count": 6,
+      "hitRate": 33,
+      "averageBrier": 0.7448
+    },
+    {
+      "label": "中信心",
+      "count": 26,
+      "hitRate": 73,
+      "averageBrier": 0.4569
+    },
+    {
+      "label": "高信心",
+      "count": 0,
+      "hitRate": null,
+      "averageBrier": null
+    }
+  ],
+  "marketComparableCount": 0,
+  "marketHitRate": null,
+  "rows": [
+    {
+      "id": "mex-rsa-1",
+      "match": "墨西哥 vs 南非",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
       "actualScore": "2-0",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
+      "topScoreHit": true,
+      "confidence": 76,
+      "brier": 0.1982,
+      "logLoss": 0.4308,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        66,
-        25,
-        9
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 13.34,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.16,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 1.89,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 16.08,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.9,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "kor-cze-2",
-      "date": "2026-06-12",
-      "home": "韩国",
-      "away": "捷克",
-      "actualScore": "2-1",
-      "actualResult": 0,
-      "predictedResult": 1,
-      "correct": false,
-      "probabilities": [
-        32,
-        41,
-        27
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 4.35,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 1.35,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 1.68,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "can-bih-7",
-      "date": "2026-06-13",
-      "home": "加拿大",
-      "away": "波黑",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 0,
-      "correct": false,
-      "probabilities": [
-        69,
-        21,
-        10
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 9.86,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.76,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 3.51,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 7.92,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.7,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "usa-par-19",
-      "date": "2026-06-13",
-      "home": "美国",
-      "away": "巴拉圭",
-      "actualScore": "4-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        45,
-        29,
-        26
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 6.96,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.6,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 3.78,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -4.8,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.24,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "qat-sui-8",
-      "date": "2026-06-14",
-      "home": "卡塔尔",
-      "away": "瑞士",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 2,
-      "correct": false,
-      "probabilities": [
-        10,
-        27,
-        63
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -10.73,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.7,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -5.94,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": -11.28,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": -0.08,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "bra-mar-13",
-      "date": "2026-06-14",
-      "home": "巴西",
-      "away": "摩洛哥",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 1,
-      "correct": true,
-      "probabilities": [
-        34,
-        37,
-        29
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 0.29,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.44,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -0.54,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -1.44,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "hai-sco-14",
-      "date": "2026-06-14",
-      "home": "海地",
-      "away": "苏格兰",
-      "actualScore": "0-1",
-      "actualResult": 2,
-      "predictedResult": 2,
-      "correct": true,
-      "probabilities": [
-        13,
-        32,
-        55
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -11.89,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.76,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 0.27,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": -7.92,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "aus-tur-20",
-      "date": "2026-06-14",
-      "home": "澳大利亚",
-      "away": "土耳其",
-      "actualScore": "2-0",
-      "actualResult": 0,
-      "predictedResult": 1,
-      "correct": false,
-      "probabilities": [
-        22,
-        41,
-        37
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -1.45,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -4.86,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": -3.12,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": -0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "ger-cuw-25",
-      "date": "2026-06-15",
-      "home": "德国",
-      "away": "库拉索",
-      "actualScore": "7-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        74,
-        17,
-        9
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 20.88,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.76,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 5.94,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 19.2,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "ned-jpn-31",
-      "date": "2026-06-15",
-      "home": "荷兰",
-      "away": "日本",
-      "actualScore": "2-2",
-      "actualResult": 1,
-      "predictedResult": 1,
-      "correct": true,
-      "probabilities": [
+        65,
         26,
-        42,
-        32
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 2.9,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.7,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -1.62,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": -8.16,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "civ-ecu-26",
-      "date": "2026-06-15",
-      "home": "科特迪瓦",
-      "away": "厄瓜多尔",
-      "actualScore": "1-0",
-      "actualResult": 0,
-      "predictedResult": 1,
-      "correct": false,
-      "probabilities": [
-        36,
-        38,
-        26
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -2.9,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.44,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -0.27,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 6.48,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "swe-tun-32",
-      "date": "2026-06-15",
-      "home": "瑞典",
-      "away": "突尼斯",
-      "actualScore": "5-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        55,
-        25,
-        20
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 2.03,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -1.35,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 9.6,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "esp-cpv-43",
-      "date": "2026-06-16",
-      "home": "西班牙",
-      "away": "佛得角",
-      "actualScore": "0-0",
-      "actualResult": 1,
-      "predictedResult": 0,
-      "correct": false,
-      "probabilities": [
-        57,
-        34,
         9
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 18.85,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 7.56,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 6.48,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "bel-egy-37",
-      "date": "2026-06-16",
-      "home": "比利时",
-      "away": "埃及",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 0,
-      "correct": false,
+      "id": "kor-cze-2",
+      "match": "韩国 vs 捷克",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "2-1",
+      "topScoreHit": true,
+      "confidence": 66,
+      "brier": 0.6696,
+      "logLoss": 1.0788,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        52,
-        29,
-        19
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 5.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 1.08,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 4.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "ksa-uru-44",
-      "date": "2026-06-16",
-      "home": "沙特阿拉伯",
-      "away": "乌拉圭",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 2,
-      "correct": false,
-      "probabilities": [
-        17,
         34,
-        49
+        42,
+        24
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -13.05,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.54,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -4.59,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 1.44,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": -0.08,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "irn-nzl-38",
-      "date": "2026-06-16",
-      "home": "伊朗",
-      "away": "新西兰",
-      "actualScore": "2-2",
-      "actualResult": 1,
-      "predictedResult": 0,
-      "correct": false,
-      "probabilities": [
-        69,
-        21,
-        10
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 18.85,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 0.81,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 9.6,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "fra-sen-49",
-      "date": "2026-06-17",
-      "home": "法国",
-      "away": "塞内加尔",
-      "actualScore": "3-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        56,
-        25,
-        19
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 3.48,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 2.43,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 7.92,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "irq-nor-50",
-      "date": "2026-06-17",
-      "home": "伊拉克",
-      "away": "挪威",
-      "actualScore": "1-4",
-      "actualResult": 2,
-      "predictedResult": 2,
-      "correct": true,
-      "probabilities": [
-        17,
-        25,
-        58
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -7.54,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -3.78,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -1.44,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": -0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "arg-alg-55",
-      "date": "2026-06-17",
-      "home": "阿根廷",
-      "away": "阿尔及利亚",
-      "actualScore": "3-0",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        61,
-        24,
-        15
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 7.83,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.44,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 1.62,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 7.92,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "aut-jor-56",
-      "date": "2026-06-17",
-      "home": "奥地利",
-      "away": "约旦",
-      "actualScore": "3-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        69,
-        21,
-        10
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 11.31,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 3.24,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 17.76,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "por-cod-61",
-      "date": "2026-06-18",
-      "home": "葡萄牙",
-      "away": "刚果（金）",
+      "id": "can-bih-7",
+      "match": "加拿大 vs 波黑",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
       "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 0,
-      "correct": false,
-      "probabilities": [
-        61,
-        29,
-        10
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 11.89,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 4.32,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 4.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "eng-cro-67",
-      "date": "2026-06-18",
-      "home": "英格兰",
-      "away": "克罗地亚",
-      "actualScore": "4-2",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
-      "probabilities": [
-        53,
-        24,
-        23
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 2.03,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 2.43,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 6.48,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "gha-pan-68",
-      "date": "2026-06-18",
-      "home": "加纳",
-      "away": "巴拿马",
-      "actualScore": "1-0",
-      "actualResult": 0,
-      "predictedResult": 1,
-      "correct": false,
-      "probabilities": [
-        14,
-        48,
-        38
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -11.31,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.16,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -2.16,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": -4.8,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "uzb-col-62",
-      "date": "2026-06-18",
-      "home": "乌兹别克斯坦",
-      "away": "哥伦比亚",
-      "actualScore": "1-3",
-      "actualResult": 2,
-      "predictedResult": 2,
-      "correct": true,
-      "probabilities": [
-        9,
-        20,
-        71
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -10.73,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.54,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -3.51,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -7.92,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": -0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": -0.2,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "cze-rsa-3",
-      "date": "2026-06-19",
-      "home": "捷克",
-      "away": "南非",
-      "actualScore": "1-1",
-      "actualResult": 1,
-      "predictedResult": 1,
-      "correct": true,
-      "probabilities": [
-        36,
-        43,
-        21
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 5.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 4.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": true
-        }
-      ]
-    },
-    {
-      "matchId": "sui-bih-9",
-      "date": "2026-06-19",
-      "home": "瑞士",
-      "away": "波黑",
-      "actualScore": "4-1",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
+      "topScoreHit": true,
+      "confidence": 76,
+      "brier": 1.0634,
+      "logLoss": 1.4697,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
         68,
         23,
         9
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 13.05,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 3.24,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 7.92,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": -0.2,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "can-qat-10",
-      "date": "2026-06-19",
-      "home": "加拿大",
-      "away": "卡塔尔",
-      "actualScore": "6-0",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
+      "id": "usa-par-19",
+      "match": "美国 vs 巴拉圭",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "4-1",
+      "topScoreHit": false,
+      "confidence": 73,
+      "brier": 0.4254,
+      "logLoss": 0.755,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        66,
-        25,
+        47,
+        31,
+        22
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "qat-sui-8",
+      "match": "卡塔尔 vs 瑞士",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 76,
+      "brier": 0.9234,
+      "logLoss": 1.273,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        9,
+        28,
+        63
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bra-mar-13",
+      "match": "巴西 vs 摩洛哥",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 64,
+      "brier": 0.5586,
+      "logLoss": 0.9416,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        32,
+        39,
+        29
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "hai-sco-14",
+      "match": "海地 vs 苏格兰",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "0-1",
+      "topScoreHit": true,
+      "confidence": 70,
+      "brier": 0.6122,
+      "logLoss": 0.9163,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        11,
+        49,
+        40
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "aus-tur-20",
+      "match": "澳大利亚 vs 土耳其",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "2-0",
+      "topScoreHit": false,
+      "confidence": 64,
+      "brier": 0.9374,
+      "logLoss": 1.5606,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        21,
+        42,
+        37
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ger-cuw-25",
+      "match": "德国 vs 库拉索",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "7-1",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.1064,
+      "logLoss": 0.3011,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        74,
+        18,
+        8
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ned-jpn-31",
+      "match": "荷兰 vs 日本",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "2-2",
+      "topScoreHit": false,
+      "confidence": 66,
+      "brier": 0.5246,
+      "logLoss": 0.8916,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        26,
+        41,
+        33
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "civ-ecu-26",
+      "match": "科特迪瓦 vs 厄瓜多尔",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "1-0",
+      "topScoreHit": true,
+      "confidence": 63,
+      "brier": 0.6422,
+      "logLoss": 1.0498,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        35,
+        39,
+        26
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "swe-tun-32",
+      "match": "瑞典 vs 突尼斯",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "5-1",
+      "topScoreHit": false,
+      "confidence": 74,
+      "brier": 0.3206,
+      "logLoss": 0.6162,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        54,
+        27,
+        19
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "esp-cpv-43",
+      "match": "西班牙 vs 佛得角",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "0-0",
+      "topScoreHit": true,
+      "confidence": 66,
+      "brier": 0.4634,
+      "logLoss": 0.734,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        43,
+        48,
         9
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 7.54,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.06,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 6.21,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 11.28,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0.2,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "mex-kor-4",
-      "date": "2026-06-19",
-      "home": "墨西哥",
-      "away": "韩国",
-      "actualScore": "1-0",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
+      "id": "bel-egy-37",
+      "match": "比利时 vs 埃及",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 65,
+      "brier": 0.4946,
+      "logLoss": 0.821,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        39,
+        44,
+        17
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ksa-uru-44",
+      "match": "沙特阿拉伯 vs 乌拉圭",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 64,
+      "brier": 0.5096,
+      "logLoss": 0.821,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        14,
+        44,
+        42
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "irn-nzl-38",
+      "match": "伊朗 vs 新西兰",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "2-2",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 1.0346,
+      "logLoss": 1.4271,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        67,
+        24,
+        9
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "fra-sen-49",
+      "match": "法国 vs 塞内加尔",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-1",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.2954,
+      "logLoss": 0.5798,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
         56,
         27,
         17
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 3.19,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.06,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 0.54,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 9.6,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.24,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "usa-aus-21",
-      "date": "2026-06-20",
-      "home": "美国",
-      "away": "澳大利亚",
-      "actualScore": "2-0",
-      "actualResult": 0,
-      "predictedResult": 1,
-      "correct": false,
+      "id": "irq-nor-50",
+      "match": "伊拉克 vs 挪威",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-4",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.2582,
+      "logLoss": 0.5276,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        32,
-        36,
-        32
+        15,
+        26,
+        59
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 2.9,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": -0.06,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 3.24,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -6.48,
-          "direction": 2,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0.7,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "sco-mar-15",
-      "date": "2026-06-20",
-      "home": "苏格兰",
-      "away": "摩洛哥",
-      "actualScore": "0-1",
-      "actualResult": 2,
-      "predictedResult": 2,
-      "correct": true,
-      "probabilities": [
-        16,
-        29,
-        55
-      ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": -10.15,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": -2.7,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": -3.12,
-          "direction": 2,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
-    },
-    {
-      "matchId": "bra-hai-16",
-      "date": "2026-06-20",
-      "home": "巴西",
-      "away": "海地",
+      "id": "arg-alg-55",
+      "match": "阿根廷 vs 阿尔及利亚",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
       "actualScore": "3-0",
-      "actualResult": 0,
-      "predictedResult": 0,
-      "correct": true,
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.2016,
+      "logLoss": 0.4463,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        67,
-        23,
-        10
+        64,
+        24,
+        12
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 22.33,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.6,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 1.89,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "近期状态",
-          "contribution": 9.6,
-          "direction": 0,
-          "correct": true
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
     },
     {
-      "matchId": "tur-par-22",
-      "date": "2026-06-20",
-      "home": "土耳其",
-      "away": "巴拉圭",
-      "actualScore": "0-1",
-      "actualResult": 2,
-      "predictedResult": 0,
-      "correct": false,
+      "id": "aut-jor-56",
+      "match": "奥地利 vs 约旦",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-1",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.1634,
+      "logLoss": 0.3857,
+      "marketOutcome": "",
+      "marketHit": null,
       "probabilities": [
-        50,
-        33,
-        17
+        68,
+        23,
+        9
       ],
-      "factorVotes": [
-        {
-          "name": "世界排名",
-          "contribution": 5.51,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "联合会强度",
-          "contribution": 0.16,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "攻防综合",
-          "contribution": 5.4,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "近期状态",
-          "contribution": 4.8,
-          "direction": 0,
-          "correct": false
-        },
-        {
-          "name": "交锋历史",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "出线动机",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "风格碰撞",
-          "contribution": 0.08,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "休息天数",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "场地因素",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        },
-        {
-          "name": "赔率市场",
-          "contribution": 0,
-          "direction": 1,
-          "correct": false
-        }
-      ]
+      "marketProbabilities": null
+    },
+    {
+      "id": "por-cod-61",
+      "match": "葡萄牙 vs 刚果（金）",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "topScoreHit": true,
+      "confidence": 76,
+      "brier": 0.9234,
+      "logLoss": 1.273,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        63,
+        28,
+        9
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "eng-cro-67",
+      "match": "英格兰 vs 克罗地亚",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "4-2",
+      "topScoreHit": false,
+      "confidence": 74,
+      "brier": 0.3192,
+      "logLoss": 0.6162,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        54,
+        26,
+        20
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "gha-pan-68",
+      "match": "加纳 vs 巴拿马",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "1-0",
+      "topScoreHit": false,
+      "confidence": 69,
+      "brier": 1.1648,
+      "logLoss": 2.1203,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        12,
+        48,
+        40
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "uzb-col-62",
+      "match": "乌兹别克斯坦 vs 哥伦比亚",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-3",
+      "topScoreHit": false,
+      "confidence": 76,
+      "brier": 0.1422,
+      "logLoss": 0.3567,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        9,
+        21,
+        70
+      ],
+      "marketProbabilities": null
     }
   ]
 };

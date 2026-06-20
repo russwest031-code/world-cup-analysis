@@ -784,12 +784,25 @@
           '<div class="backtest-grid">' +
             metric("已完场", backtest.completedCount || 0, "场") +
             metric("胜平负命中", (backtest.outcomeHitRate ?? "-") + "%", "模型主方向") +
+            metric("平局召回", (backtest.drawRecall ?? "-") + "%", "实际平局识别") +
             metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
             metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
+            metric("Log Loss", backtest.averageLogLoss ?? "-", "概率惩罚") +
             metric("高信心样本", backtest.highConfidenceCount || 0, "场") +
             metric("高信心命中", (backtest.highConfidenceHitRate ?? "-") + "%", ">=80%") +
             metric("赔率可比", backtest.marketComparableCount || 0, "场") +
             metric("市场命中", (backtest.marketHitRate ?? "-") + "%", "赔率倾向") +
+          '</div>' +
+        '</section>' +
+        '<section class="detail-section">' +
+          '<div class="section-title"><h3>校准诊断</h3><small>分结果 / 分信心</small></div>' +
+          '<div class="backtest-grid">' +
+            (backtest.outcomeBreakdown || []).map(function (item) {
+              return metric(item.outcome + "召回", (item.hitRate ?? "-") + "%", (item.hitCount || 0) + "/" + (item.actualCount || 0));
+            }).join("") +
+            (backtest.confidenceBuckets || []).map(function (item) {
+              return metric(item.label, (item.hitRate ?? "-") + "%", (item.count || 0) + "场 · Brier " + (item.averageBrier ?? "-"));
+            }).join("") +
           '</div>' +
         '</section>' +
         '<section class="detail-section">' +
