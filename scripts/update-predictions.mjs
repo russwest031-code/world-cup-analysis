@@ -449,8 +449,8 @@ function scoreMatrix(homeGoals, awayGoals) {
   const la = awayGoals;
   const rows = [];
   let total = 0;
-  for (let h = 0; h <= 5; h += 1) {
-    for (let a = 0; a <= 5; a += 1) {
+  for (let h = 0; h <= 7; h += 1) {
+    for (let a = 0; a <= 7; a += 1) {
       let probability = poisson(lh, h) * poisson(la, a);
       // Dixon-Coles adjustment for low scores
       if (h === 0 && a === 0) probability *= (1 + lh * la * DIXON_COLES_RHO);
@@ -464,6 +464,55 @@ function scoreMatrix(homeGoals, awayGoals) {
     }
   }
   return rows.map(row => ({ ...row, probability: row.probability / total }));
+}
+
+function outcomeIndexForScore(row) {
+  if (row.h > row.a) return 0;
+  if (row.h === row.a) return 1;
+  return 2;
+}
+
+function calibrateScoreMatrixToOutcome(matrix, probabilities) {
+  const targets = probabilities.map(value => Math.max(0.01, value / 100));
+  const current = [0, 0, 0];
+  for (const row of matrix) current[outcomeIndexForScore(row)] += row.probability;
+  const calibrated = matrix.map(row => {
+    const idx = outcomeIndexForScore(row);
+    const scale = current[idx] > 0 ? targets[idx] / current[idx] : 1;
+    return { ...row, probability: row.probability * scale };
+  });
+  const total = calibrated.reduce((sum, row) => sum + row.probability, 0) || 1;
+  return calibrated.map(row => ({ ...row, probability: row.probability / total }));
+}
+
+function scoreOddsFromMatrix(matrix, probabilities, expectedTotalGoals, limit = 4) {
+  const sorted = matrix.slice().sort((a, b) => b.probability - a.probability);
+  const primaryOutcome = probabilities.indexOf(Math.max(...probabilities));
+  const selected = [];
+  const add = (row) => {
+    if (!row) return;
+    const key = `${row.h}-${row.a}`;
+    if (!selected.some(item => `${item.h}-${item.a}` === key)) selected.push(row);
+  };
+  const topForOutcome = (idx, predicate = () => true) =>
+    sorted.find(row => outcomeIndexForScore(row) === idx && predicate(row));
+
+  add(topForOutcome(primaryOutcome));
+  if (probabilities[1] >= 24) add(topForOutcome(1));
+  if (expectedTotalGoals >= 2.9) add(sorted.find(row => row.h + row.a >= 4 && outcomeIndexForScore(row) === primaryOutcome));
+  if (primaryOutcome !== 1 && probabilities[primaryOutcome] >= 52) {
+    add(topForOutcome(primaryOutcome, row => Math.abs(row.h - row.a) >= 2));
+  }
+  for (const row of sorted) {
+    if (selected.length >= limit) break;
+    add(row);
+  }
+  const ordered = selected.length <= 1
+    ? selected
+    : [selected[0], ...selected.slice(1).sort((a, b) => b.probability - a.probability)];
+  return ordered
+    .slice(0, limit)
+    .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(1, Math.round(row.probability * 100)) }));
 }
 
 function pct(value) {
@@ -1809,11 +1858,9 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   factors.push(f10);
 
   // ── Score distribution ──
-  const scoreOdds = matrix
-    .sort((a, b) => b.probability - a.probability)
-    .slice(0, 4)
-    .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(5, Math.round(row.probability * 100)) }));
-  const expandedMarkets = expandedMarketsFromMatrix(matrix, probabilities, homeGoals, awayGoals);
+  const calibratedMatrix = calibrateScoreMatrixToOutcome(matrix, probabilities);
+  const scoreOdds = scoreOddsFromMatrix(calibratedMatrix, probabilities, homeGoals + awayGoals, 4);
+  const expandedMarkets = expandedMarketsFromMatrix(calibratedMatrix, probabilities, homeGoals, awayGoals);
 
   // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);

@@ -61,7 +61,7 @@
         scoreHTML = '<div class="score-headline">' +
           '<span class="predicted-score">' + primaryScore.score + '</span>' +
           '<div class="score-meta">' +
-            '<small>泊松分布 · 最可能比分</small>' +
+            '<small>泊松分布 · 方向参考比分</small>' +
             '<span class="model-badge">概率 ' + primaryScore.chance + '%</span>' +
           '</div>' +
         '</div>';
@@ -518,7 +518,7 @@
 
     var directionText;
     if (conf >= 80) {
-      directionText = "模型对本场判断较为明确，" + outcomes[maxIdx] + "方向概率占优。最可能比分" + (primaryScore ? primaryScore.score : "待定") + "，可作为主要参考方向。";
+      directionText = "模型对本场判断较为明确，" + outcomes[maxIdx] + "方向概率占优。参考比分" + (primaryScore ? primaryScore.score : "待定") + "，可作为主要参考方向。";
     } else if (conf >= 65) {
       directionText = "模型判断存在一定把握，" + outcomes[maxIdx] + "方向略占优势，但各结果概率差距不大。建议结合更多信息综合判断。";
     } else {
@@ -721,7 +721,7 @@
           '<div class="section-title"><h3>比分分布说明</h3><small>泊松分布模型</small></div>' +
           '<div class="method-text">' +
             '<p>比分预测基于泊松分布模型。该模型假设两队的进球数相互独立且服从泊松分布，通过球队的攻防强度参数计算各比分出现的概率。</p>' +
-            '<p>页面展示的比分按概率从高到低排列，最可能比分以高亮显示。需要注意：即使是"最可能比分"，其概率通常也不超过20-25%，这是因为足球比赛可能的比分组合非常多，概率天然分散。</p>' +
+            '<p>页面展示的比分先给出与主方向一致的参考比分，再补充平局风险、高进球和其他高概率比分。需要注意：即使排在前列的比分，单项概率通常也不超过20-25%，这是因为足球比赛可能的比分组合非常多，概率天然分散。</p>' +
             '<p>建议关注比分区间而非精确比分。例如：将"1-0、2-0、2-1"统一视为"主队小胜"区间，将"1-1、0-0"视为"低比分平局"区间。</p>' +
           '</div>' +
         '</section>' +
