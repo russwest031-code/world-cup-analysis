@@ -54,7 +54,6 @@
       var probs = match.probabilities;
       var primaryScore = (match.scoreOdds && match.scoreOdds[0]) ? match.scoreOdds[0] : null;
       var altScores = (match.scoreOdds || []).slice(1, 4);
-      var topBand = (match.scoreBands && match.scoreBands[0]) ? match.scoreBands[0] : null;
       var topScenario = (match.scoreScenarios && match.scoreScenarios[0]) ? match.scoreScenarios[0] : null;
       var conf = confidenceLabel(match.confidence);
 
@@ -77,11 +76,8 @@
           }).join("") +
         '</div>';
       }
-      var bandHTML = topBand
-        ? '<div class="score-band-pill"><small>比分区间</small><strong>' + topBand.label + '</strong><span>' + topBand.chance + '% · ' + (topBand.examples || []).join(" / ") + '</span></div>'
-        : '';
-      var scenarioHTML = topScenario
-        ? '<div class="score-band-pill scenario-pill"><small>覆盖情景</small><strong>' + topScenario.label + '</strong><span>' + topScenario.chance + '% · ' + (topScenario.examples || []).join(" / ") + '</span></div>'
+      var coverageHTML = topScenario
+        ? '<div class="score-band-pill scenario-pill compact"><small>主线情景</small><strong>' + topScenario.label + '</strong><span>' + topScenario.chance + '% · ' + (topScenario.examples || []).join(" / ") + '</span></div>'
         : '';
 
       var wdlHTML = '<div class="wdl-bars">' +
@@ -126,8 +122,7 @@
         '</div>' +
         scoreHTML +
         altsHTML +
-        bandHTML +
-        scenarioHTML +
+        coverageHTML +
         wdlHTML +
         metaHTML +
         '<p class="analysis-summary">' + sanitizeDisplayText(match.summary || "") + '</p>' +
@@ -236,13 +231,8 @@
         // Section 4: 真实数据源
         renderVerifiedDataSources(match) +
 
-        // Section 4: 比分分布
-        '<section class="detail-section">' +
-          '<div class="section-title"><h3>比分分布</h3><small>模型概率</small></div>' +
-          '<div class="score-grid">' + match.scoreOdds.map(function (item) { return '<div class="score-card"><strong>' + item.score + '</strong><span>' + item.chance + '%</span></div>'; }).join("") + '</div>' +
-          ((match.scoreBands || []).length ? '<div class="score-band-grid">' + match.scoreBands.map(function (item) { return '<div class="score-band-card"><strong>' + item.label + '</strong><span>' + item.chance + '%</span><small>' + (item.examples || []).join(" / ") + '</small></div>'; }).join("") + '</div>' : '') +
-          ((match.scoreScenarios || []).length ? '<div class="section-title mini-title"><h3>覆盖情景</h3><small>非互斥风险场景</small></div><div class="score-band-grid">' + match.scoreScenarios.map(function (item) { return '<div class="score-band-card scenario-card"><strong>' + item.label + '</strong><span>' + item.chance + '%</span><small>' + (item.examples || []).join(" / ") + '</small></div>'; }).join("") + '</div>' : '') +
-        '</section>' +
+        // Section 4: 比分预测
+        renderScorePrediction(match) +
 
         // Section 5: 出线动机与比赛目标
         renderMotivation(match) +
@@ -264,6 +254,36 @@
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  function renderScorePrediction(match) {
+    var scores = match.scoreOdds || [];
+    var scenarios = match.scoreScenarios || [];
+    var bands = match.scoreBands || [];
+    var primary = scores[0] || null;
+    var altScores = scores.slice(1, 4);
+    var mainScenario = scenarios[0] || bands[0] || null;
+    var secondaryScenarios = scenarios.slice(1, 3);
+
+    if (!primary && !mainScenario) return "";
+
+    return '<section class="detail-section score-prediction-section">' +
+      '<div class="section-title"><h3>比分预测</h3><small>主推 / 备选 / 风险覆盖</small></div>' +
+      '<div class="score-focus-card">' +
+        '<div class="score-focus-main">' +
+          '<small>主推比分</small>' +
+          '<strong>' + (primary ? primary.score : "-") + '</strong>' +
+          '<span>' + (primary ? primary.chance + "% 概率" : "暂无") + '</span>' +
+        '</div>' +
+        '<div class="score-focus-text">' +
+          '<small>主线情景</small>' +
+          '<strong>' + (mainScenario ? mainScenario.label : "暂无") + '</strong>' +
+          '<p>' + (mainScenario ? mainScenario.chance + '% 覆盖 · ' + (mainScenario.examples || []).join(" / ") : "等待更多数据") + '</p>' +
+        '</div>' +
+      '</div>' +
+      (altScores.length ? '<div class="score-compact-row"><small>备选比分</small><div>' + altScores.map(function (item) { return '<span>' + item.score + '<b>' + item.chance + '%</b></span>'; }).join("") + '</div></div>' : '') +
+      (secondaryScenarios.length ? '<div class="score-compact-row muted-row"><small>风险覆盖</small><div>' + secondaryScenarios.map(function (item) { return '<span>' + item.label + '<b>' + item.chance + '%</b></span>'; }).join("") + '</div></div>' : '') +
+    '</section>';
   }
 
   function renderRecentForm(match) {
