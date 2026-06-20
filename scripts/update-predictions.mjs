@@ -1616,15 +1616,13 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   let adjustedWin = win;
   let adjustedDraw = draw;
   let adjustedAway = away;
-  if (match.status !== "completed") {
-    // Draw boost: when teams are close (homeShare near 50%) AND goal total is low, draws are more likely
-    const closeMatchBonus = (1 - Math.abs(homeShare - 0.5) * 2) * 0.15; // 0-0.15, higher when evenly matched
-    const lowScoreBonus = Math.max(0, (2.8 - totalGoals) * 0.08); // higher when fewer expected goals
-    const drawBoost = closeMatchBonus + lowScoreBonus;
-    adjustedDraw *= clamp(1 + motivation.drawValue * 0.35 - motivation.intensity * 0.1 + drawBoost, 0.82, 1.45);
-    adjustedWin *= clamp(1 + (motivation.home?.intensity || 0) * 0.08 + (motivation.home?.goalNeed || 0) * 0.07, 0.9, 1.18);
-    adjustedAway *= clamp(1 + (motivation.away?.intensity || 0) * 0.08 + (motivation.away?.goalNeed || 0) * 0.07, 0.9, 1.18);
-  }
+  // Draw boost: when teams are close AND expected goals are low, draws are more likely
+  const closeMatchBonus = (1 - Math.abs(homeShare - 0.5) * 2) * 0.18;
+  const lowScoreBonus = Math.max(0, (3.0 - totalGoals) * 0.10);
+  const drawBoost = closeMatchBonus + lowScoreBonus;
+  adjustedDraw *= clamp(1 + motivation.drawValue * 0.40 - motivation.intensity * 0.08 + drawBoost, 0.88, 1.55);
+  adjustedWin *= clamp(1 + (motivation.home?.intensity || 0) * 0.08 + (motivation.home?.goalNeed || 0) * 0.07, 0.9, 1.18);
+  adjustedAway *= clamp(1 + (motivation.away?.intensity || 0) * 0.08 + (motivation.away?.goalNeed || 0) * 0.07, 0.9, 1.18);
   const adjustedTotal = adjustedWin + adjustedDraw + adjustedAway;
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
