@@ -4,6 +4,7 @@ import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 import { loadRealTeamData } from "./fetch-real-data.mjs";
 import { loadESPNStats } from "./fetch-espn-stats.mjs";
+import { loadPlayerData } from "./fetch-player-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
@@ -572,6 +573,7 @@ function teamFromName(name, teamIndex) {
       shotsOnTarget: realTeam.shotsOnTarget || null,
       possession: realTeam.possession || null,
       shotAccuracy: realTeam.shotAccuracy || null,
+      playerQuality: realTeam.playerQuality || null,
     };
   }
 
@@ -614,8 +616,8 @@ function normalizeExternalMatches(rawMatches, rawTeams) {
         status,
         actualScore: status === "completed" ? `${score[0]}-${score[1]}` : "",
         externalSourceId: `${match.date}-${match.team1}-${match.team2}`,
-        home: { name: home.name, code: home.code, confed: home.confed, color: home.color, rank: home.rank, form: home.form, recentMatches: home.recentMatches, recentSummary: home.recentSummary, shotSource: home.shotSource, shotsPerGame: home.shotsPerGame, shotsOnTarget: home.shotsOnTarget, possession: home.possession, shotAccuracy: home.shotAccuracy },
-        away: { name: away.name, code: away.code, confed: away.confed, color: away.color, rank: away.rank, form: away.form, recentMatches: away.recentMatches, recentSummary: away.recentSummary, shotSource: away.shotSource, shotsPerGame: away.shotsPerGame, shotsOnTarget: away.shotsOnTarget, possession: away.possession, shotAccuracy: away.shotAccuracy },
+        home: { name: home.name, code: home.code, confed: home.confed, color: home.color, rank: home.rank, form: home.form, recentMatches: home.recentMatches, recentSummary: home.recentSummary, shotSource: home.shotSource, shotsPerGame: home.shotsPerGame, shotsOnTarget: home.shotsOnTarget, possession: home.possession, shotAccuracy: home.shotAccuracy, playerQuality: home.playerQuality },
+        away: { name: away.name, code: away.code, confed: away.confed, color: away.color, rank: away.rank, form: away.form, recentMatches: away.recentMatches, recentSummary: away.recentSummary, shotSource: away.shotSource, shotsPerGame: away.shotsPerGame, shotsOnTarget: away.shotsOnTarget, possession: away.possession, shotAccuracy: away.shotAccuracy, playerQuality: away.playerQuality },
         metrics: [
           { label: "进攻", home: home.attack, away: away.attack },
           { label: "防守", home: home.defense, away: away.defense },
@@ -1882,8 +1884,15 @@ async function main() {
   } catch (err) {
     console.warn(`ESPN stats unavailable: ${err.message}`);
   }
+  let playerData = null;
   try {
-    const realData = loadRealTeamData(wc48Codes, espnStats);
+    playerData = await loadPlayerData();
+    console.log(`Player data loaded: ${playerData?.size || 0} teams`);
+  } catch (err) {
+    console.warn(`Player data unavailable: ${err.message}`);
+  }
+  try {
+    const realData = loadRealTeamData(wc48Codes, espnStats, playerData);
     if (realData) {
       realDataCache = realData;
       console.log(`Real team data loaded: ${realData.teamData.size} teams, ${realData.rankings.size} rankings.`);

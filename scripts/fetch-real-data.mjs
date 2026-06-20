@@ -297,7 +297,7 @@ function computeRankings(teamData) {
 }
 
 // ---- Main export ----
-export function loadRealTeamData(targetCodes, espnStats = null) {
+export function loadRealTeamData(targetCodes, espnStats = null, playerData = null) {
   if (!fs.existsSync(resultsPath)) {
     console.warn("Kaggle results CSV not found, cannot load real data.");
     return null;
@@ -374,6 +374,31 @@ export function loadRealTeamData(targetCodes, espnStats = null) {
       }
     }
     console.log(`xG data blended for ${[...teamData.values()].filter(t=>t.xgDataSource).length} teams.`);
+  }
+
+  // Blend player squad quality (transfer value + rating + star power)
+  if (playerData && playerData.size > 0) {
+    const maxVal = Math.max(...[...playerData.values()].map(t => t.totalValueB || 0), 0.1);
+    for (const [code, team] of teamData) {
+      const pd = playerData.get(code);
+      if (!pd || pd.squadSize < 15) continue;
+      // Squad value normalized to 50-95
+      const valScore = Math.round(50 + (pd.totalValueB / maxVal) * 45);
+      // Average rating normalized (typical range 6.5-7.5 → 50-95)
+      const ratingScore = Math.round(50 + (pd.avgRating - 6.5) / 1.0 * 45);
+      // Star power (players with rating >= 7.2)
+      const starScore = Math.round(50 + Math.min(pd.starCount / 8 * 45, 45));
+      // Blend into existing metrics: 20% player quality, 80% match-based
+      team.attack = Math.round(team.attack * 0.80 + ((valScore + ratingScore) / 2) * 0.20);
+      team.midfield = Math.round(team.midfield * 0.80 + starScore * 0.20);
+      team.playerQuality = {
+        squadValue: pd.totalValueB,
+        avgRating: pd.avgRating,
+        starCount: pd.starCount,
+        avgAge: pd.avgAge,
+      };
+    }
+    console.log(`Player quality blended for ${[...teamData.values()].filter(t=>t.playerQuality).length} teams.`);
   }
 
   const rankings = computeRankings(teamData);
