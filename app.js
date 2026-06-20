@@ -272,12 +272,25 @@
         '<table class="recent-table">' + rows + '</table>' +
       '</div>';
     }
+    function shotCard(team) {
+      if (!team.shotsPerGame && !team.possession) return '';
+      var src = team.shotSource || '';
+      if (src.startsWith('ESPN')) src = '本届世界杯实时数据';
+      return '<div class="shot-stats-mini">' +
+        (team.shotsPerGame ? '<span>场均射门 <b>' + team.shotsPerGame + '</b></span>' : '') +
+        (team.shotsOnTarget ? '<span>射正 <b>' + team.shotsOnTarget + '</b></span>' : '') +
+        (team.possession ? '<span>控球率 <b>' + team.possession + '%</b></span>' : '') +
+        (team.shotAccuracy ? '<span>射正率 <b>' + team.shotAccuracy + '%</b></span>' : '') +
+        (src ? '<small>' + src + '</small>' : '') +
+      '</div>';
+    }
     var summaryNote = "";
     if (match.home.recentMatches && match.home.recentMatches[0] && match.home.recentMatches[0].date) {
       summaryNote = '<p class="data-source-note">数据来源：Kaggle 国际比赛数据库（1872–2026），共 49,478 场真实比赛记录。</p>';
     }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>近期状态</h3><small>近 5 场真实比赛</small></div>' +
+      '<div class="shot-stats-row">' + shotCard(match.home) + shotCard(match.away) + '</div>' +
       '<div class="recent-dual">' +
         recentTable(match.home) +
         recentTable(match.away) +

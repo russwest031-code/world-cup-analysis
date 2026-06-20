@@ -553,6 +553,11 @@ function teamFromName(name, teamIndex) {
       defense: realTeam.defense || 66,
       midfield: realTeam.midfield || 66,
       formScore: realTeam.formScore || 66,
+      shotSource: realTeam.shotDataSource || realTeam.xgDataSource || "",
+      shotsPerGame: realTeam.shotsPerGame || null,
+      shotsOnTarget: realTeam.shotsOnTarget || null,
+      possession: realTeam.possession || null,
+      shotAccuracy: realTeam.shotAccuracy || null,
     };
   }
 
