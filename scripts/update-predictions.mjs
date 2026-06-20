@@ -1627,22 +1627,21 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
 
-  // Draw redistribution: when the match is close, boost draw probability
+  // Draw boost: Poisson underpredicts draws. Boost when match is evenly poised.
   const maxProb = Math.max(...probabilities);
   const maxIdx = probabilities.indexOf(maxProb);
-  const drawProb = probabilities[1];
-  if (drawProb > 15 && maxProb < 50 && (maxIdx === 0 || maxIdx === 2)) {
-    const gap = maxProb - drawProb;
-    if (gap < 12) {
-      // Shift enough to make draw competitive — up to flat +7pp
-      const shift = Math.min(Math.round(gap * 1.2 + 2), 7);
-      probabilities[1] += shift;
-      probabilities[maxIdx] -= shift;
-      // Re-normalize
-      const sum = probabilities.reduce((s, v) => s + v, 0);
-      const diff = 100 - sum;
-      probabilities[0] += diff;
-    }
+  const isCloseMatch = Math.abs(homeShare - 0.5) < 0.08; // homeShare 42-58%
+  const isLowScoring = totalGoals < 3.0;
+  const isSmallEdge = Math.abs(edge) < 18;
+
+  if (isCloseMatch && isLowScoring && isSmallEdge && probabilities[1] > 12) {
+    // This is a draw-prone match — transfer probability from leader to draw
+    const transfer = Math.round(probabilities[maxIdx] * 0.22); // 22% of leader's prob
+    probabilities[1] += transfer;
+    probabilities[maxIdx] -= transfer;
+    // Re-normalize
+    const sum = probabilities.reduce((s, v) => s + v, 0);
+    probabilities[0] += 100 - sum;
   }
 
   const modelOnlyProbabilities = probabilities.slice();
