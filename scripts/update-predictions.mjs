@@ -1627,16 +1627,21 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
 
-  // Draw redistribution: when the match is close, shift probability from win/loss to draw
+  // Draw redistribution: when the match is close, boost draw probability
   const maxProb = Math.max(...probabilities);
   const maxIdx = probabilities.indexOf(maxProb);
   const drawProb = probabilities[1];
-  if (drawProb > 15 && maxProb < 50) {
-    const shift = Math.round(Math.min(maxProb - drawProb, 8) * 0.5);
-    if (shift > 0 && (maxIdx === 0 || maxIdx === 2)) {
+  if (drawProb > 15 && maxProb < 50 && (maxIdx === 0 || maxIdx === 2)) {
+    const gap = maxProb - drawProb;
+    if (gap < 12) {
+      // Shift enough to make draw competitive — up to flat +7pp
+      const shift = Math.min(Math.round(gap * 1.2 + 2), 7);
       probabilities[1] += shift;
       probabilities[maxIdx] -= shift;
-      probabilities[0] += 100 - probabilities.reduce((s, v) => s + v, 0); // re-normalize
+      // Re-normalize
+      const sum = probabilities.reduce((s, v) => s + v, 0);
+      const diff = 100 - sum;
+      probabilities[0] += diff;
     }
   }
 
