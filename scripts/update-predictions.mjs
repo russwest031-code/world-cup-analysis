@@ -1617,7 +1617,11 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   let adjustedDraw = draw;
   let adjustedAway = away;
   if (match.status !== "completed") {
-    adjustedDraw *= clamp(1 + motivation.drawValue * 0.18 - motivation.intensity * 0.2, 0.76, 1.18);
+    // Draw boost: when teams are close (homeShare near 50%) AND goal total is low, draws are more likely
+    const closeMatchBonus = (1 - Math.abs(homeShare - 0.5) * 2) * 0.15; // 0-0.15, higher when evenly matched
+    const lowScoreBonus = Math.max(0, (2.8 - totalGoals) * 0.08); // higher when fewer expected goals
+    const drawBoost = closeMatchBonus + lowScoreBonus;
+    adjustedDraw *= clamp(1 + motivation.drawValue * 0.35 - motivation.intensity * 0.1 + drawBoost, 0.82, 1.45);
     adjustedWin *= clamp(1 + (motivation.home?.intensity || 0) * 0.08 + (motivation.home?.goalNeed || 0) * 0.07, 0.9, 1.18);
     adjustedAway *= clamp(1 + (motivation.away?.intensity || 0) * 0.08 + (motivation.away?.goalNeed || 0) * 0.07, 0.9, 1.18);
   }
