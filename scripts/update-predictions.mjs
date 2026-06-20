@@ -1627,21 +1627,21 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
 
-  // Draw boost: Poisson underpredicts draws. Boost when match is evenly poised.
-  const maxProb = Math.max(...probabilities);
-  const maxIdx = probabilities.indexOf(maxProb);
-  const isCloseMatch = Math.abs(homeShare - 0.5) < 0.08; // homeShare 42-58%
-  const isLowScoring = totalGoals < 3.0;
-  const isSmallEdge = Math.abs(edge) < 18;
-
-  if (isCloseMatch && isLowScoring && isSmallEdge && probabilities[1] > 12) {
-    // This is a draw-prone match — transfer probability from leader to draw
-    const transfer = Math.round(probabilities[maxIdx] * 0.22); // 22% of leader's prob
-    probabilities[1] += transfer;
-    probabilities[maxIdx] -= transfer;
-    // Re-normalize
-    const sum = probabilities.reduce((s, v) => s + v, 0);
-    probabilities[0] += 100 - sum;
+  // Draw calibration: use draw probability from Poisson score matrix directly
+  // The score matrix has more information than the win/draw/loss aggregates
+  const drawScores = matrix.filter(r => r.h === r.a).sort((a, b) => b.probability - a.probability);
+  const topDrawProb = drawScores.length > 0 ? drawScores[0].probability : 0;
+  // If a specific draw score (like 1-1) is among the top 2 most likely outcomes, boost draw
+  const topScores = matrix.sort((a, b) => b.probability - a.probability).slice(0, 5);
+  const drawScoreCount = topScores.filter(r => r.h === r.a).length;
+  if (drawScoreCount >= 2 && probabilities[1] > 20) {
+    // Multiple draw scores feature prominently — this match is draw-ish
+    probabilities[1] = Math.round(probabilities[1] * 1.12);
+    const excess = probabilities.reduce((s, v) => s + v, 0) - 100;
+    if (excess > 0) {
+      const maxIdx = probabilities.indexOf(Math.max(...probabilities));
+      if (maxIdx !== 1) probabilities[maxIdx] -= excess;
+    }
   }
 
   const modelOnlyProbabilities = probabilities.slice();
