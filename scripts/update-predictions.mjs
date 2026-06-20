@@ -284,7 +284,7 @@ function latestJsonFile(dirPath) {
 
 async function fetchJson(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20000);
+  const timer = setTimeout(() => controller.abort(), 45000);
   try {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -296,7 +296,7 @@ async function fetchJson(url) {
 
 async function fetchJsonWithHeaders(url, headers = {}) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20000);
+  const timer = setTimeout(() => controller.abort(), 45000);
   try {
     const res = await fetch(url, {
       signal: controller.signal,
@@ -552,6 +552,86 @@ function scoreBandsFromMatrix(matrix, limit = 3) {
     })
     .sort((a, b) => b.chance - a.chance)
     .slice(0, limit);
+}
+
+function scoreScenariosFromMatrix(matrix, probabilities, limit = 3) {
+  const favorite = probabilities.indexOf(Math.max(...probabilities));
+  const candidates = [
+    {
+      label: "主队不败低比分",
+      predicate: row => row.h >= row.a && row.h + row.a <= 3,
+      priority: favorite === 0 ? 1.08 : favorite === 1 ? 1.02 : 0.92
+    },
+    {
+      label: "客队不败低比分",
+      predicate: row => row.a >= row.h && row.h + row.a <= 3,
+      priority: favorite === 2 ? 1.08 : favorite === 1 ? 1.02 : 0.92
+    },
+    {
+      label: "开放对攻",
+      predicate: row => row.h + row.a >= 4 && row.h > 0 && row.a > 0,
+      priority: 1.04
+    },
+    {
+      label: "主队优势胜",
+      predicate: row => row.h > row.a && (row.h - row.a >= 2 || row.h >= 3),
+      priority: favorite === 0 ? 1.06 : 0.9
+    },
+    {
+      label: "客队优势胜",
+      predicate: row => row.a > row.h && (row.a - row.h >= 2 || row.a >= 3),
+      priority: favorite === 2 ? 1.06 : 0.9
+    },
+    {
+      label: "低比分平局",
+      predicate: row => row.h === row.a && row.h + row.a <= 2,
+      priority: favorite === 1 ? 1.08 : 0.96
+    },
+    {
+      label: "高比分平局",
+      predicate: row => row.h === row.a && row.h + row.a >= 4,
+      priority: 0.88
+    },
+    {
+      label: "主队胜出覆盖",
+      predicate: row => row.h > row.a,
+      priority: favorite !== 0 && probabilities[0] >= 18 ? 1.02 : 0.76
+    },
+    {
+      label: "客队胜出覆盖",
+      predicate: row => row.a > row.h,
+      priority: favorite !== 2 && probabilities[2] >= 18 ? 1.02 : 0.76
+    }
+  ];
+  return candidates
+    .map(item => {
+      const rows = matrix.filter(item.predicate).sort((a, b) => b.probability - a.probability);
+      const probability = rows.reduce((sum, row) => sum + row.probability, 0);
+      return {
+        label: item.label,
+        chance: Math.max(1, Math.round(probability * 100)),
+        score: probability * item.priority,
+        examples: rows.slice(0, 3).map(row => `${row.h}-${row.a}`)
+      };
+    })
+    .filter(item => item.chance >= 4 && item.examples.length)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ score, ...item }) => item);
+}
+
+function scoreScenarioHit(label, home, away) {
+  const total = home + away;
+  if (label === "主队不败低比分") return home >= away && total <= 3;
+  if (label === "客队不败低比分") return away >= home && total <= 3;
+  if (label === "开放对攻") return total >= 4 && home > 0 && away > 0;
+  if (label === "主队优势胜") return home > away && (home - away >= 2 || home >= 3);
+  if (label === "客队优势胜") return away > home && (away - home >= 2 || away >= 3);
+  if (label === "低比分平局") return home === away && total <= 2;
+  if (label === "高比分平局") return home === away && total >= 4;
+  if (label === "主队胜出覆盖") return home > away;
+  if (label === "客队胜出覆盖") return away > home;
+  return false;
 }
 
 function pct(value) {
@@ -1412,7 +1492,7 @@ async function loadApiFootballSignals(matches) {
 
 async function fetchText(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 20000);
+  const timer = setTimeout(() => controller.abort(), 45000);
   try {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -1900,6 +1980,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const calibratedMatrix = calibrateScoreMatrixToOutcome(matrix, probabilities);
   const scoreOdds = scoreOddsFromMatrix(calibratedMatrix, probabilities, homeGoals + awayGoals, 4);
   const scoreBands = scoreBandsFromMatrix(calibratedMatrix, 3);
+  const scoreScenarios = scoreScenariosFromMatrix(calibratedMatrix, probabilities, 3);
   const expandedMarkets = expandedMarketsFromMatrix(calibratedMatrix, probabilities, homeGoals, awayGoals);
 
   // ── Confidence (deterministic, no random noise) ──
@@ -1927,6 +2008,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     summary,
     scoreOdds,
     scoreBands,
+    scoreScenarios,
     expandedMarkets,
     marketCalibration,
     motivation,
@@ -2028,6 +2110,7 @@ function updatePredictionLocks(matches) {
         tag: match.tag,
         scoreOdds: match.scoreOdds,
         scoreBands: match.scoreBands,
+        scoreScenarios: match.scoreScenarios,
         expectedGoals: match.expectedGoals,
         marketSignals: match.marketSignals,
         marketCalibration: match.marketCalibration
@@ -2066,6 +2149,7 @@ function calculateBacktest(matches, predictionLocks = null) {
     const evaluationProbabilities = locked?.probabilities || match.probabilities;
     const evaluationScoreOdds = locked?.scoreOdds || match.scoreOdds || [];
     const evaluationScoreBands = locked?.scoreBands || match.scoreBands || [];
+    const evaluationScoreScenarios = locked?.scoreScenarios || match.scoreScenarios || [];
     const evaluationMarketSignals = locked?.marketSignals || match.marketSignals || {};
     const predicted = evaluationProbabilities.indexOf(Math.max(...evaluationProbabilities));
     const actualScore = match.actualScore;
@@ -2075,6 +2159,9 @@ function calculateBacktest(matches, predictionLocks = null) {
       ? scoreBandForGoals(actualHomeGoals, actualAwayGoals)
       : "";
     const topBands = evaluationScoreBands.map(item => item.label);
+    const scenarioHit = Number.isFinite(actualHomeGoals) && Number.isFinite(actualAwayGoals)
+      ? evaluationScoreScenarios.some(item => scoreScenarioHit(item.label, actualHomeGoals, actualAwayGoals))
+      : false;
     const market = evaluationMarketSignals?.impliedProbabilities || null;
     const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
     return {
@@ -2089,6 +2176,7 @@ function calculateBacktest(matches, predictionLocks = null) {
       actualScoreBand,
       topScoreHit: topScores.includes(actualScore),
       scoreBandHit: actualScoreBand ? topBands.includes(actualScoreBand) : false,
+      scoreScenarioHit: scenarioHit,
       confidence: locked?.confidence ?? match.confidence,
       brier: Number(brierScore(evaluationProbabilities, actual).toFixed(4)),
       logLoss: Number(logLoss(evaluationProbabilities, actual).toFixed(4)),
@@ -2096,6 +2184,7 @@ function calculateBacktest(matches, predictionLocks = null) {
       marketHit: marketPredicted === null ? null : marketPredicted === actual,
       probabilities: evaluationProbabilities,
       scoreBands: evaluationScoreBands,
+      scoreScenarios: evaluationScoreScenarios,
       marketProbabilities: market
     };
   });
@@ -2142,6 +2231,7 @@ function calculateBacktest(matches, predictionLocks = null) {
     highConfidenceHitRate: hitRate(high),
     topScoreCoverage: Math.round(rows.filter(row => row.topScoreHit).length / count * 100),
     scoreBandCoverage: Math.round(rows.filter(row => row.scoreBandHit).length / count * 100),
+    scoreScenarioCoverage: Math.round(rows.filter(row => row.scoreScenarioHit).length / count * 100),
     averageBrier: Number((rows.reduce((sum, row) => sum + row.brier, 0) / count).toFixed(4)),
     averageLogLoss: Number((rows.reduce((sum, row) => sum + row.logLoss, 0) / count).toFixed(4)),
     drawRecall: outcomeBreakdown.find(item => item.outcome === "平局")?.hitRate ?? null,

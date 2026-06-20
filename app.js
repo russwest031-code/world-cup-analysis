@@ -55,6 +55,7 @@
       var primaryScore = (match.scoreOdds && match.scoreOdds[0]) ? match.scoreOdds[0] : null;
       var altScores = (match.scoreOdds || []).slice(1, 4);
       var topBand = (match.scoreBands && match.scoreBands[0]) ? match.scoreBands[0] : null;
+      var topScenario = (match.scoreScenarios && match.scoreScenarios[0]) ? match.scoreScenarios[0] : null;
       var conf = confidenceLabel(match.confidence);
 
       var scoreHTML = "";
@@ -78,6 +79,9 @@
       }
       var bandHTML = topBand
         ? '<div class="score-band-pill"><small>比分区间</small><strong>' + topBand.label + '</strong><span>' + topBand.chance + '% · ' + (topBand.examples || []).join(" / ") + '</span></div>'
+        : '';
+      var scenarioHTML = topScenario
+        ? '<div class="score-band-pill scenario-pill"><small>覆盖情景</small><strong>' + topScenario.label + '</strong><span>' + topScenario.chance + '% · ' + (topScenario.examples || []).join(" / ") + '</span></div>'
         : '';
 
       var wdlHTML = '<div class="wdl-bars">' +
@@ -123,6 +127,7 @@
         scoreHTML +
         altsHTML +
         bandHTML +
+        scenarioHTML +
         wdlHTML +
         metaHTML +
         '<p class="analysis-summary">' + sanitizeDisplayText(match.summary || "") + '</p>' +
@@ -236,6 +241,7 @@
           '<div class="section-title"><h3>比分分布</h3><small>模型概率</small></div>' +
           '<div class="score-grid">' + match.scoreOdds.map(function (item) { return '<div class="score-card"><strong>' + item.score + '</strong><span>' + item.chance + '%</span></div>'; }).join("") + '</div>' +
           ((match.scoreBands || []).length ? '<div class="score-band-grid">' + match.scoreBands.map(function (item) { return '<div class="score-band-card"><strong>' + item.label + '</strong><span>' + item.chance + '%</span><small>' + (item.examples || []).join(" / ") + '</small></div>'; }).join("") + '</div>' : '') +
+          ((match.scoreScenarios || []).length ? '<div class="section-title mini-title"><h3>覆盖情景</h3><small>非互斥风险场景</small></div><div class="score-band-grid">' + match.scoreScenarios.map(function (item) { return '<div class="score-band-card scenario-card"><strong>' + item.label + '</strong><span>' + item.chance + '%</span><small>' + (item.examples || []).join(" / ") + '</small></div>'; }).join("") + '</div>' : '') +
         '</section>' +
 
         // Section 5: 出线动机与比赛目标
@@ -793,6 +799,7 @@
             metric("平局召回", (backtest.drawRecall ?? "-") + "%", "实际平局识别") +
             metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
             metric("区间覆盖", (backtest.scoreBandCoverage ?? "-") + "%", "Top3比分区间") +
+            metric("情景覆盖", (backtest.scoreScenarioCoverage ?? "-") + "%", "Top3覆盖情景") +
             metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
             metric("Log Loss", backtest.averageLogLoss ?? "-", "概率惩罚") +
             metric("赛前锁定", backtest.lockedPredictionCount || 0, "用于严谨回测") +
@@ -820,7 +827,7 @@
               return '<div class="backtest-row">' +
                 '<strong>' + row.match + '</strong>' +
                 '<div><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
-                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span></div>' +
+                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span><span class="' + (row.scoreScenarioHit ? "hit" : "miss") + '">' + (row.scoreScenarioHit ? "情景命中" : "情景未中") + '</span></div>' +
                 '<small>概率 ' + row.probabilities.join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.predictionSource === "locked-pre-match" ? ' · 赛前锁定' : ' · 当前模型') + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
               '</div>';
             }).join("") +
