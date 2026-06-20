@@ -79,7 +79,7 @@ const XG_TEAM_MAP = {
   "Serbia": "SRB", "Morocco": "MAR", "Ghana": "GHA", "Saudi Arabia": "KSA",
 };
 
-function loadXGData() {
+export function loadXGData() {
   const csvPath = path.join(root, "scripts", "data", "matches_1930_2022.csv");
   const cachePath = "C:/Users/Russell/.cache/kagglehub/datasets/piterfm/fifa-football-world-cup/versions/26/matches_1930_2022.csv";
   const filePath = fs.existsSync(csvPath) ? csvPath : cachePath;
