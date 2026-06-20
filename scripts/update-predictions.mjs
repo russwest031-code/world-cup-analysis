@@ -1605,8 +1605,13 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
   const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
-  const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
-  const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
+  // Draw nudge: when teams are evenly matched, push expected goals closer together
+  // This naturally increases Poisson draw probability without post-hoc redistribution
+  const teamCloseness = Math.max(0, 1 - Math.abs(edge) / 28);
+  const nudgeTotal = totalGoals - totalGoals * teamCloseness * 0.03;
+  const nudgeShare = clamp(homeShare - (homeShare - 0.5) * teamCloseness * 0.06, 0.27, 0.73);
+  const homeGoals = clamp(nudgeTotal * nudgeShare, 0.35, 3.45);
+  const awayGoals = clamp(nudgeTotal - homeGoals, 0.25, 3.25);
   const matrix = scoreMatrix(homeGoals, awayGoals);
 
   // ── Probabilities ──
