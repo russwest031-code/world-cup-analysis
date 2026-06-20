@@ -1297,7 +1297,7 @@ function oddsForMatch(match, oddsContext) {
   return {
     status: "connected",
     provider: oddsContext.provider,
-    weight: 0.36,
+    weight: 0.50,
     eventId: event.id,
     commenceTime: event.commence_time,
     bookmakers: event.bookmakers?.length || 0,
@@ -1537,65 +1537,50 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
   const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
 
-  // ── Factor 1: World Ranking (29%) ──
+  // ── Factor 1: World Ranking (35%) ──
   const homeRankScore = clamp(100 - homeRank, 0, 100);
   const awayRankScore = clamp(100 - awayRank, 0, 100);
   const f1 = {
-    name: "世界排名", weight: 29,
+    name: "世界排名", weight: 35,
     homeScore: homeRankScore, awayScore: awayRankScore,
-    contribution: (homeRankScore - awayRankScore) * 0.29,
+    contribution: (homeRankScore - awayRankScore) * 0.35,
     evidence: `${match.home.name} 世界第${homeRank}，${match.away.name} 世界第${awayRank}。排名差 ${Math.abs(homeRank - awayRank)} 位。`
   };
 
-  // ── Factor 2: Confederation Strength (2%) ──
-  const f2 = confedFactor(match.home.confed, match.away.confed);
-
-  // ── Factor 3: Attack-Defense Composite (27%) ──
+  // ── Factor 2: Attack-Defense Composite (31%) ──
   const homeComposite = Math.round((homeAttack + homeDefense + homeMidfield) / 3);
   const awayComposite = Math.round((awayAttack + awayDefense + awayMidfield) / 3);
-  const f3 = {
-    name: "攻防综合", weight: 27,
+  const f2 = {
+    name: "攻防综合", weight: 31,
     homeScore: homeComposite, awayScore: awayComposite,
-    contribution: (homeComposite - awayComposite) * 0.27,
+    contribution: (homeComposite - awayComposite) * 0.31,
     evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
   };
 
-  // ── Factor 4: Recent Form (24%) ──
+  // ── Factor 3: Recent Form (26%) ──
   const homeFormScore = Math.round(homeForm / 15 * 100);
   const awayFormScore = Math.round(awayForm / 15 * 100);
-  const f4 = {
-    name: "近期状态", weight: 24,
+  const f3 = {
+    name: "近期状态", weight: 26,
     homeScore: homeFormScore, awayScore: awayFormScore,
-    contribution: (homeFormScore - awayFormScore) * 0.24,
+    contribution: (homeFormScore - awayFormScore) * 0.26,
     evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
   };
 
-  // ── Factor 5: Head-to-Head (4%) ──
-  const f5 = h2hFactor(match.home.code, match.away.code);
-
-  // ── Factor 6: Motivation (8%) ──
+  // ── Factor 4: Motivation (8%) ──
   const homeMotRaw = (motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20;
   const awayMotRaw = (motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20;
   const homeMotScore = Math.round(clamp(homeMotRaw, 0, 100));
   const awayMotScore = Math.round(clamp(awayMotRaw, 0, 100));
-  const f6 = {
+  const f4 = {
     name: "出线动机", weight: 8,
     homeScore: homeMotScore, awayScore: awayMotScore,
     contribution: (homeMotScore - awayMotScore) * 0.08,
     evidence: motivation.note
   };
 
-  // ── Factor 7: Style Clash (2%) ──
-  const f7 = styleClashFactor(homeStyle, awayStyle);
-
-  // ── Factor 8: Rest Days (2%) ──
-  const f8 = restDaysFactor(match.home.code, match.away.code, match.date, allMatches);
-
-  // ── Factor 9: Venue (2%) ──
-  const f9 = venueFactor(match.home.code, match.away.code, match.venue);
-
-  // ── Collect factors 1-9 and compute power ──
-  const factors = [f1, f2, f3, f4, f5, f6, f7, f8, f9];
+  // ── Collect factors and compute power ──
+  const factors = [f1, f2, f3, f4];
   let homePower = 0;
   let awayPower = 0;
   for (const f of factors) {
@@ -1677,7 +1662,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
       probabilities[i] = Math.round(probabilities[i] * (1 - blendWeight) + marketSignals.impliedProbabilities[i] * blendWeight);
     }
     probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
-    extEvidence = `赔率市场（48家博彩公司均值，融合28%）：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%，倾向${marketSignals.marketFavorite || "不明"}。`;
+    extEvidence = `赔率市场（48家博彩公司均值，融合50%）：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%，倾向${marketSignals.marketFavorite || "不明"}。`;
   } else if (marketSignals.status === "missing-key") {
     extEvidence = "赔率接口未配置 API Key。";
   } else if (expertSignals.status === "connected") {
@@ -1694,7 +1679,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
       ? marketSignals.impliedProbabilities.map((value, index) => value - modelOnlyProbabilities[index])
       : null,
     summary: marketSignals.impliedProbabilities
-      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 28% 权重校准后为 ${probabilities.join("/")}%。`
+      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 50% 权重校准后为 ${probabilities.join("/")}%。`
       : "暂无可用市场概率，模型未进行赔率校准。"
   };
 
