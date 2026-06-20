@@ -46,11 +46,14 @@ function extractTeamStats(data) {
   for (const ev of events) {
     const comps = ev.competitions || [];
     for (const comp of comps) {
+      if (!comp.status?.type?.completed) continue;
       for (const competitor of comp.competitors || []) {
         const teamName = competitor.team?.name || competitor.team?.displayName;
         if (!teamName) continue;
         const code = TEAM_MAP[teamName];
         if (!code) continue;
+        const stats = competitor.statistics || [];
+        if (!stats.length) continue;
 
         if (!teamStats.has(code)) {
           teamStats.set(code, {
@@ -68,7 +71,6 @@ function extractTeamStats(data) {
         const s = teamStats.get(code);
         s.matches += 1;
 
-        const stats = competitor.statistics || [];
         const getStat = (name) => parseFloat(stats.find(s => s.name === name)?.displayValue) || 0;
         s.totalShots += getStat("totalShots");
         s.shotsOnTarget += getStat("shotsOnTarget");
