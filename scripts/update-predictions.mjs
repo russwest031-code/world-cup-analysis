@@ -1605,13 +1605,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
   const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
-  // Draw nudge: when teams are evenly matched, push expected goals closer together
-  // This naturally increases Poisson draw probability without post-hoc redistribution
-  const teamCloseness = Math.max(0, 1 - Math.abs(edge) / 28);
-  const nudgeTotal = totalGoals - totalGoals * teamCloseness * 0.03;
-  const nudgeShare = clamp(homeShare - (homeShare - 0.5) * teamCloseness * 0.06, 0.27, 0.73);
-  const homeGoals = clamp(nudgeTotal * nudgeShare, 0.35, 3.45);
-  const awayGoals = clamp(nudgeTotal - homeGoals, 0.25, 3.25);
+  const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
+  const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
   const matrix = scoreMatrix(homeGoals, awayGoals);
 
   // ── Probabilities ──
@@ -1632,20 +1627,21 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const probabilities = [Math.round(adjustedWin / adjustedTotal * 100), Math.round(adjustedDraw / adjustedTotal * 100), Math.round(adjustedAway / adjustedTotal * 100)];
   probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
 
-  // Draw calibration: use draw probability from Poisson score matrix directly
-  // The score matrix has more information than the win/draw/loss aggregates
-  const drawScores = matrix.filter(r => r.h === r.a).sort((a, b) => b.probability - a.probability);
-  const topDrawProb = drawScores.length > 0 ? drawScores[0].probability : 0;
-  // If a specific draw score (like 1-1) is among the top 2 most likely outcomes, boost draw
-  const topScores = matrix.sort((a, b) => b.probability - a.probability).slice(0, 5);
-  const drawScoreCount = topScores.filter(r => r.h === r.a).length;
-  if (drawScoreCount >= 2 && probabilities[1] > 20) {
-    // Multiple draw scores feature prominently — this match is draw-ish
-    probabilities[1] = Math.round(probabilities[1] * 1.12);
-    const excess = probabilities.reduce((s, v) => s + v, 0) - 100;
-    if (excess > 0) {
-      const maxIdx = probabilities.indexOf(Math.max(...probabilities));
-      if (maxIdx !== 1) probabilities[maxIdx] -= excess;
+  // Draw redistribution: when the match is close, boost draw probability
+  const maxProb = Math.max(...probabilities);
+  const maxIdx = probabilities.indexOf(maxProb);
+  const drawProb = probabilities[1];
+  if (drawProb > 15 && maxProb < 50 && (maxIdx === 0 || maxIdx === 2)) {
+    const gap = maxProb - drawProb;
+    if (gap < 12) {
+      // Shift enough to make draw competitive — up to flat +7pp
+      const shift = Math.min(Math.round(gap * 1.2 + 2), 7);
+      probabilities[1] += shift;
+      probabilities[maxIdx] -= shift;
+      // Re-normalize
+      const sum = probabilities.reduce((s, v) => s + v, 0);
+      const diff = 100 - sum;
+      probabilities[0] += diff;
     }
   }
 
