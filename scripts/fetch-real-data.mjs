@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { loadShotData } from "./fetch-shot-data.mjs";
+import { loadShotData, loadXGData } from "./fetch-shot-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const resultsPath = path.join(root, "scripts", "data", "kaggle-results.csv");
@@ -332,6 +332,29 @@ export function loadRealTeamData(targetCodes) {
       }
     }
     console.log(`Shot data blended for ${[...teamData.values()].filter(t=>t.shotDataSource).length} teams.`);
+  }
+
+  // Blend 2022 World Cup xG data where available
+  const xgData = loadXGData();
+  if (xgData) {
+    for (const [code, team] of teamData) {
+      const xg = xgData.get(code);
+      if (xg && xg.matches >= 2) {
+        // Attack: 50% opponent-adjusted goals + 50% xG-based (normalized)
+        const xgAttack = Math.round(50 + Math.min(xg.avgXG / 3.0 * 45, 45));
+        team.attack = Math.round(team.attack * 0.5 + xgAttack * 0.5);
+        // Defense: blend xGA
+        const xgDefense = Math.round(95 - Math.min(xg.avgXGA / 2.5 * 45, 45));
+        team.defense = Math.round(team.defense * 0.5 + xgDefense * 0.5);
+        // xG diff contributes to midfield
+        const xgMid = Math.round(50 + xg.xgDiff * 12);
+        team.midfield = Math.round(team.midfield * 0.5 + xgMid * 0.5);
+        team.xgDataSource = "WC 2022 xG";
+        team.avgXG = xg.avgXG;
+        team.avgXGA = xg.avgXGA;
+      }
+    }
+    console.log(`xG data blended for ${[...teamData.values()].filter(t=>t.xgDataSource).length} teams.`);
   }
 
   const rankings = computeRankings(teamData);

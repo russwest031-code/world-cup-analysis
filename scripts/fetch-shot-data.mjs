@@ -67,6 +67,61 @@ const AFCON_TEAM_MAP = {
   "comoros": "COM", "equatorial guinea": "GNQ",
 };
 
+// ---- Load 2022 World Cup xG data ----
+const XG_TEAM_MAP = {
+  "Argentina": "ARG", "France": "FRA", "Brazil": "BRA", "England": "ENG",
+  "Spain": "ESP", "Portugal": "POR", "Netherlands": "NED", "Germany": "GER",
+  "Belgium": "BEL", "Croatia": "CRO", "Uruguay": "URU", "Japan": "JPN",
+  "United States": "USA", "Mexico": "MEX", "Senegal": "SEN", "Iran": "IRN",
+  "South Korea": "KOR", "Switzerland": "SUI", "Ecuador": "ECU", "Qatar": "QAT",
+  "Wales": "WAL", "Poland": "POL", "Australia": "AUS", "Denmark": "DEN",
+  "Tunisia": "TUN", "Costa Rica": "CRC", "Canada": "CAN", "Cameroon": "CMR",
+  "Serbia": "SRB", "Morocco": "MAR", "Ghana": "GHA", "Saudi Arabia": "KSA",
+};
+
+function loadXGData() {
+  const csvPath = path.join(root, "scripts", "data", "matches_1930_2022.csv");
+  const cachePath = "C:/Users/Russell/.cache/kagglehub/datasets/piterfm/fifa-football-world-cup/versions/26/matches_1930_2022.csv";
+  const filePath = fs.existsSync(csvPath) ? csvPath : cachePath;
+  if (!fs.existsSync(filePath)) { console.warn("xG data not found"); return null; }
+
+  const text = fs.readFileSync(filePath, "latin1");
+  const lines = text.trim().split("\n");
+  const headers = lines[0].split(",");
+  const yearIdx = headers.indexOf("Year");
+  const homeIdx = headers.indexOf("home_team");
+  const awayIdx = headers.indexOf("away_team");
+  const hxgIdx = headers.indexOf("home_xg");
+  const axgIdx = headers.indexOf("away_xg");
+
+  const teamXG = new Map();
+  for (let i = 1; i < lines.length; i++) {
+    const cols = lines[i].split(",");
+    if (cols[yearIdx] !== "2022") continue;
+    const home = cols[homeIdx];
+    const away = cols[awayIdx];
+    const hxg = parseFloat(cols[hxgIdx]) || 0;
+    const axg = parseFloat(cols[axgIdx]) || 0;
+    for (const [team, xgf, xga] of [[home, hxg, axg], [away, axg, hxg]]) {
+      const code = XG_TEAM_MAP[team];
+      if (!code) continue;
+      if (!teamXG.has(code)) teamXG.set(code, { xgFor: 0, xgAgainst: 0, matches: 0 });
+      const s = teamXG.get(code);
+      s.xgFor += xgf;
+      s.xgAgainst += xga;
+      s.matches += 1;
+    }
+  }
+  // Compute averages
+  for (const [code, s] of teamXG) {
+    s.avgXG = +(s.xgFor / s.matches).toFixed(2);
+    s.avgXGA = +(s.xgAgainst / s.matches).toFixed(2);
+    s.xgDiff = +(s.avgXG - s.avgXGA).toFixed(2);
+  }
+  console.log(`xG data: loaded ${teamXG.size} teams from 2022 World Cup`);
+  return teamXG;
+}
+
 export function loadShotData() {
   const afcon = loadAfconData();
   if (!afcon) return null;
