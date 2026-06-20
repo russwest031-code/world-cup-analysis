@@ -414,22 +414,12 @@ function poisson(lambda, goals) {
   return (Math.exp(-lambda) * Math.pow(lambda, goals)) / factorial;
 }
 
-// Dixon-Coles (1997): adaptive ρ based on match context
-// Higher total goals → fewer draws. Big edge → fewer draws. Close match → more draws.
-function adaptiveRho(totalGoals, edge, homeAttack, awayAttack, homeDefense, awayDefense) {
-  const baseRho = 0.14;
-  // High-scoring teams → fewer draws
-  const attackingFactor = Math.max(0.5, 1 - (homeAttack + awayAttack - 140) * 0.02);
-  // Defensive teams → more draws
-  const defensiveFactor = Math.min(1.5, 1 + (homeDefense + awayDefense - 140) * 0.02);
-  // Close match → more draws
-  const closenessFactor = 1 + Math.max(0, 1 - Math.abs(edge) / 20) * 0.4;
-  // High total goals → fewer draws
-  const goalsFactor = totalGoals > 2.8 ? 0.5 : totalGoals < 2.0 ? 1.3 : 0.9;
-  return Math.max(0.05, Math.min(0.30, baseRho * attackingFactor * defensiveFactor * closenessFactor * goalsFactor));
-}
+// Dixon-Coles (1997) adjustment: corrects Poisson independence for low-scoring draws
+// ρ (rho) accounts for the correlation between team scores in close matches
+// Typical ρ for World Cup: 0.10–0.18. Higher = more draws.
+const DIXON_COLES_RHO = 0.17;
 
-function scoreMatrix(homeGoals, awayGoals, rho) {
+function scoreMatrix(homeGoals, awayGoals) {
   const lh = homeGoals;
   const la = awayGoals;
   const rows = [];
@@ -437,10 +427,12 @@ function scoreMatrix(homeGoals, awayGoals, rho) {
   for (let h = 0; h <= 5; h += 1) {
     for (let a = 0; a <= 5; a += 1) {
       let probability = poisson(lh, h) * poisson(la, a);
-      if (h === 0 && a === 0) probability *= (1 + lh * la * rho);
-      else if (h === 1 && a === 0) probability *= (1 - la * rho);
-      else if (h === 0 && a === 1) probability *= (1 - lh * rho);
-      else if (h === 1 && a === 1) probability *= (1 + rho);
+      // Dixon-Coles adjustment for low scores
+      if (h === 0 && a === 0) probability *= (1 + lh * la * DIXON_COLES_RHO);
+      else if (h === 1 && a === 0) probability *= (1 - la * DIXON_COLES_RHO);
+      else if (h === 0 && a === 1) probability *= (1 - lh * DIXON_COLES_RHO);
+      else if (h === 1 && a === 1) probability *= (1 + DIXON_COLES_RHO);
+      // Clamp to prevent negative probabilities
       probability = Math.max(0, probability);
       rows.push({ h, a, probability });
       total += probability;
@@ -1631,8 +1623,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
   const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
   const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
-  const rho = adaptiveRho(totalGoals, edge, homeAttack, awayAttack, homeDefense, awayDefense);
-  const matrix = scoreMatrix(homeGoals, awayGoals, rho);
+  const matrix = scoreMatrix(homeGoals, awayGoals);
 
   // ── Probabilities ──
   const win = matrix.filter(row => row.h > row.a).reduce((sum, row) => sum + row.probability, 0);
