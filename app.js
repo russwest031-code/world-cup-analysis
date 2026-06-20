@@ -275,7 +275,7 @@
     function shotCard(team) {
       if (!team.shotsPerGame && !team.possession) return '';
       var src = team.shotSource || '';
-      if (src.startsWith('ESPN')) src = '本届世界杯实时数据';
+      if (src.startsWith('ESPN')) src = src.replace('ESPN WC2026', '本届世界杯');
       return '<div class="shot-stats-mini">' +
         (team.shotsPerGame ? '<span>场均射门 <b>' + team.shotsPerGame + '</b></span>' : '') +
         (team.shotsOnTarget ? '<span>射正 <b>' + team.shotsOnTarget + '</b></span>' : '') +
