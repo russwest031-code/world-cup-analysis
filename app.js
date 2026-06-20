@@ -788,6 +788,7 @@
             metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
             metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
             metric("Log Loss", backtest.averageLogLoss ?? "-", "概率惩罚") +
+            metric("赛前锁定", backtest.lockedPredictionCount || 0, "用于严谨回测") +
             metric("高信心样本", backtest.highConfidenceCount || 0, "场") +
             metric("高信心命中", (backtest.highConfidenceHitRate ?? "-") + "%", ">=80%") +
             metric("赔率可比", backtest.marketComparableCount || 0, "场") +
@@ -813,7 +814,7 @@
                 '<strong>' + row.match + '</strong>' +
                 '<div><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
                 '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "比分覆盖" : "比分未覆盖") + '</span></div>' +
-                '<small>概率 ' + row.probabilities.join(" / ") + '% · Brier ' + row.brier + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
+                '<small>概率 ' + row.probabilities.join(" / ") + '% · Brier ' + row.brier + (row.predictionSource === "locked-pre-match" ? ' · 赛前锁定' : ' · 当前模型') + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
               '</div>';
             }).join("") +
           '</div>' +

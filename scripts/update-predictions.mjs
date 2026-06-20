@@ -8,6 +8,9 @@ import { loadPlayerData } from "./fetch-player-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
+const snapshotsDir = path.join(root, "snapshots");
+const oddsSnapshotDir = path.join(snapshotsDir, "odds");
+const predictionLocksPath = path.join(snapshotsDir, "prediction-locks.json");
 const now = new Date();
 const runDate = process.env.UPDATE_DATE || now.toISOString().slice(0, 10);
 
@@ -257,6 +260,28 @@ function loadCachedMatches() {
   return sandbox.window.MATCHES || [];
 }
 
+function readJsonFile(filePath, fallback) {
+  try {
+    if (!fs.existsSync(filePath)) return fallback;
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return fallback;
+  }
+}
+
+function writeJsonFile(filePath, data) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+}
+
+function latestJsonFile(dirPath) {
+  if (!fs.existsSync(dirPath)) return null;
+  return fs.readdirSync(dirPath)
+    .filter(name => name.endsWith(".json"))
+    .sort()
+    .at(-1) || null;
+}
+
 async function fetchJson(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20000);
@@ -484,7 +509,7 @@ function calibratedConfidence(probabilities, scoreOdds, drawGuardApplied, market
   const margin = sorted[0] - sorted[1];
   const draw = probabilities[1];
   const topScoreChance = scoreOdds[0]?.chance || 0;
-  const hasMarket = marketSignals?.status === "connected" && Array.isArray(marketSignals.impliedProbabilities);
+  const hasMarket = ["connected", "snapshot"].includes(marketSignals?.status) && Array.isArray(marketSignals.impliedProbabilities);
   let confidence = Math.round(44 + top * 0.42 + margin * 0.55);
 
   if (top < 45) confidence = Math.min(confidence, 66);
@@ -1023,7 +1048,23 @@ async function loadExternalMatches() {
 }
 
 async function loadOddsSignals() {
+  function loadSnapshot(status = "snapshot") {
+    const latest = latestJsonFile(oddsSnapshotDir);
+    if (!latest) return null;
+    const snapshot = readJsonFile(path.join(oddsSnapshotDir, latest), null);
+    if (!snapshot || !Array.isArray(snapshot.events)) return null;
+    return {
+      ...snapshot,
+      status,
+      provider: snapshot.provider || "The Odds API",
+      snapshotFile: path.join("snapshots", "odds", latest),
+      note: `本次未请求新赔率，使用历史赔率快照 ${latest}。`
+    };
+  }
+
   if (!ODDS_API_KEY) {
+    const snapshot = loadSnapshot("snapshot");
+    if (snapshot) return snapshot;
     return {
       status: "missing-key",
       provider: "The Odds API",
@@ -1039,7 +1080,7 @@ async function loadOddsSignals() {
   url.searchParams.set("dateFormat", "iso");
   try {
     const events = await fetchJson(url.toString());
-    return {
+    const payload = {
       status: "connected",
       provider: "The Odds API",
       sportKey: ODDS_SPORT_KEY,
@@ -1048,7 +1089,17 @@ async function loadOddsSignals() {
       fetchedAt: now.toISOString(),
       events: Array.isArray(events) ? events : []
     };
+    writeJsonFile(path.join(oddsSnapshotDir, `${runDate}.json`), payload);
+    return payload;
   } catch (error) {
+    const snapshot = loadSnapshot("snapshot-error-fallback");
+    if (snapshot) {
+      return {
+        ...snapshot,
+        error: error.message,
+        note: `赔率接口请求失败，已回退到历史赔率快照 ${snapshot.snapshotFile}。`
+      };
+    }
     return {
       status: "error",
       provider: "The Odds API",
@@ -1297,7 +1348,8 @@ function matchTeams(event, match) {
 }
 
 function oddsForMatch(match, oddsContext) {
-  if (!oddsContext || oddsContext.status !== "connected") {
+  const oddsUsable = oddsContext && ["connected", "snapshot", "snapshot-error-fallback"].includes(oddsContext.status);
+  if (!oddsUsable) {
     return {
       status: oddsContext?.status || "not-connected",
       provider: oddsContext?.provider || "The Odds API",
@@ -1353,11 +1405,12 @@ function oddsForMatch(match, oddsContext) {
   const favoriteIndex = implied.indexOf(Math.max(...implied));
   const labels = [match.home.name, "平局", match.away.name];
   return {
-    status: "connected",
+    status: oddsContext.status === "connected" ? "connected" : "snapshot",
     provider: oddsContext.provider,
     weight: 0.50,
     eventId: event.id,
     commenceTime: event.commence_time,
+    snapshotFile: oddsContext.snapshotFile || null,
     bookmakers: event.bookmakers?.length || 0,
     averageOdds: { home: homeAvg, draw: drawAvg, away: awayAvg },
     impliedProbabilities: implied,
@@ -1714,7 +1767,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── Market odds: direct blend into final probabilities (not through power score) ──
   let extEvidence = "暂无可用赔率或专业球评信号。";
 
-  if (marketSignals.status === "connected" && marketSignals.impliedProbabilities) {
+  if (["connected", "snapshot"].includes(marketSignals.status) && marketSignals.impliedProbabilities) {
     const blendWeight = marketSignals.weight;
     for (let i = 0; i < 3; i += 1) {
       probabilities[i] = Math.round(probabilities[i] * (1 - blendWeight) + marketSignals.impliedProbabilities[i] * blendWeight);
@@ -1845,6 +1898,64 @@ function actualOutcome(match) {
   return 2;
 }
 
+function kickoffTime(match) {
+  if (!match.date || !match.time) return null;
+  const date = new Date(`${match.date}T${match.time}:00+08:00`);
+  const time = date.getTime();
+  return Number.isFinite(time) ? date : null;
+}
+
+function loadPredictionLocks() {
+  const locks = readJsonFile(predictionLocksPath, null);
+  if (locks && typeof locks === "object" && locks.matches) return locks;
+  return {
+    version: 1,
+    createdAt: now.toISOString(),
+    updatedAt: now.toISOString(),
+    matches: {}
+  };
+}
+
+function updatePredictionLocks(matches) {
+  const locks = loadPredictionLocks();
+  let created = 0;
+  let retained = 0;
+  for (const match of matches) {
+    const kickoff = kickoffTime(match);
+    if (!kickoff || kickoff.getTime() <= now.getTime()) continue;
+    if (locks.matches[match.id]) {
+      retained += 1;
+      continue;
+    }
+    locks.matches[match.id] = {
+      matchId: match.id,
+      lockedAt: now.toISOString(),
+      kickoff: kickoff.toISOString(),
+      match: `${match.home.name} vs ${match.away.name}`,
+      date: match.date,
+      time: match.time,
+      prediction: {
+        probabilities: match.probabilities,
+        confidence: match.confidence,
+        tag: match.tag,
+        scoreOdds: match.scoreOdds,
+        expectedGoals: match.expectedGoals,
+        marketSignals: match.marketSignals,
+        marketCalibration: match.marketCalibration
+      }
+    };
+    created += 1;
+  }
+  locks.updatedAt = now.toISOString();
+  locks.summary = {
+    totalLocked: Object.keys(locks.matches).length,
+    createdThisRun: created,
+    retainedThisRun: retained
+  };
+  writeJsonFile(predictionLocksPath, locks);
+  return locks;
+}
+
 function brierScore(probs, actualIndex) {
   return probs.reduce((sum, value, index) => {
     const p = value / 100;
@@ -1858,29 +1969,35 @@ function logLoss(probs, actualIndex) {
   return -Math.log(p);
 }
 
-function calculateBacktest(matches) {
+function calculateBacktest(matches, predictionLocks = null) {
   const completed = matches.filter(match => match.status === "completed" && actualOutcome(match) !== null);
   const rows = completed.map(match => {
     const actual = actualOutcome(match);
-    const predicted = match.probabilities.indexOf(Math.max(...match.probabilities));
+    const locked = predictionLocks?.matches?.[match.id]?.prediction || null;
+    const evaluationProbabilities = locked?.probabilities || match.probabilities;
+    const evaluationScoreOdds = locked?.scoreOdds || match.scoreOdds || [];
+    const evaluationMarketSignals = locked?.marketSignals || match.marketSignals || {};
+    const predicted = evaluationProbabilities.indexOf(Math.max(...evaluationProbabilities));
     const actualScore = match.actualScore;
-    const topScores = (match.scoreOdds || []).map(item => item.score);
-    const market = match.marketSignals?.impliedProbabilities || null;
+    const topScores = evaluationScoreOdds.map(item => item.score);
+    const market = evaluationMarketSignals?.impliedProbabilities || null;
     const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
     return {
       id: match.id,
       match: `${match.home.name} vs ${match.away.name}`,
+      predictionSource: locked ? "locked-pre-match" : "current-model",
+      lockedAt: predictionLocks?.matches?.[match.id]?.lockedAt || null,
       actualOutcome: ["主胜", "平局", "客胜"][actual],
       predictedOutcome: ["主胜", "平局", "客胜"][predicted],
       outcomeHit: actual === predicted,
       actualScore,
       topScoreHit: topScores.includes(actualScore),
-      confidence: match.confidence,
-      brier: Number(brierScore(match.probabilities, actual).toFixed(4)),
-      logLoss: Number(logLoss(match.probabilities, actual).toFixed(4)),
+      confidence: locked?.confidence ?? match.confidence,
+      brier: Number(brierScore(evaluationProbabilities, actual).toFixed(4)),
+      logLoss: Number(logLoss(evaluationProbabilities, actual).toFixed(4)),
       marketOutcome: marketPredicted === null ? "" : ["主胜", "平局", "客胜"][marketPredicted],
       marketHit: marketPredicted === null ? null : marketPredicted === actual,
-      probabilities: match.probabilities,
+      probabilities: evaluationProbabilities,
       marketProbabilities: market
     };
   });
@@ -1929,6 +2046,7 @@ function calculateBacktest(matches) {
     averageBrier: Number((rows.reduce((sum, row) => sum + row.brier, 0) / count).toFixed(4)),
     averageLogLoss: Number((rows.reduce((sum, row) => sum + row.logLoss, 0) / count).toFixed(4)),
     drawRecall: outcomeBreakdown.find(item => item.outcome === "平局")?.hitRate ?? null,
+    lockedPredictionCount: rows.filter(row => row.predictionSource === "locked-pre-match").length,
     outcomeBreakdown,
     predictedBreakdown,
     confidenceBuckets,
@@ -1938,7 +2056,7 @@ function calculateBacktest(matches) {
   };
 }
 
-function serialize(matches, metaOverrides = {}, backtestData = null) {
+function serialize(matches, metaOverrides = {}, backtestData = null, predictionLocks = null) {
   const meta = {
     updatedAt: now.toISOString(),
     runDate,
@@ -1958,7 +2076,7 @@ function serialize(matches, metaOverrides = {}, backtestData = null) {
   if (meta.source === "cached-local-fallback" && !metaOverrides.externalFetchedAt) {
     meta.externalFetchedAt = null;
   }
-  const calculatedBacktest = calculateBacktest(matches);
+  const calculatedBacktest = calculateBacktest(matches, predictionLocks);
   const backtest = backtestData
     ? {
         ...calculatedBacktest,
@@ -2046,6 +2164,10 @@ async function main() {
     liveInjuryCount: live.injuryCount || 0
   };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live }, matches));
+  const predictionLocks = updatePredictionLocks(refreshed);
+  metaOverrides.predictionLockCount = predictionLocks.summary?.totalLocked || 0;
+  metaOverrides.predictionLocksCreated = predictionLocks.summary?.createdThisRun || 0;
+  metaOverrides.oddsSnapshotFile = odds.snapshotFile || (odds.status === "connected" ? path.join("snapshots", "odds", `${runDate}.json`) : null);
 
   // Loop 1: Backtest completed matches, auto-adjust weights if needed
   let backtestData = null;
@@ -2080,7 +2202,7 @@ async function main() {
     console.warn(`Autopsy skipped: ${err.message}`);
   }
 
-  fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides, backtestData), "utf8");
+  fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides, backtestData, predictionLocks), "utf8");
   console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}; backtest=${backtestData?.accuracy || "N/A"}%`);
 
   // Loop 3: Self-check

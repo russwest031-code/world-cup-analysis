@@ -70,8 +70,8 @@ async function main() {
     results.push({ check: "completed matches", status: "OK", detail: `${completed} with scores` });
 
     // Check market signals
-    const hasOdds = data.matches.filter(m => m.marketSignals?.status === "connected").length;
-    results.push({ check: "odds connected", status: hasOdds > 0 ? "OK" : "WARN", detail: `${hasOdds} matches` });
+    const hasOdds = data.matches.filter(m => ["connected", "snapshot"].includes(m.marketSignals?.status)).length;
+    results.push({ check: "odds available", status: hasOdds > 0 ? "OK" : "WARN", detail: `${hasOdds} matches` });
 
     // Check shot data
     const hasShots = data.matches.filter(m => m.home?.shotsPerGame || m.away?.shotsPerGame).length;
