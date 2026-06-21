@@ -1932,7 +1932,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
         status: fromLastStart ? "last-start-projected" : "projected",
         text: fromLastStart
           ? "官方首发通常赛前约20-40分钟才有；当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。"
-          : "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          : "未匹配到上一场首发记录；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
         source: fromLastStart ? "api-football-last-lineup" : "squad-projection",
         teams: projectedLineups,
         articles: news.lineup
