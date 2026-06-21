@@ -342,10 +342,15 @@
     var intel = match.matchIntelligence || {};
     var weather = intel.weather || {};
     var news = intel.teamNews || {};
+    var quality = intel.dataQuality || {};
     var source = match.sourceInfo || {};
     function statusText(status) {
       var map = {
         connected: "已接入",
+        verified: "真实采集",
+        inferred: "模型推断",
+        missing: "缺口上报",
+        partial: "部分采集",
         "no-match": "未匹配",
         "missing-key": "需密钥",
         "news-derived": "新闻提取",
@@ -371,14 +376,25 @@
     var newsText = newsCount
       ? "已提取 " + newsCount + " 条相关新闻线索，分布在首发/伤停/战术卡片中。"
       : "暂无可用新闻线索；首发、伤停仍等待权威源或公开报道。";
+    var qualityItems = (quality.items || []).map(function (item) {
+      return '<div class="coverage-row coverage-' + item.status + '">' +
+        '<strong>' + item.label + '</strong>' +
+        '<span>' + statusText(item.status) + '</span>' +
+        '<p>' + item.text + '</p>' +
+        '<small>来源：' + (item.source || "-") + '</small>' +
+      '</div>';
+    }).join("");
+    var qualityBlock = qualityItems
+      ? '<div class="coverage-report"><div class="coverage-summary"><strong>数据覆盖报告</strong><span>' + (quality.summary || "按每日真实采集规则检查。") + '</span></div>' + qualityItems + '</div>'
+      : "";
     return '<section class="detail-section">' +
-      '<div class="section-title"><h3>真实数据源</h3><small>只展示已接入来源</small></div>' +
+      '<div class="section-title"><h3>真实数据源</h3><small>每日采集 / 缺口上报</small></div>' +
       '<div class="verified-grid">' +
         card("赛程 / 赛果", match.status, scoreText) +
         card("赔率市场", market.status, oddsText) +
         card("比赛天气", weather.status, weatherText) +
         card("新闻情报", news.status, newsText) +
-      '</div>' +
+      '</div>' + qualityBlock +
     '</section>';
   }
 
@@ -437,6 +453,8 @@
     function statusLabel(status) {
       var map = {
         "connected": "已接入",
+        "partial": "部分采集",
+        "missing": "缺口上报",
         "confirmed": "已确认",
         "not-yet-released": "未公布",
         "pending": "待公布",
@@ -743,11 +761,11 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>模型工作流程</h3><small>从数据到预测</small></div>' +
           '<div class="method-flow">' +
-            '<div class="flow-step"><span class="flow-num">01</span><strong>真实数据采集</strong><p>每日从公开数据源获取世界杯赛程、对阵和比分，从 The Odds API 拉取赔率，从 Open-Meteo 获取天气，并从公开新闻源提取首发、伤停、战术相关线索。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">01</span><strong>真实数据采集</strong><p>每日从公开数据源、稳定 API、数据快照或人工维护文件获取赛程、赛果、赔率、天气、伤停、预计首发和战术线索；不要求实时接口，但必须能说明来源。</p></div>' +
             '<div class="flow-step"><span class="flow-num">02</span><strong>出线形势</strong><p>按照2026世界杯规则计算小组积分、净胜球、剩余场次和出线压力：小组前二直接晋级，8个成绩最好的小组第三进入32强。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">03</span><strong>证据与模型分层</strong><p>页面把真实证据和模型输出分开展示：赛程/赛果、赔率、天气、新闻线索作为事实证据；比分分布、胜平负概率和信心指数作为算法预测。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于已接入数据和模型参数生成胜平负概率、最可能比分和信心指数；未接入可靠来源的信息不会被包装成事实证据。</p></div>' +
-            '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）自动拉取最新赛程/赛果、赔率、天气和公开新闻线索，重新生成分析并通过云端自动部署上线。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">03</span><strong>证据与模型分层</strong><p>页面把真实证据和模型输出分开展示：真实采集项标为事实证据；大名单补位、战术画像和比分分布标为模型推断；没拿到真实数据的项必须显示缺口。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">04</span><strong>概率计算</strong><p>基于已采集数据和模型参数生成胜平负概率、最可能比分和信心指数；未采集到可靠来源的信息不会被包装成事实证据。</p></div>' +
+            '<div class="flow-step"><span class="flow-num">05</span><strong>每日刷新</strong><p>每日定时（北京时间 15:00）采集最新赛程/赛果、赔率、天气和公开情报，重新生成分析、数据覆盖报告和模型结果，并通过云端自动部署上线。</p></div>' +
           '</div>' +
         '</section>' +
 
@@ -777,11 +795,11 @@
           '<div class="method-text">' +
             '<p>本模型存在以下重要局限，使用分析结果时请务必考虑：</p>' +
             '<ul class="method-limits">' +
-              '<li><strong>赛前数据</strong>：所有分析基于赛前和公开可获取数据，不反映未发布的临场变化。</li>' +
+              '<li><strong>赛前数据</strong>：所有分析基于每日刷新时可核验的数据，不反映刷新后新增的临场变化。</li>' +
               '<li><strong>首发口径</strong>：本应用不等待赛前官方首发；赛前展示以上一场首发为基底、结合伤病名单和大名单补位生成的预计首发，并明确标注为推演结果。</li>' +
               '<li><strong>市场信号</strong>：赔率已接入 The Odds API；未匹配到赔率的场次会明确显示缺口，不会伪造市场共识。</li>' +
               '<li><strong>简化假设</strong>：泊松模型假设进球独立分布，实际比赛中进球往往存在相关性。</li>' +
-              '<li><strong>新闻线索</strong>：公开新闻源可辅助识别伤停、首发和战术话题，但不等同于官方确认名单。</li>' +
+              '<li><strong>缺口上报</strong>：如果某项没有拿到真实数据，会在详情页标为“缺口上报”或“模型推断”，不会用假数据补齐。</li>' +
               '<li><strong>无法量化的因素</strong>：球队士气、球迷氛围、历史恩怨、裁判尺度等因素无法纳入模型。</li>' +
             '</ul>' +
           '</div>' +
@@ -790,10 +808,10 @@
         '<section class="detail-section">' +
           '<div class="section-title"><h3>更新策略</h3><small>预测刷新说明</small></div>' +
           '<div class="method-text">' +
-            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动拉取最新赛程/赛果、赔率、天气和公开新闻线索，重新计算出线动机、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
+            '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动采集最新赛程/赛果、赔率、天气、公开新闻线索和可维护数据快照，重新计算出线动机、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
             '<p>赔率接口已按 The Odds API 接入，配置 THE_ODDS_API_KEY 后会在每日刷新中拉取真实赔率并按小权重校准模型概率；未配置 key 时不会伪造赔率。</p>' +
-            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；预计首发优先使用上一场首发，并结合伤病名单调整，缺口再由球员大名单和位置结构补齐。</p>' +
+            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；预计首发优先使用上一场首发，并结合伤病名单调整，缺口再由球员大名单和位置结构补齐。无法采集真实数据的地方会在数据覆盖报告中上报。</p>' +
           '</div>' +
         '</section>' +
 

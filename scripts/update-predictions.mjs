@@ -1923,8 +1923,20 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
 
   if (apiInjuries.length || projectedLineups.length) {
     const fromLastStart = projectedLineups.some(team => team.source === "last-start-adjusted");
+    const injuryStatus = apiInjuries.length
+      ? "confirmed"
+      : providerStatus === "connected" && fixtureId
+        ? "none-reported"
+        : providerStatus === "missing-key"
+          ? "provider-needed"
+          : "missing";
+    const injuryText = apiInjuries.length
+      ? `API-Football 当前返回 ${apiInjuries.length} 条伤停/缺阵记录。`
+      : injuryStatus === "none-reported"
+        ? "权威数据源当前未返回本场伤停记录。"
+        : "未采集到可核验伤停数据；本场伤停信息作为缺口上报。";
     return {
-      status: "connected",
+      status: providerStatus === "connected" ? "connected" : "partial",
       provider: liveContext.provider,
       fixtureId,
       fixtureDate: fixture?.fixture?.date || null,
@@ -1938,8 +1950,8 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
         articles: news.lineup
       },
       injuries: {
-        status: apiInjuries.length ? "confirmed" : "none-reported",
-        text: apiInjuries.length ? `API-Football 当前返回 ${apiInjuries.length} 条伤停/缺阵记录。` : "权威数据源当前未返回本场伤停记录。",
+        status: injuryStatus,
+        text: injuryText,
         source: liveContext.provider,
         players: apiInjuries,
         articles: news.injuries
@@ -2004,6 +2016,108 @@ function intelligenceForMatch(match, signalContext, allMatches = []) {
     weather: weatherForMatch(match, signalContext.weather),
     teamNews: teamNewsForMatch(match, signalContext.experts, signalContext.live, allMatches),
     updatedAt: now.toISOString()
+  };
+}
+
+function dataQualityForMatch(match, marketSignals, matchIntelligence) {
+  const weather = matchIntelligence.weather || {};
+  const news = matchIntelligence.teamNews || {};
+  const lineup = news.lineup || {};
+  const injuries = news.injuries || {};
+  const tactical = news.tactical || {};
+  const items = [];
+  const add = (key, label, status, source, text) => {
+    items.push({ key, label, status, source, text });
+  };
+
+  add(
+    "schedule",
+    match.status === "completed" ? "赛果" : "赛程",
+    "verified",
+    match.sourceInfo?.provider || "openfootball-worldcup-json",
+    match.status === "completed" && match.actualScore
+      ? `已采集真实完场比分 ${match.actualScore}。`
+      : `已采集比赛时间、地点和对阵：${match.date} ${match.time}，${match.venue}。`
+  );
+
+  add(
+    "recent-form",
+    "近期状态",
+    (match.home.recentMatches?.length || match.away.recentMatches?.length) ? "verified" : "missing",
+    "Kaggle results / ESPN scoreboard",
+    (match.home.recentMatches?.length || match.away.recentMatches?.length)
+      ? "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+      : "未匹配到足够近期真实比赛记录，需在每日刷新中上报缺口。"
+  );
+
+  add(
+    "odds",
+    "赔率",
+    ["connected", "snapshot"].includes(marketSignals.status) ? "verified" : "missing",
+    marketSignals.provider || "The Odds API / snapshot",
+    ["connected", "snapshot"].includes(marketSignals.status)
+      ? `已采集市场赔率，博彩公司数量 ${marketSignals.bookmakers || "-"}。`
+      : (marketSignals.note || "未采集到本场真实赔率，模型不会伪造市场共识。")
+  );
+
+  add(
+    "weather",
+    "天气",
+    weather.status === "connected" ? "verified" : "missing",
+    weather.provider || "Open-Meteo",
+    weather.status === "connected"
+      ? "已采集比赛地当日天气并用于风险提示。"
+      : (weather.text || "未采集到本场天气数据。")
+  );
+
+  add(
+    "lineup",
+    "预计首发",
+    ["last-start-projected", "news-derived"].includes(lineup.status) ? "verified" : lineup.teams?.length ? "inferred" : "missing",
+    lineup.source || "lineup-source",
+    ["last-start-projected", "news-derived"].includes(lineup.status)
+      ? "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+      : lineup.teams?.length
+        ? "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+        : "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+  );
+
+  add(
+    "injuries",
+    "伤停",
+    injuries.status === "confirmed" || injuries.status === "news-derived" || injuries.status === "none-reported" ? "verified" : "missing",
+    injuries.source || news.provider || "API-Football / public news",
+    injuries.status === "confirmed"
+      ? `已采集 ${injuries.players?.length || 0} 条伤停/缺阵记录。`
+      : injuries.status === "news-derived"
+        ? `已从公开新闻中提取 ${injuries.articles?.length || 0} 条伤停线索。`
+        : injuries.status === "none-reported"
+          ? "权威源本轮未返回伤停记录，按“暂无记录”标注。"
+          : "未采集到可核验伤停数据，已作为缺口上报。"
+  );
+
+  add(
+    "tactical",
+    "战术/发布会",
+    tactical.status === "news-derived" ? "verified" : "inferred",
+    tactical.status === "news-derived" ? "public news" : "model-profile",
+    tactical.status === "news-derived"
+      ? `已采集 ${tactical.articles?.length || 0} 条公开战术/发布会线索。`
+      : "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+  );
+
+  const counts = items.reduce((acc, item) => {
+    acc[item.status] = (acc[item.status] || 0) + 1;
+    return acc;
+  }, {});
+  const gaps = items.filter(item => item.status === "missing");
+  return {
+    updatedAt: now.toISOString(),
+    policy: "daily-verified-or-report-gap",
+    summary: `真实采集 ${counts.verified || 0} 项，模型推断 ${counts.inferred || 0} 项，缺口 ${counts.missing || 0} 项。`,
+    counts,
+    gaps: gaps.map(item => item.label),
+    items
   };
 }
 
@@ -2150,6 +2264,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const marketSignals = oddsForMatch(match, signalContext.odds);
   const expertSignals = expertForMatch(match, signalContext.experts);
   const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
+  matchIntelligence.dataQuality = dataQualityForMatch(match, marketSignals, matchIntelligence);
 
   // ── Market odds: direct blend into final probabilities (not through power score) ──
   let extEvidence = "暂无可用赔率或专业球评信号。";
@@ -2285,7 +2400,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
       motivation.note,
       `${match.home.name}属于${homeStyle.tempo}，场均进球参考值 ${homeStyle.avgGoalsFor}，大胜倾向 ${homeStyle.bigWinRate}%。${match.away.name}属于${awayStyle.tempo}，场均进球参考值 ${awayStyle.avgGoalsFor}，大胜倾向 ${awayStyle.bigWinRate}%。`,
       `${match.home.name} 进攻指数 ${homeAttack}，${match.away.name} 防守指数 ${awayDefense}；${match.away.name} 进攻指数 ${awayAttack}，${match.home.name} 防守指数 ${homeDefense}。`,
-      match.status === "completed" ? "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。" : "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      match.status === "completed" ? "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。" : matchIntelligence.dataQuality.summary
     ],
     expectedGoals: {
       home: Number(homeGoals.toFixed(2)),
@@ -2572,6 +2687,31 @@ function serialize(matches, metaOverrides = {}, backtestData = null, predictionL
   return `window.ANALYSIS_META = ${JSON.stringify(meta, null, 2)};\n\nwindow.MATCHES = ${JSON.stringify(matches, null, 2)};\n${backtestBlock}`;
 }
 
+function buildDataQualitySummary(matches) {
+  const totals = { verified: 0, inferred: 0, missing: 0 };
+  const gapCounts = {};
+  for (const match of matches) {
+    const quality = match.matchIntelligence?.dataQuality;
+    if (!quality) continue;
+    for (const [key, value] of Object.entries(quality.counts || {})) {
+      totals[key] = (totals[key] || 0) + value;
+    }
+    for (const gap of quality.gaps || []) {
+      gapCounts[gap] = (gapCounts[gap] || 0) + 1;
+    }
+  }
+  const topGaps = Object.entries(gapCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 6)
+    .map(([label, count]) => ({ label, count }));
+  return {
+    policy: "daily-verified-or-report-gap",
+    totals,
+    topGaps,
+    note: "每日刷新不要求所有数据来自稳定 API；公开报道、快照、CSV/API 均可作为真实来源。未采集到真实数据时必须标为缺口或模型推断。"
+  };
+}
+
 async function main() {
   // Load real match data to replace synthetic PROFILE
   const wc48Codes = Object.keys(PROFILE);
@@ -2643,6 +2783,7 @@ async function main() {
   };
   const liveSignals = { ...live, playerData };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live: liveSignals }, matches));
+  metaOverrides.dataQualitySummary = buildDataQualitySummary(refreshed);
   const predictionLocks = updatePredictionLocks(refreshed);
   metaOverrides.predictionLockCount = predictionLocks.summary?.totalLocked || 0;
   metaOverrides.predictionLocksCreated = predictionLocks.summary?.createdThisRun || 0;

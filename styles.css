@@ -289,6 +289,17 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .verified-card strong { font-size: 12px; color: var(--accent); }
 .verified-card span { padding: 3px 8px; border-radius: 999px; background: rgba(22,138,85,.10); color: var(--accent); font-size: 9px; font-weight: 700; white-space: nowrap; }
 .verified-card p { margin: 0; color: #52645a; font-size: 10.5px; line-height: 1.6; }
+.coverage-report { margin-top: 10px; display: grid; gap: 8px; }
+.coverage-summary { padding: 12px 14px; border-radius: 16px; background: #fffaf0; border: 1px solid rgba(183,121,31,.20); }
+.coverage-summary strong { display: block; color: var(--warn); font-size: 12px; margin-bottom: 4px; }
+.coverage-summary span { color: #6d5c3d; font-size: 10px; line-height: 1.55; }
+.coverage-row { padding: 11px 12px; border-radius: 15px; background: #fff; border: 1px solid var(--line); box-shadow: 0 8px 18px rgba(16,36,28,.035); }
+.coverage-row strong { font-size: 11px; }
+.coverage-row span { float: right; padding: 3px 7px; border-radius: 999px; font-size: 8.5px; font-weight: 800; background: rgba(22,138,85,.10); color: var(--accent); }
+.coverage-row p { clear: both; margin: 7px 0 3px; color: #52645a; font-size: 10px; line-height: 1.55; }
+.coverage-row small { display: block; color: var(--muted); font-size: 8.5px; line-height: 1.4; }
+.coverage-inferred span { background: rgba(183,121,31,.12); color: var(--warn); }
+.coverage-missing span { background: rgba(216,76,69,.10); color: var(--danger); }
 @media (max-width: 480px) { .verified-grid { grid-template-columns: 1fr; } }
 
 /* Match intelligence */
