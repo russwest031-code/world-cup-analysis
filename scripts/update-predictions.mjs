@@ -1931,7 +1931,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
       lineup: {
         status: fromLastStart ? "last-start-projected" : "projected",
         text: fromLastStart
-          ? "官方首发通常赛前约20-40分钟才有；当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。"
+          ? "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。"
           : "未匹配到上一场首发记录；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
         source: fromLastStart ? "api-football-last-lineup" : "squad-projection",
         teams: projectedLineups,
@@ -1946,7 +1946,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
       },
       tactical: {
         status: projectedLineups.length ? "projection-derived" : news.tactical.length ? "news-derived" : "model-derived",
-        text: projectedLineups.length ? "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
+        text: projectedLineups.length ? "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合阵容线索判断。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
         articles: news.tactical
       }
     };
@@ -1957,7 +1957,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
     provider: providerStatus === "connected" ? liveContext.provider : "API-Football",
     lineup: {
       status: news.lineup.length ? "news-derived" : "projected",
-      text: news.lineup.length ? `从公开新闻源匹配到 ${news.lineup.length} 条预计首发/阵容线索，尚非官方确认。` : "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+      text: news.lineup.length ? `从公开新闻源匹配到 ${news.lineup.length} 条预计首发/阵容线索，尚非官方确认。` : "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
       source: news.lineup.length ? "public-rss" : "model-projection",
       articles: news.lineup
     },
