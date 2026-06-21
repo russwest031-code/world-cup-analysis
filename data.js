@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-21T09:07:46.216Z",
+  "updatedAt": "2026-06-21T09:13:52.047Z",
   "runDate": "2026-06-21",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-21T09:07:46.216Z",
+  "externalFetchedAt": "2026-06-21T09:13:52.047Z",
   "externalMatchCount": 104,
   "model": "calibrated-stall-guard-v5",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 36,
   "expertProvider": "public-rss",
-  "expertArticleCount": 46,
+  "expertArticleCount": 67,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 46,
   "liveTeamNewsProvider": "API-Football",
@@ -320,7 +320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -769,7 +769,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -786,7 +786,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -969,11 +969,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1297,7 +1297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1744,7 +1744,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -1843,11 +1843,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2176,7 +2176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2625,7 +2625,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2642,7 +2642,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -2825,11 +2825,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3158,7 +3158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3627,7 +3627,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -3810,11 +3810,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4144,7 +4144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4601,7 +4601,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -4784,11 +4784,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5117,7 +5117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5305,7 +5305,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -5551,7 +5551,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -5570,9 +5570,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/16/from-brazil-to-haaland-four-must-watch-world-cup-group-stage-matches-video",
           "pubDate": "Tue, 16 Jun 2026 18:22:21 GMT"
+        },
+        {
+          "title": "Are Brazil back in business after World Cup win vs...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
+          "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -5586,7 +5592,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -5776,11 +5782,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6109,7 +6115,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6583,7 +6589,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -6773,11 +6779,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7101,7 +7107,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -7567,7 +7573,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -7584,7 +7590,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -7683,7 +7689,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -7700,7 +7706,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8024,7 +8030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -8491,7 +8497,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -8508,7 +8514,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -8607,7 +8613,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -8618,7 +8624,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8947,7 +8953,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -9422,7 +9428,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -9605,11 +9611,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9933,7 +9939,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -10399,7 +10405,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -10416,7 +10422,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -10515,11 +10521,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10849,7 +10855,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -11324,7 +11330,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -11507,7 +11513,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -11518,7 +11524,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11842,7 +11848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -12029,7 +12035,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -12275,7 +12281,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 4,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -12288,15 +12294,27 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/the-2026-world-cup-team-of-the-tournament-so-far-without-the-superstars",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Spain coach: A mistake to compare Yamal to Messi",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+          "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+        },
+        {
+          "title": "Cape Verde GK Vozinha stopped World Cup favorites ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-14m-followers",
+          "pubDate": "Sun, 21 Jun 2026 03:00:00 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -12313,7 +12331,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -12407,6 +12425,12 @@ window.MATCHES = [
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
               "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+            },
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
             }
           ]
         },
@@ -12419,11 +12443,18 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
-          "articles": []
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12752,7 +12783,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -13201,7 +13232,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -13218,7 +13249,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -13401,7 +13432,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -13412,7 +13443,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13741,7 +13772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -13929,7 +13960,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -14175,16 +14206,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -14198,7 +14235,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -14381,11 +14418,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14714,7 +14751,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -14902,7 +14939,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15148,7 +15185,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
@@ -15161,9 +15198,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
           "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -15177,7 +15220,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -15360,11 +15403,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15693,7 +15736,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -16162,7 +16205,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -16345,7 +16388,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
@@ -16356,7 +16399,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16685,7 +16728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -16873,7 +16916,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -17119,16 +17162,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Golden Boot: World Cup 2026 top goalscorers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
           "pubDate": "Thu, 18 Jun 2026 08:17:30 GMT"
+        },
+        {
+          "title": "World Cup Daily: Ecuador, Curaçao look for first p...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sun, 21 Jun 2026 03:00:01 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -17142,7 +17191,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -17325,11 +17374,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17658,7 +17707,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -18107,7 +18156,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -18124,7 +18173,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -18307,11 +18356,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18640,7 +18689,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -19088,7 +19137,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -19271,11 +19320,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19599,7 +19648,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -19787,7 +19836,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -20033,7 +20082,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "The 2026 World Cup team of the tournament so far (without the superstars)",
@@ -20046,15 +20095,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
+        },
+        {
+          "title": "Dalot: Portugal prepped for team, Ronaldo critics",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49127893/cristiano-ronaldo-portugal-were-prepared-social-media-backlash-world-cup-diogo-dalot",
+          "pubDate": "Sun, 21 Jun 2026 03:35:19 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -20071,7 +20126,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -20170,11 +20225,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20503,7 +20558,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -20978,7 +21033,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -21168,7 +21223,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Cooling hoodies help England staff combat World Cup heat",
@@ -21179,7 +21234,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21508,7 +21563,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -21962,7 +22017,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -21979,7 +22034,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -22162,11 +22217,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22495,7 +22550,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -22944,7 +22999,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -22961,7 +23016,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -23144,11 +23199,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23477,7 +23532,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -23916,7 +23971,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -23933,7 +23988,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -24116,11 +24171,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24449,7 +24504,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -24897,7 +24952,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -25080,11 +25135,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -25413,7 +25468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -25868,7 +25923,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -25885,7 +25940,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -26068,11 +26123,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -26396,7 +26451,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -26853,7 +26908,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -26952,11 +27007,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27285,7 +27340,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -27752,7 +27807,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -27769,7 +27824,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -27952,7 +28007,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -27969,7 +28024,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -28299,7 +28354,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -28774,7 +28829,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -28959,16 +29014,22 @@ window.MATCHES = [
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
               "pubDate": "Sat, 20 Jun 2026 00:07:10 GMT"
+            },
+            {
+              "title": "Scotland's World Cup dreams on the ropes as Morocc...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
+              "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
             }
           ]
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -29297,7 +29358,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -29485,7 +29546,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -29731,7 +29792,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -29750,15 +29811,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/16/from-brazil-to-haaland-four-must-watch-world-cup-group-stage-matches-video",
           "pubDate": "Tue, 16 Jun 2026 18:22:21 GMT"
+        },
+        {
+          "title": "Are Brazil back in business after World Cup win vs...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
+          "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -29775,7 +29842,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -29965,11 +30032,18 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
-          "articles": []
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "Are Brazil back in business after World Cup win vs...",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
+              "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -30293,7 +30367,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -30762,7 +30836,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -30861,11 +30935,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -31194,7 +31268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -31661,15 +31735,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 30.1,
         "temperatureMin": 24.4,
-        "precipitationProbability": 48,
+        "precipitationProbability": 50,
         "windSpeedMax": 22.8,
         "timezone": "America/Chicago",
-        "text": "Houston 当日约 24.4-30.1°C，降雨概率 48%，最大风速 22.8km/h。",
+        "text": "Houston 当日约 24.4-30.1°C，降雨概率 50%，最大风速 22.8km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -31678,7 +31752,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -31861,11 +31935,18 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
-          "articles": []
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "Netherlands break WC record with Sweden thumping",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49129008/netherlands-shatter-world-cup-unbeaten-record-streak-crushing-sweden",
+              "pubDate": "Sun, 21 Jun 2026 03:35:43 EST"
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -32190,7 +32271,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -32658,7 +32739,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21,
@@ -32675,7 +32756,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -32776,12 +32857,18 @@ window.MATCHES = [
               "source": "feeds.bbci.co.uk",
               "link": "https://www.bbc.com/sport/football/videos/ced40yzdy4eo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sat, 20 Jun 2026 22:45:52 GMT"
+            },
+            {
+              "title": "Super sub Undav fires Germany to WC knockouts",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49129600/germany-ivory-coast-2026-fifa-world-cup-deniz-undav",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
             }
           ]
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -32792,7 +32879,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -33116,7 +33203,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -33583,15 +33670,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 27.7,
         "temperatureMin": 20.6,
-        "precipitationProbability": 86,
+        "precipitationProbability": 85,
         "windSpeedMax": 27.3,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 20.6-27.7°C，降雨概率 86%，最大风速 27.3km/h。",
+        "text": "Kansas City 当日约 20.6-27.7°C，降雨概率 85%，最大风速 27.3km/h。",
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
@@ -33600,7 +33687,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -33706,11 +33793,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -34039,7 +34126,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -34227,7 +34314,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -34473,7 +34560,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Goalline technology denies Japan goal by fractions",
@@ -34492,9 +34579,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
           "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
+        },
+        {
+          "title": "Japan rout Tunisia to eliminate them from WC",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/report/_/gameId/760449",
+          "pubDate": "Sun, 21 Jun 2026 03:36:01 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -34508,7 +34601,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -34691,7 +34784,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -34702,7 +34795,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -35031,7 +35124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -35500,7 +35593,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.14,
         "draw": 10.73,
-        "away": 23.99
+        "away": 24.4
       },
       "impliedProbabilities": [
         87,
@@ -35508,13 +35601,13 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.73 / 客 23.99。市场倾向 西班牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.73 / 客 24.4。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 4,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -35527,15 +35620,27 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/the-2026-world-cup-team-of-the-tournament-so-far-without-the-superstars",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Spain coach: A mistake to compare Yamal to Messi",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+          "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 31.8,
@@ -35552,7 +35657,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -35730,6 +35835,12 @@ window.MATCHES = [
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
               "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+            },
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
             }
           ]
         },
@@ -35742,11 +35853,18 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
-          "articles": []
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -36046,7 +36164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -36515,7 +36633,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.49,
         "draw": 4.54,
-        "away": 7.67
+        "away": 7.69
       },
       "impliedProbabilities": [
         65,
@@ -36523,13 +36641,13 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.54 / 客 7.67。市场倾向 比利时。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.54 / 客 7.69。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Doku criticised over plan to return home for birth",
@@ -36548,9 +36666,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
           "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -36564,7 +36688,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -36747,7 +36871,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -36758,7 +36882,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -37053,7 +37177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -37536,16 +37660,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Cape Verde GK Vozinha stopped World Cup favorites ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-14m-followers",
+          "pubDate": "Sun, 21 Jun 2026 03:00:00 EST"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -37559,7 +37695,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -37658,11 +37794,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -37962,7 +38098,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -38429,7 +38565,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 49,
       "averageOdds": {
-        "home": 5.93,
+        "home": 5.92,
         "draw": 3.93,
         "away": 1.66
       },
@@ -38439,7 +38575,7 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "埃及",
-      "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.93 / 客 1.66。市场倾向 埃及。"
+      "note": "已接入赔率市场，49 家公司均值：主 5.92 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -38451,7 +38587,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.7,
@@ -38468,7 +38604,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -38651,11 +38787,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -38955,7 +39091,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -39425,7 +39561,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.54,
         "draw": 4.05,
-        "away": 6.49
+        "away": 6.5
       },
       "impliedProbabilities": [
         61,
@@ -39433,7 +39569,7 @@ window.MATCHES = [
         15
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.05 / 客 6.49。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.05 / 客 6.5。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -39462,7 +39598,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -39645,11 +39781,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -39949,7 +40085,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -40460,7 +40596,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 24.9,
@@ -40477,7 +40613,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -40660,11 +40796,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -40964,7 +41100,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -41447,7 +41583,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
@@ -41460,9 +41596,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
           "pubDate": "Thu, 18 Jun 2026 08:17:30 GMT"
+        },
+        {
+          "title": "World Cup Daily: Ecuador, Curaçao look for first p...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sun, 21 Jun 2026 03:00:01 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -41476,7 +41618,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -41659,11 +41801,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -41963,7 +42105,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -42460,7 +42602,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -42643,11 +42785,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -42947,7 +43089,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -43430,7 +43572,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "The 2026 World Cup team of the tournament so far (without the superstars)",
@@ -43443,15 +43585,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
+        },
+        {
+          "title": "Dalot: Portugal prepped for team, Ronaldo critics",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49127893/cristiano-ronaldo-portugal-were-prepared-social-media-backlash-world-cup-diogo-dalot",
+          "pubDate": "Sun, 21 Jun 2026 03:35:19 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 34.6,
@@ -43468,7 +43616,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -43651,11 +43799,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -43955,7 +44103,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -44480,7 +44628,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -44663,7 +44811,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Saka trains alone as England prepare for Ghana game",
@@ -44686,7 +44834,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -44986,7 +45134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -45483,7 +45631,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.4,
@@ -45500,7 +45648,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -45683,11 +45831,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -45982,7 +46130,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -46494,7 +46642,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -46593,11 +46741,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -46897,7 +47045,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -47395,7 +47543,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 18.5,
@@ -47412,7 +47560,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -47595,11 +47743,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -47899,7 +48047,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -48396,7 +48544,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 23.1,
@@ -48413,7 +48561,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -48596,11 +48744,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -48900,7 +49048,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -49424,7 +49572,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -49614,11 +49762,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
@@ -49918,7 +50066,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -50401,7 +50549,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -50414,15 +50562,27 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/20/brazil-haiti-world-cup-match-report",
           "pubDate": "Sat, 20 Jun 2026 03:05:05 GMT"
+        },
+        {
+          "title": "Are Brazil back in business after World Cup win vs...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49125986/are-brazil-back-business-world-cup-win-vs-haiti-not-quite",
+          "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
+        },
+        {
+          "title": "Scotland's World Cup dreams on the ropes as Morocc...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49121005/scotland-world-cup-dreams-ropes-morocco-prove-real-deal",
+          "pubDate": "Sat, 20 Jun 2026 11:46:04 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 31.3,
@@ -50439,7 +50599,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -50629,11 +50789,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
@@ -50933,7 +51093,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -51431,7 +51591,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 20.9,
@@ -51448,7 +51608,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -51631,11 +51791,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -51930,7 +52090,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -52427,7 +52587,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -52526,11 +52686,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -52820,7 +52980,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -53287,8 +53447,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 19.06,
-        "draw": 8.49,
+        "home": 18.54,
+        "draw": 8.51,
         "away": 1.14
       },
       "impliedProbabilities": [
@@ -53297,7 +53457,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，46 家公司均值：主 19.06 / 平 8.49 / 客 1.14。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，46 家公司均值：主 18.54 / 平 8.51 / 客 1.14。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -53336,7 +53496,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 24.9,
@@ -53367,7 +53527,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前1分、净胜球-6；科特迪瓦当前3分、净胜球0。",
@@ -53667,7 +53827,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -54192,7 +54352,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -54375,7 +54535,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -54386,7 +54546,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前1分、净胜球-1；德国当前6分、净胜球7。",
@@ -54686,7 +54846,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -55210,7 +55370,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -55393,7 +55553,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -55404,7 +55564,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前4分、净胜球4；瑞典当前3分、净胜球0。",
@@ -55704,7 +55864,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -56171,8 +56331,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 17.7,
-        "draw": 7.74,
+        "home": 17.76,
+        "draw": 7.75,
         "away": 1.16
       },
       "impliedProbabilities": [
@@ -56181,7 +56341,7 @@ window.MATCHES = [
         82
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，42 家公司均值：主 17.7 / 平 7.74 / 客 1.16。市场倾向 荷兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 17.76 / 平 7.75 / 客 1.16。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -56220,7 +56380,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.6,
@@ -56237,7 +56397,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -56420,11 +56580,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-8；荷兰当前4分、净胜球4。",
@@ -56719,7 +56879,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -57187,7 +57347,7 @@ window.MATCHES = [
       "bookmakers": 44,
       "averageOdds": {
         "home": 3.25,
-        "draw": 4.02,
+        "draw": 4.03,
         "away": 2.01
       },
       "impliedProbabilities": [
@@ -57196,7 +57356,7 @@ window.MATCHES = [
         47
       ],
       "marketFavorite": "美国",
-      "note": "已接入赔率市场，44 家公司均值：主 3.25 / 平 4.02 / 客 2.01。市场倾向 美国。"
+      "note": "已接入赔率市场，44 家公司均值：主 3.25 / 平 4.03 / 客 2.01。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -57237,7 +57397,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -57336,11 +57496,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
@@ -57640,7 +57800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -58164,7 +58324,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -58347,7 +58507,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -58364,7 +58524,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
@@ -58664,7 +58824,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -59148,7 +59308,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -59167,9 +59327,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/golden-boot-world-cup-2026-top-goalscorers-winner",
           "pubDate": "Thu, 18 Jun 2026 08:17:30 GMT"
+        },
+        {
+          "title": "World Cup Daily: Ecuador, Curaçao look for first p...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49122322/world-cup-daily-norway-fans-take-s-square-viking-row-germany-netherlands-action",
+          "pubDate": "Sun, 21 Jun 2026 03:00:01 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -59183,7 +59349,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -59366,11 +59532,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -59670,7 +59836,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -60168,7 +60334,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 21,
@@ -60185,7 +60351,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -60368,11 +60534,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -60667,7 +60833,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -61149,22 +61315,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/stung-spain-have-digested-shock-start-but-know-repeat-is-not-an-option",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Cape Verde GK Vozinha stopped World Cup favorites ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49074487/cape-verde-gk-vozinha-stopped-world-cup-favourites-spain-gained-14m-followers",
+          "pubDate": "Sun, 21 Jun 2026 03:00:00 EST"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 33.9,
@@ -61181,7 +61359,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -61287,11 +61465,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -61591,7 +61769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -62073,7 +62251,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 4,
       "articles": [
         {
           "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -62086,9 +62264,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/the-2026-world-cup-team-of-the-tournament-so-far-without-the-superstars",
           "pubDate": "Sun, 21 Jun 2026 04:00:21 GMT"
+        },
+        {
+          "title": "Spain coach: A mistake to compare Yamal to Messi",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+          "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+        },
+        {
+          "title": "Can Marcelo Bielsa's Uruguay stop their World Cup ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49107794/did-marcelo-bielsa-uruguay-stop-their-world-cup-unraveling",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -62102,7 +62292,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -62274,7 +62464,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+            }
+          ]
         },
         "injuries": {
           "status": "none-reported",
@@ -62285,11 +62482,18 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
-          "articles": []
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "Spain coach: A mistake to compare Yamal to Messi",
+              "source": "www.espn.com",
+              "link": "https://www.espn.com/soccer/story/_/id/49130119/spain-coach-luis-de-la-fuente-urges-caution-yamal-comparisons-messi-maradona",
+              "pubDate": "Sun, 21 Jun 2026 03:35:42 EST"
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -62589,7 +62793,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -63072,7 +63276,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
@@ -63085,15 +63289,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
           "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
+        },
+        {
+          "title": "Dargahi's path to Iran team is another example of ...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49117443/iran-world-cup-dennis-dargahi-diaspora-citizenship",
+          "pubDate": "Sun, 21 Jun 2026 03:10:38 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.7,
@@ -63110,7 +63320,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -63293,11 +63503,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -63597,7 +63807,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -64062,10 +64272,10 @@ window.MATCHES = [
       "eventId": "581691da05dcd75b5c6d3be91ee9d2ab",
       "commenceTime": "2026-06-27T03:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 43,
+      "bookmakers": 42,
       "averageOdds": {
-        "home": 12.37,
-        "draw": 6.21,
+        "home": 12.32,
+        "draw": 6.2,
         "away": 1.22
       },
       "impliedProbabilities": [
@@ -64074,7 +64284,7 @@ window.MATCHES = [
         77
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，43 家公司均值：主 12.37 / 平 6.21 / 客 1.22。市场倾向 比利时。"
+      "note": "已接入赔率市场，42 家公司均值：主 12.32 / 平 6.2 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -64095,7 +64305,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 15.5,
@@ -64112,7 +64322,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -64295,7 +64505,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -64306,7 +64516,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -64606,7 +64816,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -65131,7 +65341,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -65314,7 +65524,7 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
               "title": "Cooling hoodies help England staff combat World Cup heat",
@@ -65325,7 +65535,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -65625,7 +65835,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -66135,7 +66345,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.8,
@@ -66152,7 +66362,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -66335,11 +66545,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -66639,7 +66849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -67122,7 +67332,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "The 2026 World Cup team of the tournament so far (without the superstars)",
@@ -67141,9 +67351,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
           "pubDate": "Wed, 17 Jun 2026 19:28:06 GMT"
+        },
+        {
+          "title": "Dalot: Portugal prepped for team, Ronaldo critics",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49127893/cristiano-ronaldo-portugal-were-prepared-social-media-backlash-world-cup-diogo-dalot",
+          "pubDate": "Sun, 21 Jun 2026 03:35:19 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -67157,7 +67373,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -67340,11 +67556,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -67639,7 +67855,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -68136,7 +68352,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.8,
@@ -68153,7 +68369,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -68252,11 +68468,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -68556,7 +68772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -69045,7 +69261,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
@@ -69062,7 +69278,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -69245,11 +69461,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -69549,7 +69765,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -70056,7 +70272,7 @@ window.MATCHES = [
         "fixtureDate": null,
         "lineup": {
           "status": "projected",
-          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "text": "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
           "source": "squad-projection",
           "teams": [
             {
@@ -70239,11 +70455,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "projection-derived",
-          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -70471,7 +70687,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -70883,7 +71099,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71111,7 +71327,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -71501,7 +71717,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.8,
@@ -71532,7 +71748,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71760,7 +71976,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -72172,7 +72388,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72400,7 +72616,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -72812,7 +73028,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73040,7 +73256,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -73452,7 +73668,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73680,7 +73896,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -74092,7 +74308,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74320,7 +74536,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -74710,7 +74926,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.8,
@@ -74741,7 +74957,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74969,7 +75185,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -75359,7 +75575,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 32.9,
@@ -75390,7 +75606,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -75618,7 +75834,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -76008,7 +76224,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.6,
@@ -76039,7 +76255,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76267,7 +76483,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -76679,7 +76895,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76907,7 +77123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -77318,7 +77534,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -77546,7 +77762,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -77936,7 +78152,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 23.4,
@@ -77967,7 +78183,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78195,7 +78411,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -78585,7 +78801,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 21.3,
@@ -78616,7 +78832,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78844,7 +79060,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -79256,7 +79472,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79484,7 +79700,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -79896,7 +80112,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -80124,7 +80340,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -80514,7 +80730,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 28.5,
@@ -80545,7 +80761,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -80773,7 +80989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -81163,7 +81379,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.2,
@@ -81194,7 +81410,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -81422,7 +81638,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -81812,7 +82028,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 29.7,
@@ -81843,7 +82059,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -82071,7 +82287,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -82483,7 +82699,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -82711,7 +82927,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -83101,7 +83317,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:07:46.216Z",
+        "fetchedAt": "2026-06-21T09:13:52.047Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -83132,7 +83348,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -83360,7 +83576,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -83772,7 +83988,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -84000,7 +84216,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -84415,7 +84631,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -84643,7 +84859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -85058,7 +85274,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -85286,7 +85502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -85700,7 +85916,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -85928,7 +86144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -86340,7 +86556,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -86568,7 +86784,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -86980,7 +87196,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -87208,7 +87424,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -87620,7 +87836,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -87848,7 +88064,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -88263,7 +88479,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -88491,7 +88707,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -88903,7 +89119,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -89131,7 +89347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -89546,7 +89762,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -89774,7 +89990,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -90186,7 +90402,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -90414,7 +90630,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:07:46.216Z",
+      "fetchedAt": "2026-06-21T09:13:52.047Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -90826,7 +91042,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:07:46.216Z"
+      "updatedAt": "2026-06-21T09:13:52.047Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -90843,7 +91059,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-21T09:07:46.216Z",
+  "updatedAt": "2026-06-21T09:13:52.047Z",
   "completedCount": 36,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
