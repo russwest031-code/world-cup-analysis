@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-21T09:17:26.621Z",
+  "updatedAt": "2026-06-21T09:21:09.985Z",
   "runDate": "2026-06-21",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-21T09:17:26.621Z",
+  "externalFetchedAt": "2026-06-21T09:21:09.985Z",
   "externalMatchCount": 104,
   "model": "calibrated-stall-guard-v5",
   "modelVersion": "v3",
@@ -320,7 +320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -769,7 +769,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -973,7 +973,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1297,7 +1297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1847,7 +1847,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2176,7 +2176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2625,7 +2625,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2829,7 +2829,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3158,7 +3158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3814,7 +3814,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4144,7 +4144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4788,7 +4788,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5117,7 +5117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5780,7 +5780,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5816,7 +5816,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -6109,7 +6109,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6777,7 +6777,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7101,7 +7101,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -7567,7 +7567,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -7700,7 +7700,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8024,7 +8024,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -8491,7 +8491,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -8618,7 +8618,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8947,7 +8947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -9609,7 +9609,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9933,7 +9933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -10399,7 +10399,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -10519,7 +10519,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10849,7 +10849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -11518,7 +11518,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11842,7 +11842,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -12296,7 +12296,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -12423,7 +12423,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12459,7 +12459,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -12752,7 +12752,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -13201,7 +13201,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -13412,7 +13412,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13741,7 +13741,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -14385,7 +14385,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14421,7 +14421,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -14714,7 +14714,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -15364,7 +15364,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15400,7 +15400,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -15693,7 +15693,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -16356,7 +16356,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16685,7 +16685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -17329,7 +17329,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17365,7 +17365,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -17658,7 +17658,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -18107,7 +18107,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -18311,7 +18311,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18640,7 +18640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -19275,7 +19275,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19599,7 +19599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -20054,7 +20054,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -20174,7 +20174,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20210,7 +20210,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -20503,7 +20503,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -21179,7 +21179,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21508,7 +21508,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -21962,7 +21962,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -22166,7 +22166,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22495,7 +22495,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -22944,7 +22944,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -23148,7 +23148,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23477,7 +23477,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -23916,7 +23916,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -24120,7 +24120,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24449,7 +24449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -25084,7 +25084,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -25413,7 +25413,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -25868,7 +25868,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -26072,7 +26072,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -26396,7 +26396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -26956,7 +26956,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27285,7 +27285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -27752,7 +27752,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -27969,7 +27969,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -28299,7 +28299,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -28968,7 +28968,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -29297,7 +29297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -29758,7 +29758,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -29969,7 +29969,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -30005,7 +30005,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -30293,7 +30293,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -30865,7 +30865,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -31194,7 +31194,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -31661,7 +31661,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 30.1,
@@ -31865,7 +31865,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -32190,7 +32190,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -32658,7 +32658,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21,
@@ -32792,7 +32792,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -33116,7 +33116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -33583,7 +33583,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 27.7,
@@ -33710,7 +33710,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -34039,7 +34039,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -34702,7 +34702,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -34738,7 +34738,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -35031,7 +35031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -35499,8 +35499,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.14,
-        "draw": 10.74,
-        "away": 24.44
+        "draw": 10.75,
+        "away": 24.56
       },
       "impliedProbabilities": [
         87,
@@ -35508,7 +35508,7 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.74 / 客 24.44。市场倾向 西班牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.75 / 客 24.56。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -35535,7 +35535,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 31.8,
@@ -35746,7 +35746,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -36046,7 +36046,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -36514,7 +36514,7 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.49,
-        "draw": 4.54,
+        "draw": 4.55,
         "away": 7.69
       },
       "impliedProbabilities": [
@@ -36523,7 +36523,7 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.54 / 客 7.69。市场倾向 比利时。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.55 / 客 7.69。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -36758,7 +36758,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -37053,7 +37053,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -37662,7 +37662,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -37962,7 +37962,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -38429,7 +38429,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 49,
       "averageOdds": {
-        "home": 5.93,
+        "home": 5.94,
         "draw": 3.93,
         "away": 1.66
       },
@@ -38439,7 +38439,7 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "埃及",
-      "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.93 / 客 1.66。市场倾向 埃及。"
+      "note": "已接入赔率市场，49 家公司均值：主 5.94 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -38451,7 +38451,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.7,
@@ -38655,7 +38655,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -38955,7 +38955,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -39649,7 +39649,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -39949,7 +39949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -40460,7 +40460,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 24.9,
@@ -40664,7 +40664,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -40964,7 +40964,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -41663,7 +41663,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -41963,7 +41963,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -42647,7 +42647,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -42947,7 +42947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -43451,7 +43451,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 34.6,
@@ -43655,7 +43655,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -43955,7 +43955,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -44424,7 +44424,7 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 1.21,
-        "draw": 6.59,
+        "draw": 6.61,
         "away": 14.13
       },
       "impliedProbabilities": [
@@ -44433,7 +44433,7 @@ window.MATCHES = [
         7
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.59 / 客 14.13。市场倾向 英格兰。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.61 / 客 14.13。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -44686,7 +44686,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -44986,7 +44986,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -45454,7 +45454,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 6.7,
         "draw": 3.99,
-        "away": 1.53
+        "away": 1.54
       },
       "impliedProbabilities": [
         14,
@@ -45462,7 +45462,7 @@ window.MATCHES = [
         62
       ],
       "marketFavorite": "克罗地亚",
-      "note": "已接入赔率市场，48 家公司均值：主 6.7 / 平 3.99 / 客 1.53。市场倾向 克罗地亚。"
+      "note": "已接入赔率市场，48 家公司均值：主 6.7 / 平 3.99 / 客 1.54。市场倾向 克罗地亚。"
     },
     "expertSignals": {
       "status": "connected",
@@ -45483,7 +45483,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.4,
@@ -45687,7 +45687,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -45982,7 +45982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -46597,7 +46597,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -46897,7 +46897,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -47395,7 +47395,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 18.5,
@@ -47599,7 +47599,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -47899,7 +47899,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -48396,7 +48396,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 23.1,
@@ -48600,7 +48600,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -48900,7 +48900,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -49367,7 +49367,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 7.67,
+        "home": 7.68,
         "draw": 5.09,
         "away": 1.38
       },
@@ -49377,7 +49377,7 @@ window.MATCHES = [
         69
       ],
       "marketFavorite": "巴西",
-      "note": "已接入赔率市场，48 家公司均值：主 7.67 / 平 5.09 / 客 1.38。市场倾向 巴西。"
+      "note": "已接入赔率市场，48 家公司均值：主 7.68 / 平 5.09 / 客 1.38。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "connected",
@@ -49618,7 +49618,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
@@ -49918,7 +49918,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -50422,7 +50422,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 31.3,
@@ -50633,7 +50633,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
@@ -50933,7 +50933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -51431,7 +51431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 20.9,
@@ -51635,7 +51635,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -51930,7 +51930,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -52530,7 +52530,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -52820,7 +52820,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -53288,7 +53288,7 @@ window.MATCHES = [
       "bookmakers": 46,
       "averageOdds": {
         "home": 18.61,
-        "draw": 8.52,
+        "draw": 8.51,
         "away": 1.14
       },
       "impliedProbabilities": [
@@ -53297,7 +53297,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，46 家公司均值：主 18.61 / 平 8.52 / 客 1.14。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，46 家公司均值：主 18.61 / 平 8.51 / 客 1.14。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -53336,7 +53336,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 24.9,
@@ -53352,7 +53352,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -53367,7 +53367,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前1分、净胜球-6；科特迪瓦当前3分、净胜球0。",
@@ -53667,7 +53667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -54135,9 +54135,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 3.59,
+        "home": 3.58,
         "draw": 3.74,
-        "away": 1.96
+        "away": 1.97
       },
       "impliedProbabilities": [
         27,
@@ -54145,7 +54145,7 @@ window.MATCHES = [
         48
       ],
       "marketFavorite": "德国",
-      "note": "已接入赔率市场，46 家公司均值：主 3.59 / 平 3.74 / 客 1.96。市场倾向 德国。"
+      "note": "已接入赔率市场，46 家公司均值：主 3.58 / 平 3.74 / 客 1.97。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -54386,7 +54386,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前1分、净胜球-1；德国当前6分、净胜球7。",
@@ -54686,7 +54686,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -55404,7 +55404,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前4分、净胜球4；瑞典当前3分、净胜球0。",
@@ -55704,7 +55704,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -56220,7 +56220,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.6,
@@ -56424,7 +56424,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-8；荷兰当前4分、净胜球4。",
@@ -56719,7 +56719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -57340,7 +57340,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
@@ -57640,7 +57640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -58364,7 +58364,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
@@ -58664,7 +58664,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -59370,7 +59370,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -59670,7 +59670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -60168,7 +60168,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 21,
@@ -60372,7 +60372,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -60667,7 +60667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -61164,7 +61164,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 33.9,
@@ -61291,7 +61291,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -61591,7 +61591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -62289,7 +62289,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -62589,7 +62589,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -63093,7 +63093,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.7,
@@ -63297,7 +63297,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -63597,7 +63597,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -64065,7 +64065,7 @@ window.MATCHES = [
       "bookmakers": 42,
       "averageOdds": {
         "home": 12.32,
-        "draw": 6.2,
+        "draw": 6.21,
         "away": 1.22
       },
       "impliedProbabilities": [
@@ -64074,7 +64074,7 @@ window.MATCHES = [
         77
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，42 家公司均值：主 12.32 / 平 6.2 / 客 1.22。市场倾向 比利时。"
+      "note": "已接入赔率市场，42 家公司均值：主 12.32 / 平 6.21 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -64095,7 +64095,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 15.5,
@@ -64306,7 +64306,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -64606,7 +64606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -65074,7 +65074,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 11.29,
+        "home": 11.31,
         "draw": 6.71,
         "away": 1.22
       },
@@ -65084,7 +65084,7 @@ window.MATCHES = [
         78
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，42 家公司均值：主 11.29 / 平 6.71 / 客 1.22。市场倾向 英格兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 11.31 / 平 6.71 / 客 1.22。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -65325,7 +65325,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -65625,7 +65625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -66135,7 +66135,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.8,
@@ -66339,7 +66339,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -66639,7 +66639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -67344,7 +67344,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -67639,7 +67639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -68136,7 +68136,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.8,
@@ -68256,7 +68256,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -68556,7 +68556,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -69045,7 +69045,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
@@ -69249,7 +69249,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -69549,7 +69549,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -70243,7 +70243,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -70471,7 +70471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -70868,7 +70868,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -70883,7 +70883,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71111,7 +71111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -71501,7 +71501,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.8,
@@ -71517,7 +71517,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -71532,7 +71532,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71760,7 +71760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -72157,7 +72157,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -72172,7 +72172,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72400,7 +72400,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -72797,7 +72797,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -72812,7 +72812,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73040,7 +73040,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -73437,7 +73437,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -73452,7 +73452,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73680,7 +73680,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -74077,7 +74077,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -74092,7 +74092,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74320,7 +74320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -74710,7 +74710,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.8,
@@ -74726,7 +74726,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -74741,7 +74741,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74969,7 +74969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -75359,7 +75359,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 32.9,
@@ -75375,7 +75375,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -75390,7 +75390,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -75618,7 +75618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -76008,7 +76008,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.6,
@@ -76024,7 +76024,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -76039,7 +76039,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76267,7 +76267,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -76664,7 +76664,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -76679,7 +76679,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76907,7 +76907,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -77303,7 +77303,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -77318,7 +77318,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -77546,7 +77546,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -77936,7 +77936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 23.4,
@@ -77952,7 +77952,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -77967,7 +77967,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78195,7 +78195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -78585,7 +78585,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 21.3,
@@ -78601,7 +78601,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -78616,7 +78616,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78844,7 +78844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -79241,7 +79241,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -79256,7 +79256,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79484,7 +79484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -79881,7 +79881,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -79896,7 +79896,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -80124,7 +80124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -80514,7 +80514,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 28.5,
@@ -80530,7 +80530,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -80545,7 +80545,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -80773,7 +80773,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -81163,7 +81163,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.2,
@@ -81179,7 +81179,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -81194,7 +81194,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -81422,7 +81422,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -81812,7 +81812,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 29.7,
@@ -81828,7 +81828,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -81843,7 +81843,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -82071,7 +82071,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -82468,7 +82468,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -82483,7 +82483,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -82711,7 +82711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -83101,7 +83101,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:17:26.621Z",
+        "fetchedAt": "2026-06-21T09:21:09.985Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -83117,7 +83117,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -83132,7 +83132,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -83360,7 +83360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -83757,7 +83757,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -83772,7 +83772,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -84000,7 +84000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -84400,7 +84400,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -84415,7 +84415,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -84643,7 +84643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -85043,7 +85043,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -85058,7 +85058,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -85286,7 +85286,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -85685,7 +85685,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -85700,7 +85700,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -85928,7 +85928,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -86325,7 +86325,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -86340,7 +86340,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -86568,7 +86568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -86965,7 +86965,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -86980,7 +86980,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -87208,7 +87208,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -87605,7 +87605,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -87620,7 +87620,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -87848,7 +87848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -88248,7 +88248,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -88263,7 +88263,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -88491,7 +88491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -88888,7 +88888,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -88903,7 +88903,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -89131,7 +89131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -89531,7 +89531,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -89546,7 +89546,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -89774,7 +89774,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -90171,7 +90171,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -90186,7 +90186,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -90414,7 +90414,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:17:26.621Z",
+      "fetchedAt": "2026-06-21T09:21:09.985Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -90811,7 +90811,7 @@ window.MATCHES = [
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
-          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
           "source": "model-projection",
           "articles": []
         },
@@ -90826,7 +90826,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:17:26.621Z"
+      "updatedAt": "2026-06-21T09:21:09.985Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -90843,7 +90843,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-21T09:17:26.621Z",
+  "updatedAt": "2026-06-21T09:21:09.985Z",
   "completedCount": 36,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
