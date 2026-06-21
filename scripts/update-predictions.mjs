@@ -13,6 +13,13 @@ const oddsSnapshotDir = path.join(snapshotsDir, "odds");
 const predictionLocksPath = path.join(snapshotsDir, "prediction-locks.json");
 const now = new Date();
 const runDate = process.env.UPDATE_DATE || now.toISOString().slice(0, 10);
+const CURRENT_MODEL_VERSION = "v3";
+const CURRENT_MODEL_LABEL = "第三版模型";
+const MODEL_VERSION_LABELS = {
+  v3: "第三版模型",
+  v2: "第二版模型",
+  retro: "历史回放基准"
+};
 
 const MATCHES_URL = process.env.WORLD_CUP_MATCHES_URL ||
   "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json";
@@ -668,6 +675,43 @@ function lowGoalDrawGuard(probabilities, totalGoals) {
     probabilities: normalizePercentages(calibrated),
     applied: true,
     reason: "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。"
+  };
+}
+
+function v3StallGuard(probabilities, context) {
+  const calibrated = probabilities.slice();
+  const top = Math.max(...calibrated);
+  const favoriteIndex = calibrated.indexOf(top);
+  const draw = calibrated[1];
+  const totalGoals = Number(context?.totalGoals) || 3;
+  const homeShare = Number(context?.homeShare) || 0.5;
+  const motivation = context?.motivation || {};
+  const scoreBands = context?.scoreBands || [];
+  const hasLowDrawBand = scoreBands.some(item => item.label === "低比分平局" && item.chance >= 18);
+  const lowGoalProfile = totalGoals <= 2.72;
+  const drawLive = draw >= 18;
+  const favoriteNotRunaway = top <= 74;
+  const strongNeedToWin = Math.max(motivation.home?.goalNeed || 0, motivation.away?.goalNeed || 0) >= 0.78;
+  const shareImbalance = Math.abs(homeShare - 0.5);
+
+  if (favoriteIndex === 1 || !lowGoalProfile || !drawLive || !favoriteNotRunaway || strongNeedToWin) {
+    return { probabilities: calibrated, applied: false, reason: null };
+  }
+
+  let shift = 0;
+  if (top >= 62 && hasLowDrawBand) shift = Math.min(10, top - 56);
+  else if (top >= 55 && draw >= 24 && shareImbalance <= 0.22) shift = Math.min(7, top - draw - 4);
+  else if (draw >= 28 && shareImbalance <= 0.18) shift = Math.min(6, top - draw + 1);
+
+  shift = Math.max(0, Math.round(shift));
+  if (shift <= 0) return { probabilities: calibrated, applied: false, reason: null };
+
+  calibrated[1] += shift;
+  calibrated[favoriteIndex] -= shift;
+  return {
+    probabilities: normalizePercentages(calibrated),
+    applied: true,
+    reason: "V3低进球僵局保护：低总进球、平局区间可见且热门方向过热时，回收部分热门概率给平局。"
   };
 }
 
@@ -1926,6 +1970,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   }
 
   const modelOnlyProbabilities = probabilities.slice();
+  const modelOnlyMatrix = calibrateScoreMatrixToOutcome(matrix, modelOnlyProbabilities);
+  const modelOnlyScoreBands = scoreBandsFromMatrix(modelOnlyMatrix, 3);
 
   // ── External signals ──
   const marketSignals = oddsForMatch(match, signalContext.odds);
@@ -1934,14 +1980,21 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
 
   // ── Market odds: direct blend into final probabilities (not through power score) ──
   let extEvidence = "暂无可用赔率或专业球评信号。";
+  let marketBlendWeight = marketSignals.weight || 0;
+  const lowScoreDrawBand = modelOnlyScoreBands.find(item => item.label === "低比分平局");
+  if (["connected", "snapshot"].includes(marketSignals.status) && marketSignals.impliedProbabilities) {
+    const marketTop = Math.max(...marketSignals.impliedProbabilities);
+    const modelDraw = modelOnlyProbabilities[1];
+    const lowGoalMarketOverheat = totalGoals <= 2.72 && modelDraw >= 20 && marketTop >= 62 && lowScoreDrawBand?.chance >= 18;
+    if (lowGoalMarketOverheat) marketBlendWeight = Math.min(marketBlendWeight, 0.35);
+  }
 
   if (["connected", "snapshot"].includes(marketSignals.status) && marketSignals.impliedProbabilities) {
-    const blendWeight = marketSignals.weight;
     for (let i = 0; i < 3; i += 1) {
-      probabilities[i] = Math.round(probabilities[i] * (1 - blendWeight) + marketSignals.impliedProbabilities[i] * blendWeight);
+      probabilities[i] = Math.round(probabilities[i] * (1 - marketBlendWeight) + marketSignals.impliedProbabilities[i] * marketBlendWeight);
     }
     probabilities[0] += 100 - probabilities.reduce((sum, value) => sum + value, 0);
-    extEvidence = `赔率市场（48家博彩公司均值，融合50%）：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%，倾向${marketSignals.marketFavorite || "不明"}。`;
+    extEvidence = `赔率市场（48家博彩公司均值，融合${Math.round(marketBlendWeight * 100)}%）：主${marketSignals.impliedProbabilities[0]}% / 平${marketSignals.impliedProbabilities[1]}% / 客${marketSignals.impliedProbabilities[2]}%，倾向${marketSignals.marketFavorite || "不明"}。`;
   } else if (marketSignals.status === "missing-key") {
     extEvidence = "赔率接口未配置 API Key。";
   } else if (expertSignals.status === "connected") {
@@ -1950,21 +2003,28 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
 
   const drawGuard = lowGoalDrawGuard(probabilities, totalGoals);
   probabilities = drawGuard.probabilities;
+  const v3Guard = v3StallGuard(probabilities, {
+    totalGoals,
+    homeShare,
+    motivation,
+    scoreBands: modelOnlyScoreBands
+  });
+  probabilities = v3Guard.probabilities;
 
   const marketCalibration = {
     status: marketSignals.status,
     modelOnly: modelOnlyProbabilities,
     market: marketSignals.impliedProbabilities || null,
     blended: probabilities.slice(),
-    blendWeight: marketSignals.weight,
-    drawGuardApplied: drawGuard.applied,
-    drawGuardReason: drawGuard.reason || null,
+    blendWeight: marketBlendWeight,
+    drawGuardApplied: drawGuard.applied || v3Guard.applied,
+    drawGuardReason: [drawGuard.reason, v3Guard.reason].filter(Boolean).join("；") || null,
     deltas: marketSignals.impliedProbabilities
       ? marketSignals.impliedProbabilities.map((value, index) => value - modelOnlyProbabilities[index])
       : null,
     summary: marketSignals.impliedProbabilities
-      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 50% 权重校准后为 ${probabilities.join("/")}%。${drawGuard.applied ? "已触发低进球平局保护。" : ""}`
-      : `暂无可用市场概率，模型未进行赔率校准。${drawGuard.applied ? "已触发低进球平局保护。" : ""}`
+      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 ${Math.round(marketBlendWeight * 100)}% 权重校准后为 ${probabilities.join("/")}%。${drawGuard.applied || v3Guard.applied ? "已触发低进球/僵局保护。" : ""}`
+      : `暂无可用市场概率，模型未进行赔率校准。${drawGuard.applied || v3Guard.applied ? "已触发低进球/僵局保护。" : ""}`
   };
 
   // Factor 10: 0% power score weight — odds work through direct blend only
@@ -1986,7 +2046,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);
   const consistency = Math.abs(homeAvg - awayAvg) + Math.abs(homeForm - awayForm) * 2;
-  const confidence = calibratedConfidence(probabilities, scoreOdds, drawGuard.applied, marketSignals);
+  const confidence = calibratedConfidence(probabilities, scoreOdds, drawGuard.applied || v3Guard.applied, marketSignals);
 
   const tag = match.status === "completed" ? "已完场" : confidence >= 82 ? "高信心" : confidence >= 70 ? "稳健" : Math.abs(probabilities[0] - probabilities[2]) <= 8 ? "均衡" : "观察";
   const favoriteIndex = probabilities.indexOf(top);
@@ -2002,6 +2062,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     ...match,
     home: { ...match.home, recentMatches: homeRecentMatches, recentSummary: homeRecent },
     away: { ...match.away, recentMatches: awayRecentMatches, recentSummary: awayRecent },
+    modelVersion: CURRENT_MODEL_VERSION,
+    modelVersionLabel: CURRENT_MODEL_LABEL,
     probabilities,
     confidence,
     tag,
@@ -2090,15 +2152,21 @@ function updatePredictionLocks(matches) {
   const locks = loadPredictionLocks();
   let created = 0;
   let retained = 0;
+  let upgraded = 0;
   for (const match of matches) {
     const kickoff = kickoffTime(match);
     if (!kickoff || kickoff.getTime() <= now.getTime()) continue;
-    if (locks.matches[match.id]) {
+    const existing = locks.matches[match.id];
+    const existingVersion = existing?.modelVersion || (existing ? "v2" : null);
+    if (existing && existingVersion === CURRENT_MODEL_VERSION) {
       retained += 1;
       continue;
     }
+    if (existing && existingVersion !== CURRENT_MODEL_VERSION) upgraded += 1;
     locks.matches[match.id] = {
       matchId: match.id,
+      modelVersion: CURRENT_MODEL_VERSION,
+      modelVersionLabel: CURRENT_MODEL_LABEL,
       lockedAt: now.toISOString(),
       kickoff: kickoff.toISOString(),
       match: `${match.home.name} vs ${match.away.name}`,
@@ -2113,7 +2181,9 @@ function updatePredictionLocks(matches) {
         scoreScenarios: match.scoreScenarios,
         expectedGoals: match.expectedGoals,
         marketSignals: match.marketSignals,
-        marketCalibration: match.marketCalibration
+        marketCalibration: match.marketCalibration,
+        modelVersion: CURRENT_MODEL_VERSION,
+        modelVersionLabel: CURRENT_MODEL_LABEL
       }
     };
     created += 1;
@@ -2122,7 +2192,9 @@ function updatePredictionLocks(matches) {
   locks.summary = {
     totalLocked: Object.keys(locks.matches).length,
     createdThisRun: created,
-    retainedThisRun: retained
+    retainedThisRun: retained,
+    upgradedThisRun: upgraded,
+    currentModelVersion: CURRENT_MODEL_VERSION
   };
   writeJsonFile(predictionLocksPath, locks);
   return locks;
@@ -2175,7 +2247,8 @@ function calculateBacktest(matches, predictionLocks = null) {
     const market = evaluationMarketSignals?.impliedProbabilities || null;
     const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
     const kickoff = kickoffTime(match);
-    const modelVersion = locked ? "v2" : "v1";
+    const modelVersion = locked ? (lock?.modelVersion || locked?.modelVersion || "v2") : "retro";
+    const modelVersionLabel = MODEL_VERSION_LABELS[modelVersion] || modelVersion;
     return {
       id: match.id,
       match: `${match.home.name} vs ${match.away.name}`,
@@ -2185,8 +2258,8 @@ function calculateBacktest(matches, predictionLocks = null) {
       predictionSource: locked ? "locked-pre-match" : "current-model",
       lockedAt: lock?.lockedAt || null,
       modelVersion,
-      modelVersionLabel: modelVersion === "v2" ? "第二版模型" : "第一版模型/回放基准",
-      modelVersionNote: modelVersion === "v2" ? "赛前锁定样本" : "未赛前锁定，不与第二版混算",
+      modelVersionLabel,
+      modelVersionNote: locked ? "赛前锁定样本" : "未赛前锁定，按当前模型回放，不参与版本成绩混算",
       actualOutcome: ["主胜", "平局", "客胜"][actual],
       predictedOutcome: ["主胜", "平局", "客胜"][predicted],
       outcomeHit: actual === predicted,
@@ -2241,8 +2314,9 @@ function calculateBacktest(matches, predictionLocks = null) {
     };
   });
   const versionBreakdown = [
-    { key: "v2", label: "第二版模型", note: "赛前锁定样本，作为当前真实预测成绩单" },
-    { key: "v1", label: "第一版模型/回放基准", note: "未赛前锁定，只用于历史回放参考，不与第二版混算" }
+    { key: "v3", label: "第三版模型", note: "当前线上模型，赛前锁定样本会进入这里" },
+    { key: "v2", label: "第二版模型", note: "上一版赛前锁定样本，作为真实历史成绩单" },
+    { key: "retro", label: "历史回放基准", note: "未赛前锁定，按当前模型回放，只用于调参参考" }
   ].map(version => {
     const subset = rows.filter(row => row.modelVersion === version.key);
     return {
@@ -2259,7 +2333,7 @@ function calculateBacktest(matches, predictionLocks = null) {
       lockedCount: subset.filter(row => row.predictionSource === "locked-pre-match").length,
       rows: sortNewestFirst(subset)
     };
-  }).filter(version => version.sampleCount > 0);
+  }).filter(version => version.sampleCount > 0 || version.key === CURRENT_MODEL_VERSION);
   const sortedRows = sortNewestFirst(rows);
   const count = rows.length || 1;
 
@@ -2292,7 +2366,9 @@ function serialize(matches, metaOverrides = {}, backtestData = null, predictionL
     source: "openfootball-worldcup-json",
     externalFetchedAt: now.toISOString(),
     externalMatchCount: matches.length,
-    model: "calibrated-draw-guard-v4",
+    model: "calibrated-stall-guard-v5",
+    modelVersion: CURRENT_MODEL_VERSION,
+    modelVersionLabel: CURRENT_MODEL_LABEL,
     rulesModel: "wc2026-group-qualification-v1",
     marketSignals: "not-connected",
     expertSignals: "not-connected",

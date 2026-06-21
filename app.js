@@ -810,7 +810,7 @@
       return '<div class="backtest-metric"><small>' + label + '</small><strong>' + fmt(value) + '</strong><span>' + (note || "") + '</span></div>';
     }
     function versionCard(version) {
-      return '<article class="backtest-version-card ' + (version.key === "v2" ? "primary" : "") + '">' +
+      return '<article class="backtest-version-card ' + (version.key === "v3" ? "primary" : "") + '">' +
         '<div><small>' + version.note + '</small><h3>' + version.label + '</h3></div>' +
         '<div class="version-score"><strong>' + fmt(version.outcomeHitRate, "%") + '</strong><span>胜平负命中</span></div>' +
         '<div class="version-metrics">' +
@@ -831,9 +831,10 @@
       '</div>';
     }
     function versionSection(version) {
+      var versionRows = version.rows || [];
       return '<section class="detail-section">' +
         '<div class="section-title"><h3>' + version.label + '样本</h3><small>' + version.sampleCount + '场 · ' + version.note + '</small></div>' +
-        '<div class="backtest-table">' + (version.rows || []).map(rowCard).join("") + '</div>' +
+        '<div class="backtest-table">' + (versionRows.length ? versionRows.map(rowCard).join("") : '<div class="backtest-row"><strong>等待赛果进入回测</strong><small>当前版本已用于未开赛比赛的赛前锁定，比赛结束后会自动归入本区块。</small></div>') + '</div>' +
       '</section>';
     }
     root.innerHTML =
