@@ -1683,6 +1683,58 @@ function formatApiFootballLineup(lineups) {
   });
 }
 
+function playerMarketValue(player) {
+  return Number(player?.rt_value_estimate_eur || 0) || 0;
+}
+
+function positionBucket(player) {
+  const position = String(player?.position || "").toUpperCase();
+  if (position === "GK") return "GK";
+  if (["DF", "DEF", "CB", "LB", "RB", "LWB", "RWB"].includes(position)) return "DF";
+  if (["MF", "MID", "CM", "CDM", "CAM", "LM", "RM"].includes(position)) return "MF";
+  return "FW";
+}
+
+function predictedLineupForTeam(team, playerData) {
+  const squad = playerData?.get?.(team.code);
+  if (!squad?.players?.length) return null;
+  const byBucket = { GK: [], DF: [], MF: [], FW: [] };
+  for (const player of squad.players) {
+    byBucket[positionBucket(player)].push(player);
+  }
+  Object.values(byBucket).forEach(list => list.sort((a, b) => playerMarketValue(b) - playerMarketValue(a)));
+
+  const selected = [
+    ...byBucket.GK.slice(0, 1),
+    ...byBucket.DF.slice(0, 4),
+    ...byBucket.MF.slice(0, 3),
+    ...byBucket.FW.slice(0, 3)
+  ];
+  const used = new Set(selected.map(player => player.player_id || player.player_name));
+  const remaining = squad.players
+    .filter(player => !used.has(player.player_id || player.player_name))
+    .sort((a, b) => playerMarketValue(b) - playerMarketValue(a));
+  while (selected.length < 11 && remaining.length) selected.push(remaining.shift());
+  if (selected.length < 8) return null;
+
+  return {
+    team: team.name,
+    formation: "4-3-3",
+    source: "squad-projection",
+    starters: selected.slice(0, 11).map(player => ({
+      name: player.player_name,
+      position: player.position || positionBucket(player),
+      club: player.club || "",
+      age: Number(player.age) || null,
+      value: playerMarketValue(player)
+    }))
+  };
+}
+
+function predictedLineupsForMatch(match, playerData) {
+  return [predictedLineupForTeam(match.home, playerData), predictedLineupForTeam(match.away, playerData)].filter(Boolean);
+}
+
 function formatApiFootballInjuries(rows) {
   if (!Array.isArray(rows) || !rows.length) return [];
   return rows.map(row => ({
@@ -1747,21 +1799,24 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
   const providerStatus = liveContext?.status || "not-connected";
   const apiLineups = fixtureId ? formatApiFootballLineup(liveContext?.lineupsByFixture?.[fixtureId] || []) : null;
   const apiInjuries = fixtureId ? formatApiFootballInjuries(liveContext?.injuriesByFixture?.[fixtureId] || []) : [];
+  const projectedLineups = predictedLineupsForMatch(match, liveContext?.playerData);
 
   const news = newsSignalsForMatch(match, expertContext, allMatches);
   const hasNews = news.lineup.length || news.injuries.length || news.tactical.length;
 
-  if (apiLineups || apiInjuries.length) {
+  if (apiLineups || apiInjuries.length || projectedLineups.length) {
     return {
       status: "connected",
       provider: liveContext.provider,
       fixtureId,
       fixtureDate: fixture?.fixture?.date || null,
       lineup: {
-        status: apiLineups ? "confirmed" : "not-yet-released",
-        text: apiLineups ? "已从 API-Football 获取赛前/赛中阵容。" : "权威数据源已接入，但本场首发尚未公布。",
-        source: liveContext.provider,
-        teams: apiLineups || [],
+        status: apiLineups ? "confirmed" : "projected",
+        text: apiLineups
+          ? "已从 API-Football 获取赛前/赛中官方阵容。"
+          : "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+        source: apiLineups ? liveContext.provider : "squad-projection",
+        teams: apiLineups || projectedLineups,
         articles: news.lineup
       },
       injuries: {
@@ -1772,8 +1827,8 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
         articles: news.injuries
       },
       tactical: {
-        status: apiLineups ? "lineup-derived" : news.tactical.length ? "news-derived" : "model-derived",
-        text: apiLineups ? "已基于首发阵型和人员结构更新临场战术参考。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待首发确认。",
+        status: apiLineups ? "lineup-derived" : projectedLineups.length ? "projection-derived" : news.tactical.length ? "news-derived" : "model-derived",
+        text: apiLineups ? "已基于官方首发阵型和人员结构更新临场战术参考。" : projectedLineups.length ? "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
         articles: news.tactical
       }
     };
@@ -1783,9 +1838,9 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
     status: providerStatus === "connected" ? "no-fixture-match" : providerStatus,
     provider: providerStatus === "connected" ? liveContext.provider : "API-Football",
     lineup: {
-      status: news.lineup.length ? "news-derived" : providerStatus === "missing-key" ? "provider-needed" : "pending",
-      text: news.lineup.length ? `从公开新闻源匹配到 ${news.lineup.length} 条预计首发/阵容线索，尚非官方确认。` : providerStatus === "missing-key" ? "权威首发源未配置；需要 API_FOOTBALL_KEY 后才能自动获取。" : "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-      source: news.lineup.length ? "public-rss" : providerStatus === "missing-key" ? "provider-needed" : liveContext?.provider || "provider-needed",
+      status: news.lineup.length ? "news-derived" : "projected",
+      text: news.lineup.length ? `从公开新闻源匹配到 ${news.lineup.length} 条预计首发/阵容线索，尚非官方确认。` : "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+      source: news.lineup.length ? "public-rss" : "model-projection",
       articles: news.lineup
     },
     injuries: {
@@ -1795,7 +1850,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
     },
     tactical: {
       status: news.tactical.length ? "news-derived" : "model-derived",
-      text: news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : hasNews ? "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+      text: news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : hasNews ? "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。" : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
       articles: news.tactical
     }
   };
@@ -2468,7 +2523,8 @@ async function main() {
     liveLineupFixtureCount: live.lineupFixtureCount || 0,
     liveInjuryCount: live.injuryCount || 0
   };
-  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live }, matches));
+  const liveSignals = { ...live, playerData };
+  const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live: liveSignals }, matches));
   const predictionLocks = updatePredictionLocks(refreshed);
   metaOverrides.predictionLockCount = predictionLocks.summary?.totalLocked || 0;
   metaOverrides.predictionLocksCreated = predictionLocks.summary?.createdThisRun || 0;
