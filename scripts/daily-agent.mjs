@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -8,6 +9,7 @@ const dataPath = path.join(root, "data.js");
 const outputDir = path.join(root, "outputs", "agent");
 const requestedDate = process.env.AGENT_DATE || "";
 const maxMatches = Number(process.env.AGENT_LIMIT || 12);
+const bundledPython = "C:\\Users\\Russell\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe";
 
 function loadData() {
   const code = fs.readFileSync(dataPath, "utf8");
@@ -284,7 +286,26 @@ function main() {
   fs.writeFileSync(path.join(outputDir, "latest.json"), `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   fs.writeFileSync(path.join(outputDir, "latest.md"), markdownReport(meta, analyses, targetDate), "utf8");
   fs.writeFileSync(path.join(outputDir, "latest.xhs.txt"), xhsReport(analyses), "utf8");
+  renderCards(path.join(outputDir, `${targetDate}.json`));
   console.log(`Agent report generated: ${analyses.length} matches -> outputs/agent/${targetDate}.md`);
+}
+
+function renderCards(jsonFile) {
+  const script = path.join(root, "scripts", "render-agent-cards.py");
+  const candidates = [
+    process.env.PYTHON,
+    fs.existsSync(bundledPython) ? bundledPython : "",
+    "python"
+  ].filter(Boolean);
+  for (const python of candidates) {
+    const result = spawnSync(python, [script, jsonFile], { cwd: root, encoding: "utf8" });
+    if (result.status === 0) {
+      if (result.stdout) process.stdout.write(result.stdout);
+      return true;
+    }
+  }
+  console.warn("Card images were not rendered: Python/Pillow runtime unavailable.");
+  return false;
 }
 
 main();
