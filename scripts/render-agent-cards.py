@@ -13,6 +13,9 @@ TEXT = "#0b2118"
 MUTED = "#617269"
 ACCENT = "#128452"
 ACCENT_2 = "#0f6f47"
+BLUE = "#1458d4"
+RED = "#e04b32"
+GRAY = "#a6adb5"
 WARN = "#b7791f"
 DANGER = "#c94c43"
 LINE = "#dce7df"
@@ -107,6 +110,30 @@ def bar(draw, x, y, w, h, pct, label, color):
     text(draw, (x + w, y - 36), f"{pct}%", fill=TEXT, f=F["body_bold"], anchor="ra")
 
 
+def segmented_bar(draw, x, y, w, h, probs):
+    home = int(w * probs["home"] / 100)
+    draw_part = int(w * probs["draw"] / 100)
+    away = max(0, w - home - draw_part)
+    rounded(draw, (x, y, x + w, y + h), h // 2, "#e9eef3")
+    if home > 0:
+        rounded(draw, (x, y, x + home, y + h), h // 2, BLUE)
+    if draw_part > 0:
+        draw.rectangle((x + home, y, x + home + draw_part, y + h), fill=GRAY)
+    if away > 0:
+        rounded(draw, (x + home + draw_part, y, x + w, y + h), h // 2, RED)
+
+
+def direction_badge(draw, x, y, item):
+    if item["pick"] == "主胜":
+        label, color, fill = "主胜方向", BLUE, "#edf4ff"
+    elif item["pick"] == "客胜":
+        label, color, fill = "客队更优", RED, "#fff0ed"
+    else:
+        label, color, fill = "平局空间", GRAY, "#f3f5f7"
+    rounded(draw, (x, y, x + 148, y + 54), 18, fill)
+    text(draw, (x + 74, y + 14), label, fill=color, f=F["small"], anchor="ma")
+
+
 def card_base():
     img = Image.new("RGB", (W, H), BG)
     draw = ImageDraw.Draw(img)
@@ -181,22 +208,54 @@ def render_match(item, idx, total, out_path):
 
 
 def render_cover(payload, out_path):
-    img, draw = card_base()
-    rounded(draw, (54, 54, W - 54, H - 54), 42, WHITE, outline=LINE, width=2)
-    text(draw, (90, 100), "每日比赛预测", fill=ACCENT, f=F["title"])
-    text(draw, (90, 168), payload.get("targetDate", ""), fill=MUTED, f=F["body"])
-    text(draw, (90, 236), "Agent 综合版", fill=TEXT, f=F["num"])
-    y = 350
-    for idx, item in enumerate(payload.get("matches", [])[:5], start=1):
-        rounded(draw, (90, y, W - 90, y + 150), 28, "#f7fbf8", outline=LINE)
-        text(draw, (122, y + 26), f"{idx}. {item['title']}", fill=TEXT, f=F["h2"])
-        text(draw, (122, y + 76), f"{item['pick']} · {item['pickText']}    信心 {item['confidenceLabel']} {item['confidence']}", fill=ACCENT, f=F["body_bold"])
-        band = item.get("scoreBand", {})
-        examples = " / ".join(band.get("examples") or [])
-        text(draw, (122, y + 114), f"{band.get('label', '-')}: {examples}", fill=MUTED, f=F["small"])
-        y += 178
-    text(draw, (90, H - 150), "输出包含：方向、比分区间、三层概率、依据和风险", fill=MUTED, f=F["body"])
-    text(draw, (90, H - 108), "仅做赛前分析，不构成投注建议", fill=MUTED, f=F["small"])
+    img = Image.new("RGB", (W, H), "#f7f9fc")
+    draw = ImageDraw.Draw(img)
+    draw.rectangle((0, 0, W, 178), fill="#eaf1ff")
+    draw.polygon([(0, 0), (330, 0), (210, 178), (0, 178)], fill=BLUE)
+    draw.polygon([(W, 0), (W - 220, 0), (W - 110, 178), (W, 178)], fill="#cfe0ff")
+    text(draw, (72, 42), "世界杯", fill=WHITE, f=F["h1"])
+    text(draw, (290, 43), "4场方向总览", fill=BLUE, f=F["title"])
+    text(draw, (292, 112), f"{payload.get('targetDate', '')}  赛前留档 | 先看方向", fill=TEXT, f=F["body"])
+
+    matches = payload.get("matches", [])[:4]
+    y = 210
+    for idx, item in enumerate(matches, start=1):
+        rounded(draw, (46, y, W - 46, y + 158), 20, WHITE, outline="#d9e3f2", width=2)
+        rounded(draw, (68, y + 22, 118, y + 72), 12, BLUE)
+        text(draw, (93, y + 34), str(idx), fill=WHITE, f=F["body_bold"], anchor="ma")
+        title = item["title"].replace(" vs ", "  vs  ")
+        text(draw, (150, y + 25), title, fill=TEXT, f=F["h2"])
+        direction_badge(draw, W - 220, y + 24, item)
+        p = item["probabilities"]
+        text(draw, (150, y + 82), f"主胜 {p['home']}%", fill=BLUE, f=F["small"])
+        text(draw, (392, y + 82), f"平 {p['draw']}%", fill="#6b7178", f=F["small"])
+        text(draw, (584, y + 82), f"客胜 {p['away']}%", fill=RED, f=F["small"])
+        segmented_bar(draw, 150, y + 120, 700, 18, p)
+        y += 176
+
+    y += 10
+    rounded(draw, (46, y, W - 46, y + 330), 22, WHITE, outline="#d9e3f2", width=2)
+    draw.polygon([(46, y), (384, y), (330, y + 66), (46, y + 66)], fill=BLUE)
+    text(draw, (86, y + 16), "比分结构总览", fill=WHITE, f=F["h2"])
+    text(draw, (W - 76, y + 24), "每场展示前3个参考比分", fill=MUTED, f=F["small"], anchor="ra")
+    row_y = y + 86
+    for idx, item in enumerate(matches, start=1):
+        text(draw, (82, row_y + 10), str(idx), fill=BLUE, f=F["body_bold"])
+        text(draw, (132, row_y + 10), item["title"], fill=TEXT, f=F["body_bold"])
+        scores = item.get("topScores") or []
+        x = 610
+        for raw in scores[:3]:
+            score = raw.split("(")[0]
+            pct = raw[raw.find("(") + 1:raw.find(")")] if "(" in raw else ""
+            rounded(draw, (x, row_y, x + 112, row_y + 58), 12, "#f7f9fc", outline=LINE)
+            text(draw, (x + 56, row_y + 8), score, fill=BLUE if idx != 4 else RED, f=F["body_bold"], anchor="ma")
+            text(draw, (x + 56, row_y + 34), pct, fill=MUTED, f=F["tiny"], anchor="ma")
+            x += 128
+        row_y += 62
+
+    rounded(draw, (46, H - 164, W - 46, H - 104), 18, BLUE)
+    text(draw, (W // 2, H - 148), "今晚先看方向，再看比分结构；明天统一回来看账。", fill=WHITE, f=F["body_bold"], anchor="ma")
+    text(draw, (W // 2, H - 76), "模型 + 结果，仅供看球讨论，不作任何建议。", fill=MUTED, f=F["small"], anchor="ma")
     img.save(out_path, quality=95)
 
 
