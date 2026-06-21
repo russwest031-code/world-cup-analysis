@@ -2,9 +2,12 @@ name: Daily prediction update
 
 on:
   schedule:
-    # 15:00 & 15:07 Beijing = 07:00 & 07:07 UTC (双保险避免整点拥挤跳过)
+    # Beijing afternoon refresh windows. Multiple non-round minutes reduce GitHub schedule drops/delays.
     - cron: "3 7 * * *"
     - cron: "10 7 * * *"
+    - cron: "23 7 * * *"
+    - cron: "41 7 * * *"
+    - cron: "5 8 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,9 +30,11 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
 
       - name: Commit refreshed predictions
+        id: commit
         run: |
           if git diff --quiet -- data.js snapshots; then
             echo "No prediction changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -37,3 +42,15 @@ jobs:
           git add data.js snapshots
           git commit -m "Daily prediction refresh"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger Render deploy hook
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$RENDER_DEPLOY_HOOK_URL" ]; then
+            echo "RENDER_DEPLOY_HOOK_URL is not configured; skipping Render deploy hook."
+            exit 0
+          fi
+          curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
