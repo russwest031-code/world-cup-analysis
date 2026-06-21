@@ -174,6 +174,10 @@ function analyzeMatch(match) {
     date: match.date,
     time: match.time,
     title: `${match.home.name} vs ${match.away.name}`,
+    homeName: match.home.name,
+    awayName: match.away.name,
+    homeCode: match.home.code,
+    awayCode: match.away.code,
     pick: outcomeLabel(pick),
     pickText: sideName(match, pick),
     probabilities: {

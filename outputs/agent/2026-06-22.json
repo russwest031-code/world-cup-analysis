@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T10:38:07.619Z",
+  "generatedAt": "2026-06-21T10:44:23.893Z",
   "targetDate": "2026-06-22",
   "sourceUpdatedAt": "2026-06-21T09:30:43.703Z",
   "model": "agent-ensemble-v1",
@@ -10,6 +10,10 @@
       "date": "2026-06-22",
       "time": "00:00",
       "title": "西班牙 vs 沙特阿拉伯",
+      "homeName": "西班牙",
+      "awayName": "沙特阿拉伯",
+      "homeCode": "ESP",
+      "awayCode": "KSA",
       "pick": "主胜",
       "pickText": "西班牙",
       "probabilities": {
@@ -64,6 +68,10 @@
       "date": "2026-06-22",
       "time": "03:00",
       "title": "比利时 vs 伊朗",
+      "homeName": "比利时",
+      "awayName": "伊朗",
+      "homeCode": "BEL",
+      "awayCode": "IRN",
       "pick": "主胜",
       "pickText": "比利时",
       "probabilities": {
@@ -117,6 +125,10 @@
       "date": "2026-06-22",
       "time": "06:00",
       "title": "乌拉圭 vs 佛得角",
+      "homeName": "乌拉圭",
+      "awayName": "佛得角",
+      "homeCode": "URU",
+      "awayCode": "CPV",
       "pick": "主胜",
       "pickText": "乌拉圭",
       "probabilities": {
@@ -169,6 +181,10 @@
       "date": "2026-06-22",
       "time": "09:00",
       "title": "新西兰 vs 埃及",
+      "homeName": "新西兰",
+      "awayName": "埃及",
+      "homeCode": "NZL",
+      "awayCode": "EGY",
       "pick": "客胜",
       "pickText": "埃及",
       "probabilities": {

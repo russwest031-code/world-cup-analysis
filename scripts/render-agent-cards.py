@@ -2,6 +2,8 @@ import json
 import math
 import re
 import sys
+import urllib.request
+from io import BytesIO
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -44,6 +46,23 @@ F = {
     "tiny": font(18),
     "num": font(72, True),
 }
+
+FIFA_TO_ISO2 = {
+    "ARG": "ar", "AUS": "au", "AUT": "at", "BEL": "be", "BIH": "ba", "BRA": "br",
+    "CAN": "ca", "CHI": "cl", "CHN": "cn", "CIV": "ci", "CMR": "cm", "COL": "co",
+    "CPV": "cv", "CRC": "cr", "CRO": "hr", "CUW": "cw", "CZE": "cz", "DEN": "dk",
+    "ECU": "ec", "EGY": "eg", "ENG": "gb-eng", "ESP": "es", "FRA": "fr", "GER": "de",
+    "GHA": "gh", "GRE": "gr", "HAI": "ht", "IRN": "ir", "IRQ": "iq", "ITA": "it",
+    "JPN": "jp", "JOR": "jo", "KOR": "kr", "KSA": "sa", "MAR": "ma", "MEX": "mx",
+    "NED": "nl", "NGA": "ng", "NOR": "no", "NZL": "nz", "PAN": "pa", "PAR": "py",
+    "POL": "pl", "POR": "pt", "QAT": "qa", "RSA": "za", "SCO": "gb-sct", "SEN": "sn",
+    "SRB": "rs", "SUI": "ch", "SWE": "se", "TUN": "tn", "TUR": "tr", "UAE": "ae",
+    "UKR": "ua", "URU": "uy", "USA": "us", "UZB": "uz", "WAL": "gb-wls"
+}
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = SCRIPT_DIR.parent
+FLAG_CACHE = ROOT_DIR / "outputs" / "agent" / "flag-cache"
 
 
 def safe_name(value):
@@ -101,6 +120,48 @@ def chip(draw, xy, value, fill="#e7f3ec", fg=ACCENT, f=None):
     return x + w + 12
 
 
+def flag_image(code, size=64):
+    code = (code or "").upper()
+    iso = FIFA_TO_ISO2.get(code)
+    if not iso:
+        return None
+    FLAG_CACHE.mkdir(parents=True, exist_ok=True)
+    cache_file = FLAG_CACHE / f"{iso}.png"
+    if not cache_file.exists():
+        url = f"https://flagcdn.com/w160/{iso}.png"
+        try:
+            with urllib.request.urlopen(url, timeout=8) as response:
+                cache_file.write_bytes(response.read())
+        except Exception:
+            return None
+    try:
+        img = Image.open(cache_file).convert("RGBA")
+        img.thumbnail((size * 2, size * 2), Image.LANCZOS)
+        canvas = Image.new("RGBA", (size, size), (255, 255, 255, 0))
+        scale = max(size / img.width, size / img.height)
+        resized = img.resize((int(img.width * scale), int(img.height * scale)), Image.LANCZOS)
+        x = (size - resized.width) // 2
+        y = (size - resized.height) // 2
+        canvas.alpha_composite(resized, (x, y))
+        mask = Image.new("L", (size, size), 0)
+        mdraw = ImageDraw.Draw(mask)
+        mdraw.ellipse((0, 0, size - 1, size - 1), fill=255)
+        canvas.putalpha(mask)
+        return canvas
+    except Exception:
+        return None
+
+
+def draw_flag(draw, img, x, y, code, size=58):
+    flag = flag_image(code, size)
+    if flag:
+        img.alpha_composite(flag, (x, y))
+        draw.ellipse((x, y, x + size, y + size), outline="#dce3ee", width=2)
+    else:
+        draw.ellipse((x, y, x + size, y + size), fill="#eef3f8", outline="#dce3ee", width=2)
+        text(draw, (x + size / 2, y + size / 2 - 10), (code or "?")[:3], fill=BLUE, f=F["tiny"], anchor="ma")
+
+
 def bar(draw, x, y, w, h, pct, label, color):
     rounded(draw, (x, y, x + w, y + h), h // 2, "#ecf2ee")
     fw = int(w * max(0, min(100, pct)) / 100)
@@ -135,7 +196,7 @@ def direction_badge(draw, x, y, item):
 
 
 def card_base():
-    img = Image.new("RGB", (W, H), BG)
+    img = Image.new("RGBA", (W, H), BG)
     draw = ImageDraw.Draw(img)
     draw.ellipse((-220, -260, 520, 420), fill="#dff2e7")
     draw.ellipse((720, 1040, 1300, 1620), fill="#e7f0ea")
@@ -148,7 +209,9 @@ def render_match(item, idx, total, out_path):
 
     text(draw, (90, 92), "世界杯赛前预测", fill=ACCENT, f=F["small"])
     text(draw, (W - 90, 92), f"{idx}/{total}", fill=MUTED, f=F["small"], anchor="ra")
-    text(draw, (90, 135), item["title"], fill=TEXT, f=F["h1"])
+    draw_flag(draw, img, 90, 132, item.get("homeCode"), 54)
+    draw_flag(draw, img, W - 144, 132, item.get("awayCode"), 54)
+    text(draw, (160, 135), item["title"], fill=TEXT, f=F["h1"])
     text(draw, (90, 192), f"{item['date']} {item['time']}", fill=MUTED, f=F["body"])
 
     rounded(draw, (90, 250, W - 90, 430), 30, "#f5fbf7", outline="#d4eadc", width=2)
@@ -204,11 +267,11 @@ def render_match(item, idx, total, out_path):
 
     footer = "仅做赛前分析，不构成投注建议"
     text(draw, (W // 2, H - 82), footer, fill=MUTED, f=F["small"], anchor="ma")
-    img.save(out_path, quality=95)
+    img.convert("RGB").save(out_path, quality=95)
 
 
 def render_cover(payload, out_path):
-    img = Image.new("RGB", (W, H), "#f7f9fc")
+    img = Image.new("RGBA", (W, H), "#f7f9fc")
     draw = ImageDraw.Draw(img)
     draw.rectangle((0, 0, W, 178), fill="#eaf1ff")
     draw.polygon([(0, 0), (330, 0), (210, 178), (0, 178)], fill=BLUE)
@@ -223,8 +286,11 @@ def render_cover(payload, out_path):
         rounded(draw, (46, y, W - 46, y + 158), 20, WHITE, outline="#d9e3f2", width=2)
         rounded(draw, (68, y + 22, 118, y + 72), 12, BLUE)
         text(draw, (93, y + 34), str(idx), fill=WHITE, f=F["body_bold"], anchor="ma")
-        title = item["title"].replace(" vs ", "  vs  ")
-        text(draw, (150, y + 25), title, fill=TEXT, f=F["h2"])
+        draw_flag(draw, img, 150, y + 22, item.get("homeCode"), 46)
+        draw_flag(draw, img, 532, y + 22, item.get("awayCode"), 46)
+        text(draw, (212, y + 27), item.get("homeName") or item["title"].split(" vs ")[0], fill=TEXT, f=F["h2"])
+        text(draw, (438, y + 29), "vs", fill=MUTED, f=F["body_bold"])
+        text(draw, (594, y + 27), item.get("awayName") or item["title"].split(" vs ")[-1], fill=TEXT, f=F["h2"])
         direction_badge(draw, W - 220, y + 24, item)
         p = item["probabilities"]
         text(draw, (150, y + 82), f"主胜 {p['home']}%", fill=BLUE, f=F["small"])
@@ -241,7 +307,11 @@ def render_cover(payload, out_path):
     row_y = y + 86
     for idx, item in enumerate(matches, start=1):
         text(draw, (82, row_y + 10), str(idx), fill=BLUE, f=F["body_bold"])
-        text(draw, (132, row_y + 10), item["title"], fill=TEXT, f=F["body_bold"])
+        draw_flag(draw, img, 130, row_y + 4, item.get("homeCode"), 34)
+        draw_flag(draw, img, 328, row_y + 4, item.get("awayCode"), 34)
+        text(draw, (176, row_y + 10), item.get("homeName") or item["title"].split(" vs ")[0], fill=TEXT, f=F["body_bold"])
+        text(draw, (290, row_y + 11), "vs", fill=MUTED, f=F["small"])
+        text(draw, (374, row_y + 10), item.get("awayName") or item["title"].split(" vs ")[-1], fill=TEXT, f=F["body_bold"])
         scores = item.get("topScores") or []
         x = 610
         for raw in scores[:3]:
@@ -256,7 +326,7 @@ def render_cover(payload, out_path):
     rounded(draw, (46, H - 164, W - 46, H - 104), 18, BLUE)
     text(draw, (W // 2, H - 148), "今晚先看方向，再看比分结构；明天统一回来看账。", fill=WHITE, f=F["body_bold"], anchor="ma")
     text(draw, (W // 2, H - 76), "模型 + 结果，仅供看球讨论，不作任何建议。", fill=MUTED, f=F["small"], anchor="ma")
-    img.save(out_path, quality=95)
+    img.convert("RGB").save(out_path, quality=95)
 
 
 def main():
