@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>预测 Chatbot</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif; background: #f4f7fb; color: #0b2118; }
+    .shell { max-width: 980px; margin: 0 auto; min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto; }
+    header { padding: 20px 18px 12px; background: linear-gradient(135deg, #1458d4, #2f7dff); color: #fff; }
+    header h1 { margin: 0; font-size: 26px; }
+    header p { margin: 8px 0 0; opacity: .9; font-size: 13px; }
+    main { padding: 16px; overflow: auto; }
+    .msg { margin: 0 0 14px; display: flex; }
+    .msg.user { justify-content: flex-end; }
+    .bubble { max-width: 86%; padding: 12px 14px; border-radius: 18px; background: #fff; border: 1px solid #dce7df; white-space: pre-wrap; line-height: 1.6; font-size: 14px; }
+    .user .bubble { background: #1458d4; color: #fff; border-color: #1458d4; }
+    .cards { display: grid; gap: 14px; margin-top: 12px; }
+    .cards img { width: 100%; border-radius: 18px; border: 1px solid #dce7df; box-shadow: 0 12px 28px rgba(16,36,28,.08); background: #fff; }
+    .copybox { width: 100%; min-height: 180px; margin-top: 12px; padding: 12px; border-radius: 14px; border: 1px solid #dce7df; font: 13px/1.6 inherit; resize: vertical; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    button, .quick { border: 0; border-radius: 999px; padding: 10px 14px; background: #eaf1ff; color: #1458d4; font-weight: 700; cursor: pointer; }
+    button.primary { background: #1458d4; color: #fff; }
+    footer { padding: 12px; background: rgba(255,255,255,.88); border-top: 1px solid #dce7df; position: sticky; bottom: 0; }
+    .inputrow { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+    input { width: 100%; padding: 14px 16px; border-radius: 999px; border: 1px solid #cddbe5; font-size: 15px; outline: none; }
+    input:focus { border-color: #1458d4; box-shadow: 0 0 0 3px rgba(20,88,212,.12); }
+    .quickbar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 10px; }
+    .loading { opacity: .65; }
+    @media (min-width: 760px) { .cards { grid-template-columns: repeat(2, minmax(0,1fr)); } .cards img:first-child { grid-column: 1 / -1; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <h1>比赛预测 Chatbot</h1>
+      <p>你说指令，我生成小红书图片、文案和报告。</p>
+    </header>
+    <main id="chat">
+      <div class="msg bot"><div class="bubble">直接说：生成明天小红书图。也可以说：生成 2026-06-22 4场、只看文案、图片在哪。</div></div>
+    </main>
+    <footer>
+      <div class="quickbar">
+        <button class="quick" data-text="生成明天小红书图">生成明天小红书图</button>
+        <button class="quick" data-text="图片在哪">图片在哪</button>
+        <button class="quick" data-text="只看文案">只看文案</button>
+        <button class="quick" data-text="更新数据后生成">更新数据后生成</button>
+      </div>
+      <form class="inputrow" id="form">
+        <input id="input" autocomplete="off" placeholder="输入指令，例如：生成明天4场小红书图">
+        <button class="primary" type="submit">发送</button>
+      </form>
+    </footer>
+  </div>
+  <script>
+    const chat = document.getElementById("chat");
+    const form = document.getElementById("form");
+    const input = document.getElementById("input");
+
+    function addMessage(role, text, data) {
+      const wrap = document.createElement("div");
+      wrap.className = "msg " + role;
+      const bubble = document.createElement("div");
+      bubble.className = "bubble";
+      bubble.textContent = text || "";
+      if (data) renderPayload(bubble, data);
+      wrap.appendChild(bubble);
+      chat.appendChild(wrap);
+      chat.scrollTop = chat.scrollHeight;
+      return bubble;
+    }
+
+    function renderPayload(root, data) {
+      if (data.cards && data.cards.length) {
+        const cards = document.createElement("div");
+        cards.className = "cards";
+        data.cards.forEach(src => {
+          const img = document.createElement("img");
+          img.src = src + "?t=" + Date.now();
+          img.alt = "预测卡片";
+          cards.appendChild(img);
+        });
+        root.appendChild(cards);
+      }
+      if (data.text) {
+        const area = document.createElement("textarea");
+        area.className = "copybox";
+        area.value = data.text;
+        root.appendChild(area);
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = "复制文案";
+        btn.onclick = async () => {
+          await navigator.clipboard.writeText(area.value);
+          btn.textContent = "已复制";
+          setTimeout(() => btn.textContent = "复制文案", 1200);
+        };
+        actions.appendChild(btn);
+        root.appendChild(actions);
+      }
+    }
+
+    async function send(text) {
+      text = (text || "").trim();
+      if (!text) return;
+      addMessage("user", text);
+      input.value = "";
+      const loading = addMessage("bot", "处理中，稍等一下。");
+      loading.classList.add("loading");
+      try {
+        const res = await fetch("/api/chatbot", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: text })
+        });
+        const data = await res.json();
+        loading.classList.remove("loading");
+        loading.textContent = data.reply || "完成。";
+        renderPayload(loading, data);
+      } catch (error) {
+        loading.classList.remove("loading");
+        loading.textContent = "出错了：" + error.message;
+      }
+    }
+
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      send(input.value);
+    });
+    document.querySelectorAll(".quick").forEach(btn => {
+      btn.addEventListener("click", () => send(btn.dataset.text));
+    });
+  </script>
+</body>
+</html>

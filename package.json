@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "update:predictions": "node scripts/update-predictions.mjs",
-    "agent:daily": "node scripts/daily-agent.mjs"
+    "agent:daily": "node scripts/daily-agent.mjs",
+    "chatbot": "node scripts/agent-chatbot.mjs"
   },
   "engines": {
     "node": ">=18"
