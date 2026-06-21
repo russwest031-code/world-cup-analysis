@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-21T09:21:09.985Z",
+  "updatedAt": "2026-06-21T09:30:43.703Z",
   "runDate": "2026-06-21",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-21T09:21:09.985Z",
+  "externalFetchedAt": "2026-06-21T09:30:43.703Z",
   "externalMatchCount": 104,
   "model": "calibrated-stall-guard-v5",
   "modelVersion": "v3",
@@ -21,13 +21,40 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 36,
   "expertProvider": "public-rss",
-  "expertArticleCount": 46,
+  "expertArticleCount": 47,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 46,
   "liveTeamNewsProvider": "API-Football",
   "liveFixtureCount": 0,
   "liveLineupFixtureCount": 0,
   "liveInjuryCount": 0,
+  "dataQualitySummary": {
+    "policy": "daily-verified-or-report-gap",
+    "totals": {
+      "verified": 290,
+      "inferred": 175,
+      "missing": 263
+    },
+    "topGaps": [
+      {
+        "label": "伤停",
+        "count": 104
+      },
+      {
+        "label": "赔率",
+        "count": 68
+      },
+      {
+        "label": "天气",
+        "count": 58
+      },
+      {
+        "label": "预计首发",
+        "count": 33
+      }
+    ],
+    "note": "每日刷新不要求所有数据来自稳定 API；公开报道、快照、CSV/API 均可作为真实来源。未采集到真实数据时必须标为缺口或模型推断。"
+  },
   "predictionLockCount": 72,
   "predictionLocksCreated": 0,
   "oddsSnapshotFile": "snapshots/odds/2026-06-21.json"
@@ -320,7 +347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -769,7 +796,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -961,8 +988,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -973,7 +1000,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1297,7 +1389,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1835,8 +1927,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -1847,7 +1939,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2176,7 +2334,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2625,7 +2783,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2817,8 +2975,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -2829,7 +2987,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3158,7 +3381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3802,8 +4025,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -3814,7 +4037,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 4-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4144,7 +4433,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4776,8 +5065,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -4788,7 +5077,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5117,7 +5472,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5761,8 +6116,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -5780,7 +6135,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6109,7 +6530,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6758,8 +7179,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -6777,7 +7198,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7101,7 +7588,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -7567,7 +8054,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -7675,8 +8162,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -7700,7 +8187,72 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8024,7 +8576,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -8491,7 +9043,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -8599,8 +9151,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -8618,7 +9170,72 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 7-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8947,7 +9564,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -9597,8 +10214,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -9609,7 +10226,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-2。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9933,7 +10616,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -10399,7 +11082,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -10507,8 +11190,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -10519,7 +11202,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10849,7 +11597,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -11499,8 +12247,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -11518,7 +12266,73 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 5-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11842,7 +12656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -12296,7 +13110,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -12411,8 +13225,8 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -12423,7 +13237,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12752,7 +13631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -13201,7 +14080,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -13393,8 +14272,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -13412,7 +14291,72 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13741,7 +14685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -14373,8 +15317,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -14385,7 +15329,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14714,7 +15724,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -15352,8 +16362,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -15364,7 +16374,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-2。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15693,7 +16769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -16337,8 +17413,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -16356,7 +17432,73 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 3-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16685,7 +17827,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -17317,8 +18459,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -17329,7 +18471,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-4。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17658,7 +18866,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -18107,7 +19315,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -18299,8 +19507,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -18311,7 +19519,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 3-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18640,7 +19913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -19263,8 +20536,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -19275,7 +20548,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 3-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19599,7 +20938,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -20054,7 +21393,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -20162,8 +21501,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -20174,7 +21513,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20503,7 +21907,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -21153,8 +22557,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -21179,7 +22583,73 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 4-2。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21508,7 +22978,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -21962,7 +23432,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -22154,8 +23624,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -22166,7 +23636,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22495,7 +24030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -22944,7 +24479,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -23136,8 +24671,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -23148,7 +24683,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-3。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23477,7 +25077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -23916,7 +25516,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -24108,8 +25708,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -24120,7 +25720,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24449,7 +26114,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -25072,8 +26737,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -25084,7 +26749,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 4-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -25413,7 +27144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -25868,7 +27599,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -26060,8 +27791,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -26072,7 +27803,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 6-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -26396,7 +28192,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -26944,8 +28740,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -26956,7 +28752,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 1-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27285,7 +29147,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -27752,7 +29614,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -27944,8 +29806,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -27969,7 +29831,72 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -28299,7 +30226,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -28949,8 +30876,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -28968,7 +30895,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -29297,7 +31290,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -29758,7 +31751,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -29950,8 +31943,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -29969,7 +31962,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 3-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -30293,7 +32351,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -30853,8 +32911,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -30865,7 +32923,73 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -31194,7 +33318,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -31661,7 +33785,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 30.1,
@@ -31853,8 +33977,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -31865,7 +33989,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 5-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -32190,7 +34379,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -32658,7 +34847,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21,
@@ -32766,8 +34955,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -32792,7 +34981,72 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 2-1。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -33116,7 +35370,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -33583,7 +35837,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 27.7,
@@ -33691,8 +35945,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -33710,7 +35964,72 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-0。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -34039,7 +36358,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -34683,8 +37002,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -34702,7 +37021,73 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 3,
+          "inferred": 2
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛果",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集真实完场比分 0-4。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -35031,7 +37416,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -35499,8 +37884,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.14,
-        "draw": 10.75,
-        "away": 24.56
+        "draw": 10.76,
+        "away": 24.63
       },
       "impliedProbabilities": [
         87,
@@ -35508,7 +37893,7 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.75 / 客 24.56。市场倾向 西班牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.76 / 客 24.63。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -35535,7 +37920,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 31.8,
@@ -35734,8 +38119,8 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -35746,13 +38131,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-22 00:00，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
       "西班牙属于主动压迫型，场均进球参考值 0，大胜倾向 0%。沙特阿拉伯属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "西班牙 进攻指数 89，沙特阿拉伯 防守指数 71；沙特阿拉伯 进攻指数 67，西班牙 防守指数 85。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.88,
@@ -36046,7 +38495,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -36515,7 +38964,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.49,
         "draw": 4.55,
-        "away": 7.69
+        "away": 7.67
       },
       "impliedProbabilities": [
         65,
@@ -36523,7 +38972,7 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.55 / 客 7.69。市场倾向 比利时。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.55 / 客 7.67。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -36739,8 +39188,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -36758,13 +39207,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-22 03:00，Los Angeles (Inglewood)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
       "比利时属于主动压迫型，场均进球参考值 1，大胜倾向 0%。伊朗属于主动压迫型，场均进球参考值 2，大胜倾向 0%。",
       "比利时 进攻指数 84，伊朗 防守指数 77；伊朗 进攻指数 81，比利时 防守指数 79。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.01,
@@ -37053,7 +39567,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -37522,7 +40036,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.51,
         "draw": 4.1,
-        "away": 8.38
+        "away": 8.41
       },
       "impliedProbabilities": [
         64,
@@ -37530,7 +40044,7 @@ window.MATCHES = [
         12
       ],
       "marketFavorite": "乌拉圭",
-      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.38。市场倾向 乌拉圭。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.41。市场倾向 乌拉圭。"
     },
     "expertSignals": {
       "status": "connected",
@@ -37650,8 +40164,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -37662,13 +40176,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-22 06:00，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
       "乌拉圭属于主动压迫型，场均进球参考值 1，大胜倾向 0%。佛得角属于均衡型，场均进球参考值 0，大胜倾向 0%。",
       "乌拉圭 进攻指数 84，佛得角 防守指数 69；佛得角 进攻指数 65，乌拉圭 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.61,
@@ -37962,7 +40541,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -38429,7 +41008,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 49,
       "averageOdds": {
-        "home": 5.94,
+        "home": 5.95,
         "draw": 3.93,
         "away": 1.66
       },
@@ -38439,7 +41018,7 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "埃及",
-      "note": "已接入赔率市场，49 家公司均值：主 5.94 / 平 3.93 / 客 1.66。市场倾向 埃及。"
+      "note": "已接入赔率市场，49 家公司均值：主 5.95 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -38451,7 +41030,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.7,
@@ -38643,8 +41222,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -38655,13 +41234,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-22 09:00，Vancouver。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
       "新西兰属于主动压迫型，场均进球参考值 2，大胜倾向 0%。埃及属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "新西兰 进攻指数 81，埃及 防守指数 78；埃及 进攻指数 79，新西兰 防守指数 71。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 0.62,
@@ -38955,7 +41598,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -39424,8 +42067,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.54,
-        "draw": 4.05,
-        "away": 6.5
+        "draw": 4.04,
+        "away": 6.51
       },
       "impliedProbabilities": [
         61,
@@ -39433,7 +42076,7 @@ window.MATCHES = [
         15
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.05 / 客 6.5。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.04 / 客 6.51。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -39637,8 +42280,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -39649,13 +42292,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-23 01:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
       "阿根廷属于主动压迫型，场均进球参考值 3，大胜倾向 100%。奥地利属于均衡型，场均进球参考值 3，大胜倾向 100%。",
       "阿根廷 进攻指数 80，奥地利 防守指数 82；奥地利 进攻指数 78，阿根廷 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.65,
@@ -39949,7 +42657,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -40460,7 +43168,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 24.9,
@@ -40652,8 +43360,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -40664,13 +43372,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-23 05:00，Philadelphia。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
       "法国属于主动压迫型，场均进球参考值 3，大胜倾向 100%。伊拉克属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "法国 进攻指数 83，伊拉克 防守指数 72；伊拉克 进攻指数 69，法国 防守指数 77。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 2.63,
@@ -40964,7 +43736,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -41651,8 +44423,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -41663,13 +44435,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-23 08:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
       "挪威属于主动压迫型，场均进球参考值 4，大胜倾向 100%。塞内加尔属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "挪威 进攻指数 82，塞内加尔 防守指数 76；塞内加尔 进攻指数 68，挪威 防守指数 79。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.56,
@@ -41963,7 +44800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -42635,8 +45472,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -42647,13 +45484,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-23 11:00，San Francisco Bay Area (Santa Clara)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
       "约旦属于均衡型，场均进球参考值 1，大胜倾向 0%。阿尔及利亚属于均衡型，场均进球参考值 0，大胜倾向 0%。",
       "约旦 进攻指数 74，阿尔及利亚 防守指数 79；阿尔及利亚 进攻指数 68，约旦 防守指数 70。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 0.61,
@@ -42947,7 +45849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -43059,9 +45961,9 @@ window.MATCHES = [
         9
       ],
       "market": [
-        80,
+        79,
         14,
-        6
+        7
       ],
       "blended": [
         60,
@@ -43072,11 +45974,11 @@ window.MATCHES = [
       "drawGuardApplied": true,
       "drawGuardReason": "V3低进球僵局保护：低总进球、平局区间可见且热门方向过热时，回收部分热门概率给平局。",
       "deltas": [
-        16,
+        15,
         -13,
-        -3
+        -2
       ],
-      "summary": "模型原始概率 64/27/9%；市场隐含概率 80/14/6%；按 35% 权重校准后为 60/32/8%。已触发低进球/僵局保护。"
+      "summary": "模型原始概率 64/27/9%；市场隐含概率 79/14/7%；按 35% 权重校准后为 60/32/8%。已触发低进球/僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -43157,7 +46059,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合35%）：主80% / 平14% / 客6%，倾向葡萄牙。"
+        "evidence": "赔率市场（48家博彩公司均值，融合35%）：主79% / 平14% / 客7%，倾向葡萄牙。"
       }
     ],
     "modelInputs": {
@@ -43416,15 +46318,15 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.2,
         "draw": 6.78,
-        "away": 14.69
+        "away": 14.63
       },
       "impliedProbabilities": [
-        80,
+        79,
         14,
-        6
+        7
       ],
       "marketFavorite": "葡萄牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.69。市场倾向 葡萄牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.63。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -43451,7 +46353,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 34.6,
@@ -43643,8 +46545,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -43655,13 +46557,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-24 01:00，Houston。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 49。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
       "葡萄牙属于均衡型，场均进球参考值 1，大胜倾向 0%。乌兹别克斯坦属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "葡萄牙 进攻指数 70，乌兹别克斯坦 防守指数 73；乌兹别克斯坦 进攻指数 67，葡萄牙 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.92,
@@ -43955,7 +46921,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -44425,7 +47391,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.21,
         "draw": 6.61,
-        "away": 14.13
+        "away": 14.11
       },
       "impliedProbabilities": [
         79,
@@ -44433,7 +47399,7 @@ window.MATCHES = [
         7
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.61 / 客 14.13。市场倾向 英格兰。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.61 / 客 14.11。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -44655,8 +47621,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -44686,13 +47652,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-24 04:00，Boston (Foxborough)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
       "英格兰属于主动压迫型，场均进球参考值 4，大胜倾向 100%。加纳属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "英格兰 进攻指数 89，加纳 防守指数 72；加纳 进攻指数 67，英格兰 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.52,
@@ -44986,7 +48017,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -45483,7 +48514,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.4,
@@ -45675,8 +48706,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -45687,13 +48718,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-24 07:00，Toronto。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
       "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。克罗地亚属于均衡型，场均进球参考值 2，大胜倾向 0%。",
       "巴拿马 进攻指数 74，克罗地亚 防守指数 74；克罗地亚 进攻指数 77，巴拿马 防守指数 75。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.07,
@@ -45982,7 +49077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -46449,9 +49544,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 1.51,
-        "draw": 4.11,
-        "away": 6.87
+        "home": 1.5,
+        "draw": 4.13,
+        "away": 6.96
       },
       "impliedProbabilities": [
         63,
@@ -46459,7 +49554,7 @@ window.MATCHES = [
         14
       ],
       "marketFavorite": "哥伦比亚",
-      "note": "已接入赔率市场，46 家公司均值：主 1.51 / 平 4.11 / 客 6.87。市场倾向 哥伦比亚。"
+      "note": "已接入赔率市场，46 家公司均值：主 1.5 / 平 4.13 / 客 6.96。市场倾向 哥伦比亚。"
     },
     "expertSignals": {
       "status": "connected",
@@ -46585,8 +49680,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -46597,13 +49692,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-24 10:00，Guadalajara (Zapopan)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 46。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
       "哥伦比亚属于主动压迫型，场均进球参考值 3，大胜倾向 100%。刚果（金）属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "哥伦比亚 进攻指数 83，刚果（金） 防守指数 74；刚果（金） 进攻指数 69，哥伦比亚 防守指数 78。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.52,
@@ -46897,7 +50057,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -47395,7 +50555,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 18.5,
@@ -47587,8 +50747,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -47599,13 +50759,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 03:00，Vancouver。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
       "瑞士属于主动压迫型，场均进球参考值 2.5，大胜倾向 50%。加拿大属于主动压迫型，场均进球参考值 3.5，大胜倾向 50%。",
       "瑞士 进攻指数 87，加拿大 防守指数 83；加拿大 进攻指数 84，瑞士 防守指数 79。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 2.03,
@@ -47899,7 +51123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -48396,7 +51620,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 23.1,
@@ -48588,8 +51812,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -48600,13 +51824,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 03:00，Seattle。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
       "波黑属于均衡型，场均进球参考值 1，大胜倾向 0%。卡塔尔属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
       "波黑 进攻指数 65，卡塔尔 防守指数 68；卡塔尔 进攻指数 60，波黑 防守指数 78。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.1,
@@ -48900,7 +52188,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -49599,8 +52887,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -49618,13 +52906,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 06:00，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
       "苏格兰属于均衡型，场均进球参考值 0.5，大胜倾向 0%。巴西属于均衡型，场均进球参考值 2，大胜倾向 50%。",
       "苏格兰 进攻指数 68，巴西 防守指数 76；巴西 进攻指数 79，苏格兰 防守指数 74。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.06,
@@ -49918,7 +53271,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -50422,7 +53775,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 31.3,
@@ -50614,8 +53967,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": [
@@ -50633,13 +53986,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 06:00，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
       "摩洛哥属于均衡型，场均进球参考值 1，大胜倾向 0%。海地属于均衡型，场均进球参考值 0，大胜倾向 0%。",
       "摩洛哥 进攻指数 79，海地 防守指数 74；海地 进攻指数 73，摩洛哥 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 2.16,
@@ -50933,7 +54350,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -50942,8 +54359,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      19,
-      25,
+      18,
+      26,
       56
     ],
     "confidence": 76,
@@ -50956,7 +54373,7 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
         "score": "1-2",
@@ -50988,7 +54405,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 17,
+        "chance": 18,
         "examples": [
           "1-1",
           "0-0"
@@ -50998,7 +54415,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "1-1",
           "0-2",
@@ -51031,7 +54448,7 @@ window.MATCHES = [
       "bttsNo": 39,
       "homeWinBy2Plus": 7,
       "awayWinBy2Plus": 39,
-      "lowScoreDraw": 17,
+      "lowScoreDraw": 18,
       "expectedTotalGoals": 3.44,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
@@ -51045,24 +54462,24 @@ window.MATCHES = [
         63
       ],
       "market": [
-        26,
         25,
+        26,
         49
       ],
       "blended": [
-        19,
-        25,
+        18,
+        26,
         56
       ],
       "blendWeight": 0.5,
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        14,
-        0,
+        13,
+        1,
         -14
       ],
-      "summary": "模型原始概率 12/25/63%；市场隐含概率 26/25/49%；按 50% 权重校准后为 19/25/56%。"
+      "summary": "模型原始概率 12/25/63%；市场隐含概率 25/26/49%；按 50% 权重校准后为 18/26/56%。"
     },
     "motivation": {
       "phase": "group",
@@ -51143,7 +54560,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主26% / 平25% / 客49%，倾向墨西哥。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主25% / 平26% / 客49%，倾向墨西哥。"
       }
     ],
     "modelInputs": {
@@ -51401,16 +54818,16 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 3.69,
-        "draw": 3.74,
+        "draw": 3.73,
         "away": 1.96
       },
       "impliedProbabilities": [
-        26,
         25,
+        26,
         49
       ],
       "marketFavorite": "墨西哥",
-      "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.74 / 客 1.96。市场倾向 墨西哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.73 / 客 1.96。市场倾向 墨西哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -51431,7 +54848,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 20.9,
@@ -51623,8 +55040,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -51635,13 +55052,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 09:00，Mexico City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
       "捷克属于均衡型，场均进球参考值 1，大胜倾向 0%。墨西哥属于均衡型，场均进球参考值 1.5，大胜倾向 50%。",
       "捷克 进攻指数 76，墨西哥 防守指数 82；墨西哥 进攻指数 77，捷克 防守指数 73。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 0.98,
@@ -51930,7 +55411,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -52397,7 +55878,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 5.71,
+        "home": 5.72,
         "draw": 3.94,
         "away": 1.61
       },
@@ -52407,7 +55888,7 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "韩国",
-      "note": "已接入赔率市场，48 家公司均值：主 5.71 / 平 3.94 / 客 1.61。市场倾向 韩国。"
+      "note": "已接入赔率市场，48 家公司均值：主 5.72 / 平 3.94 / 客 1.61。市场倾向 韩国。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -52518,8 +55999,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -52530,13 +56011,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-25 09:00，Monterrey (Guadalupe)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 48。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
       "南非属于均衡型，场均进球参考值 0.5，大胜倾向 0%。韩国属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "南非 进攻指数 72，韩国 防守指数 78；韩国 进攻指数 79，南非 防守指数 75。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 0.78,
@@ -52820,7 +56366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -53287,7 +56833,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 18.61,
+        "home": 18.6,
         "draw": 8.51,
         "away": 1.14
       },
@@ -53297,7 +56843,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，46 家公司均值：主 18.61 / 平 8.51 / 客 1.14。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，46 家公司均值：主 18.6 / 平 8.51 / 客 1.14。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -53336,7 +56882,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 24.9,
@@ -53367,13 +56913,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "counts": {
+          "verified": 4,
+          "missing": 2,
+          "inferred": 1
+        },
+        "gaps": [
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 04:00，Philadelphia。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 46。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前1分、净胜球-6；科特迪瓦当前3分、净胜球0。",
       "库拉索属于均衡型，场均进球参考值 0.5，大胜倾向 0%。科特迪瓦属于主动压迫型，场均进球参考值 1，大胜倾向 0%。",
       "库拉索 进攻指数 73，科特迪瓦 防守指数 77；科特迪瓦 进攻指数 80，库拉索 防守指数 65。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 1 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 0.64,
@@ -53667,7 +57278,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -54135,9 +57746,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 3.58,
-        "draw": 3.74,
-        "away": 1.97
+        "home": 3.53,
+        "draw": 3.73,
+        "away": 1.99
       },
       "impliedProbabilities": [
         27,
@@ -54145,7 +57756,7 @@ window.MATCHES = [
         48
       ],
       "marketFavorite": "德国",
-      "note": "已接入赔率市场，46 家公司均值：主 3.58 / 平 3.74 / 客 1.97。市场倾向 德国。"
+      "note": "已接入赔率市场，46 家公司均值：主 3.53 / 平 3.73 / 客 1.99。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -54367,8 +57978,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -54386,13 +57997,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 04:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 46。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前1分、净胜球-1；德国当前6分、净胜球7。",
       "厄瓜多尔属于主动压迫型，场均进球参考值 0，大胜倾向 0%。德国属于主动压迫型，场均进球参考值 4.5，大胜倾向 50%。",
       "厄瓜多尔 进攻指数 85，德国 防守指数 81；德国 进攻指数 90，厄瓜多尔 防守指数 82。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.45,
@@ -54686,7 +58362,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -55154,7 +58830,7 @@ window.MATCHES = [
       "bookmakers": 43,
       "averageOdds": {
         "home": 2.06,
-        "draw": 3.35,
+        "draw": 3.36,
         "away": 3.68
       },
       "impliedProbabilities": [
@@ -55163,7 +58839,7 @@ window.MATCHES = [
         26
       ],
       "marketFavorite": "日本",
-      "note": "已接入赔率市场，43 家公司均值：主 2.06 / 平 3.35 / 客 3.68。市场倾向 日本。"
+      "note": "已接入赔率市场，43 家公司均值：主 2.06 / 平 3.36 / 客 3.68。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "connected",
@@ -55385,8 +59061,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -55404,13 +59080,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 07:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前4分、净胜球4；瑞典当前3分、净胜球0。",
       "日本属于均衡型，场均进球参考值 3，大胜倾向 50%。瑞典属于开放进攻型，场均进球参考值 3，大胜倾向 50%。",
       "日本 进攻指数 76，瑞典 防守指数 70；瑞典 进攻指数 85，日本 防守指数 78。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.45,
@@ -55704,7 +59445,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -56171,9 +59912,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 17.75,
-        "draw": 7.75,
-        "away": 1.16
+        "home": 17.74,
+        "draw": 7.77,
+        "away": 1.15
       },
       "impliedProbabilities": [
         6,
@@ -56181,7 +59922,7 @@ window.MATCHES = [
         82
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，42 家公司均值：主 17.75 / 平 7.75 / 客 1.16。市场倾向 荷兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 17.74 / 平 7.77 / 客 1.15。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -56220,7 +59961,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.6,
@@ -56412,8 +60153,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -56424,13 +60165,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 07:00，Kansas City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-8；荷兰当前4分、净胜球4。",
       "突尼斯属于均衡型，场均进球参考值 0.5，大胜倾向 0%。荷兰属于主动压迫型，场均进球参考值 3.5，大胜倾向 50%。",
       "突尼斯 进攻指数 61，荷兰 防守指数 78；荷兰 进攻指数 80，突尼斯 防守指数 71。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 0.7,
@@ -56719,7 +60524,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -57328,8 +61133,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -57340,13 +61145,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 10:00，Los Angeles (Inglewood)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 44。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
       "土耳其属于主动压迫型，场均进球参考值 0，大胜倾向 0%。美国属于主动压迫型，场均进球参考值 3，大胜倾向 100%。",
       "土耳其 进攻指数 90，美国 防守指数 76；美国 进攻指数 81，土耳其 防守指数 80。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 2.14,
@@ -57640,7 +61510,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -58339,8 +62209,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -58364,13 +62234,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-26 10:00，San Francisco Bay Area (Santa Clara)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 44。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
       "巴拉圭属于均衡型，场均进球参考值 1，大胜倾向 0%。澳大利亚属于均衡型，场均进球参考值 1，大胜倾向 50%。",
       "巴拉圭 进攻指数 68，澳大利亚 防守指数 73；澳大利亚 进攻指数 68，巴拉圭 防守指数 71。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.32,
@@ -58664,7 +62599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -59358,8 +63293,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -59370,13 +63305,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 03:00，Boston (Foxborough)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
       "挪威属于主动压迫型，场均进球参考值 4，大胜倾向 100%。法国属于主动压迫型，场均进球参考值 3，大胜倾向 100%。",
       "挪威 进攻指数 82，法国 防守指数 77；法国 进攻指数 83，挪威 防守指数 79。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.27,
@@ -59670,7 +63670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -60168,7 +64168,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 21,
@@ -60360,8 +64360,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -60372,13 +64372,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 03:00，Toronto。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
       "塞内加尔属于均衡型，场均进球参考值 1，大胜倾向 0%。伊拉克属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "塞内加尔 进攻指数 68，伊拉克 防守指数 72；伊拉克 进攻指数 69，塞内加尔 防守指数 76。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.59,
@@ -60667,7 +64731,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -61164,7 +65228,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 33.9,
@@ -61279,8 +65343,8 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -61291,13 +65355,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 08:00，Houston。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
       "佛得角属于均衡型，场均进球参考值 0，大胜倾向 0%。沙特阿拉伯属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "佛得角 进攻指数 65，沙特阿拉伯 防守指数 71；沙特阿拉伯 进攻指数 67，佛得角 防守指数 69。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 0.99,
@@ -61591,7 +65719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -62277,8 +66405,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -62289,13 +66417,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 08:00，Guadalajara (Zapopan)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
       "乌拉圭属于主动压迫型，场均进球参考值 1，大胜倾向 0%。西班牙属于主动压迫型，场均进球参考值 0，大胜倾向 0%。",
       "乌拉圭 进攻指数 84，西班牙 防守指数 85；西班牙 进攻指数 89，乌拉圭 防守指数 81。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 0.74,
@@ -62589,7 +66782,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -63093,7 +67286,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.7,
@@ -63285,8 +67478,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -63297,13 +67490,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 11:00，Seattle。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 43。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
       "埃及属于均衡型，场均进球参考值 1，大胜倾向 0%。伊朗属于主动压迫型，场均进球参考值 2，大胜倾向 0%。",
       "埃及 进攻指数 79，伊朗 防守指数 77；伊朗 进攻指数 81，埃及 防守指数 78。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.21,
@@ -63597,7 +67854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -64095,7 +68352,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 15.5,
@@ -64287,8 +68544,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -64306,13 +68563,77 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-27 11:00，Vancouver。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
       "新西兰属于主动压迫型，场均进球参考值 2，大胜倾向 0%。比利时属于主动压迫型，场均进球参考值 1，大胜倾向 0%。",
       "新西兰 进攻指数 81，比利时 防守指数 79；比利时 进攻指数 84，新西兰 防守指数 71。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 0.75,
@@ -64606,7 +68927,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -65074,7 +69395,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 11.31,
+        "home": 11.29,
         "draw": 6.71,
         "away": 1.22
       },
@@ -65084,7 +69405,7 @@ window.MATCHES = [
         78
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，42 家公司均值：主 11.31 / 平 6.71 / 客 1.22。市场倾向 英格兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 11.29 / 平 6.71 / 客 1.22。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -65306,8 +69627,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -65325,13 +69646,78 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 05:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
       "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。英格兰属于主动压迫型，场均进球参考值 4，大胜倾向 100%。",
       "巴拿马 进攻指数 74，英格兰 防守指数 81；英格兰 进攻指数 89，巴拿马 防守指数 75。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.08,
@@ -65625,7 +70011,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -66135,7 +70521,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.8,
@@ -66327,8 +70713,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -66339,13 +70725,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 05:00，Philadelphia。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
       "克罗地亚属于均衡型，场均进球参考值 2，大胜倾向 0%。加纳属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "克罗地亚 进攻指数 77，加纳 防守指数 72；加纳 进攻指数 67，克罗地亚 防守指数 74。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.82,
@@ -66639,7 +71089,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -67332,8 +71782,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -67344,13 +71794,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 07:30，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
       "哥伦比亚属于主动压迫型，场均进球参考值 3，大胜倾向 100%。葡萄牙属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "哥伦比亚 进攻指数 83，葡萄牙 防守指数 81；葡萄牙 进攻指数 70，哥伦比亚 防守指数 78。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 1.47,
@@ -67639,7 +72154,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -68136,7 +72651,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.8,
@@ -68244,8 +72759,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -68256,13 +72771,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 07:30，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
       "刚果（金）属于均衡型，场均进球参考值 1，大胜倾向 0%。乌兹别克斯坦属于均衡型，场均进球参考值 1，大胜倾向 0%。",
       "刚果（金） 进攻指数 69，乌兹别克斯坦 防守指数 73；乌兹别克斯坦 进攻指数 67，刚果（金） 防守指数 74。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.41,
@@ -68556,7 +73135,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -69045,7 +73624,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
@@ -69237,8 +73816,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -69249,13 +73828,77 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
+        "counts": {
+          "verified": 4,
+          "inferred": 2,
+          "missing": 1
+        },
+        "gaps": [
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 10:00，Kansas City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
       "阿尔及利亚属于均衡型，场均进球参考值 0，大胜倾向 0%。奥地利属于均衡型，场均进球参考值 3，大胜倾向 100%。",
       "阿尔及利亚 进攻指数 68，奥地利 防守指数 82；奥地利 进攻指数 78，阿尔及利亚 防守指数 79。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 4 项，模型推断 2 项，缺口 1 项。"
     ],
     "expectedGoals": {
       "home": 1.46,
@@ -69549,7 +74192,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -70231,8 +74874,8 @@ window.MATCHES = [
           "articles": []
         },
         "injuries": {
-          "status": "none-reported",
-          "text": "权威数据源当前未返回本场伤停记录。",
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
           "articles": []
@@ -70243,13 +74886,78 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 2,
+          "inferred": 2
+        },
+        "gaps": [
+          "天气",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-28 10:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "verified",
+            "source": "The Odds API",
+            "text": "已采集市场赔率，博彩公司数量 42。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
       "约旦属于均衡型，场均进球参考值 1，大胜倾向 0%。阿根廷属于主动压迫型，场均进球参考值 3，大胜倾向 100%。",
       "约旦 进攻指数 74，阿根廷 防守指数 81；阿根廷 进攻指数 80，约旦 防守指数 70。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
       "home": 0.83,
@@ -70471,7 +75179,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -70883,13 +75591,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-29 03:00，Los Angeles (Inglewood)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "2A属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2B属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "2A 进攻指数 66，2B 防守指数 66；2B 进攻指数 66，2A 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.4,
@@ -71111,7 +75886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -71501,7 +76276,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.8,
@@ -71532,13 +76307,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-30 01:00，Houston。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1C属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2F属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1C 进攻指数 66，2F 防守指数 66；2F 进攻指数 66，1C 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.43,
@@ -71760,7 +76601,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -72172,13 +77013,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-30 04:30，Boston (Foxborough)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1E属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3A/B/C/D/F属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1E 进攻指数 66，3A/B/C/D/F 防守指数 66；3A/B/C/D/F 进攻指数 66，1E 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.32,
@@ -72400,7 +77308,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -72812,13 +77720,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-06-30 09:00，Monterrey (Guadalupe)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1F属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2C属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1F 进攻指数 66，2C 防守指数 66；2C 进攻指数 66，1F 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.44,
@@ -73040,7 +78015,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -73452,13 +78427,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-01 01:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "2E属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2I属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "2E 进攻指数 66，2I 防守指数 66；2I 进攻指数 66，2E 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.51,
@@ -73680,7 +78722,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -74092,13 +79134,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-01 05:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1I属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3C/D/F/G/H属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1I 进攻指数 66，3C/D/F/G/H 防守指数 66；3C/D/F/G/H 进攻指数 66，1I 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.34,
@@ -74320,7 +79429,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -74710,7 +79819,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.8,
@@ -74741,13 +79850,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-01 09:00，Mexico City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1A属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3C/E/F/H/I属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1A 进攻指数 66，3C/E/F/H/I 防守指数 66；3C/E/F/H/I 进攻指数 66，1A 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.4,
@@ -74969,7 +80144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -75359,7 +80534,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 32.9,
@@ -75390,13 +80565,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-02 00:00，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1L属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3E/H/I/J/K属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1L 进攻指数 66，3E/H/I/J/K 防守指数 66；3E/H/I/J/K 进攻指数 66，1L 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.25,
@@ -75618,7 +80859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -76008,7 +81249,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.6,
@@ -76039,13 +81280,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-02 04:00，Seattle。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1G属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3A/E/H/I/J属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1G 进攻指数 66，3A/E/H/I/J 防守指数 66；3A/E/H/I/J 进攻指数 66，1G 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.36,
@@ -76267,7 +81574,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -76679,13 +81986,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-02 08:00，San Francisco Bay Area (Santa Clara)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1D属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3B/E/F/I/J属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1D 进攻指数 66，3B/E/F/I/J 防守指数 66；3B/E/F/I/J 进攻指数 66，1D 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.43,
@@ -76907,7 +82281,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -77318,13 +82692,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-03 03:00，Los Angeles (Inglewood)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1H属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2J属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1H 进攻指数 66，2J 防守指数 66；2J 进攻指数 66，1H 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.34,
@@ -77546,7 +82987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -77936,7 +83377,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 23.4,
@@ -77967,13 +83408,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-03 07:00，Toronto。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "2K属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2L属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "2K 进攻指数 66，2L 防守指数 66；2L 进攻指数 66，2K 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.31,
@@ -78195,7 +83702,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -78585,7 +84092,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 21.3,
@@ -78616,13 +84123,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-03 11:00，Vancouver。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1B属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3E/F/G/I/J属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1B 进攻指数 66，3E/F/G/I/J 防守指数 66；3E/F/G/I/J 进攻指数 66，1B 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.43,
@@ -78844,7 +84417,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -79256,13 +84829,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-04 02:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "2D属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2G属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "2D 进攻指数 66，2G 防守指数 66；2G 进攻指数 66，2D 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.36,
@@ -79484,7 +85124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -79896,13 +85536,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-04 06:00，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1J属于均衡型，场均进球参考值 1.2，大胜倾向 12%。2H属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1J 进攻指数 66，2H 防守指数 66；2H 进攻指数 66，1J 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.46,
@@ -80124,7 +85831,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -80514,7 +86221,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 28.5,
@@ -80545,13 +86252,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-04 09:30，Kansas City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "1K属于均衡型，场均进球参考值 1.2，大胜倾向 12%。3D/E/I/J/L属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "1K 进攻指数 66，3D/E/I/J/L 防守指数 66；3D/E/I/J/L 进攻指数 66，1K 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.41,
@@ -80773,7 +86546,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -81163,7 +86936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.2,
@@ -81194,13 +86967,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-05 01:00，Houston。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W73属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W75属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W73 进攻指数 66，W75 防守指数 66；W75 进攻指数 66，W73 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.35,
@@ -81422,7 +87261,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -81812,7 +87651,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 29.7,
@@ -81843,13 +87682,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-05 05:00，Philadelphia。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W74属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W77属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W74 进攻指数 66，W77 防守指数 66；W77 进攻指数 66，W74 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.3,
@@ -82071,7 +87976,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -82483,13 +88388,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-06 04:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W76属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W78属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W76 进攻指数 66，W78 防守指数 66；W78 进攻指数 66，W76 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.51,
@@ -82711,7 +88683,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -83101,7 +89073,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T09:21:09.985Z",
+        "fetchedAt": "2026-06-21T09:30:43.703Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -83132,13 +89104,79 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "counts": {
+          "verified": 3,
+          "missing": 3,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-06 08:00，Mexico City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "verified",
+            "source": "Open-Meteo",
+            "text": "已采集比赛地当日天气并用于风险提示。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W79属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W80属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W79 进攻指数 66，W80 防守指数 66；W80 进攻指数 66，W79 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
       "home": 1.47,
@@ -83360,7 +89398,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -83772,13 +89810,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-07 03:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W83属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W84属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W83 进攻指数 66，W84 防守指数 66；W84 进攻指数 66，W83 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.31,
@@ -84000,7 +90105,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -84415,13 +90520,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-07 08:00，Seattle。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未采集到本场天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W81属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W82属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W81 进攻指数 66，W82 防守指数 66；W82 进攻指数 66，W81 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.39,
@@ -84643,7 +90815,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -85058,13 +91230,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-08 00:00，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未采集到本场天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W86属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W88属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W86 进攻指数 66，W88 防守指数 66；W88 进攻指数 66，W86 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.31,
@@ -85286,7 +91525,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -85700,13 +91939,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-08 04:00，Vancouver。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未采集到本场天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W85属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W87属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W85 进攻指数 66，W87 防守指数 66；W87 进攻指数 66，W85 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.33,
@@ -85928,7 +92234,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -86340,13 +92646,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-10 04:00，Boston (Foxborough)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W89属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W90属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W89 进攻指数 66，W90 防守指数 66；W90 进攻指数 66，W89 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.46,
@@ -86568,7 +92941,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -86980,13 +93353,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-11 03:00，Los Angeles (Inglewood)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W93属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W94属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W93 进攻指数 66，W94 防守指数 66；W94 进攻指数 66，W93 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.43,
@@ -87208,7 +93648,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -87620,13 +94060,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-12 05:00，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W91属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W92属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W91 进攻指数 66，W92 防守指数 66；W92 进攻指数 66，W91 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.45,
@@ -87848,7 +94355,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -88263,13 +94770,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-12 09:00，Kansas City。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未采集到本场天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W95属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W96属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W95 进攻指数 66，W96 防守指数 66；W96 进攻指数 66，W95 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.3,
@@ -88491,7 +95065,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -88903,13 +95477,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-15 03:00，Dallas (Arlington)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W97属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W98属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W97 进攻指数 66，W98 防守指数 66；W98 进攻指数 66，W97 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.32,
@@ -89131,7 +95772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -89546,13 +96187,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-16 03:00，Atlanta。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未采集到本场天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W99属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W100属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W99 进攻指数 66，W100 防守指数 66；W100 进攻指数 66，W99 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.42,
@@ -89774,7 +96482,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -90186,13 +96894,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-19 05:00，Miami (Miami Gardens)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "L101属于均衡型，场均进球参考值 1.2，大胜倾向 12%。L102属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "L101 进攻指数 66，L102 防守指数 66；L102 进攻指数 66，L101 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.5,
@@ -90414,7 +97189,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T09:21:09.985Z",
+      "fetchedAt": "2026-06-21T09:30:43.703Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -90826,13 +97601,80 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T09:21:09.985Z"
+      "updatedAt": "2026-06-21T09:30:43.703Z",
+      "dataQuality": {
+        "updatedAt": "2026-06-21T09:30:43.703Z",
+        "policy": "daily-verified-or-report-gap",
+        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "counts": {
+          "verified": 2,
+          "missing": 4,
+          "inferred": 1
+        },
+        "gaps": [
+          "赔率",
+          "天气",
+          "预计首发",
+          "伤停"
+        ],
+        "items": [
+          {
+            "key": "schedule",
+            "label": "赛程",
+            "status": "verified",
+            "source": "openfootball/worldcup.json",
+            "text": "已采集比赛时间、地点和对阵：2026-07-20 03:00，New York/New Jersey (East Rutherford)。"
+          },
+          {
+            "key": "recent-form",
+            "label": "近期状态",
+            "status": "verified",
+            "source": "Kaggle results / ESPN scoreboard",
+            "text": "近期状态来自真实历史比分、射门和控球数据；不是只看胜负。"
+          },
+          {
+            "key": "odds",
+            "label": "赔率",
+            "status": "missing",
+            "source": "The Odds API",
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+          },
+          {
+            "key": "weather",
+            "label": "天气",
+            "status": "missing",
+            "source": "Open-Meteo",
+            "text": "未找到该场馆比赛日天气数据。"
+          },
+          {
+            "key": "lineup",
+            "label": "预计首发",
+            "status": "missing",
+            "source": "model-projection",
+            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+          },
+          {
+            "key": "injuries",
+            "label": "伤停",
+            "status": "missing",
+            "source": "API-Football",
+            "text": "未采集到可核验伤停数据，已作为缺口上报。"
+          },
+          {
+            "key": "tactical",
+            "label": "战术/发布会",
+            "status": "inferred",
+            "source": "model-profile",
+            "text": "未采集到明确战术报道，当前由球队攻防风格、近期比分和出线目标推断。"
+          }
+        ]
+      }
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
       "W101属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W102属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
       "W101 进攻指数 66，W102 防守指数 66；W102 进攻指数 66，W101 防守指数 66。",
-      "临场首发、伤停、天气和战术变化尚未接入，赛前预测需要保留风险空间。"
+      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
       "home": 1.35,
@@ -90843,7 +97685,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-21T09:21:09.985Z",
+  "updatedAt": "2026-06-21T09:30:43.703Z",
   "completedCount": 36,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
