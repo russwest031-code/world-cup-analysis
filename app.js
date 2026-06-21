@@ -443,6 +443,7 @@
         "provider-needed": "需权威源",
         "missing-key": "需密钥",
         "news-derived": "新闻提取",
+        "last-start-projected": "上场推演",
         "projected": "预计",
         "projection-derived": "预计推导",
         "model-derived": "模型推断",
@@ -463,8 +464,9 @@
           if (typeof player === "string") return player;
           return player.name + (player.position ? "·" + player.position : "") + (player.club ? " / " + player.club : "");
         });
-        var source = team.source === "squad-projection" ? "预计首发" : "官方首发";
-        return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong><small>' + starters.join(" / ") + '</small></div>';
+        var source = team.source === "last-start-adjusted" ? "上场首发+伤病调整" : "大名单预计";
+        var previous = team.previousOpponent ? '<small class="lineup-source">上一场对手：' + team.previousOpponent + '</small>' : '';
+        return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong><small>' + starters.join(" / ") + '</small>' + previous + '</div>';
       }).join("") + '</div>' + articles;
     }
     function injuryExtra() {
@@ -776,7 +778,7 @@
             '<p>本模型存在以下重要局限，使用分析结果时请务必考虑：</p>' +
             '<ul class="method-limits">' +
               '<li><strong>赛前数据</strong>：所有分析基于赛前和公开可获取数据，不反映未发布的临场变化。</li>' +
-              '<li><strong>首发口径</strong>：官方首发通常赛前约60分钟公布；公布前页面展示基于球队大名单、位置结构和球员估值的预计首发，并明确标注非官方确认。</li>' +
+              '<li><strong>首发口径</strong>：本应用不等待赛前官方首发；赛前展示以上一场首发为基底、结合伤病名单和大名单补位生成的预计首发，并明确标注为推演结果。</li>' +
               '<li><strong>市场信号</strong>：赔率已接入 The Odds API；未匹配到赔率的场次会明确显示缺口，不会伪造市场共识。</li>' +
               '<li><strong>简化假设</strong>：泊松模型假设进球独立分布，实际比赛中进球往往存在相关性。</li>' +
               '<li><strong>新闻线索</strong>：公开新闻源可辅助识别伤停、首发和战术话题，但不等同于官方确认名单。</li>' +
@@ -791,7 +793,7 @@
             '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动拉取最新赛程/赛果、赔率、天气和公开新闻线索，重新计算出线动机、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
             '<p>赔率接口已按 The Odds API 接入，配置 THE_ODDS_API_KEY 后会在每日刷新中拉取真实赔率并按小权重校准模型概率；未配置 key 时不会伪造赔率。</p>' +
-            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；官方首发未公布前，会用球员大名单和位置结构生成预计首发，公布后再由权威阵容源替换。</p>' +
+            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；预计首发优先使用上一场首发，并结合伤病名单调整，缺口再由球员大名单和位置结构补齐。</p>' +
           '</div>' +
         '</section>' +
 

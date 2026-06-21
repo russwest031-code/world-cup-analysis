@@ -1444,14 +1444,37 @@ function apiFootballFixtureForMatch(match, liveContext) {
   return sameDate || sameTeams[0];
 }
 
-function shouldFetchLineup(fixture) {
-  const iso = fixture.fixture?.date;
-  if (!iso) return false;
-  const kickoff = new Date(iso).getTime();
-  if (!Number.isFinite(kickoff)) return false;
-  const deltaDays = Math.abs(kickoff - now.getTime()) / 86400000;
-  const status = fixture.fixture?.status?.short || "";
-  return deltaDays <= API_FOOTBALL_LINEUP_WINDOW_DAYS || ["1H", "HT", "2H", "ET", "P", "FT", "AET", "PEN"].includes(status);
+function apiFootballTeamIdForMatchSide(fixture, match, side) {
+  if (!fixture || !match) return null;
+  const team = side === "home" ? match.home : match.away;
+  const sourceName = side === "home" ? match.sourceInfo?.homeName : match.sourceInfo?.awayName;
+  const candidates = [sourceName, team.name, team.code].map(normalizeText).filter(Boolean);
+  const apiHome = normalizeText(fixture.teams?.home?.name || "");
+  const apiAway = normalizeText(fixture.teams?.away?.name || "");
+  if (candidates.some(name => apiHome.includes(name) || name.includes(apiHome))) return fixture.teams?.home?.id || null;
+  if (candidates.some(name => apiAway.includes(name) || name.includes(apiAway))) return fixture.teams?.away?.id || null;
+  return null;
+}
+
+function isCompletedApiFixture(fixture) {
+  return ["FT", "AET", "PEN"].includes(fixture.fixture?.status?.short || "");
+}
+
+function latestCompletedFixtureForTeam(fixtures, teamId, beforeIso) {
+  if (!teamId || !beforeIso) return null;
+  const beforeTime = new Date(beforeIso).getTime();
+  if (!Number.isFinite(beforeTime)) return null;
+  return fixtures
+    .filter(fixture => {
+      const fixtureTime = new Date(fixture.fixture?.date || "").getTime();
+      const homeId = fixture.teams?.home?.id;
+      const awayId = fixture.teams?.away?.id;
+      return Number.isFinite(fixtureTime) &&
+        fixtureTime < beforeTime &&
+        isCompletedApiFixture(fixture) &&
+        (homeId === teamId || awayId === teamId);
+    })
+    .sort((a, b) => new Date(b.fixture.date).getTime() - new Date(a.fixture.date).getTime())[0] || null;
 }
 
 async function loadApiFootballSignals(matches) {
@@ -1484,20 +1507,46 @@ async function loadApiFootballSignals(matches) {
       injuryRows = [];
     }
 
-    const fixtureIds = new Set();
+    const previousLineupRequests = new Map();
     for (const match of matches) {
       const fixture = apiFootballFixtureForMatch(match, { fixtures });
-      if (fixture && shouldFetchLineup(fixture)) fixtureIds.add(fixture.fixture.id);
+      if (!fixture) continue;
+      const beforeIso = fixture.fixture?.date || kickoffTime(match)?.toISOString();
+      for (const side of ["home", "away"]) {
+        const teamId = apiFootballTeamIdForMatchSide(fixture, match, side);
+        const previousFixture = latestCompletedFixtureForTeam(fixtures, teamId, beforeIso);
+        if (!teamId || !previousFixture?.fixture?.id) continue;
+        const teamCode = side === "home" ? match.home.code : match.away.code;
+        previousLineupRequests.set(`${teamCode}:${teamId}`, {
+          teamCode,
+          teamId,
+          fixtureId: previousFixture.fixture.id,
+          fixtureDate: previousFixture.fixture.date,
+          opponent: previousFixture.teams?.home?.id === teamId
+            ? previousFixture.teams?.away?.name
+            : previousFixture.teams?.home?.name
+        });
+      }
     }
 
     const lineupsByFixture = {};
-    for (const fixtureId of Array.from(fixtureIds).slice(0, 60)) {
+    for (const fixtureId of Array.from(new Set(Array.from(previousLineupRequests.values()).map(item => item.fixtureId))).slice(0, 80)) {
       try {
         const lineupsResponse = await fetchJsonWithHeaders(apiFootballUrl("/fixtures/lineups", { fixture: fixtureId }), apiFootballHeaders());
         lineupsByFixture[fixtureId] = lineupsResponse.response || [];
       } catch (error) {
         lineupsByFixture[fixtureId] = [];
       }
+    }
+    const previousLineupsByTeamCode = {};
+    for (const request of previousLineupRequests.values()) {
+      const rows = lineupsByFixture[request.fixtureId] || [];
+      const lineup = rows.find(row => row.team?.id === request.teamId);
+      if (!lineup) continue;
+      previousLineupsByTeamCode[request.teamCode] = {
+        ...request,
+        lineup
+      };
     }
 
     const injuriesByFixture = {};
@@ -1519,6 +1568,7 @@ async function loadApiFootballSignals(matches) {
       injuryCount: injuryRows.length,
       fixtures,
       lineupsByFixture,
+      previousLineupsByTeamCode,
       injuriesByFixture
     };
   } catch (error) {
@@ -1731,8 +1781,76 @@ function predictedLineupForTeam(team, playerData) {
   };
 }
 
-function predictedLineupsForMatch(match, playerData) {
-  return [predictedLineupForTeam(match.home, playerData), predictedLineupForTeam(match.away, playerData)].filter(Boolean);
+function compactPlayerName(name) {
+  return normalizeText(name).replace(/[^a-z0-9]/g, "");
+}
+
+function injuryNameSetForTeam(injuries, teamName) {
+  const normalizedTeam = normalizeText(teamName || "");
+  return new Set((injuries || [])
+    .filter(item => !item.team || !normalizedTeam || normalizeText(item.team).includes(normalizedTeam) || normalizedTeam.includes(normalizeText(item.team)))
+    .map(item => compactPlayerName(item.player))
+    .filter(Boolean));
+}
+
+function playerFromSquadByName(squad, name) {
+  const key = compactPlayerName(name);
+  if (!key) return null;
+  return (squad?.players || []).find(player => compactPlayerName(player.player_name) === key) || null;
+}
+
+function starterObjectFromSquadPlayer(player) {
+  return {
+    name: player.player_name,
+    position: player.position || positionBucket(player),
+    club: player.club || "",
+    age: Number(player.age) || null,
+    value: playerMarketValue(player)
+  };
+}
+
+function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCode, injuries) {
+  const previous = previousLineupsByTeamCode?.[team.code];
+  const rawStarters = previous?.lineup?.startXI || [];
+  if (!rawStarters.length) return null;
+  const squad = playerData?.get?.(team.code);
+  const injured = injuryNameSetForTeam(injuries, team.name);
+  const starters = [];
+  const used = new Set();
+  for (const item of rawStarters) {
+    const name = item.player?.name;
+    const key = compactPlayerName(name);
+    if (!name || injured.has(key)) continue;
+    const squadPlayer = playerFromSquadByName(squad, name);
+    const player = squadPlayer
+      ? starterObjectFromSquadPlayer(squadPlayer)
+      : { name, position: item.player?.pos || "", club: "", age: null, value: 0 };
+    starters.push(player);
+    used.add(compactPlayerName(player.name));
+  }
+  const fill = (squad?.players || [])
+    .filter(player => !used.has(compactPlayerName(player.player_name)) && !injured.has(compactPlayerName(player.player_name)))
+    .sort((a, b) => playerMarketValue(b) - playerMarketValue(a));
+  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift()));
+  if (starters.length < 8) return null;
+  return {
+    team: team.name,
+    formation: previous.lineup.formation || "上一场阵型",
+    source: "last-start-adjusted",
+    previousFixtureDate: previous.fixtureDate || null,
+    previousOpponent: previous.opponent || "",
+    removedByInjury: rawStarters.length - starters.length,
+    starters: starters.slice(0, 11)
+  };
+}
+
+function predictedLineupsForMatch(match, liveContext, injuries = []) {
+  const playerData = liveContext?.playerData;
+  const previousLineupsByTeamCode = liveContext?.previousLineupsByTeamCode || {};
+  return [match.home, match.away].map(team =>
+    projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCode, injuries) ||
+    predictedLineupForTeam(team, playerData)
+  ).filter(Boolean);
 }
 
 function formatApiFootballInjuries(rows) {
@@ -1797,26 +1915,26 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
   const fixture = apiFootballFixtureForMatch(match, liveContext);
   const fixtureId = fixture?.fixture?.id;
   const providerStatus = liveContext?.status || "not-connected";
-  const apiLineups = fixtureId ? formatApiFootballLineup(liveContext?.lineupsByFixture?.[fixtureId] || []) : null;
   const apiInjuries = fixtureId ? formatApiFootballInjuries(liveContext?.injuriesByFixture?.[fixtureId] || []) : [];
-  const projectedLineups = predictedLineupsForMatch(match, liveContext?.playerData);
+  const projectedLineups = predictedLineupsForMatch(match, liveContext, apiInjuries);
 
   const news = newsSignalsForMatch(match, expertContext, allMatches);
   const hasNews = news.lineup.length || news.injuries.length || news.tactical.length;
 
-  if (apiLineups || apiInjuries.length || projectedLineups.length) {
+  if (apiInjuries.length || projectedLineups.length) {
+    const fromLastStart = projectedLineups.some(team => team.source === "last-start-adjusted");
     return {
       status: "connected",
       provider: liveContext.provider,
       fixtureId,
       fixtureDate: fixture?.fixture?.date || null,
       lineup: {
-        status: apiLineups ? "confirmed" : "projected",
-        text: apiLineups
-          ? "已从 API-Football 获取赛前/赛中官方阵容。"
-          : "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-        source: apiLineups ? liveContext.provider : "squad-projection",
-        teams: apiLineups || projectedLineups,
+        status: fromLastStart ? "last-start-projected" : "projected",
+        text: fromLastStart
+          ? "官方首发通常赛前约20-40分钟才有；当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。"
+          : "未匹配到上一场官方阵容；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+        source: fromLastStart ? "api-football-last-lineup" : "squad-projection",
+        teams: projectedLineups,
         articles: news.lineup
       },
       injuries: {
@@ -1827,8 +1945,8 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
         articles: news.injuries
       },
       tactical: {
-        status: apiLineups ? "lineup-derived" : projectedLineups.length ? "projection-derived" : news.tactical.length ? "news-derived" : "model-derived",
-        text: apiLineups ? "已基于官方首发阵型和人员结构更新临场战术参考。" : projectedLineups.length ? "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
+        status: projectedLineups.length ? "projection-derived" : news.tactical.length ? "news-derived" : "model-derived",
+        text: projectedLineups.length ? "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。" : news.tactical.length ? `从公开新闻源匹配到 ${news.tactical.length} 条战术/发布会线索，需结合首发确认。` : "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
         articles: news.tactical
       }
     };

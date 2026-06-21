@@ -304,6 +304,7 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .lineup-list div strong { display: block; font-size: 11px; margin-bottom: 5px; }
 .lineup-list div strong em { display: inline-block; margin-left: 6px; padding: 2px 6px; border-radius: 999px; background: rgba(22,138,85,.10); color: var(--accent); font-size: 8px; font-style: normal; vertical-align: 1px; }
 .lineup-list div small { display: block; color: var(--muted); font-size: 9px; line-height: 1.55; }
+.lineup-list div small.lineup-source { margin-top: 5px; color: var(--accent); }
 .injury-list span { display: block; padding: 7px 9px; border-radius: 999px; background: rgba(216,76,69,.08); color: var(--danger); font-size: 9px; font-weight: 700; }
 .news-fact-list { display: grid; gap: 7px; margin-top: 9px; }
 .news-fact { padding: 9px 10px; border-radius: 13px; background: #f6faf7; border: 1px solid var(--line); }
