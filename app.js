@@ -125,7 +125,6 @@
         coverageHTML +
         wdlHTML +
         metaHTML +
-        '<p class="analysis-summary">' + sanitizeDisplayText(match.summary || "") + '</p>' +
         '<div class="card-foot">' +
           '<span>' + (match.venue || "") + '</span>' +
           footBadgeHTML +
