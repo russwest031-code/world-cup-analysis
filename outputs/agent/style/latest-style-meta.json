@@ -1,0 +1,7 @@
+{
+  "generatedAt": "2026-06-21T10:55:33.524Z",
+  "targetDate": "2026-06-22",
+  "model": "gpt-image-2",
+  "status": "skipped",
+  "note": "OPENAI_API_KEY is not set; using deterministic card background."
+}

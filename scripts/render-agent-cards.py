@@ -63,6 +63,7 @@ FIFA_TO_ISO2 = {
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
 FLAG_CACHE = ROOT_DIR / "outputs" / "agent" / "flag-cache"
+STYLE_DIR = ROOT_DIR / "outputs" / "agent" / "style"
 
 
 def safe_name(value):
@@ -160,6 +161,28 @@ def draw_flag(draw, img, x, y, code, size=58):
     else:
         draw.ellipse((x, y, x + size, y + size), fill="#eef3f8", outline="#dce3ee", width=2)
         text(draw, (x + size / 2, y + size / 2 - 10), (code or "?")[:3], fill=BLUE, f=F["tiny"], anchor="ma")
+
+
+def style_background(stem):
+    candidates = [
+        STYLE_DIR / f"{stem}-overview-bg.png",
+        STYLE_DIR / "latest-overview-bg.png",
+    ]
+    for path in candidates:
+        if path.exists():
+            try:
+                bg = Image.open(path).convert("RGBA")
+                scale = max(W / bg.width, H / bg.height)
+                bg = bg.resize((int(bg.width * scale), int(bg.height * scale)), Image.LANCZOS)
+                x = (W - bg.width) // 2
+                y = (H - bg.height) // 2
+                canvas = Image.new("RGBA", (W, H), "#f7f9fc")
+                canvas.alpha_composite(bg, (x, y))
+                wash = Image.new("RGBA", (W, H), (247, 249, 252, 120))
+                return Image.alpha_composite(canvas, wash)
+            except Exception:
+                continue
+    return None
 
 
 def bar(draw, x, y, w, h, pct, label, color):
@@ -271,7 +294,7 @@ def render_match(item, idx, total, out_path):
 
 
 def render_cover(payload, out_path):
-    img = Image.new("RGBA", (W, H), "#f7f9fc")
+    img = style_background(payload.get("targetDate", "")) or Image.new("RGBA", (W, H), "#f7f9fc")
     draw = ImageDraw.Draw(img)
     draw.rectangle((0, 0, W, 178), fill="#eaf1ff")
     draw.polygon([(0, 0), (330, 0), (210, 178), (0, 178)], fill=BLUE)

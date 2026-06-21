@@ -290,8 +290,18 @@ function main() {
   fs.writeFileSync(path.join(outputDir, "latest.json"), `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   fs.writeFileSync(path.join(outputDir, "latest.md"), markdownReport(meta, analyses, targetDate), "utf8");
   fs.writeFileSync(path.join(outputDir, "latest.xhs.txt"), xhsReport(analyses), "utf8");
+  generateAiStyle(path.join(outputDir, `${targetDate}.json`));
   renderCards(path.join(outputDir, `${targetDate}.json`));
   console.log(`Agent report generated: ${analyses.length} matches -> outputs/agent/${targetDate}.md`);
+}
+
+function generateAiStyle(jsonFile) {
+  const script = path.join(root, "scripts", "generate-gpt-image-style.mjs");
+  const node = process.execPath;
+  const result = spawnSync(node, [script, jsonFile], { cwd: root, encoding: "utf8" });
+  if (result.stdout) process.stdout.write(result.stdout);
+  if (result.stderr) process.stderr.write(result.stderr);
+  return result.status === 0;
 }
 
 function renderCards(jsonFile) {
