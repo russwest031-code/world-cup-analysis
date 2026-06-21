@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-21T08:46:18.598Z",
+  "updatedAt": "2026-06-21T09:07:46.216Z",
   "runDate": "2026-06-21",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-21T08:46:18.598Z",
+  "externalFetchedAt": "2026-06-21T09:07:46.216Z",
   "externalMatchCount": 104,
   "model": "calibrated-stall-guard-v5",
   "modelVersion": "v3",
@@ -29,7 +29,7 @@ window.ANALYSIS_META = {
   "liveLineupFixtureCount": 0,
   "liveInjuryCount": 0,
   "predictionLockCount": 72,
-  "predictionLocksCreated": 68,
+  "predictionLocksCreated": 0,
   "oddsSnapshotFile": "snapshots/odds/2026-06-21.json"
 };
 
@@ -320,7 +320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -769,7 +769,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -781,26 +781,199 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "墨西哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Raúl Rangel",
+                  "position": "GK",
+                  "club": "Mexico",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Johan Vásquez",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Mateo Chávez",
+                  "position": "DF",
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500
+                },
+                {
+                  "name": "Israel Reyes",
+                  "position": "DF",
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jorge Sánchez",
+                  "position": "DF",
+                  "club": "Mexico",
+                  "age": 28,
+                  "value": 1500000
+                },
+                {
+                  "name": "Obed Vargas",
+                  "position": "MF",
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480
+                },
+                {
+                  "name": "Álvaro Fidalgo",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000
+                },
+                {
+                  "name": "Edson Álvarez",
+                  "position": "MF",
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Raúl Jiménez",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 35,
+                  "value": 8208000
+                },
+                {
+                  "name": "Guillermo Martínez Ayala",
+                  "position": "FW",
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000
+                }
+              ]
+            },
+            {
+              "team": "南非",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Sipho Chaine",
+                  "position": "GK",
+                  "club": "Orlando Pirates",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Ime Okon",
+                  "position": "DF",
+                  "club": "Hannover 96",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Mbekezeli Mbokazi",
+                  "position": "DF",
+                  "club": "Chicago Fire",
+                  "age": 20,
+                  "value": 3194240
+                },
+                {
+                  "name": "Khuliso Mudau",
+                  "position": "DF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Nkosinathi Sibisi",
+                  "position": "DF",
+                  "club": "Orlando Pirates",
+                  "age": 30,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yaya Sithole",
+                  "position": "MF",
+                  "club": "Tondela",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Thalente Mbatha",
+                  "position": "MF",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jayden Adams",
+                  "position": "MF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Lyle Foster",
+                  "position": "FW",
+                  "club": "Burnley",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Oswin Appollis",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Evidence Makgopa",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -840,7 +1013,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率65%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  墨西哥场均射门12次；南非场均射门10次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率56%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  墨西哥场均射门12次；南非场均射门10次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -1124,7 +1297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1566,26 +1739,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "捷克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Matej Kovar",
+                  "position": "GK",
+                  "club": "PSV",
+                  "age": 26,
+                  "value": 7087500
+                },
+                {
+                  "name": "Ladislav Krejci",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Robin Hranac",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Vladimír Coufal",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "David Jurásek",
+                  "position": "DF",
+                  "club": "Slavia Praha",
+                  "age": 25,
+                  "value": 3622500
+                },
+                {
+                  "name": "Pavel Sulc",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tomáš Souček",
+                  "position": "MF",
+                  "club": "West Ham United",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Lukas Cerv",
+                  "position": "MF",
+                  "club": "Viktoria Plzeň",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Patrik Schick",
+                  "position": "FW",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Adam Hlozek",
+                  "position": "FW",
+                  "club": "TSG Hoffenheim",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Mojmír Chytil",
+                  "position": "FW",
+                  "club": "Slavia Praha",
+                  "age": 27,
+                  "value": 3100000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1914,7 +2176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2363,7 +2625,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2375,26 +2637,199 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "加拿大",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Owen Goodman",
+                  "position": "GK",
+                  "club": "Barnsley",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Alphonso Davies",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 25,
+                  "value": 17967600
+                },
+                {
+                  "name": "Derek Cornelius",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Moïse Bombito",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 6930000
+                },
+                {
+                  "name": "Jahkeele Marshall-Rutty",
+                  "position": "DF",
+                  "club": "New York RB",
+                  "age": 21,
+                  "value": 3194240
+                },
+                {
+                  "name": "Ismaël Koné",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Nathan-Dylan Saliba",
+                  "position": "MF",
+                  "club": "Anderlecht",
+                  "age": 22,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ali Ahmed",
+                  "position": "MF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Tani Oluwaseyi",
+                  "position": "FW",
+                  "club": "Villarreal",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jacen Russell-Rowe",
+                  "position": "FW",
+                  "club": "Toulouse",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Jonathan David",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "波黑",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nikola Vasilj",
+                  "position": "GK",
+                  "club": "St. Pauli",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Nikola Katic",
+                  "position": "DF",
+                  "club": "Schalke 04",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Sead Kolasinac",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Tarik Muharemović",
+                  "position": "DF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nidal Celik",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 19,
+                  "value": 11746560
+                },
+                {
+                  "name": "Armin Gigovic",
+                  "position": "MF",
+                  "club": "Holstein Kiel",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dzenis Burnic",
+                  "position": "MF",
+                  "club": "Karlsruher SC",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amir Hadziahmetovic",
+                  "position": "MF",
+                  "club": "Hull City",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Ermedin Demirovic",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Edin Džeko",
+                  "position": "FW",
+                  "club": "Schalke 04",
+                  "age": 40,
+                  "value": 13392000
+                },
+                {
+                  "name": "Haris Tabakovic",
+                  "position": "FW",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 31,
+                  "value": 10032000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2723,7 +3158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3187,26 +3622,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "美国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Schulte",
+                  "position": "GK",
+                  "club": "Columbus Crew",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Joe Scally",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mark McKenzie",
+                  "position": "DF",
+                  "club": "Toulouse",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Antonee Robinson",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Chris Richards",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Malik Tillman",
+                  "position": "MF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tanner Tessmann",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Giovanni Reyna",
+                  "position": "MF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Christian Pulisic",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Folarin Balogun",
+                  "position": "FW",
+                  "club": "Monaco",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Timothy Weah",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "巴拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Gill",
+                  "position": "GK",
+                  "club": "San Lorenzo",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Omar Alderete",
+                  "position": "DF",
+                  "club": "Sunderland",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Gustavo Gómez",
+                  "position": "DF",
+                  "club": "Palmeiras",
+                  "age": 33,
+                  "value": 1788480
+                },
+                {
+                  "name": "José Canale",
+                  "position": "DF",
+                  "club": "Lanús",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Fabián Balbuena",
+                  "position": "DF",
+                  "club": "Grêmio",
+                  "age": 34,
+                  "value": 1594080
+                },
+                {
+                  "name": "Julio Enciso",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Diego Gómez",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Braian Ojeda",
+                  "position": "MF",
+                  "club": "Orlando City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Antonio Sanabria",
+                  "position": "FW",
+                  "club": "Cremonese",
+                  "age": 30,
+                  "value": 7920000
+                },
+                {
+                  "name": "Isidro Pitta",
+                  "position": "FW",
+                  "club": "Bragantino",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ramón Sosa",
+                  "position": "FW",
+                  "club": "Palmeiras",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3536,7 +4144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -3988,26 +4596,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "卡塔尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Shehab Ellethy",
+                  "position": "GK",
+                  "club": "Al Shahaniya",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Ayoub Al-Oui",
+                  "position": "DF",
+                  "club": "Al Gharafa",
+                  "age": 21,
+                  "value": 2576000
+                },
+                {
+                  "name": "Issa Laye",
+                  "position": "DF",
+                  "club": "Al-Arabi SC",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Homam Al-Amin",
+                  "position": "DF",
+                  "club": "Al Duhail",
+                  "age": 26,
+                  "value": 2324700
+                },
+                {
+                  "name": "Boualem Khoukhi",
+                  "position": "DF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Mohamed Al-Mannai",
+                  "position": "MF",
+                  "club": "Al Shamal SC",
+                  "age": 22,
+                  "value": 2415000
+                },
+                {
+                  "name": "Hasan Al-Haydos",
+                  "position": "MF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Abdulaziz Hatim",
+                  "position": "MF",
+                  "club": "Al Rayyan",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Khalid Ali Sabah",
+                  "position": "FW",
+                  "club": "Al Sailiya",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "Edmílson Junior",
+                  "position": "FW",
+                  "club": "Al Duhail",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Mohamed Khaled Gouda",
+                  "position": "FW",
+                  "club": "Al-Arabi SC",
+                  "age": 21,
+                  "value": 2576000
+                }
+              ]
+            },
+            {
+              "team": "瑞士",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Gregor Kobel",
+                  "position": "GK",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Luca Jaquez",
+                  "position": "DF",
+                  "club": "VfB Stuttgart",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Nico Elvedi",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Manuel Akanji",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ricardo Rodríguez",
+                  "position": "DF",
+                  "club": "Real Betis",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "Johan Manzambi",
+                  "position": "MF",
+                  "club": "SC Freiburg",
+                  "age": 20,
+                  "value": 20832000
+                },
+                {
+                  "name": "Djibril Sow",
+                  "position": "MF",
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michel Aebischer",
+                  "position": "MF",
+                  "club": "Pisa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Noah Okafor",
+                  "position": "FW",
+                  "club": "Leeds United",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dan Ndoye",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Cedric Itten",
+                  "position": "FW",
+                  "club": "Fortuna Düsseldorf",
+                  "age": 29,
+                  "value": 17112000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4047,7 +4828,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向客胜（概率62%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机。  卡塔尔场均射门4次；瑞士场均射门19.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向客胜（概率56%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机。  卡塔尔场均射门4次；瑞士场均射门19.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -4336,7 +5117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -4800,17 +5581,190 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴西",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alisson",
+                  "position": "GK",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Gabriel Magalhães",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Marquinhos",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 32,
+                  "value": 7286400
+                },
+                {
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Casemiro",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bruno Guimarães",
+                  "position": "MF",
+                  "club": "Newcastle United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Rayan",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vinicius Junior",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 25,
+                  "value": 17010000
+                }
+              ]
+            },
+            {
+              "team": "摩洛哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "El Mehdi Al Harrar",
+                  "position": "GK",
+                  "club": "Raja Casablanca",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chadi Riad",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 17967600
+                },
+                {
+                  "name": "Abdelhamid Ait Boudlal",
+                  "position": "DF",
+                  "club": "Rennes",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Achraf Hakimi",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Noussair Mazraoui",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Azzedine Ounahi",
+                  "position": "MF",
+                  "club": "Girona",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Neil El Aynaoui",
+                  "position": "MF",
+                  "club": "Roma",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Samir El Mourabet",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Brahim Díaz",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Abde Ezzalzouli",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Ayoube Amaimouni-Echghouyab",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -4821,12 +5775,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4862,7 +5816,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -5155,7 +6109,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -5624,17 +6578,190 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "海地",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Johny Placide",
+                  "position": "GK",
+                  "club": "Bastia",
+                  "age": 38,
+                  "value": 1368000
+                },
+                {
+                  "name": "Carlens Arcus",
+                  "position": "DF",
+                  "club": "Angers SCO",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Martin Expérience",
+                  "position": "DF",
+                  "club": "Nancy",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Hannes Delcroix",
+                  "position": "DF",
+                  "club": "Lugano",
+                  "age": 27,
+                  "value": 2116000
+                },
+                {
+                  "name": "Wilguens Paugain",
+                  "position": "DF",
+                  "club": "Zulte-Waregem",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Jean-Ricner Bellegarde",
+                  "position": "MF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Danley Jean Jacques",
+                  "position": "MF",
+                  "club": "Philadelphia Union",
+                  "age": 26,
+                  "value": 2669100
+                },
+                {
+                  "name": "Dominique Celidor Simon",
+                  "position": "MF",
+                  "club": "Dinamo Tbilisi",
+                  "age": 25,
+                  "value": 1155000
+                },
+                {
+                  "name": "Wilson Isidor",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Josué Casimir",
+                  "position": "FW",
+                  "club": "Auxerre",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Derrick Etienne Jr.",
+                  "position": "FW",
+                  "club": "Toronto",
+                  "age": 29,
+                  "value": 2852000
+                }
+              ]
+            },
+            {
+              "team": "苏格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Angus Gunn",
+                  "position": "GK",
+                  "club": "Nottingham Forest",
+                  "age": 30,
+                  "value": 9229440
+                },
+                {
+                  "name": "Aaron Hickey",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Andrew Robertson",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 32,
+                  "value": 7920000
+                },
+                {
+                  "name": "John Souttar",
+                  "position": "DF",
+                  "club": "Rangers",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Scott McKenna",
+                  "position": "DF",
+                  "club": "Dinamo Zagreb",
+                  "age": 29,
+                  "value": 2300000
+                },
+                {
+                  "name": "Billy Gilmour",
+                  "position": "MF",
+                  "club": "Napoli",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "John McGinn",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ryan Christie",
+                  "position": "MF",
+                  "club": "AFC Bournemouth",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ché Adams",
+                  "position": "FW",
+                  "club": "Torino",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ben Gannon-Doak",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Findlay Curtis",
+                  "position": "FW",
+                  "club": "Rangers",
+                  "age": 19,
+                  "value": 3194240
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -5645,12 +6772,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5974,7 +7101,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -6440,7 +7567,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -6452,22 +7579,111 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "澳大利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mathew Ryan",
+                  "position": "GK",
+                  "club": "Levante",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Alessandro Circati",
+                  "position": "DF",
+                  "club": "Parma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jordan Bos",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 23,
+                  "value": 3937500
+                },
+                {
+                  "name": "Lucas Herrington",
+                  "position": "DF",
+                  "club": "Colorado Rapids",
+                  "age": 18,
+                  "value": 2576000
+                },
+                {
+                  "name": "Jacob Italiano",
+                  "position": "DF",
+                  "club": "Grazer AK",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Connor Metcalfe",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Cristian Volpato",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 22,
+                  "value": 14490000
+                },
+                {
+                  "name": "Jackson Irvine",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 33,
+                  "value": 8208000
+                },
+                {
+                  "name": "Awer Mabil",
+                  "position": "FW",
+                  "club": "Castellón",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Martin Boyle",
+                  "position": "FW",
+                  "club": "Hibernian",
+                  "age": 33,
+                  "value": 2232000
+                },
+                {
+                  "name": "Nishan Velupillay",
+                  "position": "FW",
+                  "club": "Melbourne Victory",
+                  "age": 25,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -6484,7 +7700,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6808,7 +8024,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -7275,7 +8491,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -7287,22 +8503,111 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "德国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alexander Nübel",
+                  "position": "GK",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Schlotterbeck",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Malick Thiaw",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nathaniel Brown",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Waldemar Anton",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Aleksandar Pavlovic",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nadiem Amiri",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Joshua Kimmich",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Kai Havertz",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 17112000
+                },
+                {
+                  "name": "Deniz Undav",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Maximilian Beier",
+                  "position": "FW",
+                  "club": "Borussia Dortmund",
+                  "age": 23,
+                  "value": 14490000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -7313,7 +8618,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7642,7 +8947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -8112,26 +9417,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "荷兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Bart Verbruggen",
+                  "position": "GK",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jan Paul van Hecke",
+                  "position": "DF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jorrel Hato",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Denzel Dumfries",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Virgil van Dijk",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 34,
+                  "value": 13392000
+                },
+                {
+                  "name": "Ryan Gravenberch",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tijjani Reijnders",
+                  "position": "MF",
+                  "club": "Manchester City",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Frenkie de Jong",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Cody Gakpo",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Brian Brobbey",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Crysencio Summerville",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            },
+            {
+              "team": "日本",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Zion Suzuki",
+                  "position": "GK",
+                  "club": "Parma",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Hiroki Ito",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Yukinari Sugawara",
+                  "position": "DF",
+                  "club": "Werder Bremen",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tsuyoshi Watanabe",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Takehiro Tomiyasu",
+                  "position": "DF",
+                  "club": "Ajax",
+                  "age": 27,
+                  "value": 4750000
+                },
+                {
+                  "name": "Ayumu Seko",
+                  "position": "MF",
+                  "club": "Le Havre",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Kaishu Sano",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Daichi Kamada",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yuito Suzuki",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Ritsu Doan",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Takefusa Kubo",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8455,7 +9933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -8921,7 +10399,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -8933,26 +10411,115 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "厄瓜多尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Moisés Ramírez",
+                  "position": "GK",
+                  "club": "Kifisia",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Pervis Estupiñán",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Willian Pacho",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Piero Hincapié",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Léo Realpe",
+                  "position": "DF",
+                  "club": "Famalicão",
+                  "age": 25,
+                  "value": 3937500
+                },
+                {
+                  "name": "Moisés Caicedo",
+                  "position": "MF",
+                  "club": "Chelsea",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Denil Castillo",
+                  "position": "MF",
+                  "club": "FC Midtjylland",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "John Yeboah",
+                  "position": "MF",
+                  "club": "Venezia",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nilson Angulo",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Jeremy Arévalo",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "John Mercado",
+                  "position": "FW",
+                  "club": "Sparta Praha",
+                  "age": 24,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9282,7 +10849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -9752,22 +11319,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "瑞典",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Jacob Widell Zetterström",
+                  "position": "GK",
+                  "club": "Derby County",
+                  "age": 27,
+                  "value": 2700000
+                },
+                {
+                  "name": "Hjalmar Ekdal",
+                  "position": "DF",
+                  "club": "Burnley",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Victor Lindelöf",
+                  "position": "DF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Eric Smith",
+                  "position": "DF",
+                  "club": "St. Pauli",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Isak Hien",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yasin Ayari",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Lucas Bergvall",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 20,
+                  "value": 10080000
+                },
+                {
+                  "name": "Mattias Svanberg",
+                  "position": "MF",
+                  "club": "VfL Wolfsburg",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Alexander Bernhardsson",
+                  "position": "FW",
+                  "club": "Holstein Kiel",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Alexander Isak",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Anthony Elanga",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "突尼斯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Aymen Dahmen",
+                  "position": "GK",
+                  "club": "",
+                  "age": 29,
+                  "value": 0
+                },
+                {
+                  "name": "Montassar Talbi",
+                  "position": "DF",
+                  "club": "Lorient",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ali Abdi",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Adem Arous",
+                  "position": "DF",
+                  "club": "Kasımpaşa",
+                  "age": 21,
+                  "value": 7560000
+                },
+                {
+                  "name": "Mohamed Amine Ben Hamida",
+                  "position": "DF",
+                  "club": "ES Tunis",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Hannibal",
+                  "position": "MF",
+                  "club": "Burnley",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Rani Khedira",
+                  "position": "MF",
+                  "club": "FC Union Berlin",
+                  "age": 32,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ellyes Skhiri",
+                  "position": "MF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Elias Saad",
+                  "position": "FW",
+                  "club": "Hannover 96",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Ismaël Gharbi",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Elias Achouri",
+                  "position": "FW",
+                  "club": "FC København",
+                  "age": 27,
+                  "value": 7750000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -9778,7 +11518,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10102,7 +11842,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -10556,7 +12296,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -10568,12 +12308,99 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条预计首发/阵容线索，尚非官方确认。",
-          "source": "public-rss",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "西班牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Joan García",
+                  "position": "GK",
+                  "club": "FC Barcelona",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Pau Cubarsí",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 19,
+                  "value": 18144000
+                },
+                {
+                  "name": "Pedro Porro",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Alejandro Grimaldo",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Aymeric Laporte",
+                  "position": "DF",
+                  "club": "Athletic Club",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Pedri",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 23,
+                  "value": 14490000
+                },
+                {
+                  "name": "Gavi",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 21,
+                  "value": 14219520
+                },
+                {
+                  "name": "Dani Olmo",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ferran Torres",
+                  "position": "FW",
+                  "club": "FC Barcelona",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Yéremy Pino",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 23,
+                  "value": 19530000
+                }
+              ]
+            }
+          ],
           "articles": [
             {
               "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -10584,17 +12411,19 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10923,7 +12752,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -11372,7 +13201,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -11384,22 +13213,195 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "比利时",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mike Penders",
+                  "position": "GK",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Koni De Winter",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Timothy Castagne",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Arthur Theate",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nathan Ngoy",
+                  "position": "DF",
+                  "club": "LOSC Lille",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Youri Tielemans",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amadou Onana",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Diego Moreira",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Leandro Trossard",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Jérémy Doku",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Matías Fernández-Pardo",
+                  "position": "FW",
+                  "club": "LOSC Lille",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            },
+            {
+              "team": "埃及",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mohamed Alaa",
+                  "position": "GK",
+                  "club": "El Gounah",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Mohamed Abdelmonem",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 27,
+                  "value": 10488000
+                },
+                {
+                  "name": "Hossam Abdelmaguid",
+                  "position": "DF",
+                  "club": "Zamalek",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Mohamed Hany",
+                  "position": "DF",
+                  "club": "Al Ahly",
+                  "age": 30,
+                  "value": 2728000
+                },
+                {
+                  "name": "Khaled Sobhi",
+                  "position": "DF",
+                  "club": "Al Masry",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Nabil Dunga",
+                  "position": "MF",
+                  "club": "Al Najma",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Mahmoud Saber",
+                  "position": "MF",
+                  "club": "ZED FC",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Ahmed Kouka",
+                  "position": "MF",
+                  "club": "Al Ahly",
+                  "age": 24,
+                  "value": 1835400
+                },
+                {
+                  "name": "Mostafa Mohamed",
+                  "position": "FW",
+                  "club": "Nantes",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mohamed Salah",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "Haissem Hassan",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -11410,7 +13412,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11739,7 +13741,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -12191,26 +14193,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "沙特阿拉伯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nawaf Al-Aqidi",
+                  "position": "GK",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1062600
+                },
+                {
+                  "name": "Saud Abdulhamid",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Hassan Tambakti",
+                  "position": "DF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Nawaf Boushal",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ayman Yahya",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ziyad Al-Johani",
+                  "position": "MF",
+                  "club": "Al Ahli",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Naif Masoud",
+                  "position": "MF",
+                  "club": "Al Fateh",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nasser Al-Dawsari",
+                  "position": "MF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 3100000
+                },
+                {
+                  "name": "Sultan Mandash",
+                  "position": "FW",
+                  "club": "Al Hilal",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Firas Al-Buraikan",
+                  "position": "FW",
+                  "club": "Al Ahli",
+                  "age": 26,
+                  "value": 2415000
+                },
+                {
+                  "name": "Turki Al-Ammar",
+                  "position": "FW",
+                  "club": "Al-Qadsiah",
+                  "age": 26,
+                  "value": 1995000
+                }
+              ]
+            },
+            {
+              "team": "乌拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Santiago Mele",
+                  "position": "GK",
+                  "club": "Monterrey",
+                  "age": 28,
+                  "value": 1900000
+                },
+                {
+                  "name": "Mathías Olivera",
+                  "position": "DF",
+                  "club": "Napoli",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ronald Araujo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Santiago Bueno",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "José María Giménez",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 31,
+                  "value": 10032000
+                },
+                {
+                  "name": "Manuel Ugarte",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Federico Valverde",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Rodrigo Bentancur",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Agustín Álvarez",
+                  "position": "FW",
+                  "club": "Sassuolo",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Federico Viñas",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Brian Rodríguez",
+                  "position": "FW",
+                  "club": "América",
+                  "age": 26,
+                  "value": 2835000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12539,7 +14714,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -12979,7 +15154,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 08:39:02 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:51:14 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -12997,26 +15172,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "伊朗",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alireza Beiranvand",
+                  "position": "GK",
+                  "club": "Tractor Sazi",
+                  "age": 33,
+                  "value": 1368000
+                },
+                {
+                  "name": "Arya Yousefi",
+                  "position": "DF",
+                  "club": "Sepahan",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Milad Mohammadi",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Hossein Kanaani",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Ali Nemati",
+                  "position": "DF",
+                  "club": "Foolad",
+                  "age": 30,
+                  "value": 1672000
+                },
+                {
+                  "name": "Mohammad Ghorbani",
+                  "position": "MF",
+                  "club": "Al Wahda",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Saman Ghoddos",
+                  "position": "MF",
+                  "club": "Kalba",
+                  "age": 32,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amirmohammad Razzaghinia",
+                  "position": "MF",
+                  "club": "Esteghlal",
+                  "age": 20,
+                  "value": 2128000
+                },
+                {
+                  "name": "Alireza Jahanbakhsh",
+                  "position": "FW",
+                  "club": "Dender",
+                  "age": 32,
+                  "value": 2236960
+                },
+                {
+                  "name": "Mohammad Mohebi",
+                  "position": "FW",
+                  "club": "Rostov",
+                  "age": 27,
+                  "value": 2214000
+                },
+                {
+                  "name": "Mehdi Ghayedi",
+                  "position": "FW",
+                  "club": "Al Nasr",
+                  "age": 27,
+                  "value": 1900000
+                }
+              ]
+            },
+            {
+              "team": "新西兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alex Paulsen",
+                  "position": "GK",
+                  "club": "Lechia Gdańsk",
+                  "age": 23,
+                  "value": 2835000
+                },
+                {
+                  "name": "Callan Elliot",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Tim Payne",
+                  "position": "DF",
+                  "club": "Wellington Phoenix",
+                  "age": 32,
+                  "value": 2185920
+                },
+                {
+                  "name": "Tyler Bindon",
+                  "position": "DF",
+                  "club": "Sheffield United",
+                  "age": 21,
+                  "value": 1680000
+                },
+                {
+                  "name": "Nando Pijnaker",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 27,
+                  "value": 1500000
+                },
+                {
+                  "name": "Callum McCowatt",
+                  "position": "MF",
+                  "club": "Silkeborg IF",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Ryan Thomas",
+                  "position": "MF",
+                  "club": "PEC Zwolle",
+                  "age": 31,
+                  "value": 6820000
+                },
+                {
+                  "name": "Matthew Garbett",
+                  "position": "MF",
+                  "club": "NAC Breda",
+                  "age": 24,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chris Wood",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ben Waine",
+                  "position": "FW",
+                  "club": "Port Vale",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Kosta Barbarouses",
+                  "position": "FW",
+                  "club": "Western Sydney Wanderers",
+                  "age": 36,
+                  "value": 2232000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13345,7 +15693,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -13809,22 +16157,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "法国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Robin Risser",
+                  "position": "GK",
+                  "club": "Lens",
+                  "age": 21,
+                  "value": 16692480
+                },
+                {
+                  "name": "Lucas Hernández",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Dayot Upamecano",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Maxence Lacroix",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "William Saliba",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Aurélien Tchouaméni",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adrien Rabiot",
+                  "position": "MF",
+                  "club": "AC Milan",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Warren Zaïre-Emery",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Jean-Philippe Mateta",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michael Olise",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Marcus Thuram",
+                  "position": "FW",
+                  "club": "Inter",
+                  "age": 28,
+                  "value": 13800000
+                }
+              ]
+            },
+            {
+              "team": "塞内加尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yehvann Diouf",
+                  "position": "GK",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mamadou Sarr",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Nobel Mendy",
+                  "position": "DF",
+                  "club": "Rayo Vallecano",
+                  "age": 21,
+                  "value": 18144000
+                },
+                {
+                  "name": "Antoine Mendy",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "El Hadji Malick Diouf",
+                  "position": "DF",
+                  "club": "West Ham United",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "Pape Matar Sarr",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Habib Diarra",
+                  "position": "MF",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Pathé Ciss",
+                  "position": "MF",
+                  "club": "Rayo Vallecano",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ibrahim Mbaye",
+                  "position": "FW",
+                  "club": "Paris Saint Germain",
+                  "age": 18,
+                  "value": 20832000
+                },
+                {
+                  "name": "Boulaye Dia",
+                  "position": "FW",
+                  "club": "Lazio",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Nicolas Jackson",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "The brilliant Michael Olise represents a key faultline in history of French football | Jonathan Wilson",
@@ -13835,7 +16356,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14164,7 +16685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -14616,26 +17137,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "伊拉克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ahmed Basil Fadhil",
+                  "position": "GK",
+                  "club": "Al Shorta",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Akam Hashem",
+                  "position": "DF",
+                  "club": "Al Zawra'a",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Mustafa Saadoon",
+                  "position": "DF",
+                  "club": "Al Shorta",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Hussein Ali",
+                  "position": "DF",
+                  "club": "Pogoń Szczecin",
+                  "age": 24,
+                  "value": 1575000
+                },
+                {
+                  "name": "Merchas Doski",
+                  "position": "DF",
+                  "club": "Viktoria Plzeň",
+                  "age": 26,
+                  "value": 1575000
+                },
+                {
+                  "name": "Kevin Yakob",
+                  "position": "MF",
+                  "club": "AGF",
+                  "age": 25,
+                  "value": 6037500
+                },
+                {
+                  "name": "Zidane Iqbal",
+                  "position": "MF",
+                  "club": "FC Utrecht",
+                  "age": 23,
+                  "value": 2669100
+                },
+                {
+                  "name": "Amir Al-Ammari",
+                  "position": "MF",
+                  "club": "Cracovia Kraków",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Ali Jasim",
+                  "position": "FW",
+                  "club": "Al Najma",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Marko Farji",
+                  "position": "FW",
+                  "club": "Venezia",
+                  "age": 22,
+                  "value": 1995000
+                },
+                {
+                  "name": "Youssef Amyn",
+                  "position": "FW",
+                  "club": "AEK Larnaca",
+                  "age": 22,
+                  "value": 1995000
+                }
+              ]
+            },
+            {
+              "team": "挪威",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ørjan Nyland",
+                  "position": "GK",
+                  "club": "Sevilla",
+                  "age": 35,
+                  "value": 9564480
+                },
+                {
+                  "name": "Leo Østigård",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Julian Ryerson",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Sander Berge",
+                  "position": "MF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Martin Ødegaard",
+                  "position": "MF",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Antonio Nusa",
+                  "position": "FW",
+                  "club": "RB Leipzig",
+                  "age": 21,
+                  "value": 20832000
+                },
+                {
+                  "name": "Jørgen Strand Larsen",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14964,7 +17658,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -15413,7 +18107,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -15425,26 +18119,199 @@ window.MATCHES = [
         "impact": "风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "阿根廷",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Juan Musso",
+                  "position": "GK",
+                  "club": "Atlético Madrid",
+                  "age": 32,
+                  "value": 11689920
+                },
+                {
+                  "name": "Cristian Romero",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Facundo Medina",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Marcos Senesi",
+                  "position": "DF",
+                  "club": "AFC Bournemouth",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Nahuel Molina",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Paz",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Giovani Lo Celso",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Thiago Almada",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico González",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Julián Alvarez",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 26,
+                  "value": 17010000
+                }
+              ]
+            },
+            {
+              "team": "阿尔及利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Luca Zidane",
+                  "position": "GK",
+                  "club": "Granada",
+                  "age": 28,
+                  "value": 14904000
+                },
+                {
+                  "name": "Rafik Belghali",
+                  "position": "DF",
+                  "club": "Hellas Verona",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ramy Bensebaini",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Rayan Aït-Nouri",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Samir Chergui",
+                  "position": "DF",
+                  "club": "Paris",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Adil Aouchiche",
+                  "position": "MF",
+                  "club": "Schalke 04",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Hicham Boudaoui",
+                  "position": "MF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nabil Bentaleb",
+                  "position": "MF",
+                  "club": "LOSC Lille",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Amine Gouiri",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Mohamed Amoura",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Anis Hadj Moussa",
+                  "position": "FW",
+                  "club": "Feyenoord",
+                  "age": 24,
+                  "value": 8137500
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15773,7 +18640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -16216,26 +19083,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "奥地利",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Pentz",
+                  "position": "GK",
+                  "club": "Brøndby IF",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Phillipp Mwene",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Kevin Danso",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Konrad Laimer",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Stefan Posch",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Xaver Schlager",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Romano Schmid",
+                  "position": "MF",
+                  "club": "Werder Bremen",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Nicolas Seiwald",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Sasa Kalajdzic",
+                  "position": "FW",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 28,
+                  "value": 15252000
+                },
+                {
+                  "name": "Michael Gregoritsch",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Patrick Wimmer",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "约旦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yazeed Abulaila",
+                  "position": "GK",
+                  "club": "Al Hussein",
+                  "age": 33,
+                  "value": 1594080
+                },
+                {
+                  "name": "Yazan Alarab",
+                  "position": "DF",
+                  "club": "Seoul",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Yousef Abu Al-Jazar",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 26,
+                  "value": 1635900
+                },
+                {
+                  "name": "Mohammad Abualnadi",
+                  "position": "DF",
+                  "club": "Selangor",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Saed Al-Rosan",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Nizar Al-Rashdan",
+                  "position": "MF",
+                  "club": "Qatar SC",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Amer Jamous",
+                  "position": "MF",
+                  "club": "Al Wihdat",
+                  "age": 23,
+                  "value": 1635900
+                },
+                {
+                  "name": "Noor Al-Rawabdeh",
+                  "position": "MF",
+                  "club": "Selangor",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Mousa Tamari",
+                  "position": "FW",
+                  "club": "Rennes",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ibrahim Sabra",
+                  "position": "FW",
+                  "club": "Göztepe",
+                  "age": 20,
+                  "value": 5924800
+                },
+                {
+                  "name": "Ali Al-Azaizeh",
+                  "position": "FW",
+                  "club": "Al Shabab",
+                  "age": 22,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16559,7 +19599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -17014,7 +20054,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -17026,26 +20066,115 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "葡萄牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "José Sá",
+                  "position": "GK",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Diogo Dalot",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nuno Mendes",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Rúben Dias",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "João Cancelo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Samú Costa",
+                  "position": "MF",
+                  "club": "Mallorca",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vitinha",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "João Neves",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Pedro Neto",
+                  "position": "FW",
+                  "club": "Chelsea",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Francisco Conceição",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Gonçalo Guedes",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 11400000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17085,7 +20214,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率63%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机。  葡萄牙场均射门7次；刚果（金）场均射门8次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率56%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机。  葡萄牙场均射门7次；刚果（金）场均射门8次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -17374,7 +20503,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -17844,17 +20973,190 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "英格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dean Henderson",
+                  "position": "GK",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Tino Livramento",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jarell Quansah",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Marc Guéhi",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Harry Maguire",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "James Garner",
+                  "position": "MF",
+                  "club": "Everton",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Morgan Rogers",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adam Wharton",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Anthony Gordon",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Noni Madueke",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jarrod Bowen",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 29,
+                  "value": 18600000
+                }
+              ]
+            },
+            {
+              "team": "克罗地亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dominik Livakovic",
+                  "position": "GK",
+                  "club": "Girona",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Luka Vuskovic",
+                  "position": "DF",
+                  "club": "Hamburger SV",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Josip Stanisic",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Duje Caleta-Car",
+                  "position": "DF",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Josko Gvardiol",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Martin Baturina",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nikola Moro",
+                  "position": "MF",
+                  "club": "Bologna",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mario Pašalić",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Igor Matanovic",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ante Budimir",
+                  "position": "FW",
+                  "club": "Osasuna",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ivan Perišić",
+                  "position": "FW",
+                  "club": "PSV",
+                  "age": 37,
+                  "value": 5580000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "ITV wins World Cup ratings battle with BBC in tournament’s first week",
@@ -17865,8 +21167,8 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Cooling hoodies help England staff combat World Cup heat",
@@ -17877,7 +21179,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18206,7 +21508,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -18660,7 +21962,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -18672,26 +21974,199 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "加纳",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Lawrence Ati Zigi",
+                  "position": "GK",
+                  "club": "St. Gallen",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Marvin Senaya",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jonas Adjetey",
+                  "position": "DF",
+                  "club": "VfL Wolfsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Kojo Peprah Oppong",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Gideon Mensah",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Ibrahim Sulemana",
+                  "position": "MF",
+                  "club": "Cagliari",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Thomas Partey",
+                  "position": "MF",
+                  "club": "Villarreal",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Elisha Owusu",
+                  "position": "MF",
+                  "club": "Auxerre",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Iñaki Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Antoine Semenyo",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Ernest Nuamah",
+                  "position": "FW",
+                  "club": "Olympique Lyonnais",
+                  "age": 22,
+                  "value": 11970000
+                }
+              ]
+            },
+            {
+              "team": "巴拿马",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Mosquera",
+                  "position": "GK",
+                  "club": "Al-Fayha",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amir Murillo",
+                  "position": "DF",
+                  "club": "Beşiktaş",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Edgardo Fariña",
+                  "position": "DF",
+                  "club": "FK Nizjni Novgorod",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "José Córdoba",
+                  "position": "DF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Jiovany Ramos",
+                  "position": "DF",
+                  "club": "Academia Puerto Cabello",
+                  "age": 29,
+                  "value": 1886000
+                },
+                {
+                  "name": "Aníbal Godoy",
+                  "position": "MF",
+                  "club": "San Diego",
+                  "age": 36,
+                  "value": 2053440
+                },
+                {
+                  "name": "Cristian Martínez",
+                  "position": "MF",
+                  "club": "Ironi Kiryat Shmona",
+                  "age": 29,
+                  "value": 1900000
+                },
+                {
+                  "name": "Adalberto Carrasquilla",
+                  "position": "MF",
+                  "club": "Pumas UNAM",
+                  "age": 27,
+                  "value": 1900000
+                },
+                {
+                  "name": "Ismael Díaz",
+                  "position": "FW",
+                  "club": "León",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Yoel Bárcenas",
+                  "position": "FW",
+                  "club": "Mazatlán",
+                  "age": 32,
+                  "value": 2728000
+                },
+                {
+                  "name": "José Luis Rodríguez",
+                  "position": "FW",
+                  "club": "Juárez",
+                  "age": 27,
+                  "value": 1500000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19020,7 +22495,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -19469,7 +22944,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -19481,26 +22956,199 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "乌兹别克斯坦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Abduvokhid Nematov",
+                  "position": "GK",
+                  "club": "Nasaf",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Abdukodir Khusanov",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Rustam Ashurmatov",
+                  "position": "DF",
+                  "club": "Esteghlal",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Sherzod Nasrullaev",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1558000
+                },
+                {
+                  "name": "Umar Eshmurodov",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 33,
+                  "value": 649440
+                },
+                {
+                  "name": "Abbosbek Fayzullaev",
+                  "position": "MF",
+                  "club": "İstanbul Başakşehir",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "Aziz Ganiev",
+                  "position": "MF",
+                  "club": "Al Bataeh",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Akmal Mozgovoy",
+                  "position": "MF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Eldor Shomurodov",
+                  "position": "FW",
+                  "club": "İstanbul Başakşehir",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Oston Urunov",
+                  "position": "FW",
+                  "club": "Persepolis",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Igor Sergeev",
+                  "position": "FW",
+                  "club": "Pakhtakor",
+                  "age": 33,
+                  "value": 1121760
+                }
+              ]
+            },
+            {
+              "team": "哥伦比亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Álvaro Montero",
+                  "position": "GK",
+                  "club": "Vélez Sarsfield",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yerson Mosquera",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Yerry Mina",
+                  "position": "DF",
+                  "club": "Cagliari",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Daniel Muñoz",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 30,
+                  "value": 10032000
+                },
+                {
+                  "name": "Deiver Machado",
+                  "position": "DF",
+                  "club": "Nantes",
+                  "age": 32,
+                  "value": 9229440
+                },
+                {
+                  "name": "Richard Ríos",
+                  "position": "MF",
+                  "club": "Benfica",
+                  "age": 26,
+                  "value": 8137500
+                },
+                {
+                  "name": "Jefferson Lerma",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 31,
+                  "value": 7920000
+                },
+                {
+                  "name": "Jorge Carrascal",
+                  "position": "MF",
+                  "club": "Flamengo",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Luis Díaz",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Cucho Hernández",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Luis Suárez",
+                  "position": "FW",
+                  "club": "Sporting CP",
+                  "age": 28,
+                  "value": 4750000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19829,7 +23477,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -20268,7 +23916,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -20280,26 +23928,199 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "捷克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Matej Kovar",
+                  "position": "GK",
+                  "club": "PSV",
+                  "age": 26,
+                  "value": 7087500
+                },
+                {
+                  "name": "Ladislav Krejci",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Robin Hranac",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Vladimír Coufal",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "David Jurásek",
+                  "position": "DF",
+                  "club": "Slavia Praha",
+                  "age": 25,
+                  "value": 3622500
+                },
+                {
+                  "name": "Pavel Sulc",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tomáš Souček",
+                  "position": "MF",
+                  "club": "West Ham United",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Lukas Cerv",
+                  "position": "MF",
+                  "club": "Viktoria Plzeň",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Patrik Schick",
+                  "position": "FW",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Adam Hlozek",
+                  "position": "FW",
+                  "club": "TSG Hoffenheim",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Mojmír Chytil",
+                  "position": "FW",
+                  "club": "Slavia Praha",
+                  "age": 27,
+                  "value": 3100000
+                }
+              ]
+            },
+            {
+              "team": "南非",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Sipho Chaine",
+                  "position": "GK",
+                  "club": "Orlando Pirates",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Ime Okon",
+                  "position": "DF",
+                  "club": "Hannover 96",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Mbekezeli Mbokazi",
+                  "position": "DF",
+                  "club": "Chicago Fire",
+                  "age": 20,
+                  "value": 3194240
+                },
+                {
+                  "name": "Khuliso Mudau",
+                  "position": "DF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Nkosinathi Sibisi",
+                  "position": "DF",
+                  "club": "Orlando Pirates",
+                  "age": 30,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yaya Sithole",
+                  "position": "MF",
+                  "club": "Tondela",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Thalente Mbatha",
+                  "position": "MF",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jayden Adams",
+                  "position": "MF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Lyle Foster",
+                  "position": "FW",
+                  "club": "Burnley",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Oswin Appollis",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Evidence Makgopa",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20628,7 +24449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -21071,26 +24892,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "瑞士",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Gregor Kobel",
+                  "position": "GK",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Luca Jaquez",
+                  "position": "DF",
+                  "club": "VfB Stuttgart",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Nico Elvedi",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Manuel Akanji",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ricardo Rodríguez",
+                  "position": "DF",
+                  "club": "Real Betis",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "Johan Manzambi",
+                  "position": "MF",
+                  "club": "SC Freiburg",
+                  "age": 20,
+                  "value": 20832000
+                },
+                {
+                  "name": "Djibril Sow",
+                  "position": "MF",
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michel Aebischer",
+                  "position": "MF",
+                  "club": "Pisa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Noah Okafor",
+                  "position": "FW",
+                  "club": "Leeds United",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dan Ndoye",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Cedric Itten",
+                  "position": "FW",
+                  "club": "Fortuna Düsseldorf",
+                  "age": 29,
+                  "value": 17112000
+                }
+              ]
+            },
+            {
+              "team": "波黑",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nikola Vasilj",
+                  "position": "GK",
+                  "club": "St. Pauli",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Nikola Katic",
+                  "position": "DF",
+                  "club": "Schalke 04",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Sead Kolasinac",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Tarik Muharemović",
+                  "position": "DF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nidal Celik",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 19,
+                  "value": 11746560
+                },
+                {
+                  "name": "Armin Gigovic",
+                  "position": "MF",
+                  "club": "Holstein Kiel",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dzenis Burnic",
+                  "position": "MF",
+                  "club": "Karlsruher SC",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amir Hadziahmetovic",
+                  "position": "MF",
+                  "club": "Hull City",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Ermedin Demirovic",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Edin Džeko",
+                  "position": "FW",
+                  "club": "Schalke 04",
+                  "age": 40,
+                  "value": 13392000
+                },
+                {
+                  "name": "Haris Tabakovic",
+                  "position": "FW",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 31,
+                  "value": 10032000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21130,7 +25124,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率66%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  瑞士场均射门19.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率56%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  瑞士场均射门19.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -21419,7 +25413,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -21874,7 +25868,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -21886,26 +25880,199 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "加拿大",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Owen Goodman",
+                  "position": "GK",
+                  "club": "Barnsley",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Alphonso Davies",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 25,
+                  "value": 17967600
+                },
+                {
+                  "name": "Derek Cornelius",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Moïse Bombito",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 6930000
+                },
+                {
+                  "name": "Jahkeele Marshall-Rutty",
+                  "position": "DF",
+                  "club": "New York RB",
+                  "age": 21,
+                  "value": 3194240
+                },
+                {
+                  "name": "Ismaël Koné",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Nathan-Dylan Saliba",
+                  "position": "MF",
+                  "club": "Anderlecht",
+                  "age": 22,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ali Ahmed",
+                  "position": "MF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Tani Oluwaseyi",
+                  "position": "FW",
+                  "club": "Villarreal",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jacen Russell-Rowe",
+                  "position": "FW",
+                  "club": "Toulouse",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Jonathan David",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "卡塔尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Shehab Ellethy",
+                  "position": "GK",
+                  "club": "Al Shahaniya",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Ayoub Al-Oui",
+                  "position": "DF",
+                  "club": "Al Gharafa",
+                  "age": 21,
+                  "value": 2576000
+                },
+                {
+                  "name": "Issa Laye",
+                  "position": "DF",
+                  "club": "Al-Arabi SC",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Homam Al-Amin",
+                  "position": "DF",
+                  "club": "Al Duhail",
+                  "age": 26,
+                  "value": 2324700
+                },
+                {
+                  "name": "Boualem Khoukhi",
+                  "position": "DF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Mohamed Al-Mannai",
+                  "position": "MF",
+                  "club": "Al Shamal SC",
+                  "age": 22,
+                  "value": 2415000
+                },
+                {
+                  "name": "Hasan Al-Haydos",
+                  "position": "MF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Abdulaziz Hatim",
+                  "position": "MF",
+                  "club": "Al Rayyan",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Khalid Ali Sabah",
+                  "position": "FW",
+                  "club": "Al Sailiya",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "Edmílson Junior",
+                  "position": "FW",
+                  "club": "Al Duhail",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Mohamed Khaled Gouda",
+                  "position": "FW",
+                  "club": "Al-Arabi SC",
+                  "age": 21,
+                  "value": 2576000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21945,7 +26112,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率65%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  加拿大场均射门22.5次；卡塔尔场均射门4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率56%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  加拿大场均射门22.5次；卡塔尔场均射门4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -22229,7 +26396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -22681,26 +26848,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "墨西哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Raúl Rangel",
+                  "position": "GK",
+                  "club": "Mexico",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Johan Vásquez",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Mateo Chávez",
+                  "position": "DF",
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500
+                },
+                {
+                  "name": "Israel Reyes",
+                  "position": "DF",
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jorge Sánchez",
+                  "position": "DF",
+                  "club": "Mexico",
+                  "age": 28,
+                  "value": 1500000
+                },
+                {
+                  "name": "Obed Vargas",
+                  "position": "MF",
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480
+                },
+                {
+                  "name": "Álvaro Fidalgo",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000
+                },
+                {
+                  "name": "Edson Álvarez",
+                  "position": "MF",
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Raúl Jiménez",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 35,
+                  "value": 8208000
+                },
+                {
+                  "name": "Guillermo Martínez Ayala",
+                  "position": "FW",
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22720,8 +26976,8 @@ window.MATCHES = [
       "away": "韩国",
       "actualScore": "1-0",
       "actualResult": "主胜",
-      "predictedResult": "主胜",
-      "correct": true,
+      "predictedResult": "平局",
+      "correct": false,
       "rightFactors": [
         "世界排名",
         "近期状态"
@@ -22740,7 +26996,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率44%），与实际结果一致。 判断正确的因素：世界排名、近期状态。  墨西哥场均射门12次；韩国场均射门12次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率45%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态。  墨西哥场均射门12次；韩国场均射门12次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -23029,7 +27285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -23496,7 +27752,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -23508,22 +27764,195 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "美国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Schulte",
+                  "position": "GK",
+                  "club": "Columbus Crew",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Joe Scally",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mark McKenzie",
+                  "position": "DF",
+                  "club": "Toulouse",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Antonee Robinson",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Chris Richards",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Malik Tillman",
+                  "position": "MF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tanner Tessmann",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Giovanni Reyna",
+                  "position": "MF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Christian Pulisic",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Folarin Balogun",
+                  "position": "FW",
+                  "club": "Monaco",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Timothy Weah",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "澳大利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mathew Ryan",
+                  "position": "GK",
+                  "club": "Levante",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Alessandro Circati",
+                  "position": "DF",
+                  "club": "Parma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jordan Bos",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 23,
+                  "value": 3937500
+                },
+                {
+                  "name": "Lucas Herrington",
+                  "position": "DF",
+                  "club": "Colorado Rapids",
+                  "age": 18,
+                  "value": 2576000
+                },
+                {
+                  "name": "Jacob Italiano",
+                  "position": "DF",
+                  "club": "Grazer AK",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Connor Metcalfe",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Cristian Volpato",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 22,
+                  "value": 14490000
+                },
+                {
+                  "name": "Jackson Irvine",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 33,
+                  "value": 8208000
+                },
+                {
+                  "name": "Awer Mabil",
+                  "position": "FW",
+                  "club": "Castellón",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Martin Boyle",
+                  "position": "FW",
+                  "club": "Hibernian",
+                  "age": 33,
+                  "value": 2232000
+                },
+                {
+                  "name": "Nishan Velupillay",
+                  "position": "FW",
+                  "club": "Melbourne Victory",
+                  "age": 25,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -23540,7 +27969,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23870,7 +28299,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -24340,17 +28769,190 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "苏格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Angus Gunn",
+                  "position": "GK",
+                  "club": "Nottingham Forest",
+                  "age": 30,
+                  "value": 9229440
+                },
+                {
+                  "name": "Aaron Hickey",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Andrew Robertson",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 32,
+                  "value": 7920000
+                },
+                {
+                  "name": "John Souttar",
+                  "position": "DF",
+                  "club": "Rangers",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Scott McKenna",
+                  "position": "DF",
+                  "club": "Dinamo Zagreb",
+                  "age": 29,
+                  "value": 2300000
+                },
+                {
+                  "name": "Billy Gilmour",
+                  "position": "MF",
+                  "club": "Napoli",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "John McGinn",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ryan Christie",
+                  "position": "MF",
+                  "club": "AFC Bournemouth",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ché Adams",
+                  "position": "FW",
+                  "club": "Torino",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ben Gannon-Doak",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Findlay Curtis",
+                  "position": "FW",
+                  "club": "Rangers",
+                  "age": 19,
+                  "value": 3194240
+                }
+              ]
+            },
+            {
+              "team": "摩洛哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "El Mehdi Al Harrar",
+                  "position": "GK",
+                  "club": "Raja Casablanca",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chadi Riad",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 17967600
+                },
+                {
+                  "name": "Abdelhamid Ait Boudlal",
+                  "position": "DF",
+                  "club": "Rennes",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Achraf Hakimi",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Noussair Mazraoui",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Azzedine Ounahi",
+                  "position": "MF",
+                  "club": "Girona",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Neil El Aynaoui",
+                  "position": "MF",
+                  "club": "Roma",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Samir El Mourabet",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Brahim Díaz",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Abde Ezzalzouli",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Ayoube Amaimouni-Echghouyab",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -24361,12 +28963,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24695,7 +29297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -25156,7 +29758,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -25168,17 +29770,190 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴西",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alisson",
+                  "position": "GK",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Gabriel Magalhães",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Marquinhos",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 32,
+                  "value": 7286400
+                },
+                {
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Casemiro",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bruno Guimarães",
+                  "position": "MF",
+                  "club": "Newcastle United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Rayan",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vinicius Junior",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 25,
+                  "value": 17010000
+                }
+              ]
+            },
+            {
+              "team": "海地",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Johny Placide",
+                  "position": "GK",
+                  "club": "Bastia",
+                  "age": 38,
+                  "value": 1368000
+                },
+                {
+                  "name": "Carlens Arcus",
+                  "position": "DF",
+                  "club": "Angers SCO",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Martin Expérience",
+                  "position": "DF",
+                  "club": "Nancy",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Hannes Delcroix",
+                  "position": "DF",
+                  "club": "Lugano",
+                  "age": 27,
+                  "value": 2116000
+                },
+                {
+                  "name": "Wilguens Paugain",
+                  "position": "DF",
+                  "club": "Zulte-Waregem",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Jean-Ricner Bellegarde",
+                  "position": "MF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Danley Jean Jacques",
+                  "position": "MF",
+                  "club": "Philadelphia Union",
+                  "age": 26,
+                  "value": 2669100
+                },
+                {
+                  "name": "Dominique Celidor Simon",
+                  "position": "MF",
+                  "club": "Dinamo Tbilisi",
+                  "age": 25,
+                  "value": 1155000
+                },
+                {
+                  "name": "Wilson Isidor",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Josué Casimir",
+                  "position": "FW",
+                  "club": "Auxerre",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Derrick Etienne Jr.",
+                  "position": "FW",
+                  "club": "Toronto",
+                  "age": 29,
+                  "value": 2852000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -25189,12 +29964,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -25230,11 +30005,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率65%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  巴西场均射门10次；海地场均射门11次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率56%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  巴西场均射门10次；海地场均射门11次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -25518,7 +30293,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -25982,26 +30757,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Gill",
+                  "position": "GK",
+                  "club": "San Lorenzo",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Omar Alderete",
+                  "position": "DF",
+                  "club": "Sunderland",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Gustavo Gómez",
+                  "position": "DF",
+                  "club": "Palmeiras",
+                  "age": 33,
+                  "value": 1788480
+                },
+                {
+                  "name": "José Canale",
+                  "position": "DF",
+                  "club": "Lanús",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Fabián Balbuena",
+                  "position": "DF",
+                  "club": "Grêmio",
+                  "age": 34,
+                  "value": 1594080
+                },
+                {
+                  "name": "Julio Enciso",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Diego Gómez",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Braian Ojeda",
+                  "position": "MF",
+                  "club": "Orlando City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Antonio Sanabria",
+                  "position": "FW",
+                  "club": "Cremonese",
+                  "age": 30,
+                  "value": 7920000
+                },
+                {
+                  "name": "Isidro Pitta",
+                  "position": "FW",
+                  "club": "Bragantino",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ramón Sosa",
+                  "position": "FW",
+                  "club": "Palmeiras",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -26330,7 +31194,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -26797,38 +31661,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-21",
-        "temperatureMax": 29.1,
-        "temperatureMin": 24.6,
-        "precipitationProbability": 51,
-        "windSpeedMax": 18.4,
+        "temperatureMax": 30.1,
+        "temperatureMin": 24.4,
+        "precipitationProbability": 48,
+        "windSpeedMax": 22.8,
         "timezone": "America/Chicago",
-        "text": "Houston 当日约 24.6-29.1°C，降雨概率 51%，最大风速 18.4km/h。",
-        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+        "text": "Houston 当日约 24.4-30.1°C，降雨概率 48%，最大风速 22.8km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "荷兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Bart Verbruggen",
+                  "position": "GK",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jan Paul van Hecke",
+                  "position": "DF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jorrel Hato",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Denzel Dumfries",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Virgil van Dijk",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 34,
+                  "value": 13392000
+                },
+                {
+                  "name": "Ryan Gravenberch",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tijjani Reijnders",
+                  "position": "MF",
+                  "club": "Manchester City",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Frenkie de Jong",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Cody Gakpo",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Brian Brobbey",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Crysencio Summerville",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            },
+            {
+              "team": "瑞典",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Jacob Widell Zetterström",
+                  "position": "GK",
+                  "club": "Derby County",
+                  "age": 27,
+                  "value": 2700000
+                },
+                {
+                  "name": "Hjalmar Ekdal",
+                  "position": "DF",
+                  "club": "Burnley",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Victor Lindelöf",
+                  "position": "DF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Eric Smith",
+                  "position": "DF",
+                  "club": "St. Pauli",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Isak Hien",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yasin Ayari",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Lucas Bergvall",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 20,
+                  "value": 10080000
+                },
+                {
+                  "name": "Mattias Svanberg",
+                  "position": "MF",
+                  "club": "VfL Wolfsburg",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Alexander Bernhardsson",
+                  "position": "FW",
+                  "club": "Holstein Kiel",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Alexander Isak",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Anthony Elanga",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27153,7 +32190,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -27621,29 +32658,118 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-06-21",
-        "temperatureMax": 20.7,
-        "temperatureMin": 10.8,
+        "temperatureMax": 21,
+        "temperatureMin": 11,
         "precipitationProbability": 2,
-        "windSpeedMax": 15.6,
+        "windSpeedMax": 17,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 10.8-20.7°C，降雨概率 2%，最大风速 15.6km/h。",
+        "text": "Toronto 当日约 11-21°C，降雨概率 2%，最大风速 17km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "德国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alexander Nübel",
+                  "position": "GK",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Schlotterbeck",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Malick Thiaw",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nathaniel Brown",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Waldemar Anton",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Aleksandar Pavlovic",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nadiem Amiri",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Joshua Kimmich",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Kai Havertz",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 17112000
+                },
+                {
+                  "name": "Deniz Undav",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Maximilian Beier",
+                  "position": "FW",
+                  "club": "Borussia Dortmund",
+                  "age": 23,
+                  "value": 14490000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Undav scores twice as Germany fight back to beat Ivory Coast",
@@ -27654,8 +32780,8 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -27666,7 +32792,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27990,7 +33116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -28442,7 +33568,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 08:39:02 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:51:14 GMT"
         },
         {
           "title": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
@@ -28457,29 +33583,118 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
-        "temperatureMax": 27.4,
+        "temperatureMax": 27.7,
         "temperatureMin": 20.6,
-        "precipitationProbability": 87,
-        "windSpeedMax": 28.5,
+        "precipitationProbability": 86,
+        "windSpeedMax": 27.3,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 20.6-27.4°C，降雨概率 87%，最大风速 28.5km/h。",
-        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
+        "text": "Kansas City 当日约 20.6-27.7°C，降雨概率 86%，最大风速 27.3km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "厄瓜多尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Moisés Ramírez",
+                  "position": "GK",
+                  "club": "Kifisia",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Pervis Estupiñán",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Willian Pacho",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Piero Hincapié",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Léo Realpe",
+                  "position": "DF",
+                  "club": "Famalicão",
+                  "age": 25,
+                  "value": 3937500
+                },
+                {
+                  "name": "Moisés Caicedo",
+                  "position": "MF",
+                  "club": "Chelsea",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Denil Castillo",
+                  "position": "MF",
+                  "club": "FC Midtjylland",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "John Yeboah",
+                  "position": "MF",
+                  "club": "Venezia",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nilson Angulo",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Jeremy Arévalo",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "John Mercado",
+                  "position": "FW",
+                  "club": "Sparta Praha",
+                  "age": 24,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
@@ -28490,12 +33705,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -28824,7 +34039,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -29288,22 +34503,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "突尼斯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Aymen Dahmen",
+                  "position": "GK",
+                  "club": "",
+                  "age": 29,
+                  "value": 0
+                },
+                {
+                  "name": "Montassar Talbi",
+                  "position": "DF",
+                  "club": "Lorient",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ali Abdi",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Adem Arous",
+                  "position": "DF",
+                  "club": "Kasımpaşa",
+                  "age": 21,
+                  "value": 7560000
+                },
+                {
+                  "name": "Mohamed Amine Ben Hamida",
+                  "position": "DF",
+                  "club": "ES Tunis",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Hannibal",
+                  "position": "MF",
+                  "club": "Burnley",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Rani Khedira",
+                  "position": "MF",
+                  "club": "FC Union Berlin",
+                  "age": 32,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ellyes Skhiri",
+                  "position": "MF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Elias Saad",
+                  "position": "FW",
+                  "club": "Hannover 96",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Ismaël Gharbi",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Elias Achouri",
+                  "position": "FW",
+                  "club": "FC København",
+                  "age": 27,
+                  "value": 7750000
+                }
+              ]
+            },
+            {
+              "team": "日本",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Zion Suzuki",
+                  "position": "GK",
+                  "club": "Parma",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Hiroki Ito",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Yukinari Sugawara",
+                  "position": "DF",
+                  "club": "Werder Bremen",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tsuyoshi Watanabe",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Takehiro Tomiyasu",
+                  "position": "DF",
+                  "club": "Ajax",
+                  "age": 27,
+                  "value": 4750000
+                },
+                {
+                  "name": "Ayumu Seko",
+                  "position": "MF",
+                  "club": "Le Havre",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Kaishu Sano",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Daichi Kamada",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yuito Suzuki",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Ritsu Doan",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Takefusa Kubo",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -29314,7 +34702,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -29354,7 +34742,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了客胜方向（客胜概率65%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  突尼斯场均射门4次；日本场均射门10.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率56%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。  突尼斯场均射门4次；日本场均射门10.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -29643,7 +35031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -29652,8 +35040,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      61,
-      32,
+      62,
+      31,
       7
     ],
     "confidence": 72,
@@ -29666,14 +35054,14 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 15
-      },
-      {
-        "score": "0-0",
-        "chance": 13
+        "chance": 14
       },
       {
         "score": "1-0",
+        "chance": 13
+      },
+      {
+        "score": "0-0",
         "chance": 13
       }
     ],
@@ -29689,7 +35077,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
@@ -29712,12 +35100,12 @@ window.MATCHES = [
         "examples": [
           "1-1",
           "2-0",
-          "0-0"
+          "1-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 61,
+        "chance": 62,
         "examples": [
           "2-0",
           "1-0",
@@ -29726,7 +35114,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 40,
+        "chance": 41,
         "examples": [
           "2-0",
           "3-0",
@@ -29739,9 +35127,9 @@ window.MATCHES = [
       "under25": 58,
       "bttsYes": 41,
       "bttsNo": 59,
-      "homeWinBy2Plus": 38,
+      "homeWinBy2Plus": 39,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 28,
+      "lowScoreDraw": 27,
       "expectedTotalGoals": 2.48,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
@@ -29755,24 +35143,24 @@ window.MATCHES = [
         9
       ],
       "market": [
-        86,
-        10,
+        87,
+        9,
         4
       ],
       "blended": [
-        61,
-        32,
+        62,
+        31,
         7
       ],
       "blendWeight": 0.35,
       "drawGuardApplied": true,
       "drawGuardReason": "V3低进球僵局保护：低总进球、平局区间可见且热门方向过热时，回收部分热门概率给平局。",
       "deltas": [
-        23,
-        -18,
+        24,
+        -19,
         -5
       ],
-      "summary": "模型原始概率 63/28/9%；市场隐含概率 86/10/4%；按 35% 权重校准后为 61/32/7%。已触发低进球/僵局保护。"
+      "summary": "模型原始概率 63/28/9%；市场隐含概率 87/9/4%；按 35% 权重校准后为 62/31/7%。已触发低进球/僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -29853,7 +35241,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合35%）：主86% / 平10% / 客4%，倾向西班牙。"
+        "evidence": "赔率市场（48家博彩公司均值，融合35%）：主87% / 平9% / 客4%，倾向西班牙。"
       }
     ],
     "modelInputs": {
@@ -30110,17 +35498,17 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 49,
       "averageOdds": {
-        "home": 1.15,
-        "draw": 10.37,
-        "away": 23.77
+        "home": 1.14,
+        "draw": 10.73,
+        "away": 23.99
       },
       "impliedProbabilities": [
-        86,
-        10,
+        87,
+        9,
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.15 / 平 10.37 / 客 23.77。市场倾向 西班牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.14 / 平 10.73 / 客 23.99。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -30147,7 +35535,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 31.8,
@@ -30159,12 +35547,183 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条预计首发/阵容线索，尚非官方确认。",
-          "source": "public-rss",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "西班牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Joan García",
+                  "position": "GK",
+                  "club": "FC Barcelona",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Pau Cubarsí",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 19,
+                  "value": 18144000
+                },
+                {
+                  "name": "Pedro Porro",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Alejandro Grimaldo",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Aymeric Laporte",
+                  "position": "DF",
+                  "club": "Athletic Club",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Pedri",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 23,
+                  "value": 14490000
+                },
+                {
+                  "name": "Gavi",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 21,
+                  "value": 14219520
+                },
+                {
+                  "name": "Dani Olmo",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ferran Torres",
+                  "position": "FW",
+                  "club": "FC Barcelona",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Yéremy Pino",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 23,
+                  "value": 19530000
+                }
+              ]
+            },
+            {
+              "team": "沙特阿拉伯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nawaf Al-Aqidi",
+                  "position": "GK",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1062600
+                },
+                {
+                  "name": "Saud Abdulhamid",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Hassan Tambakti",
+                  "position": "DF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Nawaf Boushal",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ayman Yahya",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ziyad Al-Johani",
+                  "position": "MF",
+                  "club": "Al Ahli",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Naif Masoud",
+                  "position": "MF",
+                  "club": "Al Fateh",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nasser Al-Dawsari",
+                  "position": "MF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 3100000
+                },
+                {
+                  "name": "Sultan Mandash",
+                  "position": "FW",
+                  "club": "Al Hilal",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Firas Al-Buraikan",
+                  "position": "FW",
+                  "club": "Al Ahli",
+                  "age": 26,
+                  "value": 2415000
+                },
+                {
+                  "name": "Turki Al-Ammar",
+                  "position": "FW",
+                  "club": "Al-Qadsiah",
+                  "age": 26,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": [
             {
               "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -30175,17 +35734,19 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -30485,7 +36046,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -30953,8 +36514,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.49,
-        "draw": 4.53,
-        "away": 7.66
+        "draw": 4.54,
+        "away": 7.67
       },
       "impliedProbabilities": [
         65,
@@ -30962,7 +36523,7 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.54 / 客 7.67。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -30980,7 +36541,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 08:39:02 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:51:14 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -30998,22 +36559,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "比利时",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mike Penders",
+                  "position": "GK",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Koni De Winter",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Timothy Castagne",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Arthur Theate",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nathan Ngoy",
+                  "position": "DF",
+                  "club": "LOSC Lille",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Youri Tielemans",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amadou Onana",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Diego Moreira",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Leandro Trossard",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Jérémy Doku",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Matías Fernández-Pardo",
+                  "position": "FW",
+                  "club": "LOSC Lille",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            },
+            {
+              "team": "伊朗",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alireza Beiranvand",
+                  "position": "GK",
+                  "club": "Tractor Sazi",
+                  "age": 33,
+                  "value": 1368000
+                },
+                {
+                  "name": "Arya Yousefi",
+                  "position": "DF",
+                  "club": "Sepahan",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Milad Mohammadi",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Hossein Kanaani",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Ali Nemati",
+                  "position": "DF",
+                  "club": "Foolad",
+                  "age": 30,
+                  "value": 1672000
+                },
+                {
+                  "name": "Mohammad Ghorbani",
+                  "position": "MF",
+                  "club": "Al Wahda",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Saman Ghoddos",
+                  "position": "MF",
+                  "club": "Kalba",
+                  "age": 32,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amirmohammad Razzaghinia",
+                  "position": "MF",
+                  "club": "Esteghlal",
+                  "age": 20,
+                  "value": 2128000
+                },
+                {
+                  "name": "Alireza Jahanbakhsh",
+                  "position": "FW",
+                  "club": "Dender",
+                  "age": 32,
+                  "value": 2236960
+                },
+                {
+                  "name": "Mohammad Mohebi",
+                  "position": "FW",
+                  "club": "Rostov",
+                  "age": 27,
+                  "value": 2214000
+                },
+                {
+                  "name": "Mehdi Ghayedi",
+                  "position": "FW",
+                  "club": "Al Nasr",
+                  "age": 27,
+                  "value": 1900000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -31024,7 +36758,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -31319,7 +37053,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -31788,7 +37522,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.51,
         "draw": 4.1,
-        "away": 8.36
+        "away": 8.38
       },
       "impliedProbabilities": [
         64,
@@ -31796,7 +37530,7 @@ window.MATCHES = [
         12
       ],
       "marketFavorite": "乌拉圭",
-      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.36。市场倾向 乌拉圭。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.38。市场倾向 乌拉圭。"
     },
     "expertSignals": {
       "status": "connected",
@@ -31820,26 +37554,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "乌拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Santiago Mele",
+                  "position": "GK",
+                  "club": "Monterrey",
+                  "age": 28,
+                  "value": 1900000
+                },
+                {
+                  "name": "Mathías Olivera",
+                  "position": "DF",
+                  "club": "Napoli",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ronald Araujo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Santiago Bueno",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "José María Giménez",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 31,
+                  "value": 10032000
+                },
+                {
+                  "name": "Manuel Ugarte",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Federico Valverde",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Rodrigo Bentancur",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Agustín Álvarez",
+                  "position": "FW",
+                  "club": "Sassuolo",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Federico Viñas",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Brian Rodríguez",
+                  "position": "FW",
+                  "club": "América",
+                  "age": 26,
+                  "value": 2835000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -32139,7 +37962,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -32628,7 +38451,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.7,
@@ -32640,26 +38463,199 @@ window.MATCHES = [
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "新西兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alex Paulsen",
+                  "position": "GK",
+                  "club": "Lechia Gdańsk",
+                  "age": 23,
+                  "value": 2835000
+                },
+                {
+                  "name": "Callan Elliot",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Tim Payne",
+                  "position": "DF",
+                  "club": "Wellington Phoenix",
+                  "age": 32,
+                  "value": 2185920
+                },
+                {
+                  "name": "Tyler Bindon",
+                  "position": "DF",
+                  "club": "Sheffield United",
+                  "age": 21,
+                  "value": 1680000
+                },
+                {
+                  "name": "Nando Pijnaker",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 27,
+                  "value": 1500000
+                },
+                {
+                  "name": "Callum McCowatt",
+                  "position": "MF",
+                  "club": "Silkeborg IF",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Ryan Thomas",
+                  "position": "MF",
+                  "club": "PEC Zwolle",
+                  "age": 31,
+                  "value": 6820000
+                },
+                {
+                  "name": "Matthew Garbett",
+                  "position": "MF",
+                  "club": "NAC Breda",
+                  "age": 24,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chris Wood",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ben Waine",
+                  "position": "FW",
+                  "club": "Port Vale",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Kosta Barbarouses",
+                  "position": "FW",
+                  "club": "Western Sydney Wanderers",
+                  "age": 36,
+                  "value": 2232000
+                }
+              ]
+            },
+            {
+              "team": "埃及",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mohamed Alaa",
+                  "position": "GK",
+                  "club": "El Gounah",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Mohamed Abdelmonem",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 27,
+                  "value": 10488000
+                },
+                {
+                  "name": "Hossam Abdelmaguid",
+                  "position": "DF",
+                  "club": "Zamalek",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Mohamed Hany",
+                  "position": "DF",
+                  "club": "Al Ahly",
+                  "age": 30,
+                  "value": 2728000
+                },
+                {
+                  "name": "Khaled Sobhi",
+                  "position": "DF",
+                  "club": "Al Masry",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Nabil Dunga",
+                  "position": "MF",
+                  "club": "Al Najma",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Mahmoud Saber",
+                  "position": "MF",
+                  "club": "ZED FC",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Ahmed Kouka",
+                  "position": "MF",
+                  "club": "Al Ahly",
+                  "age": 24,
+                  "value": 1835400
+                },
+                {
+                  "name": "Mostafa Mohamed",
+                  "position": "FW",
+                  "club": "Nantes",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mohamed Salah",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "Haissem Hassan",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -32959,7 +38955,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -33461,26 +39457,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "阿根廷",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Juan Musso",
+                  "position": "GK",
+                  "club": "Atlético Madrid",
+                  "age": 32,
+                  "value": 11689920
+                },
+                {
+                  "name": "Cristian Romero",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Facundo Medina",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Marcos Senesi",
+                  "position": "DF",
+                  "club": "AFC Bournemouth",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Nahuel Molina",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Paz",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Giovani Lo Celso",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Thiago Almada",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico González",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Julián Alvarez",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 26,
+                  "value": 17010000
+                }
+              ]
+            },
+            {
+              "team": "奥地利",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Pentz",
+                  "position": "GK",
+                  "club": "Brøndby IF",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Phillipp Mwene",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Kevin Danso",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Konrad Laimer",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Stefan Posch",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Xaver Schlager",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Romano Schmid",
+                  "position": "MF",
+                  "club": "Werder Bremen",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Nicolas Seiwald",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Sasa Kalajdzic",
+                  "position": "FW",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 28,
+                  "value": 15252000
+                },
+                {
+                  "name": "Michael Gregoritsch",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Patrick Wimmer",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -33780,7 +39949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -34249,8 +40418,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.08,
-        "draw": 11.38,
-        "away": 29.25
+        "draw": 11.39,
+        "away": 29.53
       },
       "impliedProbabilities": [
         89,
@@ -34258,7 +40427,7 @@ window.MATCHES = [
         3
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，49 家公司均值：主 1.08 / 平 11.38 / 客 29.25。市场倾向 法国。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.08 / 平 11.39 / 客 29.53。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -34291,38 +40460,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 24.9,
         "temperatureMin": 20.3,
-        "precipitationProbability": 67,
+        "precipitationProbability": 91,
         "windSpeedMax": 15.5,
         "timezone": "America/New_York",
-        "text": "Philadelphia 当日约 20.3-24.9°C，降雨概率 67%，最大风速 15.5km/h。",
+        "text": "Philadelphia 当日约 20.3-24.9°C，降雨概率 91%，最大风速 15.5km/h。",
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "法国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Robin Risser",
+                  "position": "GK",
+                  "club": "Lens",
+                  "age": 21,
+                  "value": 16692480
+                },
+                {
+                  "name": "Lucas Hernández",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Dayot Upamecano",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Maxence Lacroix",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "William Saliba",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Aurélien Tchouaméni",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adrien Rabiot",
+                  "position": "MF",
+                  "club": "AC Milan",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Warren Zaïre-Emery",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Jean-Philippe Mateta",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michael Olise",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Marcus Thuram",
+                  "position": "FW",
+                  "club": "Inter",
+                  "age": 28,
+                  "value": 13800000
+                }
+              ]
+            },
+            {
+              "team": "伊拉克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ahmed Basil Fadhil",
+                  "position": "GK",
+                  "club": "Al Shorta",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Akam Hashem",
+                  "position": "DF",
+                  "club": "Al Zawra'a",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Mustafa Saadoon",
+                  "position": "DF",
+                  "club": "Al Shorta",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Hussein Ali",
+                  "position": "DF",
+                  "club": "Pogoń Szczecin",
+                  "age": 24,
+                  "value": 1575000
+                },
+                {
+                  "name": "Merchas Doski",
+                  "position": "DF",
+                  "club": "Viktoria Plzeň",
+                  "age": 26,
+                  "value": 1575000
+                },
+                {
+                  "name": "Kevin Yakob",
+                  "position": "MF",
+                  "club": "AGF",
+                  "age": 25,
+                  "value": 6037500
+                },
+                {
+                  "name": "Zidane Iqbal",
+                  "position": "MF",
+                  "club": "FC Utrecht",
+                  "age": 23,
+                  "value": 2669100
+                },
+                {
+                  "name": "Amir Al-Ammari",
+                  "position": "MF",
+                  "club": "Cracovia Kraków",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Ali Jasim",
+                  "position": "FW",
+                  "club": "Al Najma",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Marko Farji",
+                  "position": "FW",
+                  "club": "Venezia",
+                  "age": 22,
+                  "value": 1995000
+                },
+                {
+                  "name": "Youssef Amyn",
+                  "position": "FW",
+                  "club": "AEK Larnaca",
+                  "age": 22,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -34622,7 +40964,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -35129,26 +41471,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "挪威",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ørjan Nyland",
+                  "position": "GK",
+                  "club": "Sevilla",
+                  "age": 35,
+                  "value": 9564480
+                },
+                {
+                  "name": "Leo Østigård",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Julian Ryerson",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Sander Berge",
+                  "position": "MF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Martin Ødegaard",
+                  "position": "MF",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Antonio Nusa",
+                  "position": "FW",
+                  "club": "RB Leipzig",
+                  "age": 21,
+                  "value": 20832000
+                },
+                {
+                  "name": "Jørgen Strand Larsen",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600
+                }
+              ]
+            },
+            {
+              "team": "塞内加尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yehvann Diouf",
+                  "position": "GK",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mamadou Sarr",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Nobel Mendy",
+                  "position": "DF",
+                  "club": "Rayo Vallecano",
+                  "age": 21,
+                  "value": 18144000
+                },
+                {
+                  "name": "Antoine Mendy",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "El Hadji Malick Diouf",
+                  "position": "DF",
+                  "club": "West Ham United",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "Pape Matar Sarr",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Habib Diarra",
+                  "position": "MF",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Pathé Ciss",
+                  "position": "MF",
+                  "club": "Rayo Vallecano",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ibrahim Mbaye",
+                  "position": "FW",
+                  "club": "Paris Saint Germain",
+                  "age": 18,
+                  "value": 20832000
+                },
+                {
+                  "name": "Boulaye Dia",
+                  "position": "FW",
+                  "club": "Lazio",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Nicolas Jackson",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -35448,7 +41963,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -35940,26 +42455,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "约旦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yazeed Abulaila",
+                  "position": "GK",
+                  "club": "Al Hussein",
+                  "age": 33,
+                  "value": 1594080
+                },
+                {
+                  "name": "Yazan Alarab",
+                  "position": "DF",
+                  "club": "Seoul",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Yousef Abu Al-Jazar",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 26,
+                  "value": 1635900
+                },
+                {
+                  "name": "Mohammad Abualnadi",
+                  "position": "DF",
+                  "club": "Selangor",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Saed Al-Rosan",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Nizar Al-Rashdan",
+                  "position": "MF",
+                  "club": "Qatar SC",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Amer Jamous",
+                  "position": "MF",
+                  "club": "Al Wihdat",
+                  "age": 23,
+                  "value": 1635900
+                },
+                {
+                  "name": "Noor Al-Rawabdeh",
+                  "position": "MF",
+                  "club": "Selangor",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Mousa Tamari",
+                  "position": "FW",
+                  "club": "Rennes",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ibrahim Sabra",
+                  "position": "FW",
+                  "club": "Göztepe",
+                  "age": 20,
+                  "value": 5924800
+                },
+                {
+                  "name": "Ali Al-Azaizeh",
+                  "position": "FW",
+                  "club": "Al Shabab",
+                  "age": 22,
+                  "value": 3255000
+                }
+              ]
+            },
+            {
+              "team": "阿尔及利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Luca Zidane",
+                  "position": "GK",
+                  "club": "Granada",
+                  "age": 28,
+                  "value": 14904000
+                },
+                {
+                  "name": "Rafik Belghali",
+                  "position": "DF",
+                  "club": "Hellas Verona",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ramy Bensebaini",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Rayan Aït-Nouri",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Samir Chergui",
+                  "position": "DF",
+                  "club": "Paris",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Adil Aouchiche",
+                  "position": "MF",
+                  "club": "Schalke 04",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Hicham Boudaoui",
+                  "position": "MF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nabil Bentaleb",
+                  "position": "MF",
+                  "club": "LOSC Lille",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Amine Gouiri",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Mohamed Amoura",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Anis Hadj Moussa",
+                  "position": "FW",
+                  "club": "Feyenoord",
+                  "age": 24,
+                  "value": 8137500
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -36259,7 +42947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -36763,7 +43451,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 34.6,
@@ -36775,26 +43463,199 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "葡萄牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "José Sá",
+                  "position": "GK",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Diogo Dalot",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nuno Mendes",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Rúben Dias",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "João Cancelo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Samú Costa",
+                  "position": "MF",
+                  "club": "Mallorca",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vitinha",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "João Neves",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Pedro Neto",
+                  "position": "FW",
+                  "club": "Chelsea",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Francisco Conceição",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Gonçalo Guedes",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 11400000
+                }
+              ]
+            },
+            {
+              "team": "乌兹别克斯坦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Abduvokhid Nematov",
+                  "position": "GK",
+                  "club": "Nasaf",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Abdukodir Khusanov",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Rustam Ashurmatov",
+                  "position": "DF",
+                  "club": "Esteghlal",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Sherzod Nasrullaev",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1558000
+                },
+                {
+                  "name": "Umar Eshmurodov",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 33,
+                  "value": 649440
+                },
+                {
+                  "name": "Abbosbek Fayzullaev",
+                  "position": "MF",
+                  "club": "İstanbul Başakşehir",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "Aziz Ganiev",
+                  "position": "MF",
+                  "club": "Al Bataeh",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Akmal Mozgovoy",
+                  "position": "MF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Eldor Shomurodov",
+                  "position": "FW",
+                  "club": "İstanbul Başakşehir",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Oston Urunov",
+                  "position": "FW",
+                  "club": "Persepolis",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Igor Sergeev",
+                  "position": "FW",
+                  "club": "Pakhtakor",
+                  "age": 33,
+                  "value": 1121760
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -37094,7 +43955,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -37614,22 +44475,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "英格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dean Henderson",
+                  "position": "GK",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Tino Livramento",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jarell Quansah",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Marc Guéhi",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Harry Maguire",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "James Garner",
+                  "position": "MF",
+                  "club": "Everton",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Morgan Rogers",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adam Wharton",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Anthony Gordon",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Noni Madueke",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jarrod Bowen",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 29,
+                  "value": 18600000
+                }
+              ]
+            },
+            {
+              "team": "加纳",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Lawrence Ati Zigi",
+                  "position": "GK",
+                  "club": "St. Gallen",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Marvin Senaya",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jonas Adjetey",
+                  "position": "DF",
+                  "club": "VfL Wolfsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Kojo Peprah Oppong",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Gideon Mensah",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Ibrahim Sulemana",
+                  "position": "MF",
+                  "club": "Cagliari",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Thomas Partey",
+                  "position": "MF",
+                  "club": "Villarreal",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Elisha Owusu",
+                  "position": "MF",
+                  "club": "Auxerre",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Iñaki Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Antoine Semenyo",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Ernest Nuamah",
+                  "position": "FW",
+                  "club": "Olympique Lyonnais",
+                  "age": 22,
+                  "value": 11970000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 3 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Saka trains alone as England prepare for Ghana game",
@@ -37652,7 +44686,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -37952,7 +44986,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -38449,38 +45483,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.4,
         "temperatureMin": 13.9,
-        "precipitationProbability": 11,
+        "precipitationProbability": 10,
         "windSpeedMax": 14.5,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 13.9-24.4°C，降雨概率 11%，最大风速 14.5km/h。",
+        "text": "Toronto 当日约 13.9-24.4°C，降雨概率 10%，最大风速 14.5km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴拿马",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Mosquera",
+                  "position": "GK",
+                  "club": "Al-Fayha",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amir Murillo",
+                  "position": "DF",
+                  "club": "Beşiktaş",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Edgardo Fariña",
+                  "position": "DF",
+                  "club": "FK Nizjni Novgorod",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "José Córdoba",
+                  "position": "DF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Jiovany Ramos",
+                  "position": "DF",
+                  "club": "Academia Puerto Cabello",
+                  "age": 29,
+                  "value": 1886000
+                },
+                {
+                  "name": "Aníbal Godoy",
+                  "position": "MF",
+                  "club": "San Diego",
+                  "age": 36,
+                  "value": 2053440
+                },
+                {
+                  "name": "Cristian Martínez",
+                  "position": "MF",
+                  "club": "Ironi Kiryat Shmona",
+                  "age": 29,
+                  "value": 1900000
+                },
+                {
+                  "name": "Adalberto Carrasquilla",
+                  "position": "MF",
+                  "club": "Pumas UNAM",
+                  "age": 27,
+                  "value": 1900000
+                },
+                {
+                  "name": "Ismael Díaz",
+                  "position": "FW",
+                  "club": "León",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Yoel Bárcenas",
+                  "position": "FW",
+                  "club": "Mazatlán",
+                  "age": 32,
+                  "value": 2728000
+                },
+                {
+                  "name": "José Luis Rodríguez",
+                  "position": "FW",
+                  "club": "Juárez",
+                  "age": 27,
+                  "value": 1500000
+                }
+              ]
+            },
+            {
+              "team": "克罗地亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dominik Livakovic",
+                  "position": "GK",
+                  "club": "Girona",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Luka Vuskovic",
+                  "position": "DF",
+                  "club": "Hamburger SV",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Josip Stanisic",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Duje Caleta-Car",
+                  "position": "DF",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Josko Gvardiol",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Martin Baturina",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nikola Moro",
+                  "position": "MF",
+                  "club": "Bologna",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mario Pašalić",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Igor Matanovic",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ante Budimir",
+                  "position": "FW",
+                  "club": "Osasuna",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ivan Perišić",
+                  "position": "FW",
+                  "club": "PSV",
+                  "age": 37,
+                  "value": 5580000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -38775,7 +45982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -39282,26 +46489,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "哥伦比亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Álvaro Montero",
+                  "position": "GK",
+                  "club": "Vélez Sarsfield",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yerson Mosquera",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Yerry Mina",
+                  "position": "DF",
+                  "club": "Cagliari",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Daniel Muñoz",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 30,
+                  "value": 10032000
+                },
+                {
+                  "name": "Deiver Machado",
+                  "position": "DF",
+                  "club": "Nantes",
+                  "age": 32,
+                  "value": 9229440
+                },
+                {
+                  "name": "Richard Ríos",
+                  "position": "MF",
+                  "club": "Benfica",
+                  "age": 26,
+                  "value": 8137500
+                },
+                {
+                  "name": "Jefferson Lerma",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 31,
+                  "value": 7920000
+                },
+                {
+                  "name": "Jorge Carrascal",
+                  "position": "MF",
+                  "club": "Flamengo",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Luis Díaz",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Cucho Hernández",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Luis Suárez",
+                  "position": "FW",
+                  "club": "Sporting CP",
+                  "age": 28,
+                  "value": 4750000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -39601,7 +46897,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -40099,38 +47395,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 18.5,
         "temperatureMin": 13.2,
-        "precipitationProbability": 37,
+        "precipitationProbability": 44,
         "windSpeedMax": 23.5,
         "timezone": "America/Vancouver",
-        "text": "Vancouver 当日约 13.2-18.5°C，降雨概率 37%，最大风速 23.5km/h。",
+        "text": "Vancouver 当日约 13.2-18.5°C，降雨概率 44%，最大风速 23.5km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "瑞士",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Gregor Kobel",
+                  "position": "GK",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Luca Jaquez",
+                  "position": "DF",
+                  "club": "VfB Stuttgart",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Nico Elvedi",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Manuel Akanji",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ricardo Rodríguez",
+                  "position": "DF",
+                  "club": "Real Betis",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "Johan Manzambi",
+                  "position": "MF",
+                  "club": "SC Freiburg",
+                  "age": 20,
+                  "value": 20832000
+                },
+                {
+                  "name": "Djibril Sow",
+                  "position": "MF",
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michel Aebischer",
+                  "position": "MF",
+                  "club": "Pisa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Noah Okafor",
+                  "position": "FW",
+                  "club": "Leeds United",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dan Ndoye",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Cedric Itten",
+                  "position": "FW",
+                  "club": "Fortuna Düsseldorf",
+                  "age": 29,
+                  "value": 17112000
+                }
+              ]
+            },
+            {
+              "team": "加拿大",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Owen Goodman",
+                  "position": "GK",
+                  "club": "Barnsley",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Alphonso Davies",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 25,
+                  "value": 17967600
+                },
+                {
+                  "name": "Derek Cornelius",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Moïse Bombito",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 6930000
+                },
+                {
+                  "name": "Jahkeele Marshall-Rutty",
+                  "position": "DF",
+                  "club": "New York RB",
+                  "age": 21,
+                  "value": 3194240
+                },
+                {
+                  "name": "Ismaël Koné",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Nathan-Dylan Saliba",
+                  "position": "MF",
+                  "club": "Anderlecht",
+                  "age": 22,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ali Ahmed",
+                  "position": "MF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Tani Oluwaseyi",
+                  "position": "FW",
+                  "club": "Villarreal",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jacen Russell-Rowe",
+                  "position": "FW",
+                  "club": "Toulouse",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Jonathan David",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -40430,7 +47899,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -40927,38 +48396,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 23.1,
         "temperatureMin": 12,
-        "precipitationProbability": 21,
+        "precipitationProbability": 24,
         "windSpeedMax": 17.1,
         "timezone": "America/Los_Angeles",
-        "text": "Seattle 当日约 12-23.1°C，降雨概率 21%，最大风速 17.1km/h。",
+        "text": "Seattle 当日约 12-23.1°C，降雨概率 24%，最大风速 17.1km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "波黑",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nikola Vasilj",
+                  "position": "GK",
+                  "club": "St. Pauli",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Nikola Katic",
+                  "position": "DF",
+                  "club": "Schalke 04",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Sead Kolasinac",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Tarik Muharemović",
+                  "position": "DF",
+                  "club": "Sassuolo",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nidal Celik",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 19,
+                  "value": 11746560
+                },
+                {
+                  "name": "Armin Gigovic",
+                  "position": "MF",
+                  "club": "Holstein Kiel",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Dzenis Burnic",
+                  "position": "MF",
+                  "club": "Karlsruher SC",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amir Hadziahmetovic",
+                  "position": "MF",
+                  "club": "Hull City",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Ermedin Demirovic",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Edin Džeko",
+                  "position": "FW",
+                  "club": "Schalke 04",
+                  "age": 40,
+                  "value": 13392000
+                },
+                {
+                  "name": "Haris Tabakovic",
+                  "position": "FW",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 31,
+                  "value": 10032000
+                }
+              ]
+            },
+            {
+              "team": "卡塔尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Shehab Ellethy",
+                  "position": "GK",
+                  "club": "Al Shahaniya",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Ayoub Al-Oui",
+                  "position": "DF",
+                  "club": "Al Gharafa",
+                  "age": 21,
+                  "value": 2576000
+                },
+                {
+                  "name": "Issa Laye",
+                  "position": "DF",
+                  "club": "Al-Arabi SC",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Homam Al-Amin",
+                  "position": "DF",
+                  "club": "Al Duhail",
+                  "age": 26,
+                  "value": 2324700
+                },
+                {
+                  "name": "Boualem Khoukhi",
+                  "position": "DF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Mohamed Al-Mannai",
+                  "position": "MF",
+                  "club": "Al Shamal SC",
+                  "age": 22,
+                  "value": 2415000
+                },
+                {
+                  "name": "Hasan Al-Haydos",
+                  "position": "MF",
+                  "club": "Al Sadd",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Abdulaziz Hatim",
+                  "position": "MF",
+                  "club": "Al Rayyan",
+                  "age": 35,
+                  "value": 2232000
+                },
+                {
+                  "name": "Khalid Ali Sabah",
+                  "position": "FW",
+                  "club": "Al Sailiya",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "Edmílson Junior",
+                  "position": "FW",
+                  "club": "Al Duhail",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Mohamed Khaled Gouda",
+                  "position": "FW",
+                  "club": "Al-Arabi SC",
+                  "age": 21,
+                  "value": 2576000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -41258,7 +48900,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -41777,17 +49419,190 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "苏格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Angus Gunn",
+                  "position": "GK",
+                  "club": "Nottingham Forest",
+                  "age": 30,
+                  "value": 9229440
+                },
+                {
+                  "name": "Aaron Hickey",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Andrew Robertson",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 32,
+                  "value": 7920000
+                },
+                {
+                  "name": "John Souttar",
+                  "position": "DF",
+                  "club": "Rangers",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Scott McKenna",
+                  "position": "DF",
+                  "club": "Dinamo Zagreb",
+                  "age": 29,
+                  "value": 2300000
+                },
+                {
+                  "name": "Billy Gilmour",
+                  "position": "MF",
+                  "club": "Napoli",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "John McGinn",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ryan Christie",
+                  "position": "MF",
+                  "club": "AFC Bournemouth",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ché Adams",
+                  "position": "FW",
+                  "club": "Torino",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ben Gannon-Doak",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Findlay Curtis",
+                  "position": "FW",
+                  "club": "Rangers",
+                  "age": 19,
+                  "value": 3194240
+                }
+              ]
+            },
+            {
+              "team": "巴西",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alisson",
+                  "position": "GK",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Gabriel Magalhães",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Marquinhos",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 32,
+                  "value": 7286400
+                },
+                {
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Casemiro",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Bruno Guimarães",
+                  "position": "MF",
+                  "club": "Newcastle United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Rayan",
+                  "position": "FW",
+                  "club": "AFC Bournemouth",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vinicius Junior",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 25,
+                  "value": 17010000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -41798,12 +49613,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
@@ -42103,7 +49918,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -42607,29 +50422,202 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 31.3,
         "temperatureMin": 22.1,
-        "precipitationProbability": 34,
+        "precipitationProbability": 38,
         "windSpeedMax": 15.6,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 22.1-31.3°C，降雨概率 34%，最大风速 15.6km/h。",
+        "text": "Atlanta 当日约 22.1-31.3°C，降雨概率 38%，最大风速 15.6km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "摩洛哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "El Mehdi Al Harrar",
+                  "position": "GK",
+                  "club": "Raja Casablanca",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chadi Riad",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 17967600
+                },
+                {
+                  "name": "Abdelhamid Ait Boudlal",
+                  "position": "DF",
+                  "club": "Rennes",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Achraf Hakimi",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Noussair Mazraoui",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Azzedine Ounahi",
+                  "position": "MF",
+                  "club": "Girona",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Neil El Aynaoui",
+                  "position": "MF",
+                  "club": "Roma",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Samir El Mourabet",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Brahim Díaz",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Abde Ezzalzouli",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Ayoube Amaimouni-Echghouyab",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            },
+            {
+              "team": "海地",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Johny Placide",
+                  "position": "GK",
+                  "club": "Bastia",
+                  "age": 38,
+                  "value": 1368000
+                },
+                {
+                  "name": "Carlens Arcus",
+                  "position": "DF",
+                  "club": "Angers SCO",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Martin Expérience",
+                  "position": "DF",
+                  "club": "Nancy",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Hannes Delcroix",
+                  "position": "DF",
+                  "club": "Lugano",
+                  "age": 27,
+                  "value": 2116000
+                },
+                {
+                  "name": "Wilguens Paugain",
+                  "position": "DF",
+                  "club": "Zulte-Waregem",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Jean-Ricner Bellegarde",
+                  "position": "MF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Danley Jean Jacques",
+                  "position": "MF",
+                  "club": "Philadelphia Union",
+                  "age": 26,
+                  "value": 2669100
+                },
+                {
+                  "name": "Dominique Celidor Simon",
+                  "position": "MF",
+                  "club": "Dinamo Tbilisi",
+                  "age": 25,
+                  "value": 1155000
+                },
+                {
+                  "name": "Wilson Isidor",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Josué Casimir",
+                  "position": "FW",
+                  "club": "Auxerre",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Derrick Etienne Jr.",
+                  "position": "FW",
+                  "club": "Toronto",
+                  "age": 29,
+                  "value": 2852000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条伤停/身体状态线索，尚非官方伤停名单。",
+          "status": "none-reported",
+          "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": [
             {
               "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
@@ -42640,12 +50628,12 @@ window.MATCHES = [
           ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
@@ -42945,7 +50933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -42954,8 +50942,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      18,
-      26,
+      19,
+      25,
       56
     ],
     "confidence": 76,
@@ -42968,7 +50956,7 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 12
+        "chance": 11
       },
       {
         "score": "1-2",
@@ -43000,7 +50988,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 18,
+        "chance": 17,
         "examples": [
           "1-1",
           "0-0"
@@ -43010,7 +50998,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 46,
+        "chance": 45,
         "examples": [
           "1-1",
           "0-2",
@@ -43043,7 +51031,7 @@ window.MATCHES = [
       "bttsNo": 39,
       "homeWinBy2Plus": 7,
       "awayWinBy2Plus": 39,
-      "lowScoreDraw": 18,
+      "lowScoreDraw": 17,
       "expectedTotalGoals": 3.44,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
@@ -43057,24 +51045,24 @@ window.MATCHES = [
         63
       ],
       "market": [
-        25,
         26,
+        25,
         49
       ],
       "blended": [
-        18,
-        26,
+        19,
+        25,
         56
       ],
       "blendWeight": 0.5,
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        13,
-        1,
+        14,
+        0,
         -14
       ],
-      "summary": "模型原始概率 12/25/63%；市场隐含概率 25/26/49%；按 50% 权重校准后为 18/26/56%。"
+      "summary": "模型原始概率 12/25/63%；市场隐含概率 26/25/49%；按 50% 权重校准后为 19/25/56%。"
     },
     "motivation": {
       "phase": "group",
@@ -43155,7 +51143,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主25% / 平26% / 客49%，倾向墨西哥。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主26% / 平25% / 客49%，倾向墨西哥。"
       }
     ],
     "modelInputs": {
@@ -43413,16 +51401,16 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 3.69,
-        "draw": 3.73,
+        "draw": 3.74,
         "away": 1.96
       },
       "impliedProbabilities": [
-        25,
         26,
+        25,
         49
       ],
       "marketFavorite": "墨西哥",
-      "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.73 / 客 1.96。市场倾向 墨西哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.74 / 客 1.96。市场倾向 墨西哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -43443,7 +51431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 20.9,
@@ -43455,26 +51443,199 @@ window.MATCHES = [
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "捷克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Matej Kovar",
+                  "position": "GK",
+                  "club": "PSV",
+                  "age": 26,
+                  "value": 7087500
+                },
+                {
+                  "name": "Ladislav Krejci",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Robin Hranac",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Vladimír Coufal",
+                  "position": "DF",
+                  "club": "TSG Hoffenheim",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "David Jurásek",
+                  "position": "DF",
+                  "club": "Slavia Praha",
+                  "age": 25,
+                  "value": 3622500
+                },
+                {
+                  "name": "Pavel Sulc",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tomáš Souček",
+                  "position": "MF",
+                  "club": "West Ham United",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Lukas Cerv",
+                  "position": "MF",
+                  "club": "Viktoria Plzeň",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Patrik Schick",
+                  "position": "FW",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Adam Hlozek",
+                  "position": "FW",
+                  "club": "TSG Hoffenheim",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Mojmír Chytil",
+                  "position": "FW",
+                  "club": "Slavia Praha",
+                  "age": 27,
+                  "value": 3100000
+                }
+              ]
+            },
+            {
+              "team": "墨西哥",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Raúl Rangel",
+                  "position": "GK",
+                  "club": "Mexico",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Johan Vásquez",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Mateo Chávez",
+                  "position": "DF",
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500
+                },
+                {
+                  "name": "Israel Reyes",
+                  "position": "DF",
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jorge Sánchez",
+                  "position": "DF",
+                  "club": "Mexico",
+                  "age": 28,
+                  "value": 1500000
+                },
+                {
+                  "name": "Obed Vargas",
+                  "position": "MF",
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480
+                },
+                {
+                  "name": "Álvaro Fidalgo",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000
+                },
+                {
+                  "name": "Edson Álvarez",
+                  "position": "MF",
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Raúl Jiménez",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 35,
+                  "value": 8208000
+                },
+                {
+                  "name": "Guillermo Martínez Ayala",
+                  "position": "FW",
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -43769,7 +51930,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -44261,26 +52422,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "南非",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Sipho Chaine",
+                  "position": "GK",
+                  "club": "Orlando Pirates",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Ime Okon",
+                  "position": "DF",
+                  "club": "Hannover 96",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Mbekezeli Mbokazi",
+                  "position": "DF",
+                  "club": "Chicago Fire",
+                  "age": 20,
+                  "value": 3194240
+                },
+                {
+                  "name": "Khuliso Mudau",
+                  "position": "DF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Nkosinathi Sibisi",
+                  "position": "DF",
+                  "club": "Orlando Pirates",
+                  "age": 30,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yaya Sithole",
+                  "position": "MF",
+                  "club": "Tondela",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Thalente Mbatha",
+                  "position": "MF",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Jayden Adams",
+                  "position": "MF",
+                  "club": "Mamelodi Sundowns",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Lyle Foster",
+                  "position": "FW",
+                  "club": "Burnley",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Oswin Appollis",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Evidence Makgopa",
+                  "position": "FW",
+                  "club": "Orlando Pirates",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -44570,7 +52820,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -45037,8 +53287,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 19.24,
-        "draw": 8.5,
+        "home": 19.06,
+        "draw": 8.49,
         "away": 1.14
       },
       "impliedProbabilities": [
@@ -45047,7 +53297,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，46 家公司均值：主 19.24 / 平 8.5 / 客 1.14。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，46 家公司均值：主 19.06 / 平 8.49 / 客 1.14。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -45077,7 +53327,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 08:39:02 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:51:14 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -45086,24 +53336,24 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 24.9,
         "temperatureMin": 18.8,
-        "precipitationProbability": 34,
+        "precipitationProbability": 41,
         "windSpeedMax": 9.7,
         "timezone": "America/New_York",
-        "text": "Philadelphia 当日约 18.8-24.9°C，降雨概率 34%，最大风速 9.7km/h。",
+        "text": "Philadelphia 当日约 18.8-24.9°C，降雨概率 41%，最大风速 9.7km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -45113,11 +53363,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前1分、净胜球-6；科特迪瓦当前3分、净胜球0。",
@@ -45417,7 +53667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -45937,22 +54187,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "厄瓜多尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Moisés Ramírez",
+                  "position": "GK",
+                  "club": "Kifisia",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Pervis Estupiñán",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Willian Pacho",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Piero Hincapié",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 9450000
+                },
+                {
+                  "name": "Léo Realpe",
+                  "position": "DF",
+                  "club": "Famalicão",
+                  "age": 25,
+                  "value": 3937500
+                },
+                {
+                  "name": "Moisés Caicedo",
+                  "position": "MF",
+                  "club": "Chelsea",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Denil Castillo",
+                  "position": "MF",
+                  "club": "FC Midtjylland",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "John Yeboah",
+                  "position": "MF",
+                  "club": "Venezia",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nilson Angulo",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Jeremy Arévalo",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "John Mercado",
+                  "position": "FW",
+                  "club": "Sparta Praha",
+                  "age": 24,
+                  "value": 3255000
+                }
+              ]
+            },
+            {
+              "team": "德国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alexander Nübel",
+                  "position": "GK",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Schlotterbeck",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Malick Thiaw",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nathaniel Brown",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Waldemar Anton",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Aleksandar Pavlovic",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nadiem Amiri",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Joshua Kimmich",
+                  "position": "MF",
+                  "club": "FC Bayern München",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Kai Havertz",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 17112000
+                },
+                {
+                  "name": "Deniz Undav",
+                  "position": "FW",
+                  "club": "VfB Stuttgart",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Maximilian Beier",
+                  "position": "FW",
+                  "club": "Borussia Dortmund",
+                  "age": 23,
+                  "value": 14490000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "From factory floor to World Cup star - Germany's super-sub Undav",
@@ -45963,7 +54386,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前1分、净胜球-1；德国当前6分、净胜球7。",
@@ -46263,7 +54686,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -46731,8 +55154,8 @@ window.MATCHES = [
       "bookmakers": 43,
       "averageOdds": {
         "home": 2.07,
-        "draw": 3.34,
-        "away": 3.67
+        "draw": 3.35,
+        "away": 3.68
       },
       "impliedProbabilities": [
         46,
@@ -46740,7 +55163,7 @@ window.MATCHES = [
         26
       ],
       "marketFavorite": "日本",
-      "note": "已接入赔率市场，43 家公司均值：主 2.07 / 平 3.34 / 客 3.67。市场倾向 日本。"
+      "note": "已接入赔率市场，43 家公司均值：主 2.07 / 平 3.35 / 客 3.68。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "connected",
@@ -46782,22 +55205,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "日本",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Zion Suzuki",
+                  "position": "GK",
+                  "club": "Parma",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Hiroki Ito",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Yukinari Sugawara",
+                  "position": "DF",
+                  "club": "Werder Bremen",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Tsuyoshi Watanabe",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Takehiro Tomiyasu",
+                  "position": "DF",
+                  "club": "Ajax",
+                  "age": 27,
+                  "value": 4750000
+                },
+                {
+                  "name": "Ayumu Seko",
+                  "position": "MF",
+                  "club": "Le Havre",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Kaishu Sano",
+                  "position": "MF",
+                  "club": "FSV Mainz 05",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Daichi Kamada",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yuito Suzuki",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Ritsu Doan",
+                  "position": "FW",
+                  "club": "Eintracht Frankfurt",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Takefusa Kubo",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "瑞典",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Jacob Widell Zetterström",
+                  "position": "GK",
+                  "club": "Derby County",
+                  "age": 27,
+                  "value": 2700000
+                },
+                {
+                  "name": "Hjalmar Ekdal",
+                  "position": "DF",
+                  "club": "Burnley",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Victor Lindelöf",
+                  "position": "DF",
+                  "club": "Aston Villa",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Eric Smith",
+                  "position": "DF",
+                  "club": "St. Pauli",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Isak Hien",
+                  "position": "DF",
+                  "club": "Atalanta",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Yasin Ayari",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Lucas Bergvall",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 20,
+                  "value": 10080000
+                },
+                {
+                  "name": "Mattias Svanberg",
+                  "position": "MF",
+                  "club": "VfL Wolfsburg",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Alexander Bernhardsson",
+                  "position": "FW",
+                  "club": "Holstein Kiel",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Alexander Isak",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Anthony Elanga",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -46808,7 +55404,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前4分、净胜球4；瑞典当前3分、净胜球0。",
@@ -47108,7 +55704,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -47573,10 +56169,10 @@ window.MATCHES = [
       "eventId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "commenceTime": "2026-06-25T23:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 43,
+      "bookmakers": 42,
       "averageOdds": {
-        "home": 17.67,
-        "draw": 7.73,
+        "home": 17.7,
+        "draw": 7.74,
         "away": 1.16
       },
       "impliedProbabilities": [
@@ -47585,7 +56181,7 @@ window.MATCHES = [
         82
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，43 家公司均值：主 17.67 / 平 7.73 / 客 1.16。市场倾向 荷兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 17.7 / 平 7.74 / 客 1.16。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -47624,38 +56220,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.6,
         "temperatureMin": 20,
-        "precipitationProbability": 35,
+        "precipitationProbability": 42,
         "windSpeedMax": 26.3,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 20-28.6°C，降雨概率 35%，最大风速 26.3km/h。",
+        "text": "Kansas City 当日约 20-28.6°C，降雨概率 42%，最大风速 26.3km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "突尼斯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Aymen Dahmen",
+                  "position": "GK",
+                  "club": "",
+                  "age": 29,
+                  "value": 0
+                },
+                {
+                  "name": "Montassar Talbi",
+                  "position": "DF",
+                  "club": "Lorient",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ali Abdi",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Adem Arous",
+                  "position": "DF",
+                  "club": "Kasımpaşa",
+                  "age": 21,
+                  "value": 7560000
+                },
+                {
+                  "name": "Mohamed Amine Ben Hamida",
+                  "position": "DF",
+                  "club": "ES Tunis",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Hannibal",
+                  "position": "MF",
+                  "club": "Burnley",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Rani Khedira",
+                  "position": "MF",
+                  "club": "FC Union Berlin",
+                  "age": 32,
+                  "value": 14256000
+                },
+                {
+                  "name": "Ellyes Skhiri",
+                  "position": "MF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Elias Saad",
+                  "position": "FW",
+                  "club": "Hannover 96",
+                  "age": 26,
+                  "value": 17967600
+                },
+                {
+                  "name": "Ismaël Gharbi",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Elias Achouri",
+                  "position": "FW",
+                  "club": "FC København",
+                  "age": 27,
+                  "value": 7750000
+                }
+              ]
+            },
+            {
+              "team": "荷兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Bart Verbruggen",
+                  "position": "GK",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jan Paul van Hecke",
+                  "position": "DF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jorrel Hato",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Denzel Dumfries",
+                  "position": "DF",
+                  "club": "Inter",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Virgil van Dijk",
+                  "position": "DF",
+                  "club": "Liverpool",
+                  "age": 34,
+                  "value": 13392000
+                },
+                {
+                  "name": "Ryan Gravenberch",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tijjani Reijnders",
+                  "position": "MF",
+                  "club": "Manchester City",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Frenkie de Jong",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Cody Gakpo",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Brian Brobbey",
+                  "position": "FW",
+                  "club": "Sunderland",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Crysencio Summerville",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-8；荷兰当前4分、净胜球4。",
@@ -47950,7 +56719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -48463,26 +57232,115 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "美国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Schulte",
+                  "position": "GK",
+                  "club": "Columbus Crew",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Joe Scally",
+                  "position": "DF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mark McKenzie",
+                  "position": "DF",
+                  "club": "Toulouse",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Antonee Robinson",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Chris Richards",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Malik Tillman",
+                  "position": "MF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Tanner Tessmann",
+                  "position": "MF",
+                  "club": "Olympique Lyonnais",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Giovanni Reyna",
+                  "position": "MF",
+                  "club": "Borussia Mönchengladbach",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Christian Pulisic",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Folarin Balogun",
+                  "position": "FW",
+                  "club": "Monaco",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Timothy Weah",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
@@ -48782,7 +57640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -49301,22 +58159,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Gill",
+                  "position": "GK",
+                  "club": "San Lorenzo",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Omar Alderete",
+                  "position": "DF",
+                  "club": "Sunderland",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Gustavo Gómez",
+                  "position": "DF",
+                  "club": "Palmeiras",
+                  "age": 33,
+                  "value": 1788480
+                },
+                {
+                  "name": "José Canale",
+                  "position": "DF",
+                  "club": "Lanús",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Fabián Balbuena",
+                  "position": "DF",
+                  "club": "Grêmio",
+                  "age": 34,
+                  "value": 1594080
+                },
+                {
+                  "name": "Julio Enciso",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Diego Gómez",
+                  "position": "MF",
+                  "club": "Brighton & Hove Albion",
+                  "age": 23,
+                  "value": 9450000
+                },
+                {
+                  "name": "Braian Ojeda",
+                  "position": "MF",
+                  "club": "Orlando City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Antonio Sanabria",
+                  "position": "FW",
+                  "club": "Cremonese",
+                  "age": 30,
+                  "value": 7920000
+                },
+                {
+                  "name": "Isidro Pitta",
+                  "position": "FW",
+                  "club": "Bragantino",
+                  "age": 26,
+                  "value": 3255000
+                },
+                {
+                  "name": "Ramón Sosa",
+                  "position": "FW",
+                  "club": "Palmeiras",
+                  "age": 26,
+                  "value": 3255000
+                }
+              ]
+            },
+            {
+              "team": "澳大利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mathew Ryan",
+                  "position": "GK",
+                  "club": "Levante",
+                  "age": 34,
+                  "value": 11664000
+                },
+                {
+                  "name": "Alessandro Circati",
+                  "position": "DF",
+                  "club": "Parma",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jordan Bos",
+                  "position": "DF",
+                  "club": "Feyenoord",
+                  "age": 23,
+                  "value": 3937500
+                },
+                {
+                  "name": "Lucas Herrington",
+                  "position": "DF",
+                  "club": "Colorado Rapids",
+                  "age": 18,
+                  "value": 2576000
+                },
+                {
+                  "name": "Jacob Italiano",
+                  "position": "DF",
+                  "club": "Grazer AK",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Connor Metcalfe",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Cristian Volpato",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 22,
+                  "value": 14490000
+                },
+                {
+                  "name": "Jackson Irvine",
+                  "position": "MF",
+                  "club": "St. Pauli",
+                  "age": 33,
+                  "value": 8208000
+                },
+                {
+                  "name": "Awer Mabil",
+                  "position": "FW",
+                  "club": "Castellón",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Martin Boyle",
+                  "position": "FW",
+                  "club": "Hibernian",
+                  "age": 33,
+                  "value": 2232000
+                },
+                {
+                  "name": "Nishan Velupillay",
+                  "position": "FW",
+                  "club": "Melbourne Victory",
+                  "age": 25,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 2 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Sign up for the Recap newsletter: our free sport highlights email",
@@ -49333,7 +58364,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
@@ -49633,7 +58664,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -50101,7 +59132,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 43,
       "averageOdds": {
-        "home": 4.26,
+        "home": 4.27,
         "draw": 3.75,
         "away": 1.8
       },
@@ -50111,7 +59142,7 @@ window.MATCHES = [
         53
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，43 家公司均值：主 4.26 / 平 3.75 / 客 1.8。市场倾向 法国。"
+      "note": "已接入赔率市场，43 家公司均值：主 4.27 / 平 3.75 / 客 1.8。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -50147,26 +59178,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "挪威",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ørjan Nyland",
+                  "position": "GK",
+                  "club": "Sevilla",
+                  "age": 35,
+                  "value": 9564480
+                },
+                {
+                  "name": "Leo Østigård",
+                  "position": "DF",
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Julian Ryerson",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Sander Berge",
+                  "position": "MF",
+                  "club": "Fulham",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Martin Ødegaard",
+                  "position": "MF",
+                  "club": "Arsenal",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Antonio Nusa",
+                  "position": "FW",
+                  "club": "RB Leipzig",
+                  "age": 21,
+                  "value": 20832000
+                },
+                {
+                  "name": "Jørgen Strand Larsen",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600
+                }
+              ]
+            },
+            {
+              "team": "法国",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Robin Risser",
+                  "position": "GK",
+                  "club": "Lens",
+                  "age": 21,
+                  "value": 16692480
+                },
+                {
+                  "name": "Lucas Hernández",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Dayot Upamecano",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Maxence Lacroix",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "William Saliba",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Aurélien Tchouaméni",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adrien Rabiot",
+                  "position": "MF",
+                  "club": "AC Milan",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Warren Zaïre-Emery",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 20,
+                  "value": 15456000
+                },
+                {
+                  "name": "Jean-Philippe Mateta",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Michael Olise",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Marcus Thuram",
+                  "position": "FW",
+                  "club": "Inter",
+                  "age": 28,
+                  "value": 13800000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -50466,7 +59670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -50964,38 +60168,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 21,
         "temperatureMin": 15,
-        "precipitationProbability": 12,
+        "precipitationProbability": 7,
         "windSpeedMax": 10.3,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 15-21°C，降雨概率 12%，最大风速 10.3km/h。",
+        "text": "Toronto 当日约 15-21°C，降雨概率 7%，最大风速 10.3km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "塞内加尔",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yehvann Diouf",
+                  "position": "GK",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Mamadou Sarr",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Nobel Mendy",
+                  "position": "DF",
+                  "club": "Rayo Vallecano",
+                  "age": 21,
+                  "value": 18144000
+                },
+                {
+                  "name": "Antoine Mendy",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "El Hadji Malick Diouf",
+                  "position": "DF",
+                  "club": "West Ham United",
+                  "age": 21,
+                  "value": 10080000
+                },
+                {
+                  "name": "Pape Matar Sarr",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Habib Diarra",
+                  "position": "MF",
+                  "club": "Sunderland",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Pathé Ciss",
+                  "position": "MF",
+                  "club": "Rayo Vallecano",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Ibrahim Mbaye",
+                  "position": "FW",
+                  "club": "Paris Saint Germain",
+                  "age": 18,
+                  "value": 20832000
+                },
+                {
+                  "name": "Boulaye Dia",
+                  "position": "FW",
+                  "club": "Lazio",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Nicolas Jackson",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 11970000
+                }
+              ]
+            },
+            {
+              "team": "伊拉克",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Ahmed Basil Fadhil",
+                  "position": "GK",
+                  "club": "Al Shorta",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Akam Hashem",
+                  "position": "DF",
+                  "club": "Al Zawra'a",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Mustafa Saadoon",
+                  "position": "DF",
+                  "club": "Al Shorta",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Hussein Ali",
+                  "position": "DF",
+                  "club": "Pogoń Szczecin",
+                  "age": 24,
+                  "value": 1575000
+                },
+                {
+                  "name": "Merchas Doski",
+                  "position": "DF",
+                  "club": "Viktoria Plzeň",
+                  "age": 26,
+                  "value": 1575000
+                },
+                {
+                  "name": "Kevin Yakob",
+                  "position": "MF",
+                  "club": "AGF",
+                  "age": 25,
+                  "value": 6037500
+                },
+                {
+                  "name": "Zidane Iqbal",
+                  "position": "MF",
+                  "club": "FC Utrecht",
+                  "age": 23,
+                  "value": 2669100
+                },
+                {
+                  "name": "Amir Al-Ammari",
+                  "position": "MF",
+                  "club": "Cracovia Kraków",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Ali Jasim",
+                  "position": "FW",
+                  "club": "Al Najma",
+                  "age": 22,
+                  "value": 2835000
+                },
+                {
+                  "name": "Marko Farji",
+                  "position": "FW",
+                  "club": "Venezia",
+                  "age": 22,
+                  "value": 1995000
+                },
+                {
+                  "name": "Youssef Amyn",
+                  "position": "FW",
+                  "club": "AEK Larnaca",
+                  "age": 22,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -51290,7 +60667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -51787,7 +61164,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 33.9,
@@ -51799,12 +61176,99 @@ window.MATCHES = [
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条预计首发/阵容线索，尚非官方确认。",
-          "source": "public-rss",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "沙特阿拉伯",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Nawaf Al-Aqidi",
+                  "position": "GK",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1062600
+                },
+                {
+                  "name": "Saud Abdulhamid",
+                  "position": "DF",
+                  "club": "Lens",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Hassan Tambakti",
+                  "position": "DF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 2300000
+                },
+                {
+                  "name": "Nawaf Boushal",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 26,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ayman Yahya",
+                  "position": "DF",
+                  "club": "Al Nassr",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Ziyad Al-Johani",
+                  "position": "MF",
+                  "club": "Al Ahli",
+                  "age": 24,
+                  "value": 3255000
+                },
+                {
+                  "name": "Naif Masoud",
+                  "position": "MF",
+                  "club": "Al Fateh",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Nasser Al-Dawsari",
+                  "position": "MF",
+                  "club": "Al Hilal",
+                  "age": 27,
+                  "value": 3100000
+                },
+                {
+                  "name": "Sultan Mandash",
+                  "position": "FW",
+                  "club": "Al Hilal",
+                  "age": 31,
+                  "value": 2509760
+                },
+                {
+                  "name": "Firas Al-Buraikan",
+                  "position": "FW",
+                  "club": "Al Ahli",
+                  "age": 26,
+                  "value": 2415000
+                },
+                {
+                  "name": "Turki Al-Ammar",
+                  "position": "FW",
+                  "club": "Al-Qadsiah",
+                  "age": 26,
+                  "value": 1995000
+                }
+              ]
+            }
+          ],
           "articles": [
             {
               "title": "‘Stung’ Spain have digested shock start but know repeat is not an option",
@@ -51815,17 +61279,19 @@ window.MATCHES = [
           ]
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "已有相关新闻线索，但暂未识别出明确战术信息；当前仍以模型风格画像推断。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -52125,7 +61591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -52631,26 +62097,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "乌拉圭",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Santiago Mele",
+                  "position": "GK",
+                  "club": "Monterrey",
+                  "age": 28,
+                  "value": 1900000
+                },
+                {
+                  "name": "Mathías Olivera",
+                  "position": "DF",
+                  "club": "Napoli",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ronald Araujo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 27,
+                  "value": 18600000
+                },
+                {
+                  "name": "Santiago Bueno",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "José María Giménez",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 31,
+                  "value": 10032000
+                },
+                {
+                  "name": "Manuel Ugarte",
+                  "position": "MF",
+                  "club": "Manchester United",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Federico Valverde",
+                  "position": "MF",
+                  "club": "Real Madrid",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Rodrigo Bentancur",
+                  "position": "MF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Agustín Álvarez",
+                  "position": "FW",
+                  "club": "Sassuolo",
+                  "age": 25,
+                  "value": 9450000
+                },
+                {
+                  "name": "Federico Viñas",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Brian Rodríguez",
+                  "position": "FW",
+                  "club": "América",
+                  "age": 26,
+                  "value": 2835000
+                }
+              ]
+            },
+            {
+              "team": "西班牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Joan García",
+                  "position": "GK",
+                  "club": "FC Barcelona",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Pau Cubarsí",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 19,
+                  "value": 18144000
+                },
+                {
+                  "name": "Pedro Porro",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Alejandro Grimaldo",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 30,
+                  "value": 16368000
+                },
+                {
+                  "name": "Aymeric Laporte",
+                  "position": "DF",
+                  "club": "Athletic Club",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Pedri",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 23,
+                  "value": 14490000
+                },
+                {
+                  "name": "Gavi",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 21,
+                  "value": 14219520
+                },
+                {
+                  "name": "Dani Olmo",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 28,
+                  "value": 13800000
+                },
+                {
+                  "name": "Ferran Torres",
+                  "position": "FW",
+                  "club": "FC Barcelona",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Yéremy Pino",
+                  "position": "FW",
+                  "club": "Crystal Palace",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 23,
+                  "value": 19530000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -52950,7 +62589,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -53439,7 +63078,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 08:39:02 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:51:14 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -53454,38 +63093,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.7,
         "temperatureMin": 10.2,
-        "precipitationProbability": 53,
+        "precipitationProbability": 56,
         "windSpeedMax": 18.1,
         "timezone": "America/Los_Angeles",
-        "text": "Seattle 当日约 10.2-17.7°C，降雨概率 53%，最大风速 18.1km/h。",
-        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+        "text": "Seattle 当日约 10.2-17.7°C，降雨概率 56%，最大风速 18.1km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "埃及",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mohamed Alaa",
+                  "position": "GK",
+                  "club": "El Gounah",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Mohamed Abdelmonem",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 27,
+                  "value": 10488000
+                },
+                {
+                  "name": "Hossam Abdelmaguid",
+                  "position": "DF",
+                  "club": "Zamalek",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Mohamed Hany",
+                  "position": "DF",
+                  "club": "Al Ahly",
+                  "age": 30,
+                  "value": 2728000
+                },
+                {
+                  "name": "Khaled Sobhi",
+                  "position": "DF",
+                  "club": "Al Masry",
+                  "age": 31,
+                  "value": 2728000
+                },
+                {
+                  "name": "Nabil Dunga",
+                  "position": "MF",
+                  "club": "Al Najma",
+                  "age": 30,
+                  "value": 2509760
+                },
+                {
+                  "name": "Mahmoud Saber",
+                  "position": "MF",
+                  "club": "ZED FC",
+                  "age": 24,
+                  "value": 2415000
+                },
+                {
+                  "name": "Ahmed Kouka",
+                  "position": "MF",
+                  "club": "Al Ahly",
+                  "age": 24,
+                  "value": 1835400
+                },
+                {
+                  "name": "Mostafa Mohamed",
+                  "position": "FW",
+                  "club": "Nantes",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mohamed Salah",
+                  "position": "FW",
+                  "club": "Liverpool",
+                  "age": 33,
+                  "value": 9936000
+                },
+                {
+                  "name": "Haissem Hassan",
+                  "position": "FW",
+                  "club": "Real Oviedo",
+                  "age": 24,
+                  "value": 9450000
+                }
+              ]
+            },
+            {
+              "team": "伊朗",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alireza Beiranvand",
+                  "position": "GK",
+                  "club": "Tractor Sazi",
+                  "age": 33,
+                  "value": 1368000
+                },
+                {
+                  "name": "Arya Yousefi",
+                  "position": "DF",
+                  "club": "Sepahan",
+                  "age": 24,
+                  "value": 1995000
+                },
+                {
+                  "name": "Milad Mohammadi",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Hossein Kanaani",
+                  "position": "DF",
+                  "club": "Persepolis",
+                  "age": 32,
+                  "value": 1672000
+                },
+                {
+                  "name": "Ali Nemati",
+                  "position": "DF",
+                  "club": "Foolad",
+                  "age": 30,
+                  "value": 1672000
+                },
+                {
+                  "name": "Mohammad Ghorbani",
+                  "position": "MF",
+                  "club": "Al Wahda",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Saman Ghoddos",
+                  "position": "MF",
+                  "club": "Kalba",
+                  "age": 32,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amirmohammad Razzaghinia",
+                  "position": "MF",
+                  "club": "Esteghlal",
+                  "age": 20,
+                  "value": 2128000
+                },
+                {
+                  "name": "Alireza Jahanbakhsh",
+                  "position": "FW",
+                  "club": "Dender",
+                  "age": 32,
+                  "value": 2236960
+                },
+                {
+                  "name": "Mohammad Mohebi",
+                  "position": "FW",
+                  "club": "Rostov",
+                  "age": 27,
+                  "value": 2214000
+                },
+                {
+                  "name": "Mehdi Ghayedi",
+                  "position": "FW",
+                  "club": "Al Nasr",
+                  "age": 27,
+                  "value": 1900000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -53785,7 +63597,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -54250,10 +64062,10 @@ window.MATCHES = [
       "eventId": "581691da05dcd75b5c6d3be91ee9d2ab",
       "commenceTime": "2026-06-27T03:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 42,
+      "bookmakers": 43,
       "averageOdds": {
-        "home": 12.31,
-        "draw": 6.19,
+        "home": 12.37,
+        "draw": 6.21,
         "away": 1.22
       },
       "impliedProbabilities": [
@@ -54262,7 +64074,7 @@ window.MATCHES = [
         77
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，42 家公司均值：主 12.31 / 平 6.19 / 客 1.22。市场倾向 比利时。"
+      "note": "已接入赔率市场，43 家公司均值：主 12.37 / 平 6.21 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -54283,34 +64095,207 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 15.5,
         "temperatureMin": 10.2,
-        "precipitationProbability": 43,
+        "precipitationProbability": 46,
         "windSpeedMax": 15.7,
         "timezone": "America/Vancouver",
-        "text": "Vancouver 当日约 10.2-15.5°C，降雨概率 43%，最大风速 15.7km/h。",
+        "text": "Vancouver 当日约 10.2-15.5°C，降雨概率 46%，最大风速 15.7km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "新西兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Alex Paulsen",
+                  "position": "GK",
+                  "club": "Lechia Gdańsk",
+                  "age": 23,
+                  "value": 2835000
+                },
+                {
+                  "name": "Callan Elliot",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 26,
+                  "value": 2835000
+                },
+                {
+                  "name": "Tim Payne",
+                  "position": "DF",
+                  "club": "Wellington Phoenix",
+                  "age": 32,
+                  "value": 2185920
+                },
+                {
+                  "name": "Tyler Bindon",
+                  "position": "DF",
+                  "club": "Sheffield United",
+                  "age": 21,
+                  "value": 1680000
+                },
+                {
+                  "name": "Nando Pijnaker",
+                  "position": "DF",
+                  "club": "Auckland",
+                  "age": 27,
+                  "value": 1500000
+                },
+                {
+                  "name": "Callum McCowatt",
+                  "position": "MF",
+                  "club": "Silkeborg IF",
+                  "age": 27,
+                  "value": 7750000
+                },
+                {
+                  "name": "Ryan Thomas",
+                  "position": "MF",
+                  "club": "PEC Zwolle",
+                  "age": 31,
+                  "value": 6820000
+                },
+                {
+                  "name": "Matthew Garbett",
+                  "position": "MF",
+                  "club": "NAC Breda",
+                  "age": 24,
+                  "value": 2835000
+                },
+                {
+                  "name": "Chris Wood",
+                  "position": "FW",
+                  "club": "Nottingham Forest",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ben Waine",
+                  "position": "FW",
+                  "club": "Port Vale",
+                  "age": 25,
+                  "value": 3255000
+                },
+                {
+                  "name": "Kosta Barbarouses",
+                  "position": "FW",
+                  "club": "Western Sydney Wanderers",
+                  "age": 36,
+                  "value": 2232000
+                }
+              ]
+            },
+            {
+              "team": "比利时",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Mike Penders",
+                  "position": "GK",
+                  "club": "Strasbourg",
+                  "age": 20,
+                  "value": 18144000
+                },
+                {
+                  "name": "Koni De Winter",
+                  "position": "DF",
+                  "club": "AC Milan",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Timothy Castagne",
+                  "position": "DF",
+                  "club": "Fulham",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Arthur Theate",
+                  "position": "DF",
+                  "club": "Eintracht Frankfurt",
+                  "age": 26,
+                  "value": 11970000
+                },
+                {
+                  "name": "Nathan Ngoy",
+                  "position": "DF",
+                  "club": "LOSC Lille",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Youri Tielemans",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Amadou Onana",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Diego Moreira",
+                  "position": "MF",
+                  "club": "Strasbourg",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Leandro Trossard",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Jérémy Doku",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 14490000
+                },
+                {
+                  "name": "Matías Fernández-Pardo",
+                  "position": "FW",
+                  "club": "LOSC Lille",
+                  "age": 21,
+                  "value": 10080000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Doku criticised over plan to return home for birth",
@@ -54321,7 +64306,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -54621,7 +64606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -54734,9 +64719,9 @@ window.MATCHES = [
         58
       ],
       "market": [
-        9,
+        8,
         14,
-        77
+        78
       ],
       "blended": [
         12,
@@ -54747,11 +64732,11 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        -7,
+        -8,
         -12,
-        19
+        20
       ],
-      "summary": "模型原始概率 16/26/58%；市场隐含概率 9/14/77%；按 50% 权重校准后为 12/20/68%。"
+      "summary": "模型原始概率 16/26/58%；市场隐含概率 8/14/78%；按 50% 权重校准后为 12/20/68%。"
     },
     "motivation": {
       "phase": "group",
@@ -54832,7 +64817,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主9% / 平14% / 客77%，倾向英格兰。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主8% / 平14% / 客78%，倾向英格兰。"
       }
     ],
     "modelInputs": {
@@ -55090,16 +65075,16 @@ window.MATCHES = [
       "bookmakers": 42,
       "averageOdds": {
         "home": 11.29,
-        "draw": 6.69,
+        "draw": 6.71,
         "away": 1.22
       },
       "impliedProbabilities": [
-        9,
+        8,
         14,
-        77
+        78
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，42 家公司均值：主 11.29 / 平 6.69 / 客 1.22。市场倾向 英格兰。"
+      "note": "已接入赔率市场，42 家公司均值：主 11.29 / 平 6.71 / 客 1.22。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -55141,22 +65126,195 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "巴拿马",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Orlando Mosquera",
+                  "position": "GK",
+                  "club": "Al-Fayha",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Amir Murillo",
+                  "position": "DF",
+                  "club": "Beşiktaş",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Edgardo Fariña",
+                  "position": "DF",
+                  "club": "FK Nizjni Novgorod",
+                  "age": 24,
+                  "value": 2994600
+                },
+                {
+                  "name": "José Córdoba",
+                  "position": "DF",
+                  "club": "Norwich City",
+                  "age": 25,
+                  "value": 2835000
+                },
+                {
+                  "name": "Jiovany Ramos",
+                  "position": "DF",
+                  "club": "Academia Puerto Cabello",
+                  "age": 29,
+                  "value": 1886000
+                },
+                {
+                  "name": "Aníbal Godoy",
+                  "position": "MF",
+                  "club": "San Diego",
+                  "age": 36,
+                  "value": 2053440
+                },
+                {
+                  "name": "Cristian Martínez",
+                  "position": "MF",
+                  "club": "Ironi Kiryat Shmona",
+                  "age": 29,
+                  "value": 1900000
+                },
+                {
+                  "name": "Adalberto Carrasquilla",
+                  "position": "MF",
+                  "club": "Pumas UNAM",
+                  "age": 27,
+                  "value": 1900000
+                },
+                {
+                  "name": "Ismael Díaz",
+                  "position": "FW",
+                  "club": "León",
+                  "age": 29,
+                  "value": 3100000
+                },
+                {
+                  "name": "Yoel Bárcenas",
+                  "position": "FW",
+                  "club": "Mazatlán",
+                  "age": 32,
+                  "value": 2728000
+                },
+                {
+                  "name": "José Luis Rodríguez",
+                  "position": "FW",
+                  "club": "Juárez",
+                  "age": 27,
+                  "value": 1500000
+                }
+              ]
+            },
+            {
+              "team": "英格兰",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dean Henderson",
+                  "position": "GK",
+                  "club": "Crystal Palace",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Tino Livramento",
+                  "position": "DF",
+                  "club": "Newcastle United",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jarell Quansah",
+                  "position": "DF",
+                  "club": "Bayer 04 Leverkusen",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Marc Guéhi",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Harry Maguire",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 33,
+                  "value": 13392000
+                },
+                {
+                  "name": "James Garner",
+                  "position": "MF",
+                  "club": "Everton",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Morgan Rogers",
+                  "position": "MF",
+                  "club": "Aston Villa",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Adam Wharton",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 22,
+                  "value": 19530000
+                },
+                {
+                  "name": "Anthony Gordon",
+                  "position": "FW",
+                  "club": "Newcastle United",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Noni Madueke",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000
+                },
+                {
+                  "name": "Jarrod Bowen",
+                  "position": "FW",
+                  "club": "West Ham United",
+                  "age": 29,
+                  "value": 18600000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条战术/发布会线索，需结合首发确认。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": [
             {
               "title": "Cooling hoodies help England staff combat World Cup heat",
@@ -55167,7 +65325,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -55467,7 +65625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -55977,38 +66135,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.8,
         "temperatureMin": 19.3,
-        "precipitationProbability": 11,
+        "precipitationProbability": 9,
         "windSpeedMax": 13.4,
         "timezone": "America/New_York",
-        "text": "Philadelphia 当日约 19.3-29.8°C，降雨概率 11%，最大风速 13.4km/h。",
+        "text": "Philadelphia 当日约 19.3-29.8°C，降雨概率 9%，最大风速 13.4km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "克罗地亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Dominik Livakovic",
+                  "position": "GK",
+                  "club": "Girona",
+                  "age": 31,
+                  "value": 14256000
+                },
+                {
+                  "name": "Luka Vuskovic",
+                  "position": "DF",
+                  "club": "Hamburger SV",
+                  "age": 19,
+                  "value": 20832000
+                },
+                {
+                  "name": "Josip Stanisic",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Duje Caleta-Car",
+                  "position": "DF",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Josko Gvardiol",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 24,
+                  "value": 11970000
+                },
+                {
+                  "name": "Martin Baturina",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nikola Moro",
+                  "position": "MF",
+                  "club": "Bologna",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Mario Pašalić",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Igor Matanovic",
+                  "position": "FW",
+                  "club": "SC Freiburg",
+                  "age": 23,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ante Budimir",
+                  "position": "FW",
+                  "club": "Osasuna",
+                  "age": 34,
+                  "value": 6480000
+                },
+                {
+                  "name": "Ivan Perišić",
+                  "position": "FW",
+                  "club": "PSV",
+                  "age": 37,
+                  "value": 5580000
+                }
+              ]
+            },
+            {
+              "team": "加纳",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Lawrence Ati Zigi",
+                  "position": "GK",
+                  "club": "St. Gallen",
+                  "age": 29,
+                  "value": 2700000
+                },
+                {
+                  "name": "Marvin Senaya",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Jonas Adjetey",
+                  "position": "DF",
+                  "club": "VfL Wolfsburg",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Kojo Peprah Oppong",
+                  "position": "DF",
+                  "club": "Nice",
+                  "age": 22,
+                  "value": 11970000
+                },
+                {
+                  "name": "Gideon Mensah",
+                  "position": "DF",
+                  "club": "Auxerre",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Ibrahim Sulemana",
+                  "position": "MF",
+                  "club": "Cagliari",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Thomas Partey",
+                  "position": "MF",
+                  "club": "Villarreal",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Elisha Owusu",
+                  "position": "MF",
+                  "club": "Auxerre",
+                  "age": 28,
+                  "value": 9000000
+                },
+                {
+                  "name": "Iñaki Williams",
+                  "position": "FW",
+                  "club": "Athletic Club",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Antoine Semenyo",
+                  "position": "FW",
+                  "club": "Manchester City",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Ernest Nuamah",
+                  "position": "FW",
+                  "club": "Olympique Lyonnais",
+                  "age": 22,
+                  "value": 11970000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -56308,7 +66639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -56775,7 +67106,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 3.57,
+        "home": 3.56,
         "draw": 3.44,
         "away": 2.05
       },
@@ -56785,7 +67116,7 @@ window.MATCHES = [
         46
       ],
       "marketFavorite": "葡萄牙",
-      "note": "已接入赔率市场，42 家公司均值：主 3.57 / 平 3.44 / 客 2.05。市场倾向 葡萄牙。"
+      "note": "已接入赔率市场，42 家公司均值：主 3.56 / 平 3.44 / 客 2.05。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -56821,26 +67152,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "哥伦比亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Álvaro Montero",
+                  "position": "GK",
+                  "club": "Vélez Sarsfield",
+                  "age": 31,
+                  "value": 2376000
+                },
+                {
+                  "name": "Yerson Mosquera",
+                  "position": "DF",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 25,
+                  "value": 17010000
+                },
+                {
+                  "name": "Yerry Mina",
+                  "position": "DF",
+                  "club": "Cagliari",
+                  "age": 31,
+                  "value": 12144000
+                },
+                {
+                  "name": "Daniel Muñoz",
+                  "position": "DF",
+                  "club": "Crystal Palace",
+                  "age": 30,
+                  "value": 10032000
+                },
+                {
+                  "name": "Deiver Machado",
+                  "position": "DF",
+                  "club": "Nantes",
+                  "age": 32,
+                  "value": 9229440
+                },
+                {
+                  "name": "Richard Ríos",
+                  "position": "MF",
+                  "club": "Benfica",
+                  "age": 26,
+                  "value": 8137500
+                },
+                {
+                  "name": "Jefferson Lerma",
+                  "position": "MF",
+                  "club": "Crystal Palace",
+                  "age": 31,
+                  "value": 7920000
+                },
+                {
+                  "name": "Jorge Carrascal",
+                  "position": "MF",
+                  "club": "Flamengo",
+                  "age": 28,
+                  "value": 2484000
+                },
+                {
+                  "name": "Luis Díaz",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Cucho Hernández",
+                  "position": "FW",
+                  "club": "Real Betis",
+                  "age": 27,
+                  "value": 9000000
+                },
+                {
+                  "name": "Luis Suárez",
+                  "position": "FW",
+                  "club": "Sporting CP",
+                  "age": 28,
+                  "value": 4750000
+                }
+              ]
+            },
+            {
+              "team": "葡萄牙",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "José Sá",
+                  "position": "GK",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 33,
+                  "value": 11664000
+                },
+                {
+                  "name": "Diogo Dalot",
+                  "position": "DF",
+                  "club": "Manchester United",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nuno Mendes",
+                  "position": "DF",
+                  "club": "Paris Saint Germain",
+                  "age": 23,
+                  "value": 11970000
+                },
+                {
+                  "name": "Rúben Dias",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "João Cancelo",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 32,
+                  "value": 10032000
+                },
+                {
+                  "name": "Samú Costa",
+                  "position": "MF",
+                  "club": "Mallorca",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Vitinha",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "João Neves",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Pedro Neto",
+                  "position": "FW",
+                  "club": "Chelsea",
+                  "age": 26,
+                  "value": 19530000
+                },
+                {
+                  "name": "Francisco Conceição",
+                  "position": "FW",
+                  "club": "Juventus",
+                  "age": 23,
+                  "value": 19530000
+                },
+                {
+                  "name": "Gonçalo Guedes",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 11400000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -57135,7 +67639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -57632,38 +68136,127 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.8,
         "temperatureMin": 25.1,
-        "precipitationProbability": 9,
+        "precipitationProbability": 10,
         "windSpeedMax": 16.2,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 25.1-35.8°C，降雨概率 9%，最大风速 16.2km/h。",
+        "text": "Atlanta 当日约 25.1-35.8°C，降雨概率 10%，最大风速 16.2km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "乌兹别克斯坦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Abduvokhid Nematov",
+                  "position": "GK",
+                  "club": "Nasaf",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Abdukodir Khusanov",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 22,
+                  "value": 17010000
+                },
+                {
+                  "name": "Rustam Ashurmatov",
+                  "position": "DF",
+                  "club": "Esteghlal",
+                  "age": 29,
+                  "value": 1748000
+                },
+                {
+                  "name": "Sherzod Nasrullaev",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1558000
+                },
+                {
+                  "name": "Umar Eshmurodov",
+                  "position": "DF",
+                  "club": "Nasaf",
+                  "age": 33,
+                  "value": 649440
+                },
+                {
+                  "name": "Abbosbek Fayzullaev",
+                  "position": "MF",
+                  "club": "İstanbul Başakşehir",
+                  "age": 22,
+                  "value": 4987500
+                },
+                {
+                  "name": "Aziz Ganiev",
+                  "position": "MF",
+                  "club": "Al Bataeh",
+                  "age": 28,
+                  "value": 2300000
+                },
+                {
+                  "name": "Akmal Mozgovoy",
+                  "position": "MF",
+                  "club": "Nasaf",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Eldor Shomurodov",
+                  "position": "FW",
+                  "club": "İstanbul Başakşehir",
+                  "age": 30,
+                  "value": 4180000
+                },
+                {
+                  "name": "Oston Urunov",
+                  "position": "FW",
+                  "club": "Persepolis",
+                  "age": 25,
+                  "value": 1995000
+                },
+                {
+                  "name": "Igor Sergeev",
+                  "position": "FW",
+                  "club": "Pakhtakor",
+                  "age": 33,
+                  "value": 1121760
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -57963,7 +68556,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -58452,38 +69045,211 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
         "temperatureMin": 23,
-        "precipitationProbability": 17,
+        "precipitationProbability": 22,
         "windSpeedMax": 30.6,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 23-30.5°C，降雨概率 17%，最大风速 30.6km/h。",
+        "text": "Kansas City 当日约 23-30.5°C，降雨概率 22%，最大风速 30.6km/h。",
         "impact": "风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "阿尔及利亚",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Luca Zidane",
+                  "position": "GK",
+                  "club": "Granada",
+                  "age": 28,
+                  "value": 14904000
+                },
+                {
+                  "name": "Rafik Belghali",
+                  "position": "DF",
+                  "club": "Hellas Verona",
+                  "age": 24,
+                  "value": 17010000
+                },
+                {
+                  "name": "Ramy Bensebaini",
+                  "position": "DF",
+                  "club": "Borussia Dortmund",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Rayan Aït-Nouri",
+                  "position": "DF",
+                  "club": "Manchester City",
+                  "age": 25,
+                  "value": 11970000
+                },
+                {
+                  "name": "Samir Chergui",
+                  "position": "DF",
+                  "club": "Paris",
+                  "age": 27,
+                  "value": 11400000
+                },
+                {
+                  "name": "Adil Aouchiche",
+                  "position": "MF",
+                  "club": "Schalke 04",
+                  "age": 23,
+                  "value": 17967600
+                },
+                {
+                  "name": "Hicham Boudaoui",
+                  "position": "MF",
+                  "club": "Nice",
+                  "age": 26,
+                  "value": 17010000
+                },
+                {
+                  "name": "Nabil Bentaleb",
+                  "position": "MF",
+                  "club": "LOSC Lille",
+                  "age": 31,
+                  "value": 16368000
+                },
+                {
+                  "name": "Amine Gouiri",
+                  "position": "FW",
+                  "club": "Olympique Marseille",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Mohamed Amoura",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 26,
+                  "value": 9450000
+                },
+                {
+                  "name": "Anis Hadj Moussa",
+                  "position": "FW",
+                  "club": "Feyenoord",
+                  "age": 24,
+                  "value": 8137500
+                }
+              ]
+            },
+            {
+              "team": "奥地利",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Patrick Pentz",
+                  "position": "GK",
+                  "club": "Brøndby IF",
+                  "age": 29,
+                  "value": 6750000
+                },
+                {
+                  "name": "Phillipp Mwene",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 32,
+                  "value": 16368000
+                },
+                {
+                  "name": "Kevin Danso",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Konrad Laimer",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 29,
+                  "value": 16200000
+                },
+                {
+                  "name": "Stefan Posch",
+                  "position": "DF",
+                  "club": "FSV Mainz 05",
+                  "age": 29,
+                  "value": 13800000
+                },
+                {
+                  "name": "Xaver Schlager",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 28,
+                  "value": 16200000
+                },
+                {
+                  "name": "Romano Schmid",
+                  "position": "MF",
+                  "club": "Werder Bremen",
+                  "age": 26,
+                  "value": 14490000
+                },
+                {
+                  "name": "Nicolas Seiwald",
+                  "position": "MF",
+                  "club": "RB Leipzig",
+                  "age": 25,
+                  "value": 14490000
+                },
+                {
+                  "name": "Sasa Kalajdzic",
+                  "position": "FW",
+                  "club": "Wolverhampton Wanderers",
+                  "age": 28,
+                  "value": 15252000
+                },
+                {
+                  "name": "Michael Gregoritsch",
+                  "position": "FW",
+                  "club": "FC Augsburg",
+                  "age": 32,
+                  "value": 12144000
+                },
+                {
+                  "name": "Patrick Wimmer",
+                  "position": "FW",
+                  "club": "VfL Wolfsburg",
+                  "age": 25,
+                  "value": 9450000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -58783,7 +69549,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -59251,8 +70017,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 42,
       "averageOdds": {
-        "home": 13.66,
-        "draw": 6.85,
+        "home": 13.69,
+        "draw": 6.86,
         "away": 1.19
       },
       "impliedProbabilities": [
@@ -59261,7 +70027,7 @@ window.MATCHES = [
         79
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，42 家公司均值：主 13.66 / 平 6.85 / 客 1.19。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，42 家公司均值：主 13.69 / 平 6.86 / 客 1.19。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -59285,26 +70051,199 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发通常赛前约60分钟公布；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
+          "teams": [
+            {
+              "team": "约旦",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Yazeed Abulaila",
+                  "position": "GK",
+                  "club": "Al Hussein",
+                  "age": 33,
+                  "value": 1594080
+                },
+                {
+                  "name": "Yazan Alarab",
+                  "position": "DF",
+                  "club": "Seoul",
+                  "age": 30,
+                  "value": 2185920
+                },
+                {
+                  "name": "Yousef Abu Al-Jazar",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 26,
+                  "value": 1635900
+                },
+                {
+                  "name": "Mohammad Abualnadi",
+                  "position": "DF",
+                  "club": "Selangor",
+                  "age": 25,
+                  "value": 1635900
+                },
+                {
+                  "name": "Saed Al-Rosan",
+                  "position": "DF",
+                  "club": "Al Hussein",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Nizar Al-Rashdan",
+                  "position": "MF",
+                  "club": "Qatar SC",
+                  "age": 27,
+                  "value": 1748000
+                },
+                {
+                  "name": "Amer Jamous",
+                  "position": "MF",
+                  "club": "Al Wihdat",
+                  "age": 23,
+                  "value": 1635900
+                },
+                {
+                  "name": "Noor Al-Rawabdeh",
+                  "position": "MF",
+                  "club": "Selangor",
+                  "age": 29,
+                  "value": 1558000
+                },
+                {
+                  "name": "Mousa Tamari",
+                  "position": "FW",
+                  "club": "Rennes",
+                  "age": 29,
+                  "value": 18600000
+                },
+                {
+                  "name": "Ibrahim Sabra",
+                  "position": "FW",
+                  "club": "Göztepe",
+                  "age": 20,
+                  "value": 5924800
+                },
+                {
+                  "name": "Ali Al-Azaizeh",
+                  "position": "FW",
+                  "club": "Al Shabab",
+                  "age": 22,
+                  "value": 3255000
+                }
+              ]
+            },
+            {
+              "team": "阿根廷",
+              "formation": "4-3-3",
+              "source": "squad-projection",
+              "starters": [
+                {
+                  "name": "Juan Musso",
+                  "position": "GK",
+                  "club": "Atlético Madrid",
+                  "age": 32,
+                  "value": 11689920
+                },
+                {
+                  "name": "Cristian Romero",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Facundo Medina",
+                  "position": "DF",
+                  "club": "Olympique Marseille",
+                  "age": 27,
+                  "value": 13800000
+                },
+                {
+                  "name": "Marcos Senesi",
+                  "position": "DF",
+                  "club": "AFC Bournemouth",
+                  "age": 29,
+                  "value": 11400000
+                },
+                {
+                  "name": "Nahuel Molina",
+                  "position": "DF",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 11400000
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000
+                },
+                {
+                  "name": "Nico Paz",
+                  "position": "MF",
+                  "club": "Como",
+                  "age": 21,
+                  "value": 15456000
+                },
+                {
+                  "name": "Giovani Lo Celso",
+                  "position": "MF",
+                  "club": "Real Betis",
+                  "age": 30,
+                  "value": 14256000
+                },
+                {
+                  "name": "Thiago Almada",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 25,
+                  "value": 19530000
+                },
+                {
+                  "name": "Nico González",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 28,
+                  "value": 18600000
+                },
+                {
+                  "name": "Julián Alvarez",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 26,
+                  "value": 17010000
+                }
+              ]
+            }
+          ],
           "articles": []
         },
         "injuries": {
-          "status": "none-confirmed",
+          "status": "none-reported",
           "text": "权威数据源当前未返回本场伤停记录。",
+          "source": "API-Football",
+          "players": [],
           "articles": []
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向，待官方首发公布后替换。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -59532,7 +70471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -59928,9 +70867,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -59940,11 +70879,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60172,7 +71111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -60562,24 +71501,24 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.8,
         "temperatureMin": 25.8,
-        "precipitationProbability": 1,
+        "precipitationProbability": 3,
         "windSpeedMax": 22.1,
         "timezone": "America/Chicago",
-        "text": "Houston 当日约 25.8-35.8°C，降雨概率 1%，最大风速 22.1km/h。",
+        "text": "Houston 当日约 25.8-35.8°C，降雨概率 3%，最大风速 22.1km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -60589,11 +71528,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60821,7 +71760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -61217,9 +72156,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -61229,11 +72168,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61461,7 +72400,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -61857,9 +72796,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -61869,11 +72808,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62101,7 +73040,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -62497,9 +73436,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -62509,11 +73448,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62741,7 +73680,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -63137,9 +74076,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -63149,11 +74088,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63381,7 +74320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -63771,7 +74710,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.8,
@@ -63786,9 +74725,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -63798,11 +74737,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64030,7 +74969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -64420,7 +75359,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 32.9,
@@ -64435,9 +75374,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -64447,11 +75386,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64679,7 +75618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -65069,7 +76008,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.6,
@@ -65084,9 +76023,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -65096,11 +76035,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65328,7 +76267,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -65724,9 +76663,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -65736,11 +76675,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65968,7 +76907,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -66363,9 +77302,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -66375,11 +77314,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -66607,7 +77546,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -66997,7 +77936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 23.4,
@@ -67012,9 +77951,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -67024,11 +77963,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67256,7 +78195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -67646,7 +78585,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 21.3,
@@ -67661,9 +78600,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -67673,11 +78612,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67905,7 +78844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -68301,9 +79240,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -68313,11 +79252,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -68545,7 +79484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -68941,9 +79880,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -68953,11 +79892,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69185,7 +80124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -69575,7 +80514,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 28.5,
@@ -69590,9 +80529,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -69602,11 +80541,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69834,7 +80773,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -70224,7 +81163,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.2,
@@ -70239,9 +81178,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -70251,11 +81190,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70483,7 +81422,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -70873,7 +81812,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 29.7,
@@ -70888,9 +81827,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -70900,11 +81839,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71132,7 +82071,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -71528,9 +82467,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -71540,11 +82479,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71772,7 +82711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -72162,7 +83101,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:46:18.598Z",
+        "fetchedAt": "2026-06-21T09:07:46.216Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -72177,9 +83116,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -72189,11 +83128,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72421,7 +83360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -72817,9 +83756,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -72829,11 +83768,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73061,7 +84000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -73460,9 +84399,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -73472,11 +84411,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73704,7 +84643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -74103,9 +85042,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -74115,11 +85054,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74347,7 +85286,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -74745,9 +85684,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -74757,11 +85696,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74989,7 +85928,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -75385,9 +86324,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -75397,11 +86336,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -75629,7 +86568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -76025,9 +86964,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -76037,11 +86976,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76269,7 +87208,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -76665,9 +87604,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -76677,11 +87616,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76909,7 +87848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -77308,9 +88247,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -77320,11 +88259,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -77552,7 +88491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -77948,9 +88887,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -77960,11 +88899,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78192,7 +89131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -78591,9 +89530,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -78603,11 +89542,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78835,7 +89774,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -79231,9 +90170,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -79243,11 +90182,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79475,7 +90414,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:46:18.598Z",
+      "fetchedAt": "2026-06-21T09:07:46.216Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -79871,9 +90810,9 @@ window.MATCHES = [
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "pending",
-          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
-          "source": "API-Football",
+          "status": "projected",
+          "text": "官方首发尚未公布；当前可用阵容数据不足，暂以球队整体风格和近期表现推断。",
+          "source": "model-projection",
           "articles": []
         },
         "injuries": {
@@ -79883,11 +90822,11 @@ window.MATCHES = [
         },
         "tactical": {
           "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向，等待权威首发和伤停数据校准。",
+          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:46:18.598Z"
+      "updatedAt": "2026-06-21T09:07:46.216Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79904,7 +90843,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-21T08:46:18.598Z",
+  "updatedAt": "2026-06-21T09:07:46.216Z",
   "completedCount": 36,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
@@ -86383,8 +97322,8 @@ window.ANALYSIS_BACKTEST = {
     }
   ],
   "learningLoop": {
-    "accuracy": 63.9,
-    "correct": 23,
+    "accuracy": 61.1,
+    "correct": 22,
     "totalMatches": 36,
     "needsAdjust": false,
     "factorAccuracy": {
