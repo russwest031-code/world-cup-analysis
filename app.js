@@ -216,13 +216,7 @@
 
       '<div class="detail-content">' +
 
-        // Section 1: 比赛判断
-        '<section class="detail-section">' +
-          '<div class="section-title"><h3>比赛判断</h3><small>模型综合分析</small></div>' +
-          '<p class="analysis-copy">' + sanitizeDisplayText(match.summary) + '</p>' +
-        '</section>' +
-
-        // Section 2: 参考结论
+        // Section 1: 参考结论
         renderConclusion(match) +
 
         // Section 3: 近期状态（真实比赛数据）
