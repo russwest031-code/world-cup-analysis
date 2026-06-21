@@ -5,7 +5,8 @@
   "description": "Professional football match analysis and score prediction app",
   "scripts": {
     "start": "node server.js",
-    "update:predictions": "node scripts/update-predictions.mjs"
+    "update:predictions": "node scripts/update-predictions.mjs",
+    "agent:daily": "node scripts/daily-agent.mjs"
   },
   "engines": {
     "node": ">=18"
