@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-21T08:14:28.342Z",
+  "updatedAt": "2026-06-21T08:30:41.873Z",
   "runDate": "2026-06-21",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-21T08:14:28.342Z",
+  "externalFetchedAt": "2026-06-21T08:30:41.873Z",
   "externalMatchCount": 104,
   "model": "calibrated-draw-guard-v4",
   "rulesModel": "wc2026-group-qualification-v1",
@@ -318,7 +318,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -765,7 +765,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -796,7 +796,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1120,7 +1120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1579,7 +1579,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -1908,7 +1908,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2355,7 +2355,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -2386,7 +2386,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -2715,7 +2715,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3196,7 +3196,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -3233,7 +3233,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -3526,7 +3526,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -3995,7 +3995,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4324,7 +4324,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -4510,7 +4510,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -4756,14 +4756,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
-        },
         {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
           "source": "www.theguardian.com",
@@ -4777,7 +4771,7 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 03:05:05 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -4812,7 +4806,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -4848,7 +4842,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -5141,7 +5135,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -5634,7 +5628,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -5958,7 +5952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -6422,7 +6416,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -6466,7 +6460,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -6790,7 +6784,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -7255,7 +7249,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -7300,7 +7294,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -7629,7 +7623,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -8116,7 +8110,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -8440,7 +8434,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -8892,10 +8886,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 22:45:52 GMT"
         },
         {
-          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
+          "title": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "link": "https://www.theguardian.com/football/2026/jun/21/curacao-ecuador-world-cup-group-e-match-report",
+          "pubDate": "Sun, 21 Jun 2026 02:35:43 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -8904,7 +8898,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -8935,7 +8929,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -9265,7 +9259,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -9759,7 +9753,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10083,7 +10077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -10535,7 +10529,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -10573,7 +10567,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -10902,7 +10896,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -11349,7 +11343,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -11387,7 +11381,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -11423,7 +11417,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -11716,7 +11710,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -12185,7 +12179,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -12514,7 +12508,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -12952,7 +12946,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -12989,7 +12983,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -13318,7 +13312,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -13806,7 +13800,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14135,7 +14129,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -14604,7 +14598,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -14933,7 +14927,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -15380,7 +15374,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -15411,7 +15405,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -15740,7 +15734,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -16200,7 +16194,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -16524,7 +16518,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -16977,7 +16971,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -17008,7 +17002,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -17337,7 +17331,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -17838,7 +17832,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18167,7 +18161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -18619,7 +18613,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -18650,7 +18644,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -18979,7 +18973,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -19426,7 +19420,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -19457,7 +19451,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -19786,7 +19780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -20223,7 +20217,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -20254,7 +20248,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -20583,7 +20577,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -21043,7 +21037,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -21372,7 +21366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -21825,7 +21819,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -21856,7 +21850,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22180,7 +22174,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -22649,7 +22643,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -22978,7 +22972,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -23443,7 +23437,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -23487,7 +23481,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -23817,7 +23811,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -24311,7 +24305,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -24640,7 +24634,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -24826,7 +24820,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -25072,14 +25066,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
-        },
         {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
           "source": "www.theguardian.com",
@@ -25093,13 +25081,13 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 03:05:05 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -25137,7 +25125,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -25173,7 +25161,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -25461,7 +25449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -25942,7 +25930,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -26271,7 +26259,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -26724,10 +26712,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 17:57:23 GMT"
         },
         {
-          "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
+          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
-          "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -26736,15 +26724,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-21",
-        "temperatureMax": 29.3,
-        "temperatureMin": 24.4,
+        "temperatureMax": 29.1,
+        "temperatureMin": 24.6,
         "precipitationProbability": 51,
-        "windSpeedMax": 22.9,
+        "windSpeedMax": 18.4,
         "timezone": "America/Chicago",
-        "text": "Houston 当日约 24.4-29.3°C，降雨概率 51%，最大风速 22.9km/h。",
+        "text": "Houston 当日约 24.6-29.1°C，降雨概率 51%，最大风速 18.4km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -26767,7 +26755,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27092,7 +27080,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -27558,15 +27546,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 20.7,
-        "temperatureMin": 10.6,
+        "temperatureMin": 10.8,
         "precipitationProbability": 2,
-        "windSpeedMax": 15.7,
+        "windSpeedMax": 15.6,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 10.6-20.7°C，降雨概率 2%，最大风速 15.7km/h。",
+        "text": "Toronto 当日约 10.8-20.7°C，降雨概率 2%，最大风速 15.6km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -27609,7 +27597,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -27933,7 +27921,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -28383,7 +28371,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         },
         {
           "title": "Room shuts door as Curaçao claim historic first World Cup point against Ecuador",
@@ -28398,32 +28386,25 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
-        "temperatureMax": 27.5,
-        "temperatureMin": 19.7,
+        "temperatureMax": 27.4,
+        "temperatureMin": 20.6,
         "precipitationProbability": 87,
-        "windSpeedMax": 29.4,
+        "windSpeedMax": 28.5,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 19.7-27.5°C，降雨概率 87%，最大风速 29.4km/h。",
+        "text": "Kansas City 当日约 20.6-27.4°C，降雨概率 87%，最大风速 28.5km/h。",
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升。"
       },
       "teamNews": {
         "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
-          "status": "news-derived",
-          "text": "从公开新闻源匹配到 1 条预计首发/阵容线索，尚非官方确认。",
-          "source": "public-rss",
-          "articles": [
-            {
-              "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-              "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
-            }
-          ]
+          "status": "pending",
+          "text": "权威数据源已接入，但本场首发尚未公布或未匹配到 fixture。",
+          "source": "API-Football",
+          "articles": []
         },
         "injuries": {
           "status": "news-derived",
@@ -28443,7 +28424,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -28772,7 +28753,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -28958,7 +28939,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -29204,7 +29185,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Goalline technology denies Japan goal by fractions",
@@ -29219,19 +29200,13 @@ window.MATCHES = [
           "pubDate": "Sun, 21 Jun 2026 06:25:15 GMT"
         },
         {
-          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
-        },
-        {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/21/japan-tunisia-world-cup-group-f-match-report",
           "pubDate": "Sun, 21 Jun 2026 06:22:47 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -29266,7 +29241,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
@@ -29302,7 +29277,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -29595,7 +29570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -30061,8 +30036,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.15,
-        "draw": 10.35,
-        "away": 23.74
+        "draw": 10.41,
+        "away": 23.46
       },
       "impliedProbabilities": [
         86,
@@ -30070,7 +30045,7 @@ window.MATCHES = [
         4
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.15 / 平 10.35 / 客 23.74。市场倾向 西班牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.15 / 平 10.41 / 客 23.46。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -30097,15 +30072,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
-        "temperatureMax": 31,
-        "temperatureMin": 21.9,
+        "temperatureMax": 31.8,
+        "temperatureMin": 22.4,
         "precipitationProbability": 68,
-        "windSpeedMax": 30.7,
+        "windSpeedMax": 29,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 21.9-31°C，降雨概率 68%，最大风速 30.7km/h。",
+        "text": "Atlanta 当日约 22.4-31.8°C，降雨概率 68%，最大风速 29km/h。",
         "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；风速偏高，长传和高球处理风险上升；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -30135,7 +30110,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -30435,7 +30410,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -30901,8 +30876,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.49,
-        "draw": 4.53,
-        "away": 7.66
+        "draw": 4.52,
+        "away": 7.67
       },
       "impliedProbabilities": [
         65,
@@ -30910,7 +30885,7 @@ window.MATCHES = [
         13
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.52 / 客 7.67。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
@@ -30928,7 +30903,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -30972,7 +30947,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -31267,7 +31242,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -31733,8 +31708,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.51,
-        "draw": 4.09,
-        "away": 8.39
+        "draw": 4.1,
+        "away": 8.36
       },
       "impliedProbabilities": [
         64,
@@ -31742,7 +31717,7 @@ window.MATCHES = [
         12
       ],
       "marketFavorite": "乌拉圭",
-      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.09 / 客 8.39。市场倾向 乌拉圭。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.36。市场倾向 乌拉圭。"
     },
     "expertSignals": {
       "status": "connected",
@@ -31785,7 +31760,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
@@ -32085,7 +32060,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -32550,9 +32525,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 49,
       "averageOdds": {
-        "home": 5.9,
+        "home": 5.93,
         "draw": 3.92,
-        "away": 1.67
+        "away": 1.66
       },
       "impliedProbabilities": [
         16,
@@ -32560,7 +32535,7 @@ window.MATCHES = [
         59
       ],
       "marketFavorite": "埃及",
-      "note": "已接入赔率市场，49 家公司均值：主 5.9 / 平 3.92 / 客 1.67。市场倾向 埃及。"
+      "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.92 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
       "status": "no-match",
@@ -32572,15 +32547,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
-        "temperatureMax": 26,
-        "temperatureMin": 14.6,
+        "temperatureMax": 26.7,
+        "temperatureMin": 14.3,
         "precipitationProbability": 1,
-        "windSpeedMax": 19.5,
+        "windSpeedMax": 19.3,
         "timezone": "America/Vancouver",
-        "text": "Vancouver 当日约 14.6-26°C，降雨概率 1%，最大风速 19.5km/h。",
+        "text": "Vancouver 当日约 14.3-26.7°C，降雨概率 1%，最大风速 19.3km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -32603,7 +32578,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
@@ -32903,7 +32878,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -33370,7 +33345,7 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.54,
-        "draw": 4.04,
+        "draw": 4.05,
         "away": 6.49
       },
       "impliedProbabilities": [
@@ -33379,7 +33354,7 @@ window.MATCHES = [
         15
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.04 / 客 6.49。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.54 / 平 4.05 / 客 6.49。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -33422,7 +33397,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。",
@@ -33722,7 +33697,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -34189,8 +34164,8 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.08,
-        "draw": 11.39,
-        "away": 29.11
+        "draw": 11.36,
+        "away": 28.96
       },
       "impliedProbabilities": [
         89,
@@ -34198,7 +34173,7 @@ window.MATCHES = [
         3
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，49 家公司均值：主 1.08 / 平 11.39 / 客 29.11。市场倾向 法国。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.08 / 平 11.36 / 客 28.96。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -34231,7 +34206,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 24.9,
@@ -34262,7 +34237,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。",
@@ -34562,7 +34537,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -35086,7 +35061,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。",
@@ -35386,7 +35361,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -35895,7 +35870,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。",
@@ -36195,7 +36170,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -36305,9 +36280,9 @@ window.MATCHES = [
         9
       ],
       "market": [
-        79,
+        80,
         14,
-        7
+        6
       ],
       "blended": [
         71,
@@ -36318,11 +36293,11 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        15,
+        16,
         -13,
-        -2
+        -3
       ],
-      "summary": "模型原始概率 64/27/9%；市场隐含概率 79/14/7%；按 50% 权重校准后为 71/21/8%。"
+      "summary": "模型原始概率 64/27/9%；市场隐含概率 80/14/6%；按 50% 权重校准后为 71/21/8%。"
     },
     "motivation": {
       "phase": "group",
@@ -36403,7 +36378,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主79% / 平14% / 客7%，倾向葡萄牙。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主80% / 平14% / 客6%，倾向葡萄牙。"
       }
     ],
     "modelInputs": {
@@ -36661,16 +36636,16 @@ window.MATCHES = [
       "bookmakers": 49,
       "averageOdds": {
         "home": 1.2,
-        "draw": 6.76,
-        "away": 14.57
+        "draw": 6.78,
+        "away": 14.69
       },
       "impliedProbabilities": [
-        79,
+        80,
         14,
-        7
+        6
       ],
       "marketFavorite": "葡萄牙",
-      "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.76 / 客 14.57。市场倾向 葡萄牙。"
+      "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.69。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -36697,7 +36672,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 34.6,
@@ -36728,7 +36703,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。葡萄牙当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -37028,7 +37003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -37139,8 +37114,8 @@ window.MATCHES = [
         8
       ],
       "market": [
-        78,
-        15,
+        79,
+        14,
         7
       ],
       "blended": [
@@ -37152,11 +37127,11 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        7,
-        -6,
+        8,
+        -7,
         -1
       ],
-      "summary": "模型原始概率 71/21/8%；市场隐含概率 78/15/7%；按 50% 权重校准后为 74/18/8%。"
+      "summary": "模型原始概率 71/21/8%；市场隐含概率 79/14/7%；按 50% 权重校准后为 74/18/8%。"
     },
     "motivation": {
       "phase": "group",
@@ -37237,7 +37212,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主78% / 平15% / 客7%，倾向英格兰。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主79% / 平14% / 客7%，倾向英格兰。"
       }
     ],
     "modelInputs": {
@@ -37495,16 +37470,16 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 1.21,
-        "draw": 6.57,
-        "away": 14.11
+        "draw": 6.59,
+        "away": 14.13
       },
       "impliedProbabilities": [
-        78,
-        15,
+        79,
+        14,
         7
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.57 / 客 14.11。市场倾向 英格兰。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.59 / 客 14.13。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -37584,7 +37559,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。英格兰当前3分、净胜球2；加纳当前3分、净胜球1。",
@@ -37884,7 +37859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -38380,7 +38355,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.4,
@@ -38411,7 +38386,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；克罗地亚当前0分、净胜球-2。",
@@ -38706,7 +38681,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -39230,7 +39205,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；刚果（金）当前1分、净胜球0。",
@@ -39530,7 +39505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -40026,7 +40001,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 18.5,
@@ -40057,7 +40032,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。瑞士当前4分、净胜球3；加拿大当前4分、净胜球6。",
@@ -40357,7 +40332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -40822,7 +40797,7 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 1.43,
-        "draw": 4.87,
+        "draw": 4.88,
         "away": 6.94
       },
       "impliedProbabilities": [
@@ -40831,7 +40806,7 @@ window.MATCHES = [
         14
       ],
       "marketFavorite": "波黑",
-      "note": "已接入赔率市场，48 家公司均值：主 1.43 / 平 4.87 / 客 6.94。市场倾向 波黑。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.43 / 平 4.88 / 客 6.94。市场倾向 波黑。"
     },
     "expertSignals": {
       "status": "connected",
@@ -40852,7 +40827,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 23.1,
@@ -40883,7 +40858,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。波黑当前1分、净胜球-3；卡塔尔当前1分、净胜球-6。",
@@ -41183,7 +41158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -41648,7 +41623,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 7.69,
+        "home": 7.68,
         "draw": 5.09,
         "away": 1.38
       },
@@ -41658,7 +41633,7 @@ window.MATCHES = [
         69
       ],
       "marketFavorite": "巴西",
-      "note": "已接入赔率市场，48 家公司均值：主 7.69 / 平 5.09 / 客 1.38。市场倾向 巴西。"
+      "note": "已接入赔率市场，48 家公司均值：主 7.68 / 平 5.09 / 客 1.38。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "connected",
@@ -41679,16 +41654,16 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 14:43:39 GMT"
         },
         {
-          "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
-        },
-        {
           "title": "Saibari strikes after 70 seconds as Morocco puncture Scotland’s World Cup party",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/20/scotland-morocco-world-cup-match-report",
           "pubDate": "Sat, 20 Jun 2026 00:07:10 GMT"
+        },
+        {
+          "title": "Brazil sweep into form as Cunha’s quickfire double sparks World Cup win over Haiti",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/20/brazil-haiti-world-cup-match-report",
+          "pubDate": "Sat, 20 Jun 2026 03:05:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -41726,7 +41701,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。苏格兰当前3分、净胜球0；巴西当前4分、净胜球3。",
@@ -42026,7 +42001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -42493,7 +42468,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.19,
         "draw": 6.84,
-        "away": 15.8
+        "away": 15.79
       },
       "impliedProbabilities": [
         80,
@@ -42501,7 +42476,7 @@ window.MATCHES = [
         6
       ],
       "marketFavorite": "摩洛哥",
-      "note": "已接入赔率市场，48 家公司均值：主 1.19 / 平 6.84 / 客 15.8。市场倾向 摩洛哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.19 / 平 6.84 / 客 15.79。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -42528,7 +42503,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 31.3,
@@ -42566,7 +42541,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。摩洛哥当前4分、净胜球1；海地当前0分、净胜球-4。",
@@ -42866,7 +42841,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -43362,7 +43337,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 20.9,
@@ -43393,7 +43368,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。捷克当前1分、净胜球-1；墨西哥当前6分、净胜球3。",
@@ -43688,7 +43663,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -44197,7 +44172,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。南非当前1分、净胜球-2；韩国当前3分、净胜球0。",
@@ -44487,7 +44462,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -44952,8 +44927,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 46,
       "averageOdds": {
-        "home": 19.3,
-        "draw": 8.52,
+        "home": 19.19,
+        "draw": 8.5,
         "away": 1.14
       },
       "impliedProbabilities": [
@@ -44962,7 +44937,7 @@ window.MATCHES = [
         84
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，46 家公司均值：主 19.3 / 平 8.52 / 客 1.14。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，46 家公司均值：主 19.19 / 平 8.5 / 客 1.14。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -44992,7 +44967,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -45001,7 +44976,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 24.9,
@@ -45032,7 +45007,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。库拉索当前1分、净胜球-6；科特迪瓦当前3分、净胜球0。",
@@ -45332,7 +45307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -45796,10 +45771,10 @@ window.MATCHES = [
       "eventId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
       "commenceTime": "2026-06-25T20:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 45,
+      "bookmakers": 46,
       "averageOdds": {
         "home": 3.6,
-        "draw": 3.72,
+        "draw": 3.73,
         "away": 1.96
       },
       "impliedProbabilities": [
@@ -45808,7 +45783,7 @@ window.MATCHES = [
         48
       ],
       "marketFavorite": "德国",
-      "note": "已接入赔率市场，45 家公司均值：主 3.6 / 平 3.72 / 客 1.96。市场倾向 德国。"
+      "note": "已接入赔率市场，46 家公司均值：主 3.6 / 平 3.73 / 客 1.96。市场倾向 德国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -45883,7 +45858,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。厄瓜多尔当前1分、净胜球-1；德国当前6分、净胜球7。",
@@ -46183,7 +46158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -46293,8 +46268,8 @@ window.MATCHES = [
         23
       ],
       "market": [
-        45,
-        29,
+        46,
+        28,
         26
       ],
       "blended": [
@@ -46306,11 +46281,11 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        -5,
-        2,
+        -4,
+        1,
         3
       ],
-      "summary": "模型原始概率 50/27/23%；市场隐含概率 45/29/26%；按 50% 权重校准后为 47/28/25%。"
+      "summary": "模型原始概率 50/27/23%；市场隐含概率 46/28/26%；按 50% 权重校准后为 47/28/25%。"
     },
     "motivation": {
       "phase": "group",
@@ -46391,7 +46366,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主45% / 平29% / 客26%，倾向日本。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主46% / 平28% / 客26%，倾向日本。"
       }
     ],
     "modelInputs": {
@@ -46649,16 +46624,16 @@ window.MATCHES = [
       "bookmakers": 43,
       "averageOdds": {
         "home": 2.07,
-        "draw": 3.31,
-        "away": 3.68
+        "draw": 3.34,
+        "away": 3.67
       },
       "impliedProbabilities": [
-        45,
-        29,
+        46,
+        28,
         26
       ],
       "marketFavorite": "日本",
-      "note": "已接入赔率市场，43 家公司均值：主 2.07 / 平 3.31 / 客 3.68。市场倾向 日本。"
+      "note": "已接入赔率市场，43 家公司均值：主 2.07 / 平 3.34 / 客 3.67。市场倾向 日本。"
     },
     "expertSignals": {
       "status": "connected",
@@ -46726,7 +46701,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。日本当前4分、净胜球4；瑞典当前3分、净胜球0。",
@@ -47026,7 +47001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -47491,8 +47466,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 43,
       "averageOdds": {
-        "home": 17.24,
-        "draw": 7.65,
+        "home": 17.54,
+        "draw": 7.73,
         "away": 1.16
       },
       "impliedProbabilities": [
@@ -47501,7 +47476,7 @@ window.MATCHES = [
         82
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，43 家公司均值：主 17.24 / 平 7.65 / 客 1.16。市场倾向 荷兰。"
+      "note": "已接入赔率市场，43 家公司均值：主 17.54 / 平 7.73 / 客 1.16。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -47540,7 +47515,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 28.6,
@@ -47571,7 +47546,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。突尼斯当前0分、净胜球-8；荷兰当前4分、净胜球4。",
@@ -47866,7 +47841,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -48331,7 +48306,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 44,
       "averageOdds": {
-        "home": 3.19,
+        "home": 3.2,
         "draw": 4.02,
         "away": 2.04
       },
@@ -48341,7 +48316,7 @@ window.MATCHES = [
         47
       ],
       "marketFavorite": "美国",
-      "note": "已接入赔率市场，44 家公司均值：主 3.19 / 平 4.02 / 客 2.04。市场倾向 美国。"
+      "note": "已接入赔率市场，44 家公司均值：主 3.2 / 平 4.02 / 客 2.04。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -48396,7 +48371,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。土耳其当前0分、净胜球-3；美国当前6分、净胜球5。",
@@ -48696,7 +48671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -49245,7 +49220,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拉圭当前3分、净胜球-2；澳大利亚当前3分、净胜球0。",
@@ -49545,7 +49520,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -50076,7 +50051,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；法国当前3分、净胜球2。",
@@ -50376,7 +50351,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -50841,9 +50816,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 43,
       "averageOdds": {
-        "home": 1.3,
+        "home": 1.29,
         "draw": 5.37,
-        "away": 10.35
+        "away": 10.41
       },
       "impliedProbabilities": [
         73,
@@ -50851,7 +50826,7 @@ window.MATCHES = [
         9
       ],
       "marketFavorite": "塞内加尔",
-      "note": "已接入赔率市场，43 家公司均值：主 1.3 / 平 5.37 / 客 10.35。市场倾向 塞内加尔。"
+      "note": "已接入赔率市场，43 家公司均值：主 1.29 / 平 5.37 / 客 10.41。市场倾向 塞内加尔。"
     },
     "expertSignals": {
       "status": "connected",
@@ -50872,7 +50847,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 21,
@@ -50903,7 +50878,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。塞内加尔当前0分、净胜球-2；伊拉克当前0分、净胜球-3。",
@@ -51198,7 +51173,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -51693,7 +51668,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 33.9,
@@ -51731,7 +51706,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。佛得角当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
@@ -52031,7 +52006,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -52555,7 +52530,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；西班牙当前1分、净胜球0。",
@@ -52855,7 +52830,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -53342,7 +53317,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Curaçao claim historic point; Iran unhappy at lack of support from teams – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/21/world-cup-news-live-curacao-iran-spain-saudi-arabia-belgium-cape-verde-uruguay-new-zealand-egypt",
-          "pubDate": "Sun, 21 Jun 2026 07:56:03 GMT"
+          "pubDate": "Sun, 21 Jun 2026 08:10:55 GMT"
         },
         {
           "title": "Ueda inspires Japan to eliminate Tunisia in landmark 1,000th World Cup match",
@@ -53357,7 +53332,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 17.7,
@@ -53388,7 +53363,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。埃及当前1分、净胜球0；伊朗当前1分、净胜球0。",
@@ -53688,7 +53663,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -54184,7 +54159,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 15.5,
@@ -54222,7 +54197,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；比利时当前1分、净胜球0。",
@@ -54522,7 +54497,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -55066,7 +55041,7 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。巴拿马当前0分、净胜球-1；英格兰当前3分、净胜球2。",
@@ -55366,7 +55341,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -55874,7 +55849,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 29.8,
@@ -55905,7 +55880,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。克罗地亚当前0分、净胜球-2；加纳当前3分、净胜球1。",
@@ -56205,7 +56180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -56735,7 +56710,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。哥伦比亚当前3分、净胜球2；葡萄牙当前1分、净胜球0。",
@@ -57030,7 +57005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -57525,7 +57500,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.8,
@@ -57556,7 +57531,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。刚果（金）当前1分、净胜球0；乌兹别克斯坦当前0分、净胜球-2。",
@@ -57856,7 +57831,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -58343,7 +58318,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 30.5,
@@ -58374,7 +58349,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿尔及利亚当前0分、净胜球-3；奥地利当前3分、净胜球2。",
@@ -58674,7 +58649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -59193,7 +59168,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿根廷当前3分、净胜球3。",
@@ -59421,7 +59396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -59831,7 +59806,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60059,7 +60034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -60447,7 +60422,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.8,
@@ -60478,7 +60453,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -60706,7 +60681,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "1E",
@@ -61116,7 +61091,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61344,7 +61319,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -61754,7 +61729,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -61982,7 +61957,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -62392,7 +62367,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -62620,7 +62595,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -63030,7 +63005,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63258,7 +63233,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "1A",
@@ -63646,7 +63621,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 19.8,
@@ -63677,7 +63652,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -63905,7 +63880,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -64293,7 +64268,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 32.9,
@@ -64324,7 +64299,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -64552,7 +64527,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -64940,7 +64915,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 24.6,
@@ -64971,7 +64946,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65199,7 +65174,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "1D",
@@ -65609,7 +65584,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -65837,7 +65812,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -66246,7 +66221,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -66474,7 +66449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -66862,7 +66837,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 23.4,
@@ -66893,7 +66868,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67121,7 +67096,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -67509,7 +67484,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 21.3,
@@ -67540,7 +67515,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -67768,7 +67743,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -68178,7 +68153,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -68406,7 +68381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -68816,7 +68791,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69044,7 +69019,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -69432,7 +69407,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 28.5,
@@ -69463,7 +69438,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -69691,7 +69666,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -70079,7 +70054,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.2,
@@ -70110,7 +70085,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70338,7 +70313,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -70726,7 +70701,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 29.7,
@@ -70757,7 +70732,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -70985,7 +70960,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -71395,7 +71370,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -71623,7 +71598,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -72011,7 +71986,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-21T08:14:28.342Z",
+        "fetchedAt": "2026-06-21T08:30:41.873Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -72042,7 +72017,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72270,7 +72245,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -72680,7 +72655,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -72908,7 +72883,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -73321,7 +73296,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -73549,7 +73524,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -73962,7 +73937,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74190,7 +74165,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -74602,7 +74577,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -74830,7 +74805,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -75240,7 +75215,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -75468,7 +75443,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -75878,7 +75853,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76106,7 +76081,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -76516,7 +76491,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -76744,7 +76719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -77157,7 +77132,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -77385,7 +77360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -77795,7 +77770,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78023,7 +77998,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -78436,7 +78411,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -78664,7 +78639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -79074,7 +79049,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79302,7 +79277,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-21T08:14:28.342Z",
+      "fetchedAt": "2026-06-21T08:30:41.873Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -79712,7 +79687,7 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-21T08:14:28.342Z"
+      "updatedAt": "2026-06-21T08:30:41.873Z"
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
@@ -79729,7 +79704,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-21T08:14:28.342Z",
+  "updatedAt": "2026-06-21T08:30:41.873Z",
   "completedCount": 36,
   "outcomeHitRate": 64,
   "highConfidenceCount": 1,
@@ -79741,6 +79716,3216 @@ window.ANALYSIS_BACKTEST = {
   "averageLogLoss": 0.8829,
   "drawRecall": 36,
   "lockedPredictionCount": 4,
+  "versionBreakdown": [
+    {
+      "key": "v2",
+      "label": "第二版模型",
+      "note": "赛前锁定样本，作为当前真实预测成绩单",
+      "sampleCount": 4,
+      "outcomeHitRate": 75,
+      "topScoreCoverage": 50,
+      "scoreBandCoverage": 75,
+      "scoreScenarioCoverage": 100,
+      "averageBrier": 0.4907,
+      "averageLogLoss": 0.8017,
+      "lockedCount": 4,
+      "rows": [
+        {
+          "id": "tun-jpn-34",
+          "match": "突尼斯 vs 日本",
+          "date": "2026-06-21",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-21T04:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-06-20T15:04:11.154Z",
+          "modelVersion": "v2",
+          "modelVersionLabel": "第二版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "0-4",
+          "actualScoreBand": "客队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2166,
+          "logLoss": 0.462,
+          "marketOutcome": "客胜",
+          "marketHit": true,
+          "probabilities": [
+            11,
+            26,
+            63
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 37,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 20,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 69,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "0-2",
+                "0-1",
+                "0-3"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 43,
+              "examples": [
+                "0-2",
+                "0-3",
+                "1-3"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            15,
+            23,
+            62
+          ]
+        },
+        {
+          "id": "ecu-cuw-28",
+          "match": "厄瓜多尔 vs 库拉索",
+          "date": "2026-06-21",
+          "kickoffTime": "08:00",
+          "kickoff": "2026-06-21T00:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-06-20T15:04:11.154Z",
+          "modelVersion": "v2",
+          "modelVersionLabel": "第二版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "0-0",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 88,
+          "brier": 1.1778,
+          "logLoss": 1.6094,
+          "marketOutcome": "主胜",
+          "marketHit": false,
+          "probabilities": [
+            73,
+            20,
+            7
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 39,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 27,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 16,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 75,
+              "examples": [
+                "1-0",
+                "2-0",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            85,
+            11,
+            4
+          ]
+        },
+        {
+          "id": "ger-civ-27",
+          "match": "德国 vs 科特迪瓦",
+          "date": "2026-06-21",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-20T20:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-06-20T15:04:11.154Z",
+          "modelVersion": "v2",
+          "modelVersionLabel": "第二版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "2-1",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2078,
+          "logLoss": 0.462,
+          "marketOutcome": "主胜",
+          "marketHit": true,
+          "probabilities": [
+            63,
+            22,
+            15
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 24,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 24,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            },
+            {
+              "label": "主队对攻胜",
+              "chance": 16,
+              "examples": [
+                "3-1",
+                "3-2",
+                "4-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队优势胜",
+              "chance": 49,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 46,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 64,
+              "examples": [
+                "2-1",
+                "2-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            64,
+            21,
+            15
+          ]
+        },
+        {
+          "id": "ned-swe-33",
+          "match": "荷兰 vs 瑞典",
+          "date": "2026-06-21",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-20T17:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-06-20T15:04:11.154Z",
+          "modelVersion": "v2",
+          "modelVersionLabel": "第二版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "5-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 74,
+          "brier": 0.3606,
+          "logLoss": 0.6733,
+          "marketOutcome": "主胜",
+          "marketHit": true,
+          "probabilities": [
+            51,
+            26,
+            23
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队对攻胜",
+              "chance": 16,
+              "examples": [
+                "3-1",
+                "3-2",
+                "4-2"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 15,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "开放对攻",
+              "chance": 47,
+              "examples": [
+                "2-2",
+                "3-1",
+                "3-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 35,
+              "examples": [
+                "3-1",
+                "2-0",
+                "3-2"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            56,
+            24,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "key": "v1",
+      "label": "第一版模型/回放基准",
+      "note": "未赛前锁定，只用于历史回放参考，不与第二版混算",
+      "sampleCount": 32,
+      "outcomeHitRate": 63,
+      "topScoreCoverage": 53,
+      "scoreBandCoverage": 75,
+      "scoreScenarioCoverage": 97,
+      "averageBrier": 0.532,
+      "averageLogLoss": 0.8931,
+      "lockedCount": 0,
+      "rows": [
+        {
+          "id": "tur-par-22",
+          "match": "土耳其 vs 巴拉圭",
+          "date": "2026-06-20",
+          "kickoffTime": "11:00",
+          "kickoff": "2026-06-20T03:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 1.0838,
+          "logLoss": 1.8971,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            42,
+            43,
+            15
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 38,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 12,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 69,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 50,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 42,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bra-hai-16",
+          "match": "巴西 vs 海地",
+          "date": "2026-06-20",
+          "kickoffTime": "08:30",
+          "kickoff": "2026-06-20T00:30:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            65,
+            26,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 68,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sco-mar-15",
+          "match": "苏格兰 vs 摩洛哥",
+          "date": "2026-06-20",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-19T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2426,
+          "logLoss": 0.4943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            11,
+            28,
+            61
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 35,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 24,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 18,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 67,
+              "examples": [
+                "0-2",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 39,
+              "examples": [
+                "0-2",
+                "0-3",
+                "1-3"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "usa-aus-21",
+          "match": "美国 vs 澳大利亚",
+          "date": "2026-06-20",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-19T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 0.6774,
+          "logLoss": 1.1087,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            33,
+            38,
+            29
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 27,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 16,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 47,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 45,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 33,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "mex-kor-4",
+          "match": "墨西哥 vs 韩国",
+          "date": "2026-06-19",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-19T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 65,
+          "brier": 0.4992,
+          "logLoss": 0.821,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            44,
+            40,
+            16
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 32,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 24,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 12,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 62,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 45,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 44,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "can-qat-10",
+          "match": "加拿大 vs 卡塔尔",
+          "date": "2026-06-19",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-18T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "6-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            65,
+            26,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 36,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 21,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 68,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sui-bih-9",
+          "match": "瑞士 vs 波黑",
+          "date": "2026-06-19",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-18T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1862,
+          "logLoss": 0.4155,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            66,
+            25,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 35,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 22,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 21,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 66,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 45,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "cze-rsa-3",
+          "match": "捷克 vs 南非",
+          "date": "2026-06-19",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-18T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 67,
+          "brier": 0.4718,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            37,
+            45,
+            18
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 40,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 26,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 15,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 70,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 56,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 40,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "uzb-col-62",
+          "match": "乌兹别克斯坦 vs 哥伦比亚",
+          "date": "2026-06-18",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-18T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "1-3",
+          "actualScoreBand": "客队对攻胜",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1526,
+          "logLoss": 0.3711,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            9,
+            22,
+            69
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 32,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 26,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 18,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 60,
+              "examples": [
+                "0-2",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 50,
+              "examples": [
+                "0-2",
+                "0-3",
+                "1-3"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 69,
+              "examples": [
+                "0-2",
+                "0-1",
+                "0-3"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "gha-pan-68",
+          "match": "加纳 vs 巴拿马",
+          "date": "2026-06-18",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-17T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 67,
+          "brier": 1.2168,
+          "logLoss": 2.3026,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            10,
+            42,
+            48
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 32,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 11,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 77,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 48,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "eng-cro-67",
+          "match": "英格兰 vs 克罗地亚",
+          "date": "2026-06-18",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-17T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "4-2",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 74,
+          "brier": 0.3192,
+          "logLoss": 0.6162,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            54,
+            26,
+            20
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 17,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 17,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 44,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 39,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 54,
+              "examples": [
+                "2-1",
+                "2-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "por-cod-61",
+          "match": "葡萄牙 vs 刚果（金）",
+          "date": "2026-06-18",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-17T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.9234,
+          "logLoss": 1.273,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            63,
+            28,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 25,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 18,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 71,
+              "examples": [
+                "1-0",
+                "2-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 63,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 40,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "aut-jor-56",
+          "match": "奥地利 vs 约旦",
+          "date": "2026-06-17",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-17T04:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1526,
+          "logLoss": 0.3711,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            69,
+            22,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 33,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 25,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 18,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 61,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 69,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 49,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "arg-alg-55",
+          "match": "阿根廷 vs 阿尔及利亚",
+          "date": "2026-06-17",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-17T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1806,
+          "logLoss": 0.4155,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            66,
+            23,
+            11
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 25,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 17,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 53,
+              "examples": [
+                "1-1",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 49,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 66,
+              "examples": [
+                "2-0",
+                "2-1",
+                "3-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irq-nor-50",
+          "match": "伊拉克 vs 挪威",
+          "date": "2026-06-17",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-16T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "1-4",
+          "actualScoreBand": "客队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2954,
+          "logLoss": 0.5798,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            17,
+            27,
+            56
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 26,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 19,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 17,
+              "examples": [
+                "0-3",
+                "1-4",
+                "0-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 51,
+              "examples": [
+                "1-1",
+                "1-2",
+                "0-2"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 56,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 39,
+              "examples": [
+                "0-2",
+                "1-3",
+                "0-3"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "fra-sen-49",
+          "match": "法国 vs 塞内加尔",
+          "date": "2026-06-17",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-16T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2342,
+          "logLoss": 0.4943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            61,
+            25,
+            14
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 19,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 54,
+              "examples": [
+                "1-1",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irn-nzl-38",
+          "match": "伊朗 vs 新西兰",
+          "date": "2026-06-16",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-16T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 76,
+          "brier": 1.0634,
+          "logLoss": 1.4697,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            68,
+            23,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 33,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 24,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 19,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 62,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 68,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 48,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ksa-uru-44",
+          "match": "沙特阿拉伯 vs 乌拉圭",
+          "date": "2026-06-16",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-15T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 62,
+          "brier": 0.5216,
+          "logLoss": 0.821,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            12,
+            44,
+            44
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 40,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 10,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 75,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 51,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 44,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bel-egy-37",
+          "match": "比利时 vs 埃及",
+          "date": "2026-06-16",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-15T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 62,
+          "brier": 0.5442,
+          "logLoss": 0.8916,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            40,
+            41,
+            19
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 32,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 13,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 59,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 46,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 40,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "esp-cpv-43",
+          "match": "西班牙 vs 佛得角",
+          "date": "2026-06-16",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-15T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "0-0",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.5634,
+          "logLoss": 0.844,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            48,
+            43,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 40,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 34,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 11,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 80,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 49,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 40,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "swe-tun-32",
+          "match": "瑞典 vs 突尼斯",
+          "date": "2026-06-15",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-15T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "5-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.485,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            45,
+            40,
+            15
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 33,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 25,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 12,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 64,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 45,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 45,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "civ-ecu-26",
+          "match": "科特迪瓦 vs 厄瓜多尔",
+          "date": "2026-06-15",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-14T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 0.6968,
+          "logLoss": 1.1394,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            32,
+            38,
+            30
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 32,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 23,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 21,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 58,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 56,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 32,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ned-jpn-31",
+          "match": "荷兰 vs 日本",
+          "date": "2026-06-15",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-14T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "客胜",
+          "outcomeHit": false,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 73,
+          "brier": 0.7976,
+          "logLoss": 1.273,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            26,
+            28,
+            46
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 19,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 17,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队对攻胜",
+              "chance": 14,
+              "examples": [
+                "1-3",
+                "2-3",
+                "2-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "开放对攻",
+              "chance": 42,
+              "examples": [
+                "2-2",
+                "1-3",
+                "2-3"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 40,
+              "examples": [
+                "1-1",
+                "1-2",
+                "0-2"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 46,
+              "examples": [
+                "1-2",
+                "1-3",
+                "0-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ger-cuw-25",
+          "match": "德国 vs 库拉索",
+          "date": "2026-06-15",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-14T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "7-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1154,
+          "logLoss": 0.3147,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            73,
+            19,
+            8
+          ],
+          "scoreBands": [
+            {
+              "label": "主队大胜",
+              "chance": 32,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 14,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队优势胜",
+              "chance": 57,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 73,
+              "examples": [
+                "2-0",
+                "3-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 50,
+              "examples": [
+                "2-0",
+                "3-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "aus-tur-20",
+          "match": "澳大利亚 vs 土耳其",
+          "date": "2026-06-14",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-14T04:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.9632,
+          "logLoss": 1.6094,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            20,
+            44,
+            36
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 23,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 15,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 63,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 53,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "hai-sco-14",
+          "match": "海地 vs 苏格兰",
+          "date": "2026-06-14",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-14T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.4952,
+          "logLoss": 0.7765,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            10,
+            44,
+            46
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 41,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 32,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 10,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 78,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 50,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 41,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bra-mar-13",
+          "match": "巴西 vs 摩洛哥",
+          "date": "2026-06-14",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-13T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.5586,
+          "logLoss": 0.9416,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            29,
+            39,
+            32
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 28,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 17,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 47,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 32,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "qat-sui-8",
+          "match": "卡塔尔 vs 瑞士",
+          "date": "2026-06-14",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-13T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "客胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8966,
+          "logLoss": 1.2379,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            9,
+            29,
+            62
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 38,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 26,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 17,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 73,
+              "examples": [
+                "0-1",
+                "0-2",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 62,
+              "examples": [
+                "0-1",
+                "0-2",
+                "0-3"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 39,
+              "examples": [
+                "0-2",
+                "0-3",
+                "1-3"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "usa-par-19",
+          "match": "美国 vs 巴拉圭",
+          "date": "2026-06-13",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-13T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 74,
+          "brier": 0.4074,
+          "logLoss": 0.734,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            48,
+            29,
+            23
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 23,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 20,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 13,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 48,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "开放对攻",
+              "chance": 33,
+              "examples": [
+                "2-2",
+                "3-1",
+                "3-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "can-bih-7",
+          "match": "加拿大 vs 波黑",
+          "date": "2026-06-13",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-12T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 1.0346,
+          "logLoss": 1.4271,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            67,
+            24,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 34,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 23,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 20,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 63,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 67,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 47,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "kor-cze-2",
+          "match": "韩国 vs 捷克",
+          "date": "2026-06-12",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-12T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-1",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 65,
+          "brier": 0.6518,
+          "logLoss": 1.0498,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            35,
+            42,
+            23
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 16,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 60,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 52,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "mex-rsa-1",
+          "match": "墨西哥 vs 南非",
+          "date": "2026-06-12",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-11T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "v1",
+          "modelVersionLabel": "第一版模型/回放基准",
+          "modelVersionNote": "未赛前锁定，不与第二版混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            65,
+            26,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 69,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 42,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        }
+      ]
+    }
+  ],
   "outcomeBreakdown": [
     {
       "outcome": "主胜",
@@ -79805,16 +82990,479 @@ window.ANALYSIS_BACKTEST = {
   "marketHitRate": 75,
   "rows": [
     {
-      "id": "mex-rsa-1",
-      "match": "墨西哥 vs 南非",
-      "predictionSource": "current-model",
-      "lockedAt": null,
+      "id": "tun-jpn-34",
+      "match": "突尼斯 vs 日本",
+      "date": "2026-06-21",
+      "kickoffTime": "12:00",
+      "kickoff": "2026-06-21T04:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-06-20T15:04:11.154Z",
+      "modelVersion": "v2",
+      "modelVersionLabel": "第二版模型",
+      "modelVersionNote": "赛前锁定样本",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "0-4",
+      "actualScoreBand": "客队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.2166,
+      "logLoss": 0.462,
+      "marketOutcome": "客胜",
+      "marketHit": true,
+      "probabilities": [
+        11,
+        26,
+        63
+      ],
+      "scoreBands": [
+        {
+          "label": "客队小胜",
+          "chance": 37,
+          "examples": [
+            "0-2",
+            "0-1",
+            "1-2"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 23,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 20,
+          "examples": [
+            "0-3",
+            "0-4",
+            "1-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 69,
+          "examples": [
+            "0-2",
+            "0-1",
+            "1-1"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 65,
+          "examples": [
+            "0-2",
+            "0-1",
+            "0-3"
+          ]
+        },
+        {
+          "label": "客队优势胜",
+          "chance": 43,
+          "examples": [
+            "0-2",
+            "0-3",
+            "1-3"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        15,
+        23,
+        62
+      ]
+    },
+    {
+      "id": "ecu-cuw-28",
+      "match": "厄瓜多尔 vs 库拉索",
+      "date": "2026-06-21",
+      "kickoffTime": "08:00",
+      "kickoff": "2026-06-21T00:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-06-20T15:04:11.154Z",
+      "modelVersion": "v2",
+      "modelVersionLabel": "第二版模型",
+      "modelVersionNote": "赛前锁定样本",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "0-0",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 88,
+      "brier": 1.1778,
+      "logLoss": 1.6094,
+      "marketOutcome": "主胜",
+      "marketHit": false,
+      "probabilities": [
+        73,
+        20,
+        7
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 39,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 27,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 16,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 75,
+          "examples": [
+            "1-0",
+            "2-0",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 61,
+          "examples": [
+            "1-0",
+            "2-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 37,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        85,
+        11,
+        4
+      ]
+    },
+    {
+      "id": "ger-civ-27",
+      "match": "德国 vs 科特迪瓦",
+      "date": "2026-06-21",
+      "kickoffTime": "04:00",
+      "kickoff": "2026-06-20T20:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-06-20T15:04:11.154Z",
+      "modelVersion": "v2",
+      "modelVersionLabel": "第二版模型",
+      "modelVersionNote": "赛前锁定样本",
       "actualOutcome": "主胜",
       "predictedOutcome": "主胜",
       "outcomeHit": true,
-      "actualScore": "2-0",
+      "actualScore": "2-1",
       "actualScoreBand": "主队小胜",
       "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.2078,
+      "logLoss": 0.462,
+      "marketOutcome": "主胜",
+      "marketHit": true,
+      "probabilities": [
+        63,
+        22,
+        15
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 24,
+          "examples": [
+            "2-1",
+            "2-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 24,
+          "examples": [
+            "3-0",
+            "4-1",
+            "4-0"
+          ]
+        },
+        {
+          "label": "主队对攻胜",
+          "chance": 16,
+          "examples": [
+            "3-1",
+            "3-2",
+            "4-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队优势胜",
+          "chance": 49,
+          "examples": [
+            "2-0",
+            "3-1",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 46,
+          "examples": [
+            "1-1",
+            "2-1",
+            "2-0"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 64,
+          "examples": [
+            "2-1",
+            "2-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        64,
+        21,
+        15
+      ]
+    },
+    {
+      "id": "ned-swe-33",
+      "match": "荷兰 vs 瑞典",
+      "date": "2026-06-21",
+      "kickoffTime": "01:00",
+      "kickoff": "2026-06-20T17:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-06-20T15:04:11.154Z",
+      "modelVersion": "v2",
+      "modelVersionLabel": "第二版模型",
+      "modelVersionNote": "赛前锁定样本",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "5-1",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": false,
+      "scoreScenarioHit": true,
+      "confidence": 74,
+      "brier": 0.3606,
+      "logLoss": 0.6733,
+      "marketOutcome": "主胜",
+      "marketHit": true,
+      "probabilities": [
+        51,
+        26,
+        23
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 17,
+          "examples": [
+            "2-1",
+            "2-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "主队对攻胜",
+          "chance": 16,
+          "examples": [
+            "3-1",
+            "3-2",
+            "4-2"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 15,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "开放对攻",
+          "chance": 47,
+          "examples": [
+            "2-2",
+            "3-1",
+            "3-2"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 35,
+          "examples": [
+            "1-1",
+            "2-1",
+            "2-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 35,
+          "examples": [
+            "3-1",
+            "2-0",
+            "3-2"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        56,
+        24,
+        20
+      ]
+    },
+    {
+      "id": "tur-par-22",
+      "match": "土耳其 vs 巴拉圭",
+      "date": "2026-06-20",
+      "kickoffTime": "11:00",
+      "kickoff": "2026-06-20T03:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "0-1",
+      "actualScoreBand": "客队小胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 63,
+      "brier": 1.0838,
+      "logLoss": 1.8971,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        42,
+        43,
+        15
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 38,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 27,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 12,
+          "examples": [
+            "0-1",
+            "1-2",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 69,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 50,
+          "examples": [
+            "1-1",
+            "0-0",
+            "0-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 42,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bra-hai-16",
+      "match": "巴西 vs 海地",
+      "date": "2026-06-20",
+      "kickoffTime": "08:30",
+      "kickoff": "2026-06-20T00:30:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-0",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
       "scoreBandHit": true,
       "scoreScenarioHit": true,
       "confidence": 76,
@@ -79858,7 +83506,7 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "主队不败低比分",
-          "chance": 69,
+          "chance": 68,
           "examples": [
             "2-0",
             "1-0",
@@ -79876,7 +83524,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "主队优势胜",
-          "chance": 42,
+          "chance": 43,
           "examples": [
             "2-0",
             "3-0",
@@ -79887,294 +83535,55 @@ window.ANALYSIS_BACKTEST = {
       "marketProbabilities": null
     },
     {
-      "id": "kor-cze-2",
-      "match": "韩国 vs 捷克",
+      "id": "sco-mar-15",
+      "match": "苏格兰 vs 摩洛哥",
+      "date": "2026-06-20",
+      "kickoffTime": "06:00",
+      "kickoff": "2026-06-19T22:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "平局",
-      "outcomeHit": false,
-      "actualScore": "2-1",
-      "actualScoreBand": "主队小胜",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 65,
-      "brier": 0.6518,
-      "logLoss": 1.0498,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        35,
-        42,
-        23
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 35,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 22,
-          "examples": [
-            "1-0",
-            "2-1",
-            "2-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 16,
-          "examples": [
-            "0-1",
-            "1-2",
-            "0-2"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 60,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 52,
-          "examples": [
-            "1-1",
-            "0-0",
-            "0-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 35,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "can-bih-7",
-      "match": "加拿大 vs 波黑",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "主胜",
-      "outcomeHit": false,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 76,
-      "brier": 1.0346,
-      "logLoss": 1.4271,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        67,
-        24,
-        9
-      ],
-      "scoreBands": [
-        {
-          "label": "主队小胜",
-          "chance": 34,
-          "examples": [
-            "2-0",
-            "1-0",
-            "2-1"
-          ]
-        },
-        {
-          "label": "主队大胜",
-          "chance": 23,
-          "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 20,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 63,
-          "examples": [
-            "2-0",
-            "1-0",
-            "1-1"
-          ]
-        },
-        {
-          "label": "主队胜出覆盖",
-          "chance": 67,
-          "examples": [
-            "2-0",
-            "1-0",
-            "3-0"
-          ]
-        },
-        {
-          "label": "主队优势胜",
-          "chance": 47,
-          "examples": [
-            "2-0",
-            "3-0",
-            "3-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "usa-par-19",
-      "match": "美国 vs 巴拉圭",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "主胜",
-      "outcomeHit": true,
-      "actualScore": "4-1",
-      "actualScoreBand": "主队大胜",
-      "topScoreHit": false,
-      "scoreBandHit": false,
-      "scoreScenarioHit": true,
-      "confidence": 74,
-      "brier": 0.4074,
-      "logLoss": 0.734,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        48,
-        29,
-        23
-      ],
-      "scoreBands": [
-        {
-          "label": "主队小胜",
-          "chance": 23,
-          "examples": [
-            "2-1",
-            "2-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 20,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 13,
-          "examples": [
-            "1-2",
-            "0-1",
-            "0-2"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 48,
-          "examples": [
-            "1-1",
-            "2-1",
-            "2-0"
-          ]
-        },
-        {
-          "label": "主队胜出覆盖",
-          "chance": 48,
-          "examples": [
-            "2-1",
-            "2-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "开放对攻",
-          "chance": 33,
-          "examples": [
-            "2-2",
-            "3-1",
-            "3-2"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "qat-sui-8",
-      "match": "卡塔尔 vs 瑞士",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "客胜",
       "predictedOutcome": "客胜",
-      "outcomeHit": false,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
+      "outcomeHit": true,
+      "actualScore": "0-1",
+      "actualScoreBand": "客队小胜",
       "topScoreHit": true,
       "scoreBandHit": true,
       "scoreScenarioHit": true,
       "confidence": 76,
-      "brier": 0.8966,
-      "logLoss": 1.2379,
+      "brier": 0.2426,
+      "logLoss": 0.4943,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        9,
-        29,
-        62
+        11,
+        28,
+        61
       ],
       "scoreBands": [
         {
           "label": "客队小胜",
-          "chance": 38,
+          "chance": 35,
           "examples": [
-            "0-1",
             "0-2",
+            "0-1",
             "1-2"
           ]
         },
         {
           "label": "低比分平局",
-          "chance": 26,
+          "chance": 24,
           "examples": [
-            "0-0",
-            "1-1"
+            "1-1",
+            "0-0"
           ]
         },
         {
           "label": "客队大胜",
-          "chance": 17,
+          "chance": 18,
           "examples": [
             "0-3",
             "0-4",
@@ -80185,20 +83594,20 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "客队不败低比分",
-          "chance": 73,
+          "chance": 67,
           "examples": [
-            "0-1",
             "0-2",
-            "0-0"
+            "1-1",
+            "0-1"
           ]
         },
         {
           "label": "客队胜出覆盖",
-          "chance": 62,
+          "chance": 61,
           "examples": [
-            "0-1",
             "0-2",
-            "0-3"
+            "0-1",
+            "1-2"
           ]
         },
         {
@@ -80214,44 +83623,41 @@ window.ANALYSIS_BACKTEST = {
       "marketProbabilities": null
     },
     {
-      "id": "bra-mar-13",
-      "match": "巴西 vs 摩洛哥",
+      "id": "usa-aus-21",
+      "match": "美国 vs 澳大利亚",
+      "date": "2026-06-20",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-19T19:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "平局",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
       "predictedOutcome": "平局",
-      "outcomeHit": true,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
+      "outcomeHit": false,
+      "actualScore": "2-0",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": false,
       "scoreBandHit": true,
       "scoreScenarioHit": true,
-      "confidence": 64,
-      "brier": 0.5586,
-      "logLoss": 0.9416,
+      "confidence": 63,
+      "brier": 0.6774,
+      "logLoss": 1.1087,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        29,
-        39,
-        32
+        33,
+        38,
+        29
       ],
       "scoreBands": [
         {
           "label": "低比分平局",
-          "chance": 28,
+          "chance": 27,
           "examples": [
             "1-1",
             "0-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 17,
-          "examples": [
-            "1-2",
-            "0-2",
-            "0-1"
           ]
         },
         {
@@ -80259,21 +83665,21 @@ window.ANALYSIS_BACKTEST = {
           "chance": 17,
           "examples": [
             "2-1",
-            "1-0",
-            "2-0"
+            "2-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 16,
+          "examples": [
+            "1-2",
+            "0-1",
+            "0-2"
           ]
         }
       ],
       "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 48,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-2"
-          ]
-        },
         {
           "label": "主队不败低比分",
           "chance": 47,
@@ -80284,451 +83690,59 @@ window.ANALYSIS_BACKTEST = {
           ]
         },
         {
-          "label": "客队胜出覆盖",
-          "chance": 32,
-          "examples": [
-            "1-2",
-            "0-2",
-            "0-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "hai-sco-14",
-      "match": "海地 vs 苏格兰",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "客胜",
-      "predictedOutcome": "客胜",
-      "outcomeHit": true,
-      "actualScore": "0-1",
-      "actualScoreBand": "客队小胜",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 64,
-      "brier": 0.4952,
-      "logLoss": 0.7765,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        10,
-        44,
-        46
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 41,
-          "examples": [
-            "0-0",
-            "1-1"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 32,
-          "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        },
-        {
-          "label": "客队大胜",
-          "chance": 10,
-          "examples": [
-            "0-3",
-            "0-4",
-            "1-4"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
           "label": "客队不败低比分",
-          "chance": 78,
-          "examples": [
-            "0-0",
-            "1-1",
-            "0-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 50,
-          "examples": [
-            "0-0",
-            "1-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 41,
-          "examples": [
-            "0-0",
-            "1-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "aus-tur-20",
-      "match": "澳大利亚 vs 土耳其",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "平局",
-      "outcomeHit": false,
-      "actualScore": "2-0",
-      "actualScoreBand": "主队小胜",
-      "topScoreHit": false,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 66,
-      "brier": 0.9632,
-      "logLoss": 1.6094,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        20,
-        44,
-        36
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 37,
+          "chance": 45,
           "examples": [
             "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 23,
-          "examples": [
-            "0-1",
-            "0-2",
+            "0-0",
             "1-2"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 15,
-          "examples": [
-            "1-0",
-            "2-1",
-            "2-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 63,
-          "examples": [
-            "1-1",
-            "0-0",
-            "0-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 53,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 37,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "ger-cuw-25",
-      "match": "德国 vs 库拉索",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "主胜",
-      "outcomeHit": true,
-      "actualScore": "7-1",
-      "actualScoreBand": "主队大胜",
-      "topScoreHit": false,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 76,
-      "brier": 0.1154,
-      "logLoss": 0.3147,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        73,
-        19,
-        8
-      ],
-      "scoreBands": [
-        {
-          "label": "主队大胜",
-          "chance": 32,
-          "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 27,
-          "examples": [
-            "2-0",
-            "2-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 14,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队优势胜",
-          "chance": 57,
-          "examples": [
-            "2-0",
-            "3-0",
-            "3-1"
           ]
         },
         {
           "label": "主队胜出覆盖",
-          "chance": 73,
+          "chance": 33,
           "examples": [
+            "2-1",
             "2-0",
-            "3-0",
-            "2-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 50,
-          "examples": [
-            "2-0",
-            "3-0",
-            "2-1"
+            "1-0"
           ]
         }
       ],
       "marketProbabilities": null
     },
     {
-      "id": "ned-jpn-31",
-      "match": "荷兰 vs 日本",
+      "id": "mex-kor-4",
+      "match": "墨西哥 vs 韩国",
+      "date": "2026-06-19",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-06-19T01:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "客胜",
-      "outcomeHit": false,
-      "actualScore": "2-2",
-      "actualScoreBand": "高比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": false,
-      "scoreScenarioHit": true,
-      "confidence": 73,
-      "brier": 0.7976,
-      "logLoss": 1.273,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        26,
-        28,
-        46
-      ],
-      "scoreBands": [
-        {
-          "label": "客队小胜",
-          "chance": 19,
-          "examples": [
-            "1-2",
-            "0-2",
-            "0-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 17,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队对攻胜",
-          "chance": 14,
-          "examples": [
-            "1-3",
-            "2-3",
-            "2-4"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "开放对攻",
-          "chance": 42,
-          "examples": [
-            "2-2",
-            "1-3",
-            "2-3"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 40,
-          "examples": [
-            "1-1",
-            "1-2",
-            "0-2"
-          ]
-        },
-        {
-          "label": "客队胜出覆盖",
-          "chance": 46,
-          "examples": [
-            "1-2",
-            "1-3",
-            "0-2"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "civ-ecu-26",
-      "match": "科特迪瓦 vs 厄瓜多尔",
-      "predictionSource": "current-model",
-      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
       "actualOutcome": "主胜",
-      "predictedOutcome": "平局",
-      "outcomeHit": false,
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
       "actualScore": "1-0",
       "actualScoreBand": "主队小胜",
       "topScoreHit": true,
       "scoreBandHit": true,
       "scoreScenarioHit": true,
-      "confidence": 63,
-      "brier": 0.6968,
-      "logLoss": 1.1394,
+      "confidence": 65,
+      "brier": 0.4992,
+      "logLoss": 0.821,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        32,
-        38,
-        30
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 32,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 23,
-          "examples": [
-            "1-0",
-            "2-1",
-            "2-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 21,
-          "examples": [
-            "0-1",
-            "1-2",
-            "0-2"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 58,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 56,
-          "examples": [
-            "1-1",
-            "0-0",
-            "0-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 32,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "swe-tun-32",
-      "match": "瑞典 vs 突尼斯",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "主胜",
-      "outcomeHit": true,
-      "actualScore": "5-1",
-      "actualScoreBand": "主队大胜",
-      "topScoreHit": false,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 66,
-      "brier": 0.485,
-      "logLoss": 0.7985,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        45,
+        44,
         40,
-        15
+        16
       ],
       "scoreBands": [
         {
           "label": "低比分平局",
-          "chance": 33,
+          "chance": 32,
           "examples": [
             "1-1",
             "0-0"
@@ -80736,7 +83750,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "主队小胜",
-          "chance": 25,
+          "chance": 24,
           "examples": [
             "2-0",
             "1-0",
@@ -80756,429 +83770,108 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "主队不败低比分",
-          "chance": 64,
-          "examples": [
-            "1-1",
-            "0-0",
-            "2-0"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 45,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-2"
-          ]
-        },
-        {
-          "label": "主队胜出覆盖",
-          "chance": 45,
-          "examples": [
-            "2-0",
-            "1-0",
-            "2-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "esp-cpv-43",
-      "match": "西班牙 vs 佛得角",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "主胜",
-      "outcomeHit": false,
-      "actualScore": "0-0",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 66,
-      "brier": 0.5634,
-      "logLoss": 0.844,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        48,
-        43,
-        9
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 40,
-          "examples": [
-            "0-0",
-            "1-1"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 34,
-          "examples": [
-            "1-0",
-            "2-0",
-            "2-1"
-          ]
-        },
-        {
-          "label": "主队大胜",
-          "chance": 11,
-          "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 80,
-          "examples": [
-            "0-0",
-            "1-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 49,
-          "examples": [
-            "0-0",
-            "1-1",
-            "0-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 40,
-          "examples": [
-            "0-0",
-            "1-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "bel-egy-37",
-      "match": "比利时 vs 埃及",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "平局",
-      "outcomeHit": true,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 62,
-      "brier": 0.5442,
-      "logLoss": 0.8916,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        40,
-        41,
-        19
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 32,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 22,
-          "examples": [
-            "2-0",
-            "2-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 13,
-          "examples": [
-            "1-2",
-            "0-1",
-            "0-2"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 59,
-          "examples": [
-            "1-1",
-            "0-0",
-            "2-0"
-          ]
-        },
-        {
-          "label": "客队不败低比分",
-          "chance": 46,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-2"
-          ]
-        },
-        {
-          "label": "主队胜出覆盖",
-          "chance": 40,
-          "examples": [
-            "2-0",
-            "2-1",
-            "1-0"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "ksa-uru-44",
-      "match": "沙特阿拉伯 vs 乌拉圭",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "平局",
-      "outcomeHit": true,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 62,
-      "brier": 0.5216,
-      "logLoss": 0.821,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        12,
-        44,
-        44
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 40,
-          "examples": [
-            "0-0",
-            "1-1"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 30,
-          "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        },
-        {
-          "label": "客队大胜",
-          "chance": 10,
-          "examples": [
-            "0-3",
-            "0-4",
-            "1-4"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 75,
-          "examples": [
-            "0-0",
-            "1-1",
-            "0-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 51,
-          "examples": [
-            "0-0",
-            "1-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "客队胜出覆盖",
-          "chance": 44,
-          "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "irn-nzl-38",
-      "match": "伊朗 vs 新西兰",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "主胜",
-      "outcomeHit": false,
-      "actualScore": "2-2",
-      "actualScoreBand": "高比分平局",
-      "topScoreHit": false,
-      "scoreBandHit": false,
-      "scoreScenarioHit": false,
-      "confidence": 76,
-      "brier": 1.0634,
-      "logLoss": 1.4697,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        68,
-        23,
-        9
-      ],
-      "scoreBands": [
-        {
-          "label": "主队小胜",
-          "chance": 33,
-          "examples": [
-            "2-0",
-            "1-0",
-            "2-1"
-          ]
-        },
-        {
-          "label": "主队大胜",
-          "chance": 24,
-          "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 19,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
           "chance": 62,
           "examples": [
-            "2-0",
-            "1-0",
-            "1-1"
+            "1-1",
+            "0-0",
+            "2-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 45,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-2"
           ]
         },
         {
           "label": "主队胜出覆盖",
+          "chance": 44,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "can-qat-10",
+      "match": "加拿大 vs 卡塔尔",
+      "date": "2026-06-19",
+      "kickoffTime": "06:00",
+      "kickoff": "2026-06-18T22:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "6-0",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.1982,
+      "logLoss": 0.4308,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        65,
+        26,
+        9
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 36,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 23,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 21,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
           "chance": 68,
           "examples": [
             "2-0",
             "1-0",
-            "3-0"
-          ]
-        },
-        {
-          "label": "主队优势胜",
-          "chance": 48,
-          "examples": [
-            "2-0",
-            "3-0",
-            "3-1"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "fra-sen-49",
-      "match": "法国 vs 塞内加尔",
-      "predictionSource": "current-model",
-      "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "主胜",
-      "outcomeHit": true,
-      "actualScore": "3-1",
-      "actualScoreBand": "主队对攻胜",
-      "topScoreHit": true,
-      "scoreBandHit": false,
-      "scoreScenarioHit": true,
-      "confidence": 76,
-      "brier": 0.2342,
-      "logLoss": 0.4943,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        61,
-        25,
-        14
-      ],
-      "scoreBands": [
-        {
-          "label": "主队小胜",
-          "chance": 28,
-          "examples": [
-            "2-0",
-            "2-1",
-            "1-0"
-          ]
-        },
-        {
-          "label": "主队大胜",
-          "chance": 20,
-          "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 19,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "主队不败低比分",
-          "chance": 54,
-          "examples": [
-            "1-1",
-            "2-0",
-            "2-1"
+            "1-1"
           ]
         },
         {
           "label": "主队胜出覆盖",
-          "chance": 61,
+          "chance": 65,
           "examples": [
             "2-0",
-            "2-1",
-            "1-0"
+            "1-0",
+            "3-0"
           ]
         },
         {
@@ -81194,123 +83887,47 @@ window.ANALYSIS_BACKTEST = {
       "marketProbabilities": null
     },
     {
-      "id": "irq-nor-50",
-      "match": "伊拉克 vs 挪威",
+      "id": "sui-bih-9",
+      "match": "瑞士 vs 波黑",
+      "date": "2026-06-19",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-18T19:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "客胜",
-      "predictedOutcome": "客胜",
-      "outcomeHit": true,
-      "actualScore": "1-4",
-      "actualScoreBand": "客队大胜",
-      "topScoreHit": false,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 76,
-      "brier": 0.2954,
-      "logLoss": 0.5798,
-      "marketOutcome": "",
-      "marketHit": null,
-      "probabilities": [
-        17,
-        27,
-        56
-      ],
-      "scoreBands": [
-        {
-          "label": "客队小胜",
-          "chance": 26,
-          "examples": [
-            "1-2",
-            "0-2",
-            "0-1"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 19,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队大胜",
-          "chance": 17,
-          "examples": [
-            "0-3",
-            "1-4",
-            "0-4"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 51,
-          "examples": [
-            "1-1",
-            "1-2",
-            "0-2"
-          ]
-        },
-        {
-          "label": "客队胜出覆盖",
-          "chance": 56,
-          "examples": [
-            "1-2",
-            "0-2",
-            "0-1"
-          ]
-        },
-        {
-          "label": "客队优势胜",
-          "chance": 39,
-          "examples": [
-            "0-2",
-            "1-3",
-            "0-3"
-          ]
-        }
-      ],
-      "marketProbabilities": null
-    },
-    {
-      "id": "arg-alg-55",
-      "match": "阿根廷 vs 阿尔及利亚",
-      "predictionSource": "current-model",
-      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
       "actualOutcome": "主胜",
       "predictedOutcome": "主胜",
       "outcomeHit": true,
-      "actualScore": "3-0",
+      "actualScore": "4-1",
       "actualScoreBand": "主队大胜",
       "topScoreHit": false,
       "scoreBandHit": true,
       "scoreScenarioHit": true,
       "confidence": 76,
-      "brier": 0.1806,
+      "brier": 0.1862,
       "logLoss": 0.4155,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
         66,
-        23,
-        11
+        25,
+        9
       ],
       "scoreBands": [
         {
           "label": "主队小胜",
-          "chance": 28,
+          "chance": 35,
           "examples": [
             "2-0",
-            "2-1",
-            "1-0"
+            "1-0",
+            "2-1"
           ]
         },
         {
           "label": "主队大胜",
-          "chance": 25,
+          "chance": 22,
           "examples": [
             "3-0",
             "4-0",
@@ -81319,7 +83936,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "低比分平局",
-          "chance": 17,
+          "chance": 21,
           "examples": [
             "1-1",
             "0-0"
@@ -81329,20 +83946,11 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "主队不败低比分",
-          "chance": 53,
-          "examples": [
-            "1-1",
-            "2-0",
-            "2-1"
-          ]
-        },
-        {
-          "label": "主队优势胜",
-          "chance": 49,
+          "chance": 65,
           "examples": [
             "2-0",
-            "3-0",
-            "3-1"
+            "1-0",
+            "1-1"
           ]
         },
         {
@@ -81350,24 +83958,126 @@ window.ANALYSIS_BACKTEST = {
           "chance": 66,
           "examples": [
             "2-0",
-            "2-1",
+            "1-0",
             "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 45,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
           ]
         }
       ],
       "marketProbabilities": null
     },
     {
-      "id": "aut-jor-56",
-      "match": "奥地利 vs 约旦",
+      "id": "cze-rsa-3",
+      "match": "捷克 vs 南非",
+      "date": "2026-06-19",
+      "kickoffTime": "00:00",
+      "kickoff": "2026-06-18T16:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "主胜",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
       "outcomeHit": true,
-      "actualScore": "3-1",
-      "actualScoreBand": "主队对攻胜",
-      "topScoreHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 67,
+      "brier": 0.4718,
+      "logLoss": 0.7985,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        37,
+        45,
+        18
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 40,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 26,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 15,
+          "examples": [
+            "0-1",
+            "1-2",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 70,
+          "examples": [
+            "0-0",
+            "1-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 56,
+          "examples": [
+            "0-0",
+            "1-1",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 40,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "uzb-col-62",
+      "match": "乌兹别克斯坦 vs 哥伦比亚",
+      "date": "2026-06-18",
+      "kickoffTime": "10:00",
+      "kickoff": "2026-06-18T02:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-3",
+      "actualScoreBand": "客队对攻胜",
+      "topScoreHit": true,
       "scoreBandHit": false,
       "scoreScenarioHit": true,
       "confidence": 76,
@@ -81376,27 +84086,27 @@ window.ANALYSIS_BACKTEST = {
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        69,
+        9,
         22,
-        9
+        69
       ],
       "scoreBands": [
         {
-          "label": "主队小胜",
-          "chance": 33,
+          "label": "客队小胜",
+          "chance": 32,
           "examples": [
-            "2-0",
-            "1-0",
-            "2-1"
+            "0-2",
+            "0-1",
+            "1-2"
           ]
         },
         {
-          "label": "主队大胜",
-          "chance": 25,
+          "label": "客队大胜",
+          "chance": 26,
           "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
+            "0-3",
+            "0-4",
+            "1-4"
           ]
         },
         {
@@ -81410,112 +84120,117 @@ window.ANALYSIS_BACKTEST = {
       ],
       "scoreScenarios": [
         {
-          "label": "主队不败低比分",
-          "chance": 61,
+          "label": "客队不败低比分",
+          "chance": 60,
           "examples": [
-            "2-0",
-            "1-0",
-            "1-1"
+            "0-2",
+            "1-1",
+            "0-1"
           ]
         },
         {
-          "label": "主队胜出覆盖",
+          "label": "客队优势胜",
+          "chance": 50,
+          "examples": [
+            "0-2",
+            "0-3",
+            "1-3"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
           "chance": 69,
           "examples": [
-            "2-0",
-            "1-0",
-            "3-0"
-          ]
-        },
-        {
-          "label": "主队优势胜",
-          "chance": 49,
-          "examples": [
-            "2-0",
-            "3-0",
-            "3-1"
+            "0-2",
+            "0-1",
+            "0-3"
           ]
         }
       ],
       "marketProbabilities": null
     },
     {
-      "id": "por-cod-61",
-      "match": "葡萄牙 vs 刚果（金）",
+      "id": "gha-pan-68",
+      "match": "加纳 vs 巴拿马",
+      "date": "2026-06-18",
+      "kickoffTime": "07:00",
+      "kickoff": "2026-06-17T23:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "平局",
-      "predictedOutcome": "主胜",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "客胜",
       "outcomeHit": false,
-      "actualScore": "1-1",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
+      "actualScore": "1-0",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": false,
+      "scoreBandHit": false,
       "scoreScenarioHit": true,
-      "confidence": 76,
-      "brier": 0.9234,
-      "logLoss": 1.273,
+      "confidence": 67,
+      "brier": 1.2168,
+      "logLoss": 2.3026,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        63,
-        28,
-        9
+        10,
+        42,
+        48
       ],
       "scoreBands": [
         {
-          "label": "主队小胜",
-          "chance": 38,
-          "examples": [
-            "1-0",
-            "2-0",
-            "2-1"
-          ]
-        },
-        {
           "label": "低比分平局",
-          "chance": 25,
+          "chance": 39,
           "examples": [
-            "1-1",
-            "0-0"
+            "0-0",
+            "1-1"
           ]
         },
         {
-          "label": "主队大胜",
-          "chance": 18,
+          "label": "客队小胜",
+          "chance": 32,
           "examples": [
-            "3-0",
-            "4-0",
-            "4-1"
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 11,
+          "examples": [
+            "0-3",
+            "0-4",
+            "1-4"
           ]
         }
       ],
       "scoreScenarios": [
         {
+          "label": "客队不败低比分",
+          "chance": 77,
+          "examples": [
+            "0-0",
+            "1-1",
+            "0-1"
+          ]
+        },
+        {
           "label": "主队不败低比分",
-          "chance": 71,
+          "chance": 48,
           "examples": [
-            "1-0",
-            "2-0",
+            "0-0",
+            "1-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 39,
+          "examples": [
+            "0-0",
             "1-1"
-          ]
-        },
-        {
-          "label": "主队胜出覆盖",
-          "chance": 63,
-          "examples": [
-            "1-0",
-            "2-0",
-            "3-0"
-          ]
-        },
-        {
-          "label": "主队优势胜",
-          "chance": 40,
-          "examples": [
-            "2-0",
-            "3-0",
-            "3-1"
           ]
         }
       ],
@@ -81524,8 +84239,14 @@ window.ANALYSIS_BACKTEST = {
     {
       "id": "eng-cro-67",
       "match": "英格兰 vs 克罗地亚",
+      "date": "2026-06-18",
+      "kickoffTime": "04:00",
+      "kickoff": "2026-06-17T20:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
       "actualOutcome": "主胜",
       "predictedOutcome": "主胜",
       "outcomeHit": true,
@@ -81604,97 +84325,110 @@ window.ANALYSIS_BACKTEST = {
       "marketProbabilities": null
     },
     {
-      "id": "gha-pan-68",
-      "match": "加纳 vs 巴拿马",
+      "id": "por-cod-61",
+      "match": "葡萄牙 vs 刚果（金）",
+      "date": "2026-06-18",
+      "kickoffTime": "01:00",
+      "kickoff": "2026-06-17T17:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "主胜",
-      "predictedOutcome": "客胜",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
       "outcomeHit": false,
-      "actualScore": "1-0",
-      "actualScoreBand": "主队小胜",
-      "topScoreHit": false,
-      "scoreBandHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
       "scoreScenarioHit": true,
-      "confidence": 67,
-      "brier": 1.2168,
-      "logLoss": 2.3026,
+      "confidence": 76,
+      "brier": 0.9234,
+      "logLoss": 1.273,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        10,
-        42,
-        48
+        63,
+        28,
+        9
       ],
       "scoreBands": [
         {
+          "label": "主队小胜",
+          "chance": 38,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
           "label": "低比分平局",
-          "chance": 39,
+          "chance": 25,
           "examples": [
-            "0-0",
-            "1-1"
+            "1-1",
+            "0-0"
           ]
         },
         {
-          "label": "客队小胜",
-          "chance": 32,
+          "label": "主队大胜",
+          "chance": 18,
           "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        },
-        {
-          "label": "客队大胜",
-          "chance": 11,
-          "examples": [
-            "0-3",
-            "0-4",
-            "1-4"
+            "3-0",
+            "4-0",
+            "4-1"
           ]
         }
       ],
       "scoreScenarios": [
         {
-          "label": "客队不败低比分",
-          "chance": 77,
-          "examples": [
-            "0-0",
-            "1-1",
-            "0-1"
-          ]
-        },
-        {
           "label": "主队不败低比分",
-          "chance": 48,
+          "chance": 71,
           "examples": [
-            "0-0",
-            "1-1",
-            "1-0"
+            "1-0",
+            "2-0",
+            "1-1"
           ]
         },
         {
-          "label": "低比分平局",
-          "chance": 39,
+          "label": "主队胜出覆盖",
+          "chance": 63,
           "examples": [
-            "0-0",
-            "1-1"
+            "1-0",
+            "2-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 40,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
           ]
         }
       ],
       "marketProbabilities": null
     },
     {
-      "id": "uzb-col-62",
-      "match": "乌兹别克斯坦 vs 哥伦比亚",
+      "id": "aut-jor-56",
+      "match": "奥地利 vs 约旦",
+      "date": "2026-06-17",
+      "kickoffTime": "12:00",
+      "kickoff": "2026-06-17T04:00:00.000Z",
       "predictionSource": "current-model",
       "lockedAt": null,
-      "actualOutcome": "客胜",
-      "predictedOutcome": "客胜",
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
       "outcomeHit": true,
-      "actualScore": "1-3",
-      "actualScoreBand": "客队对攻胜",
-      "topScoreHit": true,
+      "actualScore": "3-1",
+      "actualScoreBand": "主队对攻胜",
+      "topScoreHit": false,
       "scoreBandHit": false,
       "scoreScenarioHit": true,
       "confidence": 76,
@@ -81703,27 +84437,27 @@ window.ANALYSIS_BACKTEST = {
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        9,
+        69,
         22,
-        69
+        9
       ],
       "scoreBands": [
         {
-          "label": "客队小胜",
-          "chance": 32,
+          "label": "主队小胜",
+          "chance": 33,
           "examples": [
-            "0-2",
-            "0-1",
-            "1-2"
+            "2-0",
+            "1-0",
+            "2-1"
           ]
         },
         {
-          "label": "客队大胜",
-          "chance": 26,
+          "label": "主队大胜",
+          "chance": 25,
           "examples": [
-            "0-3",
-            "0-4",
-            "1-4"
+            "3-0",
+            "4-0",
+            "4-1"
           ]
         },
         {
@@ -81737,30 +84471,1697 @@ window.ANALYSIS_BACKTEST = {
       ],
       "scoreScenarios": [
         {
-          "label": "客队不败低比分",
-          "chance": 60,
+          "label": "主队不败低比分",
+          "chance": 61,
           "examples": [
-            "0-2",
+            "2-0",
+            "1-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 69,
+          "examples": [
+            "2-0",
+            "1-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 49,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "arg-alg-55",
+      "match": "阿根廷 vs 阿尔及利亚",
+      "date": "2026-06-17",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-06-17T01:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-0",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.1806,
+      "logLoss": 0.4155,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        66,
+        23,
+        11
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 28,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 25,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 17,
+          "examples": [
             "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 53,
+          "examples": [
+            "1-1",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 49,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 66,
+          "examples": [
+            "2-0",
+            "2-1",
+            "3-0"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "irq-nor-50",
+      "match": "伊拉克 vs 挪威",
+      "date": "2026-06-17",
+      "kickoffTime": "06:00",
+      "kickoff": "2026-06-16T22:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "1-4",
+      "actualScoreBand": "客队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.2954,
+      "logLoss": 0.5798,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        17,
+        27,
+        56
+      ],
+      "scoreBands": [
+        {
+          "label": "客队小胜",
+          "chance": 26,
+          "examples": [
+            "1-2",
+            "0-2",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 19,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 17,
+          "examples": [
+            "0-3",
+            "1-4",
+            "0-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 51,
+          "examples": [
+            "1-1",
+            "1-2",
+            "0-2"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 56,
+          "examples": [
+            "1-2",
+            "0-2",
             "0-1"
           ]
         },
         {
           "label": "客队优势胜",
+          "chance": 39,
+          "examples": [
+            "0-2",
+            "1-3",
+            "0-3"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "fra-sen-49",
+      "match": "法国 vs 塞内加尔",
+      "date": "2026-06-17",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-16T19:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "3-1",
+      "actualScoreBand": "主队对攻胜",
+      "topScoreHit": true,
+      "scoreBandHit": false,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.2342,
+      "logLoss": 0.4943,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        61,
+        25,
+        14
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 28,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 20,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 19,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 54,
+          "examples": [
+            "1-1",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 61,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 43,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "irn-nzl-38",
+      "match": "伊朗 vs 新西兰",
+      "date": "2026-06-16",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-06-16T01:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "2-2",
+      "actualScoreBand": "高比分平局",
+      "topScoreHit": false,
+      "scoreBandHit": false,
+      "scoreScenarioHit": false,
+      "confidence": 76,
+      "brier": 1.0634,
+      "logLoss": 1.4697,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        68,
+        23,
+        9
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 33,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 24,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 19,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 62,
+          "examples": [
+            "2-0",
+            "1-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 68,
+          "examples": [
+            "2-0",
+            "1-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 48,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ksa-uru-44",
+      "match": "沙特阿拉伯 vs 乌拉圭",
+      "date": "2026-06-16",
+      "kickoffTime": "06:00",
+      "kickoff": "2026-06-15T22:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 62,
+      "brier": 0.5216,
+      "logLoss": 0.821,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        12,
+        44,
+        44
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 40,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 30,
+          "examples": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 10,
+          "examples": [
+            "0-3",
+            "0-4",
+            "1-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 75,
+          "examples": [
+            "0-0",
+            "1-1",
+            "0-1"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 51,
+          "examples": [
+            "0-0",
+            "1-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 44,
+          "examples": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bel-egy-37",
+      "match": "比利时 vs 埃及",
+      "date": "2026-06-16",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-15T19:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 62,
+      "brier": 0.5442,
+      "logLoss": 0.8916,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        40,
+        41,
+        19
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 32,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 22,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 13,
+          "examples": [
+            "1-2",
+            "0-1",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 59,
+          "examples": [
+            "1-1",
+            "0-0",
+            "2-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 46,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-2"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 40,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "esp-cpv-43",
+      "match": "西班牙 vs 佛得角",
+      "date": "2026-06-16",
+      "kickoffTime": "00:00",
+      "kickoff": "2026-06-15T16:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "0-0",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 66,
+      "brier": 0.5634,
+      "logLoss": 0.844,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        48,
+        43,
+        9
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 40,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 34,
+          "examples": [
+            "1-0",
+            "2-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 11,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 80,
+          "examples": [
+            "0-0",
+            "1-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 49,
+          "examples": [
+            "0-0",
+            "1-1",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 40,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "swe-tun-32",
+      "match": "瑞典 vs 突尼斯",
+      "date": "2026-06-15",
+      "kickoffTime": "10:00",
+      "kickoff": "2026-06-15T02:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "5-1",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 66,
+      "brier": 0.485,
+      "logLoss": 0.7985,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        45,
+        40,
+        15
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 33,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 25,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 12,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 64,
+          "examples": [
+            "1-1",
+            "0-0",
+            "2-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 45,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-2"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 45,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "civ-ecu-26",
+      "match": "科特迪瓦 vs 厄瓜多尔",
+      "date": "2026-06-15",
+      "kickoffTime": "07:00",
+      "kickoff": "2026-06-14T23:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "1-0",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 63,
+      "brier": 0.6968,
+      "logLoss": 1.1394,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        32,
+        38,
+        30
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 32,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 23,
+          "examples": [
+            "1-0",
+            "2-1",
+            "2-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 21,
+          "examples": [
+            "0-1",
+            "1-2",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 58,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 56,
+          "examples": [
+            "1-1",
+            "0-0",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 32,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ned-jpn-31",
+      "match": "荷兰 vs 日本",
+      "date": "2026-06-15",
+      "kickoffTime": "04:00",
+      "kickoff": "2026-06-14T20:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "2-2",
+      "actualScoreBand": "高比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": false,
+      "scoreScenarioHit": true,
+      "confidence": 73,
+      "brier": 0.7976,
+      "logLoss": 1.273,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        26,
+        28,
+        46
+      ],
+      "scoreBands": [
+        {
+          "label": "客队小胜",
+          "chance": 19,
+          "examples": [
+            "1-2",
+            "0-2",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 17,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队对攻胜",
+          "chance": 14,
+          "examples": [
+            "1-3",
+            "2-3",
+            "2-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "开放对攻",
+          "chance": 42,
+          "examples": [
+            "2-2",
+            "1-3",
+            "2-3"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 40,
+          "examples": [
+            "1-1",
+            "1-2",
+            "0-2"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 46,
+          "examples": [
+            "1-2",
+            "1-3",
+            "0-2"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "ger-cuw-25",
+      "match": "德国 vs 库拉索",
+      "date": "2026-06-15",
+      "kickoffTime": "01:00",
+      "kickoff": "2026-06-14T17:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "7-1",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.1154,
+      "logLoss": 0.3147,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        73,
+        19,
+        8
+      ],
+      "scoreBands": [
+        {
+          "label": "主队大胜",
+          "chance": 32,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 27,
+          "examples": [
+            "2-0",
+            "2-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 14,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队优势胜",
+          "chance": 57,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 73,
+          "examples": [
+            "2-0",
+            "3-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
           "chance": 50,
+          "examples": [
+            "2-0",
+            "3-0",
+            "2-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "aus-tur-20",
+      "match": "澳大利亚 vs 土耳其",
+      "date": "2026-06-14",
+      "kickoffTime": "12:00",
+      "kickoff": "2026-06-14T04:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "2-0",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": false,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 66,
+      "brier": 0.9632,
+      "logLoss": 1.6094,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        20,
+        44,
+        36
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 37,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 23,
+          "examples": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 15,
+          "examples": [
+            "1-0",
+            "2-1",
+            "2-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 63,
+          "examples": [
+            "1-1",
+            "0-0",
+            "0-1"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 53,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 37,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "hai-sco-14",
+      "match": "海地 vs 苏格兰",
+      "date": "2026-06-14",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-06-14T01:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "客胜",
+      "predictedOutcome": "客胜",
+      "outcomeHit": true,
+      "actualScore": "0-1",
+      "actualScoreBand": "客队小胜",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 64,
+      "brier": 0.4952,
+      "logLoss": 0.7765,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        10,
+        44,
+        46
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 41,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 32,
+          "examples": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 10,
+          "examples": [
+            "0-3",
+            "0-4",
+            "1-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 78,
+          "examples": [
+            "0-0",
+            "1-1",
+            "0-1"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 50,
+          "examples": [
+            "0-0",
+            "1-1",
+            "1-0"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 41,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "bra-mar-13",
+      "match": "巴西 vs 摩洛哥",
+      "date": "2026-06-14",
+      "kickoffTime": "06:00",
+      "kickoff": "2026-06-13T22:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "平局",
+      "outcomeHit": true,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 64,
+      "brier": 0.5586,
+      "logLoss": 0.9416,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        29,
+        39,
+        32
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 28,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 17,
+          "examples": [
+            "1-2",
+            "0-2",
+            "0-1"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 17,
+          "examples": [
+            "2-1",
+            "1-0",
+            "2-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 48,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-2"
+          ]
+        },
+        {
+          "label": "主队不败低比分",
+          "chance": 47,
+          "examples": [
+            "1-1",
+            "0-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 32,
+          "examples": [
+            "1-2",
+            "0-2",
+            "0-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "qat-sui-8",
+      "match": "卡塔尔 vs 瑞士",
+      "date": "2026-06-14",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-13T19:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.8966,
+      "logLoss": 1.2379,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        9,
+        29,
+        62
+      ],
+      "scoreBands": [
+        {
+          "label": "客队小胜",
+          "chance": 38,
+          "examples": [
+            "0-1",
+            "0-2",
+            "1-2"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 26,
+          "examples": [
+            "0-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 17,
+          "examples": [
+            "0-3",
+            "0-4",
+            "1-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "客队不败低比分",
+          "chance": 73,
+          "examples": [
+            "0-1",
+            "0-2",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队胜出覆盖",
+          "chance": 62,
+          "examples": [
+            "0-1",
+            "0-2",
+            "0-3"
+          ]
+        },
+        {
+          "label": "客队优势胜",
+          "chance": 39,
           "examples": [
             "0-2",
             "0-3",
             "1-3"
           ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "usa-par-19",
+      "match": "美国 vs 巴拉圭",
+      "date": "2026-06-13",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-06-13T01:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "4-1",
+      "actualScoreBand": "主队大胜",
+      "topScoreHit": false,
+      "scoreBandHit": false,
+      "scoreScenarioHit": true,
+      "confidence": 74,
+      "brier": 0.4074,
+      "logLoss": 0.734,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        48,
+        29,
+        23
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 23,
+          "examples": [
+            "2-1",
+            "2-0",
+            "1-0"
+          ]
         },
         {
-          "label": "客队胜出覆盖",
+          "label": "低比分平局",
+          "chance": 20,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 13,
+          "examples": [
+            "1-2",
+            "0-1",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 48,
+          "examples": [
+            "1-1",
+            "2-1",
+            "2-0"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 48,
+          "examples": [
+            "2-1",
+            "2-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "开放对攻",
+          "chance": 33,
+          "examples": [
+            "2-2",
+            "3-1",
+            "3-2"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "can-bih-7",
+      "match": "加拿大 vs 波黑",
+      "date": "2026-06-13",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-12T19:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 1.0346,
+      "logLoss": 1.4271,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        67,
+        24,
+        9
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 34,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 23,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 20,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 63,
+          "examples": [
+            "2-0",
+            "1-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 67,
+          "examples": [
+            "2-0",
+            "1-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 47,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "kor-cze-2",
+      "match": "韩国 vs 捷克",
+      "date": "2026-06-12",
+      "kickoffTime": "10:00",
+      "kickoff": "2026-06-12T02:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "平局",
+      "outcomeHit": false,
+      "actualScore": "2-1",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 65,
+      "brier": 0.6518,
+      "logLoss": 1.0498,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        35,
+        42,
+        23
+      ],
+      "scoreBands": [
+        {
+          "label": "低比分平局",
+          "chance": 35,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 22,
+          "examples": [
+            "1-0",
+            "2-1",
+            "2-0"
+          ]
+        },
+        {
+          "label": "客队小胜",
+          "chance": 16,
+          "examples": [
+            "0-1",
+            "1-2",
+            "0-2"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
+          "chance": 60,
+          "examples": [
+            "1-1",
+            "0-0",
+            "1-0"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 52,
+          "examples": [
+            "1-1",
+            "0-0",
+            "0-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 35,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        }
+      ],
+      "marketProbabilities": null
+    },
+    {
+      "id": "mex-rsa-1",
+      "match": "墨西哥 vs 南非",
+      "date": "2026-06-12",
+      "kickoffTime": "03:00",
+      "kickoff": "2026-06-11T19:00:00.000Z",
+      "predictionSource": "current-model",
+      "lockedAt": null,
+      "modelVersion": "v1",
+      "modelVersionLabel": "第一版模型/回放基准",
+      "modelVersionNote": "未赛前锁定，不与第二版混算",
+      "actualOutcome": "主胜",
+      "predictedOutcome": "主胜",
+      "outcomeHit": true,
+      "actualScore": "2-0",
+      "actualScoreBand": "主队小胜",
+      "topScoreHit": true,
+      "scoreBandHit": true,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.1982,
+      "logLoss": 0.4308,
+      "marketOutcome": "",
+      "marketHit": null,
+      "probabilities": [
+        65,
+        26,
+        9
+      ],
+      "scoreBands": [
+        {
+          "label": "主队小胜",
+          "chance": 37,
+          "examples": [
+            "2-0",
+            "1-0",
+            "2-1"
+          ]
+        },
+        {
+          "label": "低比分平局",
+          "chance": 23,
+          "examples": [
+            "1-1",
+            "0-0"
+          ]
+        },
+        {
+          "label": "主队大胜",
+          "chance": 20,
+          "examples": [
+            "3-0",
+            "4-0",
+            "4-1"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "主队不败低比分",
           "chance": 69,
           "examples": [
-            "0-2",
-            "0-1",
-            "0-3"
+            "2-0",
+            "1-0",
+            "1-1"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 65,
+          "examples": [
+            "2-0",
+            "1-0",
+            "3-0"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 42,
+          "examples": [
+            "2-0",
+            "3-0",
+            "3-1"
           ]
         }
       ],
