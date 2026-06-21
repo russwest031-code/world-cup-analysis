@@ -801,7 +801,6 @@
   function renderBacktest() {
     var root = document.getElementById("backtestRoot");
     if (!root) return;
-    var rows = backtest.rows || [];
     var versions = backtest.versionBreakdown || [];
     function fmt(value, suffix) {
       if (value === null || value === undefined || value === "") return "-";
@@ -876,10 +875,6 @@
               return metric(item.label, fmt(item.hitRate, "%"), (item.count || 0) + "场 · Brier " + fmt(item.averageBrier));
             }).join("") +
           '</div>' +
-        '</section>' +
-        '<section class="detail-section muted-backtest-section">' +
-          '<div class="section-title"><h3>最近样本</h3><small>按开赛时间倒序</small></div>' +
-          '<div class="backtest-table">' + rows.map(rowCard).join("") + '</div>' +
         '</section>' +
       '</div>';
   }
