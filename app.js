@@ -20,7 +20,7 @@
   function sanitizeDisplayText(text) {
     if (!text) return text;
     return text
-      .replace(/判断综合了[^。]*等 10 个因素，加权计算得出。/g, "判断结合已接入真实数据和模型参数计算得出，具体事实证据见“真实数据源”和“临场情报”。")
+      .replace(/判断综合了[^。]*等 10 个因素，加权计算得出。/g, "判断结合已接入真实数据和模型参数计算得出，具体事实证据见《真实数据源》和《临场情报》。")
       .replace(/世界排名/g, "实力评估")
       .replace(/近期战绩/g, "模型状态")
       .replace(/近期状态/g, "模型状态")
@@ -802,60 +802,87 @@
     var root = document.getElementById("backtestRoot");
     if (!root) return;
     var rows = backtest.rows || [];
+    var versions = backtest.versionBreakdown || [];
+    function fmt(value, suffix) {
+      if (value === null || value === undefined || value === "") return "-";
+      return String(value) + (suffix || "");
+    }
     function metric(label, value, note) {
-      return '<div class="backtest-metric"><small>' + label + '</small><strong>' + (value ?? "-") + '</strong><span>' + (note || "") + '</span></div>';
+      return '<div class="backtest-metric"><small>' + label + '</small><strong>' + fmt(value) + '</strong><span>' + (note || "") + '</span></div>';
+    }
+    function versionCard(version) {
+      return '<article class="backtest-version-card ' + (version.key === "v2" ? "primary" : "") + '">' +
+        '<div><small>' + version.note + '</small><h3>' + version.label + '</h3></div>' +
+        '<div class="version-score"><strong>' + fmt(version.outcomeHitRate, "%") + '</strong><span>胜平负命中</span></div>' +
+        '<div class="version-metrics">' +
+          '<span>样本 <b>' + version.sampleCount + '</b></span>' +
+          '<span>赛前锁定 <b>' + version.lockedCount + '</b></span>' +
+          '<span>Top4比分 <b>' + fmt(version.topScoreCoverage, "%") + '</b></span>' +
+          '<span>情景覆盖 <b>' + fmt(version.scoreScenarioCoverage, "%") + '</b></span>' +
+          '<span>Brier <b>' + fmt(version.averageBrier) + '</b></span>' +
+        '</div>' +
+      '</article>';
+    }
+    function rowCard(row) {
+      return '<div class="backtest-row">' +
+        '<strong>' + row.match + '</strong>' +
+        '<div><span>' + (row.date || "") + ' ' + (row.kickoffTime || "") + '</span><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
+        '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span><span class="' + (row.scoreScenarioHit ? "hit" : "miss") + '">' + (row.scoreScenarioHit ? "情景命中" : "情景未中") + '</span></div>' +
+        '<small>' + row.modelVersionLabel + ' · ' + row.modelVersionNote + ' · 概率 ' + row.probabilities.join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
+      '</div>';
+    }
+    function versionSection(version) {
+      return '<section class="detail-section">' +
+        '<div class="section-title"><h3>' + version.label + '样本</h3><small>' + version.sampleCount + '场 · ' + version.note + '</small></div>' +
+        '<div class="backtest-table">' + (version.rows || []).map(rowCard).join("") + '</div>' +
+      '</section>';
     }
     root.innerHTML =
       '<section class="methodology-hero">' +
         '<h1>模型回测</h1>' +
-        '<p>用已完场比赛验证预测概率、比分覆盖和赔率市场对照，避免模型只会输出、不会自我评估。</p>' +
+        '<p>按模型版本拆开验证预测概率、比分覆盖和赔率市场对照。第二版模型只统计赛前锁定样本，旧回放基准不再和它混算。</p>' +
       '</section>' +
       '<div class="methodology-content">' +
         '<section class="detail-section">' +
-          '<div class="section-title"><h3>回测概览</h3><small>已完场样本</small></div>' +
+          '<div class="section-title"><h3>分版本成绩单</h3><small>先看真实赛前预测</small></div>' +
+          '<div class="backtest-version-grid">' + versions.map(versionCard).join("") + '</div>' +
+        '</section>' +
+        versions.map(versionSection).join("") +
+        '<section class="detail-section muted-backtest-section">' +
+          '<div class="section-title"><h3>总体概览</h3><small>跨版本混合，仅作背景</small></div>' +
           '<div class="backtest-grid">' +
             metric("已完场", backtest.completedCount || 0, "场") +
-            metric("胜平负命中", (backtest.outcomeHitRate ?? "-") + "%", "模型主方向") +
-            metric("平局召回", (backtest.drawRecall ?? "-") + "%", "实际平局识别") +
-            metric("Top4比分覆盖", (backtest.topScoreCoverage ?? "-") + "%", "真实比分是否入围") +
-            metric("区间覆盖", (backtest.scoreBandCoverage ?? "-") + "%", "Top3比分区间") +
-            metric("情景覆盖", (backtest.scoreScenarioCoverage ?? "-") + "%", "Top3覆盖情景") +
+            metric("胜平负命中", fmt(backtest.outcomeHitRate, "%"), "混合口径") +
+            metric("平局召回", fmt(backtest.drawRecall, "%"), "实际平局识别") +
+            metric("Top4比分覆盖", fmt(backtest.topScoreCoverage, "%"), "真实比分是否入围") +
+            metric("区间覆盖", fmt(backtest.scoreBandCoverage, "%"), "Top3比分区间") +
+            metric("情景覆盖", fmt(backtest.scoreScenarioCoverage, "%"), "Top3覆盖情景") +
             metric("Brier Score", backtest.averageBrier ?? "-", "越低越好") +
             metric("Log Loss", backtest.averageLogLoss ?? "-", "概率惩罚") +
             metric("赛前锁定", backtest.lockedPredictionCount || 0, "用于严谨回测") +
             metric("高信心样本", backtest.highConfidenceCount || 0, "场") +
-            metric("高信心命中", (backtest.highConfidenceHitRate ?? "-") + "%", ">=80%") +
+            metric("高信心命中", fmt(backtest.highConfidenceHitRate, "%"), ">=80%") +
             metric("赔率可比", backtest.marketComparableCount || 0, "场") +
-            metric("市场命中", (backtest.marketHitRate ?? "-") + "%", "赔率倾向") +
+            metric("市场命中", fmt(backtest.marketHitRate, "%"), "赔率倾向") +
           '</div>' +
         '</section>' +
-        '<section class="detail-section">' +
+        '<section class="detail-section muted-backtest-section">' +
           '<div class="section-title"><h3>校准诊断</h3><small>分结果 / 分信心</small></div>' +
           '<div class="backtest-grid">' +
             (backtest.outcomeBreakdown || []).map(function (item) {
-              return metric(item.outcome + "召回", (item.hitRate ?? "-") + "%", (item.hitCount || 0) + "/" + (item.actualCount || 0));
+              return metric(item.outcome + "召回", fmt(item.hitRate, "%"), (item.hitCount || 0) + "/" + (item.actualCount || 0));
             }).join("") +
             (backtest.confidenceBuckets || []).map(function (item) {
-              return metric(item.label, (item.hitRate ?? "-") + "%", (item.count || 0) + "场 · Brier " + (item.averageBrier ?? "-"));
+              return metric(item.label, fmt(item.hitRate, "%"), (item.count || 0) + "场 · Brier " + fmt(item.averageBrier));
             }).join("") +
           '</div>' +
         '</section>' +
-        '<section class="detail-section">' +
-          '<div class="section-title"><h3>样本明细</h3><small>最近24场</small></div>' +
-          '<div class="backtest-table">' +
-            rows.map(function (row) {
-              return '<div class="backtest-row">' +
-                '<strong>' + row.match + '</strong>' +
-                '<div><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
-                '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span><span class="' + (row.scoreScenarioHit ? "hit" : "miss") + '">' + (row.scoreScenarioHit ? "情景命中" : "情景未中") + '</span></div>' +
-                '<small>概率 ' + row.probabilities.join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.predictionSource === "locked-pre-match" ? ' · 赛前锁定' : ' · 当前模型') + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
-              '</div>';
-            }).join("") +
-          '</div>' +
+        '<section class="detail-section muted-backtest-section">' +
+          '<div class="section-title"><h3>最近样本</h3><small>按开赛时间倒序</small></div>' +
+          '<div class="backtest-table">' + rows.map(rowCard).join("") + '</div>' +
         '</section>' +
       '</div>';
   }
-
   // ─── SHARED DATA INIT ──────────────────────────────────────────
   days = Array.from(new Set(matches.map(function (item) { return item.date; }))).map(function (date) {
     var parsed = new Date(date + "T12:00:00");

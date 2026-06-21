@@ -2143,9 +2143,19 @@ function logLoss(probs, actualIndex) {
 
 function calculateBacktest(matches, predictionLocks = null) {
   const completed = matches.filter(match => match.status === "completed" && actualOutcome(match) !== null);
+  const hitRate = list => list.length ? Math.round(list.filter(row => row.outcomeHit).length / list.length * 100) : null;
+  const coverage = (list, field) => list.length ? Math.round(list.filter(row => row[field]).length / list.length * 100) : null;
+  const averageMetric = (list, field) => list.length ? Number((list.reduce((sum, row) => sum + row[field], 0) / list.length).toFixed(4)) : null;
+  const sortNewestFirst = list => list.slice().sort((a, b) => {
+    const left = b.kickoff || `${b.date || ""} ${b.kickoffTime || ""}`;
+    const right = a.kickoff || `${a.date || ""} ${a.kickoffTime || ""}`;
+    return left.localeCompare(right);
+  });
+
   const rows = completed.map(match => {
     const actual = actualOutcome(match);
-    const locked = predictionLocks?.matches?.[match.id]?.prediction || null;
+    const lock = predictionLocks?.matches?.[match.id] || null;
+    const locked = lock?.prediction || null;
     const evaluationProbabilities = locked?.probabilities || match.probabilities;
     const evaluationScoreOdds = locked?.scoreOdds || match.scoreOdds || [];
     const evaluationScoreBands = locked?.scoreBands || match.scoreBands || [];
@@ -2164,11 +2174,19 @@ function calculateBacktest(matches, predictionLocks = null) {
       : false;
     const market = evaluationMarketSignals?.impliedProbabilities || null;
     const marketPredicted = market ? market.indexOf(Math.max(...market)) : null;
+    const kickoff = kickoffTime(match);
+    const modelVersion = locked ? "v2" : "v1";
     return {
       id: match.id,
       match: `${match.home.name} vs ${match.away.name}`,
+      date: match.date,
+      kickoffTime: match.time,
+      kickoff: kickoff ? kickoff.toISOString() : null,
       predictionSource: locked ? "locked-pre-match" : "current-model",
-      lockedAt: predictionLocks?.matches?.[match.id]?.lockedAt || null,
+      lockedAt: lock?.lockedAt || null,
+      modelVersion,
+      modelVersionLabel: modelVersion === "v2" ? "第二版模型" : "第一版模型/回放基准",
+      modelVersionNote: modelVersion === "v2" ? "赛前锁定样本" : "未赛前锁定，不与第二版混算",
       actualOutcome: ["主胜", "平局", "客胜"][actual],
       predictedOutcome: ["主胜", "平局", "客胜"][predicted],
       outcomeHit: actual === predicted,
@@ -2188,10 +2206,9 @@ function calculateBacktest(matches, predictionLocks = null) {
       marketProbabilities: market
     };
   });
-  const count = rows.length || 1;
+
   const high = rows.filter(row => row.confidence >= 80);
   const marketRows = rows.filter(row => row.marketHit !== null);
-  const hitRate = list => list.length ? Math.round(list.filter(row => row.outcomeHit).length / list.length * 100) : null;
   const outcomeBreakdown = ["主胜", "平局", "客胜"].map(label => {
     const subset = rows.filter(row => row.actualOutcome === label);
     return {
@@ -2220,9 +2237,32 @@ function calculateBacktest(matches, predictionLocks = null) {
       label: bucket.label,
       count: subset.length,
       hitRate: hitRate(subset),
-      averageBrier: subset.length ? Number((subset.reduce((sum, row) => sum + row.brier, 0) / subset.length).toFixed(4)) : null
+      averageBrier: averageMetric(subset, "brier")
     };
   });
+  const versionBreakdown = [
+    { key: "v2", label: "第二版模型", note: "赛前锁定样本，作为当前真实预测成绩单" },
+    { key: "v1", label: "第一版模型/回放基准", note: "未赛前锁定，只用于历史回放参考，不与第二版混算" }
+  ].map(version => {
+    const subset = rows.filter(row => row.modelVersion === version.key);
+    return {
+      key: version.key,
+      label: version.label,
+      note: version.note,
+      sampleCount: subset.length,
+      outcomeHitRate: hitRate(subset),
+      topScoreCoverage: coverage(subset, "topScoreHit"),
+      scoreBandCoverage: coverage(subset, "scoreBandHit"),
+      scoreScenarioCoverage: coverage(subset, "scoreScenarioHit"),
+      averageBrier: averageMetric(subset, "brier"),
+      averageLogLoss: averageMetric(subset, "logLoss"),
+      lockedCount: subset.filter(row => row.predictionSource === "locked-pre-match").length,
+      rows: sortNewestFirst(subset)
+    };
+  }).filter(version => version.sampleCount > 0);
+  const sortedRows = sortNewestFirst(rows);
+  const count = rows.length || 1;
+
   return {
     updatedAt: now.toISOString(),
     completedCount: rows.length,
@@ -2236,15 +2276,15 @@ function calculateBacktest(matches, predictionLocks = null) {
     averageLogLoss: Number((rows.reduce((sum, row) => sum + row.logLoss, 0) / count).toFixed(4)),
     drawRecall: outcomeBreakdown.find(item => item.outcome === "平局")?.hitRate ?? null,
     lockedPredictionCount: rows.filter(row => row.predictionSource === "locked-pre-match").length,
+    versionBreakdown,
     outcomeBreakdown,
     predictedBreakdown,
     confidenceBuckets,
     marketComparableCount: marketRows.length,
     marketHitRate: marketRows.length ? Math.round(marketRows.filter(row => row.marketHit).length / marketRows.length * 100) : null,
-    rows: rows.slice(0, 24)
+    rows: sortedRows.slice(0, 36)
   };
 }
-
 function serialize(matches, metaOverrides = {}, backtestData = null, predictionLocks = null) {
   const meta = {
     updatedAt: now.toISOString(),
