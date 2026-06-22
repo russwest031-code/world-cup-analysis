@@ -297,7 +297,7 @@ function computeRankings(teamData) {
 }
 
 // ---- Main export ----
-export function loadRealTeamData(targetCodes, espnStats = null, playerData = null) {
+export function loadRealTeamData(targetCodes, espnStats = null, playerData = null, newsSignals = null) {
   if (!fs.existsSync(resultsPath)) {
     console.warn("Kaggle results CSV not found, cannot load real data.");
     return null;
@@ -391,11 +391,26 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
       // Blend into existing metrics: 20% player quality, 80% match-based
       team.attack = Math.round(team.attack * 0.80 + ((valScore + ratingScore) / 2) * 0.20);
       team.midfield = Math.round(team.midfield * 0.80 + starScore * 0.20);
+      // Apply news-derived injury penalties to player quality scores
+      let injuryPenalty = 0;
+      let injuredPlayers = [];
+      if (newsSignals) {
+        const ns = newsSignals.get(code);
+        if (ns && ns.injuryPenalty < 0) {
+          injuryPenalty = ns.injuryPenalty;
+          injuredPlayers = ns.injuredPlayers || [];
+          // Reduce attack/midfield for injured teams
+          team.attack = Math.max(50, team.attack + injuryPenalty);
+          team.midfield = Math.max(50, team.midfield + injuryPenalty);
+        }
+      }
       team.playerQuality = {
         squadValue: pd.totalValueB,
         avgRating: pd.avgRating,
         starCount: pd.starCount,
         avgAge: pd.avgAge,
+        injuryPenalty,
+        injuredPlayers,
       };
     }
     console.log(`Player quality blended for ${[...teamData.values()].filter(t=>t.playerQuality).length} teams.`);

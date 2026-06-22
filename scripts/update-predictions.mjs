@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { loadRealTeamData } from "./fetch-real-data.mjs";
 import { loadESPNStats } from "./fetch-espn-stats.mjs";
 import { loadPlayerData } from "./fetch-player-data.mjs";
+import { loadNewsSignals } from "./fetch-news-signals.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
@@ -2948,8 +2949,15 @@ async function main() {
   } catch (err) {
     console.warn(`Player data unavailable: ${err.message}`);
   }
+  let newsSignals = null;
   try {
-    const realData = loadRealTeamData(wc48Codes, espnStats, playerData);
+    newsSignals = await loadNewsSignals(wc48Codes.slice(0, 20), playerData); // Top 20 most relevant
+    console.log(`News signals loaded: ${[...(newsSignals||new Map()).values()].filter(s=>s.status==='connected').length} teams`);
+  } catch (err) {
+    console.warn(`News signals unavailable: ${err.message}`);
+  }
+  try {
+    const realData = loadRealTeamData(wc48Codes, espnStats, playerData, newsSignals);
     if (realData) {
       realDataCache = realData;
       console.log(`Real team data loaded: ${realData.teamData.size} teams, ${realData.rankings.size} rankings.`);
