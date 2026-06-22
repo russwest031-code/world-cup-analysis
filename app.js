@@ -7,7 +7,8 @@
   var weekNames = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
 
   function flag(team) {
-    return '<span class="flag" style="--flag:' + team.color + '">' + team.code + '</span>';
+    if (!team) return '<span class="flag" style="--flag:#999">?</span>';
+    return '<span class="flag" style="--flag:' + (team.color || '#999') + '">' + (team.code || '?') + '</span>';
   }
 
   function confidenceLabel(c) {
@@ -51,11 +52,11 @@
     }).join("");
 
     function renderCard(match) {
-      var probs = match.probabilities;
+      var probs = match.probabilities || [33, 33, 34];
       var primaryScore = (match.scoreOdds && match.scoreOdds[0]) ? match.scoreOdds[0] : null;
       var altScores = (match.scoreOdds || []).slice(1, 4);
       var topScenario = (match.scoreScenarios && match.scoreScenarios[0]) ? match.scoreScenarios[0] : null;
-      var conf = confidenceLabel(match.confidence);
+      var conf = confidenceLabel(match.confidence || 50);
 
       var scoreHTML = "";
       if (primaryScore) {
@@ -98,7 +99,7 @@
       if (match.status === "completed" && match.actualScore) {
         kickoffHTML = '<div class="kickoff completed-kickoff"><strong>' + match.actualScore + '</strong><i></i><small>最终比分</small></div>';
       } else {
-        kickoffHTML = '<div class="kickoff"><strong>' + match.time + '</strong><i></i><small>北京时间</small></div>';
+        kickoffHTML = '<div class="kickoff"><strong>' + (match.time || '--:--') + '</strong><i></i><small>北京时间</small></div>';
       }
 
       var footBadgeHTML = match.status === "completed"
@@ -109,16 +110,16 @@
         '<div class="card-top">' +
           '<div class="card-top-left">' +
             '<span class="match-num">' + (match.group || "") + '</span>' +
-            '<span class="match-tag">' + match.tag + '</span>' +
+            '<span class="match-tag">' + (match.tag || "") + '</span>' +
             completedBadgeHTML +
             '<small>模型分析</small>' +
           '</div>' +
           '<a class="detail-link" href="detail.html?id=' + match.id + '">比赛分析 →</a>' +
         '</div>' +
         '<div class="team-row">' +
-          '<div class="team">' + flag(match.home) + '<div class="team-name"><strong>' + match.home.name + '</strong><small>' + (match.home.confed || match.home.code) + '</small></div></div>' +
+          '<div class="team">' + flag(match.home) + '<div class="team-name"><strong>' + (match.home ? match.home.name : '?') + '</strong><small>' + (match.home ? (match.home.confed || match.home.code || '') : '') + '</small></div></div>' +
           kickoffHTML +
-          '<div class="team away">' + flag(match.away) + '<div class="team-name"><strong>' + match.away.name + '</strong><small>' + (match.away.confed || match.away.code) + '</small></div></div>' +
+          '<div class="team away">' + flag(match.away) + '<div class="team-name"><strong>' + (match.away ? match.away.name : '?') + '</strong><small>' + (match.away ? (match.away.confed || match.away.code || '') : '') + '</small></div></div>' +
         '</div>' +
         scoreHTML +
         altsHTML +
@@ -136,7 +137,7 @@
       var query = input.value.trim().toLowerCase();
       var filtered = matches.filter(function (match) {
         var dateOk = !selectedDate || match.date === selectedDate;
-        var queryOk = !query || (match.home.name + match.away.name + match.home.code + match.away.code).toLowerCase().indexOf(query) !== -1;
+        var queryOk = !query || ((match.home ? match.home.name + (match.home.code || '') : '') + (match.away ? match.away.name + (match.away.code || '') : '')).toLowerCase().indexOf(query) !== -1;
         return dateOk && queryOk;
       });
 
@@ -182,7 +183,7 @@
     var match = matches.find(function (item) { return item.id === id; }) || matches[0];
     if (!match) return;
 
-    document.title = match.home.name + " vs " + match.away.name + " - 赛研";
+    document.title = (match.home ? match.home.name : '?') + " vs " + (match.away ? match.away.name : '?') + " - 赛研";
     var labels = ["主胜", "平局", "客胜"];
 
     var completedHeroBadge = match.status === "completed"
@@ -193,57 +194,62 @@
     if (match.status === "completed" && match.actualScore) {
       detailTimeHTML = '<div class="detail-time completed-detail-time"><strong>' + match.actualScore + '</strong><i></i><span>最终比分</span></div>';
     } else {
-      detailTimeHTML = '<div class="detail-time"><strong>' + match.time + '</strong><i></i><span>北京时间</span></div>';
+      detailTimeHTML = '<div class="detail-time"><strong>' + (match.time || '--:--') + '</strong><i></i><span>北京时间</span></div>';
     }
 
+    var probs = match.probabilities || [33, 33, 34];
     root.innerHTML =
       '<section class="detail-hero">' +
-        '<div class="detail-meta">' + (match.group || "") + " · " + match.date + " · " + match.venue + ' ' + completedHeroBadge + '</div>' +
+        '<div class="detail-meta">' + (match.group || "") + " · " + (match.date || "") + " · " + (match.venue || "") + ' ' + completedHeroBadge + '</div>' +
         '<div class="detail-matchup">' +
-          '<div class="detail-team">' + flag(match.home) + '<h2>' + match.home.name + '</h2><p>' + (match.home.confed || match.home.code) + '</p></div>' +
+          '<div class="detail-team">' + flag(match.home) + '<h2>' + (match.home ? match.home.name : '?') + '</h2><p>' + (match.home ? (match.home.confed || match.home.code || '') : '') + '</p></div>' +
           detailTimeHTML +
-          '<div class="detail-team">' + flag(match.away) + '<h2>' + match.away.name + '</h2><p>' + (match.away.confed || match.away.code) + '</p></div>' +
+          '<div class="detail-team">' + flag(match.away) + '<h2>' + (match.away ? match.away.name : '?') + '</h2><p>' + (match.away ? (match.away.confed || match.away.code || '') : '') + '</p></div>' +
         '</div>' +
       '</section>' +
 
       '<section class="model-card">' +
-        '<div class="model-head"><span>AI 比赛模型</span><strong>信心指数 ' + match.confidence + '%</strong></div>' +
-        '<div class="prob-row">' + match.probabilities.map(function (value, index) { return '<div class="prob"><strong>' + value + '%</strong><span>' + labels[index] + '</span><div class="prob-bar"><i style="width:' + value + '%"></i></div></div>'; }).join("") + '</div>' +
+        '<div class="model-head"><span>AI 比赛模型</span><strong>信心指数 ' + (match.confidence != null ? match.confidence : 50) + '%</strong></div>' +
+        '<div class="prob-row">' + probs.map(function (value, index) { return '<div class="prob"><strong>' + value + '%</strong><span>' + labels[index] + '</span><div class="prob-bar"><i style="width:' + value + '%"></i></div></div>'; }).join("") + '</div>' +
       '</section>' +
-
-      renderDataBoundary(match) +
 
       '<div class="detail-content">' +
 
-        // Section 1: 参考结论
+        // Section 1: 参考结论 / 关键要点
         renderConclusion(match) +
 
-        // Section 3: 近期状态（真实比赛数据）
-        renderRecentForm(match) +
-
-        // Section 4: 真实数据源
-        renderVerifiedDataSources(match) +
-
-        // Section 4: 比分预测
+        // Section 2: 比分预测
         renderScorePrediction(match) +
 
-        // Section 5: 出线动机与比赛目标
-        renderMotivation(match) +
+        // Section 3: 出线形势与赛程策略
+        renderQualification(match) +
 
-        // Section 6: 临场情报
-        renderMatchIntelligence(match) +
+        // Section 4: 近期状态（真实比赛数据）
+        renderRecentForm(match) +
+
+        // Section 5: 数据边界
+        renderDataBoundary(match) +
+
+        // Section 6: 真实数据源
+        renderVerifiedDataSources(match) +
 
         // Section 7: 扩展市场与赔率校准
         renderMarketsAndCalibration(match) +
 
-        // Section 8: 比赛复盘（仅已完赛）
-        renderAutopsy(match) +
+        // Section 8: 风险因素
+        renderRiskAssessment(match) +
 
-        // Section 8: 比赛情景推演
+        // Section 9: 出线动机与比赛目标
+        renderMotivation(match) +
+
+        // Section 10: 临场情报
+        renderMatchIntelligence(match) +
+
+        // Section 11: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 9: 风险因素
-        renderRiskAssessment(match) +
+        // Section 12: 比赛复盘（仅已完赛）
+        renderAutopsy(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
@@ -561,7 +567,7 @@
 
   // ─── DETAIL: 参考结论 ───
   function renderConclusion(match) {
-    var probs = match.probabilities;
+    var probs = match.probabilities || [33, 33, 34];
     var maxIdx = probs.indexOf(Math.max.apply(null, probs));
     var outcomes = ["主胜", "平局", "客胜"];
 
@@ -590,9 +596,84 @@
     '</section>';
   }
 
+  // ─── DETAIL: 出线形势 ───
+  function renderQualification(match) {
+    var qc = match.qualificationContext;
+    if (!qc) return "";
+
+    var tableHTML = "";
+    if (qc.groupTable && qc.groupTable.length) {
+      tableHTML = '<div class="qual-table-wrap">' +
+        '<table class="qual-table">' +
+          '<thead><tr><th>球队</th><th>赛</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜</th><th>积分</th></tr></thead>' +
+          '<tbody>' +
+            qc.groupTable.map(function (row) {
+              var highlight = (row.team === match.home.name || row.team === match.away.name) ? ' class="highlight"' : '';
+              return '<tr' + highlight + '>' +
+                '<td><strong>' + (row.team || "-") + '</strong></td>' +
+                '<td>' + (row.played != null ? row.played : "-") + '</td>' +
+                '<td>' + (row.won != null ? row.won : "-") + '</td>' +
+                '<td>' + (row.drawn != null ? row.drawn : "-") + '</td>' +
+                '<td>' + (row.lost != null ? row.lost : "-") + '</td>' +
+                '<td>' + (row.goalsFor != null ? row.goalsFor : "-") + '</td>' +
+                '<td>' + (row.goalsAgainst != null ? row.goalsAgainst : "-") + '</td>' +
+                '<td>' + (row.goalDiff != null ? row.goalDiff : "-") + '</td>' +
+                '<td><strong>' + (row.points != null ? row.points : "-") + '</strong></td>' +
+              '</tr>';
+            }).join("") +
+          '</tbody>' +
+        '</table>' +
+      '</div>';
+    }
+
+    var scenariosHTML = "";
+    if (qc.scenarios && qc.scenarios.length) {
+      scenariosHTML = '<div class="qual-scenarios">' +
+        '<strong class="qual-scenarios-title">三种结果情景</strong>' +
+        qc.scenarios.map(function (s) {
+          var strategyTag = s.strategy
+            ? '<span class="qual-strategy-tag strategy-' + (s.strategyCls || "normal") + '">' + s.strategy + '</span>'
+            : '';
+          return '<div class="qual-scenario-item">' +
+            '<div class="qual-scenario-head"><strong>' + (s.label || "") + '</strong>' + strategyTag + '</div>' +
+            '<p>' + (s.text || "") + '</p>' +
+          '</div>';
+        }).join("") +
+      '</div>';
+    }
+
+    var opponentsHTML = "";
+    if (qc.remainingOpponents && qc.remainingOpponents.length) {
+      opponentsHTML = '<div class="qual-opponents">' +
+        '<strong>剩余对手</strong>' +
+        '<div>' + qc.remainingOpponents.map(function (o) {
+          var name = typeof o === "string" ? o : (o.team || o.name || "");
+          return '<span class="qual-opponent-tag">' + name + '</span>';
+        }).join("") + '</div>' +
+      '</div>';
+    }
+
+    var strategyHTML = "";
+    if (qc.strategy) {
+      strategyHTML = '<div class="qual-strategy"><strong>当前策略</strong><span class="strategy-label">' + qc.strategy + '</span></div>';
+    }
+    if (qc.strategyNote) {
+      strategyHTML += '<p class="qual-strategy-note">' + qc.strategyNote + '</p>';
+    }
+
+    return '<section class="detail-section qualification-section">' +
+      '<div class="section-title"><h3>出线形势</h3><small>小组排名 · 晋级路径 · 赛程策略</small></div>' +
+      (qc.summary ? '<p class="qual-summary">' + qc.summary + '</p>' : '') +
+      tableHTML +
+      scenariosHTML +
+      opponentsHTML +
+      strategyHTML +
+    '</section>';
+  }
+
   // ─── DETAIL: 比赛情景推演 ───
   function renderScenarios(match) {
-    var probs = match.probabilities;
+    var probs = match.probabilities || [33, 33, 34];
     var maxIdx = probs.indexOf(Math.max.apply(null, probs));
     var primaryScore = (match.scoreOdds && match.scoreOdds[0]) ? match.scoreOdds[0] : null;
     var homeName = match.home.name;
@@ -718,7 +799,7 @@
     });
 
     // Risk 4: Model calibration note
-    var probs = match.probabilities;
+    var probs = match.probabilities || [33, 33, 34];
     var spread = Math.max.apply(null, probs) - Math.min.apply(null, probs);
     if (spread >= 40) {
       risks.push({
@@ -847,7 +928,7 @@
         '<strong>' + row.match + '</strong>' +
         '<div><span>' + (row.date || "") + ' ' + (row.kickoffTime || "") + '</span><span>实际 ' + row.actualOutcome + ' ' + row.actualScore + '</span><span>模型 ' + row.predictedOutcome + '</span></div>' +
         '<div><span class="' + (row.outcomeHit ? "hit" : "miss") + '">' + (row.outcomeHit ? "方向命中" : "方向未中") + '</span><span class="' + (row.topScoreHit ? "hit" : "miss") + '">' + (row.topScoreHit ? "精确比分覆盖" : "精确比分未覆盖") + '</span><span class="' + (row.scoreBandHit ? "hit" : "miss") + '">' + (row.scoreBandHit ? "区间命中" : "区间未中") + '</span><span class="' + (row.scoreScenarioHit ? "hit" : "miss") + '">' + (row.scoreScenarioHit ? "情景命中" : "情景未中") + '</span></div>' +
-        '<small>' + row.modelVersionLabel + ' · ' + row.modelVersionNote + ' · 概率 ' + row.probabilities.join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
+        '<small>' + row.modelVersionLabel + ' · ' + row.modelVersionNote + ' · 概率 ' + (row.probabilities || []).join(" / ") + '% · 实际区间 ' + (row.actualScoreBand || "-") + ' · Brier ' + row.brier + (row.marketOutcome ? ' · 市场 ' + row.marketOutcome : '') + '</small>' +
       '</div>';
     }
     function versionSection(version) {

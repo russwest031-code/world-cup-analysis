@@ -1,90 +1,32 @@
 {
-  "generatedAt": "2026-06-21T11:02:42.525Z",
-  "targetDate": "2026-06-22",
-  "sourceUpdatedAt": "2026-06-21T09:30:43.703Z",
+  "generatedAt": "2026-06-22T14:49:54.889Z",
+  "targetDate": "2026-06-23",
+  "sourceUpdatedAt": "2026-06-22T14:46:37.151Z",
   "model": "agent-ensemble-v1",
   "policy": "baseline-plus-market-plus-evidence-gaps",
   "matches": [
     {
-      "id": "esp-ksa-45",
-      "date": "2026-06-22",
-      "time": "00:00",
-      "title": "西班牙 vs 沙特阿拉伯",
-      "homeName": "西班牙",
-      "awayName": "沙特阿拉伯",
-      "homeCode": "ESP",
-      "awayCode": "KSA",
+      "id": "arg-aut-57",
+      "date": "2026-06-23",
+      "time": "01:00",
+      "title": "阿根廷 vs 奥地利",
+      "homeName": "阿根廷",
+      "awayName": "奥地利",
+      "homeCode": "ARG",
+      "awayCode": "AUT",
       "pick": "主胜",
-      "pickText": "西班牙",
+      "pickText": "阿根廷",
       "probabilities": {
-        "home": 72,
-        "draw": 21,
-        "away": 7
+        "home": 59,
+        "draw": 28,
+        "away": 13
       },
-      "confidence": 70,
+      "confidence": 66,
       "confidenceLabel": "中高",
       "baseline": [
-        62,
-        31,
-        7
-      ],
-      "market": [
-        87,
-        9,
-        4
-      ],
-      "marketWeight": 35,
-      "consensus": "方向一致但强度分歧",
-      "scoreBand": {
-        "label": "主队小胜",
-        "chance": 35,
-        "examples": [
-          "2-0",
-          "1-0",
-          "2-1"
-        ]
-      },
-      "topScores": [
-        "2-0(14%)",
-        "1-1(14%)",
-        "1-0(13%)"
-      ],
-      "risks": [
-        "数据缺口：伤停",
-        "模型与赔率强度分歧较大",
-        "低进球/僵局保护触发，热门方向有回撤风险"
-      ],
-      "evidence": [
-        "Agent 综合概率：主72% / 平21% / 客7%，倾向西班牙。",
-        "市场隐含概率：主87% / 平9% / 客4%，方向一致但强度分歧。",
-        "预期进球：西班牙 1.88，沙特阿拉伯 0.59。",
-        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。西班牙当前1分、净胜球0；沙特阿拉伯当前1分、净胜球0。",
-        "真实采集 4 项，模型推断 2 项，缺口 1 项。"
-      ],
-      "xhs": "【西班牙 vs 沙特阿拉伯】\n方向：主胜（西班牙）\n比分区间：主队小胜，参考 2-0 / 1-0 / 2-1\n综合概率：主72% / 平21% / 客7%\n信心：中高（70）\n关键点：赔率作为市场共识层参与 35% 权重。\n风险：数据缺口：伤停；模型与赔率强度分歧较大；低进球/僵局保护触发，热门方向有回撤风险\n仅做赛前分析，不构成投注建议。"
-    },
-    {
-      "id": "bel-irn-39",
-      "date": "2026-06-22",
-      "time": "03:00",
-      "title": "比利时 vs 伊朗",
-      "homeName": "比利时",
-      "awayName": "伊朗",
-      "homeCode": "BEL",
-      "awayCode": "IRN",
-      "pick": "主胜",
-      "pickText": "比利时",
-      "probabilities": {
-        "home": 55,
-        "draw": 26,
-        "away": 19
-      },
-      "confidence": 59,
-      "confidenceLabel": "中",
-      "baseline": [
-        55,
-        26,
-        19
+        61,
+        23,
+        16
       ],
       "market": [
         65,
@@ -92,107 +34,441 @@
         13
       ],
       "marketWeight": 43,
-      "consensus": "方向一致但强度分歧",
+      "consensus": "高度一致",
       "scoreBand": {
-        "label": "主队小胜",
-        "chance": 23,
+        "label": "主队大胜",
+        "chance": 25,
         "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
+          "4-1",
+          "3-0",
+          "4-0"
         ]
       },
       "topScores": [
-        "2-1(10%)",
-        "1-1(11%)",
-        "2-0(7%)"
+        "2-1(8%)",
+        "1-1(8%)",
+        "2-2(7%)"
       ],
       "risks": [
         "数据缺口：天气、伤停",
-        "模型与赔率强度分歧较大"
+        "赛程战略提示：阿根廷稳妥控风险，奥地利稳妥控风险"
       ],
+      "qualificationContext": {
+        "group": "J组",
+        "currentTable": [
+          "1.阿根廷 3分 净胜+3",
+          "2.奥地利 3分 净胜+2",
+          "3.约旦 0分 净胜-2",
+          "4.阿尔及利亚 0分 净胜-3"
+        ],
+        "home": {
+          "currentRank": 1,
+          "points": 3,
+          "goalDiff": 3,
+          "remainingOpponents": [
+            "约旦"
+          ]
+        },
+        "away": {
+          "currentRank": 2,
+          "points": 3,
+          "goalDiff": 2,
+          "remainingOpponents": [
+            "阿尔及利亚"
+          ]
+        },
+        "scenarios": [
+          {
+            "key": "homeWin",
+            "label": "阿根廷胜",
+            "homeGoals": 1,
+            "awayGoals": 0,
+            "homeRank": 1,
+            "awayRank": 2,
+            "homePoints": 6,
+            "awayPoints": 3,
+            "homeGoalDiff": 4,
+            "awayGoalDiff": 1
+          },
+          {
+            "key": "draw",
+            "label": "平局",
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "homeRank": 1,
+            "awayRank": 2,
+            "homePoints": 4,
+            "awayPoints": 4,
+            "homeGoalDiff": 3,
+            "awayGoalDiff": 2
+          },
+          {
+            "key": "awayWin",
+            "label": "奥地利胜",
+            "homeGoals": 0,
+            "awayGoals": 1,
+            "homeRank": 2,
+            "awayRank": 1,
+            "homePoints": 3,
+            "awayPoints": 6,
+            "homeGoalDiff": 2,
+            "awayGoalDiff": 3
+          }
+        ],
+        "groupRemaining": [
+          "约旦vs阿尔及利亚",
+          "阿尔及利亚vs奥地利",
+          "约旦vs阿根廷"
+        ],
+        "strategy": {
+          "home": {
+            "label": "稳妥控风险",
+            "intensityDelta": -0.04,
+            "drawBias": 0.03,
+            "currentDifficulty": "偏弱",
+            "nextOpponent": "约旦",
+            "nextDifficulty": "明显弱于己方",
+            "note": "本场对手偏弱，下场对约旦为明显弱于己方；当前已有积分基础，平局价值较高，可能更重视不输球"
+          },
+          "away": {
+            "label": "稳妥控风险",
+            "intensityDelta": -0.04,
+            "drawBias": 0.03,
+            "currentDifficulty": "偏强",
+            "nextOpponent": "阿尔及利亚",
+            "nextDifficulty": "接近",
+            "note": "本场对手偏强，下场对阿尔及利亚为接近；当前已有积分基础，平局价值较高，可能更重视不输球"
+          }
+        },
+        "pressure": 0,
+        "summary": "阿根廷赢球可进入/稳住前二；奥地利赢球可进入/稳住前二；平局对双方排名伤害有限，比赛可能更谨慎"
+      },
       "evidence": [
-        "Agent 综合概率：主55% / 平26% / 客19%，倾向比利时。",
-        "市场隐含概率：主65% / 平22% / 客13%，方向一致但强度分歧。",
-        "预期进球：比利时 2.01，伊朗 1.39。",
-        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。比利时当前1分、净胜球0；伊朗当前1分、净胜球0。",
-        "真实采集 3 项，模型推断 2 项，缺口 2 项。"
+        "Agent 综合概率：主59% / 平28% / 客13%，倾向阿根廷。",
+        "市场隐含概率：主65% / 平22% / 客13%，高度一致。",
+        "预期进球：阿根廷 2.74，奥地利 1.51。",
+        "小组情景：当前J组为 1.阿根廷 3分 净胜+3 / 2.奥地利 3分 净胜+2 / 3.约旦 0分 净胜-2 / 4.阿尔及利亚 0分 净胜-3。本场三种赛果推演为 阿根廷胜: 主队第1/客队第2；平局: 主队第1/客队第2；奥地利胜: 主队第2/客队第1。主队后续对约旦；客队后续对阿尔及利亚。阿根廷赢球可进入/稳住前二；奥地利赢球可进入/稳住前二；平局对双方排名伤害有限，比赛可能更谨慎。赛程战略：主队稳妥控风险（本场对手偏弱，下场对约旦为明显弱于己方；当前已有积分基础，平局价值较高，可能更重视不输球）；客队稳妥控风险（本场对手偏强，下场对阿尔及利亚为接近；当前已有积分基础，平局价值较高，可能更重视不输球）。",
+        "小组动机校正：平局仍可让双方维持前二区间，模型提高谨慎/平局权重；赛程战略校正：阿根廷稳妥控风险，奥地利稳妥控风险。",
+        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。阿根廷当前3分、净胜球3；奥地利当前3分、净胜球2。"
       ],
-      "xhs": "【比利时 vs 伊朗】\n方向：主胜（比利时）\n比分区间：主队小胜，参考 2-1 / 2-0 / 1-0\n综合概率：主55% / 平26% / 客19%\n信心：中（59）\n关键点：赔率作为市场共识层参与 43% 权重。\n风险：数据缺口：天气、伤停；模型与赔率强度分歧较大\n仅做赛前分析，不构成投注建议。"
+      "xhs": "【阿根廷 vs 奥地利】\n方向：主胜（阿根廷）\n比分区间：主队大胜，参考 4-1 / 3-0 / 4-0\n综合概率：主59% / 平28% / 客13%\n信心：中高（66）\n关键点：赔率作为市场共识层参与 43% 权重。 平局仍可让双方维持前二区间，模型提高谨慎/平局权重；赛程战略校正：阿根廷稳妥控风险，奥地利稳妥控风险。\n风险：数据缺口：天气、伤停；赛程战略提示：阿根廷稳妥控风险，奥地利稳妥控风险\n仅做赛前分析，不构成投注建议。"
     },
     {
-      "id": "uru-cpv-46",
-      "date": "2026-06-22",
-      "time": "06:00",
-      "title": "乌拉圭 vs 佛得角",
-      "homeName": "乌拉圭",
-      "awayName": "佛得角",
-      "homeCode": "URU",
-      "awayCode": "CPV",
+      "id": "fra-irq-51",
+      "date": "2026-06-23",
+      "time": "05:00",
+      "title": "法国 vs 伊拉克",
+      "homeName": "法国",
+      "awayName": "伊拉克",
+      "homeCode": "FRA",
+      "awayCode": "IRQ",
       "pick": "主胜",
-      "pickText": "乌拉圭",
+      "pickText": "法国",
       "probabilities": {
-        "home": 61,
-        "draw": 29,
-        "away": 10
+        "home": 82,
+        "draw": 12,
+        "away": 6
       },
-      "confidence": 67,
-      "confidenceLabel": "中高",
+      "confidence": 83,
+      "confidenceLabel": "高",
       "baseline": [
-        61,
-        29,
-        10
+        80,
+        14,
+        6
       ],
       "market": [
-        64,
-        24,
-        12
+        89,
+        8,
+        3
       ],
-      "marketWeight": 43,
-      "consensus": "高度一致",
+      "marketWeight": 38,
+      "consensus": "方向一致但强度分歧",
       "scoreBand": {
-        "label": "主队小胜",
-        "chance": 40,
+        "label": "主队大胜",
+        "chance": 35,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "3-0",
+          "4-0",
+          "4-1"
         ]
       },
       "topScores": [
-        "1-0(17%)",
-        "2-0(15%)",
-        "0-0(14%)"
+        "2-0(12%)",
+        "3-0(10%)",
+        "2-1(10%)"
       ],
       "risks": [
-        "数据缺口：天气、伤停"
+        "数据缺口：伤停",
+        "模型与赔率强度分歧较大",
+        "组内排名情景敏感，赛果会明显改变前二位置或第三名压力",
+        "赛程战略提示：法国稳妥控风险，伊拉克正常投入"
       ],
+      "qualificationContext": {
+        "group": "I组",
+        "currentTable": [
+          "1.挪威 3分 净胜+3",
+          "2.法国 3分 净胜+2",
+          "3.塞内加尔 0分 净胜-2",
+          "4.伊拉克 0分 净胜-3"
+        ],
+        "home": {
+          "currentRank": 2,
+          "points": 3,
+          "goalDiff": 2,
+          "remainingOpponents": [
+            "挪威"
+          ]
+        },
+        "away": {
+          "currentRank": 4,
+          "points": 0,
+          "goalDiff": -3,
+          "remainingOpponents": [
+            "塞内加尔"
+          ]
+        },
+        "scenarios": [
+          {
+            "key": "homeWin",
+            "label": "法国胜",
+            "homeGoals": 1,
+            "awayGoals": 0,
+            "homeRank": 1,
+            "awayRank": 4,
+            "homePoints": 6,
+            "awayPoints": 0,
+            "homeGoalDiff": 3,
+            "awayGoalDiff": -4
+          },
+          {
+            "key": "draw",
+            "label": "平局",
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "homeRank": 1,
+            "awayRank": 3,
+            "homePoints": 4,
+            "awayPoints": 1,
+            "homeGoalDiff": 2,
+            "awayGoalDiff": -3
+          },
+          {
+            "key": "awayWin",
+            "label": "伊拉克胜",
+            "homeGoals": 0,
+            "awayGoals": 1,
+            "homeRank": 2,
+            "awayRank": 3,
+            "homePoints": 3,
+            "awayPoints": 3,
+            "homeGoalDiff": 1,
+            "awayGoalDiff": -2
+          }
+        ],
+        "groupRemaining": [
+          "挪威vs塞内加尔",
+          "挪威vs法国",
+          "塞内加尔vs伊拉克"
+        ],
+        "strategy": {
+          "home": {
+            "label": "稳妥控风险",
+            "intensityDelta": -0.04,
+            "drawBias": 0.03,
+            "currentDifficulty": "明显弱于己方",
+            "nextOpponent": "挪威",
+            "nextDifficulty": "明显弱于己方",
+            "note": "本场对手明显弱于己方，下场对挪威为明显弱于己方；当前已有积分基础，平局价值较高，可能更重视不输球"
+          },
+          "away": {
+            "label": "正常投入",
+            "intensityDelta": 0,
+            "drawBias": 0,
+            "currentDifficulty": "强敌",
+            "nextOpponent": "塞内加尔",
+            "nextDifficulty": "强敌",
+            "note": "本场对手强敌，下场对塞内加尔为强敌"
+          }
+        },
+        "pressure": 0.18,
+        "summary": "法国赢球可进入/稳住前二；平局会让至少一方继续处在前二外，求胜动机会被放大"
+      },
       "evidence": [
-        "Agent 综合概率：主61% / 平29% / 客10%，倾向乌拉圭。",
-        "市场隐含概率：主64% / 平24% / 客12%，高度一致。",
-        "预期进球：乌拉圭 1.61，佛得角 0.51。",
-        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。乌拉圭当前1分、净胜球0；佛得角当前1分、净胜球0。",
-        "真实采集 3 项，模型推断 2 项，缺口 2 项。"
+        "Agent 综合概率：主82% / 平12% / 客6%，倾向法国。",
+        "市场隐含概率：主89% / 平8% / 客3%，方向一致但强度分歧。",
+        "预期进球：法国 2.6，伊拉克 0.82。",
+        "小组情景：当前I组为 1.挪威 3分 净胜+3 / 2.法国 3分 净胜+2 / 3.塞内加尔 0分 净胜-2 / 4.伊拉克 0分 净胜-3。本场三种赛果推演为 法国胜: 主队第1/客队第4；平局: 主队第1/客队第3；伊拉克胜: 主队第2/客队第3。主队后续对挪威；客队后续对塞内加尔。法国赢球可进入/稳住前二；平局会让至少一方继续处在前二外，求胜动机会被放大。赛程战略：主队稳妥控风险（本场对手明显弱于己方，下场对挪威为明显弱于己方；当前已有积分基础，平局价值较高，可能更重视不输球）；客队正常投入（本场对手强敌，下场对塞内加尔为强敌）。",
+        "小组动机校正：平局会让至少一方继续处在前二外，模型降低平局权重；赛程战略校正：法国稳妥控风险，伊拉克正常投入。",
+        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。法国当前3分、净胜球2；伊拉克当前0分、净胜球-3。"
       ],
-      "xhs": "【乌拉圭 vs 佛得角】\n方向：主胜（乌拉圭）\n比分区间：主队小胜，参考 1-0 / 2-0 / 2-1\n综合概率：主61% / 平29% / 客10%\n信心：中高（67）\n关键点：赔率作为市场共识层参与 43% 权重。\n风险：数据缺口：天气、伤停\n仅做赛前分析，不构成投注建议。"
+      "xhs": "【法国 vs 伊拉克】\n方向：主胜（法国）\n比分区间：主队大胜，参考 3-0 / 4-0 / 4-1\n综合概率：主82% / 平12% / 客6%\n信心：高（83）\n关键点：赔率作为市场共识层参与 38% 权重。 平局会让至少一方继续处在前二外，模型降低平局权重；赛程战略校正：法国稳妥控风险，伊拉克正常投入。\n风险：数据缺口：伤停；模型与赔率强度分歧较大；组内排名情景敏感，赛果会明显改变前二位置或第三名压力；赛程战略提示：法国稳妥控风险，伊拉克正常投入\n仅做赛前分析，不构成投注建议。"
     },
     {
-      "id": "nzl-egy-40",
-      "date": "2026-06-22",
-      "time": "09:00",
-      "title": "新西兰 vs 埃及",
-      "homeName": "新西兰",
-      "awayName": "埃及",
-      "homeCode": "NZL",
-      "awayCode": "EGY",
-      "pick": "客胜",
-      "pickText": "埃及",
+      "id": "nor-sen-52",
+      "date": "2026-06-23",
+      "time": "08:00",
+      "title": "挪威 vs 塞内加尔",
+      "homeName": "挪威",
+      "awayName": "塞内加尔",
+      "homeCode": "NOR",
+      "awayCode": "SEN",
+      "pick": "主胜",
+      "pickText": "挪威",
       "probabilities": {
-        "home": 12,
+        "home": 38,
         "draw": 26,
-        "away": 62
+        "away": 36
       },
-      "confidence": 68,
+      "confidence": 35,
+      "confidenceLabel": "低",
+      "baseline": [
+        35,
+        29,
+        36
+      ],
+      "market": [
+        43,
+        28,
+        29
+      ],
+      "marketWeight": 43,
+      "consensus": "方向冲突",
+      "scoreBand": {
+        "label": "低比分平局",
+        "chance": 17,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      "topScores": [
+        "1-2(7%)",
+        "1-1(12%)",
+        "2-2(8%)"
+      ],
+      "risks": [
+        "数据缺口：天气、伤停",
+        "模型与赔率方向冲突",
+        "组内排名情景敏感，赛果会明显改变前二位置或第三名压力",
+        "赛程战略提示：挪威稳妥控风险，塞内加尔正常投入"
+      ],
+      "qualificationContext": {
+        "group": "I组",
+        "currentTable": [
+          "1.挪威 3分 净胜+3",
+          "2.法国 3分 净胜+2",
+          "3.塞内加尔 0分 净胜-2",
+          "4.伊拉克 0分 净胜-3"
+        ],
+        "home": {
+          "currentRank": 1,
+          "points": 3,
+          "goalDiff": 3,
+          "remainingOpponents": [
+            "法国"
+          ]
+        },
+        "away": {
+          "currentRank": 3,
+          "points": 0,
+          "goalDiff": -2,
+          "remainingOpponents": [
+            "伊拉克"
+          ]
+        },
+        "scenarios": [
+          {
+            "key": "homeWin",
+            "label": "挪威胜",
+            "homeGoals": 1,
+            "awayGoals": 0,
+            "homeRank": 1,
+            "awayRank": 3,
+            "homePoints": 6,
+            "awayPoints": 0,
+            "homeGoalDiff": 4,
+            "awayGoalDiff": -3
+          },
+          {
+            "key": "draw",
+            "label": "平局",
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "homeRank": 1,
+            "awayRank": 3,
+            "homePoints": 4,
+            "awayPoints": 1,
+            "homeGoalDiff": 3,
+            "awayGoalDiff": -2
+          },
+          {
+            "key": "awayWin",
+            "label": "塞内加尔胜",
+            "homeGoals": 0,
+            "awayGoals": 1,
+            "homeRank": 1,
+            "awayRank": 3,
+            "homePoints": 3,
+            "awayPoints": 3,
+            "homeGoalDiff": 2,
+            "awayGoalDiff": -1
+          }
+        ],
+        "groupRemaining": [
+          "法国vs伊拉克",
+          "挪威vs法国",
+          "塞内加尔vs伊拉克"
+        ],
+        "strategy": {
+          "home": {
+            "label": "稳妥控风险",
+            "intensityDelta": -0.04,
+            "drawBias": 0.03,
+            "currentDifficulty": "偏强",
+            "nextOpponent": "法国",
+            "nextDifficulty": "强敌",
+            "note": "本场对手偏强，下场对法国为强敌；当前已有积分基础，平局价值较高，可能更重视不输球"
+          },
+          "away": {
+            "label": "正常投入",
+            "intensityDelta": 0,
+            "drawBias": 0,
+            "currentDifficulty": "偏弱",
+            "nextOpponent": "伊拉克",
+            "nextDifficulty": "明显弱于己方",
+            "note": "本场对手偏弱，下场对伊拉克为明显弱于己方"
+          }
+        },
+        "pressure": 0.18,
+        "summary": "挪威赢球可进入/稳住前二；平局会让至少一方继续处在前二外，求胜动机会被放大"
+      },
+      "evidence": [
+        "Agent 综合概率：主38% / 平26% / 客36%，倾向挪威。",
+        "市场隐含概率：主43% / 平28% / 客29%，方向冲突。",
+        "预期进球：挪威 1.68，塞内加尔 1.98。",
+        "小组情景：当前I组为 1.挪威 3分 净胜+3 / 2.法国 3分 净胜+2 / 3.塞内加尔 0分 净胜-2 / 4.伊拉克 0分 净胜-3。本场三种赛果推演为 挪威胜: 主队第1/客队第3；平局: 主队第1/客队第3；塞内加尔胜: 主队第1/客队第3。主队后续对法国；客队后续对伊拉克。挪威赢球可进入/稳住前二；平局会让至少一方继续处在前二外，求胜动机会被放大。赛程战略：主队稳妥控风险（本场对手偏强，下场对法国为强敌；当前已有积分基础，平局价值较高，可能更重视不输球）；客队正常投入（本场对手偏弱，下场对伊拉克为明显弱于己方）。",
+        "小组动机校正：平局会让至少一方继续处在前二外，模型降低平局权重；赛程战略校正：挪威稳妥控风险，塞内加尔正常投入。",
+        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。挪威当前3分、净胜球3；塞内加尔当前0分、净胜球-2。"
+      ],
+      "xhs": "【挪威 vs 塞内加尔】\n方向：主胜（挪威）\n比分区间：低比分平局，参考 1-1 / 0-0\n综合概率：主38% / 平26% / 客36%\n信心：低（35）\n关键点：基础模型与市场方向冲突，Agent 未盲从赔率，采用折中并降低置信。 平局会让至少一方继续处在前二外，模型降低平局权重；赛程战略校正：挪威稳妥控风险，塞内加尔正常投入。\n风险：数据缺口：天气、伤停；模型与赔率方向冲突；组内排名情景敏感，赛果会明显改变前二位置或第三名压力；赛程战略提示：挪威稳妥控风险，塞内加尔正常投入\n仅做赛前分析，不构成投注建议。"
+    },
+    {
+      "id": "jor-alg-58",
+      "date": "2026-06-23",
+      "time": "11:00",
+      "title": "约旦 vs 阿尔及利亚",
+      "homeName": "约旦",
+      "awayName": "阿尔及利亚",
+      "homeCode": "JOR",
+      "awayCode": "ALG",
+      "pick": "客胜",
+      "pickText": "阿尔及利亚",
+      "probabilities": {
+        "home": 15,
+        "draw": 22,
+        "away": 63
+      },
+      "confidence": 66,
       "confidenceLabel": "中高",
       "baseline": [
         12,
@@ -201,37 +477,129 @@
       ],
       "market": [
         16,
-        25,
-        59
+        23,
+        61
       ],
       "marketWeight": 35,
       "consensus": "高度一致",
       "scoreBand": {
         "label": "客队小胜",
-        "chance": 31,
+        "chance": 34,
         "examples": [
-          "0-2",
           "0-1",
+          "0-2",
           "1-2"
         ]
       },
       "topScores": [
-        "0-2(12%)",
-        "1-1(15%)",
-        "0-0(13%)"
+        "0-1(13%)",
+        "1-1(14%)",
+        "0-0(14%)"
       ],
       "risks": [
-        "数据缺口：伤停",
-        "低进球/僵局保护触发，热门方向有回撤风险"
+        "数据缺口：天气、伤停",
+        "低进球/僵局保护触发，热门方向有回撤风险",
+        "组内排名情景敏感，赛果会明显改变前二位置或第三名压力"
       ],
+      "qualificationContext": {
+        "group": "J组",
+        "currentTable": [
+          "1.阿根廷 3分 净胜+3",
+          "2.奥地利 3分 净胜+2",
+          "3.约旦 0分 净胜-2",
+          "4.阿尔及利亚 0分 净胜-3"
+        ],
+        "home": {
+          "currentRank": 3,
+          "points": 0,
+          "goalDiff": -2,
+          "remainingOpponents": [
+            "阿根廷"
+          ]
+        },
+        "away": {
+          "currentRank": 4,
+          "points": 0,
+          "goalDiff": -3,
+          "remainingOpponents": [
+            "奥地利"
+          ]
+        },
+        "scenarios": [
+          {
+            "key": "homeWin",
+            "label": "约旦胜",
+            "homeGoals": 1,
+            "awayGoals": 0,
+            "homeRank": 3,
+            "awayRank": 4,
+            "homePoints": 3,
+            "awayPoints": 0,
+            "homeGoalDiff": -1,
+            "awayGoalDiff": -4
+          },
+          {
+            "key": "draw",
+            "label": "平局",
+            "homeGoals": 1,
+            "awayGoals": 1,
+            "homeRank": 3,
+            "awayRank": 4,
+            "homePoints": 1,
+            "awayPoints": 1,
+            "homeGoalDiff": -2,
+            "awayGoalDiff": -3
+          },
+          {
+            "key": "awayWin",
+            "label": "阿尔及利亚胜",
+            "homeGoals": 0,
+            "awayGoals": 1,
+            "homeRank": 4,
+            "awayRank": 3,
+            "homePoints": 0,
+            "awayPoints": 3,
+            "homeGoalDiff": -3,
+            "awayGoalDiff": -2
+          }
+        ],
+        "groupRemaining": [
+          "阿根廷vs奥地利",
+          "阿尔及利亚vs奥地利",
+          "约旦vs阿根廷"
+        ],
+        "strategy": {
+          "home": {
+            "label": "正常投入",
+            "intensityDelta": 0,
+            "drawBias": 0,
+            "currentDifficulty": "强敌",
+            "nextOpponent": "阿根廷",
+            "nextDifficulty": "强敌",
+            "note": "本场对手强敌，下场对阿根廷为强敌"
+          },
+          "away": {
+            "label": "正常投入",
+            "intensityDelta": 0,
+            "drawBias": 0,
+            "currentDifficulty": "明显弱于己方",
+            "nextOpponent": "奥地利",
+            "nextDifficulty": "接近",
+            "note": "本场对手明显弱于己方，下场对奥地利为接近"
+          }
+        },
+        "pressure": 0.18,
+        "summary": "平局会让至少一方继续处在前二外，求胜动机会被放大；两队净胜球接近，后续可能影响第三名比较和同分排序"
+      },
       "evidence": [
-        "Agent 综合概率：主12% / 平26% / 客62%，倾向埃及。",
-        "市场隐含概率：主16% / 平25% / 客59%，高度一致。",
-        "预期进球：新西兰 0.62，埃及 1.95。",
-        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。新西兰当前1分、净胜球0；埃及当前1分、净胜球0。",
-        "真实采集 4 项，模型推断 2 项，缺口 1 项。"
+        "Agent 综合概率：主15% / 平22% / 客63%，倾向阿尔及利亚。",
+        "市场隐含概率：主16% / 平23% / 客61%，高度一致。",
+        "预期进球：约旦 0.56，阿尔及利亚 1.79。",
+        "小组情景：当前J组为 1.阿根廷 3分 净胜+3 / 2.奥地利 3分 净胜+2 / 3.约旦 0分 净胜-2 / 4.阿尔及利亚 0分 净胜-3。本场三种赛果推演为 约旦胜: 主队第3/客队第4；平局: 主队第3/客队第4；阿尔及利亚胜: 主队第4/客队第3。主队后续对阿根廷；客队后续对奥地利。平局会让至少一方继续处在前二外，求胜动机会被放大；两队净胜球接近，后续可能影响第三名比较和同分排序。赛程战略：主队正常投入（本场对手强敌，下场对阿根廷为强敌）；客队正常投入（本场对手明显弱于己方，下场对奥地利为接近）。",
+        "小组动机校正：平局会让至少一方继续处在前二外，模型降低平局权重。",
+        "小组前二直接晋级，另外8个成绩最好的小组第三晋级。约旦当前0分、净胜球-2；阿尔及利亚当前0分、净胜球-3。"
       ],
-      "xhs": "【新西兰 vs 埃及】\n方向：客胜（埃及）\n比分区间：客队小胜，参考 0-2 / 0-1 / 1-2\n综合概率：主12% / 平26% / 客62%\n信心：中高（68）\n关键点：赔率作为市场共识层参与 35% 权重。\n风险：数据缺口：伤停；低进球/僵局保护触发，热门方向有回撤风险\n仅做赛前分析，不构成投注建议。"
+      "xhs": "【约旦 vs 阿尔及利亚】\n方向：客胜（阿尔及利亚）\n比分区间：客队小胜，参考 0-1 / 0-2 / 1-2\n综合概率：主15% / 平22% / 客63%\n信心：中高（66）\n关键点：赔率作为市场共识层参与 35% 权重。 平局会让至少一方继续处在前二外，模型降低平局权重。\n风险：数据缺口：天气、伤停；低进球/僵局保护触发，热门方向有回撤风险；组内排名情景敏感，赛果会明显改变前二位置或第三名压力\n仅做赛前分析，不构成投注建议。"
     }
   ]
 }

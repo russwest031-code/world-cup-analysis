@@ -1,5 +1,4 @@
-// force Render redeploy 2026-06-19
-const http = require("http");
+﻿const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const { spawnSync } = require("child_process");
@@ -38,7 +37,10 @@ function readBody(req) {
 }
 
 function json(res, status, payload) {
-  res.writeHead(status, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" });
+  res.writeHead(status, {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store"
+  });
   res.end(JSON.stringify(payload, null, 2));
 }
 
@@ -54,8 +56,8 @@ function parseChatDate(message) {
     const [y, m, d] = explicit[0].split(/[-/.]/);
     return `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
   }
-  const md = message.match(/(\d{1,2})\s*[月/.-]\s*(\d{1,2})\s*(日|号)?/);
-  if (md) return `${new Date().getFullYear()}-${String(md[1]).padStart(2, "0")}-${String(md[2]).padStart(2, "0")}`;
+  const zhMd = message.match(/(\d{1,2})\s*[月/.]\s*(\d{1,2})\s*(日|号)?/);
+  if (zhMd) return `${new Date().getFullYear()}-${String(zhMd[1]).padStart(2, "0")}-${String(zhMd[2]).padStart(2, "0")}`;
   if (/后天/.test(message)) return localDate(2);
   if (/明天|明日/.test(message)) return localDate(1);
   if (/今天|今日/.test(message)) return localDate(0);
@@ -63,29 +65,33 @@ function parseChatDate(message) {
 }
 
 function parseChatLimit(message) {
-  const match = message.match(/(\d+)\s*(场|場)/);
+  const match = message.match(/(\d+)\s*(场|场比赛|比赛)/);
   return match ? String(Math.max(1, Math.min(12, Number(match[1])))) : "";
 }
 
-function runNodeScript(script, env = {}) {
-  const result = spawnSync(process.execPath, [path.join(root, "scripts", script)], {
+function runNodeScript(script, env = {}, args = [], timeout = 240000) {
+  const result = spawnSync(process.execPath, [path.join(root, "scripts", script), ...args], {
     cwd: root,
     env: { ...process.env, ...env },
     encoding: "utf8",
-    timeout: 180000
+    timeout
   });
   return {
     ok: result.status === 0,
     stdout: result.stdout || "",
     stderr: result.stderr || "",
-    status: result.status
+    status: result.status,
+    error: result.error ? result.error.message : ""
   };
 }
 
-function latestAgentPayload() {
-  const file = path.join(root, "outputs", "agent", "latest.json");
+function readJsonIfExists(file) {
   if (!fs.existsSync(file)) return null;
   return JSON.parse(fs.readFileSync(file, "utf8"));
+}
+
+function latestAgentPayload() {
+  return readJsonIfExists(path.join(root, "outputs", "agent", "latest.json"));
 }
 
 function latestXhsText() {
@@ -93,67 +99,173 @@ function latestXhsText() {
   return fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "";
 }
 
-function latestCardUrls() {
-  const dir = path.join(root, "outputs", "agent", "cards", "latest");
+function imageUrlsFrom(dir, urlPrefix) {
   if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir)
     .filter(name => name.toLowerCase().endsWith(".png"))
     .sort()
-    .map(name => `/outputs/agent/cards/latest/${encodeURIComponent(name)}`);
+    .map(name => `${urlPrefix}/${encodeURIComponent(name)}`);
 }
 
-function shouldGenerate(message) {
-  return /(生成|出|做|来一版|小红书|图片|卡片|预测)/.test(message) && !/(在哪|路径|查看)/.test(message);
+function latestLocalCardUrls() {
+  return imageUrlsFrom(
+    path.join(root, "outputs", "agent", "cards", "latest"),
+    "/outputs/agent/cards/latest"
+  );
+}
+
+function latestImage2Urls() {
+  return imageUrlsFrom(
+    path.join(root, "outputs", "agent", "image2", "latest"),
+    "/outputs/agent/image2/latest"
+  );
+}
+
+function isGenerateCommand(message) {
+  return /(生成|出图|做图|来一张|小红书|图片|卡片|预测)/.test(message)
+    && !/(在哪|路径|查看|只看|文案)/.test(message);
+}
+
+function wantsLocalTemplate(message) {
+  return /(本地模板|本地生成|模板生成|不用image|不用Image|不用GPT|Pillow)/i.test(message);
+}
+
+function wantsDataRefresh(message) {
+  return /(更新数据|刷新数据|重新拉数据|最新数据)/.test(message);
 }
 
 function chatbotHelp() {
   return [
     "你可以直接说：",
-    "1. 生成明天小红书图",
-    "2. 生成 2026-06-22 4场",
-    "3. 只看文案",
-    "4. 图片在哪",
-    "5. 更新数据后生成"
+    "1. 生成明天小红书图（默认直连 GPT Image 2，需要 OPENAI_API_KEY）",
+    "2. 本地模板生成明天小红书图（不用 OpenAI key）",
+    "3. 生成 2026-06-22 4场",
+    "4. 只看文案",
+    "5. 图片在哪",
+    "6. 更新数据后生成"
   ].join("\n");
+}
+
+function latestResponse(reply, cards = null) {
+  return {
+    reply,
+    payload: latestAgentPayload(),
+    text: latestXhsText(),
+    cards: cards || latestImage2Urls().concat(latestLocalCardUrls()).slice(0, 8)
+  };
+}
+
+function updateDataIfRequested(message) {
+  if (!wantsDataRefresh(message)) return null;
+  const update = runNodeScript("update-predictions.mjs", {}, [], 300000);
+  if (!update.ok) {
+    return latestResponse(`数据刷新失败，我没有继续生成。\n${update.stderr || update.stdout || update.error}`);
+  }
+  return null;
+}
+
+function generateAgentData(message, skipImages) {
+  const date = parseChatDate(message);
+  const limit = parseChatLimit(message);
+  const env = {};
+  if (date) env.AGENT_DATE = date;
+  if (limit) env.AGENT_LIMIT = limit;
+  if (skipImages) env.AGENT_SKIP_IMAGES = "1";
+  const run = runNodeScript("daily-agent.mjs", env);
+  return { run, date };
+}
+
+function generateLocalTemplate(message) {
+  const { run, date } = generateAgentData(message, false);
+  if (!run.ok) {
+    return latestResponse(`本地模板生成失败：\n${run.stderr || run.stdout || run.error}`, latestLocalCardUrls());
+  }
+  const payload = latestAgentPayload();
+  return {
+    reply: `本地模板生成好了：${payload?.targetDate || date || "最近比赛"}，共 ${payload?.matches?.length || 0} 场。`,
+    payload,
+    text: latestXhsText(),
+    cards: latestLocalCardUrls()
+  };
+}
+
+function generateImage2(message) {
+  const { run, date } = generateAgentData(message, true);
+  if (!run.ok) {
+    return latestResponse(`预测数据生成失败：\n${run.stderr || run.stdout || run.error}`, []);
+  }
+
+  if (!process.env.OPENAI_API_KEY) {
+    return {
+      reply: [
+        "还不能直连 GPT Image 2：当前服务进程没有 OPENAI_API_KEY。",
+        "",
+        "要用 Image 2，需要先把 OpenAI API key 放进启动这个服务的环境变量里，然后重启 4186 服务。",
+        "临时看效果可以点：本地模板生成。"
+      ].join("\n"),
+      payload: latestAgentPayload(),
+      text: latestXhsText(),
+      cards: []
+    };
+  }
+
+  const jsonPath = path.join(root, "outputs", "agent", "latest.json");
+  const imgRun = runNodeScript("generate-gpt-image-style.mjs", {}, [jsonPath, "--cover"], 300000);
+  let result = null;
+  try {
+    result = JSON.parse((imgRun.stdout || "").trim());
+  } catch {
+    result = null;
+  }
+
+  if (!imgRun.ok || !result?.ok) {
+    const error = result?.error || imgRun.stderr || imgRun.stdout || imgRun.error || "未知错误";
+    return {
+      reply: `GPT Image 2 生成失败：${error}\n\n可以先用“本地模板生成明天小红书图”兜底。`,
+      payload: latestAgentPayload(),
+      text: latestXhsText(),
+      cards: []
+    };
+  }
+
+  const payload = latestAgentPayload();
+  return {
+    reply: `GPT Image 2 生成好了：${payload?.targetDate || date || "最近比赛"}，共 ${payload?.matches?.length || 0} 场。`,
+    payload,
+    text: latestXhsText(),
+    cards: result.cards?.length ? result.cards : latestImage2Urls()
+  };
 }
 
 function chatbotReply(message) {
   const normalized = String(message || "").trim();
-  if (!normalized) return { reply: chatbotHelp(), payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
-  if (/帮助|help|怎么用/.test(normalized)) {
-    return { reply: chatbotHelp(), payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
+  if (!normalized || /帮助|怎么用|help/i.test(normalized)) return latestResponse(chatbotHelp());
+
+  if (/只看文案|文案|正文/.test(normalized) && !isGenerateCommand(normalized)) {
+    return latestResponse("这是最新小红书文案。", []);
   }
-  if (/(文案|正文)/.test(normalized) && !shouldGenerate(normalized)) {
-    return { reply: "这是最新小红书文案。", payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
+
+  if (/图片在哪|图片|路径|文件在哪/.test(normalized) && !isGenerateCommand(normalized)) {
+    const image2Cards = latestImage2Urls();
+    const localCards = latestLocalCardUrls();
+    if (image2Cards.length) return latestResponse("这是最新 GPT Image 2 图片。", image2Cards);
+    if (localCards.length) return latestResponse("当前还没有 GPT Image 2 图片，这是最新本地模板图片。", localCards);
+    return latestResponse("还没有生成过图片。你可以说：生成明天小红书图。", []);
   }
-  if (/(图片在哪|图片|路径|文件在哪)/.test(normalized) && !shouldGenerate(normalized)) {
-    return { reply: "这是最新生成的图片。", payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
+
+  if (wantsDataRefresh(normalized) && !isGenerateCommand(normalized)) {
+    const refreshError = updateDataIfRequested(normalized);
+    if (refreshError) return refreshError;
+    return latestResponse("数据已刷新。现在可以说：生成明天小红书图。", latestImage2Urls());
   }
-  if (/更新数据|刷新数据|重新拉数据|最新数据/.test(normalized)) {
-    const update = runNodeScript("update-predictions.mjs");
-    if (!update.ok) {
-      return { reply: `数据刷新失败，我没有继续生成。\n${update.stderr || update.stdout}`, payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
-    }
+
+  if (isGenerateCommand(normalized) || wantsDataRefresh(normalized)) {
+    const refreshError = updateDataIfRequested(normalized);
+    if (refreshError) return refreshError;
+    return wantsLocalTemplate(normalized) ? generateLocalTemplate(normalized) : generateImage2(normalized);
   }
-  if (shouldGenerate(normalized) || /更新数据|刷新数据|重新拉数据|最新数据/.test(normalized)) {
-    const date = parseChatDate(normalized);
-    const limit = parseChatLimit(normalized);
-    const env = {};
-    if (date) env.AGENT_DATE = date;
-    if (limit) env.AGENT_LIMIT = limit;
-    const run = runNodeScript("daily-agent.mjs", env);
-    if (!run.ok) {
-      return { reply: `生成失败：\n${run.stderr || run.stdout}`, payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
-    }
-    const payload = latestAgentPayload();
-    return {
-      reply: `生成好了：${payload?.targetDate || date || "最近比赛"}，共 ${payload?.matches?.length || 0} 场。下面是图片和文案。`,
-      payload,
-      text: latestXhsText(),
-      cards: latestCardUrls()
-    };
-  }
-  return { reply: `我没理解这句。\n${chatbotHelp()}`, payload: latestAgentPayload(), text: latestXhsText(), cards: latestCardUrls() };
+
+  return latestResponse(`我没理解这句。\n${chatbotHelp()}`);
 }
 
 async function fetchRemoteDataJs() {
@@ -201,6 +313,7 @@ const server = http.createServer(async (req, res) => {
     return res.end(JSON.stringify({
       status: "ok",
       uptime: process.uptime(),
+      openaiImage2: Boolean(process.env.OPENAI_API_KEY),
       remoteData: remoteDataCache ? {
         source: remoteDataCache.source,
         fetchedAt: remoteDataCache.fetchedAt,
@@ -223,7 +336,7 @@ const server = http.createServer(async (req, res) => {
     return json(res, 200, {
       payload: latestAgentPayload(),
       text: latestXhsText(),
-      cards: latestCardUrls()
+      cards: latestImage2Urls().concat(latestLocalCardUrls())
     });
   }
 
@@ -239,8 +352,7 @@ const server = http.createServer(async (req, res) => {
       return res.end(remote.body);
     } catch (error) {
       console.warn(`Remote data.js unavailable, falling back to bundled file: ${error.message}`);
-      const localData = path.join(root, "data.js");
-      return serveFile(localData, res, { "X-Data-Source": "bundled-fallback" });
+      return serveFile(path.join(root, "data.js"), res, { "X-Data-Source": "bundled-fallback" });
     }
   }
 
@@ -253,4 +365,6 @@ const server = http.createServer(async (req, res) => {
   serveFile(file, res);
 });
 
-server.listen(port, "0.0.0.0", () => console.log(`World Cup Analysis: http://0.0.0.0:${port}`));
+server.listen(port, "0.0.0.0", () => {
+  console.log(`World Cup Analysis: http://0.0.0.0:${port}`);
+});
