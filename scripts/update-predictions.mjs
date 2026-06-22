@@ -2449,22 +2449,13 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const dayNoise = (random() - 0.5) * 4;  // reduced from ±3.5 to ±2
   const edge = homePower - awayPower + venueBonus + dayNoise;
 
-  // ── Goal expectation (blend: heuristic + ESPN data when available) ──
+  // ── Goal expectation ──
   const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
   const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
     ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
   const recentGoalLift = ((homeRecent.avgGoalsFor + awayRecent.avgGoalsFor) - (homeRecent.avgGoalsAgainst + awayRecent.avgGoalsAgainst)) * 0.08 +
     ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
-  const heuristicGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
-
-  // Blend ESPN real shot data if available (30% ESPN + 70% heuristic)
-  const homeShots = match.home?.shotsPerGame;
-  const awayShots = match.away?.shotsPerGame;
-  let totalGoals = heuristicGoals;
-  if (homeShots && awayShots && homeShots > 0 && awayShots > 0) {
-    const shotBasedGoals = clamp((homeShots + awayShots) * 0.12, 1.3, 4.5);
-    totalGoals = heuristicGoals * 0.70 + shotBasedGoals * 0.30;
-  }
+  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
 
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
   const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
