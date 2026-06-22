@@ -439,6 +439,18 @@ function formPoints(form) {
   }, 0);
 }
 
+function weightedFormPoints(recentMatches) {
+  // Weight each result by opponent FIFA ranking strength
+  return (recentMatches || []).slice(0, 5).reduce((sum, m) => {
+    const oppRank = m.opponentRank || 100;
+    const oppStrength = Math.max(0.3, (200 - oppRank) / 200); // 0.3-1.0
+    if (m.result === "W") return sum + 3 * oppStrength;
+    if (m.result === "D") return sum + 1 * oppStrength;
+    // L: small penalty, worse to lose to weak teams
+    return sum - 1 * (1 - oppStrength) * 0.5;
+  }, 0);
+}
+
 function metric(match, label, side) {
   const item = (match.metrics || []).find(entry => entry.label === label);
   return item ? Number(item[side]) : 70;
@@ -2347,14 +2359,17 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
   };
 
-  // ── Factor 3: Recent Form (20%) ──
-  const homeFormScore = Math.round(homeForm / 15 * 100);
-  const awayFormScore = Math.round(awayForm / 15 * 100);
+  // ── Factor 3: Recent Form (20%) — opponent-weighted ──
+  const homeWeightedForm = weightedFormPoints(homeRecentMatches);
+  const awayWeightedForm = weightedFormPoints(awayRecentMatches);
+  // Map weighted points to 0-100 scale (max ~15 for all wins vs strong, min ~-3 for all losses vs weak)
+  const homeFormScore = Math.round(clamp((homeWeightedForm + 3) / 18 * 100, 0, 100));
+  const awayFormScore = Math.round(clamp((awayWeightedForm + 3) / 18 * 100, 0, 100));
   const f3 = {
     name: "近期状态", weight: 20,
     homeScore: homeFormScore, awayScore: awayFormScore,
     contribution: (homeFormScore - awayFormScore) * 0.20,
-    evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
+    evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（加权${homeWeightedForm.toFixed(1)}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（加权${awayWeightedForm.toFixed(1)}分），趋势${awayRecent.trend || "稳定"}。对手排名已纳入权重。`
   };
 
   // ── Factor 4: Player Quality (12%) ──
