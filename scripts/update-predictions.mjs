@@ -40,6 +40,15 @@ const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
   .split(",")
   .map(url => url.trim())
   .filter(Boolean);
+const NEWS_SEARCH_ENABLED = process.env.NEWS_SEARCH_ENABLED !== "0";
+const NEWS_SEARCH_DAYS = Number(process.env.NEWS_SEARCH_DAYS || 3);
+const NEWS_SEARCH_MATCH_LIMIT = Number(process.env.NEWS_SEARCH_MATCH_LIMIT || 16);
+const NEWS_SEARCH_ARTICLES_PER_QUERY = Number(process.env.NEWS_SEARCH_ARTICLES_PER_QUERY || 6);
+const NEWS_SEARCH_QUERIES_PER_MATCH = Number(process.env.NEWS_SEARCH_QUERIES_PER_MATCH || 4);
+const NEWS_SEARCH_CONCURRENCY = Number(process.env.NEWS_SEARCH_CONCURRENCY || 8);
+const GDELT_DOC_API = process.env.GDELT_DOC_API || "https://api.gdeltproject.org/api/v2/doc/doc";
+const GOOGLE_NEWS_RSS = process.env.GOOGLE_NEWS_RSS || "https://news.google.com/rss/search";
+const GOOGLE_NEWS_ENABLED = process.env.GOOGLE_NEWS_ENABLED !== "0";
 
 const TEAM_NAMES_ZH = {
   MEX: "墨西哥", RSA: "南非", KOR: "韩国", CZE: "捷克",
@@ -1323,10 +1332,138 @@ async function loadOddsSignals() {
   }
 }
 
-async function loadExpertSignals() {
+function sourceTeamName(match, side) {
+  const team = side === "home" ? match.home : match.away;
+  const sourceName = side === "home" ? match.sourceInfo?.homeName : match.sourceInfo?.awayName;
+  return [sourceName, team?.name, team?.code]
+    .filter(Boolean)
+    .find(name => /^[A-Za-z0-9 .'-]+$/.test(String(name))) || sourceName || team?.name || team?.code || "";
+}
+
+function newsArticleKey(article) {
+  return normalizeText(article.link || article.url || article.title || "");
+}
+
+function pushNewsArticle(articles, seen, article) {
+  const title = String(article.title || "").trim();
+  const link = String(article.link || article.url || "").trim();
+  if (!title && !link) return false;
+  const key = newsArticleKey({ ...article, title, link });
+  if (!key || seen.has(key)) return false;
+  seen.add(key);
+  articles.push({ ...article, title, link });
+  return true;
+}
+
+function upcomingNewsSearchMatches(matches) {
+  const today = new Date(now.toISOString().slice(0, 10));
+  const maxTime = today.getTime() + NEWS_SEARCH_DAYS * 24 * 60 * 60 * 1000;
+  return matches
+    .filter(match => match.status !== "finished")
+    .filter(match => {
+      const time = new Date(match.date || match.sourceInfo?.sourceDate || "").getTime();
+      return Number.isFinite(time) && time >= today.getTime() && time <= maxTime;
+    })
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    .slice(0, NEWS_SEARCH_MATCH_LIMIT);
+}
+
+function latestCompletedMatchForTeam(matches, teamCode, beforeDate) {
+  const beforeTime = new Date(beforeDate || now).getTime();
+  return matches
+    .filter(item => item.status === "completed" || item.status === "finished" || item.score || item.actualScore)
+    .filter(item => {
+      const time = new Date(item.date || item.sourceInfo?.sourceDate || "").getTime();
+      return Number.isFinite(time) && time < beforeTime &&
+        (item.home?.code === teamCode || item.away?.code === teamCode);
+    })
+    .sort((a, b) => new Date(b.date || b.sourceInfo?.sourceDate || "").getTime() - new Date(a.date || a.sourceInfo?.sourceDate || "").getTime())[0] || null;
+}
+
+function gdeltQueriesForMatch(match, allMatches = []) {
+  const home = sourceTeamName(match, "home");
+  const away = sourceTeamName(match, "away");
+  const homePrevious = latestCompletedMatchForTeam(allMatches, match.home?.code, match.date);
+  const awayPrevious = latestCompletedMatchForTeam(allMatches, match.away?.code, match.date);
+  const homePreviousOpponent = homePrevious ? sourceTeamName(homePrevious, homePrevious.home?.code === match.home?.code ? "away" : "home") : "";
+  const awayPreviousOpponent = awayPrevious ? sourceTeamName(awayPrevious, awayPrevious.home?.code === match.away?.code ? "away" : "home") : "";
+  const worldCup = `("World Cup" OR FIFA OR soccer OR football)`;
+  const teamNews = `(injury OR injured OR fitness OR suspended OR lineup OR "team news" OR "predicted XI" OR squad OR tactics OR training OR "press conference" OR availability OR rotation)`;
+  const recap = `(recap OR reaction OR analysis OR ratings OR "player ratings" OR "match report" OR training OR injury OR fitness)`;
+  return [
+    { intent: "fixture-team-news", query: `("${home}" AND "${away}") ${worldCup} ${teamNews}` },
+    { intent: "home-team-news", query: `"${home}" ${worldCup} ${teamNews}` },
+    { intent: "away-team-news", query: `"${away}" ${worldCup} ${teamNews}` },
+    homePreviousOpponent ? { intent: "home-last-match", query: `"${home}" "${homePreviousOpponent}" ${worldCup} ${recap}` } : null,
+    awayPreviousOpponent ? { intent: "away-last-match", query: `"${away}" "${awayPreviousOpponent}" ${worldCup} ${recap}` } : null
+  ].filter(Boolean).slice(0, Math.max(1, NEWS_SEARCH_QUERIES_PER_MATCH));
+}
+
+async function searchGdeltQuery(match, queryInfo) {
+  const url = new URL(GDELT_DOC_API);
+  url.searchParams.set("query", queryInfo.query);
+  url.searchParams.set("mode", "ArtList");
+  url.searchParams.set("format", "json");
+  url.searchParams.set("sort", "HybridRel");
+  url.searchParams.set("timespan", `${NEWS_SEARCH_DAYS}d`);
+  url.searchParams.set("maxrecords", String(NEWS_SEARCH_ARTICLES_PER_QUERY));
+  const data = await fetchJson(url.toString());
+  return (data.articles || []).map(article => ({
+    title: article.title || "",
+    description: article.seendate ? `Seen ${article.seendate}` : "",
+    link: article.url || "",
+    pubDate: article.seendate || "",
+    source: article.domain || "gdelt",
+    provider: "gdelt-doc",
+    query: queryInfo.query,
+    intent: queryInfo.intent,
+    matchId: match.id
+  }));
+}
+
+async function searchGoogleNewsQuery(match, queryInfo) {
+  const url = new URL(GOOGLE_NEWS_RSS);
+  url.searchParams.set("q", `${queryInfo.query} when:7d`);
+  url.searchParams.set("hl", "en-US");
+  url.searchParams.set("gl", "US");
+  url.searchParams.set("ceid", "US:en");
+  const xml = await fetchText(url.toString());
+  const items = xml.match(/<item[\s\S]*?<\/item>/gi) || [];
+  return items.slice(0, NEWS_SEARCH_ARTICLES_PER_QUERY).map(item => ({
+    title: xmlField(item, "title"),
+    description: xmlField(item, "description"),
+    link: xmlField(item, "link"),
+    pubDate: xmlField(item, "pubDate"),
+    source: xmlField(item, "source") || "news.google.com",
+    provider: "google-news-rss",
+    query: queryInfo.query,
+    intent: queryInfo.intent,
+    matchId: match.id
+  }));
+}
+
+async function runLimited(items, limit, worker) {
+  const results = [];
+  let index = 0;
+  const workers = Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, async () => {
+    while (index < items.length) {
+      const current = items[index++];
+      results.push(await worker(current));
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+async function loadExpertSignals(matches = []) {
   const articles = [];
   const seen = new Set();
   const errors = [];
+  let rssCount = 0;
+  let gdeltCount = 0;
+  let googleNewsCount = 0;
+  let searchedMatches = 0;
+  let searchedQueries = 0;
   for (const url of EXPERT_RSS_URLS) {
     try {
       const xml = await fetchText(url);
@@ -1338,20 +1475,57 @@ async function loadExpertSignals() {
         const pubDate = xmlField(item, "pubDate");
         const text = `${title} ${description}`;
         if (!/world cup|fifa|soccer|football/i.test(text)) continue;
-        const key = normalizeText(link || title);
-        if (seen.has(key)) continue;
-        seen.add(key);
-        articles.push({ title, description, link, pubDate, source: new URL(url).hostname });
+        if (pushNewsArticle(articles, seen, { title, description, link, pubDate, source: new URL(url).hostname, provider: "public-rss" })) {
+          rssCount += 1;
+        }
       }
     } catch (error) {
       errors.push(`${url}: ${error.message}`);
     }
   }
+  if (NEWS_SEARCH_ENABLED) {
+    const jobs = [];
+    for (const match of upcomingNewsSearchMatches(matches)) {
+      const queries = gdeltQueriesForMatch(match, matches);
+      searchedMatches += 1;
+      searchedQueries += queries.length;
+      for (const queryInfo of queries) jobs.push({ match, queryInfo });
+    }
+    const batches = await runLimited(jobs, NEWS_SEARCH_CONCURRENCY, async ({ match, queryInfo }) => {
+      const rows = [];
+      try {
+        rows.push(...await searchGdeltQuery(match, queryInfo));
+      } catch (error) {
+        errors.push(`GDELT ${match.title || match.id} ${queryInfo.intent}: ${error.message}`);
+      }
+      if (GOOGLE_NEWS_ENABLED) {
+        try {
+          rows.push(...await searchGoogleNewsQuery(match, queryInfo));
+        } catch (error) {
+          errors.push(`Google News ${match.title || match.id} ${queryInfo.intent}: ${error.message}`);
+        }
+      }
+      return rows;
+    });
+    for (const rows of batches) {
+      for (const row of rows) {
+        if (pushNewsArticle(articles, seen, row)) {
+          if (row.provider === "google-news-rss") googleNewsCount += 1;
+          else gdeltCount += 1;
+        }
+      }
+    }
+  }
   return {
     status: articles.length ? "connected" : errors.length ? "partial-error" : "no-articles",
-    provider: "public-rss",
-    sources: EXPERT_RSS_URLS,
+    provider: NEWS_SEARCH_ENABLED ? "public-rss+gdelt-doc+google-news-rss" : "public-rss",
+    sources: EXPERT_RSS_URLS.concat(NEWS_SEARCH_ENABLED ? [GDELT_DOC_API, GOOGLE_NEWS_RSS] : []),
     fetchedAt: now.toISOString(),
+    rssCount,
+    gdeltCount,
+    googleNewsCount,
+    searchedMatches,
+    searchedQueries,
     articles,
     errors
   };
@@ -1908,7 +2082,12 @@ function newsSignalsForMatch(match, expertContext, allMatches = []) {
   const tactical = withText.filter(item =>
     /coach|manager|tactic|press conference|training|formation|selection|system|approach|style|plan/i.test(item.raw)
   ).slice(0, 5).map(item => compactArticle(item.article));
-  return { lineup, injuries, tactical };
+  const specific = new Set([...lineup, ...injuries, ...tactical].map(item => newsArticleKey(item)));
+  const context = withText
+    .map(item => compactArticle(item.article))
+    .filter(item => !specific.has(newsArticleKey(item)))
+    .slice(0, 8);
+  return { lineup, injuries, tactical, context };
 }
 
 function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
@@ -2147,50 +2326,96 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeRecent = match.home.recentSummary || recentFormSummary(homeRecentMatches);
   const awayRecent = match.away.recentSummary || recentFormSummary(awayRecentMatches);
 
-  // ── Factor 1: World Ranking (35%) ──
+  // ── Factor 1: World Ranking (28%) ──
   const homeRankScore = clamp(100 - homeRank, 0, 100);
   const awayRankScore = clamp(100 - awayRank, 0, 100);
   const f1 = {
-    name: "世界排名", weight: 35,
+    name: "世界排名", weight: 28,
     homeScore: homeRankScore, awayScore: awayRankScore,
-    contribution: (homeRankScore - awayRankScore) * 0.35,
+    contribution: (homeRankScore - awayRankScore) * 0.28,
     evidence: `${match.home.name} 世界第${homeRank}，${match.away.name} 世界第${awayRank}。排名差 ${Math.abs(homeRank - awayRank)} 位。`
   };
 
-  // ── Factor 2: Attack-Defense Composite (31%) ──
+  // ── Factor 2: Attack-Defense Composite (24%) ──
   const homeComposite = Math.round((homeAttack + homeDefense + homeMidfield) / 3);
   const awayComposite = Math.round((awayAttack + awayDefense + awayMidfield) / 3);
   const f2 = {
-    name: "攻防综合", weight: 31,
+    name: "攻防综合", weight: 24,
     homeScore: homeComposite, awayScore: awayComposite,
-    contribution: (homeComposite - awayComposite) * 0.31,
+    contribution: (homeComposite - awayComposite) * 0.24,
     evidence: `${match.home.name} 进攻${homeAttack}/防守${homeDefense}/中场${homeMidfield}，综合${homeComposite}；${match.away.name} 进攻${awayAttack}/防守${awayDefense}/中场${awayMidfield}，综合${awayComposite}。`
   };
 
-  // ── Factor 3: Recent Form (26%) ──
+  // ── Factor 3: Recent Form (20%) ──
   const homeFormScore = Math.round(homeForm / 15 * 100);
   const awayFormScore = Math.round(awayForm / 15 * 100);
   const f3 = {
-    name: "近期状态", weight: 26,
+    name: "近期状态", weight: 20,
     homeScore: homeFormScore, awayScore: awayFormScore,
-    contribution: (homeFormScore - awayFormScore) * 0.26,
+    contribution: (homeFormScore - awayFormScore) * 0.20,
     evidence: `${match.home.code} 近5场 ${(match.home.form||[]).slice(0,5).join(" ")}（${homeForm}分），趋势${homeRecent.trend || "稳定"}；${match.away.code} 近5场 ${(match.away.form||[]).slice(0,5).join(" ")}（${awayForm}分），趋势${awayRecent.trend || "稳定"}。`
   };
 
-  // ── Factor 4: Motivation (8%) ──
+  // ── Factor 4: Player Quality (12%) ──
+  const homePQ = match.home?.playerQuality;
+  const awayPQ = match.away?.playerQuality;
+  function playerScore(pq) {
+    if (!pq) return 50;
+    const valScore = Math.min((pq.squadValue || 0) / 0.55 * 100, 100);
+    const ratScore = Math.max(0, Math.min(((pq.avgRating || 6.2) - 6.2) / 1.3 * 100, 100));
+    const starScore = Math.min((pq.starCount || 0) / 10 * 100, 100);
+    return Math.round(valScore * 0.4 + ratScore * 0.3 + starScore * 0.3);
+  }
+  const homePlayerScore = playerScore(homePQ);
+  const awayPlayerScore = playerScore(awayPQ);
+  const f4 = {
+    name: "球员质量", weight: 12,
+    homeScore: homePlayerScore, awayScore: awayPlayerScore,
+    contribution: (homePlayerScore - awayPlayerScore) * 0.12,
+    evidence: `${match.home.name} 阵容身价${homePQ?.squadValue||"?"}B€ / 均分${homePQ?.avgRating||"?"} / 球星${homePQ?.starCount||"?"}人；${match.away.name} 阵容身价${awayPQ?.squadValue||"?"}B€ / 均分${awayPQ?.avgRating||"?"} / 球星${awayPQ?.starCount||"?"}人。`
+  };
+
+  // ── Factor 5: Motivation (8%) ──
   const homeMotRaw = (motivation.home?.intensity || 0) * 50 + (motivation.home?.goalNeed || 0) * 30 + (1 - (motivation.home?.drawValue || 0.35)) * 20;
   const awayMotRaw = (motivation.away?.intensity || 0) * 50 + (motivation.away?.goalNeed || 0) * 30 + (1 - (motivation.away?.drawValue || 0.35)) * 20;
   const homeMotScore = Math.round(clamp(homeMotRaw, 0, 100));
   const awayMotScore = Math.round(clamp(awayMotRaw, 0, 100));
-  const f4 = {
+  const f5 = {
     name: "出线动机", weight: 8,
     homeScore: homeMotScore, awayScore: awayMotScore,
     contribution: (homeMotScore - awayMotScore) * 0.08,
     evidence: motivation.note
   };
 
+  // ── Factor 6: Weather & Venue (8%) ──
+  const intel = match.matchIntelligence || signalContext?.live || {};
+  const weather = intel.weather || {};
+  function weatherScore(team, isHome) {
+    let score = 50;
+    if (weather.status === "connected") {
+      if (weather.precipitationProbability > 60) score -= 4;
+      if (weather.temperatureMax > 32 || weather.temperatureMin < 5) score -= 2;
+      if (weather.windSpeedMax > 30) score -= 2;
+    }
+    if (isHome && HOST_NATIONS.includes(team.code)) {
+      const v = VENUE_DATA[match.venue];
+      if (v && v.country === team.code) score += 5;
+    }
+    return score;
+  }
+  const homeWeatherScore = weatherScore(match.home, true);
+  const awayWeatherScore = weatherScore(match.away, false);
+  const f6 = {
+    name: "天气/场地", weight: 8,
+    homeScore: homeWeatherScore, awayScore: awayWeatherScore,
+    contribution: (homeWeatherScore - awayWeatherScore) * 0.08,
+    evidence: weather.status === "connected"
+      ? `${weather.venue || match.venue}：${weather.temperatureMax||"?"}°C / 降雨${weather.precipitationProbability||"?"}% / 风速${weather.windSpeedMax||"?"}km/h。${weather.impact || ""}`
+      : "暂无天气数据，场地因素按中立场地处理。"
+  };
+
   // ── Collect factors and compute power ──
-  const factors = [f1, f2, f3, f4];
+  const factors = [f1, f2, f3, f4, f5, f6];
   let homePower = 0;
   let awayPower = 0;
   for (const f of factors) {
@@ -2291,13 +2516,6 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
 
   const drawGuard = lowGoalDrawGuard(probabilities, totalGoals);
   probabilities = drawGuard.probabilities;
-  const v3Guard = v3StallGuard(probabilities, {
-    totalGoals,
-    homeShare,
-    motivation,
-    scoreBands: modelOnlyScoreBands
-  });
-  probabilities = v3Guard.probabilities;
 
   const marketCalibration = {
     status: marketSignals.status,
@@ -2305,14 +2523,14 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     market: marketSignals.impliedProbabilities || null,
     blended: probabilities.slice(),
     blendWeight: marketBlendWeight,
-    drawGuardApplied: drawGuard.applied || v3Guard.applied,
-    drawGuardReason: [drawGuard.reason, v3Guard.reason].filter(Boolean).join("；") || null,
+    drawGuardApplied: drawGuard.applied,
+    drawGuardReason: drawGuard.reason || null,
     deltas: marketSignals.impliedProbabilities
       ? marketSignals.impliedProbabilities.map((value, index) => value - modelOnlyProbabilities[index])
       : null,
     summary: marketSignals.impliedProbabilities
-      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 ${Math.round(marketBlendWeight * 100)}% 权重校准后为 ${probabilities.join("/")}%。${drawGuard.applied || v3Guard.applied ? "已触发低进球/僵局保护。" : ""}`
-      : `暂无可用市场概率，模型未进行赔率校准。${drawGuard.applied || v3Guard.applied ? "已触发低进球/僵局保护。" : ""}`
+      ? `模型原始概率 ${modelOnlyProbabilities.join("/")}%；市场隐含概率 ${marketSignals.impliedProbabilities.join("/")}%；按 ${Math.round(marketBlendWeight * 100)}% 权重校准后为 ${probabilities.join("/")}%。${drawGuard.applied ? "已触发低进球僵局保护。" : ""}`
+      : `暂无可用市场概率，模型未进行赔率校准。${drawGuard.applied ? "已触发低进球僵局保护。" : ""}`
   };
 
   // Factor 10: 0% power score weight — odds work through direct blend only
@@ -2334,7 +2552,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);
   const consistency = Math.abs(homeAvg - awayAvg) + Math.abs(homeForm - awayForm) * 2;
-  const confidence = calibratedConfidence(probabilities, scoreOdds, drawGuard.applied || v3Guard.applied, marketSignals);
+  const confidence = calibratedConfidence(probabilities, scoreOdds, drawGuard.applied, marketSignals);
 
   const tag = match.status === "completed" ? "已完场" : confidence >= 82 ? "高信心" : confidence >= 70 ? "稳健" : Math.abs(probabilities[0] - probabilities[2]) <= 8 ? "均衡" : "观察";
   const favoriteIndex = probabilities.indexOf(top);
@@ -2654,7 +2872,7 @@ function serialize(matches, metaOverrides = {}, backtestData = null, predictionL
     source: "openfootball-worldcup-json",
     externalFetchedAt: now.toISOString(),
     externalMatchCount: matches.length,
-    model: "calibrated-stall-guard-v5",
+    model: "six-factor-dixon-coles-v6",
     modelVersion: CURRENT_MODEL_VERSION,
     modelVersionLabel: CURRENT_MODEL_LABEL,
     rulesModel: "wc2026-group-qualification-v1",
@@ -2757,7 +2975,7 @@ async function main() {
   const context = buildTournamentContext(matches);
   const [odds, experts, weather, live] = await Promise.all([
     loadOddsSignals(),
-    loadExpertSignals(),
+    loadExpertSignals(matches),
     loadWeatherSignals(matches),
     loadApiFootballSignals(matches)
   ]);
