@@ -2449,16 +2449,38 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const dayNoise = (random() - 0.5) * 4;  // reduced from ±3.5 to ±2
   const edge = homePower - awayPower + venueBonus + dayNoise;
 
-  // ── Goal expectation ──
-  const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
-  const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
-    ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
-  const recentGoalLift = ((homeRecent.avgGoalsFor + awayRecent.avgGoalsFor) - (homeRecent.avgGoalsAgainst + awayRecent.avgGoalsAgainst)) * 0.08 +
-    ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
-  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
+  // ── Goal expectation (ESPN data-driven when available, heuristic fallback) ──
+  const homeShots = match.home?.shotsPerGame;
+  const awayShots = match.away?.shotsPerGame;
+  const homeSOT = match.home?.shotsOnTarget;
+  const awaySOT = match.away?.shotsOnTarget;
+  const hasESPN = homeShots && awayShots && homeShots > 0 && awayShots > 0;
+
+  let homeGoals, awayGoals, totalGoals;
+  if (hasESPN) {
+    // ESPN data-driven: opponent-adjusted shots × conversion rate
+    const leagueAvgShots = 11.5; // WC2026 average shots per game
+    const leagueAvgConceded = 1.4; // WC2026 average goals conceded
+    const homeAttackPower = (homeShots / leagueAvgShots) * 0.85 + (homeSOT / 5.5) * 0.15;
+    const awayAttackPower = (awayShots / leagueAvgShots) * 0.85 + (awaySOT / 5.5) * 0.15;
+    const awayDefWeak = ((match.away?.possession || 50) < 45 ? 1.15 : 1.0);
+    const homeDefWeak = ((match.home?.possession || 50) < 45 ? 1.15 : 1.0);
+    const homeGoalBase = homeAttackPower * 1.4 * awayDefWeak;
+    const awayGoalBase = awayAttackPower * 1.4 * homeDefWeak;
+    totalGoals = clamp((homeGoalBase + awayGoalBase) + motivation.goalNeed * 0.3 + (random() - 0.5) * 0.2, 1.4, 4.5);
+  } else {
+    // Heuristic fallback
+    const motivationGoalLift = motivation.goalNeed * 0.38 + motivation.intensity * 0.18 - motivation.drawValue * 0.2;
+    const styleGoalLift = ((homeStyle.avgGoalsFor + awayStyle.avgGoalsFor) - 2.2) * 0.18 +
+      ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
+    const recentGoalLift = ((homeRecent.avgGoalsFor + awayRecent.avgGoalsFor) - (homeRecent.avgGoalsAgainst + awayRecent.avgGoalsAgainst)) * 0.08 +
+      ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
+    totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
+  }
+
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
-  const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
-  const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
+  homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
+  awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
   const matrix = scoreMatrix(homeGoals, awayGoals);
 
   // ── Probabilities ──
