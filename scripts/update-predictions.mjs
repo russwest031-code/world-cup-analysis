@@ -2467,8 +2467,8 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   }
 
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
-  homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
-  awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
+  const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
+  const awayGoals = clamp(totalGoals - homeGoals, 0.25, 3.25);
   const matrix = scoreMatrix(homeGoals, awayGoals);
 
   // ── Probabilities ──
