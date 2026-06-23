@@ -2084,6 +2084,12 @@ function playerMarketValue(player) {
   return Number(player?.rt_value_estimate_eur || 0) || 0;
 }
 
+function playerRatingFromSquad(squad, player) {
+  const stats = squad?._statsById?.get?.(player?.player_id);
+  const rating = Number(stats?.rating);
+  return Number.isFinite(rating) && rating > 0 ? Number(rating.toFixed(2)) : null;
+}
+
 function positionBucket(player) {
   const position = String(player?.position || "").toUpperCase();
   if (position === "GK") return "GK";
@@ -2123,7 +2129,8 @@ function predictedLineupForTeam(team, playerData) {
       position: player.position || positionBucket(player),
       club: player.club || "",
       age: Number(player.age) || null,
-      value: playerMarketValue(player)
+      value: playerMarketValue(player),
+      rating: playerRatingFromSquad(squad, player)
     }))
   };
 }
@@ -2146,13 +2153,14 @@ function playerFromSquadByName(squad, name) {
   return (squad?.players || []).find(player => compactPlayerName(player.player_name) === key) || null;
 }
 
-function starterObjectFromSquadPlayer(player) {
+function starterObjectFromSquadPlayer(player, squad) {
   return {
     name: player.player_name,
     position: player.position || positionBucket(player),
     club: player.club || "",
     age: Number(player.age) || null,
-    value: playerMarketValue(player)
+    value: playerMarketValue(player),
+    rating: playerRatingFromSquad(squad, player)
   };
 }
 
@@ -2226,8 +2234,8 @@ function extractLineupNamesForTeam(match, side, articles) {
 
 function starterObjectFromNewsName(squad, name) {
   const squadPlayer = playerFromSquadByName(squad, name);
-  if (squadPlayer) return starterObjectFromSquadPlayer(squadPlayer);
-  return { name, position: "", club: "", age: null, value: 0, source: "news-text" };
+  if (squadPlayer) return starterObjectFromSquadPlayer(squadPlayer, squad);
+  return { name, position: "", club: "", age: null, value: 0, rating: null, source: "news-text" };
 }
 
 function projectedLineupFromNews(team, match, side, playerData, newsLineupArticles, injuries) {
@@ -2246,7 +2254,7 @@ function projectedLineupFromNews(team, match, side, playerData, newsLineupArticl
   const fill = (squad?.players || [])
     .filter(player => !used.has(compactPlayerName(player.player_name)) && !injured.has(compactPlayerName(player.player_name)))
     .sort((a, b) => playerMarketValue(b) - playerMarketValue(a));
-  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift()));
+  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift(), squad));
   if (starters.length < 8) return null;
   return {
     team: team.name,
@@ -2270,15 +2278,15 @@ function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCod
     if (!name || injured.has(key)) continue;
     const squadPlayer = playerFromSquadByName(squad, name);
     const player = squadPlayer
-      ? starterObjectFromSquadPlayer(squadPlayer)
-      : { name, position: item.player?.pos || item.position || "", club: "", age: null, value: 0 };
+      ? starterObjectFromSquadPlayer(squadPlayer, squad)
+      : { name, position: item.player?.pos || item.position || "", club: "", age: null, value: 0, rating: null };
     starters.push(player);
     used.add(compactPlayerName(player.name));
   }
   const fill = (squad?.players || [])
     .filter(player => !used.has(compactPlayerName(player.player_name)) && !injured.has(compactPlayerName(player.player_name)))
     .sort((a, b) => playerMarketValue(b) - playerMarketValue(a));
-  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift()));
+  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift(), squad));
   if (starters.length < 8) return null;
   return {
     team: team.name,

@@ -94,6 +94,14 @@
     return Math.max(5.8, Math.min(8.8, score)).toFixed(1);
   }
 
+  function playerRatingLabel(player) {
+    var rating = Number(player && player.rating);
+    if (Number.isFinite(rating) && rating > 0) {
+      return { source: "数据", value: rating.toFixed(1) };
+    }
+    return { source: "估算", value: playerModelRating(player) };
+  }
+
   // ─── ANALYSIS HOME PAGE ────────────────────────────────────────
   function renderAnalysis() {
     var list = document.getElementById("matchList");
@@ -594,16 +602,17 @@
       return '<div class="lineup-list">' + teams.map(function (team) {
         var starters = (team.starters || []).map(function (player) {
           if (typeof player === "string") {
-            return '<li><div><strong>' + player + '</strong><small>资料不足</small></div><b>6.0</b></li>';
+            return '<li><div><strong>' + player + '</strong><small>资料不足</small></div><b><em>估算</em>6.0</b></li>';
           }
           var meta = [
             positionLabel(player.position),
             player.club || "",
             player.age ? player.age + "岁" : ""
           ].filter(Boolean).join(" / ");
+          var rating = playerRatingLabel(player);
           return '<li>' +
             '<div><strong>' + player.name + '</strong><small>' + meta + '</small></div>' +
-            '<b>' + playerModelRating(player) + '</b>' +
+            '<b><em>' + rating.source + '</em>' + rating.value + '</b>' +
           '</li>';
         }).join("");
         var source = lineupSourceLabel(team.source);
@@ -612,7 +621,7 @@
           '<strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong>' +
           previous +
           '<ul class="lineup-player-list">' + starters + '</ul>' +
-          '<small class="lineup-rating-note">评分为模型阵容强度分，基于球员身价与位置资料估算。</small>' +
+          '<small class="lineup-rating-note">评分优先使用真实 per90 数据；缺失时按球员身价与位置资料估算。</small>' +
         '</div>';
       }).join("") + '</div>' + articles;
     }
