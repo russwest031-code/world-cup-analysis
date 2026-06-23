@@ -1439,6 +1439,31 @@ function upcomingNewsSearchMatches(matches) {
     .slice(0, NEWS_SEARCH_MATCH_LIMIT);
 }
 
+function upcomingLineupTeamCodes(matches, fallbackCodes = []) {
+  const today = new Date(now.toISOString().slice(0, 10));
+  const maxTime = today.getTime() + NEWS_SEARCH_DAYS * 24 * 60 * 60 * 1000;
+  const codes = [];
+  const seen = new Set();
+  function add(code) {
+    if (!code || seen.has(code)) return;
+    seen.add(code);
+    codes.push(code);
+  }
+  matches
+    .filter(match => match.status !== "finished" && match.status !== "completed")
+    .filter(match => {
+      const time = new Date(match.date || match.sourceInfo?.sourceDate || "").getTime();
+      return Number.isFinite(time) && time >= today.getTime() && time <= maxTime;
+    })
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    .forEach(match => {
+      add(match.home?.code);
+      add(match.away?.code);
+    });
+  fallbackCodes.forEach(add);
+  return codes;
+}
+
 function latestCompletedMatchForTeam(matches, teamCode, beforeDate) {
   const beforeTime = new Date(beforeDate || now).getTime();
   return matches
@@ -2233,20 +2258,20 @@ function projectedLineupFromNews(team, match, side, playerData, newsLineupArticl
 
 function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCode, injuries) {
   const previous = previousLineupsByTeamCode?.[team.code];
-  const rawStarters = previous?.lineup?.startXI || [];
+  const rawStarters = previous?.lineup?.startXI || previous?.starters || [];
   if (!rawStarters.length) return null;
   const squad = playerData?.get?.(team.code);
   const injured = injuryNameSetForTeam(injuries, team.name);
   const starters = [];
   const used = new Set();
   for (const item of rawStarters) {
-    const name = item.player?.name;
+    const name = item.player?.name || item.name;
     const key = compactPlayerName(name);
     if (!name || injured.has(key)) continue;
     const squadPlayer = playerFromSquadByName(squad, name);
     const player = squadPlayer
       ? starterObjectFromSquadPlayer(squadPlayer)
-      : { name, position: item.player?.pos || "", club: "", age: null, value: 0 };
+      : { name, position: item.player?.pos || item.position || "", club: "", age: null, value: 0 };
     starters.push(player);
     used.add(compactPlayerName(player.name));
   }
@@ -2257,9 +2282,9 @@ function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCod
   if (starters.length < 8) return null;
   return {
     team: team.name,
-    formation: previous.lineup.formation || "上一场阵型",
+    formation: previous.lineup?.formation || previous.formation || "上一场阵型",
     source: "last-start-adjusted",
-    previousFixtureDate: previous.fixtureDate || null,
+    previousFixtureDate: previous.fixtureDate || previous.date || null,
     previousOpponent: previous.opponent || "",
     removedByInjury: rawStarters.length - starters.length,
     starters: starters.slice(0, 11)
@@ -2360,7 +2385,7 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
     const fromNewsLineup = projectedLineups.some(team => team.source === "news-predicted-lineup");
     const hasLineupArticles = news.lineup.length > 0;
     const lineupStatus = fromLastStart ? "last-start-projected" : fromNewsLineup ? "news-derived" : hasLineupArticles ? "news-unparsed" : "projected";
-    const lineupSource = fromLastStart ? "api-football-last-lineup" : fromNewsLineup ? "public-news-lineup" : hasLineupArticles ? "public-news-unparsed" : "squad-projection";
+    const lineupSource = fromLastStart ? "previous-match-lineup" : fromNewsLineup ? "public-news-lineup" : hasLineupArticles ? "public-news-unparsed" : "squad-projection";
     const lineupText = fromLastStart
       ? "\u5f53\u524d\u4ee5\u4e0a\u4e00\u573a\u9996\u53d1\u4e3a\u57fa\u5e95\uff0c\u5e76\u7ed3\u5408\u4f24\u75c5\u540d\u5355\u4e0e\u5927\u540d\u5355\u8865\u4f4d\u751f\u6210\u9884\u8ba1\u9996\u53d1\u3002"
       : fromNewsLineup
@@ -3374,9 +3399,25 @@ async function main() {
   } catch (err) {
     console.warn(`News signals unavailable: ${err.message}`);
   }
+
+  let matches;
+  let metaOverrides = {};
+  try {
+    matches = await loadExternalMatches();
+  } catch (error) {
+    console.warn(`External data fetch failed: ${error.message}`);
+    matches = loadCachedMatches();
+    metaOverrides = {
+      source: "cached-local-fallback",
+      externalFetchError: error.message,
+      externalMatchCount: matches.length
+    };
+  }
+
+  const lineupTargetCodes = upcomingLineupTeamCodes(matches, wc48Codes);
   let lineupData = null;
   try {
-    lineupData = await loadLineupData(wc48Codes);
+    lineupData = await loadLineupData(lineupTargetCodes);
     console.log(`Lineup data loaded: ${Object.keys(lineupData||{}).length} teams`);
   } catch (err) {
     console.warn(`Lineup data unavailable: ${err.message}`);
@@ -3391,18 +3432,11 @@ async function main() {
     console.warn(`Real team data unavailable, falling back to PROFILE: ${err.message}`);
   }
 
-  let matches;
-  let metaOverrides = {};
   try {
     matches = await loadExternalMatches();
+    if (metaOverrides.source === "cached-local-fallback") metaOverrides = {};
   } catch (error) {
-    console.warn(`External data fetch failed: ${error.message}`);
-    matches = loadCachedMatches();
-    metaOverrides = {
-      source: "cached-local-fallback",
-      externalFetchError: error.message,
-      externalMatchCount: matches.length
-    };
+    console.warn(`External data refetch after team data failed: ${error.message}`);
   }
 
   const context = buildTournamentContext(matches);
@@ -3433,7 +3467,14 @@ async function main() {
     liveLineupFixtureCount: live.lineupFixtureCount || 0,
     liveInjuryCount: live.injuryCount || 0
   };
-  const liveSignals = { ...live, playerData };
+  const liveSignals = {
+    ...live,
+    playerData,
+    previousLineupsByTeamCode: {
+      ...(lineupData || {}),
+      ...(live.previousLineupsByTeamCode || {})
+    }
+  };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live: liveSignals }, matches));
   const predictionLocks = updatePredictionLocks(refreshed);
   const lockedRefreshed = applyPredictionLocks(refreshed, predictionLocks);

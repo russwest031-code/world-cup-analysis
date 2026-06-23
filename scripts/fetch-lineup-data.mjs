@@ -121,17 +121,15 @@ async function runLimited(items, limit, worker, deadline = Infinity) {
 
 export async function loadLineupData(teamCodes) {
   const cached = loadCache();
-  if (cached && Object.keys(cached).length >= 15) {
-    console.log(`Lineup cache: ${Object.keys(cached).length} teams`);
-    return cached;
-  }
-
   console.log(`Fetching ESPN lineups for ${teamCodes.length} teams...`);
-  const lineups = {};
+  const lineups = cached && typeof cached === "object" ? { ...cached } : {};
   const deadline = Date.now() + LINEUP_TOTAL_TIMEOUT_MS;
   const targets = teamCodes.slice(0, Math.max(1, LINEUP_TEAM_LIMIT));
+  const missingTargets = targets.filter(code => !lineups[code]);
 
-  await runLimited(targets, LINEUP_CONCURRENCY, async code => {
+  if (cached) console.log(`Lineup cache: ${Object.keys(cached).length} teams, fetching ${missingTargets.length} missing target teams`);
+
+  await runLimited(missingTargets, LINEUP_CONCURRENCY, async code => {
     const lineup = await getLastMatchLineup(code, deadline);
     if (lineup) {
       lineups[code] = lineup;
@@ -140,6 +138,6 @@ export async function loadLineupData(teamCodes) {
   }, deadline);
 
   saveCache(lineups);
-  console.log(`Lineups: ${Object.keys(lineups).length}/${targets.length} scanned teams`);
+  console.log(`Lineups: ${Object.keys(lineups).length} cached teams; ${targets.length} target teams checked`);
   return lineups;
 }
