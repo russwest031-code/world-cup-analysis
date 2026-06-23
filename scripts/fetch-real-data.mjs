@@ -104,21 +104,33 @@ function opponentZh(code) {
 
 function findPlayer(name, players) {
   if (!name || !players?.length) return null;
-  const n = name.toLowerCase().replace(/[^a-z]/g, "");
-  // Exact match
+  const normalize = s => (s || "").toLowerCase().replace(/[^a-z]/g, "");
+  const n = normalize(name);
+
+  // 1. Exact normalized match
   for (const p of players) {
-    const pn = (p.player_name || "").toLowerCase().replace(/[^a-z]/g, "");
-    if (pn === n) return p;
+    if (normalize(p.player_name) === n) return p;
   }
-  // Partial match (last name)
-  const parts = n.split(/\s+/);
-  const lastName = parts[parts.length - 1];
-  if (lastName.length >= 4) {
+
+  // 2. Last name match (at least 4 chars)
+  const nameParts = n.split(/\s+/).filter(s => s.length >= 2);
+  const lastName = nameParts[nameParts.length - 1];
+  if (lastName && lastName.length >= 4) {
     for (const p of players) {
-      const pn = (p.player_name || "").toLowerCase().replace(/[^a-z]/g, "");
-      if (pn.endsWith(lastName)) return p;
+      const pn = normalize(p.player_name);
+      const pParts = pn.split(/\s+/);
+      if (pParts[pParts.length - 1] === lastName) return p;
     }
   }
+
+  // 3. Fuzzy: check if any word from ESPN name appears in player name
+  for (const word of nameParts) {
+    if (word.length < 4) continue;
+    for (const p of players) {
+      if (normalize(p.player_name).includes(word)) return p;
+    }
+  }
+
   return null;
 }
 
