@@ -6,6 +6,7 @@ import { loadRealTeamData } from "./fetch-real-data.mjs";
 import { loadESPNStats } from "./fetch-espn-stats.mjs";
 import { loadPlayerData } from "./fetch-player-data.mjs";
 import { loadNewsSignals } from "./fetch-news-signals.mjs";
+import { loadLineupData } from "./fetch-lineup-data.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data.js");
@@ -3359,8 +3360,15 @@ async function main() {
   } catch (err) {
     console.warn(`News signals unavailable: ${err.message}`);
   }
+  let lineupData = null;
   try {
-    const realData = loadRealTeamData(wc48Codes, espnStats, playerData, newsSignals);
+    lineupData = await loadLineupData(wc48Codes);
+    console.log(`Lineup data loaded: ${Object.keys(lineupData||{}).length} teams`);
+  } catch (err) {
+    console.warn(`Lineup data unavailable: ${err.message}`);
+  }
+  try {
+    const realData = loadRealTeamData(wc48Codes, espnStats, playerData, newsSignals, lineupData);
     if (realData) {
       realDataCache = realData;
       console.log(`Real team data loaded: ${realData.teamData.size} teams, ${realData.rankings.size} rankings.`);

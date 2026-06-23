@@ -297,7 +297,7 @@ function computeRankings(teamData) {
 }
 
 // ---- Main export ----
-export function loadRealTeamData(targetCodes, espnStats = null, playerData = null, newsSignals = null) {
+export function loadRealTeamData(targetCodes, espnStats = null, playerData = null, newsSignals = null, lineupData = null) {
   if (!fs.existsSync(resultsPath)) {
     console.warn("Kaggle results CSV not found, cannot load real data.");
     return null;
@@ -404,6 +404,14 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
           team.midfield = Math.max(50, team.midfield + injuryPenalty);
         }
       }
+      // Add lineup data from ESPN (last match's starting XI)
+      let lastStarters = null;
+      if (lineupData) {
+        const lu = lineupData[code];
+        if (lu && lu.starters?.length >= 7) {
+          lastStarters = lu.starters.map(s => s.name);
+        }
+      }
       team.playerQuality = {
         squadValue: pd.totalValueB,
         avgRating: pd.avgRating,
@@ -411,6 +419,7 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
         avgAge: pd.avgAge,
         injuryPenalty,
         injuredPlayers,
+        lastStarters,
       };
     }
     console.log(`Player quality blended for ${[...teamData.values()].filter(t=>t.playerQuality).length} teams.`);
