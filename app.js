@@ -66,6 +66,34 @@
     return map[source] || source || "大名单预计";
   }
 
+  function zhTeamName(name) {
+    var map = {
+      Argentina: "阿根廷", France: "法国", Brazil: "巴西", England: "英格兰", Spain: "西班牙",
+      Portugal: "葡萄牙", Netherlands: "荷兰", Germany: "德国", Belgium: "比利时", Croatia: "克罗地亚",
+      Uruguay: "乌拉圭", Japan: "日本", "United States": "美国", USA: "美国", Mexico: "墨西哥",
+      Senegal: "塞内加尔", Iran: "伊朗", "South Korea": "韩国", Switzerland: "瑞士", Ecuador: "厄瓜多尔",
+      Morocco: "摩洛哥", Ghana: "加纳", "Saudi Arabia": "沙特阿拉伯", Canada: "加拿大", Australia: "澳大利亚",
+      Tunisia: "突尼斯", Czechia: "捷克", "Czech Republic": "捷克", Qatar: "卡塔尔", Scotland: "苏格兰",
+      Paraguay: "巴拉圭", Turkey: "土耳其", "Ivory Coast": "科特迪瓦", Egypt: "埃及", Algeria: "阿尔及利亚",
+      "South Africa": "南非", "Cape Verde": "佛得角", Curaçao: "库拉索", Curacao: "库拉索", Haiti: "海地",
+      Norway: "挪威", Austria: "奥地利", Sweden: "瑞典", Panama: "巴拿马", Jordan: "约旦", Iraq: "伊拉克",
+      "New Zealand": "新西兰", Uzbekistan: "乌兹别克斯坦", Colombia: "哥伦比亚", "Congo DR": "刚果（金）",
+      "DR Congo": "刚果（金）", "Bosnia-Herzegovina": "波黑", "Bosnia & Herzegovina": "波黑"
+    };
+    return map[name] || name || "-";
+  }
+
+  function positionLabel(position) {
+    var map = { GK: "门将", DF: "后卫", MF: "中场", FW: "前锋", G: "门将", D: "后卫", M: "中场", F: "前锋" };
+    return map[position] || position || "位置未知";
+  }
+
+  function playerModelRating(player) {
+    var value = Number(player && player.value) || 0;
+    var score = value > 0 ? 5.8 + Math.min(3, Math.log10(value + 1) - 5.5) : 6.0;
+    return Math.max(5.8, Math.min(8.8, score)).toFixed(1);
+  }
+
   // ─── ANALYSIS HOME PAGE ────────────────────────────────────────
   function renderAnalysis() {
     var list = document.getElementById("matchList");
@@ -565,12 +593,27 @@
       if (!teams.length) return articles;
       return '<div class="lineup-list">' + teams.map(function (team) {
         var starters = (team.starters || []).map(function (player) {
-          if (typeof player === "string") return player;
-          return player.name + (player.position ? "·" + player.position : "") + (player.club ? " / " + player.club : "");
-        });
+          if (typeof player === "string") {
+            return '<li><div><strong>' + player + '</strong><small>资料不足</small></div><b>6.0</b></li>';
+          }
+          var meta = [
+            positionLabel(player.position),
+            player.club || "",
+            player.age ? player.age + "岁" : ""
+          ].filter(Boolean).join(" / ");
+          return '<li>' +
+            '<div><strong>' + player.name + '</strong><small>' + meta + '</small></div>' +
+            '<b>' + playerModelRating(player) + '</b>' +
+          '</li>';
+        }).join("");
         var source = lineupSourceLabel(team.source);
-        var previous = team.previousOpponent ? '<small class="lineup-source">上一场对手：' + team.previousOpponent + '</small>' : '';
-        return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong><small>' + starters.join(" / ") + '</small>' + previous + '</div>';
+        var previous = team.previousOpponent ? '<small class="lineup-source">上一场对手：' + zhTeamName(team.previousOpponent) + '</small>' : '';
+        return '<div class="lineup-team-card">' +
+          '<strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong>' +
+          previous +
+          '<ul class="lineup-player-list">' + starters + '</ul>' +
+          '<small class="lineup-rating-note">评分为模型阵容强度分，基于球员身价与位置资料估算。</small>' +
+        '</div>';
       }).join("") + '</div>' + articles;
     }
     function injuryExtra() {

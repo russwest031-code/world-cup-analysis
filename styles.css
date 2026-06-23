@@ -318,6 +318,14 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
 .lineup-list div strong em { display: inline-block; margin-left: 6px; padding: 2px 6px; border-radius: 999px; background: rgba(22,138,85,.10); color: var(--accent); font-size: 8px; font-style: normal; vertical-align: 1px; }
 .lineup-list div small { display: block; color: var(--muted); font-size: 9px; line-height: 1.55; }
 .lineup-list div small.lineup-source { margin-top: 5px; color: var(--accent); }
+.lineup-list div.lineup-team-card { padding: 11px; }
+.lineup-player-list { list-style: none; padding: 0; margin: 9px 0 0; display: grid; gap: 6px; }
+.lineup-player-list li { display: grid; grid-template-columns: 1fr 42px; align-items: center; gap: 8px; padding: 8px 9px; border-radius: 11px; background: #fff; border: 1px solid rgba(16,36,28,.06); }
+.lineup-player-list li div { padding: 0; border: 0; background: transparent; border-radius: 0; }
+.lineup-player-list li strong { margin: 0 0 2px; font-size: 10.5px; color: var(--text); }
+.lineup-player-list li small { font-size: 8.5px; color: var(--muted); }
+.lineup-player-list li b { justify-self: end; padding: 4px 7px; border-radius: 999px; background: rgba(22,138,85,.10); color: var(--accent); font-size: 11px; }
+.lineup-list div small.lineup-rating-note { margin-top: 7px; color: #7a8b83; }
 .injury-list span { display: block; padding: 7px 9px; border-radius: 999px; background: rgba(216,76,69,.08); color: var(--danger); font-size: 9px; font-weight: 700; }
 .news-fact-list { display: grid; gap: 7px; margin-top: 9px; }
 .news-fact { padding: 9px 10px; border-radius: 13px; background: #f6faf7; border: 1px solid var(--line); }
