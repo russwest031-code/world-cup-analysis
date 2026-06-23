@@ -47,6 +47,10 @@ const NEWS_SEARCH_MATCH_LIMIT = Number(process.env.NEWS_SEARCH_MATCH_LIMIT || 16
 const NEWS_SEARCH_ARTICLES_PER_QUERY = Number(process.env.NEWS_SEARCH_ARTICLES_PER_QUERY || 6);
 const NEWS_SEARCH_QUERIES_PER_MATCH = Number(process.env.NEWS_SEARCH_QUERIES_PER_MATCH || 4);
 const NEWS_SEARCH_CONCURRENCY = Number(process.env.NEWS_SEARCH_CONCURRENCY || 8);
+const NEWS_ARTICLE_BODY_ENABLED = process.env.NEWS_ARTICLE_BODY_ENABLED !== "0";
+const NEWS_ARTICLE_BODY_LIMIT = Number(process.env.NEWS_ARTICLE_BODY_LIMIT || 16);
+const NEWS_ARTICLE_BODY_CONCURRENCY = Number(process.env.NEWS_ARTICLE_BODY_CONCURRENCY || 4);
+const NEWS_ARTICLE_BODY_TIMEOUT_MS = Number(process.env.NEWS_ARTICLE_BODY_TIMEOUT_MS || 8000);
 const GDELT_DOC_API = process.env.GDELT_DOC_API || "https://api.gdeltproject.org/api/v2/doc/doc";
 const GOOGLE_NEWS_RSS = process.env.GOOGLE_NEWS_RSS || "https://news.google.com/rss/search";
 const GOOGLE_NEWS_ENABLED = process.env.GOOGLE_NEWS_ENABLED !== "0";
@@ -1372,7 +1376,7 @@ function upcomingNewsSearchMatches(matches) {
   const today = new Date(now.toISOString().slice(0, 10));
   const maxTime = today.getTime() + NEWS_SEARCH_DAYS * 24 * 60 * 60 * 1000;
   return matches
-    .filter(match => match.status !== "finished")
+    .filter(match => match.status !== "finished" && match.status !== "completed")
     .filter(match => {
       const time = new Date(match.date || match.sourceInfo?.sourceDate || "").getTime();
       return Number.isFinite(time) && time >= today.getTime() && time <= maxTime;
@@ -1455,6 +1459,78 @@ async function searchGoogleNewsQuery(match, queryInfo) {
   }));
 }
 
+function decodeHtmlEntities(text = "") {
+  return String(text)
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(parseInt(code, 16)))
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, "\"")
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ");
+}
+
+function htmlToReadableText(html = "") {
+  return decodeHtmlEntities(String(html)
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+    .replace(/<(br|p|div|li|tr|h[1-6])\b[^>]*>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/[ \t\r\f\v]+/g, " ")
+    .replace(/\n\s+/g, "\n")
+    .replace(/\n{3,}/g, "\n\n"))
+    .trim();
+}
+
+function likelyLineupArticle(article) {
+  return /lineup|starting xi|predicted xi|possible xi|team news|selection|squad|formation/i
+    .test(`${article.title || ""} ${article.description || ""}`);
+}
+
+function bodySnippetForArticle(text = "") {
+  const body = String(text).replace(/\s+/g, " ").trim();
+  const index = body.search(/lineup|starting xi|predicted xi|possible xi|probable xi|team news|selection|formation/i);
+  if (index < 0) return body.slice(0, 1600);
+  return body.slice(Math.max(0, index - 500), index + 1800);
+}
+
+async function enrichNewsArticleBodies(articles) {
+  if (!NEWS_ARTICLE_BODY_ENABLED) return { fetched: 0, errors: [] };
+  const errors = [];
+  const targets = articles
+    .filter(article => article.link && likelyLineupArticle(article))
+    .slice(0, NEWS_ARTICLE_BODY_LIMIT);
+  let fetched = 0;
+  await runLimited(targets, NEWS_ARTICLE_BODY_CONCURRENCY, async article => {
+    let timer = null;
+    try {
+      const controller = new AbortController();
+      timer = setTimeout(() => controller.abort(), NEWS_ARTICLE_BODY_TIMEOUT_MS);
+      const res = await fetch(article.link, {
+        signal: controller.signal,
+        headers: { "User-Agent": "Mozilla/5.0 world-cup-analysis-app" },
+        redirect: "follow"
+      });
+      if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+      const html = await res.text();
+      const readable = htmlToReadableText(html);
+      if (readable.length >= 200) {
+        article.bodyText = bodySnippetForArticle(readable);
+        fetched += 1;
+      }
+    } catch (error) {
+      article.bodyError = error.message;
+      errors.push(`${article.source || article.link}: ${error.message}`);
+    } finally {
+      if (timer) clearTimeout(timer);
+    }
+  });
+  return { fetched, errors };
+}
+
 async function runLimited(items, limit, worker) {
   const results = [];
   let index = 0;
@@ -1475,6 +1551,7 @@ async function loadExpertSignals(matches = []) {
   let rssCount = 0;
   let gdeltCount = 0;
   let googleNewsCount = 0;
+  let articleBodyCount = 0;
   let searchedMatches = 0;
   let searchedQueries = 0;
   for (const url of EXPERT_RSS_URLS) {
@@ -1529,6 +1606,9 @@ async function loadExpertSignals(matches = []) {
       }
     }
   }
+  const bodyResult = await enrichNewsArticleBodies(articles);
+  articleBodyCount = bodyResult.fetched || 0;
+  if (bodyResult.errors?.length) errors.push(...bodyResult.errors.slice(0, 20).map(error => `Article body ${error}`));
   return {
     status: articles.length ? "connected" : errors.length ? "partial-error" : "no-articles",
     provider: NEWS_SEARCH_ENABLED ? "public-rss+gdelt-doc+google-news-rss" : "public-rss",
@@ -1537,6 +1617,7 @@ async function loadExpertSignals(matches = []) {
     rssCount,
     gdeltCount,
     googleNewsCount,
+    articleBodyCount,
     searchedMatches,
     searchedQueries,
     articles,
@@ -1996,6 +2077,106 @@ function starterObjectFromSquadPlayer(player) {
   };
 }
 
+function englishTeamNamesForSide(match, side) {
+  const team = side === "home" ? match.home : match.away;
+  const sourceName = side === "home" ? match.sourceInfo?.homeName : match.sourceInfo?.awayName;
+  return [sourceName, team?.name, team?.code]
+    .filter(Boolean)
+    .map(value => String(value).trim())
+    .filter(value => value.length > 2);
+}
+
+function escapeRegExp(text = "") {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function cleanCandidateName(token = "") {
+  return decodeHtmlEntities(String(token))
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\[[^\]]*\]/g, " ")
+    .replace(/\b(GK|DF|DEF|CB|LB|RB|LWB|RWB|MF|MID|CM|CDM|CAM|LM|RM|FW|ST|LW|RW)\b/gi, " ")
+    .replace(/\b(goalkeeper|defender|midfielder|forward|captain|coach|manager|bench|substitutes?)\b/gi, " ")
+    .replace(/^[0-9.\-\s]+/, "")
+    .replace(/[:：].*$/, match => match.length < 32 ? "" : match)
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitLineupNames(text = "") {
+  return String(text)
+    .replace(/\b(?:GK|DEF|MID|FWD|FW|DF|MF)\s*[:：-]/gi, ",")
+    .split(/[,;、\n]|(?:\s+-\s+)|(?:\s+\/\s+)/)
+    .map(cleanCandidateName)
+    .filter(name => {
+      if (name.length < 4 || name.length > 42) return false;
+      if (!/[A-Za-zÀ-ÿ]/.test(name)) return false;
+      if (/^(and|or|with|possible|predicted|lineup|starting|xi|team news|formation)$/i.test(name)) return false;
+      return true;
+    });
+}
+
+function extractLineupNamesForTeam(match, side, articles) {
+  const names = englishTeamNamesForSide(match, side);
+  const found = [];
+  const seen = new Set();
+  for (const article of articles || []) {
+    const text = `${article.title || ""}\n${article.description || ""}\n${article.bodyText || ""}`;
+    if (!/lineup|starting xi|predicted xi|possible xi|probable xi|team news|selection|formation/i.test(text)) continue;
+    for (const teamName of names) {
+      const teamPattern = escapeRegExp(teamName);
+      const patterns = [
+        new RegExp(`${teamPattern}[^\\n]{0,140}(?:predicted|possible|probable|expected)?\\s*(?:lineup|xi|starting xi|starting lineup)[^:：\\n]{0,80}[:：\\-]\\s*([^\\n]{30,700})`, "i"),
+        new RegExp(`(?:predicted|possible|probable|expected)?\\s*(?:${teamPattern})?\\s*(?:lineup|xi|starting xi|starting lineup)[^:：\\n]{0,100}${teamPattern}[^:：\\n]{0,80}[:：\\-]\\s*([^\\n]{30,700})`, "i"),
+        new RegExp(`${teamPattern}[^\\n]{0,80}\\((?:[^)]*?)\\)[:：\\-]\\s*([^\\n]{30,700})`, "i")
+      ];
+      for (const pattern of patterns) {
+        const matchResult = text.match(pattern);
+        if (!matchResult?.[1]) continue;
+        for (const playerName of splitLineupNames(matchResult[1]).slice(0, 14)) {
+          const key = compactPlayerName(playerName);
+          if (!key || seen.has(key)) continue;
+          seen.add(key);
+          found.push(playerName);
+        }
+      }
+    }
+    if (found.length >= 8) break;
+  }
+  return found.slice(0, 11);
+}
+
+function starterObjectFromNewsName(squad, name) {
+  const squadPlayer = playerFromSquadByName(squad, name);
+  if (squadPlayer) return starterObjectFromSquadPlayer(squadPlayer);
+  return { name, position: "", club: "", age: null, value: 0, source: "news-text" };
+}
+
+function projectedLineupFromNews(team, match, side, playerData, newsLineupArticles, injuries) {
+  const names = extractLineupNamesForTeam(match, side, newsLineupArticles);
+  if (names.length < 8) return null;
+  const squad = playerData?.get?.(team.code);
+  const injured = injuryNameSetForTeam(injuries, team.name);
+  const starters = [];
+  const used = new Set();
+  for (const name of names) {
+    const key = compactPlayerName(name);
+    if (!key || used.has(key) || injured.has(key)) continue;
+    starters.push(starterObjectFromNewsName(squad, name));
+    used.add(key);
+  }
+  const fill = (squad?.players || [])
+    .filter(player => !used.has(compactPlayerName(player.player_name)) && !injured.has(compactPlayerName(player.player_name)))
+    .sort((a, b) => playerMarketValue(b) - playerMarketValue(a));
+  while (starters.length < 11 && fill.length) starters.push(starterObjectFromSquadPlayer(fill.shift()));
+  if (starters.length < 8) return null;
+  return {
+    team: team.name,
+    formation: "news-projected",
+    source: "news-predicted-lineup",
+    starters: starters.slice(0, 11)
+  };
+}
+
 function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCode, injuries) {
   const previous = previousLineupsByTeamCode?.[team.code];
   const rawStarters = previous?.lineup?.startXI || [];
@@ -2031,11 +2212,15 @@ function projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCod
   };
 }
 
-function predictedLineupsForMatch(match, liveContext, injuries = []) {
+function predictedLineupsForMatch(match, liveContext, injuries = [], newsLineupArticles = []) {
   const playerData = liveContext?.playerData;
   const previousLineupsByTeamCode = liveContext?.previousLineupsByTeamCode || {};
-  return [match.home, match.away].map(team =>
+  return [
+    { team: match.home, side: "home" },
+    { team: match.away, side: "away" }
+  ].map(({ team, side }) =>
     projectedLineupFromLastStart(team, playerData, previousLineupsByTeamCode, injuries) ||
+    projectedLineupFromNews(team, match, side, playerData, newsLineupArticles, injuries) ||
     predictedLineupForTeam(team, playerData)
   ).filter(Boolean);
 }
@@ -2056,7 +2241,10 @@ function compactArticle(article) {
     title: article.title,
     source: article.source,
     link: article.link,
-    pubDate: article.pubDate
+    pubDate: article.pubDate,
+    description: article.description || "",
+    bodyText: article.bodyText || "",
+    bodyError: article.bodyError || ""
   };
 }
 
@@ -2082,8 +2270,8 @@ function newsSignalsForMatch(match, expertContext, allMatches = []) {
   });
   const withText = matched.map(article => ({
     article,
-    raw: `${article.title} ${article.description}`,
-    text: normalizeText(`${article.title} ${article.description}`)
+    raw: `${article.title} ${article.description} ${article.bodyText}`,
+    text: normalizeText(`${article.title} ${article.description} ${article.bodyText}`)
   }));
   const lineup = withText.filter(item =>
     /lineup|starting xi|team news|predicted xi|start|bench|formation|squad|selection|unchanged|returns/i.test(item.raw)
@@ -2108,13 +2296,24 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
   const fixtureId = fixture?.fixture?.id;
   const providerStatus = liveContext?.status || "not-connected";
   const apiInjuries = fixtureId ? formatApiFootballInjuries(liveContext?.injuriesByFixture?.[fixtureId] || []) : [];
-  const projectedLineups = predictedLineupsForMatch(match, liveContext, apiInjuries);
 
   const news = newsSignalsForMatch(match, expertContext, allMatches);
+  const projectedLineups = predictedLineupsForMatch(match, liveContext, apiInjuries, news.lineup);
   const hasNews = news.lineup.length || news.injuries.length || news.tactical.length;
 
   if (apiInjuries.length || projectedLineups.length) {
     const fromLastStart = projectedLineups.some(team => team.source === "last-start-adjusted");
+    const fromNewsLineup = projectedLineups.some(team => team.source === "news-predicted-lineup");
+    const hasLineupArticles = news.lineup.length > 0;
+    const lineupStatus = fromLastStart ? "last-start-projected" : fromNewsLineup ? "news-derived" : hasLineupArticles ? "news-unparsed" : "projected";
+    const lineupSource = fromLastStart ? "api-football-last-lineup" : fromNewsLineup ? "public-news-lineup" : hasLineupArticles ? "public-news-unparsed" : "squad-projection";
+    const lineupText = fromLastStart
+      ? "\u5f53\u524d\u4ee5\u4e0a\u4e00\u573a\u9996\u53d1\u4e3a\u57fa\u5e95\uff0c\u5e76\u7ed3\u5408\u4f24\u75c5\u540d\u5355\u4e0e\u5927\u540d\u5355\u8865\u4f4d\u751f\u6210\u9884\u8ba1\u9996\u53d1\u3002"
+      : fromNewsLineup
+        ? "\u5df2\u4ece\u516c\u5f00\u65b0\u95fb\u6b63\u6587\u63d0\u53d6\u9884\u8ba1\u9996\u53d1\uff0c\u5e76\u7528\u7403\u5458\u5927\u540d\u5355\u8865\u5168\u4f4d\u7f6e/\u4ff1\u4e50\u90e8\u4fe1\u606f\uff1b\u975e\u5b98\u65b9\u786e\u8ba4\u3002"
+        : hasLineupArticles
+          ? "\u5df2\u5339\u914d\u5230\u9884\u8ba1\u9996\u53d1/\u9635\u5bb9\u65b0\u95fb\uff0c\u4f46\u6b63\u6587\u6293\u53d6\u6216 11 \u4eba\u540d\u5355\u89e3\u6790\u672a\u901a\u8fc7\uff1b\u5f53\u524d\u6682\u7528\u5927\u540d\u5355\u9884\u8ba1\u9996\u53d1\uff0c\u5e76\u4fdd\u7559\u65b0\u95fb\u6765\u6e90\u4f9b\u590d\u6838\u3002"
+          : "\u672a\u5339\u914d\u5230\u4e0a\u4e00\u573a\u9996\u53d1\u8bb0\u5f55\u6216\u53ef\u89e3\u6790\u7684\u65b0\u95fb\u9884\u8ba1\u9996\u53d1\uff1b\u5f53\u524d\u6839\u636e\u7403\u961f\u5927\u540d\u5355\u3001\u4f4d\u7f6e\u7ed3\u6784\u548c\u7403\u5458\u4f30\u503c\u751f\u6210\u9884\u8ba1\u9996\u53d1\uff0c\u975e\u5b98\u65b9\u786e\u8ba4\u3002";
     const injuryStatus = apiInjuries.length
       ? "confirmed"
       : providerStatus === "connected" && fixtureId
@@ -2133,11 +2332,9 @@ function teamNewsForMatch(match, expertContext, liveContext, allMatches = []) {
       fixtureId,
       fixtureDate: fixture?.fixture?.date || null,
       lineup: {
-        status: fromLastStart ? "last-start-projected" : "projected",
-        text: fromLastStart
-          ? "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。"
-          : "未匹配到上一场首发记录；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-        source: fromLastStart ? "api-football-last-lineup" : "squad-projection",
+        status: lineupStatus,
+        text: lineupText,
+        source: lineupSource,
         teams: projectedLineups,
         articles: news.lineup
       },
@@ -3050,6 +3247,7 @@ async function main() {
     oddsEventCount: odds.events?.length || 0,
     expertProvider: experts.provider,
     expertArticleCount: experts.articles?.length || 0,
+    expertArticleBodyCount: experts.articleBodyCount || 0,
     weatherProvider: weather.provider,
     weatherForecastCount: Object.values(weather.forecasts || {}).filter(item => item.status === "connected").length,
     liveTeamNewsProvider: live.provider,
