@@ -62,7 +62,7 @@ const COUNTRY_MAP = {
   "Norway": "NOR", "Austria": "AUT", "Sweden": "SWE", "Hungary": "HUN",
   "Panama": "PAN", "Jordan": "JOR", "Iraq": "IRQ",
   "New Zealand": "NZL", "Uzbekistan": "UZB", "Colombia": "COL",
-  "DR Congo": "COD",
+  "DR Congo": "COD", "Congo DR": "COD",
 };
 
 function codeForCountry(country) {

@@ -2148,9 +2148,90 @@ function injuryNameSetForTeam(injuries, teamName) {
 }
 
 function playerFromSquadByName(squad, name) {
-  const key = compactPlayerName(name);
-  if (!key) return null;
-  return (squad?.players || []).find(player => compactPlayerName(player.player_name) === key) || null;
+  const compactKey = compactPlayerName(name);
+  if (!compactKey) return null;
+  const players = squad?.players || [];
+  if (!players.length) return null;
+
+  // 1. Exact compact match — fast path, keeps current behaviour for clean matches
+  const exact = players.find(p => compactPlayerName(p.player_name) === compactKey);
+  if (exact) return exact;
+
+  // Query tokens (normalised: lowercased, de-accented, non-alnum → space)
+  const queryNorm = normalizeText(name);
+  const queryTokens = queryNorm.split(/\s+/).filter(t => t.length >= 2);
+  if (!queryTokens.length) return null;
+
+  // Pre-compute candidate token sets once
+  const candidates = players.map(p => {
+    const rawName = p.player_name;
+    const norm = normalizeText(rawName);
+    const tokens = norm.split(/\s+/).filter(t => t.length >= 2);
+    return { player: p, norm, tokens, compact: compactPlayerName(rawName) };
+  });
+
+  // 2. Single-token query — only match if the token is long enough and
+  //    unique across the squad (avoids matching common short names like "Kim").
+  if (queryTokens.length === 1) {
+    const token = queryTokens[0];
+    if (token.length < 5) return null;
+    const matches = candidates.filter(c =>
+      c.tokens.some(ct => ct === token || (ct.startsWith(token) && token.length >= 5))
+    );
+    if (matches.length === 1) return matches[0].player;
+    return null;
+  }
+
+  // 3. All query tokens contained in candidate tokens.
+  //    Prefix-match is allowed for tokens ≥5 chars to catch typos and
+  //    truncations (e.g. "Moutouss" ↔ "Moutoussamy").
+  const MIN_PREFIX = 5;
+  for (const cand of candidates) {
+    if (!cand.tokens.length) continue;
+    const allMatch = queryTokens.every(qt =>
+      cand.tokens.some(ct =>
+        ct === qt ||
+        (qt.length >= MIN_PREFIX && ct.startsWith(qt)) ||
+        (ct.length >= MIN_PREFIX && qt.startsWith(ct))
+      )
+    );
+    if (allMatch) return cand.player;
+  }
+
+  // 4. Surname-driven match: last token of query matches last token of
+  //    candidate, plus at least one first-name token cross-matches.
+  const querySurname = queryTokens[queryTokens.length - 1];
+  if (querySurname.length >= 4) {
+    for (const cand of candidates) {
+      if (cand.tokens.length < 2) continue;
+      const candSurname = cand.tokens[cand.tokens.length - 1];
+      const surnameMatch =
+        candSurname === querySurname ||
+        (querySurname.length >= 5 && candSurname.startsWith(querySurname)) ||
+        (candSurname.length >= 5 && querySurname.startsWith(candSurname));
+      if (!surnameMatch) continue;
+      const firstNameMatch = queryTokens.slice(0, -1).some(qt =>
+        cand.tokens.slice(0, -1).some(ct =>
+          ct.startsWith(qt) || qt.startsWith(ct)
+        )
+      );
+      if (firstNameMatch) return cand.player;
+    }
+  }
+
+  // 5. Compact substring fallback — e.g. ESPN "Lionel Mpasi" compact is
+  //    "lionelmpasi" which is a substring of squad "Lionel Mpasi-Nzau"
+  //    compact "lionelmpasinzau".  Only when the query compact is long
+  //    enough to be distinctive.
+  if (compactKey.length >= 7) {
+    const fallback = players.find(p => {
+      const cc = compactPlayerName(p.player_name);
+      return cc.includes(compactKey) || compactKey.includes(cc);
+    });
+    if (fallback) return fallback;
+  }
+
+  return null;
 }
 
 function starterObjectFromSquadPlayer(player, squad) {
