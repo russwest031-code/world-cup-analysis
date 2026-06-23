@@ -425,8 +425,10 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
         }
       }
 
-      // Use starter rating if available, else squad-wide average
-      const effectiveRating = starterAvgRating || pd.avgRating;
+      // Effective rating: 85% starters + 15% bench depth
+      const effectiveRating = starterAvgRating
+        ? +(starterAvgRating * 0.85 + pd.avgRating * 0.15).toFixed(2)
+        : pd.avgRating;
       const valScore = Math.round(50 + (pd.totalValueB / maxVal) * 45);
       const ratingScore = Math.round(50 + (effectiveRating - 6.5) / 1.0 * 45);
       const starScore = Math.round(50 + Math.min(pd.starCount / 8 * 45, 45));
