@@ -424,16 +424,19 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
         for (const starterName of starters) {
           const player = findPlayer(starterName, pd.players);
           if (player) {
-            const pStats = (pd._statsById || new Map()).get(player.player_id);
-            if (pStats) {
-              const r = parseFloat(pStats.rating) || 0;
-              if (r > 0) ratings.push(r);
-            }
+            // Try per-90 stats first, fallback to squad avg for this player
+            const pStats = pd._statsById?.get?.(player.player_id);
+            const r = pStats ? (parseFloat(pStats.rating) || 0) : 0;
+            if (r > 0) ratings.push(r);
           }
         }
         if (ratings.length >= 5) {
           starterAvgRating = +(ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(2);
           starterCount = ratings.length;
+        } else {
+          // Not enough ratings — use team average as fallback
+          starterAvgRating = null;
+          starterCount = 0;
         }
       }
 
