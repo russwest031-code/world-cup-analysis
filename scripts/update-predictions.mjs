@@ -548,6 +548,45 @@ function scoreOddsFromMatrix(matrix, probabilities, expectedTotalGoals, limit = 
     .map(row => ({ score: `${row.h}-${row.a}`, chance: Math.max(1, Math.round(row.probability * 100)) }));
 }
 
+function scoreChanceFromMatrix(matrix, score) {
+  const [h, a] = score.split("-").map(Number);
+  const row = matrix.find(item => item.h === h && item.a === a);
+  return Math.max(1, Math.round((row?.probability || 0.01) * 100));
+}
+
+function addScoreCandidate(list, matrix, score, reason, limit = 4) {
+  if (!score || list.some(item => item.score === score)) return list;
+  const candidate = { score, chance: scoreChanceFromMatrix(matrix, score), reason };
+  const [primary, ...rest] = list;
+  const kept = rest.sort((a, b) => b.chance - a.chance).slice(0, Math.max(0, limit - 2));
+  return [primary, ...[...kept, candidate].sort((a, b) => b.chance - a.chance)].slice(0, limit);
+}
+
+function enhanceScoreOdds(scoreOdds, matrix, probabilities, context = {}, limit = 4) {
+  let enhanced = scoreOdds.slice();
+  const primaryOutcome = probabilities.indexOf(Math.max(...probabilities));
+  const totalGoals = Number(context.totalGoals) || 0;
+  const homeRecent = context.homeRecent || {};
+  const awayRecent = context.awayRecent || {};
+  const btts = matrix.filter(row => row.h > 0 && row.a > 0).reduce((sum, row) => sum + row.probability, 0);
+
+  if (primaryOutcome === 0 && probabilities[0] >= 55) {
+    const cleanSheetLean = (homeRecent.cleanSheets || 0) >= 3 || (awayRecent.failedToScore || 0) >= 2;
+    if (cleanSheetLean) enhanced = addScoreCandidate(enhanced, matrix, "2-0", "clean-sheet-favorite", limit);
+  }
+  if (primaryOutcome === 2 && probabilities[2] >= 55) {
+    const cleanSheetLean = (awayRecent.cleanSheets || 0) >= 3 || (homeRecent.failedToScore || 0) >= 2;
+    if (cleanSheetLean) enhanced = addScoreCandidate(enhanced, matrix, "0-2", "clean-sheet-favorite", limit);
+  }
+
+  const topGap = Math.max(...probabilities) - Math.min(probabilities[0], probabilities[2]);
+  if (totalGoals >= 3.3 && btts >= 0.62 && topGap <= 12) {
+    if (primaryOutcome === 0) enhanced = addScoreCandidate(enhanced, matrix, "3-2", "high-event-close-win", limit);
+    if (primaryOutcome === 2) enhanced = addScoreCandidate(enhanced, matrix, "2-3", "high-event-close-win", limit);
+  }
+  return enhanced;
+}
+
 function scoreBandForGoals(home, away) {
   const total = home + away;
   const diff = home - away;
@@ -2859,7 +2898,12 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
 
   // ── Score distribution ──
   const calibratedMatrix = calibrateScoreMatrixToOutcome(matrix, probabilities);
-  const scoreOdds = scoreOddsFromMatrix(calibratedMatrix, probabilities, homeGoals + awayGoals, 4);
+  let scoreOdds = scoreOddsFromMatrix(calibratedMatrix, probabilities, homeGoals + awayGoals, 4);
+  scoreOdds = enhanceScoreOdds(scoreOdds, calibratedMatrix, probabilities, {
+    totalGoals: homeGoals + awayGoals,
+    homeRecent,
+    awayRecent
+  }, 4);
   const scoreBands = scoreBandsFromMatrix(calibratedMatrix, 3);
   const scoreScenarios = scoreScenariosFromMatrix(calibratedMatrix, probabilities, 3);
   const expandedMarkets = expandedMarketsFromMatrix(calibratedMatrix, probabilities, homeGoals, awayGoals);
