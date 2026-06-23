@@ -2510,6 +2510,100 @@ function dataQualityForMatch(match, marketSignals, matchIntelligence) {
   };
 }
 
+function sideArticleHits(articles = [], match, side) {
+  const team = side === "home" ? match.home : match.away;
+  const sourceName = side === "home" ? match.sourceInfo?.homeName : match.sourceInfo?.awayName;
+  const names = [sourceName, team?.name, team?.code].map(normalizeText).filter(name => name.length > 2);
+  return (articles || []).filter(article => {
+    const text = normalizeText(`${article.title || ""} ${article.description || ""} ${article.bodyText || ""}`);
+    return names.some(name => text.includes(name));
+  });
+}
+
+function newsImpactForMatch(match, matchIntelligence) {
+  const news = matchIntelligence?.teamNews || {};
+  const lineup = news.lineup || {};
+  const injuries = news.injuries || {};
+  const tactical = news.tactical || {};
+  let homeScore = 50;
+  let awayScore = 50;
+  let goalLift = 0;
+  let confidenceDelta = 0;
+  const notes = [];
+
+  if (lineup.status === "last-start-projected") {
+    confidenceDelta += 2;
+    notes.push("上一场首发可用，阵容连续性较高。");
+  } else if (lineup.status === "news-derived") {
+    confidenceDelta += 3;
+    notes.push("公开新闻正文提供预计首发，阵容信息质量提升。");
+  } else if (lineup.status === "news-unparsed") {
+    confidenceDelta -= 1;
+    notes.push("已匹配阵容新闻但无法结构化解析，保守降低置信度。");
+  }
+
+  const homeLineup = (lineup.teams || []).find(team => normalizeText(team.team).includes(normalizeText(match.home.name)));
+  const awayLineup = (lineup.teams || []).find(team => normalizeText(team.team).includes(normalizeText(match.away.name)));
+  const lineupValue = team => (team?.starters || []).reduce((sum, player) => sum + (Number(player.value) || 0), 0);
+  const homeValue = lineupValue(homeLineup);
+  const awayValue = lineupValue(awayLineup);
+  if (homeValue || awayValue) {
+    const diff = clamp((homeValue - awayValue) / 50000000, -6, 6);
+    homeScore += diff;
+    awayScore -= diff;
+    notes.push(`预计首发身价差折算 ${Math.round(diff * 10) / 10} 分。`);
+  }
+
+  const injuryRows = injuries.players || [];
+  for (const row of injuryRows) {
+    const text = normalizeText(`${row.team || ""} ${row.player || ""} ${row.reason || ""} ${row.type || ""}`);
+    const homeHit = normalizeText(match.home.name) && text.includes(normalizeText(match.home.name));
+    const awayHit = normalizeText(match.away.name) && text.includes(normalizeText(match.away.name));
+    if (homeHit) homeScore -= 4;
+    if (awayHit) awayScore -= 4;
+  }
+  if (injuryRows.length) {
+    goalLift -= Math.min(0.18, injuryRows.length * 0.04);
+    confidenceDelta -= Math.min(3, injuryRows.length);
+    notes.push(`权威伤停记录 ${injuryRows.length} 条，扣减相关球队稳定性。`);
+  }
+
+  const homeInjuryArticles = sideArticleHits(injuries.articles, match, "home").length;
+  const awayInjuryArticles = sideArticleHits(injuries.articles, match, "away").length;
+  if (homeInjuryArticles) homeScore -= Math.min(5, homeInjuryArticles * 2);
+  if (awayInjuryArticles) awayScore -= Math.min(5, awayInjuryArticles * 2);
+  if (homeInjuryArticles || awayInjuryArticles) {
+    goalLift -= Math.min(0.14, (homeInjuryArticles + awayInjuryArticles) * 0.03);
+    notes.push(`公开新闻伤停线索：主队 ${homeInjuryArticles} 条，客队 ${awayInjuryArticles} 条。`);
+  }
+
+  const tacticalText = `${(tactical.articles || []).map(article => `${article.title || ""} ${article.description || ""} ${article.bodyText || ""}`).join(" ")} ${tactical.text || ""}`;
+  if (/rotation|rotate|rest|bench|reserve|changed|second string/i.test(tacticalText)) {
+    const homeHits = sideArticleHits(tactical.articles, match, "home").length;
+    const awayHits = sideArticleHits(tactical.articles, match, "away").length;
+    if (homeHits) homeScore -= 3;
+    if (awayHits) awayScore -= 3;
+    confidenceDelta -= 2;
+    notes.push("新闻出现轮换/休息信号，降低对应方稳定性。");
+  }
+  if (/defensive|compact|low block|cautious|conservative|protect|must not lose/i.test(tacticalText)) {
+    goalLift -= 0.18;
+    notes.push("战术新闻偏保守，降低总进球预期。");
+  }
+  if (/press|attack|aggressive|must win|need win|front foot|high tempo/i.test(tacticalText)) {
+    goalLift += 0.14;
+    notes.push("战术新闻偏主动，抬高比赛节奏。");
+  }
+
+  return {
+    homeScore: Math.round(clamp(homeScore, 35, 65)),
+    awayScore: Math.round(clamp(awayScore, 35, 65)),
+    goalLift: Number(clamp(goalLift, -0.28, 0.24).toFixed(2)),
+    confidenceDelta: Math.round(clamp(confidenceDelta, -5, 5)),
+    evidence: notes.length ? notes.join(" ") : "未识别到可量化临场新闻，保持中性。"
+  };
+}
+
 function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const random = rng(`${date}:${match.id}:${match.actualScore || ""}`);
 
@@ -2526,6 +2620,11 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const homeMidfield = metric(match, "中场", "home");
   const awayMidfield = metric(match, "中场", "away");
   const motivation = motivationFor(match, context);
+  const marketSignals = oddsForMatch(match, signalContext.odds);
+  const expertSignals = expertForMatch(match, signalContext.experts);
+  const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
+  matchIntelligence.dataQuality = dataQualityForMatch(match, marketSignals, matchIntelligence);
+  const newsImpact = newsImpactForMatch(match, matchIntelligence);
   const homeStyle = teamStyle(context, match.home, homeAttack, homeDefense);
   const awayStyle = teamStyle(context, match.away, awayAttack, awayDefense);
 
@@ -2601,7 +2700,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   };
 
   // ── Factor 6: Weather & Venue (8%) ──
-  const intel = match.matchIntelligence || signalContext?.live || {};
+  const intel = matchIntelligence || match.matchIntelligence || signalContext?.live || {};
   const weather = intel.weather || {};
   function weatherScore(team, isHome) {
     let score = 50;
@@ -2627,8 +2726,15 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
       : "暂无天气数据，场地因素按中立场地处理。"
   };
 
+  const f7 = {
+    name: "临场新闻", weight: 6,
+    homeScore: newsImpact.homeScore, awayScore: newsImpact.awayScore,
+    contribution: (newsImpact.homeScore - newsImpact.awayScore) * 0.06,
+    evidence: newsImpact.evidence
+  };
+
   // ── Collect factors and compute power ──
-  const factors = [f1, f2, f3, f4, f5, f6];
+  const factors = [f1, f2, f3, f4, f5, f6, f7];
   let homePower = 0;
   let awayPower = 0;
   for (const f of factors) {
@@ -2652,7 +2758,7 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
     ((homeStyle.bigWinRate + awayStyle.bigWinRate) / 100) * 0.2;
   const recentGoalLift = ((homeRecent.avgGoalsFor + awayRecent.avgGoalsFor) - (homeRecent.avgGoalsAgainst + awayRecent.avgGoalsAgainst)) * 0.08 +
     ((homeRecent.bigWins + awayRecent.bigWins) - (homeRecent.failedToScore + awayRecent.failedToScore)) * 0.06;
-  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
+  const totalGoals = clamp(2.35 + ((homeAttack + awayAttack) - (homeDefense + awayDefense)) / 95 + motivationGoalLift + styleGoalLift + recentGoalLift + newsImpact.goalLift + (random() - 0.5) * 0.35, 1.55, 4.25);
 
   const homeShare = clamp(0.5 + edge / 90, 0.24, 0.76);
   const homeGoals = clamp(totalGoals * homeShare, 0.35, 3.45);
@@ -2700,11 +2806,6 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   const modelOnlyScoreBands = scoreBandsFromMatrix(modelOnlyMatrix, 3);
 
   // ── External signals ──
-  const marketSignals = oddsForMatch(match, signalContext.odds);
-  const expertSignals = expertForMatch(match, signalContext.experts);
-  const matchIntelligence = intelligenceForMatch(match, signalContext, allMatches);
-  matchIntelligence.dataQuality = dataQualityForMatch(match, marketSignals, matchIntelligence);
-
   // ── Market odds: direct blend into final probabilities (not through power score) ──
   let extEvidence = "暂无可用赔率或专业球评信号。";
   let marketBlendWeight = marketSignals.weight || 0;
@@ -2766,7 +2867,11 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
   // ── Confidence (deterministic, no random noise) ──
   const top = Math.max(...probabilities);
   const consistency = Math.abs(homeAvg - awayAvg) + Math.abs(homeForm - awayForm) * 2;
-  const confidence = calibratedConfidence(probabilities, scoreOdds, drawGuard.applied, marketSignals);
+  const confidence = Math.round(clamp(
+    calibratedConfidence(probabilities, scoreOdds, drawGuard.applied, marketSignals) + newsImpact.confidenceDelta,
+    45,
+    92
+  ));
 
   const tag = match.status === "completed" ? "已完场" : confidence >= 82 ? "高信心" : confidence >= 70 ? "稳健" : Math.abs(probabilities[0] - probabilities[2]) <= 8 ? "均衡" : "观察";
   const favoriteIndex = probabilities.indexOf(top);
@@ -2823,6 +2928,13 @@ function recalc(match, date, context, signalContext = {}, allMatches = []) {
       externalSignals: {
         marketStatus: marketSignals.status, expertStatus: expertSignals.status,
         marketWeight: marketSignals.weight, expertWeight: expertSignals.weight
+      },
+      newsImpact: {
+        homeScore: newsImpact.homeScore,
+        awayScore: newsImpact.awayScore,
+        goalLift: newsImpact.goalLift,
+        confidenceDelta: newsImpact.confidenceDelta,
+        evidence: newsImpact.evidence
       }
     },
     marketSignals,
