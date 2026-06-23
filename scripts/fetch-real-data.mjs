@@ -102,6 +102,26 @@ function opponentZh(code) {
   return TEAM_NAMES_ZH[code] || code;
 }
 
+function findPlayer(name, players) {
+  if (!name || !players?.length) return null;
+  const n = name.toLowerCase().replace(/[^a-z]/g, "");
+  // Exact match
+  for (const p of players) {
+    const pn = (p.player_name || "").toLowerCase().replace(/[^a-z]/g, "");
+    if (pn === n) return p;
+  }
+  // Partial match (last name)
+  const parts = n.split(/\s+/);
+  const lastName = parts[parts.length - 1];
+  if (lastName.length >= 4) {
+    for (const p of players) {
+      const pn = (p.player_name || "").toLowerCase().replace(/[^a-z]/g, "");
+      if (pn.endsWith(lastName)) return p;
+    }
+  }
+  return null;
+}
+
 // ---- Tournament name translation ----
 const TOURNAMENT_ZH = {
   "FIFA World Cup": "世界杯",
@@ -376,19 +396,41 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
     console.log(`xG data blended for ${[...teamData.values()].filter(t=>t.xgDataSource).length} teams.`);
   }
 
-  // Blend player squad quality (transfer value + rating + star power)
+  // Blend player squad quality (use starter ratings when available, else full squad)
   if (playerData && playerData.size > 0) {
     const maxVal = Math.max(...[...playerData.values()].map(t => t.totalValueB || 0), 0.1);
     for (const [code, team] of teamData) {
       const pd = playerData.get(code);
       if (!pd || pd.squadSize < 15) continue;
-      // Squad value normalized to 50-95
+
+      // Get starter ratings if we have lineup data (11 actual starters!)
+      let starterAvgRating = null;
+      let starterCount = 0;
+      const starters = team.playerQuality?.lastStarters || [];
+      if (starters.length >= 7 && pd.players) {
+        const ratings = [];
+        for (const starterName of starters) {
+          const player = findPlayer(starterName, pd.players);
+          if (player) {
+            const pStats = (pd._statsById || new Map()).get(player.player_id);
+            if (pStats) {
+              const r = parseFloat(pStats.rating) || 0;
+              if (r > 0) ratings.push(r);
+            }
+          }
+        }
+        if (ratings.length >= 5) {
+          starterAvgRating = +(ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(2);
+          starterCount = ratings.length;
+        }
+      }
+
+      // Use starter rating if available, else squad-wide average
+      const effectiveRating = starterAvgRating || pd.avgRating;
       const valScore = Math.round(50 + (pd.totalValueB / maxVal) * 45);
-      // Average rating normalized (typical range 6.5-7.5 → 50-95)
-      const ratingScore = Math.round(50 + (pd.avgRating - 6.5) / 1.0 * 45);
-      // Star power (players with rating >= 7.2)
+      const ratingScore = Math.round(50 + (effectiveRating - 6.5) / 1.0 * 45);
       const starScore = Math.round(50 + Math.min(pd.starCount / 8 * 45, 45));
-      // Blend into existing metrics: 20% player quality, 80% match-based
+      // Blend: 20% player quality, 80% match-based
       team.attack = Math.round(team.attack * 0.80 + ((valScore + ratingScore) / 2) * 0.20);
       team.midfield = Math.round(team.midfield * 0.80 + starScore * 0.20);
       // Apply news-derived injury penalties to player quality scores
@@ -414,7 +456,10 @@ export function loadRealTeamData(targetCodes, espnStats = null, playerData = nul
       }
       team.playerQuality = {
         squadValue: pd.totalValueB,
-        avgRating: pd.avgRating,
+        avgRating: effectiveRating,
+        squadAvgRating: pd.avgRating,
+        starterRating: starterAvgRating,
+        starterCount,
         starCount: pd.starCount,
         avgAge: pd.avgAge,
         injuryPenalty,

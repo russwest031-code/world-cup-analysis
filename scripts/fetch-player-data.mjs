@@ -98,6 +98,7 @@ export async function loadPlayerData() {
         code,
         country: p.country,
         players: [],
+        _statsById: statsById,
         totalValue: 0,
         avgAge: 0,
         positions: { GK: [], DEF: [], MID: [], FW: [] },
