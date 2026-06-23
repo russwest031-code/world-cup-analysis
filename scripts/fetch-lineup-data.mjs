@@ -7,6 +7,11 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LINEUP_CACHE = path.join(root, "scripts", "data", "lineup-cache.json");
 const CACHE_TTL = 6 * 60 * 60 * 1000;
+const LINEUP_FETCH_TIMEOUT_MS = Number(process.env.LINEUP_FETCH_TIMEOUT_MS || 3000);
+const LINEUP_SCAN_DAYS = Number(process.env.LINEUP_SCAN_DAYS || 7);
+const LINEUP_TEAM_LIMIT = Number(process.env.LINEUP_TEAM_LIMIT || 24);
+const LINEUP_CONCURRENCY = Number(process.env.LINEUP_CONCURRENCY || 4);
+const LINEUP_TOTAL_TIMEOUT_MS = Number(process.env.LINEUP_TOTAL_TIMEOUT_MS || 45000);
 
 const ESPN_TEAM_IDS = {
   ARG: 202, FRA: 478, BRA: 205, ENG: 448, ESP: 164, POR: 439, NED: 449,
@@ -22,21 +27,25 @@ const ESPN_TEAM_IDS = {
 };
 
 async function fetchESPN(url) {
+  let timer = null;
   try {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 10000);
+    timer = setTimeout(() => controller.abort(), LINEUP_FETCH_TIMEOUT_MS);
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-app/1.0" } });
-    clearTimeout(timer);
     if (!res.ok) return null;
     const text = await res.text();
     return JSON.parse(text);
-  } catch (e) { return null; }
+  } catch (e) {
+    return null;
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
 }
 
-async function getLastMatchLineup(teamCode) {
+async function getLastMatchLineup(teamCode, deadline = Infinity) {
   // Scan recent dates to find last completed match for this team
   const now = new Date();
-  for (let d = 0; d < 14; d++) {
+  for (let d = 0; d < LINEUP_SCAN_DAYS && Date.now() < deadline; d++) {
     const date = new Date(now - d * 86400000);
     const dateStr = date.toISOString().slice(0, 10).replace(/-/g, "");
     const sb = await fetchESPN(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${dateStr}`);
@@ -99,6 +108,17 @@ function saveCache(data) {
   fs.writeFileSync(LINEUP_CACHE, JSON.stringify({ timestamp: Date.now(), data }, null, 2), "utf8");
 }
 
+async function runLimited(items, limit, worker, deadline = Infinity) {
+  let cursor = 0;
+  const workers = Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, async () => {
+    while (cursor < items.length && Date.now() < deadline) {
+      const index = cursor++;
+      await worker(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+}
+
 export async function loadLineupData(teamCodes) {
   const cached = loadCache();
   if (cached && Object.keys(cached).length >= 15) {
@@ -108,18 +128,18 @@ export async function loadLineupData(teamCodes) {
 
   console.log(`Fetching ESPN lineups for ${teamCodes.length} teams...`);
   const lineups = {};
+  const deadline = Date.now() + LINEUP_TOTAL_TIMEOUT_MS;
+  const targets = teamCodes.slice(0, Math.max(1, LINEUP_TEAM_LIMIT));
 
-  for (const code of teamCodes) {
-    const lineup = await getLastMatchLineup(code);
+  await runLimited(targets, LINEUP_CONCURRENCY, async code => {
+    const lineup = await getLastMatchLineup(code, deadline);
     if (lineup) {
       lineups[code] = lineup;
       console.log(`  ${code}: ${lineup.starters.length} starters, ${lineup.formation || '?'}, vs ${lineup.opponent} (${lineup.date})`);
     }
-    // Rate limit
-    await new Promise(r => setTimeout(r, 500));
-  }
+  }, deadline);
 
   saveCache(lineups);
-  console.log(`Lineups: ${Object.keys(lineups).length}/${teamCodes.length} teams`);
+  console.log(`Lineups: ${Object.keys(lineups).length}/${targets.length} scanned teams`);
   return lineups;
 }

@@ -59,16 +59,23 @@ const TEAM_SEARCH_NAMES = {
 // ---- Cache ----
 const CACHE_DIR = path.join(root, "scripts", "data", "news-cache");
 const CACHE_TTL = 4 * 60 * 60 * 1000; // 4 hours
+const NEWS_SIGNAL_FETCH_TIMEOUT_MS = Number(process.env.NEWS_SIGNAL_FETCH_TIMEOUT_MS || 5000);
+const NEWS_SIGNAL_TOTAL_TIMEOUT_MS = Number(process.env.NEWS_SIGNAL_TOTAL_TIMEOUT_MS || 45000);
+const NEWS_SIGNAL_CONCURRENCY = Number(process.env.NEWS_SIGNAL_CONCURRENCY || 6);
 
 async function fetchRSS(url) {
+  let timer = null;
   try {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 10000);
+    timer = setTimeout(() => controller.abort(), NEWS_SIGNAL_FETCH_TIMEOUT_MS);
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-app/1.0" } });
-    clearTimeout(timer);
     if (!res.ok) return "";
     return await res.text();
-  } catch { return ""; }
+  } catch {
+    return "";
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
 }
 
 function extractArticles(xml) {
@@ -203,16 +210,73 @@ async function searchTeamNews(code, squadPlayers) {
   return result;
 }
 
+async function runLimited(items, limit, worker, deadline = Infinity) {
+  const results = [];
+  let cursor = 0;
+  const workers = Array.from({ length: Math.max(1, Math.min(limit, items.length)) }, async () => {
+    while (cursor < items.length && Date.now() < deadline) {
+      const index = cursor++;
+      results[index] = await worker(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
 export async function loadNewsSignals(teamCodes, playerData) {
   console.log(`Fetching news signals for ${teamCodes.length} teams...`);
   const signals = new Map();
+  const deadline = Date.now() + NEWS_SIGNAL_TOTAL_TIMEOUT_MS;
+
+  await runLimited(
+    teamCodes,
+    NEWS_SIGNAL_CONCURRENCY,
+    async code => {
+      if (Date.now() >= deadline) return;
+      try {
+        const players = playerData?.get(code)?.players?.map(p => p.player_name).filter(Boolean) || [];
+        const signal = await searchTeamNews(code, players);
+        signals.set(code, signal);
+        if (signal.status === "connected") {
+          console.log(`  ${code}: ${signal.articlesFound} articles, ${signal.injuryCount} injury, ${signal.lineupCount} lineup`);
+        }
+      } catch (error) {
+        signals.set(code, {
+          code,
+          articlesFound: 0,
+          injuryCount: 0,
+          lineupCount: 0,
+          tacticalCount: 0,
+          injuredPlayers: [],
+          lineupHints: [],
+          tacticalHints: [],
+          injuryPenalty: 0,
+          lineupConfidence: 0,
+          tacticalSignal: 0,
+          status: "error",
+          error: error.message
+        });
+      }
+    },
+    deadline
+  );
 
   for (const code of teamCodes) {
-    const players = playerData?.get(code)?.players?.map(p => p.player_name).filter(Boolean) || [];
-    const signal = await searchTeamNews(code, players);
-    signals.set(code, signal);
-    if (signal.status === "connected") {
-      console.log(`  ${code}: ${signal.articlesFound} articles, ${signal.injuryCount} injury, ${signal.lineupCount} lineup`);
+    if (!signals.has(code)) {
+      signals.set(code, {
+        code,
+        articlesFound: 0,
+        injuryCount: 0,
+        lineupCount: 0,
+        tacticalCount: 0,
+        injuredPlayers: [],
+        lineupHints: [],
+        tacticalHints: [],
+        injuryPenalty: 0,
+        lineupConfidence: 0,
+        tacticalSignal: 0,
+        status: "timeout"
+      });
     }
   }
 

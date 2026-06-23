@@ -44,17 +44,18 @@ const EXPERT_RSS_URLS = (process.env.EXPERT_RSS_URLS ||
   .filter(Boolean);
 const NEWS_SEARCH_ENABLED = process.env.NEWS_SEARCH_ENABLED !== "0";
 const NEWS_SEARCH_DAYS = Number(process.env.NEWS_SEARCH_DAYS || 3);
-const NEWS_SEARCH_MATCH_LIMIT = Number(process.env.NEWS_SEARCH_MATCH_LIMIT || 16);
-const NEWS_SEARCH_ARTICLES_PER_QUERY = Number(process.env.NEWS_SEARCH_ARTICLES_PER_QUERY || 6);
-const NEWS_SEARCH_QUERIES_PER_MATCH = Number(process.env.NEWS_SEARCH_QUERIES_PER_MATCH || 4);
+const NEWS_SEARCH_MATCH_LIMIT = Number(process.env.NEWS_SEARCH_MATCH_LIMIT || 12);
+const NEWS_SEARCH_ARTICLES_PER_QUERY = Number(process.env.NEWS_SEARCH_ARTICLES_PER_QUERY || 4);
+const NEWS_SEARCH_QUERIES_PER_MATCH = Number(process.env.NEWS_SEARCH_QUERIES_PER_MATCH || 3);
 const NEWS_SEARCH_CONCURRENCY = Number(process.env.NEWS_SEARCH_CONCURRENCY || 8);
 const NEWS_ARTICLE_BODY_ENABLED = process.env.NEWS_ARTICLE_BODY_ENABLED !== "0";
-const NEWS_ARTICLE_BODY_LIMIT = Number(process.env.NEWS_ARTICLE_BODY_LIMIT || 16);
+const NEWS_ARTICLE_BODY_LIMIT = Number(process.env.NEWS_ARTICLE_BODY_LIMIT || 12);
 const NEWS_ARTICLE_BODY_CONCURRENCY = Number(process.env.NEWS_ARTICLE_BODY_CONCURRENCY || 4);
 const NEWS_ARTICLE_BODY_TIMEOUT_MS = Number(process.env.NEWS_ARTICLE_BODY_TIMEOUT_MS || 8000);
 const GDELT_DOC_API = process.env.GDELT_DOC_API || "https://api.gdeltproject.org/api/v2/doc/doc";
 const GOOGLE_NEWS_RSS = process.env.GOOGLE_NEWS_RSS || "https://news.google.com/rss/search";
 const GOOGLE_NEWS_ENABLED = process.env.GOOGLE_NEWS_ENABLED !== "0";
+const FETCH_TIMEOUT_MS = Number(process.env.FETCH_TIMEOUT_MS || 6000);
 
 const TEAM_NAMES_ZH = {
   MEX: "墨西哥", RSA: "南非", KOR: "韩国", CZE: "捷克",
@@ -306,7 +307,7 @@ function latestJsonFile(dirPath) {
 
 async function fetchJson(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 45000);
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -318,7 +319,7 @@ async function fetchJson(url) {
 
 async function fetchJsonWithHeaders(url, headers = {}) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 45000);
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const res = await fetch(url, {
       signal: controller.signal,
@@ -350,6 +351,19 @@ function rng(seedText) {
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function fallbackSignals(status, provider, note) {
+  return { status, provider, note, events: [], articles: [], forecasts: {}, fixtures: [], errors: [] };
+}
+
+async function safeLoad(label, promise, fallback) {
+  try {
+    return await promise;
+  } catch (error) {
+    console.warn(`${label} unavailable: ${error.message}`);
+    return fallback;
+  }
 }
 
 function formFor(code) {
@@ -1894,7 +1908,7 @@ async function loadApiFootballSignals(matches) {
 
 async function fetchText(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 45000);
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-analysis-app" } });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
@@ -3393,10 +3407,10 @@ async function main() {
 
   const context = buildTournamentContext(matches);
   const [odds, experts, weather, live] = await Promise.all([
-    loadOddsSignals(),
-    loadExpertSignals(matches),
-    loadWeatherSignals(matches),
-    loadApiFootballSignals(matches)
+    safeLoad("Odds signals", loadOddsSignals(), fallbackSignals("error", "the-odds-api", "赔率抓取失败，已按缺口继续刷新。")),
+    safeLoad("Expert/news signals", loadExpertSignals(matches), fallbackSignals("error", "public-news", "公开新闻抓取失败，已按缺口继续刷新。")),
+    safeLoad("Weather signals", loadWeatherSignals(matches), fallbackSignals("error", "open-meteo", "天气抓取失败，已按缺口继续刷新。")),
+    safeLoad("API-Football signals", loadApiFootballSignals(matches), fallbackSignals("error", "api-football", "API-Football 抓取失败，已按缺口继续刷新。"))
   ]);
   metaOverrides = {
     ...metaOverrides,

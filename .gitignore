@@ -3,3 +3,5 @@ node_modules/
 *.log
 __pycache__/
 *.pyc
+scripts/data/*cache*.json
+scripts/data/news-cache/
