@@ -21,7 +21,7 @@
   function sanitizeDisplayText(text) {
     if (!text) return text;
     return text
-      .replace(/判断综合了[^。]*等 10 个因素，加权计算得出。/g, "判断结合已接入真实数据和模型参数计算得出，具体事实证据见《真实数据源》和《临场情报》。")
+      .replace(/判断综合了[^。]*等 \d+ 个因素，加权计算得出。/g, "判断结合已接入真实数据和模型参数计算得出，具体事实证据见《真实数据源》和《临场情报》。")
       .replace(/世界排名/g, "实力评估")
       .replace(/近期战绩/g, "模型状态")
       .replace(/近期状态/g, "模型状态")
@@ -31,6 +31,39 @@
       .replace(/模拟样本/g, "模型推断")
       .replace(/实力对比/g, "实力参考")
       .replace(/攻防综合/g, "综合能力");
+  }
+
+  function scoreReasonLabel(reason) {
+    var map = {
+      "clean-sheet-favorite": "零封补强",
+      "high-event-close-win": "高比分险胜补强",
+      "poisson-core": "泊松主模型",
+      "scenario-cover": "情景覆盖"
+    };
+    return map[reason] || "";
+  }
+
+  function scoreReasonHTML(item) {
+    var label = item && item.reason ? scoreReasonLabel(item.reason) : "";
+    return label ? '<em class="score-reason">' + label + '</em>' : "";
+  }
+
+  function signedValue(value, suffix) {
+    if (value === null || value === undefined || value === "") return "-";
+    var num = Number(value);
+    if (Number.isNaN(num)) return String(value);
+    return (num > 0 ? "+" : "") + num + (suffix || "");
+  }
+
+  function lineupSourceLabel(source) {
+    var map = {
+      "last-start-adjusted": "上场首发+伤病调整",
+      "news-predicted-lineup": "新闻预计",
+      "public-news-lineup": "公开新闻预计",
+      "public-news-unparsed": "新闻待解析",
+      "squad-projection": "大名单预计"
+    };
+    return map[source] || source || "大名单预计";
   }
 
   // ─── ANALYSIS HOME PAGE ────────────────────────────────────────
@@ -218,41 +251,79 @@
         // Section 1: 参考结论 / 关键要点
         renderConclusion(match) +
 
-        // Section 2: 比分预测
+        // Section 2: 预测依据及各因素权重
+        renderFactorModel(match) +
+
+        // Section 3: 比分预测
         renderScorePrediction(match) +
 
-        // Section 3: 出线形势与赛程策略
+        // Section 4: 出线形势与赛程策略
         renderQualification(match) +
 
-        // Section 4: 近期状态（真实比赛数据）
+        // Section 5: 近期状态（真实比赛数据）
         renderRecentForm(match) +
 
-        // Section 5: 数据边界
+        // Section 6: 数据边界
         renderDataBoundary(match) +
 
-        // Section 6: 真实数据源
+        // Section 7: 真实数据源
         renderVerifiedDataSources(match) +
 
-        // Section 7: 扩展市场与赔率校准
+        // Section 8: 扩展市场与赔率校准
         renderMarketsAndCalibration(match) +
 
-        // Section 8: 风险因素
+        // Section 9: 风险因素
         renderRiskAssessment(match) +
 
-        // Section 9: 出线动机与比赛目标
+        // Section 10: 出线动机与比赛目标
         renderMotivation(match) +
 
-        // Section 10: 临场情报
+        // Section 11: 临场情报
         renderMatchIntelligence(match) +
 
-        // Section 11: 比赛情景推演
+        // Section 12: 比赛情景推演
         renderScenarios(match) +
 
-        // Section 12: 比赛复盘（仅已完赛）
+        // Section 13: 比赛复盘（仅已完赛）
         renderAutopsy(match) +
 
         '<p class="disclaimer">以上分析仅基于赛前模型数据，不构成任何决策建议。足球比赛存在固有不确定性，实际结果可能与预测存在较大偏差。</p>' +
       '</div>';
+  }
+
+  function renderFactorModel(match) {
+    var factors = match.factorContributions || [];
+    if (!factors.length) return "";
+    var totalWeight = factors.reduce(function (sum, item) {
+      return sum + (Number(item.weight) || 0);
+    }, 0);
+    function row(item) {
+      var contribution = Number(item.contribution) || 0;
+      var cls = contribution > 0.05 ? "factor-contrib-home" : contribution < -0.05 ? "factor-contrib-away" : "factor-contrib-neutral";
+      var labelCls = contribution > 0.05 ? "home" : contribution < -0.05 ? "away" : "neutral";
+      var label = contribution > 0.05
+        ? "偏向 " + match.home.name + " " + signedValue(contribution, "分")
+        : contribution < -0.05
+          ? "偏向 " + match.away.name + " " + signedValue(Math.abs(contribution), "分")
+          : "中性";
+      var width = Math.min(100, Math.max(4, Math.round(Math.abs(contribution) * 5)));
+      var weightWidth = totalWeight ? Math.round((Number(item.weight) || 0) / totalWeight * 100) : (Number(item.weight) || 0);
+      return '<div class="factor-row">' +
+        '<div class="factor-head"><strong>' + item.name + '</strong><span class="factor-weight">权重 ' + (item.weight || 0) + '%</span></div>' +
+        '<div class="factor-weight-track"><i style="width:' + Math.min(100, weightWidth) + '%"></i></div>' +
+        '<div class="factor-scores">' +
+          '<small>' + (item.homeScore ?? "-") + '</small>' +
+          '<div><div class="factor-contrib-track"><i class="' + cls + '" style="width:' + width + '%"></i></div><span class="factor-contrib-label ' + labelCls + '">' + label + '</span></div>' +
+          '<small>' + (item.awayScore ?? "-") + '</small>' +
+        '</div>' +
+        '<span class="factor-evidence">' + sanitizeDisplayText(item.evidence || "暂无证据说明。") + '</span>' +
+      '</div>';
+    }
+    return '<section class="detail-section">' +
+      '<div class="section-title"><h3>预测依据及各因素权重</h3><small>后端模型贡献拆解</small></div>' +
+      '<div class="factor-model">' + factors.map(row).join("") + '</div>' +
+      '<div class="factor-result"><p class="factor-note">说明：正贡献偏向主队，负贡献偏向客队；权重代表该因子在方向模型中的相对重要性，证据文字来自每日刷新后的真实数据或明确标注的模型推导。</p></div>' +
+    '</section>';
   }
 
   function renderScorePrediction(match) {
@@ -273,6 +344,7 @@
           '<small>主推比分</small>' +
           '<strong>' + (primary ? primary.score : "-") + '</strong>' +
           '<span>' + (primary ? primary.chance + "% 概率" : "暂无") + '</span>' +
+          (primary ? scoreReasonHTML(primary) : "") +
         '</div>' +
         '<div class="score-focus-text">' +
           '<small>主线情景</small>' +
@@ -280,7 +352,7 @@
           '<p>' + (mainScenario ? mainScenario.chance + '% 覆盖 · ' + (mainScenario.examples || []).join(" / ") : "等待更多数据") + '</p>' +
         '</div>' +
       '</div>' +
-      (altScores.length ? '<div class="score-compact-row"><small>备选比分</small><div>' + altScores.map(function (item) { return '<span>' + item.score + '<b>' + item.chance + '%</b></span>'; }).join("") + '</div></div>' : '') +
+      (altScores.length ? '<div class="score-compact-row"><small>备选比分</small><div>' + altScores.map(function (item) { return '<span>' + item.score + '<b>' + item.chance + '%</b>' + scoreReasonHTML(item) + '</span>'; }).join("") + '</div></div>' : '') +
       (secondaryScenarios.length ? '<div class="score-compact-row muted-row"><small>风险覆盖</small><div>' + secondaryScenarios.map(function (item) { return '<span>' + item.label + '<b>' + item.chance + '%</b></span>'; }).join("") + '</div></div>' : '') +
     '</section>';
   }
@@ -360,6 +432,9 @@
         "no-match": "未匹配",
         "missing-key": "需密钥",
         "news-derived": "新闻提取",
+        "news-unparsed": "新闻待解析",
+        "public-news-lineup": "新闻预计",
+        "public-news-unparsed": "新闻待解析",
         "provider-needed": "需权威源",
         scheduled: "赛程",
         completed: "赛果"
@@ -443,6 +518,8 @@
 
   function renderMatchIntelligence(match) {
     var intel = match.matchIntelligence || {};
+    var inputs = match.modelInputs || {};
+    var newsImpact = inputs.newsImpact || null;
     var weather = intel.weather || {};
     var news = intel.teamNews || {};
     var injuries = news.injuries || {};
@@ -467,6 +544,9 @@
         "provider-needed": "需权威源",
         "missing-key": "需密钥",
         "news-derived": "新闻提取",
+        "news-unparsed": "新闻待解析",
+        "public-news-lineup": "新闻预计",
+        "public-news-unparsed": "新闻待解析",
         "last-start-projected": "上场推演",
         "projected": "预计",
         "projection-derived": "预计推导",
@@ -488,7 +568,7 @@
           if (typeof player === "string") return player;
           return player.name + (player.position ? "·" + player.position : "") + (player.club ? " / " + player.club : "");
         });
-        var source = team.source === "last-start-adjusted" ? "上场首发+伤病调整" : "大名单预计";
+        var source = lineupSourceLabel(team.source);
         var previous = team.previousOpponent ? '<small class="lineup-source">上一场对手：' + team.previousOpponent + '</small>' : '';
         return '<div><strong>' + team.team + (team.formation ? " · " + team.formation : "") + '<em>' + source + '</em></strong><small>' + starters.join(" / ") + '</small>' + previous + '</div>';
       }).join("") + '</div>' + articles;
@@ -503,6 +583,20 @@
     function card(title, status, text, extra) {
       return '<div class="intel-card"><div><strong>' + title + '</strong><span>' + statusLabel(status) + '</span></div><p>' + (text || "暂无数据。") + '</p>' + (extra || "") + '</div>';
     }
+    function newsImpactPanel() {
+      if (!newsImpact) return "";
+      var evidence = newsImpact.evidence || "暂无新闻影响说明。";
+      return '<div class="news-impact-panel">' +
+        '<div><strong>临场新闻模型影响</strong><span>已进入概率计算</span></div>' +
+        '<p>' + sanitizeDisplayText(evidence) + '</p>' +
+        '<div class="news-impact-grid">' +
+          '<span>主队新闻分 <b>' + (newsImpact.homeScore ?? "-") + '</b></span>' +
+          '<span>客队新闻分 <b>' + (newsImpact.awayScore ?? "-") + '</b></span>' +
+          '<span>总进球调整 <b>' + signedValue(newsImpact.goalLift) + '</b></span>' +
+          '<span>信心调整 <b>' + signedValue(newsImpact.confidenceDelta) + '</b></span>' +
+        '</div>' +
+      '</div>';
+    }
     return '<section class="detail-section">' +
       '<div class="section-title"><h3>临场情报</h3><small>首发 / 伤停 / 天气 / 战术</small></div>' +
       '<div class="intel-grid">' +
@@ -511,6 +605,7 @@
         card("比赛天气", weather.status, (weather.text || "") + (weather.impact ? " " + weather.impact : "")) +
         card("临场战术", tactical.status, sanitizeDisplayText(tactical.text), newsList(tactical.articles)) +
       '</div>' +
+      newsImpactPanel() +
     '</section>';
   }
 
@@ -892,7 +987,8 @@
             '<p>本应用采用每日模型刷新机制：GitHub Actions 每天北京时间 15:00 自动采集最新赛程/赛果、赔率、天气、公开新闻线索和可维护数据快照，重新计算出线动机、比分分布、胜平负概率和信心指数，并提交到代码仓库。</p>' +
             '<p>Render 会根据最新提交自动部署，因此手机端通常每天 15:00 后看到一次更新后的分析结果。</p>' +
             '<p>赔率接口已按 The Odds API 接入，配置 THE_ODDS_API_KEY 后会在每日刷新中拉取真实赔率并按小权重校准模型概率；未配置 key 时不会伪造赔率。</p>' +
-            '<p>新闻情报当前来自 ESPN、BBC、Guardian 等公开 RSS，按球队名和关键词匹配相关文章；预计首发优先使用上一场首发，并结合伤病名单调整，缺口再由球员大名单和位置结构补齐。无法采集真实数据的地方会在数据覆盖报告中上报。</p>' +
+            '<p>新闻情报当前同时使用 ESPN、BBC、Guardian 等公开 RSS、GDELT 新闻索引和 Google News RSS。每日刷新会按“本场对阵、双方 team news、单队伤停/训练/发布会、上一场复盘”等关键词主动搜索，并尝试抓取正文解析预计首发、伤停、轮换和战术倾向。</p>' +
+            '<p>临场新闻已经进入模型计算：新闻因子会影响胜平负方向、总进球倾向和信心指数；但页面会保留“新闻预计 / 新闻待解析 / 上场首发+伤病调整 / 大名单预计”等来源标签，不会把公开报道或模型推导伪装成官方首发。</p>' +
           '</div>' +
         '</section>' +
 
