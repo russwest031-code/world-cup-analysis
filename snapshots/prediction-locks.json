@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-06-23T09:14:15.841Z",
+  "updatedAt": "2026-06-23T12:35:21.694Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -10061,12 +10061,6 @@
     "createdThisRun": 0,
     "retainedThisRun": 60,
     "upgradedThisRun": 0,
-    "currentModelVersion": "v3",
-    "manualCorrections": [
-      "arg-aut-57",
-      "fra-irq-51",
-      "nor-sen-52",
-      "jor-alg-58"
-    ]
+    "currentModelVersion": "v3"
   }
 }
