@@ -2723,6 +2723,40 @@ function updatePredictionLocks(matches) {
   return locks;
 }
 
+function applyPredictionLocks(matches, locks) {
+  if (!locks?.matches) return matches;
+  return matches.map(match => {
+    const lock = locks.matches[match.id];
+    const prediction = lock?.prediction;
+    if (!prediction) return match;
+    const kickoff = kickoffTime(match);
+    const hasStarted = match.status === "completed" || (kickoff && kickoff.getTime() <= now.getTime());
+    if (!hasStarted) return match;
+    return {
+      ...match,
+      modelVersion: prediction.modelVersion || lock.modelVersion || match.modelVersion,
+      modelVersionLabel: prediction.modelVersionLabel || lock.modelVersionLabel || match.modelVersionLabel,
+      probabilities: prediction.probabilities || match.probabilities,
+      confidence: prediction.confidence ?? match.confidence,
+      tag: match.status === "completed" ? "\u8d5b\u524d\u9501\u5b9a" : (prediction.tag || match.tag),
+      scoreOdds: prediction.scoreOdds || match.scoreOdds,
+      scoreBands: prediction.scoreBands || match.scoreBands,
+      scoreScenarios: prediction.scoreScenarios || match.scoreScenarios,
+      expectedGoals: prediction.expectedGoals || match.expectedGoals,
+      marketSignals: prediction.marketSignals || match.marketSignals,
+      marketCalibration: prediction.marketCalibration || match.marketCalibration,
+      predictionLock: {
+        status: "locked-pre-match",
+        source: "snapshots/prediction-locks.json",
+        sourceCommit: lock.sourceCommit || null,
+        lockedAt: lock.lockedAt,
+        kickoff: lock.kickoff,
+        modelVersion: lock.modelVersion || prediction.modelVersion || null
+      }
+    };
+  });
+}
+
 function brierScore(probs, actualIndex) {
   return probs.reduce((sum, value, index) => {
     const p = value / 100;
@@ -3025,8 +3059,9 @@ async function main() {
   };
   const liveSignals = { ...live, playerData };
   const refreshed = matches.map(match => recalc(match, runDate, context, { odds, experts, weather, live: liveSignals }, matches));
-  metaOverrides.dataQualitySummary = buildDataQualitySummary(refreshed);
   const predictionLocks = updatePredictionLocks(refreshed);
+  const lockedRefreshed = applyPredictionLocks(refreshed, predictionLocks);
+  metaOverrides.dataQualitySummary = buildDataQualitySummary(lockedRefreshed);
   metaOverrides.predictionLockCount = predictionLocks.summary?.totalLocked || 0;
   metaOverrides.predictionLocksCreated = predictionLocks.summary?.createdThisRun || 0;
   metaOverrides.oddsSnapshotFile = odds.snapshotFile || (odds.status === "connected" ? path.join("snapshots", "odds", `${runDate}.json`) : null);
@@ -3054,7 +3089,7 @@ async function main() {
     if (autopsyData) {
       // Merge autopsy text into each match
       const autopsyMap = new Map(autopsyData.map(a => [a.matchId, a]));
-      for (const m of refreshed) {
+      for (const m of lockedRefreshed) {
         const a = autopsyMap.get(m.id);
         if (a) m.matchAutopsy = a;
       }
@@ -3064,8 +3099,8 @@ async function main() {
     console.warn(`Autopsy skipped: ${err.message}`);
   }
 
-  fs.writeFileSync(dataPath, serialize(refreshed, metaOverrides, backtestData, predictionLocks), "utf8");
-  console.log(`Updated ${refreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}; backtest=${backtestData?.accuracy || "N/A"}%`);
+  fs.writeFileSync(dataPath, serialize(lockedRefreshed, metaOverrides, backtestData, predictionLocks), "utf8");
+  console.log(`Updated ${lockedRefreshed.length} matches for ${runDate} from ${metaOverrides.source || "openfootball-worldcup-json"}; odds=${odds.status}; experts=${experts.status}; weather=${weather.status}; live=${live.status}; teamData=${metaOverrides.teamData}; backtest=${backtestData?.accuracy || "N/A"}%`);
 
   // Loop 3: Self-check
   try {
