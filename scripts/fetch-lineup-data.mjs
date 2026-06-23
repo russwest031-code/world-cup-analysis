@@ -4,8 +4,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import * as zlib from "node:zlib";
-
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const LINEUP_CACHE = path.join(root, "scripts", "data", "lineup-cache.json");
 const CACHE_TTL = 6 * 60 * 60 * 1000;
@@ -30,9 +28,8 @@ async function fetchESPN(url) {
     const res = await fetch(url, { signal: controller.signal, headers: { "User-Agent": "world-cup-app/1.0" } });
     clearTimeout(timer);
     if (!res.ok) return null;
-    let buf = Buffer.from(await res.arrayBuffer());
-    if (buf[0] === 0x1f && buf[1] === 0x8b) buf = zlib.gunzipSync(buf);
-    return JSON.parse(buf.toString());
+    const text = await res.text();
+    return JSON.parse(text);
   } catch (e) { return null; }
 }
 
