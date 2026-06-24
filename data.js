@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-06-24T16:04:51.279Z",
+  "updatedAt": "2026-06-24T16:35:58.267Z",
   "runDate": "2026-06-24",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-06-24T16:04:51.279Z",
+  "externalFetchedAt": "2026-06-24T16:35:58.267Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 24,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 163,
+  "expertArticleCount": 143,
   "expertArticleBodyCount": 2,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 49,
@@ -384,7 +384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -407,7 +407,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "1-1",
@@ -478,12 +478,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 48,
       "under25": 52,
-      "bttsYes": 42,
-      "bttsNo": 58,
+      "bttsYes": 43,
+      "bttsNo": 57,
       "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.62,
+      "expectedTotalGoals": 2.65,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -585,10 +585,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -832,11 +832,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -852,18 +852,6 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Mexico players want Ochoa for historic WC start",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-          "pubDate": "Wed, 24 Jun 2026 11:51:46 EST"
-        },
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
-        {
           "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
           "source": "RotoWire",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -874,6 +862,18 @@ window.MATCHES = [
           "source": "Yahoo Sports",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1Y0akh2Y04yWl92dGV2bTRKdTg3bkNUX2ttX3hnUnVVTGdobnZBakoxd09MNTNRWG84cGx1UmJFdFVzTzFUNDlPZWZHQm9lS3pzall1MjV3clpDLTlSUHE0d25LLU8yeVlrbEx1Nlp0UFdLdjFTdTUzUXBzd3cwSU5GRFVnOTNS?oc=5",
           "pubDate": "Tue, 23 Jun 2026 01:05:00 GMT"
+        },
+        {
+          "title": "How And Where To Watch: Czech Republic vs Mexico in Group A of the 2026 FIFA World Cup - beIN SPORTS",
+          "source": "beIN SPORTS",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDE4dEpKempkdlYwT0luczBrZWlQR3JpLW9hTmp6ckJNQlRqeVRVZWgtSy1wbXA4YllFamQ5VTVLYjVDQTJ4bGFVangwVWUtZGIzOHN4ZUJ4dWxZdnp5bEpLZWQ3eG1QdTVwOE1rQU91R3hpQThYcGNWOEllZHBCODkxdHhXX0R0ZnRGbUNjTkFrZVVMVkhjZERWWkVwQ1JfY25UQkhWSUgtUDVreGJ0MWhvOWJKZ2JXYW1QVlNSOE9va0lvLTlZYlIzS1dDNWlWeXhkNXljV2kxR3JUUno0YnN0VTBTclNwaDFsQkktN3FiQ2M3VlJTWkQ2eGtLdw?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 11:54:31 GMT"
+        },
+        {
+          "title": "Mexico XI vs Czechia – Predicted lineup and team news - Yahoo Sports",
+          "source": "Yahoo Sports",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV1FsYmdoZ0ZZNGlhOVNCdGVYbVNUc3VnUXE0MWdZSEpLOVEyamt6ZEdLTldNNXFZcVRYODRFTzFWMThUbUUwYVZ5bGV5SW5QUGNxMENnZW41RkxQZHZ6cVdtaFEtSkw4Zzk4d1BxM0VpTjFvMjNXVlNFa3hpb29FWFowU01WQQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 13:55:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -882,7 +882,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1101,15 +1101,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
               "source": "RotoWire",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -1131,7 +1122,7 @@ window.MATCHES = [
               "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-              "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT",
+              "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT",
               "description": "Mexico projected World Cup lineup vs Czechia: Probable starting XI &nbsp;&nbsp; USA Today",
               "bodyText": "",
               "bodyError": ""
@@ -1144,6 +1135,15 @@ window.MATCHES = [
               "description": "Mexico coach Javier Aguirre not swayed by calls to start Guillermo Ochoa vs. Czechia &nbsp;&nbsp; ESPN",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "South Africa at the 2026 World Cup: roster, squad, players, group and schedule - Diario AS",
+              "source": "Diario AS",
+              "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaS1STlhUcWFqSGRyMl9lckpackY1S3FwS1V6amhTbEljT2FMeUhiTC1IOURyd3VGX2pJU0p3VUswbTlNWFU4dkFfWjdTS0xXREJHRUhEWXpzS2cyV2d4QnZaZUdpWERDV2xPSFluYUJmaWhUdm5OZC05a0QyVHV5bGVoelNTX3dUSEpTajYybEQ5QVVvbGFHeFdhOW54UDl4eG1HZjc0UFlKRXZjVWlPUGdfV3VyaURjRVlFSGtEc9IB0wFBVV95cUxPZ3dxTGxjVFVmR1hrYm1Pb1g2RTlvQjZJSGJCOXlwOHBBX0VERV93WnJQMEV2eWZueElmVmRvWnFCZEFrbVJSSFItQzVMU2NNZjVkcHM5S2NOT3NyWkduX3RKbEhSNjlWXzJhQWs0b09KalRJcmJ2UEY1OS1ZUWZ0ZWpucEFwODRhM2t5ZnlNeW11eVdldUw1eVUzY0JZQTlYSm5hNW5hNjRrY2Y0My1PV2J4M3p6NWFCTnVUbUM3SktaSUV6bzF0TDdtTFhFa1ExbnYw?oc=5",
+              "pubDate": "Tue, 23 Jun 2026 18:13:46 GMT",
+              "description": "South Africa at the 2026 World Cup: roster, squad, players, group and schedule &nbsp;&nbsp; Diario AS",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         },
@@ -1152,17 +1152,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -1198,9 +1188,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -1272,8 +1262,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.99,
-      "away": 0.63
+      "home": 2.02,
+      "away": 0.64
     },
     "analysisUpdated": "2026-06-24",
     "matchAutopsy": {
@@ -1608,7 +1598,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2328,9 +2318,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -2762,7 +2752,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2771,8 +2761,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      65,
-      25,
+      66,
+      24,
       10
     ],
     "confidence": 78,
@@ -2785,11 +2775,11 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 12
+        "chance": 11
       },
       {
         "score": "1-0",
-        "chance": 11
+        "chance": 10
       },
       {
         "score": "2-1",
@@ -2799,7 +2789,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 33,
+        "chance": 32,
         "examples": [
           "2-0",
           "1-0",
@@ -2808,7 +2798,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 22,
+        "chance": 23,
         "examples": [
           "3-0",
           "4-0",
@@ -2817,7 +2807,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 21,
+        "chance": 19,
         "examples": [
           "1-1",
           "0-0"
@@ -2827,7 +2817,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 61,
         "examples": [
           "2-0",
           "1-1",
@@ -2836,7 +2826,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 65,
+        "chance": 66,
         "examples": [
           "2-0",
           "1-0",
@@ -2845,7 +2835,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "2-0",
           "3-0",
@@ -2854,14 +2844,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 42,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.74,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.85,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -2869,14 +2859,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        65,
-        25,
+        66,
+        24,
         10
       ],
       "market": null,
       "blended": [
-        65,
-        25,
+        66,
+        24,
         10
       ],
       "blendWeight": 0,
@@ -2963,10 +2953,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -3210,11 +3200,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": 0.11,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -3260,7 +3250,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3484,17 +3474,37 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury - Norwalk Hour",
+              "source": "Norwalk Hour",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWV9NSUJrX0EyY25aQ3ZhVjAxZzBZQkpPXzFLNTZlOTVNSUU1VWpZMmRvdDZrTFJjZTF1Q0xDTnNfOUpLSm44UG5nbUkzMExNTEFIRlp1c3hFc1poRTlBVlU2ZE9aTWI3bDdTS3FQSVpXTmxrbzZqVzI1YVVReEJqY1BCVFBSYllwV3ZkQlJTMGJSZXZGMkNnQ29NTks?oc=5",
+              "pubDate": "Fri, 19 Jun 2026 21:19:46 GMT",
+              "description": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury &nbsp;&nbsp; Norwalk Hour",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference - reutersconnect.com",
+              "source": "reutersconnect.com",
+              "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUmZUYjZILXNXRERmNzhVVFo3MzQydVMtMmlpbmdzRVJNM3VXWUdUcnNLdnhSdHZiMWlGWGpyZlIwaUNfT0VuVmMyQWcxNHBuYkZ4LXhTc2liZXJpbjg5anA5VWItcWd1aFJXaXd2MWdXNWU4Rm11TlRsdDVncmp5R2wyUjVHV3lzUW9wUkFyZ2pWQWtQMEkybnpKZXpwYmt6UEJBWHlBWV9xaXZZdnlJaFpqamhxbThUN2NjZUJsZVoxM2xicHdjeFJqRFNLNXhX?oc=5",
+              "pubDate": "Thu, 11 Jun 2026 22:30:00 GMT",
+              "description": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference &nbsp;&nbsp; reutersconnect.com",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -3566,8 +3576,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.03,
-      "away": 0.71
+      "home": 2.11,
+      "away": 0.74
     },
     "analysisUpdated": "2026-06-24",
     "matchAutopsy": {
@@ -3925,7 +3935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4414,7 +4424,7 @@ window.MATCHES = [
           "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
           "source": "USA Today",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT"
+          "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -4676,9 +4686,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -5110,7 +5120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5578,12 +5588,6 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
-        {
           "title": "Switzerland vs Canada Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group B - RotoWire",
           "source": "RotoWire",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPb2VKaXpaanF2aHZsYTBySVdBSVBUZlNMUVJtRlR3MEk1MlVPVWxKQUFHdDZ4S2YxWDFha1g3Q0xFRHNUMHd2Q3FidEJQVHdOMHBFM1NmRnJFbUN6bGYzMng5YWZmUXZwVWF6VXZEZTJ6VTcwc09fOWJyX2EzY3pxaU1OZkVvZ1FPNGpDY3hJNGdKQnBTSldPa1E5UXVOZldfQlU5ZnozRVpvNUJpWkR4cHFrS0ZtVGtoS2Q5ZWR6TS10bVA0dFB2aHZmT3FyVmd5RHJmbkhNZllJaEU3cEE?oc=5",
@@ -5600,6 +5604,12 @@ window.MATCHES = [
           "source": "The New York Times",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWWRpTk1WSkgyNUtoR1lRLVhDTEFCWXJOaGIzc0FrdFJCck1fWEI2Q2ZET2tneE5SaXRQb09XdXRMQ19DU3RQekRCdVc5ejRfWGFZRW9CWEZQUDBOVXFZTDJYS3ZhQXlNSng1Ujk1czBMOUVPWHpEZWZFSGVidWVlYmVOcGNvbFhmcmVINw?oc=5",
           "pubDate": "Sun, 21 Jun 2026 18:26:29 GMT"
+        },
+        {
+          "title": "Canada embraces winning mindset against Switzerland, Alphonso Davies likely to see action - The Globe and Mail",
+          "source": "The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHI1VFhZaWNQcms3NHU0MkJOanZuM1lBdUVscEtUbXFteVNSZmlCNExJanh5dUNGenlYV1IzSWVVMDdTbWwydGk0WS1meVh5cXZqZnEyQmsxQmlDRDRKall2MzhIWFMySEtIQU9yQnc5TGlZSEd2OFFiRloxMGxaa0JaMGRPdDVnelFCRmZoaXdDV3AxT19UazUyUVJDMEFxRjlCWTBDWQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 00:17:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -5878,9 +5888,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -6315,7 +6325,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -7036,9 +7046,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -7470,7 +7480,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -8210,9 +8220,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -8621,7 +8631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -9118,7 +9128,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -9398,9 +9408,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -9810,7 +9820,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -10284,16 +10294,16 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 15:00:48 GMT"
         },
         {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
+        {
           "title": "'It's just a statistic': Messi on tying all-time World Cup scoring record – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/17/its-just-a-statistic-messi-on-tying-all-time-world-cup-scoring-record-video",
           "pubDate": "Wed, 17 Jun 2026 11:27:03 GMT"
-        },
-        {
-          "title": "'Crying long before the anthems': A week in the life of a 2026 World Cup player",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49161306/a-week-life-2026-world-cup-player-curacao-gervane-kastaneer",
-          "pubDate": "Wed, 24 Jun 2026 08:34:23 EST"
         },
         {
           "title": "Curacao vs Ivory Coast Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group E - RotoWire",
@@ -10308,7 +10318,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -10560,9 +10570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -10993,7 +11003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -11743,9 +11753,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -12154,7 +12164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -12622,6 +12632,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
+        {
           "title": "Curacao vs Ivory Coast Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group E - RotoWire",
           "source": "RotoWire",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1BjY2VQWEVudEJtV3o2VExKTDQ2dFRFS1JqQUMxWUFQVjVSdzc2OWdtY0ZGR1cxN0p4VFFFWXFWOURUcXZMLUkzYjFPdlhsQVdfQ09RVFJPdGM3d3RPV3Jzdi01S1ZhdHlFektzZl9LSUNETTRKNGN3MW12WDROaW5BZS16eUFaNFNKeVlFNmFMV1JtNnk0TVN3Q3ozQ1hBT3Z6TlR6aUF1MFpEc1d5ZWdRd2ltRGZYWU9IbllwaEliNnJRUnJVS3ZlSTZneXhZYVU2aU5wZWNUSnRsRlJN?oc=5",
@@ -12638,12 +12654,6 @@ window.MATCHES = [
           "source": "CBS Sports",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdGdxaVkxU0JzT0FoelU0Y0w4ajVTeWhQWEwwOWJMRjBxUmJQRlNiLVFmdnM5c1lxemY3Wlc1cndEMnBZZDVWYWdxZDlsY0NUelhwMHlCczRNbWxUd2IxTElEM3Y5WTVqYU5Nc3ZlQkd2MHNpTWxNSk5WcUZ6dmlIVW5tMkc5STBJUFBhLVM2aHRGTjNJZU9ncndHUm55VWxCNUsxc2RiWUNYU0ZueU9OYktWQ0ZQZE9UUjdWMVR5eUlNUlNEUE1URQ?oc=5",
           "pubDate": "Sat, 20 Jun 2026 18:18:37 GMT"
-        },
-        {
-          "title": "In which city and stadium are Germany vs Ivory Coast playing today? Attendance, weather for WC game - bolavip.com",
-          "source": "bolavip.com",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcUtCZGRZcVE2Z0YzdzFLLUowVVpiQkVNVFo5UW9kVjU3STJwdkJNTWFKbUs1YTQyMkgtdXFCeEtrdjBfQkdZZFRVTVdKVndIS0gwaXp0cUFxVzNqTXdhQ21YeWlmekxlaGRWcEtNd3hmQXZaWWV2c2FoV3AxSjdTa3ZPZEpxVENoVmFwSDdFNFUxaEt5WVc1YmE2N2I1ZnNUUjBocU9ycmhsSTlEMXlEN1d5U2hJa0puMXVLT3VZN25oQVh3Mk9DRnl30gHPAUFVX3lxTE1iQ0VfcjlpN0NoczJvU0NDbXRsRFVZc1BoZ0ZZdXBuSVg3Wnd6Z1NYUjVvSTBYOGN1N05EU1ZvR2g3YzZxUEpBVFZWQVlYLVhnYjNvQjBoNUU3dGNxRDB0TXNzellRYTRrY1VNc1l4X3pIdnJ5NUYwanVfUkxBQVhYRVhnZ21xVjItYUttbHAxM2paN2lQWmg5ZGNyNXBXNFd0SUtFR2NoMU95QXJrWDk4ZnpkUDRKdFVMMFphSUw4a25YcXJLbTA3cmdNN1dBSQ?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 18:36:49 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -12652,7 +12662,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -12884,9 +12894,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -13318,7 +13328,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -14049,9 +14059,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -14448,7 +14458,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -14660,7 +14670,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -14913,8 +14923,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "‘Not much faith’: the view from Brazil as they prepare to face Scotland",
           "source": "www.theguardian.com",
@@ -14922,13 +14938,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -15059,9 +15075,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -15468,7 +15484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -15680,7 +15696,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15933,8 +15949,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "Football Daily | The dullest game of the World Cup so far? Welcome back, England",
           "source": "www.theguardian.com",
@@ -15954,13 +15976,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 01:16:00 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -16196,9 +16218,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -16605,7 +16627,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -17302,9 +17324,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17712,7 +17734,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17924,7 +17946,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -18177,8 +18199,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "Football Daily | The dullest game of the World Cup so far? Welcome back, England",
           "source": "www.theguardian.com",
@@ -18186,7 +18214,7 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 14:31:17 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -18409,9 +18437,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18821,7 +18849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -19034,7 +19062,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -19287,7 +19315,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Screen epics: World Cup 2026 viewing parties around the globe – in pictures",
@@ -19306,15 +19334,9 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/23/senegal-norway-world-cup-group-i-match-report",
           "pubDate": "Tue, 23 Jun 2026 02:10:28 GMT"
-        },
-        {
-          "title": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49148833/france-star-kylian-mbappe-fast-becoming-mr-world-cup",
-          "pubDate": "Wed, 24 Jun 2026 03:08:04 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -19537,9 +19559,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19642,7 +19664,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -19947,7 +19969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -20418,7 +20440,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live",
-          "pubDate": "Wed, 24 Jun 2026 15:48:57 GMT"
+          "pubDate": "Wed, 24 Jun 2026 16:03:14 GMT"
         },
         {
           "title": "Haaland doubles up again as Norway defeat Senegal and seal spot in World Cup last 32",
@@ -20650,9 +20672,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21060,7 +21082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -21558,7 +21580,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -21784,9 +21806,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -22193,7 +22215,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -22405,7 +22427,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -22658,7 +22680,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Amine Gouiri pounces to give Algeria victory and condemn Jordan to early World Cup exit",
@@ -22671,15 +22693,9 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/23/julian-alvarez-sparks-transfer-frenzy-by-telling-atletico-madrid-he-wants-to-leave",
           "pubDate": "Mon, 22 Jun 2026 23:06:05 GMT"
-        },
-        {
-          "title": "Messi makes history and shows why Argentina star i...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49146756/lionel-messi-world-cup-goals-record-argentina-austria-analysis",
-          "pubDate": "Wed, 24 Jun 2026 03:07:52 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -22902,9 +22918,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23007,7 +23023,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -23314,7 +23330,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -23337,7 +23353,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "1-1",
@@ -23351,7 +23367,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "2-0",
           "1-0",
@@ -23379,7 +23395,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 69,
+        "chance": 68,
         "examples": [
           "2-0",
           "1-0",
@@ -23408,13 +23424,13 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 45,
       "under25": 55,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "bttsYes": 41,
+      "bttsNo": 59,
       "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 2,
+      "awayWinBy2Plus": 3,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.49,
-      "totalGoalsLean": "小于2.5球",
+      "expectedTotalGoals": 2.52,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -23515,10 +23531,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -23526,7 +23542,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -23762,11 +23778,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
+        "goalLift": 0,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -23779,7 +23795,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Colombia qualify for last 32 with win over DR Congo",
@@ -23794,25 +23810,19 @@ window.MATCHES = [
           "pubDate": "Tue, 23 Jun 2026 19:47:48 GMT"
         },
         {
-          "title": "'I'm back' - record-breaking Ronaldo answers critics",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT"
-        },
-        {
           "title": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
           "pubDate": "Wed, 24 Jun 2026 04:14:28 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -24030,17 +24040,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "'I'm back' - record-breaking Ronaldo answers critics",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT",
-              "description": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -24048,9 +24048,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -24122,8 +24122,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.9,
-      "away": 0.6
+      "home": 1.92,
+      "away": 0.61
     },
     "analysisUpdated": "2026-06-24",
     "matchAutopsy": {
@@ -24457,7 +24457,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -25181,9 +25181,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25591,7 +25591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -26088,7 +26088,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -26314,9 +26314,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26724,7 +26724,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26936,7 +26936,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -27189,7 +27189,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Colombia qualify for last 32 with win over DR Congo",
@@ -27208,21 +27208,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
           "pubDate": "Wed, 24 Jun 2026 04:14:28 GMT"
-        },
-        {
-          "title": "Ronaldo snaps goal drought, 1st to score at 6 WCs",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan",
-          "pubDate": "Wed, 24 Jun 2026 11:39:59 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -27448,9 +27442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27552,7 +27546,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -27881,7 +27875,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -28378,7 +28372,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -28620,9 +28614,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -29053,7 +29047,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -29784,9 +29778,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -30218,7 +30212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -30227,8 +30221,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      65,
+      26,
       9
     ],
     "confidence": 78,
@@ -30241,7 +30235,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "1-1",
@@ -30249,13 +30243,13 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "2-0",
           "1-0",
@@ -30264,7 +30258,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
@@ -30272,7 +30266,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 20,
+        "chance": 21,
         "examples": [
           "3-0",
           "4-0",
@@ -30283,7 +30277,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 69,
+        "chance": 68,
         "examples": [
           "2-0",
           "1-0",
@@ -30292,7 +30286,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 65,
         "examples": [
           "2-0",
           "1-0",
@@ -30301,7 +30295,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "2-0",
           "3-0",
@@ -30310,29 +30304,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.46,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.55,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "blendWeight": 0,
@@ -30419,10 +30413,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 46,
-        "contribution": 0.12,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "contribution": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -30666,11 +30660,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 46,
-        "goalLift": -0.09,
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -30685,12 +30679,6 @@ window.MATCHES = [
       "weight": 0.08,
       "articleCount": 4,
       "articles": [
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
         {
           "title": "Switzerland vs Canada Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group B - RotoWire",
           "source": "RotoWire",
@@ -30708,6 +30696,12 @@ window.MATCHES = [
           "source": "The New York Times",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWWRpTk1WSkgyNUtoR1lRLVhDTEFCWXJOaGIzc0FrdFJCck1fWEI2Q2ZET2tneE5SaXRQb09XdXRMQ19DU3RQekRCdVc5ejRfWGFZRW9CWEZQUDBOVXFZTDJYS3ZhQXlNSng1Ujk1czBMOUVPWHpEZWZFSGVidWVlYmVOcGNvbFhmcmVINw?oc=5",
           "pubDate": "Sun, 21 Jun 2026 18:26:29 GMT"
+        },
+        {
+          "title": "Canada embraces winning mindset against Switzerland, Alphonso Davies likely to see action - The Globe and Mail",
+          "source": "The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHI1VFhZaWNQcms3NHU0MkJOanZuM1lBdUVscEtUbXFteVNSZmlCNExJanh5dUNGenlYV1IzSWVVMDdTbWwydGk0WS1meVh5cXZqZnEyQmsxQmlDRDRKall2MzhIWFMySEtIQU9yQnc5TGlZSEd2OFFiRloxMGxaa0JaMGRPdDVnelFCRmZoaXdDV3AxT19UazUyUVJDMEFxRjlCWTBDWQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 00:17:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -30716,7 +30710,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -30960,6 +30954,15 @@ window.MATCHES = [
               "description": "Bosnia vs Qatar – Predicted lineup and team news &nbsp;&nbsp; Yahoo Sports",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Canada vs Qatar Team News: Predicted World Cup starting XI, injury updates and squad in full - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdUoxT3VKbzdHWHBZSFloTGN6TllMdkR1R2FhYVBkUEVMVWRZN0xaNXBPTzVWNTBaMm1rdUszcnZXVjJFXzk5alo2UDJjTGlMNUJfRHRyZW5HSVhLVllfSUcyU1VqdlFVXzk2YUI3WllMT2dCYl96OWptWngtNlVNLVFR?oc=5",
+              "pubDate": "Fri, 12 Jun 2026 19:49:35 GMT",
+              "description": "Canada vs Qatar Team News: Predicted World Cup starting XI, injury updates and squad in full &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         },
@@ -30986,18 +30989,46 @@ window.MATCHES = [
               "description": "Qatar's sports minister, Madibo visit Canada's injured Kone &nbsp;&nbsp; Reuters",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury - Norwalk Hour",
+              "source": "Norwalk Hour",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWV9NSUJrX0EyY25aQ3ZhVjAxZzBZQkpPXzFLNTZlOTVNSUU1VWpZMmRvdDZrTFJjZTF1Q0xDTnNfOUpLSm44UG5nbUkzMExNTEFIRlp1c3hFc1poRTlBVlU2ZE9aTWI3bDdTS3FQSVpXTmxrbzZqVzI1YVVReEJqY1BCVFBSYllwV3ZkQlJTMGJSZXZGMkNnQ29NTks?oc=5",
+              "pubDate": "Fri, 19 Jun 2026 21:19:46 GMT",
+              "description": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury &nbsp;&nbsp; Norwalk Hour",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Canada vs Qatar Team News: Predicted World Cup starting XI, injury updates and squad in full - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdUoxT3VKbzdHWHBZSFloTGN6TllMdkR1R2FhYVBkUEVMVWRZN0xaNXBPTzVWNTBaMm1rdUszcnZXVjJFXzk5alo2UDJjTGlMNUJfRHRyZW5HSVhLVllfSUcyU1VqdlFVXzk2YUI3WllMT2dCYl96OWptWngtNlVNLVFR?oc=5",
+              "pubDate": "Fri, 12 Jun 2026 19:49:35 GMT",
+              "description": "Canada vs Qatar Team News: Predicted World Cup starting XI, injury updates and squad in full &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference - reutersconnect.com",
+              "source": "reutersconnect.com",
+              "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUmZUYjZILXNXRERmNzhVVFo3MzQydVMtMmlpbmdzRVJNM3VXWUdUcnNLdnhSdHZiMWlGWGpyZlIwaUNfT0VuVmMyQWcxNHBuYkZ4LXhTc2liZXJpbjg5anA5VWItcWd1aFJXaXd2MWdXNWU4Rm11TlRsdDVncmp5R2wyUjVHV3lzUW9wUkFyZ2pWQWtQMEkybnpKZXpwYmt6UEJBWHlBWV9xaXZZdnlJaFpqamhxbThUN2NjZUJsZVoxM2xicHdjeFJqRFNLNXhX?oc=5",
+              "pubDate": "Thu, 11 Jun 2026 22:30:00 GMT",
+              "description": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference &nbsp;&nbsp; reutersconnect.com",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -31069,8 +31100,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.87,
-      "away": 0.59
+      "home": 1.94,
+      "away": 0.61
     },
     "analysisUpdated": "2026-06-24",
     "matchAutopsy": {
@@ -31405,7 +31436,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -31497,14 +31528,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
+      "over25": 47,
+      "under25": 53,
       "bttsYes": 58,
       "bttsNo": 42,
       "homeWinBy2Plus": 19,
       "awayWinBy2Plus": 10,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.69,
+      "expectedTotalGoals": 2.72,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -31606,10 +31637,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -31853,11 +31884,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -31873,18 +31904,6 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Mexico players want Ochoa for historic WC start",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-          "pubDate": "Wed, 24 Jun 2026 11:51:46 EST"
-        },
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
-        {
           "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
           "source": "RotoWire",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -31895,6 +31914,18 @@ window.MATCHES = [
           "source": "Yahoo Sports",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1Y0akh2Y04yWl92dGV2bTRKdTg3bkNUX2ttX3hnUnVVTGdobnZBakoxd09MNTNRWG84cGx1UmJFdFVzTzFUNDlPZWZHQm9lS3pzall1MjV3clpDLTlSUHE0d25LLU8yeVlrbEx1Nlp0UFdLdjFTdTUzUXBzd3cwSU5GRFVnOTNS?oc=5",
           "pubDate": "Tue, 23 Jun 2026 01:05:00 GMT"
+        },
+        {
+          "title": "How And Where To Watch: Czech Republic vs Mexico in Group A of the 2026 FIFA World Cup - beIN SPORTS",
+          "source": "beIN SPORTS",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDE4dEpKempkdlYwT0luczBrZWlQR3JpLW9hTmp6ckJNQlRqeVRVZWgtSy1wbXA4YllFamQ5VTVLYjVDQTJ4bGFVangwVWUtZGIzOHN4ZUJ4dWxZdnp5bEpLZWQ3eG1QdTVwOE1rQU91R3hpQThYcGNWOEllZHBCODkxdHhXX0R0ZnRGbUNjTkFrZVVMVkhjZERWWkVwQ1JfY25UQkhWSUgtUDVreGJ0MWhvOWJKZ2JXYW1QVlNSOE9va0lvLTlZYlIzS1dDNWlWeXhkNXljV2kxR3JUUno0YnN0VTBTclNwaDFsQkktN3FiQ2M3VlJTWkQ2eGtLdw?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 11:54:31 GMT"
+        },
+        {
+          "title": "Mexico XI vs Czechia – Predicted lineup and team news - Yahoo Sports",
+          "source": "Yahoo Sports",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV1FsYmdoZ0ZZNGlhOVNCdGVYbVNUc3VnUXE0MWdZSEpLOVEyamt6ZEdLTldNNXFZcVRYODRFTzFWMThUbUUwYVZ5bGV5SW5QUGNxMENnZW41RkxQZHZ6cVdtaFEtSkw4Zzk4d1BxM0VpTjFvMjNXVlNFa3hpb29FWFowU01WQQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 13:55:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -32113,15 +32144,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
               "source": "RotoWire",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -32143,7 +32165,7 @@ window.MATCHES = [
               "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-              "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT",
+              "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT",
               "description": "Mexico projected World Cup lineup vs Czechia: Probable starting XI &nbsp;&nbsp; USA Today",
               "bodyText": "",
               "bodyError": ""
@@ -32164,17 +32186,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -32210,9 +32222,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -32285,8 +32297,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.56,
-      "away": 1.13
+      "home": 1.58,
+      "away": 1.14
     },
     "analysisUpdated": "2026-06-24",
     "matchAutopsy": {
@@ -32645,7 +32657,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -33143,7 +33155,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -33395,9 +33407,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -33832,7 +33844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -34573,9 +34585,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -35007,7 +35019,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -35505,7 +35517,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -35737,9 +35749,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -36147,7 +36159,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -36924,9 +36936,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -37358,7 +37370,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -37878,7 +37890,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -38149,9 +38161,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -38569,7 +38581,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -39089,7 +39101,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -39350,9 +39362,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -39768,7 +39780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -40258,10 +40270,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "'Crying long before the anthems': A week in the life of a 2026 World Cup player",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49161306/a-week-life-2026-world-cup-player-curacao-gervane-kastaneer",
-          "pubDate": "Wed, 24 Jun 2026 08:34:23 EST"
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
         },
         {
           "title": "Curacao vs Ivory Coast Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group E - RotoWire",
@@ -40276,10 +40288,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 14:00:48 GMT"
         },
         {
-          "title": "Curaçao - FIFA",
-          "source": "FIFA",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOblIwQXhyLVlEQjg2OXNQQjFvc0JWRnhOWUZSYXdQaFM0QmpMNjFUSDZjZDQzUE9ZSVdmSjI1ZGFxaGxteFBNX2h0R0QzQTB0NXBLYWJvQ2tCYUtLVWJEb0t1eVBnZDhRWkE5NS04Vk5SQ1c0VnlpckFhSHEtM2phdDBsSlluMW5tbkpDOGJ5bzBfNnM?oc=5",
-          "pubDate": "Wed, 17 Jun 2026 16:35:26 GMT"
+          "title": "What happens if Ecuador win, tie or lose vs Curacao today at the 2026 World Cup? - bolavip.com",
+          "source": "bolavip.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUlFLZDJoVGgtX1pEWV9CVlVXNDd5XzRGM1NqeVRPYTJ4TVM3LVVNc1VQWXdNUkhab2VlaVg5UTAwWVBqX2pDUVZ3TjFoa0M3NFNWaTBDcG1vb0VVRjIxc3poby1vNVpNZHo3V1diUC1MT1pfQ0hMVmViSmN4U2UwaFlRZmRWQWhfTDB3OE9nblF6Y3NIN18wRFhtVlFKNUM4eUVfZkdYWFg2YW5VMzFxUtIBtgFBVV95cUxQVF9YdklHUEV4bnRiNjBPTGJyMFp6VW8yVEpxZU41T3NNTFY1amMzQU5tSGlCQ0xlbUhyLUNTR3loT1gySXhEaXhSSEhLLTJUUS01NTdtTm1heG4za0NSeTludzhYUUlFLW10WjNQaDB3T09DcmlaU005UVMzMDJvMzdqR25fM0JzdC1RaVZzSnBWZ1lhQ3U3YmQzbnpia1RXbENpVFhSRmVROVdVeHZnUVJoNmUxUQ?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 21:34:22 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40288,7 +40300,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -40520,9 +40532,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -40961,7 +40973,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -41714,9 +41726,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -42132,7 +42144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -42352,7 +42364,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -42620,8 +42632,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "‘Not much faith’: the view from Brazil as they prepare to face Scotland",
           "source": "www.theguardian.com",
@@ -42629,13 +42647,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -42861,9 +42879,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43278,7 +43296,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -43498,7 +43516,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -43766,8 +43784,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "World Cup Buzz: Belgium Forward Returns To Team After Birth Of First Chikd - FOX Sports",
           "source": "FOX Sports",
@@ -43775,7 +43799,7 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 01:16:00 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44008,9 +44032,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44415,7 +44439,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -44635,7 +44659,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -44866,9 +44890,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -44900,10 +44924,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.36。市场倾向 乌拉圭。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -45031,9 +45064,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45449,7 +45482,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -45958,7 +45991,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -46184,9 +46217,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46601,7 +46634,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -47340,9 +47373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47759,7 +47792,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -47980,7 +48013,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -48248,7 +48281,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Screen epics: World Cup 2026 viewing parties around the globe – in pictures",
@@ -48261,21 +48294,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/24/view-brazil-scotland-neymar-casemiro-endrick-world-cup-2026",
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
-        },
-        {
-          "title": "France star Kylian Mbappé is fast becoming 'Mr. Wo...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49148833/france-star-kylian-mbappe-fast-becoming-mr-world-cup",
-          "pubDate": "Wed, 24 Jun 2026 03:08:04 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -48501,9 +48528,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -48613,7 +48640,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -48920,7 +48947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -49414,7 +49441,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live",
-          "pubDate": "Wed, 24 Jun 2026 15:48:57 GMT"
+          "pubDate": "Wed, 24 Jun 2026 16:03:14 GMT"
         },
         {
           "title": "Haaland doubles up again as Norway defeat Senegal and seal spot in World Cup last 32",
@@ -49676,9 +49703,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50095,7 +50122,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -50815,9 +50842,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51235,7 +51262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -51327,14 +51354,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
+      "over25": 49,
+      "under25": 51,
       "bttsYes": 43,
       "bttsNo": 57,
-      "homeWinBy2Plus": 43,
+      "homeWinBy2Plus": 44,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.64,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.67,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -51444,10 +51471,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -51455,7 +51482,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -51691,11 +51718,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
+        "goalLift": 0,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -51723,40 +51750,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Portugal thrash Uzbekistan as Ronaldo scores twice to make history",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c932y4rrw02o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Tue, 23 Jun 2026 19:47:48 GMT"
-        },
-        {
-          "title": "'I'm back' - record-breaking Ronaldo answers critics",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT"
-        },
-        {
-          "title": "Ronaldo snaps goal drought, 1st to score at 6 WCs",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan",
-          "pubDate": "Wed, 24 Jun 2026 11:39:59 EST"
-        },
-        {
-          "title": "Fernandes relieved over Ronaldo's brace",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49163841/bruno-fernandes-relieved-cristiano-ronaldo-brace",
-          "pubDate": "Wed, 24 Jun 2026 11:51:46 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.5,
@@ -51974,17 +51983,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "'I'm back' - record-breaking Ronaldo answers critics",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT",
-              "description": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -51992,9 +51991,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -52104,7 +52103,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -52409,7 +52408,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -53167,9 +53166,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53585,7 +53584,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -53788,7 +53787,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "Toronto：22.5°C / 降雨14% / 风速24.4km/h。天气风险未见明显异常，暂不显著调整基础判断。"
+        "evidence": "Toronto：22.5°C / 降雨22% / 风速24.4km/h。天气风险未见明显异常，暂不显著调整基础判断。"
       },
       {
         "name": "临场新闻",
@@ -54105,15 +54104,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.5,
         "temperatureMin": 13.6,
-        "precipitationProbability": 14,
+        "precipitationProbability": 22,
         "windSpeedMax": 24.4,
         "timezone": "America/Toronto",
-        "text": "Toronto 当日约 13.6-22.5°C，降雨概率 14%，最大风速 24.4km/h。",
+        "text": "Toronto 当日约 13.6-22.5°C，降雨概率 22%，最大风速 24.4km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -54341,9 +54340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54758,7 +54757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -55503,9 +55502,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55945,7 +55944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -55964,11 +55963,11 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-1",
-        "chance": 7
+        "chance": 6
       },
       {
         "score": "1-1",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "2-2",
@@ -55983,7 +55982,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 19,
+        "chance": 18,
         "examples": [
           "1-1",
           "0-0"
@@ -55991,7 +55990,7 @@ window.MATCHES = [
       },
       {
         "label": "高比分平局",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "2-2",
           "3-3",
@@ -55999,28 +55998,28 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队小胜",
+        "label": "主队对攻胜",
         "chance": 13,
         "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
+          "3-1",
+          "3-2",
+          "4-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "开放对攻",
-        "chance": 49,
+        "chance": 51,
         "examples": [
           "2-2",
-          "3-1",
-          "3-3"
+          "3-3",
+          "3-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 34,
+        "chance": 33,
         "examples": [
           "1-1",
           "2-1",
@@ -56038,14 +56037,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 70,
-      "under25": 30,
-      "bttsYes": 76,
-      "bttsNo": 24,
-      "homeWinBy2Plus": 20,
+      "over25": 71,
+      "under25": 29,
+      "bttsYes": 77,
+      "bttsNo": 23,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.84,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.95,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -56058,9 +56057,9 @@ window.MATCHES = [
         30
       ],
       "market": [
-        38,
+        39,
         32,
-        30
+        29
       ],
       "blended": [
         35,
@@ -56071,11 +56070,11 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        5,
+        6,
         -5,
-        0
+        -1
       ],
-      "summary": "模型原始概率 33/37/30%；市场隐含概率 38/32/30%；按 50% 权重校准后为 35/35/30%。"
+      "summary": "模型原始概率 33/37/30%；市场隐含概率 39/32/29%；按 50% 权重校准后为 35/35/30%。"
     },
     "motivation": {
       "phase": "group",
@@ -56170,9 +56169,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -56180,7 +56179,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主38% / 平32% / 客30%，倾向瑞士。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主39% / 平32% / 客29%，倾向瑞士。"
       }
     ],
     "modelInputs": {
@@ -56429,10 +56428,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "awayScore": 48,
+        "goalLift": 0.11,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -56445,16 +56444,16 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 2.46,
-        "draw": 3,
-        "away": 3.23
+        "draw": 2.99,
+        "away": 3.24
       },
       "impliedProbabilities": [
-        38,
+        39,
         32,
-        30
+        29
       ],
       "marketFavorite": "瑞士",
-      "note": "已接入赔率市场，48 家公司均值：主 2.46 / 平 3 / 客 3.23。市场倾向 瑞士。"
+      "note": "已接入赔率市场，48 家公司均值：主 2.46 / 平 2.99 / 客 3.24。市场倾向 瑞士。"
     },
     "expertSignals": {
       "status": "connected",
@@ -56493,7 +56492,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 21.9,
@@ -56754,7 +56753,17 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury - Norwalk Hour",
+              "source": "Norwalk Hour",
+              "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWV9NSUJrX0EyY25aQ3ZhVjAxZzBZQkpPXzFLNTZlOTVNSUU1VWpZMmRvdDZrTFJjZTF1Q0xDTnNfOUpLSm44UG5nbUkzMExNTEFIRlp1c3hFc1poRTlBVlU2ZE9aTWI3bDdTS3FQSVpXTmxrbzZqVzI1YVVReEJqY1BCVFBSYllwV3ZkQlJTMGJSZXZGMkNnQ29NTks?oc=5",
+              "pubDate": "Fri, 19 Jun 2026 21:19:46 GMT",
+              "description": "One Extraordinary Photo: Canada's Ismael Kone reacts to his injury &nbsp;&nbsp; Norwalk Hour",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -56777,13 +56786,22 @@ window.MATCHES = [
               "description": "Canada vice-captain Stephen Eustaquio misses training in build up to Switzerland game - The Athletic &nbsp;&nbsp; The New York Times",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference - reutersconnect.com",
+              "source": "reutersconnect.com",
+              "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUmZUYjZILXNXRERmNzhVVFo3MzQydVMtMmlpbmdzRVJNM3VXWUdUcnNLdnhSdHZiMWlGWGpyZlIwaUNfT0VuVmMyQWcxNHBuYkZ4LXhTc2liZXJpbjg5anA5VWItcWd1aFJXaXd2MWdXNWU4Rm11TlRsdDVncmp5R2wyUjVHV3lzUW9wUkFyZ2pWQWtQMEkybnpKZXpwYmt6UEJBWHlBWV9xaXZZdnlJaFpqamhxbThUN2NjZUJsZVoxM2xicHdjeFJqRFNLNXhX?oc=5",
+              "pubDate": "Thu, 11 Jun 2026 22:30:00 GMT",
+              "description": "Licensable picture: FIFA World Cup 2026 - Canada Press Conference &nbsp;&nbsp; reutersconnect.com",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -56854,8 +56872,8 @@ window.MATCHES = [
       "真实采集 5 项，模型推断 1 项，缺口 1 项。"
     ],
     "expectedGoals": {
-      "home": 2.05,
-      "away": 1.79
+      "home": 2.11,
+      "away": 1.84
     },
     "analysisUpdated": "2026-06-24"
   },
@@ -57181,7 +57199,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -57678,9 +57696,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 1.36,
-        "draw": 5.39,
-        "away": 8.09
+        "home": 1.35,
+        "draw": 5.44,
+        "away": 8.1
       },
       "impliedProbabilities": [
         70,
@@ -57688,7 +57706,7 @@ window.MATCHES = [
         12
       ],
       "marketFavorite": "波黑",
-      "note": "已接入赔率市场，48 家公司均值：主 1.36 / 平 5.39 / 客 8.09。市场倾向 波黑。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.35 / 平 5.44 / 客 8.1。市场倾向 波黑。"
     },
     "expertSignals": {
       "status": "connected",
@@ -57696,12 +57714,6 @@ window.MATCHES = [
       "weight": 0.08,
       "articleCount": 4,
       "articles": [
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
         {
           "title": "Bosnia and Herzegovina vs Qatar Preview, Lineups & Team News - RotoWire",
           "source": "RotoWire",
@@ -57719,6 +57731,12 @@ window.MATCHES = [
           "source": "Sarajevo Times",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZ040Z0gzaWpkc2ttLU5TTm1md0o0WFJVTkEydm5YMml1aGJyVFFtcUVta3A5OENaX0ZpY3hvZFcyZVVUdnZUZHNWc2VNVzNxRFF3MDNfWWVRdFFyYWx1QTNTcEtRWVpVclBNUkRlNi05YUNpQ3l0VFFYc25NNi1FQWdnS1VsMV9tOHNEblNRN3h1X1diWm8tdTBUc1djT2VZMklsN1lGVEIwdTkxQjg1XzRhaUFfQkdGRl9JUl8zd0hfT0RNUzB1NU9kS1ZEYjNPM0hFYVJSTnVUUdIB2gFBVV95cUxPZ040Z0gzaWpkc2ttLU5TTm1md0o0WFJVTkEydm5YMml1aGJyVFFtcUVta3A5OENaX0ZpY3hvZFcyZVVUdnZUZHNWc2VNVzNxRFF3MDNfWWVRdFFyYWx1QTNTcEtRWVpVclBNUkRlNi05YUNpQ3l0VFFYc25NNi1FQWdnS1VsMV9tOHNEblNRN3h1X1diWm8tdTBUc1djT2VZMklsN1lGVEIwdTkxQjg1XzRhaUFfQkdGRl9JUl8zd0hfT0RNUzB1NU9kS1ZEYjNPM0hFYVJSTnVUUQ?oc=5",
           "pubDate": "Tue, 23 Jun 2026 14:00:00 GMT"
+        },
+        {
+          "title": "How to watch today's Bosnia and Herzegovina vs Qatar World Cup game: Live stream, TV channel, and start time - Goal.com",
+          "source": "Goal.com",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTRzUlhBSVBkUmdzOVhQc0RJbDJXb3pweTB3bnlvclBxckU4dDFqLWJIcTIxMHhnb1BwOHk1cmtxekp0dEV4MFlQallaRWN3YkU2MUR1NGJsdlNRQl9xNVR5UXl2aHgyamthZkc1MldKZDRhd2RuRWNvbWxDdVhSeEUtblNnU1ZNbE1kaUVXVWtid082R2VXZ0VMb0VKbTc3ODNJMzcwQlctOHdKRzBKX0xJOWw1LVpmMS04?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 13:30:37 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -57727,7 +57745,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 20.3,
@@ -58006,9 +58024,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -58406,7 +58424,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -58630,9 +58648,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 45,
-        "awayScore": 45,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 4 条，客队 3 条。"
+        "awayScore": 46,
+        "contribution": -0.06,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -58889,10 +58907,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 45,
-        "awayScore": 45,
+        "awayScore": 46,
         "goalLift": -0.14,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 4 条，客队 3 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -58904,9 +58922,9 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 9.92,
-        "draw": 5.55,
-        "away": 1.31
+        "home": 10.06,
+        "draw": 5.56,
+        "away": 1.3
       },
       "impliedProbabilities": [
         10,
@@ -58914,7 +58932,7 @@ window.MATCHES = [
         73
       ],
       "marketFavorite": "巴西",
-      "note": "已接入赔率市场，48 家公司均值：主 9.92 / 平 5.55 / 客 1.31。市场倾向 巴西。"
+      "note": "已接入赔率市场，48 家公司均值：主 10.06 / 平 5.56 / 客 1.3。市场倾向 巴西。"
     },
     "expertSignals": {
       "status": "connected",
@@ -59163,15 +59181,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "World Cup history or World Cup limbo? Scotland fac...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49157487/scotland-dare-dream-world-cup-history-preview-brazil-steve-clarke-andy-robertson-qualify-knockouts",
-              "pubDate": "Wed, 24 Jun 2026 04:50:16 EST",
-              "description": "The good news is history is within Scotland's grasp. Win or draw against Brazil, and Scott Clarke's Scotland side can start planning for the knockout stages of the World Cup, writes Tom Hamilton.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Scotland's 2026 World Cup squad: All 26 players picked by Steve Clarke and why - ESPN",
               "source": "ESPN",
               "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOEMxOWU0Ym1OUWtYLUpkTXRmc1VRR2x4d0FST0Y2TmNueG4wVEhPRTRoQWx3OFNpNWlFS0x0Y0lLbnVJbmNyMzdydTVYQzNHVXJ3R2tDb0tINkp4Um96V0F6THNmNE1BNm9vZEdJMm5kU3IwSFE0bk15UURlSUlEandoazR2THNUQTAtNkFzcjNBTW1HZGZEMk9Wd19yRGZOOHI2bWxxRkI5djVZZkxsakpmUl92QmFqaDZPVUxn?oc=5",
@@ -59234,15 +59243,6 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
-              "title": "World Cup history or World Cup limbo? Scotland fac...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49157487/scotland-dare-dream-world-cup-history-preview-brazil-steve-clarke-andy-robertson-qualify-knockouts",
-              "pubDate": "Wed, 24 Jun 2026 04:50:16 EST",
-              "description": "The good news is history is within Scotland's grasp. Win or draw against Brazil, and Scott Clarke's Scotland side can start planning for the knockout stages of the World Cup, writes Tom Hamilton.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Neymar available for Scotland clash but not certain to play, Brazil coach says - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenhaX0VyTXU4OHA4enRuc281OXByeE1kOXNSaU40el9SLTc4c1BETHUwQWNSd3lKQmxKa1BGbm1pekZ3YVZaRTY5bFlkMVFPUVpBWWNUQ3dGLXUzQ0JIRFJpUl91U1pyNTU3eFlseFE0MW5CSzBxazlsRG5kcTJ5MFdOMXQ2SDFLcXpka2l1cjk5NzdoQnpGU3lIZmlyQnNNM1Q2UXBZX1FJSllnM0JKUHhCRHJOdDA?oc=5",
@@ -59258,15 +59258,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "World Cup history or World Cup limbo? Scotland fac...",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49157487/scotland-dare-dream-world-cup-history-preview-brazil-steve-clarke-andy-robertson-qualify-knockouts",
-              "pubDate": "Wed, 24 Jun 2026 04:50:16 EST",
-              "description": "The good news is history is within Scotland's grasp. Win or draw against Brazil, and Scott Clarke's Scotland side can start planning for the knockout stages of the World Cup, writes Tom Hamilton.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Neymar available for Scotland clash but not certain to play, Brazil coach says - Reuters",
               "source": "Reuters",
               "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenhaX0VyTXU4OHA4enRuc281OXByeE1kOXNSaU40el9SLTc4c1BETHUwQWNSd3lKQmxKa1BGbm1pekZ3YVZaRTY5bFlkMVFPUVpBWWNUQ3dGLXUzQ0JIRFJpUl91U1pyNTU3eFlseFE0MW5CSzBxazlsRG5kcTJ5MFdOMXQ2SDFLcXpka2l1cjk5NzdoQnpGU3lIZmlyQnNNM1Q2UXBZX1FJSllnM0JKUHhCRHJOdDA?oc=5",
@@ -59278,9 +59269,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -59682,7 +59673,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -59900,7 +59891,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "Atlanta：29.9°C / 降雨5% / 风速17.3km/h。天气风险未见明显异常，暂不显著调整基础判断。"
+        "evidence": "Atlanta：29.9°C / 降雨8% / 风速17.3km/h。天气风险未见明显异常，暂不显著调整基础判断。"
       },
       {
         "name": "临场新闻",
@@ -60181,8 +60172,8 @@ window.MATCHES = [
       "bookmakers": 48,
       "averageOdds": {
         "home": 1.17,
-        "draw": 7.45,
-        "away": 17.68
+        "draw": 7.5,
+        "away": 17.69
       },
       "impliedProbabilities": [
         82,
@@ -60190,7 +60181,7 @@ window.MATCHES = [
         5
       ],
       "marketFavorite": "摩洛哥",
-      "note": "已接入赔率市场，48 家公司均值：主 1.17 / 平 7.45 / 客 17.68。市场倾向 摩洛哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 1.17 / 平 7.5 / 客 17.69。市场倾向 摩洛哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -60211,16 +60202,16 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 09:00:41 GMT"
         },
         {
-          "title": "Morocco vs Haiti – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQTFONGJQX1JDQkU5Z2VqbG9DV254anc1QWZlOHpxUkhmYlFIcndrdFc1cnQ3QXhxN3JiVTFFUHVOUDRuSTlveDBZcW9jMlhUVV9QTWp2N0N6R2JJS3FBUHdhOXdONDhoYTNNTktwYU9GRVM5aXV3bzZxLW9aUDhOYmdIWnRxN3BqelE?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 05:30:00 GMT"
-        },
-        {
           "title": "Haiti's Possible Lineup to Face Morocco at the 2026 FIFA World Cup - beIN SPORTS",
           "source": "beIN SPORTS",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdkRfMmNrbDBKa3doRTVxMVhXc0FPQUdaYkt6MkpYdmNiSFRyb3RvbENfLV9TMkdCQ0Myb2ZJQy1YdTZ6UkF2VzNxTmMxVzhIMmxxbmZmNHVhckZXQ3dzMnh2eUlma0RJZkZKQmg0UVNlbEhtOG9Bakppc1UtcjJ1ekoxSkc3UXlzUzg5VEZLcC1SdDdtMEFOeXVxVmFZRDFuV1NRS1pxbjV3RllJTGRiMXRaUzZjMnAzNVgwLWVqN1dWNlJEYUw2V0t3bXZTbmJSUG54ajhYbFlQQVZrMzdN?oc=5",
           "pubDate": "Wed, 24 Jun 2026 04:08:00 GMT"
+        },
+        {
+          "title": "‘There Are No New Names’: Ouahbi on Morocco’s Squad Ahead of Haiti Match - Morocco World News",
+          "source": "Morocco World News",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlhKRHMyc0FpcWNGNW00OGJuQ1VQQjg5MVQyLWdxWTlwWFFTMTNiV19Za01BVDFDemhJLWdMX3NvOEJLd1l4S2k3LWppVzNqNnpVb3FocWsxSEFRQkthdVdVYmpTaHpndHU0OXRFUEtSd19hNHdOeGpHVGhsaldxeTE0UGZOY0Jra1FKVDRURFNhaXF1RE5oelFTUmhWcVZFTmxxUUtQTXYxaDFlSXRDVW5SVlItQkNQ?oc=5",
+          "pubDate": "Tue, 23 Jun 2026 19:48:50 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -60229,15 +60220,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 29.9,
         "temperatureMin": 19.3,
-        "precipitationProbability": 5,
+        "precipitationProbability": 8,
         "windSpeedMax": 17.3,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 19.3-29.9°C，降雨概率 5%，最大风速 17.3km/h。",
+        "text": "Atlanta 当日约 19.3-29.9°C，降雨概率 8%，最大风速 17.3km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -60448,15 +60439,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Morocco vs Haiti – Predicted lineup and team news - Yahoo Sports",
-              "source": "Yahoo Sports",
-              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQTFONGJQX1JDQkU5Z2VqbG9DV254anc1QWZlOHpxUkhmYlFIcndrdFc1cnQ3QXhxN3JiVTFFUHVOUDRuSTlveDBZcW9jMlhUVV9QTWp2N0N6R2JJS3FBUHdhOXdONDhoYTNNTktwYU9GRVM5aXV3bzZxLW9aUDhOYmdIWnRxN3BqelE?oc=5",
-              "pubDate": "Wed, 24 Jun 2026 05:30:00 GMT",
-              "description": "Morocco vs Haiti – Predicted lineup and team news &nbsp;&nbsp; Yahoo Sports",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Haiti's Possible Lineup to Face Morocco at the 2026 FIFA World Cup - beIN SPORTS",
               "source": "beIN SPORTS",
               "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdkRfMmNrbDBKa3doRTVxMVhXc0FPQUdaYkt6MkpYdmNiSFRyb3RvbENfLV9TMkdCQ0Myb2ZJQy1YdTZ6UkF2VzNxTmMxVzhIMmxxbmZmNHVhckZXQ3dzMnh2eUlma0RJZkZKQmg0UVNlbEhtOG9Bakppc1UtcjJ1ekoxSkc3UXlzUzg5VEZLcC1SdDdtMEFOeXVxVmFZRDFuV1NRS1pxbjV3RllJTGRiMXRaUzZjMnAzNVgwLWVqN1dWNlJEYUw2V0t3bXZTbmJSUG54ajhYbFlQQVZrMzdN?oc=5",
@@ -60471,6 +60453,15 @@ window.MATCHES = [
               "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlhKRHMyc0FpcWNGNW00OGJuQ1VQQjg5MVQyLWdxWTlwWFFTMTNiV19Za01BVDFDemhJLWdMX3NvOEJLd1l4S2k3LWppVzNqNnpVb3FocWsxSEFRQkthdVdVYmpTaHpndHU0OXRFUEtSd19hNHdOeGpHVGhsaldxeTE0UGZOY0Jra1FKVDRURFNhaXF1RE5oelFTUmhWcVZFTmxxUUtQTXYxaDFlSXRDVW5SVlItQkNQ?oc=5",
               "pubDate": "Tue, 23 Jun 2026 19:48:50 GMT",
               "description": "‘There Are No New Names’: Ouahbi on Morocco’s Squad Ahead of Haiti Match &nbsp;&nbsp; Morocco World News",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Morocco vs Haiti – Predicted lineup and team news - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQTFONGJQX1JDQkU5Z2VqbG9DV254anc1QWZlOHpxUkhmYlFIcndrdFc1cnQ3QXhxN3JiVTFFUHVOUDRuSTlveDBZcW9jMlhUVV9QTWp2N0N6R2JJS3FBUHdhOXdONDhoYTNNTktwYU9GRVM5aXV3bzZxLW9aUDhOYmdIWnRxN3BqelE?oc=5",
+              "pubDate": "Wed, 24 Jun 2026 05:30:00 GMT",
+              "description": "Morocco vs Haiti – Predicted lineup and team news &nbsp;&nbsp; Yahoo Sports",
               "bodyText": "",
               "bodyError": ""
             },
@@ -60498,9 +60489,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -60898,7 +60889,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -60907,9 +60898,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      22,
+      21,
       28,
-      50
+      51
     ],
     "confidence": 76,
     "tag": "稳健",
@@ -60963,7 +60954,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 46,
+        "chance": 45,
         "examples": [
           "1-1",
           "1-2",
@@ -60971,43 +60962,43 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队胜出覆盖",
-        "chance": 50,
-        "examples": [
-          "1-2",
-          "0-2",
-          "1-3"
-        ]
-      },
-      {
         "label": "客队优势胜",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "0-2",
           "1-3",
           "0-3"
         ]
+      },
+      {
+        "label": "客队胜出覆盖",
+        "chance": 51,
+        "examples": [
+          "1-2",
+          "0-2",
+          "1-3"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 63,
-      "bttsNo": 37,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 64,
+      "bttsNo": 36,
       "homeWinBy2Plus": 9,
-      "awayWinBy2Plus": 31,
+      "awayWinBy2Plus": 32,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.26,
+      "expectedTotalGoals": 3.32,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "connected",
       "modelOnly": [
-        20,
+        19,
         30,
-        50
+        51
       ],
       "market": [
         25,
@@ -61015,19 +61006,19 @@ window.MATCHES = [
         50
       ],
       "blended": [
-        22,
+        21,
         28,
-        50
+        51
       ],
       "blendWeight": 0.5,
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        5,
+        6,
         -5,
-        0
+        -1
       ],
-      "summary": "模型原始概率 20/30/50%；市场隐含概率 25/25/50%；按 50% 权重校准后为 22/28/50%。"
+      "summary": "模型原始概率 19/30/51%；市场隐含概率 25/25/50%；按 50% 权重校准后为 21/28/51%。"
     },
     "motivation": {
       "phase": "group",
@@ -61121,10 +61112,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -61380,11 +61371,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.06,
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -61396,7 +61387,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 3.74,
+        "home": 3.75,
         "draw": 3.83,
         "away": 1.92
       },
@@ -61406,7 +61397,7 @@ window.MATCHES = [
         50
       ],
       "marketFavorite": "墨西哥",
-      "note": "已接入赔率市场，48 家公司均值：主 3.74 / 平 3.83 / 客 1.92。市场倾向 墨西哥。"
+      "note": "已接入赔率市场，48 家公司均值：主 3.75 / 平 3.83 / 客 1.92。市场倾向 墨西哥。"
     },
     "expertSignals": {
       "status": "connected",
@@ -61414,18 +61405,6 @@ window.MATCHES = [
       "weight": 0.08,
       "articleCount": 4,
       "articles": [
-        {
-          "title": "Mexico players want Ochoa for historic WC start",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-          "pubDate": "Wed, 24 Jun 2026 11:51:46 EST"
-        },
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
         {
           "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
           "source": "RotoWire",
@@ -61437,6 +61416,18 @@ window.MATCHES = [
           "source": "Yahoo Sports",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1Y0akh2Y04yWl92dGV2bTRKdTg3bkNUX2ttX3hnUnVVTGdobnZBakoxd09MNTNRWG84cGx1UmJFdFVzTzFUNDlPZWZHQm9lS3pzall1MjV3clpDLTlSUHE0d25LLU8yeVlrbEx1Nlp0UFdLdjFTdTUzUXBzd3cwSU5GRFVnOTNS?oc=5",
           "pubDate": "Tue, 23 Jun 2026 01:05:00 GMT"
+        },
+        {
+          "title": "How And Where To Watch: Czech Republic vs Mexico in Group A of the 2026 FIFA World Cup - beIN SPORTS",
+          "source": "beIN SPORTS",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDE4dEpKempkdlYwT0luczBrZWlQR3JpLW9hTmp6ckJNQlRqeVRVZWgtSy1wbXA4YllFamQ5VTVLYjVDQTJ4bGFVangwVWUtZGIzOHN4ZUJ4dWxZdnp5bEpLZWQ3eG1QdTVwOE1rQU91R3hpQThYcGNWOEllZHBCODkxdHhXX0R0ZnRGbUNjTkFrZVVMVkhjZERWWkVwQ1JfY25UQkhWSUgtUDVreGJ0MWhvOWJKZ2JXYW1QVlNSOE9va0lvLTlZYlIzS1dDNWlWeXhkNXljV2kxR3JUUno0YnN0VTBTclNwaDFsQkktN3FiQ2M3VlJTWkQ2eGtLdw?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 11:54:31 GMT"
+        },
+        {
+          "title": "Mexico XI vs Czechia – Predicted lineup and team news - Yahoo Sports",
+          "source": "Yahoo Sports",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV1FsYmdoZ0ZZNGlhOVNCdGVYbVNUc3VnUXE0MWdZSEpLOVEyamt6ZEdLTldNNXFZcVRYODRFTzFWMThUbUUwYVZ5bGV5SW5QUGNxMENnZW41RkxQZHZ6cVdtaFEtSkw4Zzk4d1BxM0VpTjFvMjNXVlNFa3hpb29FWFowU01WQQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 13:55:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -61445,7 +61436,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 21.4,
@@ -61664,15 +61655,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
               "source": "RotoWire",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -61703,8 +61685,17 @@ window.MATCHES = [
               "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-              "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT",
+              "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT",
               "description": "Mexico projected World Cup lineup vs Czechia: Probable starting XI &nbsp;&nbsp; USA Today",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Mexico coach Javier Aguirre not swayed by calls to start Guillermo Ochoa vs. Czechia - ESPN",
+              "source": "ESPN",
+              "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdnhpNWR6aFJmNEFiMTRrRzgzejdGUWx2TzhnQkhjeVNpLTV4bVJBVmlyTlZjZWhNUWlBR250b1p2SU1JdzNSUXBHa3BlTlh6SFA5UVg2V2x1Vzd3aXhHbkhPYU1fLWJSa2F3SXoxZm5uMm1SdWJvbThzblVwSGtVSXBHYU9YQ0FxR1VNV0tQR1c4SkV2TExvM2JGUDcxRlRfd0xibWZOV1pxVnRoOGRTRTlacXhjQjZpVjZ6NnkzYXZIdDJ4VDMtcERwUFd2Qzh0?oc=5",
+              "pubDate": "Wed, 24 Jun 2026 11:10:00 GMT",
+              "description": "Mexico coach Javier Aguirre not swayed by calls to start Guillermo Ochoa vs. Czechia &nbsp;&nbsp; ESPN",
               "bodyText": "",
               "bodyError": ""
             }
@@ -61715,17 +61706,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -61761,9 +61742,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -61834,8 +61815,8 @@ window.MATCHES = [
       "真实采集 5 项，模型推断 1 项，缺口 1 项。"
     ],
     "expectedGoals": {
-      "home": 1.19,
-      "away": 2.07
+      "home": 1.21,
+      "away": 2.11
     },
     "analysisUpdated": "2026-06-24"
   },
@@ -62138,7 +62119,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -62636,7 +62617,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 5.92,
+        "home": 5.95,
         "draw": 3.92,
         "away": 1.6
       },
@@ -62646,7 +62627,7 @@ window.MATCHES = [
         60
       ],
       "marketFavorite": "韩国",
-      "note": "已接入赔率市场，48 家公司均值：主 5.92 / 平 3.92 / 客 1.6。市场倾向 韩国。"
+      "note": "已接入赔率市场，48 家公司均值：主 5.95 / 平 3.92 / 客 1.6。市场倾向 韩国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -62945,9 +62926,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -63300,7 +63281,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -63798,7 +63779,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 48,
       "averageOdds": {
-        "home": 18.22,
+        "home": 18.27,
         "draw": 8.07,
         "away": 1.15
       },
@@ -63808,7 +63789,7 @@ window.MATCHES = [
         83
       ],
       "marketFavorite": "科特迪瓦",
-      "note": "已接入赔率市场，48 家公司均值：主 18.22 / 平 8.07 / 客 1.15。市场倾向 科特迪瓦。"
+      "note": "已接入赔率市场，48 家公司均值：主 18.27 / 平 8.07 / 客 1.15。市场倾向 科特迪瓦。"
     },
     "expertSignals": {
       "status": "connected",
@@ -63817,10 +63798,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "'Crying long before the anthems': A week in the life of a 2026 World Cup player",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49161306/a-week-life-2026-world-cup-player-curacao-gervane-kastaneer",
-          "pubDate": "Wed, 24 Jun 2026 08:34:23 EST"
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
         },
         {
           "title": "Curacao vs Ivory Coast Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group E - RotoWire",
@@ -63847,7 +63828,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29,
@@ -64108,9 +64089,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -64510,7 +64491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -65033,6 +65014,12 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 15:00:48 GMT"
         },
         {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
+        {
           "title": "'It's just a statistic': Messi on tying all-time World Cup scoring record – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/jun/17/its-just-a-statistic-messi-on-tying-all-time-world-cup-scoring-record-video",
@@ -65043,12 +65030,6 @@ window.MATCHES = [
           "source": "FOX Sports",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFZ5M1BoUWNfR3RVSkZCRG04dkVMUkhheldHNFBKNllsaWgwNXAteWxCSUJHSmZYNHowVE5ZNm55WFM1Z0gzRFBHbDhyNUdDTzd2NllURWVONWVhVUdoNC1xV1JaZlN1S1QzTE5rRVZMTjdReTFvVWF4aTVOMU9QLTZDaWUzbmY3eFkzc3BYTjlpWkpaNW5OQdIBmAFBVV95cUxNQlc4cHBvcFFETlF0VDR3UGFJR1hwRVZ3Rk9ZR0FGQ21fbWM3ZEVQOV9iNHlMbGo0NHFiSWNPY1BOZG1VbzgtRGlkdWNOLXVYSzQ4QnZXa1BMTU12VGVRUFBXTnRJd2tFSHpINDlKYzd3U2hCOHJDdm5rMmR0LTR6ck4wMWZndnFuakJPZjBjc3R1bkp2T3dWaQ?oc=5",
           "pubDate": "Sat, 20 Jun 2026 14:00:48 GMT"
-        },
-        {
-          "title": "2026 World Cup picks, odds, predictions: Best bets for Germany-Ivory Coast, Tunisia-Japan on Saturday - CBS Sports",
-          "source": "CBS Sports",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdGdxaVkxU0JzT0FoelU0Y0w4ajVTeWhQWEwwOWJMRjBxUmJQRlNiLVFmdnM5c1lxemY3Wlc1cndEMnBZZDVWYWdxZDlsY0NUelhwMHlCczRNbWxUd2IxTElEM3Y5WTVqYU5Nc3ZlQkd2MHNpTWxNSk5WcUZ6dmlIVW5tMkc5STBJUFBhLVM2aHRGTjNJZU9ncndHUm55VWxCNUsxc2RiWUNYU0ZueU9OYktWQ0ZQZE9UUjdWMVR5eUlNUlNEUE1URQ?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 18:18:37 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -65346,9 +65327,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -65747,7 +65728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -66556,9 +66537,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -66957,7 +66938,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -67455,8 +67436,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 47,
       "averageOdds": {
-        "home": 23.42,
-        "draw": 9.49,
+        "home": 23.83,
+        "draw": 9.62,
         "away": 1.11
       },
       "impliedProbabilities": [
@@ -67465,7 +67446,7 @@ window.MATCHES = [
         86
       ],
       "marketFavorite": "荷兰",
-      "note": "已接入赔率市场，47 家公司均值：主 23.42 / 平 9.49 / 客 1.11。市场倾向 荷兰。"
+      "note": "已接入赔率市场，47 家公司均值：主 23.83 / 平 9.62 / 客 1.11。市场倾向 荷兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -67504,7 +67485,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 25.4,
@@ -67755,9 +67736,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
         "counts": {
@@ -68132,7 +68113,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -68632,7 +68613,7 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 3.58,
-        "draw": 4.02,
+        "draw": 4.01,
         "away": 1.92
       },
       "impliedProbabilities": [
@@ -68641,7 +68622,7 @@ window.MATCHES = [
         50
       ],
       "marketFavorite": "美国",
-      "note": "已接入赔率市场，47 家公司均值：主 3.58 / 平 4.02 / 客 1.92。市场倾向 美国。"
+      "note": "已接入赔率市场，47 家公司均值：主 3.58 / 平 4.01 / 客 1.92。市场倾向 美国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -68671,7 +68652,7 @@ window.MATCHES = [
           "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
           "source": "USA Today",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT"
+          "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -68932,9 +68913,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -69333,7 +69314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -69832,7 +69813,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 2.86,
         "draw": 2.24,
-        "away": 3.91
+        "away": 3.92
       },
       "impliedProbabilities": [
         34,
@@ -69840,7 +69821,7 @@ window.MATCHES = [
         24
       ],
       "marketFavorite": "平局",
-      "note": "已接入赔率市场，47 家公司均值：主 2.86 / 平 2.24 / 客 3.91。市场倾向 平局。"
+      "note": "已接入赔率市场，47 家公司均值：主 2.86 / 平 2.24 / 客 3.92。市场倾向 平局。"
     },
     "expertSignals": {
       "status": "connected",
@@ -70159,9 +70140,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -70536,7 +70517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -71035,7 +71016,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 47,
       "averageOdds": {
-        "home": 4.64,
+        "home": 4.63,
         "draw": 4.35,
         "away": 1.66
       },
@@ -71045,7 +71026,7 @@ window.MATCHES = [
         57
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，47 家公司均值：主 4.64 / 平 4.35 / 客 1.66。市场倾向 法国。"
+      "note": "已接入赔率市场，47 家公司均值：主 4.63 / 平 4.35 / 客 1.66。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -71057,7 +71038,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jun/24/world-cup-2026-final-group-games-bosnia-and-herzegovina-qatar-switzerland-canada-scotland-brazil-morocco-haiti-czechia-mexico-south-africa-south-korea-live",
-          "pubDate": "Wed, 24 Jun 2026 15:48:57 GMT"
+          "pubDate": "Wed, 24 Jun 2026 16:03:14 GMT"
         },
         {
           "title": "Screen epics: World Cup 2026 viewing parties around the globe – in pictures",
@@ -71301,9 +71282,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71680,7 +71661,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -72179,8 +72160,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.22,
-        "draw": 6.61,
-        "away": 12.7
+        "draw": 6.62,
+        "away": 12.67
       },
       "impliedProbabilities": [
         78,
@@ -72188,7 +72169,7 @@ window.MATCHES = [
         8
       ],
       "marketFavorite": "塞内加尔",
-      "note": "已接入赔率市场，47 家公司均值：主 1.22 / 平 6.61 / 客 12.7。市场倾向 塞内加尔。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.22 / 平 6.62 / 客 12.67。市场倾向 塞内加尔。"
     },
     "expertSignals": {
       "status": "connected",
@@ -72209,7 +72190,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 24.5,
@@ -72435,9 +72416,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -72800,7 +72781,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -73299,7 +73280,7 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 2.44,
-        "draw": 3.41,
+        "draw": 3.42,
         "away": 2.89
       },
       "impliedProbabilities": [
@@ -73308,14 +73289,20 @@ window.MATCHES = [
         33
       ],
       "marketFavorite": "佛得角",
-      "note": "已接入赔率市场，47 家公司均值：主 2.44 / 平 3.41 / 客 2.89。市场倾向 佛得角。"
+      "note": "已接入赔率市场，47 家公司均值：主 2.44 / 平 3.42 / 客 2.89。市场倾向 佛得角。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "‘Not much faith’: the view from Brazil as they prepare to face Scotland",
           "source": "www.theguardian.com",
@@ -73323,13 +73310,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 34.2,
@@ -73460,9 +73447,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -73836,7 +73823,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -74334,8 +74321,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 47,
       "averageOdds": {
-        "home": 6.94,
-        "draw": 4.12,
+        "home": 6.96,
+        "draw": 4.13,
         "away": 1.51
       },
       "impliedProbabilities": [
@@ -74344,14 +74331,20 @@ window.MATCHES = [
         63
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，47 家公司均值：主 6.94 / 平 4.12 / 客 1.51。市场倾向 西班牙。"
+      "note": "已接入赔率市场，47 家公司均值：主 6.96 / 平 4.13 / 客 1.51。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "‘Not much faith’: the view from Brazil as they prepare to face Scotland",
           "source": "www.theguardian.com",
@@ -74359,7 +74352,7 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -74582,9 +74575,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -74959,7 +74952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -75473,8 +75466,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "Football Daily | The dullest game of the World Cup so far? Welcome back, England",
           "source": "www.theguardian.com",
@@ -75488,13 +75487,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 10:22:26 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 20.6,
@@ -75720,9 +75719,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -76096,7 +76095,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -76595,8 +76594,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 47,
       "averageOdds": {
-        "home": 15.15,
-        "draw": 7.42,
+        "home": 15.2,
+        "draw": 7.43,
         "away": 1.18
       },
       "impliedProbabilities": [
@@ -76605,14 +76604,20 @@ window.MATCHES = [
         81
       ],
       "marketFavorite": "比利时",
-      "note": "已接入赔率市场，47 家公司均值：主 15.15 / 平 7.42 / 客 1.18。市场倾向 比利时。"
+      "note": "已接入赔率市场，47 家公司均值：主 15.2 / 平 7.43 / 客 1.18。市场倾向 比利时。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Red-hot strikers, errors and smart subs: why the 2026 World Cup is a goal-fest",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jun/24/red-hot-strikers-errors-and-smart-subs-why-the-2026-world-cup-is-a-goal-fest",
+          "pubDate": "Wed, 24 Jun 2026 15:56:11 GMT"
+        },
         {
           "title": "Football Daily | The dullest game of the World Cup so far? Welcome back, England",
           "source": "www.theguardian.com",
@@ -76626,13 +76631,13 @@ window.MATCHES = [
           "pubDate": "Wed, 24 Jun 2026 01:16:00 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 17.8,
@@ -76868,9 +76873,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -77244,7 +77249,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -77742,8 +77747,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 47,
       "averageOdds": {
-        "home": 15.81,
-        "draw": 7.76,
+        "home": 15.73,
+        "draw": 7.75,
         "away": 1.17
       },
       "impliedProbabilities": [
@@ -77752,7 +77757,7 @@ window.MATCHES = [
         82
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，47 家公司均值：主 15.81 / 平 7.76 / 客 1.17。市场倾向 英格兰。"
+      "note": "已接入赔率市场，47 家公司均值：主 15.73 / 平 7.75 / 客 1.17。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -78028,9 +78033,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78405,7 +78410,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -78904,8 +78909,8 @@ window.MATCHES = [
       "bookmakers": 47,
       "averageOdds": {
         "home": 1.77,
-        "draw": 3.29,
-        "away": 5.53
+        "draw": 3.28,
+        "away": 5.54
       },
       "impliedProbabilities": [
         54,
@@ -78913,7 +78918,7 @@ window.MATCHES = [
         17
       ],
       "marketFavorite": "克罗地亚",
-      "note": "已接入赔率市场，47 家公司均值：主 1.77 / 平 3.29 / 客 5.53。市场倾向 克罗地亚。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.77 / 平 3.28 / 客 5.54。市场倾向 克罗地亚。"
     },
     "expertSignals": {
       "status": "connected",
@@ -78952,7 +78957,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 26.7,
@@ -79178,9 +79183,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -79556,7 +79561,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -79621,7 +79626,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 43,
+        "chance": 42,
         "examples": [
           "1-1",
           "1-2",
@@ -79639,7 +79644,7 @@ window.MATCHES = [
       },
       {
         "label": "客队优势胜",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "0-2",
           "1-3",
@@ -79648,14 +79653,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 65,
-      "under25": 35,
+      "over25": 66,
+      "under25": 34,
       "bttsYes": 68,
       "bttsNo": 32,
       "homeWinBy2Plus": 10,
       "awayWinBy2Plus": 30,
       "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.46,
+      "expectedTotalGoals": 3.49,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -79780,9 +79785,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -80039,10 +80044,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": -0.03,
+        "awayScore": 50,
+        "goalLift": 0,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -80054,8 +80059,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 45,
       "averageOdds": {
-        "home": 3.97,
-        "draw": 3.71,
+        "home": 3.99,
+        "draw": 3.69,
         "away": 1.89
       },
       "impliedProbabilities": [
@@ -80064,13 +80069,13 @@ window.MATCHES = [
         50
       ],
       "marketFavorite": "葡萄牙",
-      "note": "已接入赔率市场，45 家公司均值：主 3.97 / 平 3.71 / 客 1.89。市场倾向 葡萄牙。"
+      "note": "已接入赔率市场，45 家公司均值：主 3.99 / 平 3.69 / 客 1.89。市场倾向 葡萄牙。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Colombia qualify for last 32 with win over DR Congo",
@@ -80085,19 +80090,13 @@ window.MATCHES = [
           "pubDate": "Tue, 23 Jun 2026 19:47:48 GMT"
         },
         {
-          "title": "'I'm back' - record-breaking Ronaldo answers critics",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT"
-        },
-        {
           "title": "Daniel Muñoz breaks DR Congo resistance to send Colombia into World Cup knockouts",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
           "pubDate": "Wed, 24 Jun 2026 04:14:28 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -80312,17 +80311,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "'I'm back' - record-breaking Ronaldo answers critics",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/clyx746enj9o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 23 Jun 2026 21:33:55 GMT",
-              "description": "Portugal forward Cristiano Ronaldo provides the perfect response to those that doubted him as he becomes the first player to score at six World Cups.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -80330,9 +80319,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -80404,8 +80393,8 @@ window.MATCHES = [
       "真实采集 3 项，模型推断 2 项，缺口 2 项。"
     ],
     "expectedGoals": {
-      "home": 1.4,
-      "away": 2.07
+      "home": 1.41,
+      "away": 2.09
     },
     "analysisUpdated": "2026-06-24"
   },
@@ -80707,7 +80696,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -81206,7 +81195,7 @@ window.MATCHES = [
       "averageOdds": {
         "home": 1.79,
         "draw": 4.01,
-        "away": 4.14
+        "away": 4.15
       },
       "impliedProbabilities": [
         53,
@@ -81214,13 +81203,13 @@ window.MATCHES = [
         23
       ],
       "marketFavorite": "刚果（金）",
-      "note": "已接入赔率市场，45 家公司均值：主 1.79 / 平 4.01 / 客 4.14。市场倾向 刚果（金）。"
+      "note": "已接入赔率市场，45 家公司均值：主 1.79 / 平 4.01 / 客 4.15。市场倾向 刚果（金）。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Colombia qualify for last 32 with win over DR Congo",
@@ -81239,21 +81228,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/24/colombia-dr-congo-world-cup-group-k-match-report",
           "pubDate": "Wed, 24 Jun 2026 04:14:28 GMT"
-        },
-        {
-          "title": "Ronaldo snaps goal drought, 1st to score at 6 WCs",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan",
-          "pubDate": "Wed, 24 Jun 2026 11:39:59 EST"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 34.2,
@@ -81479,9 +81462,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -81855,7 +81838,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -82353,7 +82336,7 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 45,
       "averageOdds": {
-        "home": 3.83,
+        "home": 3.84,
         "draw": 2.27,
         "away": 2.82
       },
@@ -82363,13 +82346,13 @@ window.MATCHES = [
         34
       ],
       "marketFavorite": "平局",
-      "note": "已接入赔率市场，45 家公司均值：主 3.83 / 平 2.27 / 客 2.82。市场倾向 平局。"
+      "note": "已接入赔率市场，45 家公司均值：主 3.84 / 平 2.27 / 客 2.82。市场倾向 平局。"
     },
     "expertSignals": {
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
         {
           "title": "Amine Gouiri pounces to give Algeria victory and condemn Jordan to early World Cup exit",
@@ -82382,21 +82365,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jun/23/julian-alvarez-sparks-transfer-frenzy-by-telling-atletico-madrid-he-wants-to-leave",
           "pubDate": "Mon, 22 Jun 2026 23:06:05 GMT"
-        },
-        {
-          "title": "Messi makes history and shows why Argentina star i...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49146756/lionel-messi-world-cup-goals-record-argentina-austria-analysis",
-          "pubDate": "Wed, 24 Jun 2026 03:07:52 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 31.2,
@@ -82622,9 +82599,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 2 项，缺口 1 项。",
         "counts": {
@@ -82998,7 +82975,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -83497,8 +83474,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 45,
       "averageOdds": {
-        "home": 14.56,
-        "draw": 7.1,
+        "home": 14.57,
+        "draw": 7.11,
         "away": 1.19
       },
       "impliedProbabilities": [
@@ -83507,7 +83484,7 @@ window.MATCHES = [
         80
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，45 家公司均值：主 14.56 / 平 7.1 / 客 1.19。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，45 家公司均值：主 14.57 / 平 7.11 / 客 1.19。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -83763,9 +83740,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -84056,7 +84033,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "2A",
@@ -84499,9 +84476,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -84794,7 +84771,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "1C",
@@ -85215,7 +85192,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 36.1,
@@ -85246,9 +85223,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -85596,7 +85573,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -86058,10 +86035,10 @@ window.MATCHES = [
           "pubDate": "Sat, 20 Jun 2026 18:18:37 GMT"
         },
         {
-          "title": "In which city and stadium are Germany vs Ivory Coast playing today? Attendance, weather for WC game - bolavip.com",
-          "source": "bolavip.com",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcUtCZGRZcVE2Z0YzdzFLLUowVVpiQkVNVFo5UW9kVjU3STJwdkJNTWFKbUs1YTQyMkgtdXFCeEtrdjBfQkdZZFRVTVdKVndIS0gwaXp0cUFxVzNqTXdhQ21YeWlmekxlaGRWcEtNd3hmQXZaWWV2c2FoV3AxSjdTa3ZPZEpxVENoVmFwSDdFNFUxaEt5WVc1YmE2N2I1ZnNUUjBocU9ycmhsSTlEMXlEN1d5U2hJa0puMXVLT3VZN25oQVh3Mk9DRnl30gHPAUFVX3lxTE1iQ0VfcjlpN0NoczJvU0NDbXRsRFVZc1BoZ0ZZdXBuSVg3Wnd6Z1NYUjVvSTBYOGN1N05EU1ZvR2g3YzZxUEpBVFZWQVlYLVhnYjNvQjBoNUU3dGNxRDB0TXNzellRYTRrY1VNc1l4X3pIdnJ5NUYwanVfUkxBQVhYRVhnZ21xVjItYUttbHAxM2paN2lQWmg5ZGNyNXBXNFd0SUtFR2NoMU95QXJrWDk4ZnpkUDRKdFVMMFphSUw4a25YcXJLbTA3cmdNN1dBSQ?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 18:36:49 GMT"
+          "title": "Germany 7-1 Curaçao (Jun 14, 2026) Game Analysis - ESPN",
+          "source": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9acUw3Mmx0eEYwUkR3OFViZ0F6clowZGJtOU0zSEdyOEo0ajJQQ3RUVThiOWV5b05KZGxQSWFBNXktN0hMOUs5TGJIWm1KaWRiRG1qejB0b0hBTEtwWjlr?oc=5",
+          "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -86215,9 +86192,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -86509,7 +86486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "1F",
@@ -86952,9 +86929,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -87247,7 +87224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "2E",
@@ -87690,9 +87667,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -87985,7 +87962,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "1I",
@@ -88437,9 +88414,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -88786,7 +88763,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -88805,7 +88782,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "3-0",
@@ -88851,7 +88828,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 57,
+        "chance": 56,
         "examples": [
           "2-0",
           "3-0",
@@ -88860,7 +88837,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 52,
+        "chance": 53,
         "examples": [
           "2-0",
           "3-0",
@@ -88880,12 +88857,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 59,
       "under25": 41,
-      "bttsYes": 48,
-      "bttsNo": 52,
+      "bttsYes": 49,
+      "bttsNo": 51,
       "homeWinBy2Plus": 49,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.06,
+      "expectedTotalGoals": 3.09,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -88987,10 +88964,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 49,
+        "homeScore": 51,
         "awayScore": 49,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0.8 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0.8 分。"
       },
       {
         "name": "赔率市场",
@@ -89209,11 +89186,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 49,
+        "homeScore": 51,
         "awayScore": 49,
-        "goalLift": -0.03,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0.8 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0.8 分。"
       }
     },
     "marketSignals": {
@@ -89229,18 +89206,6 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Mexico players want Ochoa for historic WC start",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-          "pubDate": "Wed, 24 Jun 2026 11:51:46 EST"
-        },
-        {
-          "title": "In a World Cup on home soil, El Tri is making Mexi...",
-          "source": "www.espn.com",
-          "link": "https://www.espn.com/soccer/story/_/id/49157347/in-world-cup-home-soil-el-tri-making-mexico-proud",
-          "pubDate": "Wed, 24 Jun 2026 10:26:27 EST"
-        },
-        {
           "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
           "source": "RotoWire",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -89251,6 +89216,18 @@ window.MATCHES = [
           "source": "Yahoo Sports",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1Y0akh2Y04yWl92dGV2bTRKdTg3bkNUX2ttX3hnUnVVTGdobnZBakoxd09MNTNRWG84cGx1UmJFdFVzTzFUNDlPZWZHQm9lS3pzall1MjV3clpDLTlSUHE0d25LLU8yeVlrbEx1Nlp0UFdLdjFTdTUzUXBzd3cwSU5GRFVnOTNS?oc=5",
           "pubDate": "Tue, 23 Jun 2026 01:05:00 GMT"
+        },
+        {
+          "title": "How And Where To Watch: Czech Republic vs Mexico in Group A of the 2026 FIFA World Cup - beIN SPORTS",
+          "source": "beIN SPORTS",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDE4dEpKempkdlYwT0luczBrZWlQR3JpLW9hTmp6ckJNQlRqeVRVZWgtSy1wbXA4YllFamQ5VTVLYjVDQTJ4bGFVangwVWUtZGIzOHN4ZUJ4dWxZdnp5bEpLZWQ3eG1QdTVwOE1rQU91R3hpQThYcGNWOEllZHBCODkxdHhXX0R0ZnRGbUNjTkFrZVVMVkhjZERWWkVwQ1JfY25UQkhWSUgtUDVreGJ0MWhvOWJKZ2JXYW1QVlNSOE9va0lvLTlZYlIzS1dDNWlWeXhkNXljV2kxR3JUUno0YnN0VTBTclNwaDFsQkktN3FiQ2M3VlJTWkQ2eGtLdw?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 11:54:31 GMT"
+        },
+        {
+          "title": "Mexico XI vs Czechia – Predicted lineup and team news - Yahoo Sports",
+          "source": "Yahoo Sports",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV1FsYmdoZ0ZZNGlhOVNCdGVYbVNUc3VnUXE0MWdZSEpLOVEyamt6ZEdLTldNNXFZcVRYODRFTzFWMThUbUUwYVZ5bGV5SW5QUGNxMENnZW41RkxQZHZ6cVdtaFEtSkw4Zzk4d1BxM0VpTjFvMjNXVlNFa3hpb29FWFowU01WQQ?oc=5",
+          "pubDate": "Wed, 24 Jun 2026 13:55:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -89259,7 +89236,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 21.1,
@@ -89380,15 +89357,6 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Czechia vs Mexico Preview: Predicted Lineups, Team News & Tactical Analysis | 2026 World Cup Group A - RotoWire",
               "source": "RotoWire",
               "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXJTZEVLQXJoelMwMmo1NkRwN2wwbjRsSFJoVUdWNmVMbEZNcGcxQTBxNTFTRV92OG9yRkk2RVRQWmg5a3YxemNMblRlcXRpdFlGV2dQTm00bWNaMHNRNGlxOXBUTTRLN1pLQ21xUWxweC01OVVVOGxnS29hOEpiQ0dWamVtazl0THVOLTBVZ2hGZHdwMFBpS2lMSThxOFRPZU9Jakd2OVhDaXFuWWRITzJMNnI5X2NmdDF1WGpZSFRpeGJUTTFPNkpTTFJLYTdUNUZ3QWlkUWo?oc=5",
@@ -89410,7 +89378,7 @@ window.MATCHES = [
               "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
               "source": "USA Today",
               "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-              "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT",
+              "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT",
               "description": "Mexico projected World Cup lineup vs Czechia: Probable starting XI &nbsp;&nbsp; USA Today",
               "bodyText": "",
               "bodyError": ""
@@ -89431,17 +89399,7 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mexico players want Ochoa for historic WC start",
-              "source": "www.espn.com",
-              "link": "https://www.espn.com/soccer/story/_/id/49156230/mexico-players-back-memo-ochoa-historic-world-cup-start-czechia",
-              "pubDate": "Wed, 24 Jun 2026 11:51:46 EST",
-              "description": "With their spot already guaranteed into the knockout rounds, Mexico players were in full support of a possible historic start for goalkeeping icon Guillermo Ochoa against Czechia in their World Cup group stage finale on Wednesday.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -89477,9 +89435,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -89551,8 +89509,8 @@ window.MATCHES = [
       "真实采集 4 项，模型推断 1 项，缺口 2 项。"
     ],
     "expectedGoals": {
-      "home": 2.33,
-      "away": 0.73
+      "home": 2.35,
+      "away": 0.74
     },
     "analysisUpdated": "2026-06-24"
   },
@@ -89770,7 +89728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "1L",
@@ -90191,7 +90149,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 37.3,
@@ -90222,9 +90180,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -90516,7 +90474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "1G",
@@ -90937,7 +90895,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 15.7,
@@ -90968,9 +90926,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -91316,7 +91274,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -91780,7 +91738,7 @@ window.MATCHES = [
           "title": "Mexico projected World Cup lineup vs Czechia: Probable starting XI - USA Today",
           "source": "USA Today",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFoyVWZoSzJZTFBZQ2tlbFo2MXoxbGtfWjdGaG9IQjZlYmNXaUlwbE1iRmhlTFBYel9xX0tGYndJclRZamNGLTNKOXdpTVMwSmxDOXNwS29IazFndmZiRDdhSUlNZjZnVjVBcWV0YXJrVUlieFYyTVdwMHFuZ2t1VlVscGpla2JLdEVxNEhtcHFRaUIwWGJIV0k4OHpLV3FrZ2lGbFBKWjdBaU9HdjlXaENPcjlmT1V2U3B1cHZHSGF3Tms?oc=5",
-          "pubDate": "Wed, 24 Jun 2026 14:24:00 GMT"
+          "pubDate": "Wed, 24 Jun 2026 15:25:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -91914,9 +91872,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -92208,7 +92166,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "1H",
@@ -92651,9 +92609,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -92946,7 +92904,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "2K",
@@ -93367,7 +93325,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 32.1,
@@ -93398,9 +93356,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -93692,7 +93650,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "1B",
@@ -94113,7 +94071,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 15,
@@ -94144,9 +94102,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -94438,7 +94396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "2D",
@@ -94881,9 +94839,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -95176,7 +95134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "1J",
@@ -95619,9 +95577,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -95914,7 +95872,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "1K",
@@ -96335,7 +96293,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 35,
@@ -96366,9 +96324,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -96660,7 +96618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "W73",
@@ -97081,7 +97039,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 38.2,
@@ -97112,9 +97070,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -97406,7 +97364,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "W74",
@@ -97827,7 +97785,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 31.7,
@@ -97858,9 +97816,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -98152,7 +98110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "W76",
@@ -98595,9 +98553,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -98890,7 +98848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "W79",
@@ -99311,7 +99269,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 20.2,
@@ -99342,9 +99300,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -99636,7 +99594,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "W83",
@@ -100079,9 +100037,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -100374,7 +100332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "W81",
@@ -100795,7 +100753,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 25.5,
@@ -100826,9 +100784,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -101120,7 +101078,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "W86",
@@ -101541,7 +101499,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 35.8,
@@ -101572,9 +101530,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -101866,7 +101824,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "W85",
@@ -102287,7 +102245,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-06-24T16:04:51.279Z",
+        "fetchedAt": "2026-06-24T16:35:58.267Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 20.3,
@@ -102318,9 +102276,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -102612,7 +102570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "W89",
@@ -103055,9 +103013,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -103350,7 +103308,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "W93",
@@ -103793,9 +103751,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -104088,7 +104046,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "W91",
@@ -104531,9 +104489,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -104826,7 +104784,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "W95",
@@ -105272,9 +105230,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -105567,7 +105525,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "W97",
@@ -106010,9 +105968,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -106305,7 +106263,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -106751,9 +106709,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -107046,7 +107004,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -107489,9 +107447,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -107784,7 +107742,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-06-24T16:04:51.279Z",
+      "fetchedAt": "2026-06-24T16:35:58.267Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -108227,9 +108185,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-06-24T16:04:51.279Z",
+      "updatedAt": "2026-06-24T16:35:58.267Z",
       "dataQuality": {
-        "updatedAt": "2026-06-24T16:04:51.279Z",
+        "updatedAt": "2026-06-24T16:35:58.267Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -108311,7 +108269,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-06-24T16:04:51.279Z",
+  "updatedAt": "2026-06-24T16:35:58.267Z",
   "completedCount": 48,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
@@ -108319,8 +108277,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 42,
   "scoreBandCoverage": 79,
   "scoreScenarioCoverage": 94,
-  "averageBrier": 0.5379,
-  "averageLogLoss": 0.8807,
+  "averageBrier": 0.5382,
+  "averageLogLoss": 0.8812,
   "drawRecall": 29,
   "lockedPredictionCount": 16,
   "versionBreakdown": [
@@ -109837,8 +109795,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 50,
       "scoreBandCoverage": 81,
       "scoreScenarioCoverage": 94,
-      "averageBrier": 0.5628,
-      "averageLogLoss": 0.9203,
+      "averageBrier": 0.5633,
+      "averageLogLoss": 0.9211,
       "lockedCount": 0,
       "rows": [
         {
@@ -110300,19 +110258,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.2106,
-          "logLoss": 0.4463,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            64,
-            27,
+            65,
+            26,
             9
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 37,
+              "chance": 36,
               "examples": [
                 "2-0",
                 "1-0",
@@ -110321,7 +110279,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 23,
               "examples": [
                 "1-1",
                 "0-0"
@@ -110329,7 +110287,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 20,
+              "chance": 21,
               "examples": [
                 "3-0",
                 "4-0",
@@ -110340,7 +110298,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 69,
+              "chance": 68,
               "examples": [
                 "2-0",
                 "1-0",
@@ -110349,7 +110307,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 64,
+              "chance": 65,
               "examples": [
                 "2-0",
                 "1-0",
@@ -110358,7 +110316,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 42,
+              "chance": 43,
               "examples": [
                 "2-0",
                 "3-0",
@@ -110837,7 +110795,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 37,
+              "chance": 36,
               "examples": [
                 "2-0",
                 "1-0",
@@ -110865,7 +110823,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 69,
+              "chance": 68,
               "examples": [
                 "2-0",
                 "1-0",
@@ -112408,19 +112366,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.995,
-          "logLoss": 1.3863,
+          "brier": 1.0232,
+          "logLoss": 1.4271,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            65,
-            25,
+            66,
+            24,
             10
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 33,
+              "chance": 32,
               "examples": [
                 "2-0",
                 "1-0",
@@ -112429,7 +112387,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 22,
+              "chance": 23,
               "examples": [
                 "3-0",
                 "4-0",
@@ -112438,7 +112396,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 21,
+              "chance": 19,
               "examples": [
                 "1-1",
                 "0-0"
@@ -112448,7 +112406,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 63,
+              "chance": 61,
               "examples": [
                 "2-0",
                 "1-1",
@@ -112457,7 +112415,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 65,
+              "chance": 66,
               "examples": [
                 "2-0",
                 "1-0",
@@ -112466,7 +112424,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 45,
+              "chance": 46,
               "examples": [
                 "2-0",
                 "3-0",
@@ -112705,7 +112663,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "中信心",
       "count": 43,
       "hitRate": 58,
-      "averageBrier": 0.5181
+      "averageBrier": 0.5185
     },
     {
       "label": "高信心",
@@ -114650,19 +114608,19 @@ window.ANALYSIS_BACKTEST = {
       "scoreBandHit": true,
       "scoreScenarioHit": true,
       "confidence": 78,
-      "brier": 0.2106,
-      "logLoss": 0.4463,
+      "brier": 0.1982,
+      "logLoss": 0.4308,
       "marketOutcome": "",
       "marketHit": null,
       "probabilities": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "scoreBands": [
         {
           "label": "主队小胜",
-          "chance": 37,
+          "chance": 36,
           "examples": [
             "2-0",
             "1-0",
@@ -114671,7 +114629,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "低比分平局",
-          "chance": 24,
+          "chance": 23,
           "examples": [
             "1-1",
             "0-0"
@@ -114679,7 +114637,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "主队大胜",
-          "chance": 20,
+          "chance": 21,
           "examples": [
             "3-0",
             "4-0",
@@ -114690,7 +114648,7 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "主队不败低比分",
-          "chance": 69,
+          "chance": 68,
           "examples": [
             "2-0",
             "1-0",
@@ -114699,7 +114657,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "主队胜出覆盖",
-          "chance": 64,
+          "chance": 65,
           "examples": [
             "2-0",
             "1-0",
@@ -114708,7 +114666,7 @@ window.ANALYSIS_BACKTEST = {
         },
         {
           "label": "主队优势胜",
-          "chance": 42,
+          "chance": 43,
           "examples": [
             "2-0",
             "3-0",
@@ -115187,7 +115145,7 @@ window.ANALYSIS_BACKTEST = {
       "scoreBands": [
         {
           "label": "主队小胜",
-          "chance": 37,
+          "chance": 36,
           "examples": [
             "2-0",
             "1-0",
@@ -115215,7 +115173,7 @@ window.ANALYSIS_BACKTEST = {
       "scoreScenarios": [
         {
           "label": "主队不败低比分",
-          "chance": 69,
+          "chance": 68,
           "examples": [
             "2-0",
             "1-0",
