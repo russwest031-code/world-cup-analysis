@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-06-29T12:17:35.921Z",
+  "updatedAt": "2026-06-29T12:41:01.889Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -13057,12 +13057,138 @@
         "modelVersion": "v3",
         "modelVersionLabel": "第三版模型"
       }
+    },
+    "can-w75-90": {
+      "matchId": "can-w75-90",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-06-29T12:41:01.889Z",
+      "kickoff": "2026-07-04T17:00:00.000Z",
+      "match": "加拿大 vs W75",
+      "date": "2026-07-05",
+      "time": "01:00",
+      "prediction": {
+        "probabilities": [
+          69,
+          20,
+          11
+        ],
+        "confidence": 76,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-0",
+            "chance": 10
+          },
+          {
+            "score": "1-1",
+            "chance": 9
+          },
+          {
+            "score": "2-1",
+            "chance": 9
+          },
+          {
+            "score": "3-1",
+            "chance": 8
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队大胜",
+            "chance": 29,
+            "examples": [
+              "3-0",
+              "4-0",
+              "4-1"
+            ]
+          },
+          {
+            "label": "主队小胜",
+            "chance": 25,
+            "examples": [
+              "2-0",
+              "2-1",
+              "1-0"
+            ]
+          },
+          {
+            "label": "主队对攻胜",
+            "chance": 15,
+            "examples": [
+              "3-1",
+              "3-2",
+              "4-2"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "主队优势胜",
+            "chance": 54,
+            "examples": [
+              "2-0",
+              "3-0",
+              "3-1"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 69,
+            "examples": [
+              "2-0",
+              "2-1",
+              "3-0"
+            ]
+          },
+          {
+            "label": "主队不败低比分",
+            "chance": 47,
+            "examples": [
+              "2-0",
+              "1-1",
+              "2-1"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.56,
+          "away": 0.96
+        },
+        "marketSignals": {
+          "status": "no-match",
+          "provider": "The Odds API",
+          "weight": 0,
+          "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+        },
+        "marketCalibration": {
+          "status": "no-match",
+          "modelOnly": [
+            69,
+            20,
+            11
+          ],
+          "market": null,
+          "blended": [
+            69,
+            20,
+            11
+          ],
+          "blendWeight": 0,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": null,
+          "summary": "暂无可用市场概率，模型未进行赔率校准。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
     }
   },
   "summary": {
-    "totalLocked": 96,
-    "createdThisRun": 0,
-    "retainedThisRun": 31,
+    "totalLocked": 97,
+    "createdThisRun": 1,
+    "retainedThisRun": 30,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
