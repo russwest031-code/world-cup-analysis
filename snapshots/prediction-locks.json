@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-07-02T10:13:26.463Z",
+  "updatedAt": "2026-07-02T10:16:09.698Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -13932,8 +13932,8 @@
   },
   "summary": {
     "totalLocked": 102,
-    "createdThisRun": 2,
-    "retainedThisRun": 20,
+    "createdThisRun": 0,
+    "retainedThisRun": 22,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
