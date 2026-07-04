@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-07-03T10:46:33.487Z",
+  "updatedAt": "2026-07-04T09:28:11.959Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -13928,12 +13928,286 @@
         "modelVersion": "v3",
         "modelVersionLabel": "第三版模型"
       }
+    },
+    "por-esp-93": {
+      "matchId": "por-esp-93",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-04T09:28:11.959Z",
+      "kickoff": "2026-07-06T19:00:00.000Z",
+      "match": "葡萄牙 vs 西班牙",
+      "date": "2026-07-07",
+      "time": "03:00",
+      "prediction": {
+        "probabilities": [
+          28,
+          27,
+          45
+        ],
+        "confidence": 74,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "1-2",
+            "chance": 9
+          },
+          {
+            "score": "1-1",
+            "chance": 11
+          },
+          {
+            "score": "2-2",
+            "chance": 8
+          },
+          {
+            "score": "1-3",
+            "chance": 6
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "客队小胜",
+            "chance": 18,
+            "examples": [
+              "1-2",
+              "0-2",
+              "0-1"
+            ]
+          },
+          {
+            "label": "低比分平局",
+            "chance": 16,
+            "examples": [
+              "1-1",
+              "0-0"
+            ]
+          },
+          {
+            "label": "客队对攻胜",
+            "chance": 16,
+            "examples": [
+              "1-3",
+              "2-3",
+              "2-4"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "开放对攻",
+            "chance": 46,
+            "examples": [
+              "2-2",
+              "1-3",
+              "2-3"
+            ]
+          },
+          {
+            "label": "客队不败低比分",
+            "chance": 37,
+            "examples": [
+              "1-1",
+              "1-2",
+              "0-2"
+            ]
+          },
+          {
+            "label": "客队胜出覆盖",
+            "chance": 45,
+            "examples": [
+              "1-2",
+              "1-3",
+              "0-2"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 1.76,
+          "away": 1.88
+        },
+        "marketSignals": {
+          "status": "connected",
+          "provider": "The Odds API",
+          "weight": 0.5,
+          "eventId": "16ed3adcf661b3a9bea39871a2d204df",
+          "commenceTime": "2026-07-06T19:00:00Z",
+          "snapshotFile": null,
+          "bookmakers": 47,
+          "averageOdds": {
+            "home": 4.04,
+            "draw": 3.6,
+            "away": 1.91
+          },
+          "impliedProbabilities": [
+            24,
+            26,
+            50
+          ],
+          "marketFavorite": "西班牙",
+          "note": "已接入赔率市场，47 家公司均值：主 4.04 / 平 3.6 / 客 1.91。市场倾向 西班牙。"
+        },
+        "marketCalibration": {
+          "status": "connected",
+          "modelOnly": [
+            34,
+            27,
+            39
+          ],
+          "market": [
+            24,
+            26,
+            50
+          ],
+          "blended": [
+            28,
+            27,
+            45
+          ],
+          "blendWeight": 0.5,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": [
+            -10,
+            -1,
+            11
+          ],
+          "summary": "模型原始概率 34/27/39%；市场隐含概率 24/26/50%；按 50% 权重校准后为 28/27/45%。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
+    },
+    "sui-w87-96": {
+      "matchId": "sui-w87-96",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-04T09:28:11.959Z",
+      "kickoff": "2026-07-07T20:00:00.000Z",
+      "match": "瑞士 vs W87",
+      "date": "2026-07-08",
+      "time": "04:00",
+      "prediction": {
+        "probabilities": [
+          70,
+          20,
+          10
+        ],
+        "confidence": 78,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-0",
+            "chance": 10
+          },
+          {
+            "score": "2-1",
+            "chance": 9
+          },
+          {
+            "score": "1-1",
+            "chance": 9
+          },
+          {
+            "score": "3-1",
+            "chance": 8
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队大胜",
+            "chance": 29,
+            "examples": [
+              "3-0",
+              "4-0",
+              "4-1"
+            ]
+          },
+          {
+            "label": "主队小胜",
+            "chance": 26,
+            "examples": [
+              "2-0",
+              "2-1",
+              "1-0"
+            ]
+          },
+          {
+            "label": "主队对攻胜",
+            "chance": 15,
+            "examples": [
+              "3-1",
+              "3-2",
+              "4-2"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "主队优势胜",
+            "chance": 54,
+            "examples": [
+              "2-0",
+              "3-0",
+              "3-1"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 70,
+            "examples": [
+              "2-0",
+              "2-1",
+              "3-0"
+            ]
+          },
+          {
+            "label": "主队不败低比分",
+            "chance": 48,
+            "examples": [
+              "2-0",
+              "2-1",
+              "1-1"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.53,
+          "away": 0.93
+        },
+        "marketSignals": {
+          "status": "no-match",
+          "provider": "The Odds API",
+          "weight": 0,
+          "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+        },
+        "marketCalibration": {
+          "status": "no-match",
+          "modelOnly": [
+            70,
+            20,
+            10
+          ],
+          "market": null,
+          "blended": [
+            70,
+            20,
+            10
+          ],
+          "blendWeight": 0,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": null,
+          "summary": "暂无可用市场概率，模型未进行赔率校准。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
     }
   },
   "summary": {
-    "totalLocked": 102,
-    "createdThisRun": 0,
-    "retainedThisRun": 19,
+    "totalLocked": 104,
+    "createdThisRun": 2,
+    "retainedThisRun": 14,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
