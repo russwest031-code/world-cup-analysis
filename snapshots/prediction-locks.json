@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-07-04T10:20:49.118Z",
+  "updatedAt": "2026-07-05T09:45:20.900Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -14202,12 +14202,309 @@
         "modelVersion": "v3",
         "modelVersionLabel": "第三版模型"
       }
+    },
+    "arg-egy-95": {
+      "matchId": "arg-egy-95",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-05T09:45:20.900Z",
+      "kickoff": "2026-07-07T16:00:00.000Z",
+      "match": "阿根廷 vs 埃及",
+      "date": "2026-07-08",
+      "time": "00:00",
+      "prediction": {
+        "probabilities": [
+          68,
+          20,
+          12
+        ],
+        "confidence": 78,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-1",
+            "chance": 9
+          },
+          {
+            "score": "1-1",
+            "chance": 8
+          },
+          {
+            "score": "3-1",
+            "chance": 8
+          },
+          {
+            "score": "2-0",
+            "chance": 7
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队大胜",
+            "chance": 29,
+            "examples": [
+              "3-0",
+              "4-1",
+              "4-0"
+            ]
+          },
+          {
+            "label": "主队小胜",
+            "chance": 20,
+            "examples": [
+              "2-1",
+              "2-0",
+              "1-0"
+            ]
+          },
+          {
+            "label": "主队对攻胜",
+            "chance": 18,
+            "examples": [
+              "3-1",
+              "3-2",
+              "4-2"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "主队优势胜",
+            "chance": 55,
+            "examples": [
+              "3-1",
+              "2-0",
+              "3-0"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 68,
+            "examples": [
+              "2-1",
+              "3-1",
+              "2-0"
+            ]
+          },
+          {
+            "label": "开放对攻",
+            "chance": 46,
+            "examples": [
+              "3-1",
+              "2-2",
+              "4-1"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.75,
+          "away": 1.19
+        },
+        "marketSignals": {
+          "status": "connected",
+          "provider": "The Odds API",
+          "weight": 0.5,
+          "eventId": "190922affd0be754bfefd71548dbf90d",
+          "commenceTime": "2026-07-07T16:00:00Z",
+          "snapshotFile": null,
+          "bookmakers": 45,
+          "averageOdds": {
+            "home": 1.37,
+            "draw": 4.74,
+            "away": 9.25
+          },
+          "impliedProbabilities": [
+            70,
+            20,
+            10
+          ],
+          "marketFavorite": "阿根廷",
+          "note": "已接入赔率市场，45 家公司均值：主 1.37 / 平 4.74 / 客 9.25。市场倾向 阿根廷。"
+        },
+        "marketCalibration": {
+          "status": "connected",
+          "modelOnly": [
+            68,
+            19,
+            13
+          ],
+          "market": [
+            70,
+            20,
+            10
+          ],
+          "blended": [
+            68,
+            20,
+            12
+          ],
+          "blendWeight": 0.5,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": [
+            2,
+            1,
+            -3
+          ],
+          "summary": "模型原始概率 68/19/13%；市场隐含概率 70/20/10%；按 50% 权重校准后为 68/20/12%。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
+    },
+    "sui-col-96": {
+      "matchId": "sui-col-96",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-05T09:45:20.900Z",
+      "kickoff": "2026-07-07T20:00:00.000Z",
+      "match": "瑞士 vs 哥伦比亚",
+      "date": "2026-07-08",
+      "time": "04:00",
+      "prediction": {
+        "probabilities": [
+          29,
+          29,
+          42
+        ],
+        "confidence": 68,
+        "tag": "观察",
+        "scoreOdds": [
+          {
+            "score": "1-2",
+            "chance": 8
+          },
+          {
+            "score": "1-1",
+            "chance": 11
+          },
+          {
+            "score": "2-2",
+            "chance": 9
+          },
+          {
+            "score": "1-3",
+            "chance": 5
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "低比分平局",
+            "chance": 15,
+            "examples": [
+              "1-1",
+              "0-0"
+            ]
+          },
+          {
+            "label": "客队小胜",
+            "chance": 15,
+            "examples": [
+              "1-2",
+              "0-2",
+              "0-1"
+            ]
+          },
+          {
+            "label": "客队对攻胜",
+            "chance": 15,
+            "examples": [
+              "1-3",
+              "2-3",
+              "2-4"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "开放对攻",
+            "chance": 50,
+            "examples": [
+              "2-2",
+              "1-3",
+              "2-3"
+            ]
+          },
+          {
+            "label": "客队不败低比分",
+            "chance": 33,
+            "examples": [
+              "1-1",
+              "1-2",
+              "0-2"
+            ]
+          },
+          {
+            "label": "客队优势胜",
+            "chance": 31,
+            "examples": [
+              "1-3",
+              "2-3",
+              "0-2"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 1.81,
+          "away": 2.06
+        },
+        "marketSignals": {
+          "status": "connected",
+          "provider": "The Odds API",
+          "weight": 0.5,
+          "eventId": "a6da973c5749ce60adab77d64b3664f4",
+          "commenceTime": "2026-07-07T20:00:00Z",
+          "snapshotFile": null,
+          "bookmakers": 45,
+          "averageOdds": {
+            "home": 3.52,
+            "draw": 3.09,
+            "away": 2.26
+          },
+          "impliedProbabilities": [
+            27,
+            31,
+            42
+          ],
+          "marketFavorite": "哥伦比亚",
+          "note": "已接入赔率市场，45 家公司均值：主 3.52 / 平 3.09 / 客 2.26。市场倾向 哥伦比亚。"
+        },
+        "marketCalibration": {
+          "status": "connected",
+          "modelOnly": [
+            32,
+            26,
+            42
+          ],
+          "market": [
+            27,
+            31,
+            42
+          ],
+          "blended": [
+            29,
+            29,
+            42
+          ],
+          "blendWeight": 0.5,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": [
+            -5,
+            5,
+            0
+          ],
+          "summary": "模型原始概率 32/26/42%；市场隐含概率 27/31/42%；按 50% 权重校准后为 29/29/42%。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
     }
   },
   "summary": {
-    "totalLocked": 104,
-    "createdThisRun": 0,
-    "retainedThisRun": 16,
+    "totalLocked": 106,
+    "createdThisRun": 2,
+    "retainedThisRun": 12,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
