@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-07-05T10:24:21.037Z",
+  "updatedAt": "2026-07-06T11:42:08.604Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -14499,12 +14499,161 @@
         "modelVersion": "v3",
         "modelVersionLabel": "第三版模型"
       }
+    },
+    "fra-mar-97": {
+      "matchId": "fra-mar-97",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-06T11:42:08.604Z",
+      "kickoff": "2026-07-09T20:00:00.000Z",
+      "match": "法国 vs 摩洛哥",
+      "date": "2026-07-10",
+      "time": "04:00",
+      "prediction": {
+        "probabilities": [
+          55,
+          24,
+          21
+        ],
+        "confidence": 78,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-1",
+            "chance": 9
+          },
+          {
+            "score": "1-1",
+            "chance": 9
+          },
+          {
+            "score": "2-2",
+            "chance": 7
+          },
+          {
+            "score": "3-1",
+            "chance": 7
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队对攻胜",
+            "chance": 19,
+            "examples": [
+              "3-1",
+              "3-2",
+              "4-2"
+            ]
+          },
+          {
+            "label": "主队小胜",
+            "chance": 18,
+            "examples": [
+              "2-1",
+              "2-0",
+              "1-0"
+            ]
+          },
+          {
+            "label": "主队大胜",
+            "chance": 18,
+            "examples": [
+              "3-0",
+              "4-1",
+              "4-0"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "开放对攻",
+            "chance": 51,
+            "examples": [
+              "2-2",
+              "3-1",
+              "3-2"
+            ]
+          },
+          {
+            "label": "主队优势胜",
+            "chance": 42,
+            "examples": [
+              "3-1",
+              "3-2",
+              "2-0"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 55,
+            "examples": [
+              "2-1",
+              "3-1",
+              "3-2"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.3,
+          "away": 1.65
+        },
+        "marketSignals": {
+          "status": "connected",
+          "provider": "The Odds API",
+          "weight": 0.5,
+          "eventId": "b6e926d7f026782b9cab2fa02b823d92",
+          "commenceTime": "2026-07-09T20:00:00Z",
+          "snapshotFile": null,
+          "bookmakers": 46,
+          "averageOdds": {
+            "home": 1.57,
+            "draw": 3.92,
+            "away": 6.33
+          },
+          "impliedProbabilities": [
+            61,
+            24,
+            15
+          ],
+          "marketFavorite": "法国",
+          "note": "已接入赔率市场，46 家公司均值：主 1.57 / 平 3.92 / 客 6.33。市场倾向 法国。"
+        },
+        "marketCalibration": {
+          "status": "connected",
+          "modelOnly": [
+            50,
+            24,
+            26
+          ],
+          "market": [
+            61,
+            24,
+            15
+          ],
+          "blended": [
+            55,
+            24,
+            21
+          ],
+          "blendWeight": 0.5,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": [
+            11,
+            0,
+            -11
+          ],
+          "summary": "模型原始概率 50/24/26%；市场隐含概率 61/24/15%；按 50% 权重校准后为 55/24/21%。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
     }
   },
   "summary": {
-    "totalLocked": 106,
-    "createdThisRun": 0,
-    "retainedThisRun": 14,
+    "totalLocked": 107,
+    "createdThisRun": 1,
+    "retainedThisRun": 11,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
