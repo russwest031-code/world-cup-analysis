@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-07-11T09:44:46.707Z",
-  "runDate": "2026-07-11",
+  "updatedAt": "2026-07-12T09:08:55.168Z",
+  "runDate": "2026-07-12",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-07-11T09:44:46.707Z",
+  "externalFetchedAt": "2026-07-12T09:08:55.168Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -19,9 +19,9 @@ window.ANALYSIS_META = {
   "teamDataCount": 92,
   "oddsProvider": "The Odds API",
   "oddsSportKey": "soccer_fifa_world_cup",
-  "oddsEventCount": 3,
+  "oddsEventCount": 2,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 62,
+  "expertArticleCount": 68,
   "expertArticleBodyCount": 1,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
@@ -32,8 +32,8 @@ window.ANALYSIS_META = {
   "dataQualitySummary": {
     "policy": "daily-verified-or-report-gap",
     "totals": {
-      "verified": 322,
-      "inferred": 142,
+      "verified": 311,
+      "inferred": 153,
       "missing": 264
     },
     "topGaps": [
@@ -43,7 +43,7 @@ window.ANALYSIS_META = {
       },
       {
         "label": "赔率",
-        "count": 102
+        "count": 103
       },
       {
         "label": "天气",
@@ -51,14 +51,14 @@ window.ANALYSIS_META = {
       },
       {
         "label": "预计首发",
-        "count": 5
+        "count": 4
       }
     ],
     "note": "每日刷新不要求所有数据来自稳定 API；公开报道、快照、CSV/API 均可作为真实来源。未采集到真实数据时必须标为缺口或模型推断。"
   },
-  "predictionLockCount": 110,
-  "predictionLocksCreated": 0,
-  "oddsSnapshotFile": "snapshots/odds/2026-07-11.json"
+  "predictionLockCount": 111,
+  "predictionLocksCreated": 1,
+  "oddsSnapshotFile": "snapshots/odds/2026-07-12.json"
 };
 
 window.MATCHES = [
@@ -186,11 +186,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -0.83
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 17.5,
-      "shotsOnTarget": 4,
-      "possession": 54.9,
-      "shotAccuracy": 23,
+      "shotSource": "ESPN WC2026 (1场)",
+      "shotsPerGame": 20,
+      "shotsOnTarget": 5,
+      "possession": 66.9,
+      "shotAccuracy": 25,
       "playerQuality": {
         "squadValue": 0.11,
         "avgRating": 7,
@@ -201,19 +201,7 @@ window.MATCHES = [
         "avgAge": 27.5,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Raúl Rangel",
-          "Johan Vásquez",
-          "César Montes",
-          "Jesús Gallardo",
-          "Jorge Sánchez",
-          "Érik Lira",
-          "Luis Romo",
-          "Gilberto Mora",
-          "Raúl Jiménez",
-          "Julián Quiñones",
-          "Roberto Alvarado"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -351,17 +339,17 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 82,
+        "home": 83,
         "away": 70
       },
       {
         "label": "防守",
-        "home": 82,
+        "home": 85,
         "away": 75
       },
       {
         "label": "中场",
-        "home": 63,
+        "home": 69,
         "away": 55
       },
       {
@@ -372,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -385,7 +373,7 @@ window.MATCHES = [
       25,
       9
     ],
-    "confidence": 78,
+    "confidence": 75,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -395,7 +383,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "1-1",
@@ -466,12 +454,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 48,
       "under25": 52,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "bttsYes": 42,
+      "bttsNo": 58,
       "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.63,
+      "expectedTotalGoals": 2.62,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -533,10 +521,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
+        "homeScore": 79,
         "awayScore": 67,
-        "contribution": 2.16,
-        "evidence": "墨西哥 进攻82/防守82/中场63，综合76；南非 进攻70/防守75/中场55，综合67。"
+        "contribution": 2.88,
+        "evidence": "墨西哥 进攻83/防守85/中场69，综合79；南非 进攻70/防守75/中场55，综合67。"
       },
       {
         "name": "近期状态",
@@ -576,7 +564,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -584,14 +572,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 14,
         "awayRank": 60,
-        "homeAverageMetric": 79.3,
+        "homeAverageMetric": 81.8,
         "awayAverageMetric": 62.5
       },
       "recentForm": {
@@ -799,8 +787,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 82,
-        "homeDefense": 82,
+        "homeAttack": 83,
+        "homeDefense": 85,
         "awayAttack": 70,
         "awayDefense": 75
       },
@@ -823,8 +811,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -837,28 +825,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "Mexico boss' explicit heckle a bit of fun - Gordon",
+          "title": "South Africa World Cup midfielder Adams dies aged 25",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 06:36:59 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT"
         },
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -874,17 +868,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "墨西哥",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "England",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Raúl Rangel",
@@ -903,20 +894,20 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "César Montes",
+                  "name": "Mateo Chávez",
                   "position": "DF",
-                  "club": "Mexico",
-                  "age": 29,
-                  "value": 1230000,
-                  "rating": 7.03
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500,
+                  "rating": 6.74
                 },
                 {
-                  "name": "Jesús Gallardo",
+                  "name": "Israel Reyes",
                   "position": "DF",
-                  "club": "Toluca",
-                  "age": 31,
-                  "value": 1320000,
-                  "rating": 6.9
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000,
+                  "rating": 6.95
                 },
                 {
                   "name": "Jorge Sánchez",
@@ -927,28 +918,36 @@ window.MATCHES = [
                   "rating": 6.64
                 },
                 {
-                  "name": "Érik Lira",
+                  "name": "Obed Vargas",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 26,
-                  "value": 1575000,
-                  "rating": 6.79
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480,
+                  "rating": 6.77
                 },
                 {
-                  "name": "Luis Romo",
+                  "name": "Álvaro Fidalgo",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 31,
-                  "value": 2728000,
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000,
                   "rating": 7.02
                 },
                 {
-                  "name": "Gilberto Mora",
+                  "name": "Edson Álvarez",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 17,
-                  "value": 2576000,
-                  "rating": 7.02
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000,
+                  "rating": 6.95
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000,
+                  "rating": 6.59
                 },
                 {
                   "name": "Raúl Jiménez",
@@ -959,20 +958,12 @@ window.MATCHES = [
                   "rating": 6.9
                 },
                 {
-                  "name": "Julián Quiñones",
+                  "name": "Guillermo Martínez Ayala",
                   "position": "FW",
-                  "club": "Al-Qadsiah",
-                  "age": 29,
-                  "value": 2300000,
-                  "rating": 7.82
-                },
-                {
-                  "name": "Roberto Alvarado",
-                  "position": "FW",
-                  "club": "Mexico",
-                  "age": 27,
-                  "value": 1500000,
-                  "rating": 7.29
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000,
+                  "rating": 6.86
                 }
               ]
             },
@@ -1072,7 +1063,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+              "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT",
+              "description": "Adams played in South Africa’s World Cup group games Midfielder played for Mamelodi Sundowns Jayden Adams, who played in South Africa’s three group games at the World Cup, has died aged 25. The Mamelodi Sundowns midfielder started the tournament opener, a 2-0 defeat by Mexico, and the 1-1 draw with Czechia, being substituted in both matches. He then came off the bench in the 1-0 win against South Korea, but took no part in the 1-0 last-32 defeat by Canada. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -1087,15 +1088,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
-          "verified": 4,
+          "verified": 3,
           "missing": 2,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -1133,9 +1134,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "public-news-unparsed",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -1157,14 +1158,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。南非属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
-      "墨西哥 进攻指数 82，南非 防守指数 75；南非 进攻指数 70，墨西哥 防守指数 82。",
+      "墨西哥 进攻指数 83，南非 防守指数 75；南非 进攻指数 70，墨西哥 防守指数 85。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2,
+      "home": 1.99,
       "away": 0.63
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "mex-rsa-1",
       "date": "2026-06-12",
@@ -1485,7 +1486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1494,17 +1495,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
-      40,
-      22
+      36,
+      41,
+      23
     ],
-    "confidence": 62,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "1-1",
@@ -1515,14 +1516,14 @@ window.MATCHES = [
         "chance": 13
       },
       {
-        "score": "2-0",
-        "chance": 8
+        "score": "0-1",
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "0-0",
           "1-1"
@@ -1530,7 +1531,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "1-0",
           "2-0",
@@ -1539,7 +1540,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "0-1",
           "1-2",
@@ -1559,7 +1560,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 57,
         "examples": [
           "0-0",
           "1-1",
@@ -1568,7 +1569,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "0-0",
           "1-1"
@@ -1576,14 +1577,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 17,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 1.99,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -1591,15 +1592,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        38,
-        40,
-        22
+        36,
+        41,
+        23
       ],
       "market": null,
       "blended": [
-        38,
-        40,
-        22
+        36,
+        41,
+        23
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -1696,7 +1697,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -1927,9 +1928,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -1946,10 +1947,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -2077,9 +2087,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2152,10 +2162,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.16,
-      "away": 0.83
+      "home": 1.09,
+      "away": 0.84
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "kor-cze-2",
       "date": "2026-06-12",
@@ -2487,7 +2497,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2496,35 +2506,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      48,
-      40,
-      12
+      44,
+      42,
+      14
     ],
-    "confidence": 69,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 11
+        "chance": 10
       },
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 17
       },
       {
         "score": "2-0",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -2532,7 +2542,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 29,
+        "chance": 27,
         "examples": [
           "1-0",
           "2-0",
@@ -2540,19 +2550,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 13,
+        "label": "客队小胜",
+        "chance": 11,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 69,
         "examples": [
           "1-1",
           "0-0",
@@ -2561,7 +2571,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 45,
+        "chance": 48,
         "examples": [
           "1-1",
           "0-0",
@@ -2569,40 +2579,39 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 48,
+        "label": "低比分平局",
+        "chance": 36,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 28,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 25,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.38,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.36,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
-        30,
-        12
+        54,
+        32,
+        14
       ],
       "market": null,
       "blended": [
-        48,
-        40,
-        12
+        44,
+        42,
+        14
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -2955,10 +2964,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -2967,7 +2976,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3193,9 +3202,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3267,10 +3276,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.71,
-      "away": 0.67
+      "home": 1.63,
+      "away": 0.72
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "can-bih-7",
       "date": "2026-06-13",
@@ -3614,7 +3623,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3624,10 +3633,10 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       38,
-      43,
-      19
+      42,
+      20
     ],
-    "confidence": 67,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -3651,7 +3660,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 35,
         "examples": [
           "1-1",
           "0-0"
@@ -3659,7 +3668,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-0",
@@ -3668,7 +3677,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 14,
+        "chance": 15,
         "examples": [
           "0-1",
           "1-2",
@@ -3696,23 +3705,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 36,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 21,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.45,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 20,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.39,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -3720,21 +3730,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        48,
-        33,
-        19
+        38,
+        42,
+        20
       ],
       "market": null,
       "blended": [
         38,
-        43,
-        19
+        42,
+        20
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -3825,7 +3835,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -4078,22 +4088,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-          "pubDate": "Sat, 11 Jul 2026 07:00:43 GMT"
-        },
-        {
-          "title": "England injury updates: World Cup squad gets boost ahead of Norway match - USA Today",
-          "source": "USA Today",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDN6VjdlR0RCX1FrcDdKdTRET09uRWtLMnpQUm5IdDJVdVdiY2FKTFlnNno1enRQcDltbFNkM1lYQmt3TWYxYmlNMUR4ajNyY1hLd0E0V3FtSTlQeklTdm9hdlNWU2U2VWZmdDlwXzlzbkhaMEMxVkJ6clNsQk15dW9pT3JiT1M1OGpHLTM0SmpQUU9mQ0pMZ2tZQXdYWUhHRVJrRUI5ZnNuaWp5VjhGeko3SWpmTTdYanUyY1ZZU21ONURNZG1R?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 02:08:00 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -4319,9 +4323,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -4394,10 +4398,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.54,
-      "away": 0.9
+      "home": 1.46,
+      "away": 0.93
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "usa-par-19",
       "date": "2026-06-13",
@@ -4687,11 +4691,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -4700,20 +4704,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -4721,7 +4727,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 56,
-        "away": 75
+        "away": 66
       },
       {
         "label": "防守",
@@ -4731,7 +4737,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 52
+        "away": 50
       },
       {
         "label": "近期状态",
@@ -4741,7 +4747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4750,35 +4756,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      11,
-      44,
-      45
+      13,
+      46,
+      41
     ],
-    "confidence": 65,
+    "confidence": 68,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "0-1",
-        "chance": 15
-      },
       {
         "score": "0-0",
         "chance": 24
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
+      },
+      {
+        "score": "0-1",
+        "chance": 14
       },
       {
         "score": "0-2",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -4786,7 +4792,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 32,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -4794,19 +4800,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队大胜",
-        "chance": 10,
+        "label": "主队小胜",
+        "chance": 11,
         "examples": [
-          "0-3",
-          "0-4",
-          "1-4"
+          "1-0",
+          "2-1",
+          "2-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 79,
+        "chance": 77,
         "examples": [
           "0-0",
           "1-1",
@@ -4815,7 +4821,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 51,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -4824,7 +4830,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -4832,14 +4838,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 24,
+      "under25": 76,
+      "bttsYes": 36,
+      "bttsNo": 64,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 24,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.92,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.89,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -4847,15 +4853,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        11,
-        34,
-        55
+        13,
+        36,
+        51
       ],
       "market": null,
       "blended": [
-        11,
-        44,
-        45
+        13,
+        46,
+        41
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -4882,11 +4888,11 @@ window.MATCHES = [
       },
       "away": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
@@ -4902,9 +4908,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 56,
-        "awayScore": 68,
-        "contribution": -2.88,
-        "evidence": "卡塔尔 进攻56/防守74/中场39，综合56；瑞士 进攻75/防守76/中场52，综合68。"
+        "awayScore": 64,
+        "contribution": -1.92,
+        "evidence": "卡塔尔 进攻56/防守74/中场39，综合56；瑞士 进攻66/防守76/中场50，综合64。"
       },
       {
         "name": "近期状态",
@@ -4960,7 +4966,7 @@ window.MATCHES = [
         "homeRank": 56,
         "awayRank": 19,
         "homeAverageMetric": 50.8,
-        "awayAverageMetric": 65.3
+        "awayAverageMetric": 62.5
       },
       "recentForm": {
         "home": {
@@ -5169,7 +5175,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 56,
         "homeDefense": 74,
-        "awayAttack": 75,
+        "awayAttack": 66,
         "awayDefense": 76
       },
       "motivation": {
@@ -5208,28 +5214,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "'We should all be excited' - Messi set for first England meeting",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
-          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 08:58:41 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -5348,8 +5354,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -5393,12 +5399,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -5433,12 +5439,12 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             }
@@ -5458,9 +5464,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -5528,15 +5534,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "卡塔尔属于均衡型，场均进球参考值 0.67，大胜倾向 0%。瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。",
-      "卡塔尔 进攻指数 56，瑞士 防守指数 76；瑞士 进攻指数 75，卡塔尔 防守指数 74。",
+      "卡塔尔属于均衡型，场均进球参考值 0.67，大胜倾向 0%。瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。",
+      "卡塔尔 进攻指数 56，瑞士 防守指数 76；瑞士 进攻指数 66，卡塔尔 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.49,
-      "away": 1.43
+      "home": 0.54,
+      "away": 1.35
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "qat-sui-8",
       "date": "2026-06-14",
@@ -5709,19 +5715,7 @@ window.MATCHES = [
         "avgAge": 28.6,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Alisson Becker",
-          "Gabriel Magalhães",
-          "Marquinhos",
-          "Douglas Santos",
-          "Danilo",
-          "Casemiro",
-          "Bruno Guimarães",
-          "Gabriel Martinelli",
-          "Rayan",
-          "Vinícius Júnior",
-          "Matheus Cunha"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -5892,7 +5886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5901,35 +5895,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      37,
+      29,
+      38,
       33
     ],
-    "confidence": 64,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 16
+        "chance": 17
       },
       {
         "score": "2-2",
-        "chance": 10
+        "chance": 9
+      },
+      {
+        "score": "0-0",
+        "chance": 9
       },
       {
         "score": "1-2",
         "chance": 8
-      },
-      {
-        "score": "0-0",
-        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 26,
         "examples": [
           "1-1",
           "0-0"
@@ -5937,7 +5931,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "1-2",
           "0-2",
@@ -5946,7 +5940,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 14,
+        "chance": 15,
         "examples": [
           "2-1",
           "2-0",
@@ -5957,16 +5951,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 42,
+        "chance": 46,
         "examples": [
           "1-1",
-          "1-2",
-          "0-0"
+          "0-0",
+          "1-2"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 40,
+        "chance": 44,
         "examples": [
           "1-1",
           "0-0",
@@ -5975,7 +5969,7 @@ window.MATCHES = [
       },
       {
         "label": "开放对攻",
-        "chance": 39,
+        "chance": 34,
         "examples": [
           "2-2",
           "1-3",
@@ -5984,29 +5978,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 69,
-      "bttsNo": 31,
-      "homeWinBy2Plus": 16,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 17,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.32,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.1,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        30,
-        37,
+        29,
+        38,
         33
       ],
       "market": null,
       "blended": [
-        30,
-        37,
+        29,
+        38,
         33
       ],
       "blendWeight": 0,
@@ -6360,28 +6354,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
-        },
-        {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/12/norway-1-2-england-world-cup-quarter-final-player-ratings-from-miami",
+          "pubDate": "Sun, 12 Jul 2026 00:03:09 GMT"
         },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
           "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
+          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -6403,11 +6397,8 @@ window.MATCHES = [
           "teams": [
             {
               "team": "巴西",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Norway",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Alisson",
@@ -6416,6 +6407,22 @@ window.MATCHES = [
                   "age": 33,
                   "value": 11664000,
                   "rating": 6.81
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.05
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000,
+                  "rating": 6.91
                 },
                 {
                   "name": "Gabriel Magalhães",
@@ -6434,20 +6441,12 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "Douglas Santos",
-                  "position": "DF",
-                  "club": "Brazil",
-                  "age": 32,
-                  "value": 2185920,
-                  "rating": 6.82
-                },
-                {
-                  "name": "Danilo",
-                  "position": "DF",
-                  "club": "Flamengo",
-                  "age": 34,
-                  "value": 2232000,
-                  "rating": null
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000,
+                  "rating": 7.01
                 },
                 {
                   "name": "Casemiro",
@@ -6466,14 +6465,6 @@ window.MATCHES = [
                   "rating": 7.32
                 },
                 {
-                  "name": "Gabriel Martinelli",
-                  "position": "FW",
-                  "club": "Arsenal",
-                  "age": 24,
-                  "value": 19530000,
-                  "rating": 6.62
-                },
-                {
                   "name": "Rayan",
                   "position": "FW",
                   "club": "AFC Bournemouth",
@@ -6482,20 +6473,20 @@ window.MATCHES = [
                   "rating": 6.98
                 },
                 {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000,
+                  "rating": 6.62
+                },
+                {
                   "name": "Vinicius Junior",
                   "position": "FW",
                   "club": "Real Madrid",
                   "age": 25,
                   "value": 17010000,
                   "rating": 7.33
-                },
-                {
-                  "name": "Matheus Cunha",
-                  "position": "FW",
-                  "club": "Manchester United",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 7.14
                 }
               ]
             },
@@ -6613,9 +6604,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -6688,10 +6679,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.72,
-      "away": 1.6
+      "home": 1.59,
+      "away": 1.51
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "bra-mar-13",
       "date": "2026-06-14",
@@ -7023,7 +7014,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7032,9 +7023,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      12,
+      13,
       46,
-      42
+      41
     ],
     "confidence": 66,
     "tag": "已完场",
@@ -7042,15 +7033,15 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 23
+        "chance": 25
       },
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 18
       },
       {
         "score": "0-1",
-        "chance": 13
+        "chance": 15
       },
       {
         "score": "0-2",
@@ -7060,7 +7051,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -7068,7 +7059,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 30,
+        "chance": 31,
         "examples": [
           "0-1",
           "0-2",
@@ -7077,7 +7068,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 10,
+        "chance": 12,
         "examples": [
           "1-0",
           "2-1",
@@ -7088,7 +7079,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 77,
+        "chance": 78,
         "examples": [
           "0-0",
           "1-1",
@@ -7097,7 +7088,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 53,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -7106,7 +7097,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -7114,14 +7105,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 35,
+      "bttsNo": 65,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 22,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.96,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.81,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -7129,21 +7120,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        12,
-        36,
-        52
+        13,
+        46,
+        41
       ],
       "market": null,
       "blended": [
-        12,
+        13,
         46,
-        42
+        41
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -7710,9 +7701,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7786,9 +7777,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 0.56,
-      "away": 1.4
+      "away": 1.25
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "hai-sco-14",
       "date": "2026-06-14",
@@ -8109,7 +8100,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8118,35 +8109,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      29,
-      40,
-      31
+      30,
+      38,
+      32
     ],
-    "confidence": 66,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 11
       },
       {
         "score": "2-1",
         "chance": 7
       },
       {
-        "score": "2-2",
+        "score": "1-2",
         "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 31,
+        "chance": 30,
         "examples": [
           "1-1",
           "0-0"
@@ -8174,7 +8165,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 53,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
@@ -8183,7 +8174,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 52,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -8191,39 +8182,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 31,
+        "label": "客队胜出覆盖",
+        "chance": 32,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-2",
+          "0-1",
+          "0-2"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
+      "over25": 47,
+      "under25": 53,
       "bttsYes": 58,
       "bttsNo": 42,
-      "homeWinBy2Plus": 13,
+      "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.66,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.67,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        29,
-        40,
-        31
+        30,
+        38,
+        32
       ],
       "market": null,
       "blended": [
-        29,
-        40,
-        31
+        30,
+        38,
+        32
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -8600,7 +8592,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -8741,9 +8733,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -8815,10 +8807,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.23,
-      "away": 1.43
+      "home": 1.27,
+      "away": 1.4
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "aus-tur-20",
       "date": "2026-06-14",
@@ -8989,7 +8981,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 7,
         "avgAge": 27.2,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -9118,7 +9110,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
+        "home": 83,
         "away": 69
       },
       {
@@ -9128,7 +9120,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 78,
         "away": 44
       },
       {
@@ -9139,7 +9131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9148,8 +9140,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      67,
-      24,
+      66,
+      25,
       9
     ],
     "confidence": 76,
@@ -9162,21 +9154,21 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
-        "score": "3-0",
-        "chance": 9
+        "score": "0-0",
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 34,
+        "chance": 36,
         "examples": [
           "2-0",
           "1-0",
@@ -9185,7 +9177,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 23,
+        "chance": 22,
         "examples": [
           "3-0",
           "4-0",
@@ -9194,7 +9186,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 20,
+        "chance": 21,
         "examples": [
           "1-1",
           "0-0"
@@ -9204,7 +9196,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 64,
+        "chance": 66,
         "examples": [
           "2-0",
           "1-0",
@@ -9213,7 +9205,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 67,
+        "chance": 66,
         "examples": [
           "2-0",
           "1-0",
@@ -9222,7 +9214,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 46,
+        "chance": 45,
         "examples": [
           "2-0",
           "3-0",
@@ -9231,14 +9223,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 44,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.72,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.61,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -9246,14 +9238,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        67,
-        24,
+        66,
+        25,
         9
       ],
       "market": null,
       "blended": [
-        67,
-        24,
+        66,
+        25,
         9
       ],
       "blendWeight": 0,
@@ -9272,7 +9264,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "防守控制型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.75,
         "avgGoalsAgainst": 1.25,
         "bigWinRate": 25,
@@ -9300,10 +9292,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
+        "homeScore": 82,
         "awayScore": 60,
-        "contribution": 3.84,
-        "evidence": "德国 进攻73/防守86/中场68，综合76；库拉索 进攻69/防守68/中场44，综合60。"
+        "contribution": 5.28,
+        "evidence": "德国 进攻83/防守86/中场78，综合82；库拉索 进攻69/防守68/中场44，综合60。"
       },
       {
         "name": "近期状态",
@@ -9351,14 +9343,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 10,
         "awayRank": 82,
-        "homeAverageMetric": 83.3,
+        "homeAverageMetric": 88.3,
         "awayAverageMetric": 59.8
       },
       "recentForm": {
@@ -9566,7 +9558,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 86,
         "awayAttack": 69,
         "awayDefense": 68
@@ -9582,9 +9574,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -9601,16 +9593,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -9741,9 +9742,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9810,15 +9811,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "德国属于防守控制型，场均进球参考值 2.75，大胜倾向 25%。库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。",
-      "德国 进攻指数 73，库拉索 防守指数 68；库拉索 进攻指数 69，德国 防守指数 86。",
+      "德国属于主动压迫型，场均进球参考值 2.75，大胜倾向 25%。库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。",
+      "德国 进攻指数 83，库拉索 防守指数 68；库拉索 进攻指数 69，德国 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.06,
-      "away": 0.65
+      "home": 1.99,
+      "away": 0.63
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "ger-cuw-25",
       "date": "2026-06-15",
@@ -10150,7 +10151,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10159,72 +10160,63 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      39,
+      32,
+      37,
       31
     ],
-    "confidence": 65,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 11
+        "chance": 10
       },
       {
-        "score": "1-2",
+        "score": "2-1",
         "chance": 8
       },
       {
         "score": "2-2",
-        "chance": 8
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 30,
+        "chance": 28,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "客队小胜",
-        "chance": 19,
-        "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
-        ]
-      },
-      {
         "label": "主队小胜",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "2-1",
           "1-0",
           "2-0"
         ]
+      },
+      {
+        "label": "客队小胜",
+        "chance": 18,
+        "examples": [
+          "1-2",
+          "0-1",
+          "0-2"
+        ]
       }
     ],
     "scoreScenarios": [
       {
-        "label": "客队不败低比分",
-        "chance": 51,
-        "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
-        ]
-      },
-      {
         "label": "主队不败低比分",
-        "chance": 50,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
@@ -10232,23 +10224,33 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 30,
+        "label": "客队不败低比分",
+        "chance": 48,
         "examples": [
           "1-1",
-          "0-0"
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 32,
+        "examples": [
+          "2-1",
+          "1-0",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
+      "over25": 50,
+      "under25": 50,
       "bttsYes": 60,
       "bttsNo": 40,
       "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.76,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.81,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -10256,14 +10258,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        30,
-        39,
+        32,
+        37,
         31
       ],
       "market": null,
       "blended": [
-        30,
-        39,
+        32,
+        37,
         31
       ],
       "blendWeight": 0,
@@ -10837,9 +10839,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10912,10 +10914,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.44,
-      "away": 1.32
+      "home": 1.37,
+      "away": 1.44
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "ned-jpn-31",
       "date": "2026-06-15",
@@ -11073,11 +11075,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 14,
-      "shotsOnTarget": 5,
-      "possession": 47,
-      "shotAccuracy": 36,
+      "shotSource": "AFCON 2025-26",
+      "shotsPerGame": 16.6,
+      "shotsOnTarget": null,
+      "possession": 59.6,
+      "shotAccuracy": 24,
       "playerQuality": null
     },
     "away": {
@@ -11194,11 +11196,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -1
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 7,
-      "shotsOnTarget": 1,
-      "possession": 57.2,
-      "shotAccuracy": 14,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.13,
         "avgRating": 6.98,
@@ -11215,18 +11217,18 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 86,
-        "away": 66
+        "home": 79,
+        "away": 64
       },
       {
         "label": "防守",
         "home": 78,
-        "away": 81
+        "away": 88
       },
       {
         "label": "中场",
-        "home": 52,
-        "away": 60
+        "home": 62,
+        "away": 59
       },
       {
         "label": "近期状态",
@@ -11236,7 +11238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11245,9 +11247,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      35,
       36,
-      29
+      37,
+      27
     ],
     "confidence": 60,
     "tag": "已完场",
@@ -11259,11 +11261,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 14
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "2-1",
@@ -11273,7 +11275,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 29,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -11281,7 +11283,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-1",
@@ -11301,7 +11303,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 59,
         "examples": [
           "1-1",
           "0-0",
@@ -11310,7 +11312,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 51,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
@@ -11319,7 +11321,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "1-0",
           "2-1",
@@ -11328,14 +11330,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 54,
-      "bttsNo": 46,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 50,
+      "bttsNo": 50,
       "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.49,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.32,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -11343,15 +11345,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        35,
         36,
-        29
+        37,
+        27
       ],
       "market": null,
       "blended": [
-        35,
         36,
-        29
+        37,
+        27
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -11369,7 +11371,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "均衡型",
         "avgGoalsFor": 1.25,
         "avgGoalsAgainst": 1,
         "bigWinRate": 25,
@@ -11377,7 +11379,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 0.5,
         "avgGoalsAgainst": 1,
         "bigWinRate": 0,
@@ -11397,10 +11399,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 72,
-        "awayScore": 69,
+        "homeScore": 73,
+        "awayScore": 70,
         "contribution": 0.72,
-        "evidence": "科特迪瓦 进攻86/防守78/中场52，综合72；厄瓜多尔 进攻66/防守81/中场60，综合69。"
+        "evidence": "科特迪瓦 进攻79/防守78/中场62，综合73；厄瓜多尔 进攻64/防守88/中场59，综合70。"
       },
       {
         "name": "近期状态",
@@ -11455,8 +11457,8 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 33,
         "awayRank": 23,
-        "homeAverageMetric": 76.5,
-        "awayAverageMetric": 66.3
+        "homeAverageMetric": 77.3,
+        "awayAverageMetric": 67.3
       },
       "recentForm": {
         "home": {
@@ -11663,10 +11665,10 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 86,
+        "homeAttack": 79,
         "homeDefense": 78,
-        "awayAttack": 66,
-        "awayDefense": 81
+        "awayAttack": 64,
+        "awayDefense": 88
       },
       "motivation": {
         "home": null,
@@ -11707,7 +11709,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -11838,9 +11840,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -11907,15 +11909,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "科特迪瓦属于主动压迫型，场均进球参考值 1.25，大胜倾向 25%。厄瓜多尔属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
-      "科特迪瓦 进攻指数 86，厄瓜多尔 防守指数 81；厄瓜多尔 进攻指数 66，科特迪瓦 防守指数 78。",
+      "科特迪瓦属于均衡型，场均进球参考值 1.25，大胜倾向 25%。厄瓜多尔属于防守控制型，场均进球参考值 0.5，大胜倾向 0%。",
+      "科特迪瓦 进攻指数 79，厄瓜多尔 防守指数 88；厄瓜多尔 进攻指数 64，科特迪瓦 防守指数 78。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.31,
-      "away": 1.17
+      "home": 1.26,
+      "away": 1.06
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "civ-ecu-26",
       "date": "2026-06-15",
@@ -12074,11 +12076,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.83
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 8,
-      "shotsOnTarget": 3,
-      "possession": 39,
-      "shotAccuracy": 38,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.23,
         "avgRating": 6.82,
@@ -12227,17 +12229,17 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 70,
+        "home": 66,
         "away": 64
       },
       {
         "label": "防守",
-        "home": 68,
+        "home": 70,
         "away": 91
       },
       {
         "label": "中场",
-        "home": 45,
+        "home": 47,
         "away": 46
       },
       {
@@ -12248,7 +12250,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12257,43 +12259,43 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      34,
+      38,
       40,
-      26
+      22
     ],
-    "confidence": 64,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 5-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
+      {
+        "score": "0-0",
+        "chance": 18
+      },
       {
         "score": "1-1",
         "chance": 18
       },
       {
-        "score": "0-0",
-        "chance": 17
-      },
-      {
         "score": "1-0",
-        "chance": 11
+        "chance": 12
       },
       {
-        "score": "0-1",
-        "chance": 9
+        "score": "2-0",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 36,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "主队小胜",
-        "chance": 25,
+        "chance": 28,
         "examples": [
           "1-0",
           "2-0",
@@ -12302,7 +12304,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 20,
+        "chance": 18,
         "examples": [
           "0-1",
           "1-2",
@@ -12313,56 +12315,57 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 67,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 57,
+        "chance": 55,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 35,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.1,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.01,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        34,
+        38,
         40,
-        26
+        22
       ],
       "market": null,
       "blended": [
-        34,
+        38,
         40,
-        26
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -12411,7 +12414,7 @@ window.MATCHES = [
         "homeScore": 61,
         "awayScore": 67,
         "contribution": -1.44,
-        "evidence": "瑞典 进攻70/防守68/中场45，综合61；突尼斯 进攻64/防守91/中场46，综合67。"
+        "evidence": "瑞典 进攻66/防守70/中场47，综合61；突尼斯 进攻64/防守91/中场46，综合67。"
       },
       {
         "name": "近期状态",
@@ -12674,8 +12677,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 70,
-        "homeDefense": 68,
+        "homeAttack": 66,
+        "homeDefense": 70,
         "awayAttack": 64,
         "awayDefense": 91
       },
@@ -12935,9 +12938,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13006,14 +13009,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。突尼斯属于防守控制型，场均进球参考值 0.67，大胜倾向 0%。",
-      "瑞典 进攻指数 70，突尼斯 防守指数 91；突尼斯 进攻指数 64，瑞典 防守指数 68。",
+      "瑞典 进攻指数 66，突尼斯 防守指数 91；突尼斯 进攻指数 64，瑞典 防守指数 70。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.14,
-      "away": 0.95
+      "home": 1.18,
+      "away": 0.83
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "swe-tun-32",
       "date": "2026-06-15",
@@ -13347,7 +13350,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13356,8 +13359,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      65,
-      26,
+      67,
+      24,
       9
     ],
     "confidence": 78,
@@ -13370,21 +13373,21 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
-      },
-      {
-        "score": "1-1",
         "chance": 12
       },
       {
-        "score": "0-0",
-        "chance": 10
+        "score": "1-1",
+        "chance": 11
+      },
+      {
+        "score": "3-0",
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 36,
+        "chance": 35,
         "examples": [
           "2-0",
           "1-0",
@@ -13392,27 +13395,27 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 22,
-        "examples": [
-          "1-1",
-          "0-0"
-        ]
-      },
-      {
         "label": "主队大胜",
-        "chance": 21,
+        "chance": 23,
         "examples": [
           "3-0",
           "4-0",
           "4-1"
+        ]
+      },
+      {
+        "label": "低比分平局",
+        "chance": 20,
+        "examples": [
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 68,
+        "chance": 65,
         "examples": [
           "2-0",
           "1-0",
@@ -13421,7 +13424,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 65,
+        "chance": 67,
         "examples": [
           "2-0",
           "1-0",
@@ -13430,7 +13433,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 43,
+        "chance": 46,
         "examples": [
           "2-0",
           "3-0",
@@ -13439,14 +13442,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 44,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.55,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.67,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -13454,14 +13457,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        65,
-        26,
+        67,
+        24,
         9
       ],
       "market": null,
       "blended": [
-        65,
-        26,
+        67,
+        24,
         9
       ],
       "blendWeight": 0,
@@ -13815,28 +13818,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
+          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13845,7 +13848,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -13964,17 +13967,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -13989,9 +13982,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -14063,10 +14056,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.94,
-      "away": 0.61
+      "home": 2.03,
+      "away": 0.64
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "esp-cpv-43",
       "date": "2026-06-16",
@@ -14237,10 +14230,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -14391,7 +14382,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
+        "home": 83,
         "away": 71
       },
       {
@@ -14401,7 +14392,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 50,
+        "home": 53,
         "away": 54
       },
       {
@@ -14412,7 +14403,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14421,9 +14412,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      55,
+      56,
       27,
-      18
+      17
     ],
     "confidence": 78,
     "tag": "已完场",
@@ -14443,13 +14434,13 @@ window.MATCHES = [
       },
       {
         "score": "3-1",
-        "chance": 6
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 25,
+        "chance": 26,
         "examples": [
           "2-1",
           "2-0",
@@ -14486,7 +14477,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 55,
+        "chance": 56,
         "examples": [
           "2-1",
           "2-0",
@@ -14495,7 +14486,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "2-0",
           "3-1",
@@ -14508,10 +14499,10 @@ window.MATCHES = [
       "under25": 41,
       "bttsYes": 60,
       "bttsNo": 40,
-      "homeWinBy2Plus": 34,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 7,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.11,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -14519,15 +14510,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        55,
+        56,
         27,
-        18
+        17
       ],
       "market": null,
       "blended": [
-        55,
+        56,
         27,
-        18
+        17
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -14545,7 +14536,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -14573,10 +14564,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 67,
+        "homeScore": 71,
         "awayScore": 68,
-        "contribution": -0.24,
-        "evidence": "比利时 进攻73/防守77/中场50，综合67；埃及 进攻71/防守78/中场54，综合68。"
+        "contribution": 0.72,
+        "evidence": "比利时 进攻83/防守77/中场53，综合71；埃及 进攻71/防守78/中场54，综合68。"
       },
       {
         "name": "近期状态",
@@ -14631,7 +14622,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 29,
-        "homeAverageMetric": 68.5,
+        "homeAverageMetric": 71.8,
         "awayAverageMetric": 65.3
       },
       "recentForm": {
@@ -14839,7 +14830,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 77,
         "awayAttack": 71,
         "awayDefense": 78
@@ -14880,28 +14871,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
-        },
-        {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
-        },
-        {
-          "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
+          "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-          "pubDate": "Sat, 11 Jul 2026 09:38:24 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
+          "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
+        },
+        {
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
+        },
+        {
+          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+        },
+        {
+          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
+          "source": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -14910,7 +14901,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -15159,9 +15150,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -15228,15 +15219,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
-      "比利时 进攻指数 73，埃及 防守指数 78；埃及 进攻指数 71，比利时 防守指数 77。",
+      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
+      "比利时 进攻指数 83，埃及 防守指数 78；埃及 进攻指数 71，比利时 防守指数 77。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2,
-      "away": 1.12
+      "home": 2.04,
+      "away": 1.09
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "bel-egy-37",
       "date": "2026-06-16",
@@ -15568,7 +15559,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15587,7 +15578,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 27
+        "chance": 26
       },
       {
         "score": "0-1",
@@ -16255,9 +16246,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16333,7 +16324,7 @@ window.MATCHES = [
       "home": 0.49,
       "away": 1.06
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "ksa-uru-44",
       "date": "2026-06-16",
@@ -16665,7 +16656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16674,9 +16665,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      61,
-      29,
-      10
+      60,
+      31,
+      9
     ],
     "confidence": 76,
     "tag": "已完场",
@@ -16684,15 +16675,15 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
-      },
-      {
-        "score": "2-0",
-        "chance": 14
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 16
+      },
+      {
+        "score": "2-0",
+        "chance": 15
       },
       {
         "score": "1-1",
@@ -16702,7 +16693,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 37,
+        "chance": 40,
         "examples": [
           "1-0",
           "2-0",
@@ -16711,7 +16702,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 26,
+        "chance": 29,
         "examples": [
           "0-0",
           "1-1"
@@ -16719,7 +16710,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 17,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-0",
@@ -16730,16 +16721,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 71,
+        "chance": 77,
         "examples": [
           "1-0",
-          "2-0",
-          "0-0"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 61,
+        "chance": 60,
         "examples": [
           "1-0",
           "2-0",
@@ -16748,7 +16739,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 38,
+        "chance": 35,
         "examples": [
           "2-0",
           "3-0",
@@ -16757,14 +16748,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 37,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.32,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 34,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.07,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -16772,15 +16763,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        61,
-        29,
-        10
+        60,
+        31,
+        9
       ],
       "market": null,
       "blended": [
-        61,
-        29,
-        10
+        60,
+        31,
+        9
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -17353,9 +17344,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17428,10 +17419,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.75,
-      "away": 0.57
+      "home": 1.57,
+      "away": 0.5
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "irn-nzl-38",
       "date": "2026-06-16",
@@ -17589,11 +17580,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -17764,7 +17755,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 67,
+        "home": 68,
         "away": 52
       },
       {
@@ -17775,7 +17766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17784,9 +17775,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      62,
+      63,
       23,
-      15
+      14
     ],
     "confidence": 78,
     "tag": "已完场",
@@ -17794,7 +17785,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-1",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "1-1",
@@ -17802,7 +17793,7 @@ window.MATCHES = [
       },
       {
         "score": "2-0",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "3-1",
@@ -17821,7 +17812,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "3-0",
           "4-1",
@@ -17829,19 +17820,18 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队对攻胜",
-        "chance": 16,
+        "label": "低比分平局",
+        "chance": 15,
         "examples": [
-          "3-1",
-          "3-2",
-          "4-2"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队优势胜",
-        "chance": 47,
+        "chance": 48,
         "examples": [
           "2-0",
           "3-1",
@@ -17850,7 +17840,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "1-1",
           "2-1",
@@ -17859,7 +17849,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 62,
+        "chance": 63,
         "examples": [
           "2-1",
           "2-0",
@@ -17868,14 +17858,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 67,
-      "under25": 33,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 6,
+      "over25": 66,
+      "under25": 34,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 43,
+      "awayWinBy2Plus": 5,
       "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.5,
+      "expectedTotalGoals": 3.47,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -17883,15 +17873,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        62,
+        63,
         23,
-        15
+        14
       ],
       "market": null,
       "blended": [
-        62,
+        63,
         23,
-        15
+        14
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -17940,7 +17930,7 @@ window.MATCHES = [
         "homeScore": 78,
         "awayScore": 71,
         "contribution": 1.68,
-        "evidence": "法国 进攻88/防守79/中场67，综合78；塞内加尔 进攻84/防守76/中场52，综合71。"
+        "evidence": "法国 进攻88/防守79/中场68，综合78；塞内加尔 进攻84/防守76/中场52，综合71。"
       },
       {
         "name": "近期状态",
@@ -17977,10 +17967,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 48,
+        "awayScore": 48,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -17995,7 +17985,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 3,
         "awayRank": 15,
-        "homeAverageMetric": 81,
+        "homeAverageMetric": 81.3,
         "awayAverageMetric": 71.5
       },
       "recentForm": {
@@ -18224,11 +18214,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 48,
+        "awayScore": 48,
+        "goalLift": -0.06,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -18244,28 +18234,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
+          "title": "Senegal sack manager Thiaw in wake of World Cup exit",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         },
         {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -18486,17 +18476,55 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT",
+              "description": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup.",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -18569,10 +18597,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.35,
-      "away": 1.14
+      "home": 2.39,
+      "away": 1.08
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "fra-sen-49",
       "date": "2026-06-17",
@@ -18863,10 +18891,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -18877,36 +18905,24 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "metrics": [
       {
         "label": "进攻",
         "home": 60,
-        "away": 77
+        "away": 80
       },
       {
         "label": "防守",
         "home": 78,
-        "away": 79
+        "away": 78
       },
       {
         "label": "中场",
         "home": 48,
-        "away": 63
+        "away": 61
       },
       {
         "label": "近期状态",
@@ -18916,7 +18932,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -18925,11 +18941,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      13,
+      14,
       42,
-      45
+      44
     ],
-    "confidence": 67,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-4。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -18943,7 +18959,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "0-2",
@@ -18953,7 +18969,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -18961,7 +18977,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 27,
         "examples": [
           "0-1",
           "0-2",
@@ -18981,7 +18997,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 71,
+        "chance": 69,
         "examples": [
           "1-1",
           "0-0",
@@ -18999,7 +19015,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -19007,30 +19023,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 44,
-      "bttsNo": 56,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 47,
+      "bttsNo": 53,
       "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 25,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.27,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.34,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        13,
+        14,
         32,
-        55
+        54
       ],
       "market": null,
       "blended": [
-        13,
+        14,
         42,
-        45
+        44
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -19056,10 +19072,10 @@ window.MATCHES = [
         "failedToScoreRate": 67
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       }
@@ -19079,7 +19095,7 @@ window.MATCHES = [
         "homeScore": 62,
         "awayScore": 73,
         "contribution": -2.64,
-        "evidence": "伊拉克 进攻60/防守78/中场48，综合62；挪威 进攻77/防守79/中场63，综合73。"
+        "evidence": "伊拉克 进攻60/防守78/中场48，综合62；挪威 进攻80/防守78/中场61，综合73。"
       },
       {
         "name": "近期状态",
@@ -19119,7 +19135,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -19344,8 +19360,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 60,
         "homeDefense": 78,
-        "awayAttack": 77,
-        "awayDefense": 79
+        "awayAttack": 80,
+        "awayDefense": 78
       },
       "motivation": {
         "home": null,
@@ -19366,8 +19382,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -19383,28 +19399,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT"
         },
         {
-          "title": "Haaland has advantage over Man City team-mates",
+          "title": "Bellingham scores extra-time winner as England reach semi-finals",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/videos/cjrgww8vr98o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 00:50:48 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -19420,9 +19436,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "伊拉克",
@@ -19521,11 +19537,8 @@ window.MATCHES = [
             },
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -19536,28 +19549,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -19568,20 +19565,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -19592,12 +19597,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -19608,27 +19613,25 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -19643,15 +19646,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -19690,9 +19693,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -19713,15 +19716,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "伊拉克属于均衡型，场均进球参考值 0.33，大胜倾向 0%。挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。",
-      "伊拉克 进攻指数 60，挪威 防守指数 79；挪威 进攻指数 77，伊拉克 防守指数 78。",
+      "伊拉克属于均衡型，场均进球参考值 0.33，大胜倾向 0%。挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。",
+      "伊拉克 进攻指数 60，挪威 防守指数 78；挪威 进攻指数 80，伊拉克 防守指数 78。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.68,
-      "away": 1.59
+      "home": 0.73,
+      "away": 1.6
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "irq-nor-50",
       "date": "2026-06-17",
@@ -19879,11 +19882,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -19901,8 +19904,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -20054,7 +20057,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 72,
+        "home": 71,
         "away": 60
       },
       {
@@ -20065,7 +20068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20074,8 +20077,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      57,
-      25,
+      56,
+      26,
       18
     ],
     "confidence": 78,
@@ -20084,11 +20087,11 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-1",
-        "chance": 9
+        "chance": 10
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
         "score": "2-0",
@@ -20102,7 +20105,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "2-1",
           "2-0",
@@ -20110,27 +20113,27 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 18,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 19,
+        "chance": 18,
         "examples": [
           "3-0",
           "4-1",
           "4-0"
-        ]
-      },
-      {
-        "label": "低比分平局",
-        "chance": 16,
-        "examples": [
-          "1-1",
-          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 45,
+        "chance": 48,
         "examples": [
           "1-1",
           "2-1",
@@ -20138,33 +20141,33 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队优势胜",
-        "chance": 42,
-        "examples": [
-          "2-0",
-          "3-1",
-          "3-0"
-        ]
-      },
-      {
         "label": "主队胜出覆盖",
-        "chance": 57,
+        "chance": 56,
         "examples": [
           "2-1",
           "2-0",
           "3-1"
         ]
+      },
+      {
+        "label": "主队优势胜",
+        "chance": 40,
+        "examples": [
+          "2-0",
+          "3-1",
+          "3-0"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 65,
-      "under25": 35,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 37,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.4,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 35,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.26,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -20172,14 +20175,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        57,
-        25,
+        56,
+        26,
         18
       ],
       "market": null,
       "blended": [
-        57,
-        25,
+        56,
+        26,
         18
       ],
       "blendWeight": 0,
@@ -20199,10 +20202,10 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       },
       "away": {
@@ -20229,7 +20232,7 @@ window.MATCHES = [
         "homeScore": 81,
         "awayScore": 70,
         "contribution": 2.64,
-        "evidence": "阿根廷 进攻88/防守84/中场72，综合81；阿尔及利亚 进攻71/防守80/中场60，综合70。"
+        "evidence": "阿根廷 进攻88/防守84/中场71，综合81；阿尔及利亚 进攻71/防守80/中场60，综合70。"
       },
       {
         "name": "近期状态",
@@ -20284,7 +20287,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 1,
         "awayRank": 28,
-        "homeAverageMetric": 85.5,
+        "homeAverageMetric": 85.3,
         "awayAverageMetric": 73.3
       },
       "recentForm": {
@@ -20533,28 +20536,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "BBC to show England's World Cup semi-final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "Argentina midfield great Rattin dies aged 89",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -20563,7 +20566,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20587,8 +20590,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -20640,20 +20643,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -20789,22 +20792,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -20871,15 +20864,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。阿尔及利亚属于均衡型，场均进球参考值 1.25，大胜倾向 0%。",
+      "阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。阿尔及利亚属于均衡型，场均进球参考值 1.25，大胜倾向 0%。",
       "阿根廷 进攻指数 88，阿尔及利亚 防守指数 80；阿尔及利亚 进攻指数 71，阿根廷 防守指数 84。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.21,
-      "away": 1.19
+      "home": 2.11,
+      "away": 1.15
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "arg-alg-55",
       "date": "2026-06-17",
@@ -21211,7 +21204,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21230,7 +21223,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 16
       },
       {
         "score": "2-0",
@@ -21238,7 +21231,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 14
       },
       {
         "score": "1-1",
@@ -21248,7 +21241,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -21294,7 +21287,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 38,
         "examples": [
           "2-0",
           "3-0",
@@ -21303,14 +21296,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
+      "over25": 38,
+      "under25": 62,
       "bttsYes": 37,
       "bttsNo": 63,
       "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.28,
+      "expectedTotalGoals": 2.25,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -21423,7 +21416,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -21654,9 +21647,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -21673,19 +21666,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21908,9 +21892,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21983,10 +21967,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.74,
-      "away": 0.55
+      "home": 1.71,
+      "away": 0.54
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "aut-jor-56",
       "date": "2026-06-17",
@@ -22330,7 +22314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22339,9 +22323,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      59,
-      29,
-      12
+      62,
+      27,
+      11
     ],
     "confidence": 78,
     "tag": "已完场",
@@ -22353,15 +22337,15 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 14
-      },
-      {
-        "score": "1-0",
         "chance": 13
       },
       {
+        "score": "1-0",
+        "chance": 12
+      },
+      {
         "score": "0-0",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
@@ -22376,7 +22360,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 25,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
@@ -22384,7 +22368,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 19,
         "examples": [
           "3-0",
           "4-0",
@@ -22395,16 +22379,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 67,
+        "chance": 65,
         "examples": [
-          "1-1",
           "2-0",
+          "1-1",
           "1-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 59,
+        "chance": 62,
         "examples": [
           "2-0",
           "1-0",
@@ -22413,7 +22397,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 37,
+        "chance": 41,
         "examples": [
           "2-0",
           "3-0",
@@ -22422,30 +22406,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 35,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.47,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.59,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        59,
-        29,
-        12
+        62,
+        27,
+        11
       ],
       "market": null,
       "blended": [
-        59,
-        29,
-        12
+        62,
+        27,
+        11
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -22542,7 +22526,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -22773,9 +22757,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -22792,25 +22776,16 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -23036,22 +23011,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
-              "description": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -23123,10 +23088,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.77,
-      "away": 0.69
+      "home": 1.88,
+      "away": 0.7
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "por-cod-61",
       "date": "2026-06-18",
@@ -23284,11 +23249,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -23297,23 +23262,20 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
@@ -23452,7 +23414,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 78,
+        "home": 85,
         "away": 83
       },
       {
@@ -23462,7 +23424,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 63,
         "away": 51
       },
       {
@@ -23473,7 +23435,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23482,52 +23444,52 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      36,
-      42,
-      22
+      50,
+      30,
+      20
     ],
-    "confidence": 67,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
+        "score": "2-1",
+        "chance": 9
+      },
+      {
         "score": "1-1",
-        "chance": 20
+        "chance": 14
+      },
+      {
+        "score": "2-0",
+        "chance": 9
       },
       {
         "score": "0-0",
-        "chance": 13
-      },
-      {
-        "score": "2-2",
-        "chance": 7
-      },
-      {
-        "score": "2-1",
-        "chance": 7
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
+        "label": "主队小胜",
+        "chance": 27,
+        "examples": [
+          "2-1",
+          "2-0",
+          "1-0"
+        ]
+      },
+      {
         "label": "低比分平局",
-        "chance": 33,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "主队小胜",
-        "chance": 21,
-        "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
-        ]
-      },
-      {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 13,
         "examples": [
           "1-2",
           "0-1",
@@ -23538,63 +23500,63 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 58,
+        "chance": 55,
         "examples": [
           "1-1",
-          "0-0",
-          "2-1"
+          "2-1",
+          "2-0"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 50,
+        "examples": [
+          "2-1",
+          "2-0",
+          "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 49,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0",
           "1-2"
         ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 36,
-        "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
-        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
+      "over25": 52,
+      "under25": 48,
       "bttsYes": 57,
       "bttsNo": 43,
-      "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.66,
-      "totalGoalsLean": "小于2.5球",
+      "homeWinBy2Plus": 29,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.82,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        46,
-        32,
-        22
+        50,
+        30,
+        20
       ],
       "market": null,
       "blended": [
-        36,
-        42,
-        22
+        50,
+        30,
+        20
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -23606,12 +23568,12 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "开放进攻型",
@@ -23634,10 +23596,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 76,
         "awayScore": 69,
-        "contribution": 0.48,
-        "evidence": "英格兰 进攻78/防守80/中场56，综合71；克罗地亚 进攻83/防守72/中场51，综合69。"
+        "contribution": 1.68,
+        "evidence": "英格兰 进攻85/防守80/中场63，综合76；克罗地亚 进攻83/防守72/中场51，综合69。"
       },
       {
         "name": "近期状态",
@@ -23674,10 +23636,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 46,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.24,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -23692,7 +23654,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 11,
-        "homeAverageMetric": 76,
+        "homeAverageMetric": 79.5,
         "awayAverageMetric": 70
       },
       "recentForm": {
@@ -23900,7 +23862,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 78,
+        "homeAttack": 85,
         "homeDefense": 80,
         "awayAttack": 83,
         "awayDefense": 72
@@ -23921,11 +23883,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 46,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": -0.06,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -23941,28 +23903,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -23986,8 +23948,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -24007,12 +23969,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -24023,12 +23985,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -24071,12 +24033,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             },
@@ -24176,24 +24138,63 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -24261,15 +24262,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。克罗地亚属于开放进攻型，场均进球参考值 1.5，大胜倾向 0%。",
-      "英格兰 进攻指数 78，克罗地亚 防守指数 72；克罗地亚 进攻指数 83，英格兰 防守指数 80。",
+      "英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。克罗地亚属于开放进攻型，场均进球参考值 1.5，大胜倾向 0%。",
+      "英格兰 进攻指数 85，克罗地亚 防守指数 72；克罗地亚 进攻指数 83，英格兰 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.6,
+      "home": 1.75,
       "away": 1.06
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "eng-cro-67",
       "date": "2026-06-18",
@@ -24601,7 +24602,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24610,17 +24611,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      20,
-      42,
+      19,
+      43,
       38
     ],
-    "confidence": 64,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 22
+        "chance": 23
       },
       {
         "score": "1-1",
@@ -24631,14 +24632,14 @@ window.MATCHES = [
         "chance": 15
       },
       {
-        "score": "1-0",
+        "score": "0-2",
         "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 39,
+        "chance": 40,
         "examples": [
           "0-0",
           "1-1"
@@ -24655,7 +24656,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 17,
+        "chance": 16,
         "examples": [
           "1-0",
           "2-1",
@@ -24666,7 +24667,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 72,
+        "chance": 73,
         "examples": [
           "0-0",
           "1-1",
@@ -24684,7 +24685,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 39,
+        "chance": 40,
         "examples": [
           "0-0",
           "1-1"
@@ -24692,14 +24693,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "over25": 24,
+      "under25": 76,
+      "bttsYes": 36,
+      "bttsNo": 64,
       "homeWinBy2Plus": 6,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.78,
+      "lowScoreDraw": 40,
+      "expectedTotalGoals": 1.74,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -24707,14 +24708,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        20,
-        42,
+        19,
+        43,
         38
       ],
       "market": null,
       "blended": [
-        20,
-        42,
+        19,
+        43,
         38
       ],
       "blendWeight": 0,
@@ -25080,7 +25081,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -25306,9 +25307,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25380,10 +25381,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.72,
-      "away": 1.07
+      "home": 0.68,
+      "away": 1.05
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "gha-pan-68",
       "date": "2026-06-18",
@@ -25728,7 +25729,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25737,52 +25738,52 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      12,
-      42,
-      46
+      11,
+      29,
+      60
     ],
-    "confidence": 68,
+    "confidence": 78,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-3。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
+      {
+        "score": "0-2",
+        "chance": 13
+      },
+      {
+        "score": "1-1",
+        "chance": 14
+      },
       {
         "score": "0-1",
         "chance": 13
       },
       {
         "score": "0-0",
-        "chance": 20
-      },
-      {
-        "score": "1-1",
-        "chance": 18
-      },
-      {
-        "score": "0-2",
         "chance": 11
       }
     ],
     "scoreBands": [
       {
-        "label": "低比分平局",
-        "chance": 38,
-        "examples": [
-          "0-0",
-          "1-1"
-        ]
-      },
-      {
         "label": "客队小胜",
-        "chance": 30,
+        "chance": 35,
         "examples": [
-          "0-1",
           "0-2",
+          "0-1",
           "1-2"
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 25,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "客队大胜",
-        "chance": 11,
+        "chance": 17,
         "examples": [
           "0-3",
           "0-4",
@@ -25793,40 +25794,41 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 74,
+        "chance": 68,
         "examples": [
-          "0-0",
           "1-1",
+          "0-2",
           "0-1"
         ]
       },
       {
-        "label": "主队不败低比分",
-        "chance": 49,
+        "label": "客队胜出覆盖",
+        "chance": 60,
         "examples": [
-          "0-0",
-          "1-1",
-          "1-0"
+          "0-2",
+          "0-1",
+          "1-2"
         ]
       },
       {
-        "label": "低比分平局",
+        "label": "客队优势胜",
         "chance": 38,
         "examples": [
-          "0-0",
-          "1-1"
+          "0-2",
+          "0-3",
+          "1-3"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 31,
-      "under25": 69,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 44,
+      "bttsNo": 56,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 26,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.15,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.47,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -25834,21 +25836,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        12,
-        32,
-        56
+        11,
+        29,
+        60
       ],
       "market": null,
       "blended": [
-        12,
-        42,
-        46
+        11,
+        29,
+        60
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -26213,7 +26215,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -26442,9 +26444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -26516,10 +26518,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.59,
-      "away": 1.56
+      "home": 0.68,
+      "away": 1.78
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "uzb-col-62",
       "date": "2026-06-18",
@@ -26851,7 +26853,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26860,43 +26862,43 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
-      42,
-      20
+      37,
+      40,
+      23
     ],
-    "confidence": 64,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "0-0",
-        "chance": 20
-      },
       {
         "score": "1-1",
         "chance": 18
       },
       {
-        "score": "1-0",
-        "chance": 13
+        "score": "0-0",
+        "chance": 18
       },
       {
-        "score": "2-0",
-        "chance": 9
+        "score": "1-0",
+        "chance": 12
+      },
+      {
+        "score": "0-1",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 36,
         "examples": [
-          "0-0",
-          "1-1"
+          "1-1",
+          "0-0"
         ]
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "1-0",
           "2-0",
@@ -26905,7 +26907,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
           "0-1",
           "1-2",
@@ -26916,10 +26918,10 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 66,
         "examples": [
-          "0-0",
           "1-1",
+          "0-0",
           "1-0"
         ]
       },
@@ -26927,45 +26929,45 @@ window.MATCHES = [
         "label": "客队不败低比分",
         "chance": 55,
         "examples": [
-          "0-0",
           "1-1",
+          "0-0",
           "0-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 36,
         "examples": [
-          "0-0",
-          "1-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 43,
+      "bttsNo": 57,
       "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 1.96,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.03,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        38,
-        42,
-        20
+        37,
+        40,
+        23
       ],
       "market": null,
       "blended": [
-        38,
-        42,
-        20
+        37,
+        40,
+        23
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -27062,7 +27064,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -27293,9 +27295,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -27312,16 +27314,37 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "South Africa World Cup midfielder Adams dies aged 25",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT"
+        },
+        {
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27547,9 +27570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27622,9 +27645,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 1.17,
-      "away": 0.78
+      "away": 0.87
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "cze-rsa-3",
       "date": "2026-06-19",
@@ -27782,11 +27805,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -27795,20 +27818,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -27947,7 +27972,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 66,
         "away": 65
       },
       {
@@ -27957,7 +27982,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 52,
+        "home": 50,
         "away": 48
       },
       {
@@ -27968,7 +27993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27977,35 +28002,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      48,
-      38,
-      14
+      45,
+      42,
+      13
     ],
-    "confidence": 72,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-0",
-        "chance": 9
+        "score": "1-0",
+        "chance": 11
       },
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 18
       },
       {
-        "score": "1-0",
-        "chance": 9
+        "score": "2-0",
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 31,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -28013,77 +28038,76 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 29,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "2-1"
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 14,
+        "label": "客队小胜",
+        "chance": 11,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 71,
         "examples": [
           "1-1",
           "0-0",
-          "2-0"
+          "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 42,
+        "chance": 48,
         "examples": [
           "1-1",
           "0-0",
-          "1-2"
+          "0-1"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 48,
+        "label": "低比分平局",
+        "chance": 37,
         "examples": [
-          "2-0",
-          "1-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 29,
-      "awayWinBy2Plus": 5,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.69,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
-        28,
-        14
+        55,
+        32,
+        13
       ],
       "market": null,
       "blended": [
-        48,
-        38,
-        14
+        45,
+        42,
+        13
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -28102,11 +28126,11 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "均衡型",
@@ -28129,10 +28153,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 68,
+        "homeScore": 64,
         "awayScore": 64,
-        "contribution": 0.96,
-        "evidence": "瑞士 进攻75/防守76/中场52，综合68；波黑 进攻65/防守78/中场48，综合64。"
+        "contribution": 0,
+        "evidence": "瑞士 进攻66/防守76/中场50，综合64；波黑 进攻65/防守78/中场48，综合64。"
       },
       {
         "name": "近期状态",
@@ -28187,7 +28211,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 64,
-        "homeAverageMetric": 65.3,
+        "homeAverageMetric": 62.5,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -28395,7 +28419,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 66,
         "homeDefense": 76,
         "awayAttack": 65,
         "awayDefense": 78
@@ -28436,28 +28460,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "'We should all be excited' - Messi set for first England meeting",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 08:58:41 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -28481,8 +28505,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -28526,12 +28550,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -28566,12 +28590,12 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             },
@@ -28686,9 +28710,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -28756,15 +28780,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。波黑属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
-      "瑞士 进攻指数 75，波黑 防守指数 78；波黑 进攻指数 65，瑞士 防守指数 76。",
+      "瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。波黑属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
+      "瑞士 进攻指数 66，波黑 防守指数 78；波黑 进攻指数 65，瑞士 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.87,
-      "away": 0.82
+      "home": 1.59,
+      "away": 0.69
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "sui-bih-9",
       "date": "2026-06-19",
@@ -29096,7 +29120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29105,35 +29129,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      42,
+      44,
       46,
-      12
+      10
     ],
-    "confidence": 66,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 6-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 24
+        "chance": 26
       },
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 17
       },
       {
         "score": "1-0",
-        "chance": 14
+        "chance": 16
       },
       {
         "score": "2-0",
-        "chance": 10
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -29141,7 +29165,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 30,
+        "chance": 32,
         "examples": [
           "1-0",
           "2-0",
@@ -29150,7 +29174,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 11,
+        "chance": 9,
         "examples": [
           "0-1",
           "1-2",
@@ -29161,7 +29185,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 77,
+        "chance": 81,
         "examples": [
           "0-0",
           "1-1",
@@ -29170,7 +29194,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 54,
+        "chance": 53,
         "examples": [
           "0-0",
           "1-1",
@@ -29179,7 +29203,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -29187,14 +29211,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 32,
+      "bttsNo": 68,
       "homeWinBy2Plus": 22,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.93,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 44,
+      "expectedTotalGoals": 1.81,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -29202,15 +29226,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        52,
+        54,
         36,
-        12
+        10
       ],
       "market": null,
       "blended": [
-        42,
+        44,
         46,
-        12
+        10
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -29563,10 +29587,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
@@ -29581,7 +29605,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29807,9 +29831,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29881,10 +29905,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.38,
-      "away": 0.55
+      "home": 1.34,
+      "away": 0.47
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "can-qat-10",
       "date": "2026-06-19",
@@ -30042,11 +30066,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -0.83
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 17.5,
-      "shotsOnTarget": 4,
-      "possession": 54.9,
-      "shotAccuracy": 23,
+      "shotSource": "ESPN WC2026 (1场)",
+      "shotsPerGame": 20,
+      "shotsOnTarget": 5,
+      "possession": 66.9,
+      "shotAccuracy": 25,
       "playerQuality": {
         "squadValue": 0.11,
         "avgRating": 7,
@@ -30057,19 +30081,7 @@ window.MATCHES = [
         "avgAge": 27.5,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Raúl Rangel",
-          "Johan Vásquez",
-          "César Montes",
-          "Jesús Gallardo",
-          "Jorge Sánchez",
-          "Érik Lira",
-          "Luis Romo",
-          "Gilberto Mora",
-          "Raúl Jiménez",
-          "Julián Quiñones",
-          "Roberto Alvarado"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -30196,17 +30208,17 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 82,
+        "home": 83,
         "away": 63
       },
       {
         "label": "防守",
-        "home": 82,
+        "home": 85,
         "away": 81
       },
       {
         "label": "中场",
-        "home": 63,
+        "home": 69,
         "away": 52
       },
       {
@@ -30217,7 +30229,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30226,47 +30238,47 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      49,
-      30,
-      21
+      38,
+      42,
+      20
     ],
-    "confidence": 76,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-1",
-        "chance": 9
-      },
-      {
         "score": "1-1",
-        "chance": 14
-      },
-      {
-        "score": "2-0",
-        "chance": 9
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 8
+        "chance": 13
+      },
+      {
+        "score": "1-0",
+        "chance": 7
+      },
+      {
+        "score": "2-0",
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
-        "label": "主队小胜",
-        "chance": 26,
-        "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
-        ]
-      },
-      {
         "label": "低比分平局",
-        "chance": 23,
+        "chance": 34,
         "examples": [
           "1-1",
           "0-0"
+        ]
+      },
+      {
+        "label": "主队小胜",
+        "chance": 22,
+        "examples": [
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       },
       {
@@ -30282,63 +30294,63 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 59,
         "examples": [
           "1-1",
-          "2-1",
-          "2-0"
-        ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 49,
-        "examples": [
-          "2-1",
-          "2-0",
+          "0-0",
           "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 37,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
           "1-2"
         ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 38,
+        "examples": [
+          "1-0",
+          "2-0",
+          "2-1"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 28,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.86,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 21,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.64,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        49,
-        30,
-        21
+        48,
+        32,
+        20
       ],
       "market": null,
       "blended": [
-        49,
-        30,
-        21
+        38,
+        42,
+        20
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -30378,10 +30390,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
+        "homeScore": 79,
         "awayScore": 65,
-        "contribution": 2.64,
-        "evidence": "墨西哥 进攻82/防守82/中场63，综合76；韩国 进攻63/防守81/中场52，综合65。"
+        "contribution": 3.36,
+        "evidence": "墨西哥 进攻83/防守85/中场69，综合79；韩国 进攻63/防守81/中场52，综合65。"
       },
       {
         "name": "近期状态",
@@ -30421,7 +30433,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -30429,14 +30441,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 14,
         "awayRank": 25,
-        "homeAverageMetric": 79.3,
+        "homeAverageMetric": 81.8,
         "awayAverageMetric": 67.5
       },
       "recentForm": {
@@ -30644,8 +30656,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 82,
-        "homeDefense": 82,
+        "homeAttack": 83,
+        "homeDefense": 85,
         "awayAttack": 63,
         "awayDefense": 81
       },
@@ -30668,8 +30680,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -30682,22 +30694,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Mexico boss' explicit heckle a bit of fun - Gordon",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 06:36:59 GMT"
-        },
-        {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -30710,17 +30716,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "墨西哥",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "England",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Raúl Rangel",
@@ -30739,20 +30742,20 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "César Montes",
+                  "name": "Mateo Chávez",
                   "position": "DF",
-                  "club": "Mexico",
-                  "age": 29,
-                  "value": 1230000,
-                  "rating": 7.03
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500,
+                  "rating": 6.74
                 },
                 {
-                  "name": "Jesús Gallardo",
+                  "name": "Israel Reyes",
                   "position": "DF",
-                  "club": "Toluca",
-                  "age": 31,
-                  "value": 1320000,
-                  "rating": 6.9
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000,
+                  "rating": 6.95
                 },
                 {
                   "name": "Jorge Sánchez",
@@ -30763,28 +30766,36 @@ window.MATCHES = [
                   "rating": 6.64
                 },
                 {
-                  "name": "Érik Lira",
+                  "name": "Obed Vargas",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 26,
-                  "value": 1575000,
-                  "rating": 6.79
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480,
+                  "rating": 6.77
                 },
                 {
-                  "name": "Luis Romo",
+                  "name": "Álvaro Fidalgo",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 31,
-                  "value": 2728000,
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000,
                   "rating": 7.02
                 },
                 {
-                  "name": "Gilberto Mora",
+                  "name": "Edson Álvarez",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 17,
-                  "value": 2576000,
-                  "rating": 7.02
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000,
+                  "rating": 6.95
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000,
+                  "rating": 6.59
                 },
                 {
                   "name": "Raúl Jiménez",
@@ -30795,25 +30806,27 @@ window.MATCHES = [
                   "rating": 6.9
                 },
                 {
-                  "name": "Julián Quiñones",
+                  "name": "Guillermo Martínez Ayala",
                   "position": "FW",
-                  "club": "Al-Qadsiah",
-                  "age": 29,
-                  "value": 2300000,
-                  "rating": 7.82
-                },
-                {
-                  "name": "Roberto Alvarado",
-                  "position": "FW",
-                  "club": "Mexico",
-                  "age": 27,
-                  "value": 1500000,
-                  "rating": 7.29
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000,
+                  "rating": 6.86
                 }
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+              "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT",
+              "description": "Adams played in South Africa’s World Cup group games Midfielder played for Mamelodi Sundowns Jayden Adams, who played in South Africa’s three group games at the World Cup, has died aged 25. The Mamelodi Sundowns midfielder started the tournament opener, a 2-0 defeat by Mexico, and the 1-1 draw with Czechia, being substituted in both matches. He then came off the bench in the 1-0 win against South Korea, but took no part in the 1-0 last-32 defeat by Canada. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -30828,15 +30841,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -30875,9 +30888,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "public-news-unparsed",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -30899,14 +30912,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。韩国属于均衡型，场均进球参考值 0.67，大胜倾向 0%。",
-      "墨西哥 进攻指数 82，韩国 防守指数 81；韩国 进攻指数 63，墨西哥 防守指数 82。",
+      "墨西哥 进攻指数 83，韩国 防守指数 81；韩国 进攻指数 63，墨西哥 防守指数 85。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.77,
-      "away": 1.09
+      "home": 1.65,
+      "away": 0.99
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "mex-kor-4",
       "date": "2026-06-19",
@@ -31251,7 +31264,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31282,13 +31295,13 @@ window.MATCHES = [
       },
       {
         "score": "2-1",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 29,
+        "chance": 30,
         "examples": [
           "1-1",
           "0-0"
@@ -31316,7 +31329,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 52,
+        "chance": 53,
         "examples": [
           "1-1",
           "0-0",
@@ -31347,10 +31360,10 @@ window.MATCHES = [
       "under25": 51,
       "bttsYes": 60,
       "bttsNo": 40,
-      "homeWinBy2Plus": 20,
+      "homeWinBy2Plus": 19,
       "awayWinBy2Plus": 11,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.83,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -31463,7 +31476,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -31716,14 +31729,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
-        {
-          "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-          "pubDate": "Sat, 11 Jul 2026 07:00:43 GMT"
-        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -31743,13 +31750,13 @@ window.MATCHES = [
           "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31988,9 +31995,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -32062,10 +32069,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.64,
-      "away": 1.19
+      "home": 1.6,
+      "away": 1.2
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "usa-aus-21",
       "date": "2026-06-20",
@@ -32410,7 +32417,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32419,17 +32426,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      14,
-      40,
-      46
+      15,
+      41,
+      44
     ],
-    "confidence": 69,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-1",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "1-1",
@@ -32441,7 +32448,7 @@ window.MATCHES = [
       },
       {
         "score": "0-2",
-        "chance": 10
+        "chance": 9
       }
     ],
     "scoreBands": [
@@ -32455,7 +32462,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 27,
+        "chance": 26,
         "examples": [
           "0-1",
           "0-2",
@@ -32464,7 +32471,7 @@ window.MATCHES = [
       },
       {
         "label": "客队大胜",
-        "chance": 12,
+        "chance": 11,
         "examples": [
           "0-3",
           "0-4",
@@ -32484,7 +32491,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 45,
+        "chance": 47,
         "examples": [
           "1-1",
           "0-0",
@@ -32493,7 +32500,7 @@ window.MATCHES = [
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 46,
+        "chance": 44,
         "examples": [
           "0-1",
           "0-2",
@@ -32504,10 +32511,10 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 40,
       "under25": 60,
-      "bttsYes": 49,
-      "bttsNo": 51,
+      "bttsYes": 50,
+      "bttsNo": 50,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 27,
+      "awayWinBy2Plus": 25,
       "lowScoreDraw": 34,
       "expectedTotalGoals": 2.49,
       "totalGoalsLean": "小于2.5球",
@@ -32517,15 +32524,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        14,
-        30,
-        56
+        15,
+        31,
+        54
       ],
       "market": null,
       "blended": [
-        14,
-        40,
-        46
+        15,
+        41,
+        44
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -32622,7 +32629,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32875,34 +32882,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
-        },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
           "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
-        },
-        {
-          "title": "France maul meek Morocco to reach semi-finals | World Cup Daily – video",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/video/2026/jul/10/france-maul-meek-morocco-to-reach-semi-finals-world-cup-daily-video",
-          "pubDate": "Fri, 10 Jul 2026 08:10:41 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -33128,9 +33117,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -33203,10 +33192,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.77,
-      "away": 1.71
+      "home": 0.8,
+      "away": 1.69
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "sco-mar-15",
       "date": "2026-06-20",
@@ -33379,19 +33368,7 @@ window.MATCHES = [
         "avgAge": 28.6,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Alisson Becker",
-          "Gabriel Magalhães",
-          "Marquinhos",
-          "Douglas Santos",
-          "Danilo",
-          "Casemiro",
-          "Bruno Guimarães",
-          "Gabriel Martinelli",
-          "Rayan",
-          "Vinícius Júnior",
-          "Matheus Cunha"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -33550,7 +33527,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33559,17 +33536,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      67,
-      24,
+      68,
+      23,
       9
     ],
-    "confidence": 78,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "1-0",
@@ -33581,7 +33558,7 @@ window.MATCHES = [
       },
       {
         "score": "3-0",
-        "chance": 9
+        "chance": 10
       }
     ],
     "scoreBands": [
@@ -33596,7 +33573,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "3-0",
           "4-0",
@@ -33605,7 +33582,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 20,
+        "chance": 19,
         "examples": [
           "1-1",
           "0-0"
@@ -33615,7 +33592,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 62,
         "examples": [
           "2-0",
           "1-0",
@@ -33624,7 +33601,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 67,
+        "chance": 68,
         "examples": [
           "2-0",
           "1-0",
@@ -33633,7 +33610,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 47,
+        "chance": 48,
         "examples": [
           "2-0",
           "3-0",
@@ -33642,29 +33619,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 44,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 45,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.75,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        67,
-        24,
+        68,
+        23,
         9
       ],
       "market": null,
       "blended": [
-        67,
-        24,
+        68,
+        23,
         9
       ],
       "blendWeight": 0,
@@ -33754,7 +33731,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -33762,7 +33739,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -34001,8 +33978,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -34015,28 +33992,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/12/norway-1-2-england-world-cup-quarter-final-player-ratings-from-miami",
+          "pubDate": "Sun, 12 Jul 2026 00:03:09 GMT"
         },
         {
           "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -34052,17 +34035,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Norway",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Alisson",
@@ -34071,6 +34051,22 @@ window.MATCHES = [
                   "age": 33,
                   "value": 11664000,
                   "rating": 6.81
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.05
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000,
+                  "rating": 6.91
                 },
                 {
                   "name": "Gabriel Magalhães",
@@ -34089,20 +34085,12 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "Douglas Santos",
-                  "position": "DF",
-                  "club": "Brazil",
-                  "age": 32,
-                  "value": 2185920,
-                  "rating": 6.82
-                },
-                {
-                  "name": "Danilo",
-                  "position": "DF",
-                  "club": "Flamengo",
-                  "age": 34,
-                  "value": 2232000,
-                  "rating": null
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000,
+                  "rating": 7.01
                 },
                 {
                   "name": "Casemiro",
@@ -34121,14 +34109,6 @@ window.MATCHES = [
                   "rating": 7.32
                 },
                 {
-                  "name": "Gabriel Martinelli",
-                  "position": "FW",
-                  "club": "Arsenal",
-                  "age": 24,
-                  "value": 19530000,
-                  "rating": 6.62
-                },
-                {
                   "name": "Rayan",
                   "position": "FW",
                   "club": "AFC Bournemouth",
@@ -34137,20 +34117,20 @@ window.MATCHES = [
                   "rating": 6.98
                 },
                 {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000,
+                  "rating": 6.62
+                },
+                {
                   "name": "Vinicius Junior",
                   "position": "FW",
                   "club": "Real Madrid",
                   "age": 25,
                   "value": 17010000,
                   "rating": 7.33
-                },
-                {
-                  "name": "Matheus Cunha",
-                  "position": "FW",
-                  "club": "Manchester United",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 7.14
                 }
               ]
             },
@@ -34265,15 +34245,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
-          "verified": 4,
+          "verified": 3,
           "missing": 2,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -34311,9 +34291,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -34339,10 +34319,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.09,
-      "away": 0.66
+      "home": 2.13,
+      "away": 0.67
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "bra-hai-16",
       "date": "2026-06-20",
@@ -34663,7 +34643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34672,11 +34652,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      42,
-      21
+      35,
+      45,
+      20
     ],
-    "confidence": 64,
+    "confidence": 68,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -34686,11 +34666,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 19
       },
       {
         "score": "1-0",
-        "chance": 9
+        "chance": 10
       },
       {
         "score": "2-0",
@@ -34700,7 +34680,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 40,
         "examples": [
           "1-1",
           "0-0"
@@ -34708,7 +34688,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-0",
@@ -34717,7 +34697,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
           "0-1",
           "1-2",
@@ -34728,7 +34708,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 62,
+        "chance": 68,
         "examples": [
           "1-1",
           "0-0",
@@ -34737,7 +34717,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 51,
+        "chance": 57,
         "examples": [
           "1-1",
           "0-0",
@@ -34746,7 +34726,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 40,
         "examples": [
           "1-1",
           "0-0"
@@ -34754,14 +34734,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.43,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 40,
+      "expectedTotalGoals": 2.12,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -34769,15 +34749,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
-        42,
-        21
+        35,
+        45,
+        20
       ],
       "market": null,
       "blended": [
-        37,
-        42,
-        21
+        35,
+        45,
+        20
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -34874,7 +34854,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -35105,9 +35085,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -35124,10 +35104,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -35255,9 +35244,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35330,10 +35319,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.47,
-      "away": 0.95
+      "home": 1.3,
+      "away": 0.82
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "matchAutopsy": {
       "matchId": "tur-par-22",
       "date": "2026-06-20",
@@ -35623,11 +35612,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.83
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 8,
-      "shotsOnTarget": 3,
-      "possession": 39,
-      "shotAccuracy": 38,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.23,
         "avgRating": 6.82,
@@ -35645,17 +35634,17 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 73,
-        "away": 70
+        "away": 66
       },
       {
         "label": "防守",
         "home": 83,
-        "away": 68
+        "away": 70
       },
       {
         "label": "中场",
         "home": 59,
-        "away": 45
+        "away": 47
       },
       {
         "label": "近期状态",
@@ -35665,7 +35654,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35702,7 +35691,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "2-1",
           "2-0",
@@ -35711,7 +35700,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 22,
+        "chance": 21,
         "examples": [
           "1-1",
           "0-0"
@@ -35719,7 +35708,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
           "3-0",
           "4-1",
@@ -35730,7 +35719,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 56,
+        "chance": 54,
         "examples": [
           "1-1",
           "2-1",
@@ -35739,7 +35728,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 53,
+        "chance": 54,
         "examples": [
           "2-1",
           "2-0",
@@ -35748,7 +35737,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "2-0",
           "3-1",
@@ -35757,15 +35746,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 31,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.85,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.96,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -35837,7 +35826,7 @@ window.MATCHES = [
         "homeScore": 72,
         "awayScore": 61,
         "contribution": 2.64,
-        "evidence": "荷兰 进攻73/防守83/中场59，综合72；瑞典 进攻70/防守68/中场45，综合61。"
+        "evidence": "荷兰 进攻73/防守83/中场59，综合72；瑞典 进攻66/防守70/中场47，综合61。"
       },
       {
         "name": "近期状态",
@@ -36102,8 +36091,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 73,
         "homeDefense": 83,
-        "awayAttack": 70,
-        "awayDefense": 68
+        "awayAttack": 66,
+        "awayDefense": 70
       },
       "motivation": {
         "home": null,
@@ -36158,7 +36147,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -36384,9 +36373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36454,14 +36443,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "荷兰属于防守控制型，场均进球参考值 2.75，大胜倾向 50%。瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。",
-      "荷兰 进攻指数 73，瑞典 防守指数 68；瑞典 进攻指数 70，荷兰 防守指数 83。",
+      "荷兰 进攻指数 73，瑞典 防守指数 70；瑞典 进攻指数 66，荷兰 防守指数 83。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.2,
       "away": 1.64
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -36640,7 +36629,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 7,
         "avgAge": 27.2,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -36759,18 +36748,18 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 14,
-      "shotsOnTarget": 5,
-      "possession": 47,
-      "shotAccuracy": 36,
+      "shotSource": "AFCON 2025-26",
+      "shotsPerGame": 16.6,
+      "shotsOnTarget": null,
+      "possession": 59.6,
+      "shotAccuracy": 24,
       "playerQuality": null
     },
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
-        "away": 86
+        "home": 83,
+        "away": 79
       },
       {
         "label": "防守",
@@ -36779,8 +36768,8 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
-        "away": 52
+        "home": 78,
+        "away": 62
       },
       {
         "label": "近期状态",
@@ -36790,7 +36779,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36827,7 +36816,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 21,
         "examples": [
           "2-1",
           "2-0",
@@ -36855,7 +36844,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 46,
+        "chance": 43,
         "examples": [
           "1-1",
           "2-1",
@@ -36863,36 +36852,36 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "开放对攻",
+        "chance": 39,
+        "examples": [
+          "2-2",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
         "label": "主队胜出覆盖",
-        "chance": 52,
+        "chance": 50,
         "examples": [
           "2-1",
           "2-0",
           "3-1"
         ]
-      },
-      {
-        "label": "主队优势胜",
-        "chance": 37,
-        "examples": [
-          "2-0",
-          "3-1",
-          "3-0"
-        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 32,
-      "awayWinBy2Plus": 9,
+      "over25": 64,
+      "under25": 36,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 30,
+      "awayWinBy2Plus": 10,
       "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.27,
+      "expectedTotalGoals": 3.37,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -36931,7 +36920,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "防守控制型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.75,
         "avgGoalsAgainst": 1.25,
         "bigWinRate": 25,
@@ -36939,7 +36928,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "均衡型",
         "avgGoalsFor": 1.25,
         "avgGoalsAgainst": 1,
         "bigWinRate": 25,
@@ -36959,10 +36948,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
-        "awayScore": 72,
-        "contribution": 0.96,
-        "evidence": "德国 进攻73/防守86/中场68，综合76；科特迪瓦 进攻86/防守78/中场52，综合72。"
+        "homeScore": 82,
+        "awayScore": 73,
+        "contribution": 2.16,
+        "evidence": "德国 进攻83/防守86/中场78，综合82；科特迪瓦 进攻79/防守78/中场62，综合73。"
       },
       {
         "name": "近期状态",
@@ -37010,15 +36999,15 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 10,
         "awayRank": 33,
-        "homeAverageMetric": 83.3,
-        "awayAverageMetric": 76.5
+        "homeAverageMetric": 88.3,
+        "awayAverageMetric": 77.3
       },
       "recentForm": {
         "home": {
@@ -37225,9 +37214,9 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 86,
-        "awayAttack": 86,
+        "awayAttack": 79,
         "awayDefense": 78
       },
       "motivation": {
@@ -37241,9 +37230,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -37274,16 +37263,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.49 / 平 4.63 / 客 6.19。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -37414,9 +37412,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37483,15 +37481,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "德国属于防守控制型，场均进球参考值 2.75，大胜倾向 25%。科特迪瓦属于主动压迫型，场均进球参考值 1.25，大胜倾向 25%。",
-      "德国 进攻指数 73，科特迪瓦 防守指数 78；科特迪瓦 进攻指数 86，德国 防守指数 86。",
+      "德国属于主动压迫型，场均进球参考值 2.75，大胜倾向 25%。科特迪瓦属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
+      "德国 进攻指数 83，科特迪瓦 防守指数 78；科特迪瓦 进攻指数 79，德国 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.92,
       "away": 1.33
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -37657,11 +37655,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -1
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 7,
-      "shotsOnTarget": 1,
-      "possession": 57.2,
-      "shotAccuracy": 14,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.13,
         "avgRating": 6.98,
@@ -37799,17 +37797,17 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 66,
+        "home": 64,
         "away": 69
       },
       {
         "label": "防守",
-        "home": 81,
+        "home": 88,
         "away": 68
       },
       {
         "label": "中场",
-        "home": 60,
+        "home": 59,
         "away": 44
       },
       {
@@ -37820,7 +37818,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37865,7 +37863,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 31,
+        "chance": 34,
         "examples": [
           "1-0",
           "2-0",
@@ -37873,19 +37871,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队小胜",
+        "label": "主队大胜",
         "chance": 10,
         "examples": [
-          "0-1",
-          "1-2",
-          "0-2"
+          "3-0",
+          "4-0",
+          "4-1"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 79,
+        "chance": 81,
         "examples": [
           "0-0",
           "1-1",
@@ -37894,7 +37892,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 50,
         "examples": [
           "0-0",
           "1-1",
@@ -37911,14 +37909,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 23,
-      "awayWinBy2Plus": 3,
+      "over25": 24,
+      "under25": 76,
+      "bttsYes": 32,
+      "bttsNo": 68,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 2,
       "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.9,
+      "expectedTotalGoals": 1.87,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -37960,7 +37958,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 0.5,
         "avgGoalsAgainst": 1,
         "bigWinRate": 0,
@@ -37988,10 +37986,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 69,
+        "homeScore": 70,
         "awayScore": 60,
-        "contribution": 2.16,
-        "evidence": "厄瓜多尔 进攻66/防守81/中场60，综合69；库拉索 进攻69/防守68/中场44，综合60。"
+        "contribution": 2.4,
+        "evidence": "厄瓜多尔 进攻64/防守88/中场59，综合70；库拉索 进攻69/防守68/中场44，综合60。"
       },
       {
         "name": "近期状态",
@@ -38046,7 +38044,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 23,
         "awayRank": 82,
-        "homeAverageMetric": 66.3,
+        "homeAverageMetric": 67.3,
         "awayAverageMetric": 59.8
       },
       "recentForm": {
@@ -38254,8 +38252,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 66,
-        "homeDefense": 81,
+        "homeAttack": 64,
+        "homeDefense": 88,
         "awayAttack": 69,
         "awayDefense": 68
       },
@@ -38312,7 +38310,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -38443,9 +38441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38512,15 +38510,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "厄瓜多尔属于均衡型，场均进球参考值 0.5，大胜倾向 0%。库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。",
-      "厄瓜多尔 进攻指数 66，库拉索 防守指数 68；库拉索 进攻指数 69，厄瓜多尔 防守指数 81。",
+      "厄瓜多尔属于防守控制型，场均进球参考值 0.5，大胜倾向 0%。库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。",
+      "厄瓜多尔 进攻指数 64，库拉索 防守指数 68；库拉索 进攻指数 69，厄瓜多尔 防守指数 88。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.75,
       "away": 0.55
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -38860,7 +38858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38897,7 +38895,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 41,
         "examples": [
           "0-0",
           "1-1"
@@ -38914,7 +38912,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 11,
+        "chance": 13,
         "examples": [
           "1-0",
           "2-1",
@@ -38925,7 +38923,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 78,
+        "chance": 74,
         "examples": [
           "0-0",
           "1-1",
@@ -38943,7 +38941,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 41,
         "examples": [
           "0-0",
           "1-1"
@@ -38951,14 +38949,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 3,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 38,
+      "bttsNo": 62,
+      "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 21,
-      "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.88,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -39569,9 +39567,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39647,7 +39645,7 @@ window.MATCHES = [
       "home": 0.59,
       "away": 1.87
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -39999,7 +39997,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40091,14 +40089,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 39,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 40,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.37,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.47,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -40490,28 +40488,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         },
         {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40520,7 +40518,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40734,17 +40732,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -40759,9 +40747,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -40836,7 +40824,7 @@ window.MATCHES = [
       "home": 1.88,
       "away": 0.59
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -41015,10 +41003,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -41169,7 +41155,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
+        "home": 83,
         "away": 66
       },
       {
@@ -41179,7 +41165,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 50,
+        "home": 53,
         "away": 56
       },
       {
@@ -41190,7 +41176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41282,17 +41268,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.87,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 31,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.14,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "connected",
@@ -41331,7 +41317,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -41359,10 +41345,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 67,
+        "homeScore": 71,
         "awayScore": 69,
-        "contribution": -0.48,
-        "evidence": "比利时 进攻73/防守77/中场50，综合67；伊朗 进攻66/防守85/中场56，综合69。"
+        "contribution": 0.48,
+        "evidence": "比利时 进攻83/防守77/中场53，综合71；伊朗 进攻66/防守85/中场56，综合69。"
       },
       {
         "name": "近期状态",
@@ -41417,7 +41403,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 20,
-        "homeAverageMetric": 68.5,
+        "homeAverageMetric": 71.8,
         "awayAverageMetric": 68.3
       },
       "recentForm": {
@@ -41625,7 +41611,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 77,
         "awayAttack": 66,
         "awayDefense": 85
@@ -41681,28 +41667,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
-        },
-        {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-          "pubDate": "Sat, 11 Jul 2026 09:38:24 GMT"
-        },
-        {
           "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
+        },
+        {
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
+        },
+        {
+          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+        },
+        {
+          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
+          "source": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -41951,9 +41937,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -42021,15 +42007,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
-      "比利时 进攻指数 73，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 77。",
+      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
+      "比利时 进攻指数 83，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 77。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.01,
       "away": 1.39
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -42358,7 +42344,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42450,14 +42436,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 42,
+      "bttsNo": 58,
       "homeWinBy2Plus": 20,
       "awayWinBy2Plus": 4,
       "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.91,
+      "expectedTotalGoals": 2.07,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42578,7 +42564,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -42846,14 +42832,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
-        },
         {
           "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
           "source": "www.theguardian.com",
@@ -42861,7 +42841,7 @@ window.MATCHES = [
           "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -42989,9 +42969,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43067,7 +43047,7 @@ window.MATCHES = [
       "home": 1.61,
       "away": 0.51
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -43102,7 +43082,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -43407,7 +43387,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43499,14 +43479,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 38,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.4,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.05,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -43627,7 +43607,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -43858,9 +43838,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -43892,31 +43872,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
-        },
-        {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -44142,9 +44107,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -44219,7 +44184,7 @@ window.MATCHES = [
       "home": 0.62,
       "away": 1.95
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -44385,11 +44350,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -44407,8 +44372,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -44560,7 +44525,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 72,
+        "home": 71,
         "away": 47
       },
       {
@@ -44571,7 +44536,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44664,14 +44629,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 64,
-      "under25": 36,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 37,
-      "awayWinBy2Plus": 7,
+      "over25": 65,
+      "under25": 35,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 35,
+      "awayWinBy2Plus": 8,
       "lowScoreDraw": 17,
-      "expectedTotalGoals": 3.36,
+      "expectedTotalGoals": 3.4,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -44714,10 +44679,10 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       },
       "away": {
@@ -44744,7 +44709,7 @@ window.MATCHES = [
         "homeScore": 81,
         "awayScore": 63,
         "contribution": 4.32,
-        "evidence": "阿根廷 进攻88/防守84/中场72，综合81；奥地利 进攻65/防守76/中场47，综合63。"
+        "evidence": "阿根廷 进攻88/防守84/中场71，综合81；奥地利 进攻65/防守76/中场47，综合63。"
       },
       {
         "name": "近期状态",
@@ -44799,7 +44764,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 1,
         "awayRank": 24,
-        "homeAverageMetric": 85.5,
+        "homeAverageMetric": 85.3,
         "awayAverageMetric": 69.5
       },
       "recentForm": {
@@ -45063,28 +45028,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "BBC to show England's World Cup semi-final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "Argentina midfield great Rattin dies aged 89",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -45108,8 +45073,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -45161,20 +45126,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -45310,22 +45275,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -45393,7 +45348,7 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。奥地利属于均衡型，场均进球参考值 1.5，大胜倾向 25%。",
+      "阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。奥地利属于均衡型，场均进球参考值 1.5，大胜倾向 25%。",
       "阿根廷 进攻指数 88，奥地利 防守指数 76；奥地利 进攻指数 65，阿根廷 防守指数 84。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
@@ -45401,7 +45356,7 @@ window.MATCHES = [
       "home": 2.61,
       "away": 1.64
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -45568,11 +45523,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -45743,7 +45698,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 67,
+        "home": 68,
         "away": 48
       },
       {
@@ -45754,7 +45709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45847,16 +45802,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 45,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 44,
+      "bttsNo": 56,
+      "homeWinBy2Plus": 44,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 2.83,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.72,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -45927,7 +45882,7 @@ window.MATCHES = [
         "homeScore": 78,
         "awayScore": 62,
         "contribution": 3.84,
-        "evidence": "法国 进攻88/防守79/中场67，综合78；伊拉克 进攻60/防守78/中场48，综合62。"
+        "evidence": "法国 进攻88/防守79/中场68，综合78；伊拉克 进攻60/防守78/中场48，综合62。"
       },
       {
         "name": "近期状态",
@@ -45964,10 +45919,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -45982,7 +45937,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 3,
         "awayRank": 57,
-        "homeAverageMetric": 81,
+        "homeAverageMetric": 81.3,
         "awayAverageMetric": 63
       },
       "recentForm": {
@@ -46211,11 +46166,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": -0.03,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -46246,28 +46201,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+        },
+        {
+          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -46276,7 +46231,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -46497,17 +46452,46 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -46582,7 +46566,7 @@ window.MATCHES = [
       "home": 2.6,
       "away": 0.82
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -46749,10 +46733,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -46763,19 +46747,7 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -46913,17 +46885,17 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 80,
         "away": 84
       },
       {
         "label": "防守",
-        "home": 79,
+        "home": 78,
         "away": 76
       },
       {
         "label": "中场",
-        "home": 63,
+        "home": 61,
         "away": 52
       },
       {
@@ -46934,7 +46906,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -47028,12 +47000,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 57,
       "under25": 43,
-      "bttsYes": 66,
-      "bttsNo": 34,
+      "bttsYes": 67,
+      "bttsNo": 33,
       "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 17,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.16,
+      "expectedTotalGoals": 3.17,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -47075,10 +47047,10 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       },
@@ -47106,7 +47078,7 @@ window.MATCHES = [
         "homeScore": 73,
         "awayScore": 71,
         "contribution": 0.48,
-        "evidence": "挪威 进攻77/防守79/中场63，综合73；塞内加尔 进攻84/防守76/中场52，综合71。"
+        "evidence": "挪威 进攻80/防守78/中场61，综合73；塞内加尔 进攻84/防守76/中场52，综合71。"
       },
       {
         "name": "近期状态",
@@ -47146,7 +47118,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -47369,8 +47341,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
-        "homeDefense": 79,
+        "homeAttack": 80,
+        "homeDefense": 78,
         "awayAttack": 84,
         "awayDefense": 76
       },
@@ -47393,8 +47365,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -47425,28 +47397,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT"
         },
         {
-          "title": "Haaland has advantage over Man City team-mates",
+          "title": "Senegal sack manager Thiaw in wake of World Cup exit",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -47462,17 +47434,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -47483,28 +47452,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -47515,20 +47468,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -47539,12 +47500,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -47555,12 +47516,20 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             },
@@ -47660,17 +47629,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -47682,18 +47641,28 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT",
+              "description": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -47732,9 +47701,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -47755,15 +47724,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。塞内加尔属于开放进攻型，场均进球参考值 2.5，大胜倾向 25%。",
-      "挪威 进攻指数 77，塞内加尔 防守指数 76；塞内加尔 进攻指数 84，挪威 防守指数 79。",
+      "挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。塞内加尔属于开放进攻型，场均进球参考值 2.5，大胜倾向 25%。",
+      "挪威 进攻指数 80，塞内加尔 防守指数 76；塞内加尔 进攻指数 84，挪威 防守指数 78。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.75,
       "away": 1.91
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -48104,7 +48073,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48196,13 +48165,13 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 37,
-      "lowScoreDraw": 26,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 28,
+      "lowScoreDraw": 35,
       "expectedTotalGoals": 2.29,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
@@ -48324,7 +48293,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -48555,9 +48524,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -48589,19 +48558,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 6.38 / 平 4.24 / 客 1.52。市场倾向 阿尔及利亚。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -48824,9 +48784,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48902,7 +48862,7 @@ window.MATCHES = [
       "home": 0.61,
       "away": 1.74
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -49254,7 +49214,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49346,14 +49306,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 37,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.26,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.13,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49474,7 +49434,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -49705,9 +49665,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -49739,25 +49699,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.69。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49983,22 +49934,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
-              "description": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -50073,7 +50014,7 @@ window.MATCHES = [
       "home": 1.92,
       "away": 0.61
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -50239,11 +50180,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -50252,23 +50193,20 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
@@ -50407,7 +50345,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 78,
+        "home": 85,
         "away": 67
       },
       {
@@ -50417,7 +50355,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 63,
         "away": 45
       },
       {
@@ -50428,7 +50366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50521,14 +50459,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 37,
+      "bttsNo": 63,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.46,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -50570,12 +50508,12 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "均衡型",
@@ -50598,10 +50536,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 76,
         "awayScore": 62,
-        "contribution": 2.16,
-        "evidence": "英格兰 进攻78/防守80/中场56，综合71；加纳 进攻67/防守73/中场45，综合62。"
+        "contribution": 3.36,
+        "evidence": "英格兰 进攻85/防守80/中场63，综合76；加纳 进攻67/防守73/中场45，综合62。"
       },
       {
         "name": "近期状态",
@@ -50638,10 +50576,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "homeScore": 46,
+        "awayScore": 48,
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -50656,7 +50594,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 73,
-        "homeAverageMetric": 76,
+        "homeAverageMetric": 79.5,
         "awayAverageMetric": 60.8
       },
       "recentForm": {
@@ -50864,7 +50802,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 78,
+        "homeAttack": 85,
         "homeDefense": 80,
         "awayAttack": 67,
         "awayDefense": 73
@@ -50885,11 +50823,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 46,
+        "awayScore": 48,
+        "goalLift": -0.09,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -50920,28 +50858,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -50965,8 +50903,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -50986,12 +50924,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -51002,12 +50940,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -51050,12 +50988,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             },
@@ -51155,24 +51093,63 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -51240,15 +51217,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。加纳属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
-      "英格兰 进攻指数 78，加纳 防守指数 73；加纳 进攻指数 67，英格兰 防守指数 80。",
+      "英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。加纳属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
+      "英格兰 进攻指数 85，加纳 防守指数 73；加纳 进攻指数 67，英格兰 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.52,
       "away": 0.8
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -51588,7 +51565,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51679,14 +51656,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 5,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 44,
+      "bttsNo": 56,
+      "homeWinBy2Plus": 6,
       "awayWinBy2Plus": 20,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 2.05,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.1,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -52081,7 +52058,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -52307,9 +52284,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -52384,7 +52361,7 @@ window.MATCHES = [
       "home": 1.07,
       "away": 1.47
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -52736,7 +52713,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52828,16 +52805,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
+      "over25": 47,
+      "under25": 53,
       "bttsYes": 55,
       "bttsNo": 45,
-      "homeWinBy2Plus": 26,
-      "awayWinBy2Plus": 6,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.69,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -53465,9 +53442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -53543,7 +53520,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.98
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -53709,11 +53686,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -53722,20 +53699,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -53874,7 +53853,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 66,
         "away": 73
       },
       {
@@ -53884,7 +53863,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 52,
+        "home": 50,
         "away": 51
       },
       {
@@ -53895,7 +53874,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53987,17 +53966,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.96,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.76,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -54037,11 +54016,11 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "均衡型",
@@ -54064,10 +54043,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 68,
+        "homeScore": 64,
         "awayScore": 67,
-        "contribution": 0.24,
-        "evidence": "瑞士 进攻75/防守76/中场52，综合68；加拿大 进攻73/防守78/中场51，综合67。"
+        "contribution": -0.72,
+        "evidence": "瑞士 进攻66/防守76/中场50，综合64；加拿大 进攻73/防守78/中场51，综合67。"
       },
       {
         "name": "近期状态",
@@ -54122,7 +54101,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 30,
-        "homeAverageMetric": 65.3,
+        "homeAverageMetric": 62.5,
         "awayAverageMetric": 63
       },
       "recentForm": {
@@ -54330,7 +54309,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 66,
         "homeDefense": 76,
         "awayAttack": 73,
         "awayDefense": 78
@@ -54386,28 +54365,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "'We should all be excited' - Messi set for first England meeting",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
+          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 08:58:41 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -54416,7 +54395,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -54440,8 +54419,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -54485,12 +54464,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -54525,12 +54504,12 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             },
@@ -54645,9 +54624,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -54714,15 +54693,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。加拿大属于均衡型，场均进球参考值 1.8，大胜倾向 20%。",
-      "瑞士 进攻指数 75，加拿大 防守指数 78；加拿大 进攻指数 73，瑞士 防守指数 76。",
+      "瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。加拿大属于均衡型，场均进球参考值 1.8，大胜倾向 20%。",
+      "瑞士 进攻指数 66，加拿大 防守指数 78；加拿大 进攻指数 73，瑞士 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.03,
       "away": 1.65
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -55062,7 +55041,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -55564,7 +55543,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -55790,9 +55769,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55867,7 +55846,7 @@ window.MATCHES = [
       "home": 1.1,
       "away": 1.01
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -56181,19 +56160,7 @@ window.MATCHES = [
         "avgAge": 28.6,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Alisson Becker",
-          "Gabriel Magalhães",
-          "Marquinhos",
-          "Douglas Santos",
-          "Danilo",
-          "Casemiro",
-          "Bruno Guimarães",
-          "Gabriel Martinelli",
-          "Rayan",
-          "Vinícius Júnior",
-          "Matheus Cunha"
-        ]
+        "lastStarters": null
       }
     },
     "metrics": [
@@ -56220,7 +56187,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56312,15 +56279,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 52,
-      "bttsNo": 48,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 53,
+      "bttsNo": 47,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 38,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.83,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.67,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -56432,7 +56399,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -56440,7 +56407,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -56679,8 +56646,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -56708,22 +56675,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/12/norway-1-2-england-world-cup-quarter-final-player-ratings-from-miami",
+          "pubDate": "Sun, 12 Jul 2026 00:03:09 GMT"
         },
         {
           "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -56736,9 +56709,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "苏格兰",
@@ -56837,11 +56810,8 @@ window.MATCHES = [
             },
             {
               "team": "巴西",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Norway",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Alisson",
@@ -56850,6 +56820,22 @@ window.MATCHES = [
                   "age": 33,
                   "value": 11664000,
                   "rating": 6.81
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.05
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000,
+                  "rating": 6.91
                 },
                 {
                   "name": "Gabriel Magalhães",
@@ -56868,20 +56854,12 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "Douglas Santos",
-                  "position": "DF",
-                  "club": "Brazil",
-                  "age": 32,
-                  "value": 2185920,
-                  "rating": 6.82
-                },
-                {
-                  "name": "Danilo",
-                  "position": "DF",
-                  "club": "Flamengo",
-                  "age": 34,
-                  "value": 2232000,
-                  "rating": null
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000,
+                  "rating": 7.01
                 },
                 {
                   "name": "Casemiro",
@@ -56900,14 +56878,6 @@ window.MATCHES = [
                   "rating": 7.32
                 },
                 {
-                  "name": "Gabriel Martinelli",
-                  "position": "FW",
-                  "club": "Arsenal",
-                  "age": 24,
-                  "value": 19530000,
-                  "rating": 6.62
-                },
-                {
                   "name": "Rayan",
                   "position": "FW",
                   "club": "AFC Bournemouth",
@@ -56916,20 +56886,20 @@ window.MATCHES = [
                   "rating": 6.98
                 },
                 {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000,
+                  "rating": 6.62
+                },
+                {
                   "name": "Vinicius Junior",
                   "position": "FW",
                   "club": "Real Madrid",
                   "age": 25,
                   "value": 17010000,
                   "rating": 7.33
-                },
-                {
-                  "name": "Matheus Cunha",
-                  "position": "FW",
-                  "club": "Manchester United",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 7.14
                 }
               ]
             }
@@ -56949,15 +56919,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -56996,9 +56966,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -57027,7 +56997,7 @@ window.MATCHES = [
       "home": 1.06,
       "away": 2.09
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -57379,7 +57349,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57471,14 +57441,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 38,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 40,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.34,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.46,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -57599,7 +57569,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -57867,40 +57837,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
-        },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
           "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
-        },
-        {
-          "title": "France maul meek Morocco to reach semi-finals | World Cup Daily – video",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/video/2026/jul/10/france-maul-meek-morocco-to-reach-semi-finals-world-cup-daily-video",
-          "pubDate": "Fri, 10 Jul 2026 08:10:41 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -58129,9 +58081,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -58206,7 +58158,7 @@ window.MATCHES = [
       "home": 2.16,
       "away": 0.68
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -58504,11 +58456,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -0.83
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 17.5,
-      "shotsOnTarget": 4,
-      "possession": 54.9,
-      "shotAccuracy": 23,
+      "shotSource": "ESPN WC2026 (1场)",
+      "shotsPerGame": 20,
+      "shotsOnTarget": 5,
+      "possession": 66.9,
+      "shotAccuracy": 25,
       "playerQuality": {
         "squadValue": 0.11,
         "avgRating": 7,
@@ -58519,36 +58471,24 @@ window.MATCHES = [
         "avgAge": 27.5,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Raúl Rangel",
-          "Johan Vásquez",
-          "César Montes",
-          "Jesús Gallardo",
-          "Jorge Sánchez",
-          "Érik Lira",
-          "Luis Romo",
-          "Gilberto Mora",
-          "Raúl Jiménez",
-          "Julián Quiñones",
-          "Roberto Alvarado"
-        ]
+        "lastStarters": null
       }
     },
     "metrics": [
       {
         "label": "进攻",
         "home": 69,
-        "away": 82
+        "away": 83
       },
       {
         "label": "防守",
         "home": 80,
-        "away": 82
+        "away": 85
       },
       {
         "label": "中场",
         "home": 56,
-        "away": 63
+        "away": 69
       },
       {
         "label": "近期状态",
@@ -58558,7 +58498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58650,16 +58590,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 27,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.78,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 41,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.93,
+      "totalGoalsLean": "大于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -58728,9 +58668,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 68,
-        "awayScore": 76,
-        "contribution": -1.92,
-        "evidence": "捷克 进攻69/防守80/中场56，综合68；墨西哥 进攻82/防守82/中场63，综合76。"
+        "awayScore": 79,
+        "contribution": -2.64,
+        "evidence": "捷克 进攻69/防守80/中场56，综合68；墨西哥 进攻83/防守85/中场69，综合79。"
       },
       {
         "name": "近期状态",
@@ -58770,7 +58710,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -58778,7 +58718,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -58786,7 +58726,7 @@ window.MATCHES = [
         "homeRank": 40,
         "awayRank": 14,
         "homeAverageMetric": 65.8,
-        "awayAverageMetric": 79.3
+        "awayAverageMetric": 81.8
       },
       "recentForm": {
         "home": {
@@ -58995,8 +58935,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 69,
         "homeDefense": 80,
-        "awayAttack": 82,
-        "awayDefense": 82
+        "awayAttack": 83,
+        "awayDefense": 85
       },
       "motivation": {
         "home": null,
@@ -59017,8 +58957,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -59046,28 +58986,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Mexico boss' explicit heckle a bit of fun - Gordon",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 06:36:59 GMT"
-        },
-        {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -59083,9 +59017,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "捷克",
@@ -59184,11 +59118,8 @@ window.MATCHES = [
             },
             {
               "team": "墨西哥",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "England",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Raúl Rangel",
@@ -59207,20 +59138,20 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "César Montes",
+                  "name": "Mateo Chávez",
                   "position": "DF",
-                  "club": "Mexico",
-                  "age": 29,
-                  "value": 1230000,
-                  "rating": 7.03
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500,
+                  "rating": 6.74
                 },
                 {
-                  "name": "Jesús Gallardo",
+                  "name": "Israel Reyes",
                   "position": "DF",
-                  "club": "Toluca",
-                  "age": 31,
-                  "value": 1320000,
-                  "rating": 6.9
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000,
+                  "rating": 6.95
                 },
                 {
                   "name": "Jorge Sánchez",
@@ -59231,28 +59162,36 @@ window.MATCHES = [
                   "rating": 6.64
                 },
                 {
-                  "name": "Érik Lira",
+                  "name": "Obed Vargas",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 26,
-                  "value": 1575000,
-                  "rating": 6.79
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480,
+                  "rating": 6.77
                 },
                 {
-                  "name": "Luis Romo",
+                  "name": "Álvaro Fidalgo",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 31,
-                  "value": 2728000,
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000,
                   "rating": 7.02
                 },
                 {
-                  "name": "Gilberto Mora",
+                  "name": "Edson Álvarez",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 17,
-                  "value": 2576000,
-                  "rating": 7.02
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000,
+                  "rating": 6.95
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000,
+                  "rating": 6.59
                 },
                 {
                   "name": "Raúl Jiménez",
@@ -59263,20 +59202,12 @@ window.MATCHES = [
                   "rating": 6.9
                 },
                 {
-                  "name": "Julián Quiñones",
+                  "name": "Guillermo Martínez Ayala",
                   "position": "FW",
-                  "club": "Al-Qadsiah",
-                  "age": 29,
-                  "value": 2300000,
-                  "rating": 7.82
-                },
-                {
-                  "name": "Roberto Alvarado",
-                  "position": "FW",
-                  "club": "Mexico",
-                  "age": 27,
-                  "value": 1500000,
-                  "rating": 7.29
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000,
+                  "rating": 6.86
                 }
               ]
             }
@@ -59296,15 +59227,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
-          "verified": 4,
+          "verified": 3,
           "missing": 2,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -59342,9 +59273,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -59366,14 +59297,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "捷克属于均衡型，场均进球参考值 0.67，大胜倾向 0%。墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。",
-      "捷克 进攻指数 69，墨西哥 防守指数 82；墨西哥 进攻指数 82，捷克 防守指数 80。",
+      "捷克 进攻指数 69，墨西哥 防守指数 85；墨西哥 进攻指数 83，捷克 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.98,
       "away": 2.46
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -59702,7 +59633,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59794,14 +59725,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 20,
-      "under25": 80,
-      "bttsYes": 32,
-      "bttsNo": 68,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 38,
+      "bttsNo": 62,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 46,
-      "expectedTotalGoals": 1.65,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -59914,7 +59845,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -59922,7 +59853,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -60153,16 +60084,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -60187,10 +60118,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 5.71 / 平 3.94 / 客 1.61。市场倾向 韩国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "South Africa World Cup midfielder Adams dies aged 25",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT"
+        },
+        {
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -60203,9 +60155,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "南非",
@@ -60303,7 +60255,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+              "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT",
+              "description": "Adams played in South Africa’s World Cup group games Midfielder played for Mamelodi Sundowns Jayden Adams, who played in South Africa’s three group games at the World Cup, has died aged 25. The Mamelodi Sundowns midfielder started the tournament opener, a 2-0 defeat by Mexico, and the 1-1 draw with Czechia, being substituted in both matches. He then came off the bench in the 1-0 win against South Korea, but took no part in the 1-0 last-32 defeat by Canada. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -60318,9 +60280,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -60366,7 +60328,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -60396,7 +60358,7 @@ window.MATCHES = [
       "home": 0.78,
       "away": 1.84
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -60683,18 +60645,18 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 14,
-      "shotsOnTarget": 5,
-      "possession": 47,
-      "shotAccuracy": 36,
+      "shotSource": "AFCON 2025-26",
+      "shotsPerGame": 16.6,
+      "shotsOnTarget": null,
+      "possession": 59.6,
+      "shotAccuracy": 24,
       "playerQuality": null
     },
     "metrics": [
       {
         "label": "进攻",
         "home": 69,
-        "away": 86
+        "away": 79
       },
       {
         "label": "防守",
@@ -60704,7 +60666,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 44,
-        "away": 52
+        "away": 62
       },
       {
         "label": "近期状态",
@@ -60714,7 +60676,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60806,14 +60768,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 39,
+      "bttsNo": 61,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 41,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.48,
+      "awayWinBy2Plus": 39,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -60863,7 +60825,7 @@ window.MATCHES = [
         "failedToScoreRate": 67
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "均衡型",
         "avgGoalsFor": 1.25,
         "avgGoalsAgainst": 1,
         "bigWinRate": 25,
@@ -60884,9 +60846,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 60,
-        "awayScore": 72,
-        "contribution": -2.88,
-        "evidence": "库拉索 进攻69/防守68/中场44，综合60；科特迪瓦 进攻86/防守78/中场52，综合72。"
+        "awayScore": 73,
+        "contribution": -3.12,
+        "evidence": "库拉索 进攻69/防守68/中场44，综合60；科特迪瓦 进攻79/防守78/中场62，综合73。"
       },
       {
         "name": "近期状态",
@@ -60942,7 +60904,7 @@ window.MATCHES = [
         "homeRank": 82,
         "awayRank": 33,
         "homeAverageMetric": 59.8,
-        "awayAverageMetric": 76.5
+        "awayAverageMetric": 77.3
       },
       "recentForm": {
         "home": {
@@ -61151,7 +61113,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 69,
         "homeDefense": 68,
-        "awayAttack": 86,
+        "awayAttack": 79,
         "awayDefense": 78
       },
       "motivation": {
@@ -61208,7 +61170,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -61239,9 +61201,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -61309,15 +61271,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。科特迪瓦属于主动压迫型，场均进球参考值 1.25，大胜倾向 25%。",
-      "库拉索 进攻指数 69，科特迪瓦 防守指数 78；科特迪瓦 进攻指数 86，库拉索 防守指数 68。",
+      "库拉索属于均衡型，场均进球参考值 0.33，大胜倾向 0%。科特迪瓦属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
+      "库拉索 进攻指数 69，科特迪瓦 防守指数 78；科特迪瓦 进攻指数 79，库拉索 防守指数 68。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.64,
       "away": 2.03
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -61483,11 +61445,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -1
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 7,
-      "shotsOnTarget": 1,
-      "possession": 57.2,
-      "shotAccuracy": 14,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.13,
         "avgRating": 6.98,
@@ -61628,7 +61590,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 7,
         "avgAge": 27.2,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -61636,18 +61598,18 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 66,
-        "away": 73
+        "home": 64,
+        "away": 83
       },
       {
         "label": "防守",
-        "home": 81,
+        "home": 88,
         "away": 86
       },
       {
         "label": "中场",
-        "home": 60,
-        "away": 68
+        "home": 59,
+        "away": 78
       },
       {
         "label": "近期状态",
@@ -61657,7 +61619,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61750,15 +61712,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 23,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.62,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 29,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.71,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -61799,7 +61761,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 0.5,
         "avgGoalsAgainst": 1,
         "bigWinRate": 0,
@@ -61807,7 +61769,7 @@ window.MATCHES = [
         "failedToScoreRate": 75
       },
       "away": {
-        "tempo": "防守控制型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.75,
         "avgGoalsAgainst": 1.25,
         "bigWinRate": 25,
@@ -61827,10 +61789,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 69,
-        "awayScore": 76,
-        "contribution": -1.68,
-        "evidence": "厄瓜多尔 进攻66/防守81/中场60，综合69；德国 进攻73/防守86/中场68，综合76。"
+        "homeScore": 70,
+        "awayScore": 82,
+        "contribution": -2.88,
+        "evidence": "厄瓜多尔 进攻64/防守88/中场59，综合70；德国 进攻83/防守86/中场78，综合82。"
       },
       {
         "name": "近期状态",
@@ -61878,15 +61840,15 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 23,
         "awayRank": 10,
-        "homeAverageMetric": 66.3,
-        "awayAverageMetric": 83.3
+        "homeAverageMetric": 67.3,
+        "awayAverageMetric": 88.3
       },
       "recentForm": {
         "home": {
@@ -62093,9 +62055,9 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 66,
-        "homeDefense": 81,
-        "awayAttack": 73,
+        "homeAttack": 64,
+        "homeDefense": 88,
+        "awayAttack": 83,
         "awayDefense": 86
       },
       "motivation": {
@@ -62109,9 +62071,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -62143,10 +62105,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 3.59 / 平 3.74 / 客 1.96。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -62369,9 +62340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62439,15 +62410,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "厄瓜多尔属于均衡型，场均进球参考值 0.5，大胜倾向 0%。德国属于防守控制型，场均进球参考值 2.75，大胜倾向 25%。",
-      "厄瓜多尔 进攻指数 66，德国 防守指数 86；德国 进攻指数 73，厄瓜多尔 防守指数 81。",
+      "厄瓜多尔属于防守控制型，场均进球参考值 0.5，大胜倾向 0%。德国属于主动压迫型，场均进球参考值 2.75，大胜倾向 25%。",
+      "厄瓜多尔 进攻指数 64，德国 防守指数 86；德国 进攻指数 83，厄瓜多尔 防守指数 88。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.45,
       "away": 2.42
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -62745,11 +62716,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.83
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 8,
-      "shotsOnTarget": 3,
-      "possession": 39,
-      "shotAccuracy": 38,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.23,
         "avgRating": 6.82,
@@ -62767,17 +62738,17 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 67,
-        "away": 70
+        "away": 66
       },
       {
         "label": "防守",
         "home": 86,
-        "away": 68
+        "away": 70
       },
       {
         "label": "中场",
         "home": 60,
-        "away": 45
+        "away": 47
       },
       {
         "label": "近期状态",
@@ -62787,7 +62758,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62879,15 +62850,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 32,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 31,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.96,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.88,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -62959,7 +62930,7 @@ window.MATCHES = [
         "homeScore": 71,
         "awayScore": 61,
         "contribution": 2.4,
-        "evidence": "日本 进攻67/防守86/中场60，综合71；瑞典 进攻70/防守68/中场45，综合61。"
+        "evidence": "日本 进攻67/防守86/中场60，综合71；瑞典 进攻66/防守70/中场47，综合61。"
       },
       {
         "name": "近期状态",
@@ -63224,8 +63195,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 67,
         "homeDefense": 86,
-        "awayAttack": 70,
-        "awayDefense": 68
+        "awayAttack": 66,
+        "awayDefense": 70
       },
       "motivation": {
         "home": null,
@@ -63498,9 +63469,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63569,14 +63540,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。",
-      "日本 进攻指数 67，瑞典 防守指数 68；瑞典 进攻指数 70，日本 防守指数 86。",
+      "日本 进攻指数 67，瑞典 防守指数 70；瑞典 进攻指数 66，日本 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.45,
       "away": 1.61
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -63916,7 +63887,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -64010,12 +63981,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 28,
       "under25": 72,
-      "bttsYes": 39,
-      "bttsNo": 61,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 22,
       "lowScoreDraw": 41,
-      "expectedTotalGoals": 2.02,
+      "expectedTotalGoals": 2.03,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -64410,7 +64381,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -64636,9 +64607,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64713,7 +64684,7 @@ window.MATCHES = [
       "home": 0.7,
       "away": 1.94
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -65054,7 +65025,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -65146,16 +65117,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 57,
-      "bttsNo": 43,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 55,
+      "bttsNo": 45,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.67,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.54,
+      "totalGoalsLean": "小于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
     },
     "marketCalibration": {
@@ -65274,7 +65245,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -65505,9 +65476,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -65539,25 +65510,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 3.25 / 平 4.02 / 客 2.01。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-          "pubDate": "Sat, 11 Jul 2026 07:00:43 GMT"
-        },
-        {
-          "title": "England injury updates: World Cup squad gets boost ahead of Norway match - USA Today",
-          "source": "USA Today",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDN6VjdlR0RCX1FrcDdKdTRET09uRWtLMnpQUm5IdDJVdVdiY2FKTFlnNno1enRQcDltbFNkM1lYQmt3TWYxYmlNMUR4ajNyY1hLd0E0V3FtSTlQeklTdm9hdlNWU2U2VWZmdDlwXzlzbkhaMEMxVkJ6clNsQk15dW9pT3JiT1M1OGpHLTM0SmpQUU9mQ0pMZ2tZQXdYWUhHRVJrRUI5ZnNuaWp5VjhGeko3SWpmTTdYanUyY1ZZU21ONURNZG1R?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 02:08:00 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -65688,9 +65644,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -65766,7 +65722,7 @@ window.MATCHES = [
       "home": 2.14,
       "away": 1.1
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -66106,7 +66062,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -66198,16 +66154,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 50,
-      "bttsNo": 50,
-      "homeWinBy2Plus": 9,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.28,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.58,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -66326,7 +66282,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -66594,8 +66550,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -66615,7 +66577,7 @@ window.MATCHES = [
           "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -66848,9 +66810,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66926,7 +66888,7 @@ window.MATCHES = [
       "home": 1.32,
       "away": 1.74
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -67093,10 +67055,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -67107,19 +67069,7 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -67236,11 +67186,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -67269,18 +67219,18 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 80,
         "away": 88
       },
       {
         "label": "防守",
-        "home": 79,
+        "home": 78,
         "away": 79
       },
       {
         "label": "中场",
-        "home": 63,
-        "away": 67
+        "home": 61,
+        "away": 68
       },
       {
         "label": "近期状态",
@@ -67290,7 +67240,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67383,14 +67333,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 67,
-      "under25": 33,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 43,
-      "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.48,
+      "over25": 69,
+      "under25": 31,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 44,
+      "lowScoreDraw": 14,
+      "expectedTotalGoals": 3.61,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -67432,10 +67382,10 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       },
@@ -67463,7 +67413,7 @@ window.MATCHES = [
         "homeScore": 73,
         "awayScore": 78,
         "contribution": -1.2,
-        "evidence": "挪威 进攻77/防守79/中场63，综合73；法国 进攻88/防守79/中场67，综合78。"
+        "evidence": "挪威 进攻80/防守78/中场61，综合73；法国 进攻88/防守79/中场68，综合78。"
       },
       {
         "name": "近期状态",
@@ -67501,9 +67451,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -67519,7 +67469,7 @@ window.MATCHES = [
         "homeRank": 31,
         "awayRank": 3,
         "homeAverageMetric": 73.3,
-        "awayAverageMetric": 81
+        "awayAverageMetric": 81.3
       },
       "recentForm": {
         "home": {
@@ -67726,8 +67676,8 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
-        "homeDefense": 79,
+        "homeAttack": 80,
+        "homeDefense": 78,
         "awayAttack": 88,
         "awayDefense": 79
       },
@@ -67748,10 +67698,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "awayScore": 48,
+        "goalLift": -0.03,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -67782,28 +67732,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT"
         },
         {
-          "title": "Haaland has advantage over Man City team-mates",
+          "title": "Bellingham scores extra-time winner as England reach semi-finals",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/videos/cjrgww8vr98o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 00:50:48 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -67825,11 +67775,8 @@ window.MATCHES = [
           "teams": [
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -67840,28 +67787,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -67872,20 +67803,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -67896,12 +67835,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -67912,12 +67851,20 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             },
@@ -68020,34 +67967,53 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -68115,15 +68081,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。法国属于主动压迫型，场均进球参考值 2.67，大胜倾向 83%。",
-      "挪威 进攻指数 77，法国 防守指数 79；法国 进攻指数 88，挪威 防守指数 79。",
+      "挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。法国属于主动压迫型，场均进球参考值 2.67，大胜倾向 83%。",
+      "挪威 进攻指数 80，法国 防守指数 79；法国 进攻指数 88，挪威 防守指数 78。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.27,
       "away": 2.98
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -68463,7 +68429,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68555,16 +68521,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 28,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 24,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.42,
+      "lowScoreDraw": 38,
+      "expectedTotalGoals": 2.23,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -68683,7 +68649,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -68914,9 +68880,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -68948,16 +68914,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.29 / 平 5.37 / 客 10.41。市场倾向 塞内加尔。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
+        },
+        {
+          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -69180,12 +69161,22 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT",
+              "description": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69260,7 +69251,7 @@ window.MATCHES = [
       "home": 1.59,
       "away": 0.77
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -69589,7 +69580,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69680,17 +69671,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 11,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.04,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 13,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.19,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
-      "upsetRisk": "中"
+      "bttsLean": "双方进球均衡",
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -69808,7 +69799,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -70076,14 +70067,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
-        },
         {
           "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
           "source": "www.theguardian.com",
@@ -70091,13 +70076,13 @@ window.MATCHES = [
           "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -70228,9 +70213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -70305,7 +70290,7 @@ window.MATCHES = [
       "home": 0.99,
       "away": 1.09
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -70340,7 +70325,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -70657,7 +70642,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70748,16 +70733,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 48,
-      "bttsNo": 52,
-      "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.23,
+      "over25": 30,
+      "under25": 70,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -71147,28 +71132,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         },
         {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -71382,17 +71367,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -71407,9 +71382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -71485,7 +71460,7 @@ window.MATCHES = [
       "home": 0.74,
       "away": 1.52
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -71825,7 +71800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71924,7 +71899,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 15,
       "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.47,
+      "expectedTotalGoals": 2.46,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
@@ -72045,7 +72020,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -72276,9 +72251,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -72310,31 +72285,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.06 / 平 3.15 / 客 3.91。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
-        },
-        {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -72560,9 +72520,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72637,7 +72597,7 @@ window.MATCHES = [
       "home": 1.21,
       "away": 1.77
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -72948,10 +72908,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -72971,7 +72929,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 60,
-        "away": 73
+        "away": 83
       },
       {
         "label": "防守",
@@ -72981,7 +72939,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 50
+        "away": 53
       },
       {
         "label": "近期状态",
@@ -72991,7 +72949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -73083,16 +73041,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 41,
-      "bttsNo": 59,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 46,
+      "bttsNo": 54,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 41,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.55,
+      "awayWinBy2Plus": 47,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.9,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -73140,7 +73098,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -73161,9 +73119,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 56,
-        "awayScore": 67,
-        "contribution": -2.64,
-        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻73/防守77/中场50，综合67。"
+        "awayScore": 71,
+        "contribution": -3.6,
+        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻83/防守77/中场53，综合71。"
       },
       {
         "name": "近期状态",
@@ -73219,7 +73177,7 @@ window.MATCHES = [
         "homeRank": 85,
         "awayRank": 9,
         "homeAverageMetric": 50.8,
-        "awayAverageMetric": 68.5
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -73428,7 +73386,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 60,
         "homeDefense": 70,
-        "awayAttack": 73,
+        "awayAttack": 83,
         "awayDefense": 77
       },
       "motivation": {
@@ -73482,28 +73440,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
-        },
-        {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-          "pubDate": "Sat, 11 Jul 2026 09:38:24 GMT"
-        },
-        {
           "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
+        },
+        {
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
+        },
+        {
+          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+        },
+        {
+          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
+          "source": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -73512,7 +73470,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -73761,9 +73719,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -73830,15 +73788,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。",
-      "新西兰 进攻指数 60，比利时 防守指数 77；比利时 进攻指数 73，新西兰 防守指数 70。",
+      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
+      "新西兰 进攻指数 60，比利时 防守指数 77；比利时 进攻指数 83，新西兰 防守指数 70。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.75,
       "away": 2.37
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -74136,11 +74094,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -74149,23 +74107,20 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
@@ -74173,7 +74128,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 66,
-        "away": 78
+        "away": 85
       },
       {
         "label": "防守",
@@ -74183,7 +74138,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 49,
-        "away": 56
+        "away": 63
       },
       {
         "label": "近期状态",
@@ -74193,7 +74148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -74286,14 +74241,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 28,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.33,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 39,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.39,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -74343,12 +74298,12 @@ window.MATCHES = [
         "failedToScoreRate": 100
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
@@ -74364,9 +74319,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 63,
-        "awayScore": 71,
-        "contribution": -1.92,
-        "evidence": "巴拿马 进攻66/防守74/中场49，综合63；英格兰 进攻78/防守80/中场56，综合71。"
+        "awayScore": 76,
+        "contribution": -3.12,
+        "evidence": "巴拿马 进攻66/防守74/中场49，综合63；英格兰 进攻85/防守80/中场63，综合76。"
       },
       {
         "name": "近期状态",
@@ -74404,9 +74359,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 46,
+        "contribution": 0.24,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -74422,7 +74377,7 @@ window.MATCHES = [
         "homeRank": 34,
         "awayRank": 4,
         "homeAverageMetric": 61.8,
-        "awayAverageMetric": 76
+        "awayAverageMetric": 79.5
       },
       "recentForm": {
         "home": {
@@ -74631,7 +74586,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 66,
         "homeDefense": 74,
-        "awayAttack": 78,
+        "awayAttack": 85,
         "awayDefense": 80
       },
       "motivation": {
@@ -74651,10 +74606,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "awayScore": 46,
+        "goalLift": -0.06,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -74685,28 +74640,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -74825,8 +74780,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -74846,12 +74801,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -74862,12 +74817,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -74910,34 +74865,73 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -75005,15 +74999,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。",
-      "巴拿马 进攻指数 66，英格兰 防守指数 80；英格兰 进攻指数 78，巴拿马 防守指数 74。",
+      "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。",
+      "巴拿马 进攻指数 66，英格兰 防守指数 80；英格兰 进攻指数 85，巴拿马 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.08,
       "away": 2.21
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -75353,7 +75347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -75445,14 +75439,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 33,
-      "bttsNo": 67,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 34,
+      "bttsNo": 66,
       "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.02,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -75856,7 +75850,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -76082,9 +76076,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -76159,7 +76153,7 @@ window.MATCHES = [
       "home": 1.82,
       "away": 0.57
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -76523,7 +76517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76615,14 +76609,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 10,
-      "awayWinBy2Plus": 25,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 24,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.83,
+      "expectedTotalGoals": 2.89,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -76743,7 +76737,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -77011,14 +77005,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT"
-        },
         {
           "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
           "source": "www.theguardian.com",
@@ -77032,7 +77020,7 @@ window.MATCHES = [
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -77258,22 +77246,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
-              "description": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -77349,7 +77327,7 @@ window.MATCHES = [
       "home": 1.47,
       "away": 1.83
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -77689,7 +77667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77780,14 +77758,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 15,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 13,
       "awayWinBy2Plus": 9,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.93,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 1.84,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -78182,7 +78160,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -78408,9 +78386,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78485,7 +78463,7 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.17
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -78825,7 +78803,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78917,14 +78895,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.78,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.61,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -79319,7 +79297,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -79545,9 +79523,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -79622,7 +79600,7 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.89
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -79920,11 +79898,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -79942,8 +79920,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -79964,7 +79942,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 48,
-        "away": 72
+        "away": 71
       },
       {
         "label": "近期状态",
@@ -79974,7 +79952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -80067,15 +80045,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 46,
-      "bttsNo": 54,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 48,
+      "bttsNo": 52,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 46,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 2.83,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 48,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.03,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -80125,10 +80103,10 @@ window.MATCHES = [
       },
       "away": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       }
     },
@@ -80147,7 +80125,7 @@ window.MATCHES = [
         "homeScore": 62,
         "awayScore": 81,
         "contribution": -4.56,
-        "evidence": "约旦 进攻65/防守74/中场48，综合62；阿根廷 进攻88/防守84/中场72，综合81。"
+        "evidence": "约旦 进攻65/防守74/中场48，综合62；阿根廷 进攻88/防守84/中场71，综合81。"
       },
       {
         "name": "近期状态",
@@ -80203,7 +80181,7 @@ window.MATCHES = [
         "homeRank": 63,
         "awayRank": 1,
         "homeAverageMetric": 61.3,
-        "awayAverageMetric": 85.5
+        "awayAverageMetric": 85.3
       },
       "recentForm": {
         "home": {
@@ -80466,28 +80444,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "BBC to show England's World Cup semi-final",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
+          "title": "Argentina midfield great Rattin dies aged 89",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -80606,8 +80584,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -80659,20 +80637,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -80713,22 +80691,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -80796,7 +80764,7 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "约旦属于均衡型，场均进球参考值 1，大胜倾向 0%。阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。",
+      "约旦属于均衡型，场均进球参考值 1，大胜倾向 0%。阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。",
       "约旦 进攻指数 65，阿根廷 防守指数 84；阿根廷 进攻指数 88，约旦 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
@@ -80804,7 +80772,7 @@ window.MATCHES = [
       "home": 0.83,
       "away": 2.64
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -81144,7 +81112,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -81236,14 +81204,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 47,
-      "bttsNo": 53,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 22,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 21,
       "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.28,
+      "expectedTotalGoals": 2.32,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -81356,7 +81324,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -81364,7 +81332,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -81603,8 +81571,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -81632,16 +81600,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Adams dies aged 25",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 14:47:47 GMT"
+        },
+        {
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -81654,9 +81634,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "南非",
@@ -81849,7 +81829,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+              "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT",
+              "description": "Adams played in South Africa’s World Cup group games Midfielder played for Mamelodi Sundowns Jayden Adams, who played in South Africa’s three group games at the World Cup, has died aged 25. The Mamelodi Sundowns midfielder started the tournament opener, a 2-0 defeat by Mexico, and the 1-1 draw with Czechia, being substituted in both matches. He then came off the bench in the 1-0 win against South Korea, but took no part in the 1-0 last-32 defeat by Canada. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -81864,9 +81854,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81912,7 +81902,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -81942,7 +81932,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 1.99
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -82123,19 +82113,7 @@ window.MATCHES = [
         "avgAge": 28.6,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Alisson Becker",
-          "Gabriel Magalhães",
-          "Marquinhos",
-          "Douglas Santos",
-          "Danilo",
-          "Casemiro",
-          "Bruno Guimarães",
-          "Gabriel Martinelli",
-          "Rayan",
-          "Vinícius Júnior",
-          "Matheus Cunha"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -82294,7 +82272,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -82387,15 +82365,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 18,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 19,
       "awayWinBy2Plus": 14,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.97,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 3.12,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -82507,7 +82485,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -82515,7 +82493,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -82754,8 +82732,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -82783,28 +82761,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/12/norway-1-2-england-world-cup-quarter-final-player-ratings-from-miami",
+          "pubDate": "Sun, 12 Jul 2026 00:03:09 GMT"
         },
         {
           "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -82820,17 +82804,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Norway",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Alisson",
@@ -82839,6 +82820,22 @@ window.MATCHES = [
                   "age": 33,
                   "value": 11664000,
                   "rating": 6.81
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.05
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000,
+                  "rating": 6.91
                 },
                 {
                   "name": "Gabriel Magalhães",
@@ -82857,20 +82854,12 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "Douglas Santos",
-                  "position": "DF",
-                  "club": "Brazil",
-                  "age": 32,
-                  "value": 2185920,
-                  "rating": 6.82
-                },
-                {
-                  "name": "Danilo",
-                  "position": "DF",
-                  "club": "Flamengo",
-                  "age": 34,
-                  "value": 2232000,
-                  "rating": null
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000,
+                  "rating": 7.01
                 },
                 {
                   "name": "Casemiro",
@@ -82889,14 +82878,6 @@ window.MATCHES = [
                   "rating": 7.32
                 },
                 {
-                  "name": "Gabriel Martinelli",
-                  "position": "FW",
-                  "club": "Arsenal",
-                  "age": 24,
-                  "value": 19530000,
-                  "rating": 6.62
-                },
-                {
                   "name": "Rayan",
                   "position": "FW",
                   "club": "AFC Bournemouth",
@@ -82905,20 +82886,20 @@ window.MATCHES = [
                   "rating": 6.98
                 },
                 {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000,
+                  "rating": 6.62
+                },
+                {
                   "name": "Vinicius Junior",
                   "position": "FW",
                   "club": "Real Madrid",
                   "age": 25,
                   "value": 17010000,
                   "rating": 7.33
-                },
-                {
-                  "name": "Matheus Cunha",
-                  "position": "FW",
-                  "club": "Manchester United",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 7.14
                 }
               ]
             },
@@ -83033,15 +83014,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
-          "verified": 4,
+          "verified": 3,
           "missing": 2,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -83079,9 +83060,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -83110,7 +83091,7 @@ window.MATCHES = [
       "home": 2.15,
       "away": 1.73
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -83289,7 +83270,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 7,
         "avgAge": 27.2,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -83429,7 +83410,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
+        "home": 83,
         "away": 63
       },
       {
@@ -83439,7 +83420,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 78,
         "away": 39
       },
       {
@@ -83450,7 +83431,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -83543,16 +83524,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 44,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 47,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.76,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "至少一方零封",
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.97,
+      "totalGoalsLean": "大于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -83592,7 +83573,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "防守控制型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.75,
         "avgGoalsAgainst": 1.25,
         "bigWinRate": 25,
@@ -83620,10 +83601,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
+        "homeScore": 82,
         "awayScore": 57,
-        "contribution": 4.56,
-        "evidence": "德国 进攻73/防守86/中场68，综合76；巴拉圭 进攻63/防守70/中场39，综合57。"
+        "contribution": 6,
+        "evidence": "德国 进攻83/防守86/中场78，综合82；巴拉圭 进攻63/防守70/中场39，综合57。"
       },
       {
         "name": "近期状态",
@@ -83671,14 +83652,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 10,
         "awayRank": 41,
-        "homeAverageMetric": 83.3,
+        "homeAverageMetric": 88.3,
         "awayAverageMetric": 57.5
       },
       "recentForm": {
@@ -83886,7 +83867,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 86,
         "awayAttack": 63,
         "awayDefense": 70
@@ -83902,9 +83883,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -83936,10 +83917,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.35 / 平 5.05 / 客 9.2。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -84159,12 +84149,22 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+              "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT",
+              "description": "Former Liverpool manager to replace Julian Nagelsmann Germany lost to Paraguay in last 32 of the World Cup Jürgen Klopp has “reached an agreement on the key points” to become the next Germany head coach, the German football association (DFB) has said. The 59-year-old is expected to sign a contract until 2030 to succeed Julian Nagelsmann. A statement said: “The DFB president Bernd Neuendorf and DFB vice-president Hans-Joachim Watzke held their first in-depth talks with Jürgen Klopp yesterday in New York regarding his potential appointment as national team coach. During the constructive exchange, an agreement was reached on the key points of a potential contract. Talks will continue next week. “Both sides are confident that the negotiations – subject to an agreement with Klopp’s current employer, Red Bull – can ultimately be successfully concluded. Any potential contract must be finalised in a joint meeting of the supervisory board and shareholders’ meeting of DFB GmbH &amp; Co. KG.” Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84232,15 +84232,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "德国属于防守控制型，场均进球参考值 2.75，大胜倾向 25%。巴拉圭属于均衡型，场均进球参考值 0.6，大胜倾向 0%。",
-      "德国 进攻指数 73，巴拉圭 防守指数 70；巴拉圭 进攻指数 63，德国 防守指数 86。",
+      "德国属于主动压迫型，场均进球参考值 2.75，大胜倾向 25%。巴拉圭属于均衡型，场均进球参考值 0.6，大胜倾向 0%。",
+      "德国 进攻指数 83，巴拉圭 防守指数 70；巴拉圭 进攻指数 63，德国 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.83,
       "away": 0.97
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -84592,7 +84592,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84685,17 +84685,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.03,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.86,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -84813,7 +84813,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -85081,34 +85081,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
-        },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
           "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
-        },
-        {
-          "title": "France maul meek Morocco to reach semi-finals | World Cup Daily – video",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/video/2026/jul/10/france-maul-meek-morocco-to-reach-semi-finals-world-cup-daily-video",
-          "pubDate": "Fri, 10 Jul 2026 08:10:41 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -85334,9 +85316,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -85412,7 +85394,7 @@ window.MATCHES = [
       "home": 1.94,
       "away": 2.09
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -85578,11 +85560,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 14,
-      "shotsOnTarget": 5,
-      "possession": 47,
-      "shotAccuracy": 36,
+      "shotSource": "AFCON 2025-26",
+      "shotsPerGame": 16.6,
+      "shotsOnTarget": null,
+      "possession": 59.6,
+      "shotAccuracy": 24,
       "playerQuality": null
     },
     "away": {
@@ -85700,10 +85682,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -85714,36 +85696,24 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "metrics": [
       {
         "label": "进攻",
-        "home": 86,
-        "away": 77
+        "home": 79,
+        "away": 80
       },
       {
         "label": "防守",
         "home": 78,
-        "away": 79
+        "away": 78
       },
       {
         "label": "中场",
-        "home": 52,
-        "away": 63
+        "home": 62,
+        "away": 61
       },
       {
         "label": "近期状态",
@@ -85753,7 +85723,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85845,14 +85815,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 67,
-      "bttsNo": 33,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.21,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -85894,7 +85864,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "均衡型",
         "avgGoalsFor": 1.25,
         "avgGoalsAgainst": 1,
         "bigWinRate": 25,
@@ -85902,10 +85872,10 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       }
@@ -85922,10 +85892,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 72,
+        "homeScore": 73,
         "awayScore": 73,
-        "contribution": -0.24,
-        "evidence": "科特迪瓦 进攻86/防守78/中场52，综合72；挪威 进攻77/防守79/中场63，综合73。"
+        "contribution": 0,
+        "evidence": "科特迪瓦 进攻79/防守78/中场62，综合73；挪威 进攻80/防守78/中场61，综合73。"
       },
       {
         "name": "近期状态",
@@ -85965,7 +85935,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -85980,7 +85950,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 33,
         "awayRank": 31,
-        "homeAverageMetric": 76.5,
+        "homeAverageMetric": 77.3,
         "awayAverageMetric": 73.3
       },
       "recentForm": {
@@ -86188,10 +86158,10 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 86,
+        "homeAttack": 79,
         "homeDefense": 78,
-        "awayAttack": 77,
-        "awayDefense": 79
+        "awayAttack": 80,
+        "awayDefense": 78
       },
       "motivation": {
         "home": null,
@@ -86212,8 +86182,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -86244,28 +86214,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT"
         },
         {
-          "title": "Haaland has advantage over Man City team-mates",
+          "title": "Bellingham scores extra-time winner as England reach semi-finals",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/videos/cjrgww8vr98o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 00:50:48 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -86281,17 +86251,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -86302,28 +86269,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -86334,20 +86285,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -86358,12 +86317,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -86374,27 +86333,25 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -86409,15 +86366,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -86456,9 +86413,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -86479,15 +86436,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "科特迪瓦属于主动压迫型，场均进球参考值 1.25，大胜倾向 25%。挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。",
-      "科特迪瓦 进攻指数 86，挪威 防守指数 79；挪威 进攻指数 77，科特迪瓦 防守指数 78。",
+      "科特迪瓦属于均衡型，场均进球参考值 1.25，大胜倾向 25%。挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。",
+      "科特迪瓦 进攻指数 79，挪威 防守指数 78；挪威 进攻指数 80，科特迪瓦 防守指数 78。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.03,
       "away": 1.7
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -86653,11 +86610,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -86797,11 +86754,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.83
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 8,
-      "shotsOnTarget": 3,
-      "possession": 39,
-      "shotAccuracy": 38,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.23,
         "avgRating": 6.82,
@@ -86819,17 +86776,17 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 88,
-        "away": 70
+        "away": 66
       },
       {
         "label": "防守",
         "home": 79,
-        "away": 68
+        "away": 70
       },
       {
         "label": "中场",
-        "home": 67,
-        "away": 45
+        "home": 68,
+        "away": 47
       },
       {
         "label": "近期状态",
@@ -86839,7 +86796,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86932,14 +86889,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 71,
-      "under25": 29,
+      "over25": 64,
+      "under25": 36,
       "bttsYes": 56,
       "bttsNo": 44,
-      "homeWinBy2Plus": 56,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 12,
-      "expectedTotalGoals": 3.69,
+      "homeWinBy2Plus": 48,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.35,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -87012,7 +86969,7 @@ window.MATCHES = [
         "homeScore": 78,
         "awayScore": 61,
         "contribution": 4.08,
-        "evidence": "法国 进攻88/防守79/中场67，综合78；瑞典 进攻70/防守68/中场45，综合61。"
+        "evidence": "法国 进攻88/防守79/中场68，综合78；瑞典 进攻66/防守70/中场47，综合61。"
       },
       {
         "name": "近期状态",
@@ -87049,10 +87006,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -87067,7 +87024,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 3,
         "awayRank": 38,
-        "homeAverageMetric": 81,
+        "homeAverageMetric": 81.3,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -87277,8 +87234,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 88,
         "homeDefense": 79,
-        "awayAttack": 70,
-        "awayDefense": 68
+        "awayAttack": 66,
+        "awayDefense": 70
       },
       "motivation": {
         "home": null,
@@ -87296,11 +87253,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": -0.03,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -87331,28 +87288,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+        },
+        {
+          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -87573,17 +87530,46 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -87652,14 +87638,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "法国属于主动压迫型，场均进球参考值 2.67，大胜倾向 83%。瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。",
-      "法国 进攻指数 88，瑞典 防守指数 68；瑞典 进攻指数 70，法国 防守指数 79。",
+      "法国 进攻指数 88，瑞典 防守指数 70；瑞典 进攻指数 66，法国 防守指数 79。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 3.04,
       "away": 1.21
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -87825,11 +87811,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -0.83
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 17.5,
-      "shotsOnTarget": 4,
-      "possession": 54.9,
-      "shotAccuracy": 23,
+      "shotSource": "ESPN WC2026 (1场)",
+      "shotsPerGame": 20,
+      "shotsOnTarget": 5,
+      "possession": 66.9,
+      "shotAccuracy": 25,
       "playerQuality": {
         "squadValue": 0.11,
         "avgRating": 7,
@@ -87840,19 +87826,7 @@ window.MATCHES = [
         "avgAge": 27.5,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Raúl Rangel",
-          "Johan Vásquez",
-          "César Montes",
-          "Jesús Gallardo",
-          "Jorge Sánchez",
-          "Érik Lira",
-          "Luis Romo",
-          "Gilberto Mora",
-          "Raúl Jiménez",
-          "Julián Quiñones",
-          "Roberto Alvarado"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -87969,11 +87943,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -1
       },
-      "shotSource": "ESPN WC2026 (1场)",
-      "shotsPerGame": 7,
-      "shotsOnTarget": 1,
-      "possession": 57.2,
-      "shotAccuracy": 14,
+      "shotSource": "",
+      "shotsPerGame": null,
+      "shotsOnTarget": null,
+      "possession": null,
+      "shotAccuracy": null,
       "playerQuality": {
         "squadValue": 0.13,
         "avgRating": 6.98,
@@ -87990,18 +87964,18 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 82,
-        "away": 66
+        "home": 83,
+        "away": 64
       },
       {
         "label": "防守",
-        "home": 82,
-        "away": 81
+        "home": 85,
+        "away": 88
       },
       {
         "label": "中场",
-        "home": 63,
-        "away": 60
+        "home": 69,
+        "away": 59
       },
       {
         "label": "近期状态",
@@ -88011,7 +87985,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -88103,14 +88077,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 56,
-      "bttsNo": 44,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 55,
+      "bttsNo": 45,
       "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 6,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.77,
+      "expectedTotalGoals": 2.74,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -88160,7 +88134,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 0.5,
         "avgGoalsAgainst": 1,
         "bigWinRate": 0,
@@ -88180,10 +88154,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
-        "awayScore": 69,
-        "contribution": 1.68,
-        "evidence": "墨西哥 进攻82/防守82/中场63，综合76；厄瓜多尔 进攻66/防守81/中场60，综合69。"
+        "homeScore": 79,
+        "awayScore": 70,
+        "contribution": 2.16,
+        "evidence": "墨西哥 进攻83/防守85/中场69，综合79；厄瓜多尔 进攻64/防守88/中场59，综合70。"
       },
       {
         "name": "近期状态",
@@ -88223,7 +88197,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -88231,15 +88205,15 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 14,
         "awayRank": 23,
-        "homeAverageMetric": 79.3,
-        "awayAverageMetric": 66.3
+        "homeAverageMetric": 81.8,
+        "awayAverageMetric": 67.3
       },
       "recentForm": {
         "home": {
@@ -88446,10 +88420,10 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 82,
-        "homeDefense": 82,
-        "awayAttack": 66,
-        "awayDefense": 81
+        "homeAttack": 83,
+        "homeDefense": 85,
+        "awayAttack": 64,
+        "awayDefense": 88
       },
       "motivation": {
         "home": null,
@@ -88470,8 +88444,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -88499,28 +88473,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Mexico boss' explicit heckle a bit of fun - Gordon",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gyvv9w9n9o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 06:36:59 GMT"
-        },
-        {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -88536,17 +88504,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "墨西哥",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "England",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Raúl Rangel",
@@ -88565,20 +88530,20 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "César Montes",
+                  "name": "Mateo Chávez",
                   "position": "DF",
-                  "club": "Mexico",
-                  "age": 29,
-                  "value": 1230000,
-                  "rating": 7.03
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500,
+                  "rating": 6.74
                 },
                 {
-                  "name": "Jesús Gallardo",
+                  "name": "Israel Reyes",
                   "position": "DF",
-                  "club": "Toluca",
-                  "age": 31,
-                  "value": 1320000,
-                  "rating": 6.9
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000,
+                  "rating": 6.95
                 },
                 {
                   "name": "Jorge Sánchez",
@@ -88589,28 +88554,36 @@ window.MATCHES = [
                   "rating": 6.64
                 },
                 {
-                  "name": "Érik Lira",
+                  "name": "Obed Vargas",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 26,
-                  "value": 1575000,
-                  "rating": 6.79
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480,
+                  "rating": 6.77
                 },
                 {
-                  "name": "Luis Romo",
+                  "name": "Álvaro Fidalgo",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 31,
-                  "value": 2728000,
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000,
                   "rating": 7.02
                 },
                 {
-                  "name": "Gilberto Mora",
+                  "name": "Edson Álvarez",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 17,
-                  "value": 2576000,
-                  "rating": 7.02
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000,
+                  "rating": 6.95
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000,
+                  "rating": 6.59
                 },
                 {
                   "name": "Raúl Jiménez",
@@ -88621,20 +88594,12 @@ window.MATCHES = [
                   "rating": 6.9
                 },
                 {
-                  "name": "Julián Quiñones",
+                  "name": "Guillermo Martínez Ayala",
                   "position": "FW",
-                  "club": "Al-Qadsiah",
-                  "age": 29,
-                  "value": 2300000,
-                  "rating": 7.82
-                },
-                {
-                  "name": "Roberto Alvarado",
-                  "position": "FW",
-                  "club": "Mexico",
-                  "age": 27,
-                  "value": 1500000,
-                  "rating": 7.29
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000,
+                  "rating": 6.86
                 }
               ]
             },
@@ -88749,15 +88714,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
-          "verified": 4,
+          "verified": 3,
           "missing": 2,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -88795,9 +88760,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -88818,15 +88783,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。厄瓜多尔属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
-      "墨西哥 进攻指数 82，厄瓜多尔 防守指数 81；厄瓜多尔 进攻指数 66，墨西哥 防守指数 82。",
+      "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。厄瓜多尔属于防守控制型，场均进球参考值 0.5，大胜倾向 0%。",
+      "墨西哥 进攻指数 83，厄瓜多尔 防守指数 88；厄瓜多尔 进攻指数 64，墨西哥 防守指数 85。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.1,
       "away": 1.31
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -88992,11 +88957,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -89005,23 +88970,20 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
@@ -89160,7 +89122,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 78,
+        "home": 85,
         "away": 66
       },
       {
@@ -89170,7 +89132,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 63,
         "away": 47
       },
       {
@@ -89181,7 +89143,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -89273,16 +89235,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 43,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 45,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.61,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.82,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -89322,12 +89284,12 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "均衡型",
@@ -89350,10 +89312,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 76,
         "awayScore": 63,
-        "contribution": 1.92,
-        "evidence": "英格兰 进攻78/防守80/中场56，综合71；刚果（金） 进攻66/防守77/中场47，综合63。"
+        "contribution": 3.12,
+        "evidence": "英格兰 进攻85/防守80/中场63，综合76；刚果（金） 进攻66/防守77/中场47，综合63。"
       },
       {
         "name": "近期状态",
@@ -89390,10 +89352,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 46,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.24,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -89408,7 +89370,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 46,
-        "homeAverageMetric": 76,
+        "homeAverageMetric": 79.5,
         "awayAverageMetric": 62
       },
       "recentForm": {
@@ -89616,7 +89578,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 78,
+        "homeAttack": 85,
         "homeDefense": 80,
         "awayAttack": 66,
         "awayDefense": 77
@@ -89637,11 +89599,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 46,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": -0.06,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -89672,28 +89634,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -89702,7 +89664,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -89726,8 +89688,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -89747,12 +89709,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -89763,12 +89725,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -89811,12 +89773,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             },
@@ -89916,24 +89878,63 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -90000,15 +90001,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。刚果（金）属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
-      "英格兰 进攻指数 78，刚果（金） 防守指数 77；刚果（金） 进攻指数 66，英格兰 防守指数 80。",
+      "英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。刚果（金）属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
+      "英格兰 进攻指数 85，刚果（金） 防守指数 77；刚果（金） 进攻指数 66，英格兰 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.49,
       "away": 0.78
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -90187,10 +90188,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -90341,7 +90340,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 73,
+        "home": 83,
         "away": 84
       },
       {
@@ -90351,7 +90350,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 50,
+        "home": 53,
         "away": 52
       },
       {
@@ -90362,7 +90361,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -90455,14 +90454,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.28,
+      "over25": 68,
+      "under25": 32,
+      "bttsYes": 69,
+      "bttsNo": 31,
+      "homeWinBy2Plus": 31,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.58,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -90504,7 +90503,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -90532,10 +90531,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 67,
+        "homeScore": 71,
         "awayScore": 71,
-        "contribution": -0.96,
-        "evidence": "比利时 进攻73/防守77/中场50，综合67；塞内加尔 进攻84/防守76/中场52，综合71。"
+        "contribution": 0,
+        "evidence": "比利时 进攻83/防守77/中场53，综合71；塞内加尔 进攻84/防守76/中场52，综合71。"
       },
       {
         "name": "近期状态",
@@ -90590,7 +90589,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 15,
-        "homeAverageMetric": 68.5,
+        "homeAverageMetric": 71.8,
         "awayAverageMetric": 71.5
       },
       "recentForm": {
@@ -90798,7 +90797,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 73,
+        "homeAttack": 83,
         "homeDefense": 77,
         "awayAttack": 84,
         "awayDefense": 76
@@ -90854,28 +90853,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
+          "title": "Senegal sack manager Thiaw in wake of World Cup exit",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
-        },
-        {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-          "pubDate": "Sat, 11 Jul 2026 09:38:24 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         },
         {
           "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
+        },
+        {
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
+        },
+        {
+          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -90884,7 +90883,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -91122,6 +91121,15 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
+              "title": "Senegal sack manager Thiaw in wake of World Cup exit",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cq81l29lj2zo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT",
+              "description": "Senegal sack manager Pape Thiaw in the aftermath of the country's exit at the last-32 stage of the 2026 World Cup.",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
@@ -91133,9 +91141,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -91202,15 +91210,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于开放进攻型，场均进球参考值 2.5，大胜倾向 25%。",
-      "比利时 进攻指数 73，塞内加尔 防守指数 76；塞内加尔 进攻指数 84，比利时 防守指数 77。",
+      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于开放进攻型，场均进球参考值 2.5，大胜倾向 25%。",
+      "比利时 进攻指数 83，塞内加尔 防守指数 76；塞内加尔 进攻指数 84，比利时 防守指数 77。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.55,
       "away": 1.67
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -91562,7 +91570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -91655,16 +91663,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 35,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.32,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 46,
+      "bttsNo": 54,
+      "homeWinBy2Plus": 37,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.59,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -91783,7 +91791,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -92014,9 +92022,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -92048,25 +92056,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.36 / 平 4.94 / 客 9.04。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-          "pubDate": "Sat, 11 Jul 2026 07:00:43 GMT"
-        },
-        {
-          "title": "England injury updates: World Cup squad gets boost ahead of Norway match - USA Today",
-          "source": "USA Today",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDN6VjdlR0RCX1FrcDdKdTRET09uRWtLMnpQUm5IdDJVdVdiY2FKTFlnNno1enRQcDltbFNkM1lYQmt3TWYxYmlNMUR4ajNyY1hLd0E0V3FtSTlQeklTdm9hdlNWU2U2VWZmdDlwXzlzbkhaMEMxVkJ6clNsQk15dW9pT3JiT1M1OGpHLTM0SmpQUU9mQ0pMZ2tZQXdYWUhHRVJrRUI5ZnNuaWp5VjhGeko3SWpmTTdYanUyY1ZZU21ONURNZG1R?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 02:08:00 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -92292,9 +92285,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -92370,7 +92363,7 @@ window.MATCHES = [
       "home": 2.54,
       "away": 0.89
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -92722,7 +92715,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92815,14 +92808,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 58,
+      "bttsNo": 42,
       "homeWinBy2Plus": 26,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.87,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.82,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -93214,28 +93207,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         },
         {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -93449,17 +93442,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -93474,9 +93457,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -93552,7 +93535,7 @@ window.MATCHES = [
       "home": 2.02,
       "away": 1.44
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -93905,7 +93888,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93997,14 +93980,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
+      "over25": 41,
+      "under25": 59,
       "bttsYes": 54,
       "bttsNo": 46,
-      "homeWinBy2Plus": 18,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 10,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.51,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.48,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -94125,7 +94108,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -94356,9 +94339,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -94390,25 +94373,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.83 / 平 3.46 / 客 4.67。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -94634,22 +94608,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
-              "description": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -94724,7 +94688,7 @@ window.MATCHES = [
       "home": 1.85,
       "away": 1.39
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -94890,11 +94854,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -94903,20 +94867,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -95055,7 +95021,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 66,
         "away": 71
       },
       {
@@ -95065,7 +95031,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 52,
+        "home": 50,
         "away": 60
       },
       {
@@ -95076,7 +95042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -95168,17 +95134,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
+      "over25": 48,
+      "under25": 52,
       "bttsYes": 59,
       "bttsNo": 41,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.71,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.72,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -95218,11 +95184,11 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "均衡型",
@@ -95245,10 +95211,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 68,
+        "homeScore": 64,
         "awayScore": 70,
-        "contribution": -0.48,
-        "evidence": "瑞士 进攻75/防守76/中场52，综合68；阿尔及利亚 进攻71/防守80/中场60，综合70。"
+        "contribution": -1.44,
+        "evidence": "瑞士 进攻66/防守76/中场50，综合64；阿尔及利亚 进攻71/防守80/中场60，综合70。"
       },
       {
         "name": "近期状态",
@@ -95303,7 +95269,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 28,
-        "homeAverageMetric": 65.3,
+        "homeAverageMetric": 62.5,
         "awayAverageMetric": 73.3
       },
       "recentForm": {
@@ -95511,7 +95477,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 66,
         "homeDefense": 76,
         "awayAttack": 71,
         "awayDefense": 80
@@ -95567,28 +95533,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "'We should all be excited' - Messi set for first England meeting",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 08:58:41 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -95597,7 +95563,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -95621,8 +95587,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -95666,12 +95632,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -95706,12 +95672,12 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             },
@@ -95826,9 +95792,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -95895,15 +95861,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。阿尔及利亚属于均衡型，场均进球参考值 1.25，大胜倾向 0%。",
-      "瑞士 进攻指数 75，阿尔及利亚 防守指数 80；阿尔及利亚 进攻指数 71，瑞士 防守指数 76。",
+      "瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。阿尔及利亚属于均衡型，场均进球参考值 1.25，大胜倾向 0%。",
+      "瑞士 进攻指数 66，阿尔及利亚 防守指数 80；阿尔及利亚 进攻指数 71，瑞士 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.93,
       "away": 1.77
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -96243,7 +96209,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -96336,17 +96302,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.75,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.58,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -96464,7 +96430,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -96732,20 +96698,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
-        {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
-        },
-        {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
-        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -96757,9 +96711,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "pubDate": "Tue, 22 Mar 2022 16:57:35 GMT"
+        },
+        {
+          "title": "Sign up for the Recap newsletter: our free sport highlights email",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/2017/may/15/the-recap-sign-up-for-the-best-of-the-guardians-sport-coverage",
+          "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -96992,9 +96952,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97070,7 +97030,7 @@ window.MATCHES = [
       "home": 1.84,
       "away": 1.66
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -97236,11 +97196,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -97258,8 +97218,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -97400,7 +97360,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 72,
+        "home": 71,
         "away": 39
       },
       {
@@ -97411,7 +97371,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -97504,14 +97464,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 61,
-      "under25": 39,
-      "bttsYes": 50,
-      "bttsNo": 50,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 52,
+      "bttsNo": 48,
       "homeWinBy2Plus": 51,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.19,
+      "expectedTotalGoals": 3.28,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -97554,10 +97514,10 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       },
       "away": {
@@ -97584,7 +97544,7 @@ window.MATCHES = [
         "homeScore": 81,
         "awayScore": 66,
         "contribution": 3.6,
-        "evidence": "阿根廷 进攻88/防守84/中场72，综合81；佛得角 进攻86/防守72/中场39，综合66。"
+        "evidence": "阿根廷 进攻88/防守84/中场71，综合81；佛得角 进攻86/防守72/中场39，综合66。"
       },
       {
         "name": "近期状态",
@@ -97639,7 +97599,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 1,
         "awayRank": 67,
-        "homeAverageMetric": 85.5,
+        "homeAverageMetric": 85.3,
         "awayAverageMetric": 61.8
       },
       "recentForm": {
@@ -97903,28 +97863,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "BBC to show England's World Cup semi-final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "Argentina midfield great Rattin dies aged 89",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -97948,8 +97908,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -98001,20 +97961,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -98055,31 +98015,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-              "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT",
-              "description": "Close calls against Cape Verde and Egypt show Scaloni’s side are vulnerable, despite all the brilliance of Lionel Messi It is among the defining moments of this World Cup: Lionel Messi wandering the pitch in Atlanta with tears rolling down his face. Minutes earlier, Argentina had been down two goals to Egypt and on the brink of elimination in the last 16. Messi had missed a penalty and was set to bear blame for the result. Instead, the Argentina legend created the same magic he always seems to, spearheading a miraculous, three-goal swing in just over 10 minutes and pushing the Albiceleste into the quarter-finals . And now he was crying. And so were his teammates. And so was his head coach, Lionel Scaloni, who could not contain his emotion in a post-game interview. His own players, the coach says, have taken to calling him el llorón. The crybaby. “I can’t even look at you,” Scaloni told a touchline reporter, in tears. “I’m sorry. I’m obviously very emotional. What a group of players, brother. I’m sorry. That’s it, I have to go.” Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -98147,7 +98088,7 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。佛得角属于开放进攻型，场均进球参考值 0.75，大胜倾向 0%。",
+      "阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。佛得角属于开放进攻型，场均进球参考值 0.75，大胜倾向 0%。",
       "阿根廷 进攻指数 88，佛得角 防守指数 72；佛得角 进攻指数 86，阿根廷 防守指数 84。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
@@ -98155,7 +98096,7 @@ window.MATCHES = [
       "home": 2.93,
       "away": 0.93
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -98507,7 +98448,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -98599,14 +98540,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 38,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.42,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 36,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.2,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -99016,7 +98957,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -99255,9 +99196,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -99332,7 +99273,7 @@ window.MATCHES = [
       "home": 2.36,
       "away": 0.74
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -99684,7 +99625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -99777,15 +99718,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 58,
-      "bttsNo": 42,
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 30,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.9,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 32,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.04,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -99905,7 +99846,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -100173,25 +100114,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 2,
       "articles": [
         {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "South Africa World Cup midfielder Jayden Adams dies aged 25",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
-        },
-        {
-          "title": "‘Give me another medal!’: meet the hair stylist who has taken over the World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/give-me-another-medal-hair-stylist-world-cup-jayema-lamine-yamal-raphinha",
-          "pubDate": "Fri, 10 Jul 2026 07:00:15 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
+          "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
         },
         {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
@@ -100200,13 +100129,13 @@ window.MATCHES = [
           "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -100435,9 +100364,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -100512,7 +100441,7 @@ window.MATCHES = [
       "home": 1.3,
       "away": 2.56
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -100810,11 +100739,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -100854,7 +100783,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 67
+        "away": 68
       },
       {
         "label": "近期状态",
@@ -100864,7 +100793,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -100957,14 +100886,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 50,
-      "bttsNo": 50,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 51,
+      "bttsNo": 49,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 50,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.13,
+      "awayWinBy2Plus": 51,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.22,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -101037,7 +100966,7 @@ window.MATCHES = [
         "homeScore": 57,
         "awayScore": 78,
         "contribution": -5.04,
-        "evidence": "巴拉圭 进攻63/防守70/中场39，综合57；法国 进攻88/防守79/中场67，综合78。"
+        "evidence": "巴拉圭 进攻63/防守70/中场39，综合57；法国 进攻88/防守79/中场68，综合78。"
       },
       {
         "name": "近期状态",
@@ -101075,9 +101004,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -101093,7 +101022,7 @@ window.MATCHES = [
         "homeRank": 41,
         "awayRank": 3,
         "homeAverageMetric": 57.5,
-        "awayAverageMetric": 81
+        "awayAverageMetric": 81.3
       },
       "recentForm": {
         "home": {
@@ -101322,10 +101251,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "awayScore": 48,
+        "goalLift": -0.03,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -101356,28 +101285,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Jürgen Klopp reaches agreement to take over as Germany head coach",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/11/jurgen-klopp-reaches-agreement-germany-head-coach",
+          "pubDate": "Sat, 11 Jul 2026 14:07:28 GMT"
+        },
+        {
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -101386,7 +101315,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -101607,17 +101536,46 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -101692,7 +101650,7 @@ window.MATCHES = [
       "home": 0.95,
       "away": 3.02
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -101873,19 +101831,7 @@ window.MATCHES = [
         "avgAge": 28.6,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Alisson Becker",
-          "Gabriel Magalhães",
-          "Marquinhos",
-          "Douglas Santos",
-          "Danilo",
-          "Casemiro",
-          "Bruno Guimarães",
-          "Gabriel Martinelli",
-          "Rayan",
-          "Vinícius Júnior",
-          "Matheus Cunha"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -102003,10 +101949,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -102017,36 +101963,24 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "metrics": [
       {
         "label": "进攻",
         "home": 84,
-        "away": 77
+        "away": 80
       },
       {
         "label": "防守",
         "home": 72,
-        "away": 79
+        "away": 78
       },
       {
         "label": "中场",
         "home": 49,
-        "away": 63
+        "away": 61
       },
       {
         "label": "近期状态",
@@ -102056,7 +101990,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -102149,14 +102083,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 31,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.31,
+      "over25": 66,
+      "under25": 34,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 30,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.45,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -102206,10 +102140,10 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       }
@@ -102229,7 +102163,7 @@ window.MATCHES = [
         "homeScore": 68,
         "awayScore": 73,
         "contribution": -1.2,
-        "evidence": "巴西 进攻84/防守72/中场49，综合68；挪威 进攻77/防守79/中场63，综合73。"
+        "evidence": "巴西 进攻84/防守72/中场49，综合68；挪威 进攻80/防守78/中场61，综合73。"
       },
       {
         "name": "近期状态",
@@ -102269,7 +102203,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -102494,8 +102428,8 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 84,
         "homeDefense": 72,
-        "awayAttack": 77,
-        "awayDefense": 79
+        "awayAttack": 80,
+        "awayDefense": 78
       },
       "motivation": {
         "home": null,
@@ -102516,8 +102450,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -102548,28 +102482,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "Did ball hit spidercam before England goal? Snicko says not - Norway unsure",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cd95335dp10o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 02:20:21 GMT"
         },
         {
-          "title": "Haaland has advantage over Man City team-mates",
+          "title": "Bellingham scores extra-time winner as England reach semi-finals",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cy06rd1z816o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:10:53 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/videos/cjrgww8vr98o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 00:50:48 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -102585,17 +102519,14 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "last-start-projected",
-          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
-          "source": "previous-match-lineup",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Norway",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Alisson",
@@ -102604,6 +102535,22 @@ window.MATCHES = [
                   "age": 33,
                   "value": 11664000,
                   "rating": 6.81
+                },
+                {
+                  "name": "Bremer",
+                  "position": "DF",
+                  "club": "Juventus",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.05
+                },
+                {
+                  "name": "Wesley",
+                  "position": "DF",
+                  "club": "Roma",
+                  "age": 22,
+                  "value": 17010000,
+                  "rating": 6.91
                 },
                 {
                   "name": "Gabriel Magalhães",
@@ -102622,20 +102569,12 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "Douglas Santos",
-                  "position": "DF",
-                  "club": "Brazil",
-                  "age": 32,
-                  "value": 2185920,
-                  "rating": 6.82
-                },
-                {
-                  "name": "Danilo",
-                  "position": "DF",
-                  "club": "Flamengo",
-                  "age": 34,
-                  "value": 2232000,
-                  "rating": null
+                  "name": "Éderson",
+                  "position": "MF",
+                  "club": "Atalanta",
+                  "age": 26,
+                  "value": 14490000,
+                  "rating": 7.01
                 },
                 {
                   "name": "Casemiro",
@@ -102654,14 +102593,6 @@ window.MATCHES = [
                   "rating": 7.32
                 },
                 {
-                  "name": "Gabriel Martinelli",
-                  "position": "FW",
-                  "club": "Arsenal",
-                  "age": 24,
-                  "value": 19530000,
-                  "rating": 6.62
-                },
-                {
                   "name": "Rayan",
                   "position": "FW",
                   "club": "AFC Bournemouth",
@@ -102670,30 +102601,27 @@ window.MATCHES = [
                   "rating": 6.98
                 },
                 {
+                  "name": "Gabriel Martinelli",
+                  "position": "FW",
+                  "club": "Arsenal",
+                  "age": 24,
+                  "value": 19530000,
+                  "rating": 6.62
+                },
+                {
                   "name": "Vinicius Junior",
                   "position": "FW",
                   "club": "Real Madrid",
                   "age": 25,
                   "value": 17010000,
                   "rating": 7.33
-                },
-                {
-                  "name": "Matheus Cunha",
-                  "position": "FW",
-                  "club": "Manchester United",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 7.14
                 }
               ]
             },
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -102704,28 +102632,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -102736,20 +102648,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -102760,12 +102680,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -102776,27 +102696,25 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -102811,15 +102729,15 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
+          "verified": 2,
           "missing": 3,
-          "inferred": 1
+          "inferred": 2
         },
         "gaps": [
           "赔率",
@@ -102858,9 +102776,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "verified",
-            "source": "previous-match-lineup",
-            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
+            "status": "inferred",
+            "source": "squad-projection",
+            "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
             "key": "injuries",
@@ -102881,15 +102799,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "巴西属于开放进攻型，场均进球参考值 2，大胜倾向 40%。挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。",
-      "巴西 进攻指数 84，挪威 防守指数 79；挪威 进攻指数 77，巴西 防守指数 72。",
+      "巴西属于开放进攻型，场均进球参考值 2，大胜倾向 40%。挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。",
+      "巴西 进攻指数 84，挪威 防守指数 78；挪威 进攻指数 80，巴西 防守指数 72。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.73,
       "away": 1.41
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -103056,11 +102974,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -0.83
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 17.5,
-      "shotsOnTarget": 4,
-      "possession": 54.9,
-      "shotAccuracy": 23,
+      "shotSource": "ESPN WC2026 (1场)",
+      "shotsPerGame": 20,
+      "shotsOnTarget": 5,
+      "possession": 66.9,
+      "shotAccuracy": 25,
       "playerQuality": {
         "squadValue": 0.11,
         "avgRating": 7,
@@ -103071,19 +102989,7 @@ window.MATCHES = [
         "avgAge": 27.5,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Raúl Rangel",
-          "Johan Vásquez",
-          "César Montes",
-          "Jesús Gallardo",
-          "Jorge Sánchez",
-          "Érik Lira",
-          "Luis Romo",
-          "Gilberto Mora",
-          "Raúl Jiménez",
-          "Julián Quiñones",
-          "Roberto Alvarado"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -103200,11 +103106,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -103213,41 +103119,38 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
     "metrics": [
       {
         "label": "进攻",
-        "home": 82,
-        "away": 78
+        "home": 83,
+        "away": 85
       },
       {
         "label": "防守",
-        "home": 82,
+        "home": 85,
         "away": 80
       },
       {
         "label": "中场",
-        "home": 63,
-        "away": 56
+        "home": 69,
+        "away": 63
       },
       {
         "label": "近期状态",
@@ -103257,7 +103160,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -103350,14 +103253,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.25,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.29,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -103407,12 +103310,12 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
@@ -103427,10 +103330,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 76,
-        "awayScore": 71,
-        "contribution": 1.2,
-        "evidence": "墨西哥 进攻82/防守82/中场63，综合76；英格兰 进攻78/防守80/中场56，综合71。"
+        "homeScore": 79,
+        "awayScore": 76,
+        "contribution": 0.72,
+        "evidence": "墨西哥 进攻83/防守85/中场69，综合79；英格兰 进攻85/防守80/中场63，综合76。"
       },
       {
         "name": "近期状态",
@@ -103468,9 +103371,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 46,
+        "contribution": 0.24,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -103485,8 +103388,8 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 14,
         "awayRank": 4,
-        "homeAverageMetric": 79.3,
-        "awayAverageMetric": 76
+        "homeAverageMetric": 81.8,
+        "awayAverageMetric": 79.5
       },
       "recentForm": {
         "home": {
@@ -103693,9 +103596,9 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 82,
-        "homeDefense": 82,
-        "awayAttack": 78,
+        "homeAttack": 83,
+        "homeDefense": 85,
+        "awayAttack": 85,
         "awayDefense": 80
       },
       "motivation": {
@@ -103715,10 +103618,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "awayScore": 46,
+        "goalLift": -0.06,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -103749,28 +103652,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "All the goals from England's 2026 World Cup campaign so far",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cewqex0vl85o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:13:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -103779,7 +103682,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -103801,11 +103704,8 @@ window.MATCHES = [
           "teams": [
             {
               "team": "墨西哥",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "England",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Raúl Rangel",
@@ -103824,20 +103724,20 @@ window.MATCHES = [
                   "rating": 6.88
                 },
                 {
-                  "name": "César Montes",
+                  "name": "Mateo Chávez",
                   "position": "DF",
-                  "club": "Mexico",
-                  "age": 29,
-                  "value": 1230000,
-                  "rating": 7.03
+                  "club": "AZ",
+                  "age": 22,
+                  "value": 3937500,
+                  "rating": 6.74
                 },
                 {
-                  "name": "Jesús Gallardo",
+                  "name": "Israel Reyes",
                   "position": "DF",
-                  "club": "Toluca",
-                  "age": 31,
-                  "value": 1320000,
-                  "rating": 6.9
+                  "club": "América",
+                  "age": 26,
+                  "value": 3255000,
+                  "rating": 6.95
                 },
                 {
                   "name": "Jorge Sánchez",
@@ -103848,28 +103748,36 @@ window.MATCHES = [
                   "rating": 6.64
                 },
                 {
-                  "name": "Érik Lira",
+                  "name": "Obed Vargas",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 26,
-                  "value": 1575000,
-                  "rating": 6.79
+                  "club": "Atlético Madrid",
+                  "age": 20,
+                  "value": 16692480,
+                  "rating": 6.77
                 },
                 {
-                  "name": "Luis Romo",
+                  "name": "Álvaro Fidalgo",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 31,
-                  "value": 2728000,
+                  "club": "Real Betis",
+                  "age": 29,
+                  "value": 10488000,
                   "rating": 7.02
                 },
                 {
-                  "name": "Gilberto Mora",
+                  "name": "Edson Álvarez",
                   "position": "MF",
-                  "club": "Mexico",
-                  "age": 17,
-                  "value": 2576000,
-                  "rating": 7.02
+                  "club": "Fenerbahçe",
+                  "age": 28,
+                  "value": 4370000,
+                  "rating": 6.95
+                },
+                {
+                  "name": "Santiago Gimenez",
+                  "position": "FW",
+                  "club": "AC Milan",
+                  "age": 25,
+                  "value": 19530000,
+                  "rating": 6.59
                 },
                 {
                   "name": "Raúl Jiménez",
@@ -103880,20 +103788,12 @@ window.MATCHES = [
                   "rating": 6.9
                 },
                 {
-                  "name": "Julián Quiñones",
+                  "name": "Guillermo Martínez Ayala",
                   "position": "FW",
-                  "club": "Al-Qadsiah",
-                  "age": 29,
-                  "value": 2300000,
-                  "rating": 7.82
-                },
-                {
-                  "name": "Roberto Alvarado",
-                  "position": "FW",
-                  "club": "Mexico",
-                  "age": 27,
-                  "value": 1500000,
-                  "rating": 7.29
+                  "club": "Pumas UNAM",
+                  "age": 31,
+                  "value": 2728000,
+                  "rating": 6.86
                 }
               ]
             },
@@ -103901,8 +103801,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -103922,12 +103822,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -103938,12 +103838,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -103986,34 +103886,73 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -104080,15 +104019,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。",
-      "墨西哥 进攻指数 82，英格兰 防守指数 80；英格兰 进攻指数 78，墨西哥 防守指数 82。",
+      "墨西哥属于主动压迫型，场均进球参考值 2，大胜倾向 60%。英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。",
+      "墨西哥 进攻指数 83，英格兰 防守指数 80；英格兰 进攻指数 85，墨西哥 防守指数 85。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.9,
       "away": 2.12
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -104453,7 +104392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -104545,14 +104484,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.85,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.98,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -104944,28 +104883,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         },
         {
-          "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -105182,17 +105121,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -105204,22 +105133,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Jesus reunites with Ronaldo as new Portugal head coach",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/c3eyl9pvxj1o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 15:41:59 GMT",
-              "description": "Jorge Jesus is named Portugal's new head coach on a four-year contract to run through to the 2030 World Cup.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -105295,7 +105214,7 @@ window.MATCHES = [
       "home": 1.76,
       "away": 1.88
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -105619,10 +105538,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -105642,7 +105559,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 72,
-        "away": 73
+        "away": 83
       },
       {
         "label": "防守",
@@ -105652,7 +105569,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 59,
-        "away": 50
+        "away": 53
       },
       {
         "label": "近期状态",
@@ -105662,7 +105579,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -105755,14 +105672,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 69,
+      "bttsNo": 31,
       "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.26,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 3.36,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -105812,7 +105729,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -105833,9 +105750,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 68,
-        "awayScore": 67,
-        "contribution": 0.24,
-        "evidence": "美国 进攻72/防守74/中场59，综合68；比利时 进攻73/防守77/中场50，综合67。"
+        "awayScore": 71,
+        "contribution": -0.72,
+        "evidence": "美国 进攻72/防守74/中场59，综合68；比利时 进攻83/防守77/中场53，综合71。"
       },
       {
         "name": "近期状态",
@@ -105891,7 +105808,7 @@ window.MATCHES = [
         "homeRank": 17,
         "awayRank": 9,
         "homeAverageMetric": 69.8,
-        "awayAverageMetric": 68.5
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -106100,7 +106017,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 72,
         "homeDefense": 74,
-        "awayAttack": 73,
+        "awayAttack": 83,
         "awayDefense": 77
       },
       "motivation": {
@@ -106154,28 +106071,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
-        },
-        {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "World Cup 2026: Spain v Belgium reaction, Kane confirms playing golf with Trump, Norway v England buildup – live",
+          "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/jul/11/world-cup-2026-spain-v-belgium-reaction-norway-v-england-quarter-final-buildup-and-more-live",
-          "pubDate": "Sat, 11 Jul 2026 09:38:24 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
+          "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-          "pubDate": "Sat, 11 Jul 2026 07:00:43 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
+        },
+        {
+          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+        },
+        {
+          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
+          "source": "ESPN",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -106184,7 +106101,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -106436,9 +106353,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -106505,15 +106422,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。",
-      "美国 进攻指数 72，比利时 防守指数 77；比利时 进攻指数 73，美国 防守指数 74。",
+      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
+      "美国 进攻指数 72，比利时 防守指数 77；比利时 进攻指数 83，美国 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.66,
       "away": 2.09
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -106679,11 +106596,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -106701,8 +106618,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -106854,7 +106771,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 72,
+        "home": 71,
         "away": 54
       },
       {
@@ -106865,7 +106782,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -106958,14 +106875,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 66,
-      "under25": 34,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 47,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 14,
-      "expectedTotalGoals": 3.46,
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -107008,10 +106925,10 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       },
       "away": {
@@ -107038,7 +106955,7 @@ window.MATCHES = [
         "homeScore": 81,
         "awayScore": 68,
         "contribution": 3.12,
-        "evidence": "阿根廷 进攻88/防守84/中场72，综合81；埃及 进攻71/防守78/中场54，综合68。"
+        "evidence": "阿根廷 进攻88/防守84/中场71，综合81；埃及 进攻71/防守78/中场54，综合68。"
       },
       {
         "name": "近期状态",
@@ -107093,7 +107010,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 1,
         "awayRank": 29,
-        "homeAverageMetric": 85.5,
+        "homeAverageMetric": 85.3,
         "awayAverageMetric": 65.3
       },
       "recentForm": {
@@ -107357,28 +107274,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "BBC to show England's World Cup semi-final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Cape Verde threaten shock for the ages before Argentina break hearts in World Cup classic",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/argentina-cape-verde-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 01:06:10 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "Argentina midfield great Rattin dies aged 89",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwy09z3qlppo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 22:24:27 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -107387,7 +107304,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -107411,8 +107328,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -107464,20 +107381,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -107613,31 +107530,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-              "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT",
-              "description": "Close calls against Cape Verde and Egypt show Scaloni’s side are vulnerable, despite all the brilliance of Lionel Messi It is among the defining moments of this World Cup: Lionel Messi wandering the pitch in Atlanta with tears rolling down his face. Minutes earlier, Argentina had been down two goals to Egypt and on the brink of elimination in the last 16. Messi had missed a penalty and was set to bear blame for the result. Instead, the Argentina legend created the same magic he always seems to, spearheading a miraculous, three-goal swing in just over 10 minutes and pushing the Albiceleste into the quarter-finals . And now he was crying. And so were his teammates. And so was his head coach, Lionel Scaloni, who could not contain his emotion in a post-game interview. His own players, the coach says, have taken to calling him el llorón. The crybaby. “I can’t even look at you,” Scaloni told a touchline reporter, in tears. “I’m sorry. I’m obviously very emotional. What a group of players, brother. I’m sorry. That’s it, I have to go.” Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -107704,7 +107602,7 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
+      "阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
       "阿根廷 进攻指数 88，埃及 防守指数 78；埃及 进攻指数 71，阿根廷 防守指数 84。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
@@ -107712,7 +107610,7 @@ window.MATCHES = [
       "home": 2.75,
       "away": 1.19
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -107878,11 +107776,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -107891,20 +107789,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -108055,7 +107955,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 66,
         "away": 85
       },
       {
@@ -108065,7 +107965,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 52,
+        "home": 50,
         "away": 58
       },
       {
@@ -108076,7 +107976,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -108168,15 +108068,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 67,
-      "bttsNo": 33,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.16,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.01,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -108218,11 +108118,11 @@ window.MATCHES = [
     "tacticalProfile": {
       "home": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       },
       "away": {
         "tempo": "开放进攻型",
@@ -108245,10 +108145,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 68,
+        "homeScore": 64,
         "awayScore": 73,
-        "contribution": -1.2,
-        "evidence": "瑞士 进攻75/防守76/中场52，综合68；哥伦比亚 进攻85/防守76/中场58，综合73。"
+        "contribution": -2.16,
+        "evidence": "瑞士 进攻66/防守76/中场50，综合64；哥伦比亚 进攻85/防守76/中场58，综合73。"
       },
       {
         "name": "近期状态",
@@ -108303,7 +108203,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 13,
-        "homeAverageMetric": 65.3,
+        "homeAverageMetric": 62.5,
         "awayAverageMetric": 75.3
       },
       "recentForm": {
@@ -108511,7 +108411,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 66,
         "homeDefense": 76,
         "awayAttack": 85,
         "awayDefense": 76
@@ -108567,28 +108467,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "'We should all be excited' - Messi set for first England meeting",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-          "source": "Yahoo Sports",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT"
+          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 08:58:41 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108597,7 +108497,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -108621,8 +108521,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -108666,12 +108566,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -108706,12 +108606,12 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             },
@@ -108849,9 +108749,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -108918,15 +108818,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。哥伦比亚属于开放进攻型，场均进球参考值 1，大胜倾向 20%。",
-      "瑞士 进攻指数 75，哥伦比亚 防守指数 76；哥伦比亚 进攻指数 85，瑞士 防守指数 76。",
+      "瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。哥伦比亚属于开放进攻型，场均进球参考值 1，大胜倾向 20%。",
+      "瑞士 进攻指数 66，哥伦比亚 防守指数 76；哥伦比亚 进攻指数 85，瑞士 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.81,
       "away": 2.06
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -109092,11 +108992,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (3场)",
-      "shotsPerGame": 20.7,
-      "shotsOnTarget": 8.3,
-      "possession": 61.6,
-      "shotAccuracy": 40,
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
       "playerQuality": {
         "squadValue": 0.32,
         "avgRating": 7.08,
@@ -109279,7 +109179,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 67,
+        "home": 68,
         "away": 63
       },
       {
@@ -109290,7 +109190,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -109383,14 +109283,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 68,
-      "under25": 32,
-      "bttsYes": 70,
-      "bttsNo": 30,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.54,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.24,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -109463,7 +109363,7 @@ window.MATCHES = [
         "homeScore": 78,
         "awayScore": 70,
         "contribution": 1.92,
-        "evidence": "法国 进攻88/防守79/中场67，综合78；摩洛哥 进攻67/防守81/中场63，综合70。"
+        "evidence": "法国 进攻88/防守79/中场68，综合78；摩洛哥 进攻67/防守81/中场63，综合70。"
       },
       {
         "name": "近期状态",
@@ -109500,10 +109400,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 46,
         "awayScore": 48,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -109518,7 +109418,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 3,
         "awayRank": 7,
-        "homeAverageMetric": 81,
+        "homeAverageMetric": 81.3,
         "awayAverageMetric": 71.3
       },
       "recentForm": {
@@ -109747,11 +109647,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 46,
         "awayScore": 48,
-        "goalLift": -0.06,
+        "goalLift": -0.09,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -109782,28 +109682,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
-        },
-        {
-          "title": "France into semi-finals after comfortable win over Morocco",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/crm0ry2nemmo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Thu, 09 Jul 2026 22:49:40 GMT"
-        },
-        {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
-        },
-        {
-          "title": "Kylian Mbappé embraces leadership role for France to urge team humility",
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/kylian-mbappe-france-world-cup-2026-semi-final",
-          "pubDate": "Fri, 10 Jul 2026 18:02:50 GMT"
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+        },
+        {
+          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -110036,18 +109936,46 @@ window.MATCHES = [
               "description": "There is a relentlessness to this France that might make them irresistible. Morocco no doubt had the best of intentions, ideas of how they could hurt the side that had beaten them in the semi-final in Qatar, but France press so well that they soon accepted they had no option but to retreat and endure. France have such attacking quality that simply surviving isn’t really a viable option. Kylian Mbappé, once again, was the key figure, missing a penalty, scoring a stunning opener and then teeing up Ousmane Dembélé for the second. He went off with 13 minutes remaining to a deserved ovation: the game had seemed to be drifting, and there had just been a sense that Morocco might conceivably pull off an implausible rearguard action, when he produced a goal from nowhere. Continue reading...",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -110123,7 +110051,7 @@ window.MATCHES = [
       "home": 2.3,
       "away": 1.65
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -110446,10 +110374,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": -10,
-        "injuredPlayers": [
-          "Thibaut Courtois"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Thibaut Courtois",
           "Brandon Mechele",
@@ -110469,7 +110395,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 89,
-        "away": 73
+        "away": 83
       },
       {
         "label": "防守",
@@ -110479,7 +110405,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 69,
-        "away": 50
+        "away": 53
       },
       {
         "label": "近期状态",
@@ -110489,7 +110415,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -110581,14 +110507,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 64,
-      "under25": 36,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 23,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.35,
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 69,
+      "bttsNo": 31,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 3.32,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -110638,7 +110564,7 @@ window.MATCHES = [
         "failedToScoreRate": 17
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "主动压迫型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -110659,9 +110585,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 80,
-        "awayScore": 67,
-        "contribution": 3.12,
-        "evidence": "西班牙 进攻89/防守83/中场69，综合80；比利时 进攻73/防守77/中场50，综合67。"
+        "awayScore": 71,
+        "contribution": 2.16,
+        "evidence": "西班牙 进攻89/防守83/中场69，综合80；比利时 进攻83/防守77/中场53，综合71。"
       },
       {
         "name": "近期状态",
@@ -110698,10 +110624,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "contribution": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 4 条。"
       },
       {
         "name": "赔率市场",
@@ -110717,7 +110643,7 @@ window.MATCHES = [
         "homeRank": 2,
         "awayRank": 9,
         "homeAverageMetric": 78.8,
-        "awayAverageMetric": 68.5
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -110926,7 +110852,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 89,
         "homeDefense": 83,
-        "awayAttack": 73,
+        "awayAttack": 83,
         "awayDefense": 77
       },
       "motivation": {
@@ -110945,11 +110871,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": -0.03,
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.14,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 4 条。"
       }
     },
     "marketSignals": {
@@ -110980,28 +110906,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT"
+          "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
+          "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Lammens' error spells end for Belgium's golden generation",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c4gy107g38eo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 23:14:51 GMT"
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain into semi-finals at expense of Belgium after Merino's late winner",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/videos/cd0m9e88g0vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 22:01:20 GMT"
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         },
         {
-          "title": "Football Daily",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sounds/play/p0ns8g7t?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT"
+          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -111218,17 +111144,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Merino the unlikely hero again - as Spain wait for Lamine Yamal show",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cvg50pvejzdo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Fri, 10 Jul 2026 23:29:52 GMT",
-              "description": "Mikel Merino came off the bench to send Spain into the World Cup semi-finals - but Lamine Yamal is still waiting for his moment to truly shine.",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -111242,6 +111158,33 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
               "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT",
               "description": "Milan forward was subbed out in a 4-1 loss Pulisic had been criticized for his lack of availability Christian Pulisic suffered a microfracture and bone bruise in his leg in the United States’ 4-1 loss to Belgium in the World Cup last 16 on Monday, US Soccer announced. Pulisic suffered the injury in the second half in Seattle and was removed shortly afterward. He underwent X-ray and MRI scans on Tuesday to determine the extent of the injury, which is expected to keep Pulisic out for several weeks. US Soccer said the federation and Milan are working collaboratively on his rehab plan. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+              "source": "The Guardian",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+              "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT",
+              "description": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury &nbsp;&nbsp; The Guardian",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
+              "source": "AP News",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT",
+              "description": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain &nbsp;&nbsp; AP News",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
+              "source": "ESPN",
+              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
+              "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT",
+              "description": "Belgium's Courtois exits with injury before Spain winner &nbsp;&nbsp; ESPN",
               "bodyText": "",
               "bodyError": ""
             }
@@ -111263,9 +111206,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -111333,15 +111276,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "西班牙属于主动压迫型，场均进球参考值 1.83，大胜倾向 33%。比利时属于均衡型，场均进球参考值 2.17，大胜倾向 33%。",
-      "西班牙 进攻指数 89，比利时 防守指数 77；比利时 进攻指数 73，西班牙 防守指数 83。",
+      "西班牙属于主动压迫型，场均进球参考值 1.83，大胜倾向 33%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
+      "西班牙 进攻指数 89，比利时 防守指数 77；比利时 进攻指数 83，西班牙 防守指数 83。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2,
       "away": 1.92
     },
-    "analysisUpdated": "2026-07-11",
+    "analysisUpdated": "2026-07-12",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -111391,8 +111334,8 @@ window.MATCHES = [
     "group": "Quarter-final",
     "round": "Quarter-final",
     "venue": "Miami (Miami Gardens)",
-    "status": "scheduled",
-    "actualScore": "",
+    "status": "completed",
+    "actualScore": "1-1",
     "externalSourceId": "2026-07-11-Norway-England",
     "home": {
       "name": "挪威",
@@ -111509,10 +111452,10 @@ window.MATCHES = [
         "trendDelta": -2.17
       },
       "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
+      "shotsPerGame": 11,
       "shotsOnTarget": 4.5,
-      "possession": 59.7,
-      "shotAccuracy": 50,
+      "possession": 57,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.26,
         "avgRating": 6.87,
@@ -111523,19 +111466,7 @@ window.MATCHES = [
         "avgAge": 25.7,
         "injuryPenalty": 0,
         "injuredPlayers": [],
-        "lastStarters": [
-          "Ørjan Nyland",
-          "Torbjørn Heggem",
-          "Kristoffer Ajer",
-          "David Møller Wolfe",
-          "Julian Ryerson",
-          "Sander Berge",
-          "Patrick Berg",
-          "Martin Ødegaard",
-          "Erling Haaland",
-          "Antonio Nusa",
-          "Alexander Sørloth"
-        ]
+        "lastStarters": null
       }
     },
     "away": {
@@ -111652,11 +111583,11 @@ window.MATCHES = [
         "trend": "下滑",
         "trendDelta": -2.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 11,
-      "shotsOnTarget": 6,
-      "possession": 46.4,
-      "shotAccuracy": 55,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 12,
+      "shotsOnTarget": 6.7,
+      "possession": 48.4,
+      "shotAccuracy": 56,
       "playerQuality": {
         "squadValue": 0.52,
         "avgRating": 6.97,
@@ -111665,41 +111596,38 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Declan Rice",
-          "Jude Bellingham"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": [
           "Jordan Pickford",
           "Marc Guéhi",
-          "Ezri Konsa",
+          "John Stones",
           "Nico O'Reilly",
-          "Jarell Quansah",
+          "Ezri Konsa",
           "Jude Bellingham",
           "Elliot Anderson",
           "Declan Rice",
           "Harry Kane",
           "Anthony Gordon",
-          "Bukayo Saka"
+          "Noni Madueke"
         ]
       }
     },
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
-        "away": 78
+        "home": 80,
+        "away": 85
       },
       {
         "label": "防守",
-        "home": 79,
+        "home": 78,
         "away": 80
       },
       {
         "label": "中场",
-        "home": 63,
-        "away": 56
+        "home": 61,
+        "away": 63
       },
       {
         "label": "近期状态",
@@ -111709,7 +111637,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -111723,8 +111651,8 @@ window.MATCHES = [
       54
     ],
     "confidence": 76,
-    "tag": "稳健",
-    "summary": "外部赛程数据已更新。本场模型倾向 英格兰 方向，最可能比分为 1-2。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
+    "tag": "赛前锁定",
+    "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-2",
@@ -111746,7 +111674,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "客队小胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "1-2",
           "0-2",
@@ -111783,15 +111711,6 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队优势胜",
-        "chance": 41,
-        "examples": [
-          "1-3",
-          "0-2",
-          "0-3"
-        ]
-      },
-      {
         "label": "客队不败低比分",
         "chance": 40,
         "examples": [
@@ -111799,17 +111718,26 @@ window.MATCHES = [
           "1-2",
           "0-2"
         ]
+      },
+      {
+        "label": "客队优势胜",
+        "chance": 41,
+        "examples": [
+          "1-3",
+          "0-2",
+          "0-3"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 69,
-      "under25": 31,
-      "bttsYes": 68,
-      "bttsNo": 32,
+      "over25": 64,
+      "under25": 36,
+      "bttsYes": 64,
+      "bttsNo": 36,
       "homeWinBy2Plus": 9,
-      "awayWinBy2Plus": 35,
-      "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.65,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.33,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -111818,8 +111746,8 @@ window.MATCHES = [
       "status": "connected",
       "modelOnly": [
         19,
-        23,
-        58
+        24,
+        57
       ],
       "market": [
         24,
@@ -111836,35 +111764,35 @@ window.MATCHES = [
       "drawGuardReason": null,
       "deltas": [
         5,
-        3,
-        -8
+        2,
+        -7
       ],
-      "summary": "模型原始概率 19/23/58%；市场隐含概率 24/26/50%；按 50% 权重校准后为 21/25/54%。"
+      "summary": "模型原始概率 19/24/57%；市场隐含概率 24/26/50%；按 50% 权重校准后为 21/25/54%。"
     },
     "motivation": {
       "phase": "knockout",
-      "label": "淘汰赛必须分胜负",
-      "intensity": 1,
+      "label": "赛后复盘",
+      "intensity": 0,
       "drawValue": 0,
-      "goalNeed": 1,
-      "note": "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。"
+      "goalNeed": 0,
+      "note": "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 1.8,
-        "bigWinRate": 20,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 1.67,
+        "bigWinRate": 17,
         "cleanSheetRate": 0,
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 2.2,
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2,
         "avgGoalsAgainst": 1,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
@@ -111880,9 +111808,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 73,
-        "awayScore": 71,
-        "contribution": 0.48,
-        "evidence": "挪威 进攻77/防守79/中场63，综合73；英格兰 进攻78/防守80/中场56，综合71。"
+        "awayScore": 76,
+        "contribution": -0.72,
+        "evidence": "挪威 进攻80/防守78/中场61，综合73；英格兰 进攻85/防守80/中场63，综合76。"
       },
       {
         "name": "近期状态",
@@ -111906,7 +111834,7 @@ window.MATCHES = [
         "homeScore": 13,
         "awayScore": 13,
         "contribution": 0,
-        "evidence": "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。"
+        "evidence": "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
       },
       {
         "name": "天气/场地",
@@ -111919,10 +111847,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
-        "awayScore": 45,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。"
+        "homeScore": 48,
+        "awayScore": 46,
+        "contribution": 0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -111930,7 +111858,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主24% / 平26% / 客50%，倾向英格兰。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111938,7 +111866,7 @@ window.MATCHES = [
         "homeRank": 31,
         "awayRank": 4,
         "homeAverageMetric": 73.3,
-        "awayAverageMetric": 76
+        "awayAverageMetric": 79.5
       },
       "recentForm": {
         "home": {
@@ -112145,32 +112073,32 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
-        "homeDefense": 79,
-        "awayAttack": 78,
+        "homeAttack": 80,
+        "homeDefense": 78,
+        "awayAttack": 85,
         "awayDefense": 80
       },
       "motivation": {
         "home": null,
         "away": null,
         "overall": {
-          "intensity": 1,
+          "intensity": 0,
           "drawValue": 0,
-          "goalNeed": 1
+          "goalNeed": 0
         }
       },
       "externalSignals": {
-        "marketStatus": "connected",
+        "marketStatus": "no-match",
         "expertStatus": "connected",
-        "marketWeight": 0.5,
+        "marketWeight": 0,
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
-        "awayScore": 45,
-        "goalLift": -0.14,
+        "homeScore": 48,
+        "awayScore": 46,
+        "goalLift": 0.05,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -112180,11 +112108,11 @@ window.MATCHES = [
       "eventId": "e66e4478b739fa0657a7a11235e1fcee",
       "commenceTime": "2026-07-11T21:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 49,
+      "bookmakers": 47,
       "averageOdds": {
-        "home": 3.88,
-        "draw": 3.7,
-        "away": 1.93
+        "home": 4.04,
+        "draw": 3.66,
+        "away": 1.89
       },
       "impliedProbabilities": [
         24,
@@ -112192,7 +112120,7 @@ window.MATCHES = [
         50
       ],
       "marketFavorite": "英格兰",
-      "note": "已接入赔率市场，49 家公司均值：主 3.88 / 平 3.7 / 客 1.93。市场倾向 英格兰。"
+      "note": "已接入赔率市场，47 家公司均值：主 4.04 / 平 3.66 / 客 1.89。市场倾向 英格兰。"
     },
     "expertSignals": {
       "status": "connected",
@@ -112201,28 +112129,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Is it time to give record-breaker Pickford the credit he deserves?",
+          "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cj9gknxm91vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:55:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT"
         },
         {
-          "title": "England set for open-air Miami heat - but do Norway hold the edge?",
+          "title": "Bellingham reaching heights of World Cup legends with Messi next",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jzl3zxpzo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 05:08:35 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy5v6544ypxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:19 GMT"
         },
         {
-          "title": "Hey Jude: Bellingham's return to England indispensability",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ckg47l8nl7jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 07:54:32 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "The Man Utd youngsters to look out for in Finland and Norway",
+          "title": "'He has dragged them through all tournament' - England player ratings",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c74yej43w97o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 11 Jul 2026 08:25:58 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0qpjeeryo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:51:39 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -112244,11 +112172,8 @@ window.MATCHES = [
           "teams": [
             {
               "team": "挪威",
-              "formation": "上一场阵型",
-              "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-05T20:00Z",
-              "previousOpponent": "Brazil",
-              "removedByInjury": 0,
+              "formation": "4-3-3",
+              "source": "squad-projection",
               "starters": [
                 {
                   "name": "Ørjan Nyland",
@@ -112259,28 +112184,12 @@ window.MATCHES = [
                   "rating": 6.45
                 },
                 {
-                  "name": "Torbjørn Heggem",
+                  "name": "Leo Østigård",
                   "position": "DF",
-                  "club": "Bologna",
-                  "age": 27,
-                  "value": 11400000,
-                  "rating": 6.69
-                },
-                {
-                  "name": "Kristoffer Ajer",
-                  "position": "DF",
-                  "club": "Brentford",
-                  "age": 28,
-                  "value": 13800000,
-                  "rating": 6.61
-                },
-                {
-                  "name": "David Møller Wolfe",
-                  "position": "DF",
-                  "club": "Wolverhampton Wanderers",
-                  "age": 24,
-                  "value": 9450000,
-                  "rating": 6.54
+                  "club": "Genoa",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.17
                 },
                 {
                   "name": "Julian Ryerson",
@@ -112291,20 +112200,28 @@ window.MATCHES = [
                   "rating": 7.01
                 },
                 {
+                  "name": "Kristoffer Ajer",
+                  "position": "DF",
+                  "club": "Brentford",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 6.61
+                },
+                {
+                  "name": "Torbjørn Heggem",
+                  "position": "DF",
+                  "club": "Bologna",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.69
+                },
+                {
                   "name": "Sander Berge",
                   "position": "MF",
                   "club": "Fulham",
                   "age": 28,
                   "value": 18600000,
                   "rating": 6.82
-                },
-                {
-                  "name": "Patrick Berg",
-                  "position": "MF",
-                  "club": "Bodø / Glimt",
-                  "age": 28,
-                  "value": 2484000,
-                  "rating": 7.17
                 },
                 {
                   "name": "Martin Ødegaard",
@@ -112315,12 +112232,12 @@ window.MATCHES = [
                   "rating": 6.95
                 },
                 {
-                  "name": "Erling Haaland",
-                  "position": "FW",
-                  "club": "Manchester City",
-                  "age": 25,
-                  "value": 14490000,
-                  "rating": 7.34
+                  "name": "Kristian Thorstvedt",
+                  "position": "MF",
+                  "club": "Sassuolo",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.94
                 },
                 {
                   "name": "Antonio Nusa",
@@ -112331,12 +112248,20 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Alexander Sørloth",
+                  "name": "Jørgen Strand Larsen",
                   "position": "FW",
-                  "club": "Atlético Madrid",
-                  "age": 30,
-                  "value": 7920000,
-                  "rating": 6.74
+                  "club": "Crystal Palace",
+                  "age": 26,
+                  "value": 19530000,
+                  "rating": 6.51
+                },
+                {
+                  "name": "Oscar Bobb",
+                  "position": "FW",
+                  "club": "Fulham",
+                  "age": 22,
+                  "value": 17967600,
+                  "rating": 6.68
                 }
               ]
             },
@@ -112344,8 +112269,8 @@ window.MATCHES = [
               "team": "英格兰",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-06T01:00Z",
-              "previousOpponent": "Mexico",
+              "previousFixtureDate": "2026-07-11T21:00Z",
+              "previousOpponent": "Norway",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -112365,12 +112290,12 @@ window.MATCHES = [
                   "rating": 7.04
                 },
                 {
-                  "name": "Ezri Konsa",
+                  "name": "John Stones",
                   "position": "DF",
-                  "club": "Aston Villa",
-                  "age": 28,
-                  "value": 9000000,
-                  "rating": 6.82
+                  "club": "Manchester City",
+                  "age": 32,
+                  "value": 2236960,
+                  "rating": null
                 },
                 {
                   "name": "Nico O'Reilly",
@@ -112381,12 +112306,12 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Jarell Quansah",
+                  "name": "Ezri Konsa",
                   "position": "DF",
-                  "club": "Bayer 04 Leverkusen",
-                  "age": 23,
-                  "value": 17010000,
-                  "rating": 6.91
+                  "club": "Aston Villa",
+                  "age": 28,
+                  "value": 9000000,
+                  "rating": 6.82
                 },
                 {
                   "name": "Jude Bellingham",
@@ -112429,42 +112354,24 @@ window.MATCHES = [
                   "rating": 6.92
                 },
                 {
-                  "name": "Bukayo Saka",
+                  "name": "Noni Madueke",
                   "position": "FW",
                   "club": "Arsenal",
                   "age": 24,
-                  "value": 14490000,
-                  "rating": 7.22
+                  "value": 19530000,
+                  "rating": 6.77
                 }
               ]
             }
           ],
           "articles": [
             {
-              "title": "England predicted lineup and team news vs Norway - Yahoo Sports",
-              "source": "Yahoo Sports",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY2pNYzBIMHJLRERHTldXWjJ0X21VWU9SWF9wWHJqYVI4cER4dlJ1RnlGcHg4Y0RaSXpITU1BMGtFZEo1aERmZzQtcHlNdXFKVi1PdGF1My1zWjBPaFlxMS02WTczOU02bF83STU2OXRYdDcwRjF3cEFURTVIM1BjRDJSdlNsQlRwZXhv?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 06:50:00 GMT",
-              "description": "England predicted lineup and team news vs Norway &nbsp;&nbsp; Yahoo Sports",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Norway at the World Cup 2026: Squad, fixtures, group and history - UEFA.com",
-              "source": "UEFA.com",
-              "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQV80N2k1LXpJX1daOV9Ld2hXclM3OV95RXZIbXJLNXpLanJKV3N1RTBHSVpnNldSYVRJNFRWNHlIektHWWdXM3owTGRMVUtrdm1YOUQ3cHVuUmpIWmNpczhKMkdlNnhHQkZ0ak5UMUxPYUhSdTl0YWk3VDJjY1ktSlI0M0JzRW85a1hCN0F0Smh4SXhlWEc3Yzk1b1ZrbnVpWlF1OUo3bFRlN1R4QjZHNjZrcDB4VjRWenVQZGNoVlM2OHRPT2dSdWlSZHlRbjZGblo2ak5yRQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 08:36:50 GMT",
-              "description": "Norway at the World Cup 2026: Squad, fixtures, group and history &nbsp;&nbsp; UEFA.com",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "England injury updates: World Cup squad gets boost ahead of Norway match - USA Today",
-              "source": "USA Today",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDN6VjdlR0RCX1FrcDdKdTRET09uRWtLMnpQUm5IdDJVdVdiY2FKTFlnNno1enRQcDltbFNkM1lYQmt3TWYxYmlNMUR4ajNyY1hLd0E0V3FtSTlQeklTdm9hdlNWU2U2VWZmdDlwXzlzbkhaMEMxVkJ6clNsQk15dW9pT3JiT1M1OGpHLTM0SmpQUU9mQ0pMZ2tZQXdYWUhHRVJrRUI5ZnNuaWp5VjhGeko3SWpmTTdYanUyY1ZZU21ONURNZG1R?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:08:00 GMT",
-              "description": "England injury updates: World Cup squad gets boost ahead of Norway match &nbsp;&nbsp; USA Today",
-              "bodyText": "",
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
               "bodyError": ""
             }
           ]
@@ -112476,29 +112383,20 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "England get fitness boost ahead of World Cup quarter-final v Norway - Reuters",
-              "source": "Reuters",
-              "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORFFEazZWUmFnblNjaEk3SlZWcXF2bWxGZDJtZXdBNHJLa3lQamRSSWNNTURjeENwTXpCa0ZCVS13TnhZSHUwUVBLeFdSM3lNcDNsMzVvcXNEM2ZDZ2xDMll2cXg4WnZPZEdRZzlsUHNwTkszd1NEWUh5OWw1bWo5b0YyMU1SZXdVQ1p6eV8yTy1pLVNZVDMxOXdXRzFnN0xqcUY4ZmFYNFBtT1djQVRfRVBvQno?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 00:42:00 GMT",
-              "description": "England get fitness boost ahead of World Cup quarter-final v Norway &nbsp;&nbsp; Reuters",
-              "bodyText": "",
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
               "bodyError": ""
             },
             {
-              "title": "England vs Norway thunder threat, triple injury update, Kane vs Trump – World Cup round-up - The Mirror",
-              "source": "The Mirror",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdlBRRTVQaFRlRERoQXVqaXg2V0d5QWc2am9EVkYtdlF5TjkyeDdzU19EUjZqT3BkVnBxUmlHMHJnMnVBMnEyZzFhWG1ReHdsbG40Q2liMThmdTV3aDdTT2ZUTjdBUnlPLXhtckVvZlllQ2t3czBqa21WR1ppNkk1RmlvQWZkMEFodE9z?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 05:44:47 GMT",
-              "description": "England vs Norway thunder threat, triple injury update, Kane vs Trump – World Cup round-up &nbsp;&nbsp; The Mirror",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "England injury updates: World Cup squad gets boost ahead of Norway match - USA Today",
-              "source": "USA Today",
-              "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbDN6VjdlR0RCX1FrcDdKdTRET09uRWtLMnpQUm5IdDJVdVdiY2FKTFlnNno1enRQcDltbFNkM1lYQmt3TWYxYmlNMUR4ajNyY1hLd0E0V3FtSTlQeklTdm9hdlNWU2U2VWZmdDlwXzlzbkhaMEMxVkJ6clNsQk15dW9pT3JiT1M1OGpHLTM0SmpQUU9mQ0pMZ2tZQXdYWUhHRVJrRUI5ZnNuaWp5VjhGeko3SWpmTTdYanUyY1ZZU21ONURNZG1R?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:08:00 GMT",
-              "description": "England injury updates: World Cup squad gets boost ahead of Norway match &nbsp;&nbsp; USA Today",
+              "title": "England 'got lucky' with disallowed goal",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/videos/c5yznny63pko?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:45:01 GMT",
+              "description": "BBC Sport World Cup pundits Wayne Rooney and Ellen White believe England \"got lucky\" after Torbjorn Heggem's second-half goal was ruled out for a foul on Elliott Anderson by Erling Haaland.",
               "bodyText": "",
               "bodyError": ""
             }
@@ -112509,65 +112407,57 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Football Daily",
+              "title": "Tuchel angry at 'lucky' England - but Bellingham defends players",
               "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sounds/play/p0ny6vsk?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Sat, 11 Jul 2026 09:07:00 GMT",
-              "description": "England manager Thomas Tuchel & captain Harry Kane speak to John Murray ahead of Norway.",
+              "link": "https://www.bbc.co.uk/sport/football/articles/ckg474ekv58o?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 03:08:42 GMT",
+              "description": "England head coach Thomas Tuchel is praised by former England players for saying his players \"got lucky\" in World Cup quarter-final win over Norway - but match-winner Jude Bellingham disagrees.",
               "bodyText": "",
               "bodyError": ""
             },
             {
-              "title": "Cutting off Erling Haaland is key but Norway are not just a one-man team | Emma Hayes",
+              "title": "Pick your England XI for World Cup semi-final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
+              "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyError": ""
+            },
+            {
+              "title": "Jude Bellingham unimpressed after Tuchel criticises ‘lucky’ England’s performance",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/jul/10/erling-haaland-england-norway-2026-world-cup-quarter-final-emma-hayes",
-              "pubDate": "Fri, 10 Jul 2026 17:59:57 GMT",
-              "description": "England need to be wary of a united Ståle Solbakken side who know their strengths before the World Cup quarter-final England fans are going to have to be really patient on Saturday night because this World Cup quarter-final against Norway will feel like a grind and I would not be surprised if the match goes the full distance and we see 120 close-fought minutes. Let me be clear: this will not be an easy game and do not expect it to be played at a fast pace. With a weapon like Erling Haaland, Norway are a dangerous team to face. The crucial thing England have to do, tactically, is try to starve Haaland of service, because if that ball arrives in his proximity and he is given half a chance, you know it is going into the back of the net. He doesn’t need many chances because he’s so clinical. England have to work so hard to deny him service. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Tuchel fears more Haaland heroics as England seek identity against Norway",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/jul/11/thomas-tuchel-erling-haaland-england-norway-2026-world-cup-quarter-final",
-              "pubDate": "Sat, 11 Jul 2026 00:00:34 GMT",
-              "description": "Head coach says ‘you can’t avoid focusing’ on the forward, who has form against Tuchel’s sides, before the World Cup quarter-final The way that Thomas Tuchel remembers it, he was the only choice for the award. He had led Chelsea to Champions League glory in 2020-21 so when the German publication Sport Bild named its coach of the season, it had to give it to him. “Yeah, there was no way out,” the England head coach says, with a smile. “Because if Jürgen Klopp won at the same time the Charity Shield they give it to him …” The line is delivered in trademark style: deadpan, apart from the twinkle in his eye and it is especially funny to imagine Klopp’s reaction when he reads it. What happened next for Tuchel was less of a laughing matter. As a part of the deal, he gave an interview to Sport Bild and during it he joked about how he would have “no problem” bringing Erling Haaland to Chelsea and playing him up front with Romelu Lukaku. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "England given World Cup boost as Marc Guéhi, Declan Rice return to training ahead of Norway clash - ESPN",
-              "source": "ESPN",
-              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNblBVaUl5S0ZiV3dSWjl3UWw5NXMweUZORFh1bmdqem9TSlV4TWVzQUVrSnNHWVI1bHlFR3BCR3kxVG5lLTVfWjBla1Z3SGNkQmFPdHlSV2N2WTg3WVZ2WHlIdHpVMTgxTHhDUHA2UUxaZTN6Q0xNdjhRQ25PZzQ0V3dCR1haWUVELVd4MzlCZzBiNFBfZm1wMWtCQjd1akNHcThLaXpybmNoeHA2bUlFN01kOGhOLWQyX2M3TjJ3?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 00:42:00 GMT",
-              "description": "England given World Cup boost as Marc Guéhi, Declan Rice return to training ahead of Norway clash &nbsp;&nbsp; ESPN",
+              "link": "https://www.theguardian.com/football/2026/jul/12/jude-bellingham-thomas-tuchel-criticises-lucky-england-performance",
+              "pubDate": "Sun, 12 Jul 2026 00:44:08 GMT",
+              "description": "Head coach says team were ‘sloppy’ and ‘not fast enough’ Two-goal Bellingham responds: ‘Yeah, well, whatever’ Jude Bellingham hit back at criticism of England’s performance from Thomas Tuchel after his two goals against Norway booked a place in the World Cup semi-finals for the fourth time. A virtuoso display from the Real Madrid star inspired a comeback victory after Andreas Schjelderup had given Norway the lead, with Bellingham scoring a controversial equaliser just before half-time. Replays appeared to show a Norway goal-kick hitting an overhead cable in the buildup, although Fifa released a statement saying a sensor in the ball showed no evidence it had touched. Norway’s coach, Ståle Solbakken, said it was “pretty clear” it had . Continue reading...",
               "bodyText": "",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
+        "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
-          "verified": 4,
-          "missing": 2,
+          "verified": 3,
+          "missing": 3,
           "inferred": 1
         },
         "gaps": [
+          "赔率",
           "天气",
           "伤停"
         ],
         "items": [
           {
             "key": "schedule",
-            "label": "赛程",
+            "label": "赛果",
             "status": "verified",
             "source": "openfootball/worldcup.json",
-            "text": "已采集比赛时间、地点和对阵：2026-07-12 05:00，Miami (Miami Gardens)。"
+            "text": "已采集真实完场比分 1-1。"
           },
           {
             "key": "recent-form",
@@ -112579,9 +112469,9 @@ window.MATCHES = [
           {
             "key": "odds",
             "label": "赔率",
-            "status": "verified",
+            "status": "missing",
             "source": "The Odds API",
-            "text": "已采集市场赔率，博彩公司数量 49。"
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
           },
           {
             "key": "weather",
@@ -112615,16 +112505,24 @@ window.MATCHES = [
       }
     },
     "insights": [
-      "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
-      "挪威属于均衡型，场均进球参考值 2.4，大胜倾向 20%。英格兰属于均衡型，场均进球参考值 2.2，大胜倾向 40%。",
-      "挪威 进攻指数 77，英格兰 防守指数 80；英格兰 进攻指数 78，挪威 防守指数 79。",
-      "真实采集 4 项，模型推断 1 项，缺口 2 项。"
+      "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
+      "挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。英格兰属于主动压迫型，场均进球参考值 2，大胜倾向 33%。",
+      "挪威 进攻指数 80，英格兰 防守指数 80；英格兰 进攻指数 85，挪威 防守指数 78。",
+      "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.31,
-      "away": 2.34
+      "home": 1.33,
+      "away": 2.3
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12",
+    "predictionLock": {
+      "status": "locked-pre-match",
+      "source": "snapshots/prediction-locks.json",
+      "sourceCommit": null,
+      "lockedAt": "2026-07-07T10:29:43.909Z",
+      "kickoff": "2026-07-11T21:00:00.000Z",
+      "modelVersion": "v3"
+    }
   },
   {
     "id": "arg-sui-100",
@@ -112633,8 +112531,8 @@ window.MATCHES = [
     "group": "Quarter-final",
     "round": "Quarter-final",
     "venue": "Kansas City",
-    "status": "scheduled",
-    "actualScore": "",
+    "status": "completed",
+    "actualScore": "1-1",
     "externalSourceId": "2026-07-11-Argentina-Switzerland",
     "home": {
       "name": "阿根廷",
@@ -112750,11 +112648,11 @@ window.MATCHES = [
         "trend": "稳定",
         "trendDelta": 0.33
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 20.5,
-      "shotsOnTarget": 8.5,
-      "possession": 63.6,
-      "shotAccuracy": 41,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 21,
+      "shotsOnTarget": 8,
+      "possession": 62.1,
+      "shotAccuracy": 38,
       "playerQuality": {
         "squadValue": 0.33,
         "avgRating": 7.06,
@@ -112772,8 +112670,8 @@ window.MATCHES = [
           "Leandro Paredes",
           "Nicolás Tagliafico",
           "Nahuel Molina",
-          "Alexis Mac Allister",
           "Enzo Fernández",
+          "Alexis Mac Allister",
           "Rodrigo De Paul",
           "Julián Álvarez",
           "Lionel Messi"
@@ -112894,11 +112792,11 @@ window.MATCHES = [
         "trend": "上升",
         "trendDelta": 0.5
       },
-      "shotSource": "ESPN WC2026 (2场)",
-      "shotsPerGame": 9,
-      "shotsOnTarget": 3.5,
-      "possession": 49,
-      "shotAccuracy": 39,
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 9.7,
+      "shotsOnTarget": 4,
+      "possession": 46.3,
+      "shotAccuracy": 41,
       "playerQuality": {
         "squadValue": 0.35,
         "avgRating": 6.88,
@@ -112907,20 +112805,22 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -10,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": [
           "Gregor Kobel",
           "Manuel Akanji",
           "Nico Elvedi",
           "Ricardo Rodríguez",
           "Denis Zakaria",
-          "Ardon Jashari",
+          "Fabian Rieder",
           "Granit Xhaka",
           "Remo Freuler",
           "Breel Embolo",
           "Dan Ndoye",
-          "Fabian Rieder"
+          "Djibril Sow"
         ]
       }
     },
@@ -112928,7 +112828,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 88,
-        "away": 75
+        "away": 66
       },
       {
         "label": "防守",
@@ -112937,8 +112837,8 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 72,
-        "away": 52
+        "home": 71,
+        "away": 50
       },
       {
         "label": "近期状态",
@@ -112948,7 +112848,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -112962,8 +112862,8 @@ window.MATCHES = [
       17
     ],
     "confidence": 78,
-    "tag": "稳健",
-    "summary": "外部赛程数据已更新。本场模型倾向 阿根廷 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
+    "tag": "赛前锁定",
+    "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "2-1",
@@ -112975,11 +112875,11 @@ window.MATCHES = [
       },
       {
         "score": "2-2",
-        "chance": 7
+        "chance": 8
       },
       {
         "score": "2-0",
-        "chance": 6,
+        "chance": 5,
         "reason": "clean-sheet-favorite"
       }
     ],
@@ -112995,7 +112895,7 @@ window.MATCHES = [
       },
       {
         "label": "主队对攻胜",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "3-1",
           "3-2",
@@ -113015,7 +112915,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "开放对攻",
-        "chance": 51,
+        "chance": 52,
         "examples": [
           "2-2",
           "3-1",
@@ -113028,7 +112928,7 @@ window.MATCHES = [
         "examples": [
           "3-1",
           "2-0",
-          "3-0"
+          "3-2"
         ]
       },
       {
@@ -113042,14 +112942,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 76,
-      "under25": 24,
-      "bttsYes": 72,
-      "bttsNo": 28,
-      "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 13,
-      "expectedTotalGoals": 4.12,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.22,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -113057,9 +112957,9 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "connected",
       "modelOnly": [
-        64,
+        63,
         20,
-        16
+        17
       ],
       "market": [
         56,
@@ -113075,36 +112975,36 @@ window.MATCHES = [
       "drawGuardApplied": false,
       "drawGuardReason": null,
       "deltas": [
-        -8,
+        -7,
         7,
-        1
+        0
       ],
-      "summary": "模型原始概率 64/20/16%；市场隐含概率 56/27/17%；按 50% 权重校准后为 59/24/17%。"
+      "summary": "模型原始概率 63/20/17%；市场隐含概率 56/27/17%；按 50% 权重校准后为 59/24/17%。"
     },
     "motivation": {
       "phase": "knockout",
-      "label": "淘汰赛必须分胜负",
-      "intensity": 1,
+      "label": "赛后复盘",
+      "intensity": 0,
       "drawValue": 0,
-      "goalNeed": 1,
-      "note": "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。"
+      "goalNeed": 0,
+      "note": "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     },
     "tacticalProfile": {
       "home": {
         "tempo": "主动压迫型",
-        "avgGoalsFor": 2.4,
-        "avgGoalsAgainst": 0.8,
-        "bigWinRate": 60,
-        "cleanSheetRate": 40,
+        "avgGoalsFor": 2.17,
+        "avgGoalsAgainst": 0.83,
+        "bigWinRate": 50,
+        "cleanSheetRate": 33,
         "failedToScoreRate": 0
       },
       "away": {
         "tempo": "均衡型",
-        "avgGoalsFor": 1.8,
-        "avgGoalsAgainst": 0.6,
-        "bigWinRate": 40,
-        "cleanSheetRate": 40,
-        "failedToScoreRate": 20
+        "avgGoalsFor": 1.67,
+        "avgGoalsAgainst": 0.67,
+        "bigWinRate": 33,
+        "cleanSheetRate": 33,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
@@ -113120,9 +113020,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 81,
-        "awayScore": 68,
-        "contribution": 3.12,
-        "evidence": "阿根廷 进攻88/防守84/中场72，综合81；瑞士 进攻75/防守76/中场52，综合68。"
+        "awayScore": 64,
+        "contribution": 4.08,
+        "evidence": "阿根廷 进攻88/防守84/中场71，综合81；瑞士 进攻66/防守76/中场50，综合64。"
       },
       {
         "name": "近期状态",
@@ -113146,7 +113046,7 @@ window.MATCHES = [
         "homeScore": 13,
         "awayScore": 13,
         "contribution": 0,
-        "evidence": "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。"
+        "evidence": "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
       },
       {
         "name": "天气/场地",
@@ -113154,15 +113054,15 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 48,
         "contribution": 0,
-        "evidence": "Kansas City：33.3°C / 降雨?% / 风速14.8km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
+        "evidence": "Kansas City：32.7°C / 降雨?% / 风速12.5km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -113170,15 +113070,15 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主56% / 平27% / 客17%，倾向阿根廷。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 1,
         "awayRank": 19,
-        "homeAverageMetric": 85.5,
-        "awayAverageMetric": 65.3
+        "homeAverageMetric": 85.3,
+        "awayAverageMetric": 62.5
       },
       "recentForm": {
         "home": {
@@ -113387,30 +113287,30 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 88,
         "homeDefense": 84,
-        "awayAttack": 75,
+        "awayAttack": 66,
         "awayDefense": 76
       },
       "motivation": {
         "home": null,
         "away": null,
         "overall": {
-          "intensity": 1,
+          "intensity": 0,
           "drawValue": 0,
-          "goalNeed": 1
+          "goalNeed": 0
         }
       },
       "externalSignals": {
-        "marketStatus": "connected",
+        "marketStatus": "no-match",
         "expertStatus": "connected",
-        "marketWeight": 0.5,
+        "marketWeight": 0,
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.06,
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -113420,11 +113320,11 @@ window.MATCHES = [
       "eventId": "200d9cd5eda092c7eb778cc104cd2fd2",
       "commenceTime": "2026-07-12T01:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 49,
+      "bookmakers": 47,
       "averageOdds": {
-        "home": 1.69,
-        "draw": 3.58,
-        "away": 5.75
+        "home": 1.7,
+        "draw": 3.57,
+        "away": 5.58
       },
       "impliedProbabilities": [
         56,
@@ -113432,7 +113332,7 @@ window.MATCHES = [
         17
       ],
       "marketFavorite": "阿根廷",
-      "note": "已接入赔率市场，49 家公司均值：主 1.69 / 平 3.58 / 客 5.75。市场倾向 阿根廷。"
+      "note": "已接入赔率市场，47 家公司均值：主 1.7 / 平 3.57 / 客 5.58。市场倾向 阿根廷。"
     },
     "expertSignals": {
       "status": "connected",
@@ -113441,28 +113341,28 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Hacking worry for Argentine FA over World Cup emails",
+          "title": "'We should all be excited' - Messi set for first England meeting",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2j3dglq5jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Fri, 10 Jul 2026 17:26:14 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvgexz4qdlgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:48:18 GMT"
         },
         {
-          "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-          "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT"
+          "title": "Embolo sent off as result of mistaken identity rule",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0k5gdr79o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:22:57 GMT"
         },
         {
-          "title": "Switzerland knock out Colombia on penalties to reach World Cup quarter-finals",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
-          "pubDate": "Tue, 07 Jul 2026 23:06:57 GMT"
+          "title": "BBC to show England's World Cup semi-final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx268mlg3lgo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 11 Jul 2026 23:47:11 GMT"
         },
         {
-          "title": "Jhon Arias goal sends Colombia into last 16 as Ghana bow out of World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
-          "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+          "title": "Argentina set up England semi-final with extra-time victory over Switzerland",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c07y37p7gmko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -113471,15 +113371,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
-        "temperatureMax": 33.3,
-        "temperatureMin": 20.7,
+        "temperatureMax": 32.7,
+        "temperatureMin": 20.8,
         "precipitationProbability": 0,
-        "windSpeedMax": 14.8,
+        "windSpeedMax": 12.5,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 20.7-33.3°C，降雨概率 0%，最大风速 14.8km/h。",
+        "text": "Kansas City 当日约 20.8-32.7°C，降雨概率 0%，最大风速 12.5km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -113495,8 +113395,8 @@ window.MATCHES = [
               "team": "阿根廷",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T16:00Z",
-              "previousOpponent": "Egypt",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Switzerland",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -113548,20 +113448,20 @@ window.MATCHES = [
                   "rating": 6.8
                 },
                 {
-                  "name": "Alexis Mac Allister",
-                  "position": "MF",
-                  "club": "Liverpool",
-                  "age": 27,
-                  "value": 16200000,
-                  "rating": 6.85
-                },
-                {
                   "name": "Enzo Fernández",
                   "position": "MF",
                   "club": "Chelsea",
                   "age": 25,
                   "value": 9450000,
                   "rating": 7.25
+                },
+                {
+                  "name": "Alexis Mac Allister",
+                  "position": "MF",
+                  "club": "Liverpool",
+                  "age": 27,
+                  "value": 16200000,
+                  "rating": 6.85
                 },
                 {
                   "name": "Rodrigo De Paul",
@@ -113593,8 +113493,8 @@ window.MATCHES = [
               "team": "瑞士",
               "formation": "上一场阵型",
               "source": "last-start-adjusted",
-              "previousFixtureDate": "2026-07-07T20:00Z",
-              "previousOpponent": "Colombia",
+              "previousFixtureDate": "2026-07-12T01:00Z",
+              "previousOpponent": "Argentina",
               "removedByInjury": 0,
               "starters": [
                 {
@@ -113638,12 +113538,12 @@ window.MATCHES = [
                   "rating": 6.87
                 },
                 {
-                  "name": "Ardon Jashari",
+                  "name": "Fabian Rieder",
                   "position": "MF",
-                  "club": "AC Milan",
-                  "age": 23,
-                  "value": 15649200,
-                  "rating": 6.78
+                  "club": "FC Augsburg",
+                  "age": 24,
+                  "value": 17010000,
+                  "rating": 6.96
                 },
                 {
                   "name": "Granit Xhaka",
@@ -113678,99 +113578,52 @@ window.MATCHES = [
                   "rating": 6.65
                 },
                 {
-                  "name": "Fabian Rieder",
+                  "name": "Djibril Sow",
                   "position": "MF",
-                  "club": "FC Augsburg",
-                  "age": 24,
-                  "value": 17010000,
-                  "rating": 6.96
+                  "club": "Sevilla",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 6.83
                 }
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Argentina vs Switzerland – Predicted lineup and team news - Yahoo Sports",
-              "source": "Yahoo Sports",
-              "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWpDM3hPZmpJbHhZT2QzVk1xWC0xb1pWTnFtSjdackpBeV84SVo0d2hEczM1RnZ3eGktMENxYS11N2lRYnE0N0ZkSXFiOEhndzNxSHZyMHpUaVhnUmpYakNPT1Q3WTV3eVN4c29CUGZmMnNVQUNoVVgybkxCeWNZYmZJbVdmc2NRdG5fcmxMVjN2bjdu?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 05:45:00 GMT",
-              "description": "Argentina vs Switzerland – Predicted lineup and team news &nbsp;&nbsp; Yahoo Sports",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Switzerland Predicted Lineup vs. Argentina: World Cup Quarterfinal - Sports Illustrated",
-              "source": "Sports Illustrated",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOXy1TUHVUNUk5S01oTmxnbzR3aXBsVmVVMTVTbWoxOFVGWmtfOS0xTlhZeDh5Zk9mODBVREJ4VmF5RnI5eVZWTXlkck9uVGdCR0d4Tjh6Ylo2SlB5UG5MUDk0OWZ3S0ZPRFdmTVNvMW1idm9lZVQtbHV0cVpENUZ1OXVNTzB1UTNfOFRvbE1BZ3FHY1lpN1VjTVpYcUtuaVE?oc=5",
-              "pubDate": "Fri, 10 Jul 2026 17:45:54 GMT",
-              "description": "Switzerland Predicted Lineup vs. Argentina: World Cup Quarterfinal &nbsp;&nbsp; Sports Illustrated",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Switzerland Faces Injury Blow as They Prepare for Historic World Cup Match Against Argentina - Yahoo Sports",
-              "source": "Yahoo Sports",
-              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2o0dGVuLXR0TUZTSU9uMUNISUphckxmX1NYdHhmeC1NWnpmNzdLemtIWE9OWUd6SDFheWRiQzhCclJRVGFtcGtQYXBrVkNQXy1SRG9JdzA1NnBqaUx1U0FJZTlZa2RWRU81T3VMOENNNkpuNWZFaGNiODNFdFcwclZsR0tRMEpWWEQyN3V0QQ?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 01:31:01 GMT",
-              "description": "Switzerland Faces Injury Blow as They Prepare for Historic World Cup Match Against Argentina &nbsp;&nbsp; Yahoo Sports",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Argentina continue to show ‘heart’ but flaws are apparent before Switzerland clash",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/jul/10/argentina-show-heart-flaws-apparent-swizerland-world-cup-quarter-final",
-              "pubDate": "Fri, 10 Jul 2026 11:52:53 GMT",
-              "description": "Close calls against Cape Verde and Egypt show Scaloni’s side are vulnerable, despite all the brilliance of Lionel Messi It is among the defining moments of this World Cup: Lionel Messi wandering the pitch in Atlanta with tears rolling down his face. Minutes earlier, Argentina had been down two goals to Egypt and on the brink of elimination in the last 16. Messi had missed a penalty and was set to bear blame for the result. Instead, the Argentina legend created the same magic he always seems to, spearheading a miraculous, three-goal swing in just over 10 minutes and pushing the Albiceleste into the quarter-finals . And now he was crying. And so were his teammates. And so was his head coach, Lionel Scaloni, who could not contain his emotion in a post-game interview. His own players, the coach says, have taken to calling him el llorón. The crybaby. “I can’t even look at you,” Scaloni told a touchline reporter, in tears. “I’m sorry. I’m obviously very emotional. What a group of players, brother. I’m sorry. That’s it, I have to go.” Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Messi, Argentina wrap final training ahead of World Cup quarterfinal - KCTV",
-              "source": "KCTV",
-              "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2xFMkZyZlllXzROTmRHYWVMNHNsa1JkN3dJWVZmTVQ3MWM4NmZCYi1SNjc3YlJ2cXFEZzU4YW9FcU0zczl6TEEwa095TWlOVVpicWU1RmQ3ZVMyNk1CbmVhd01fa0tpYjFxSXI3ZUY5dVNRTlM1bGFOeEhsN1JpZkg0WHlISjJlUzIyM1otWUlzT1FEMGdZbkQ5dEh6eU3SAbMBQVVfeXFMTzBCb0Nlb1Itd2I3V1ZhZjRsSWQ5bmdVQTVFNWt4eUhPdUZHcm44NzB3VmM4S0pvVWE2OFNZZEZMY0pvbXFpWlRRWVl4aG5FYW55cDY0TU1fV3FzYXNOa2RlWHhYMEZQX0djZ3hUbEN5d25ZSUdYblZyUk85eHN6SVVZU3hva1VJdmdLSnExT0pRT0hFZlZDdktuMmxTWVFkTGdCRkpRR05RRUt3RTRGZEVIOUE?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 02:54:00 GMT",
-              "description": "Messi, Argentina wrap final training ahead of World Cup quarterfinal &nbsp;&nbsp; KCTV",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 5 项，模型推断 1 项，缺口 1 项。",
+        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
-          "verified": 5,
-          "missing": 1,
+          "verified": 4,
+          "missing": 2,
           "inferred": 1
         },
         "gaps": [
+          "赔率",
           "伤停"
         ],
         "items": [
           {
             "key": "schedule",
-            "label": "赛程",
+            "label": "赛果",
             "status": "verified",
             "source": "openfootball/worldcup.json",
-            "text": "已采集比赛时间、地点和对阵：2026-07-12 09:00，Kansas City。"
+            "text": "已采集真实完场比分 1-1。"
           },
           {
             "key": "recent-form",
@@ -113782,9 +113635,9 @@ window.MATCHES = [
           {
             "key": "odds",
             "label": "赔率",
-            "status": "verified",
+            "status": "missing",
             "source": "The Odds API",
-            "text": "已采集市场赔率，博彩公司数量 49。"
+            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
           },
           {
             "key": "weather",
@@ -113818,19 +113671,27 @@ window.MATCHES = [
       }
     },
     "insights": [
-      "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
-      "阿根廷属于主动压迫型，场均进球参考值 2.4，大胜倾向 60%。瑞士属于均衡型，场均进球参考值 1.8，大胜倾向 40%。",
-      "阿根廷 进攻指数 88，瑞士 防守指数 76；瑞士 进攻指数 75，阿根廷 防守指数 84。",
-      "真实采集 5 项，模型推断 1 项，缺口 1 项。"
+      "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
+      "阿根廷属于主动压迫型，场均进球参考值 2.17，大胜倾向 50%。瑞士属于均衡型，场均进球参考值 1.67，大胜倾向 33%。",
+      "阿根廷 进攻指数 88，瑞士 防守指数 76；瑞士 进攻指数 66，阿根廷 防守指数 84。",
+      "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.72,
-      "away": 1.39
+      "home": 2.73,
+      "away": 1.42
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12",
+    "predictionLock": {
+      "status": "locked-pre-match",
+      "source": "snapshots/prediction-locks.json",
+      "sourceCommit": null,
+      "lockedAt": "2026-07-09T10:28:56.310Z",
+      "kickoff": "2026-07-12T01:00:00.000Z",
+      "modelVersion": "v3"
+    }
   },
   {
-    "id": "w97-w98-101",
+    "id": "fra-esp-101",
     "date": "2026-07-15",
     "time": "03:00",
     "group": "Semi-final",
@@ -113838,149 +113699,62 @@ window.MATCHES = [
     "venue": "Dallas (Arlington)",
     "status": "scheduled",
     "actualScore": "",
-    "externalSourceId": "2026-07-14-W97-W98",
+    "externalSourceId": "2026-07-14-France-Spain",
     "home": {
-      "name": "W97",
-      "code": "W97",
+      "name": "法国",
+      "code": "FRA",
       "confed": "UEFA",
-      "color": "#64748b",
-      "rank": 78,
+      "color": "#002395",
+      "rank": 3,
       "form": [
-        "L",
-        "D",
+        "W",
         "W",
         "L",
-        "D"
+        "W",
+        "W"
       ],
       "recentMatches": [
         {
           "index": 1,
-          "result": "L",
-          "score": "0-2",
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "goalDiff": -2,
-          "cleanSheet": false,
-          "failedToScore": true,
-          "bigWin": false,
-          "heavyLoss": true
-        },
-        {
-          "index": 2,
-          "result": "D",
-          "score": "0-0",
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "goalDiff": 0,
-          "cleanSheet": true,
-          "failedToScore": true,
-          "bigWin": false,
-          "heavyLoss": false
-        },
-        {
-          "index": 3,
+          "date": "2026-06-16",
+          "opponent": "塞内加尔",
+          "opponentCode": "SEN",
+          "opponentRank": 15,
+          "tournament": "世界杯",
           "result": "W",
-          "score": "3-2",
+          "score": "3-1",
           "goalsFor": 3,
-          "goalsAgainst": 2,
-          "goalDiff": 1,
+          "goalsAgainst": 1,
+          "goalDiff": 2,
           "cleanSheet": false,
           "failedToScore": false,
-          "bigWin": false,
+          "bigWin": true,
           "heavyLoss": false
-        },
-        {
-          "index": 4,
-          "result": "L",
-          "score": "2-3",
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "goalDiff": -1,
-          "cleanSheet": false,
-          "failedToScore": false,
-          "bigWin": false,
-          "heavyLoss": false
-        },
-        {
-          "index": 5,
-          "result": "D",
-          "score": "2-2",
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDiff": 0,
-          "cleanSheet": false,
-          "failedToScore": false,
-          "bigWin": false,
-          "heavyLoss": false
-        }
-      ],
-      "recentSummary": {
-        "record": "1胜2平2负",
-        "goalsFor": 7,
-        "goalsAgainst": 9,
-        "goalDiff": -2,
-        "avgGoalsFor": 1.4,
-        "avgGoalsAgainst": 1.8,
-        "cleanSheets": 1,
-        "failedToScore": 2,
-        "bigWins": 0,
-        "heavyLosses": 1,
-        "trend": "稳定",
-        "trendDelta": -0.17
-      }
-    },
-    "away": {
-      "name": "W98",
-      "code": "W98",
-      "confed": "UEFA",
-      "color": "#64748b",
-      "rank": 78,
-      "form": [
-        "L",
-        "D",
-        "W",
-        "L",
-        "D"
-      ],
-      "recentMatches": [
-        {
-          "index": 1,
-          "result": "L",
-          "score": "0-2",
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "goalDiff": -2,
-          "cleanSheet": false,
-          "failedToScore": true,
-          "bigWin": false,
-          "heavyLoss": true
         },
         {
           "index": 2,
-          "result": "D",
-          "score": "2-2",
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDiff": 0,
+          "date": "2026-06-08",
+          "opponent": "挪威",
+          "opponentCode": "NOR",
+          "opponentRank": 31,
+          "tournament": "友谊赛",
+          "result": "W",
+          "score": "3-1",
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDiff": 2,
           "cleanSheet": false,
           "failedToScore": false,
-          "bigWin": false,
+          "bigWin": true,
           "heavyLoss": false
         },
         {
           "index": 3,
-          "result": "W",
-          "score": "2-1",
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "goalDiff": 1,
-          "cleanSheet": false,
-          "failedToScore": false,
-          "bigWin": false,
-          "heavyLoss": false
-        },
-        {
-          "index": 4,
+          "date": "2026-06-04",
+          "opponent": "科特迪瓦",
+          "opponentCode": "CIV",
+          "opponentRank": 33,
+          "tournament": "友谊赛",
           "result": "L",
           "score": "1-2",
           "goalsFor": 1,
@@ -113992,12 +113766,34 @@ window.MATCHES = [
           "heavyLoss": false
         },
         {
+          "index": 4,
+          "date": "2026-03-29",
+          "opponent": "哥伦比亚",
+          "opponentCode": "COL",
+          "opponentRank": 13,
+          "tournament": "友谊赛",
+          "result": "W",
+          "score": "3-1",
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDiff": 2,
+          "cleanSheet": false,
+          "failedToScore": false,
+          "bigWin": true,
+          "heavyLoss": false
+        },
+        {
           "index": 5,
-          "result": "D",
-          "score": "2-2",
+          "date": "2026-03-26",
+          "opponent": "巴西",
+          "opponentCode": "BRA",
+          "opponentRank": 6,
+          "tournament": "友谊赛",
+          "result": "W",
+          "score": "2-1",
           "goalsFor": 2,
-          "goalsAgainst": 2,
-          "goalDiff": 0,
+          "goalsAgainst": 1,
+          "goalDiff": 1,
           "cleanSheet": false,
           "failedToScore": false,
           "bigWin": false,
@@ -114005,166 +113801,347 @@ window.MATCHES = [
         }
       ],
       "recentSummary": {
-        "record": "1胜2平2负",
-        "goalsFor": 7,
-        "goalsAgainst": 9,
-        "goalDiff": -2,
-        "avgGoalsFor": 1.4,
-        "avgGoalsAgainst": 1.8,
+        "record": "4胜0平1负",
+        "goalsFor": 12,
+        "goalsAgainst": 6,
+        "goalDiff": 6,
+        "avgGoalsFor": 2.4,
+        "avgGoalsAgainst": 1.2,
         "cleanSheets": 0,
-        "failedToScore": 1,
-        "bigWins": 0,
-        "heavyLosses": 1,
-        "trend": "稳定",
-        "trendDelta": -0.17
+        "failedToScore": 0,
+        "bigWins": 3,
+        "heavyLosses": 0,
+        "trend": "上升",
+        "trendDelta": 0.5
+      },
+      "shotSource": "ESPN WC2026 (2场)",
+      "shotsPerGame": 18.5,
+      "shotsOnTarget": 6.5,
+      "possession": 62,
+      "shotAccuracy": 35,
+      "playerQuality": {
+        "squadValue": 0.32,
+        "avgRating": 7.08,
+        "squadAvgRating": 7.08,
+        "starterRating": null,
+        "starterCount": 0,
+        "starCount": 7,
+        "avgAge": 26.6,
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
+        "lastStarters": [
+          "Mike Maignan",
+          "William Saliba",
+          "Dayot Upamecano",
+          "Lucas Digne",
+          "Jules Koundé",
+          "Michael Olise",
+          "Adrien Rabiot",
+          "Manu Koné",
+          "Kylian Mbappé",
+          "Désiré Doué",
+          "Ousmane Dembélé"
+        ]
+      }
+    },
+    "away": {
+      "name": "西班牙",
+      "code": "ESP",
+      "confed": "UEFA",
+      "color": "#c60b1e",
+      "rank": 2,
+      "form": [
+        "D",
+        "W",
+        "D",
+        "D",
+        "W"
+      ],
+      "recentMatches": [
+        {
+          "index": 1,
+          "date": "2026-06-15",
+          "opponent": "佛得角",
+          "opponentCode": "CPV",
+          "opponentRank": 67,
+          "tournament": "世界杯",
+          "result": "D",
+          "score": "0-0",
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDiff": 0,
+          "cleanSheet": true,
+          "failedToScore": true,
+          "bigWin": false,
+          "heavyLoss": false
+        },
+        {
+          "index": 2,
+          "date": "2026-06-08",
+          "opponent": "秘鲁",
+          "opponentCode": "PER",
+          "opponentRank": null,
+          "tournament": "友谊赛",
+          "result": "W",
+          "score": "3-1",
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDiff": 2,
+          "cleanSheet": false,
+          "failedToScore": false,
+          "bigWin": true,
+          "heavyLoss": false
+        },
+        {
+          "index": 3,
+          "date": "2026-06-04",
+          "opponent": "伊拉克",
+          "opponentCode": "IRQ",
+          "opponentRank": 57,
+          "tournament": "友谊赛",
+          "result": "D",
+          "score": "1-1",
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDiff": 0,
+          "cleanSheet": false,
+          "failedToScore": false,
+          "bigWin": false,
+          "heavyLoss": false
+        },
+        {
+          "index": 4,
+          "date": "2026-03-31",
+          "opponent": "埃及",
+          "opponentCode": "EGY",
+          "opponentRank": 29,
+          "tournament": "友谊赛",
+          "result": "D",
+          "score": "0-0",
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDiff": 0,
+          "cleanSheet": true,
+          "failedToScore": true,
+          "bigWin": false,
+          "heavyLoss": false
+        },
+        {
+          "index": 5,
+          "date": "2026-03-27",
+          "opponent": "塞尔维亚",
+          "opponentCode": "SRB",
+          "opponentRank": null,
+          "tournament": "友谊赛",
+          "result": "W",
+          "score": "3-0",
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDiff": 3,
+          "cleanSheet": true,
+          "failedToScore": false,
+          "bigWin": true,
+          "heavyLoss": false
+        }
+      ],
+      "recentSummary": {
+        "record": "2胜3平0负",
+        "goalsFor": 7,
+        "goalsAgainst": 2,
+        "goalDiff": 5,
+        "avgGoalsFor": 1.4,
+        "avgGoalsAgainst": 0.4,
+        "cleanSheets": 3,
+        "failedToScore": 2,
+        "bigWins": 2,
+        "heavyLosses": 0,
+        "trend": "上升",
+        "trendDelta": 0.83
+      },
+      "shotSource": "ESPN WC2026 (3场)",
+      "shotsPerGame": 18.3,
+      "shotsOnTarget": 8,
+      "possession": 62.6,
+      "shotAccuracy": 44,
+      "playerQuality": {
+        "squadValue": 0.45,
+        "avgRating": 7.03,
+        "squadAvgRating": 7.03,
+        "starterRating": null,
+        "starterCount": 0,
+        "starCount": 7,
+        "avgAge": 26.1,
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
+        "lastStarters": [
+          "Unai Simón",
+          "Aymeric Laporte",
+          "Pau Cubarsí",
+          "Marc Cucurella",
+          "Pedro Porro",
+          "Dani Olmo",
+          "Fabián Ruiz",
+          "Rodri",
+          "Mikel Oyarzabal",
+          "Álex Baena",
+          "Lamine Yamal"
+        ]
       }
     },
     "metrics": [
       {
         "label": "进攻",
-        "home": 66,
-        "away": 66
+        "home": 88,
+        "away": 89
       },
       {
         "label": "防守",
-        "home": 66,
-        "away": 66
+        "home": 79,
+        "away": 83
       },
       {
         "label": "中场",
-        "home": 66,
-        "away": 66
+        "home": 68,
+        "away": 69
       },
       {
         "label": "近期状态",
-        "home": 66,
-        "away": 66
+        "home": 90,
+        "away": 74
       }
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
-      "homeName": "W97",
-      "awayName": "W98"
+      "homeName": "France",
+      "awayName": "Spain"
     },
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      36,
-      34
+      44,
+      27,
+      29
     ],
-    "confidence": 60,
-    "tag": "均衡",
-    "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
+    "confidence": 68,
+    "tag": "观察",
+    "summary": "外部赛程数据已更新。本场模型倾向 法国 方向，最可能比分为 2-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
     "scoreOdds": [
       {
-        "score": "1-1",
-        "chance": 17
+        "score": "2-1",
+        "chance": 7
       },
       {
-        "score": "0-0",
+        "score": "1-1",
         "chance": 10
       },
       {
-        "score": "1-2",
+        "score": "2-2",
         "chance": 8
       },
       {
-        "score": "2-2",
-        "chance": 7
+        "score": "3-1",
+        "chance": 6
       }
     ],
     "scoreBands": [
       {
+        "label": "主队对攻胜",
+        "chance": 16,
+        "examples": [
+          "3-1",
+          "3-2",
+          "4-2"
+        ]
+      },
+      {
         "label": "低比分平局",
-        "chance": 27,
+        "chance": 14,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "客队小胜",
-        "chance": 20,
-        "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
-        ]
-      },
-      {
         "label": "主队小胜",
-        "chance": 18,
+        "chance": 14,
         "examples": [
           "2-1",
-          "1-0",
-          "2-0"
+          "2-0",
+          "1-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
-        "label": "客队不败低比分",
-        "chance": 50,
+        "label": "开放对攻",
+        "chance": 52,
         "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
+          "2-2",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
+        "label": "主队优势胜",
+        "chance": 34,
+        "examples": [
+          "3-1",
+          "3-2",
+          "2-0"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 47,
+        "chance": 31,
         "examples": [
           "1-1",
-          "0-0",
-          "2-1"
-        ]
-      },
-      {
-        "label": "客队胜出覆盖",
-        "chance": 34,
-        "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
+          "2-1",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.8,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 75,
+      "under25": 25,
+      "bttsYes": 76,
+      "bttsNo": 24,
+      "homeWinBy2Plus": 27,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 14,
+      "expectedTotalGoals": 4.01,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
-      "status": "no-match",
+      "status": "connected",
       "modelOnly": [
-        30,
-        36,
-        34
+        48,
+        24,
+        28
       ],
-      "market": null,
+      "market": [
+        42,
+        29,
+        29
+      ],
       "blended": [
-        30,
-        36,
-        34
+        44,
+        27,
+        29
       ],
-      "blendWeight": 0,
+      "blendWeight": 0.5,
       "drawGuardApplied": false,
       "drawGuardReason": null,
-      "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "deltas": [
+        -6,
+        5,
+        1
+      ],
+      "summary": "模型原始概率 48/24/28%；市场隐含概率 42/29/29%；按 50% 权重校准后为 44/27/29%。"
     },
     "motivation": {
       "phase": "knockout",
@@ -114176,54 +114153,54 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 1.2,
-        "avgGoalsAgainst": 0.76,
-        "bigWinRate": 12,
-        "cleanSheetRate": 16,
-        "failedToScoreRate": 32
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 2.67,
+        "avgGoalsAgainst": 0.33,
+        "bigWinRate": 83,
+        "cleanSheetRate": 67,
+        "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
-        "avgGoalsFor": 1.2,
-        "avgGoalsAgainst": 0.76,
-        "bigWinRate": 12,
-        "cleanSheetRate": 16,
-        "failedToScoreRate": 32
+        "tempo": "主动压迫型",
+        "avgGoalsFor": 1.83,
+        "avgGoalsAgainst": 0.17,
+        "bigWinRate": 33,
+        "cleanSheetRate": 83,
+        "failedToScoreRate": 17
       }
     },
     "factorContributions": [
       {
         "name": "世界排名",
         "weight": 28,
-        "homeScore": 22,
-        "awayScore": 22,
-        "contribution": 0,
-        "evidence": "W97 世界第78，W98 世界第78。排名差 0 位。"
+        "homeScore": 97,
+        "awayScore": 98,
+        "contribution": -0.28,
+        "evidence": "法国 世界第3，西班牙 世界第2。排名差 1 位。"
       },
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 66,
-        "awayScore": 66,
-        "contribution": 0,
-        "evidence": "W97 进攻66/防守66/中场66，综合66；W98 进攻66/防守66/中场66，综合66。"
+        "homeScore": 78,
+        "awayScore": 80,
+        "contribution": -0.48,
+        "evidence": "法国 进攻88/防守79/中场68，综合78；西班牙 进攻89/防守83/中场69，综合80。"
       },
       {
         "name": "近期状态",
         "weight": 20,
-        "homeScore": 28,
-        "awayScore": 28,
-        "contribution": 0,
-        "evidence": "W97 近5场 L D W L D（加权2.0分），趋势稳定；W98 近5场 L D W L D（加权2.0分），趋势稳定。对手排名已纳入权重。"
+        "homeScore": 77,
+        "awayScore": 46,
+        "contribution": 6.2,
+        "evidence": "FRA 近5场 W W L W W（加权10.9分），趋势上升；ESP 近5场 D W D D W（加权5.2分），趋势上升。对手排名已纳入权重。"
       },
       {
         "name": "球员质量",
         "weight": 12,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "W97 阵容身价?B€ / 均分? / 球星?人；W98 阵容身价?B€ / 均分? / 球星?人。"
+        "homeScore": 65,
+        "awayScore": 73,
+        "contribution": -0.96,
+        "evidence": "法国 阵容身价0.32B€ / 均分7.08 / 球星7人；西班牙 阵容身价0.45B€ / 均分7.03 / 球星7人。"
       },
       {
         "name": "出线动机",
@@ -114244,10 +114221,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "未识别到可量化临场新闻，保持中性。"
+        "homeScore": 46,
+        "awayScore": 48,
+        "contribution": -0.12,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -114255,146 +114232,87 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "赔率市场（48家博彩公司均值，融合50%）：主42% / 平29% / 客29%，倾向法国。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
-        "homeRank": 78,
-        "awayRank": 78,
-        "homeAverageMetric": 66,
-        "awayAverageMetric": 66
+        "homeRank": 3,
+        "awayRank": 2,
+        "homeAverageMetric": 81.3,
+        "awayAverageMetric": 78.8
       },
       "recentForm": {
         "home": {
-          "record": "1胜2平2负",
-          "goalsFor": 7,
-          "goalsAgainst": 9,
-          "goalDiff": -2,
-          "avgGoalsFor": 1.4,
-          "avgGoalsAgainst": 1.8,
-          "cleanSheets": 1,
-          "failedToScore": 2,
-          "bigWins": 0,
-          "heavyLosses": 1,
-          "trend": "稳定",
-          "trendDelta": -0.17
+          "record": "4胜0平1负",
+          "goalsFor": 12,
+          "goalsAgainst": 6,
+          "goalDiff": 6,
+          "avgGoalsFor": 2.4,
+          "avgGoalsAgainst": 1.2,
+          "cleanSheets": 0,
+          "failedToScore": 0,
+          "bigWins": 3,
+          "heavyLosses": 0,
+          "trend": "上升",
+          "trendDelta": 0.5
         },
         "away": {
-          "record": "1胜2平2负",
+          "record": "2胜3平0负",
           "goalsFor": 7,
-          "goalsAgainst": 9,
-          "goalDiff": -2,
+          "goalsAgainst": 2,
+          "goalDiff": 5,
           "avgGoalsFor": 1.4,
-          "avgGoalsAgainst": 1.8,
-          "cleanSheets": 0,
-          "failedToScore": 1,
-          "bigWins": 0,
-          "heavyLosses": 1,
-          "trend": "稳定",
-          "trendDelta": -0.17
+          "avgGoalsAgainst": 0.4,
+          "cleanSheets": 3,
+          "failedToScore": 2,
+          "bigWins": 2,
+          "heavyLosses": 0,
+          "trend": "上升",
+          "trendDelta": 0.83
         },
         "homeMatches": [
           {
             "index": 1,
-            "result": "L",
-            "score": "0-2",
-            "goalsFor": 0,
-            "goalsAgainst": 2,
-            "goalDiff": -2,
-            "cleanSheet": false,
-            "failedToScore": true,
-            "bigWin": false,
-            "heavyLoss": true
-          },
-          {
-            "index": 2,
-            "result": "D",
-            "score": "0-0",
-            "goalsFor": 0,
-            "goalsAgainst": 0,
-            "goalDiff": 0,
-            "cleanSheet": true,
-            "failedToScore": true,
-            "bigWin": false,
-            "heavyLoss": false
-          },
-          {
-            "index": 3,
+            "date": "2026-06-16",
+            "opponent": "塞内加尔",
+            "opponentCode": "SEN",
+            "opponentRank": 15,
+            "tournament": "世界杯",
             "result": "W",
-            "score": "3-2",
+            "score": "3-1",
             "goalsFor": 3,
-            "goalsAgainst": 2,
-            "goalDiff": 1,
+            "goalsAgainst": 1,
+            "goalDiff": 2,
             "cleanSheet": false,
             "failedToScore": false,
-            "bigWin": false,
+            "bigWin": true,
             "heavyLoss": false
-          },
-          {
-            "index": 4,
-            "result": "L",
-            "score": "2-3",
-            "goalsFor": 2,
-            "goalsAgainst": 3,
-            "goalDiff": -1,
-            "cleanSheet": false,
-            "failedToScore": false,
-            "bigWin": false,
-            "heavyLoss": false
-          },
-          {
-            "index": 5,
-            "result": "D",
-            "score": "2-2",
-            "goalsFor": 2,
-            "goalsAgainst": 2,
-            "goalDiff": 0,
-            "cleanSheet": false,
-            "failedToScore": false,
-            "bigWin": false,
-            "heavyLoss": false
-          }
-        ],
-        "awayMatches": [
-          {
-            "index": 1,
-            "result": "L",
-            "score": "0-2",
-            "goalsFor": 0,
-            "goalsAgainst": 2,
-            "goalDiff": -2,
-            "cleanSheet": false,
-            "failedToScore": true,
-            "bigWin": false,
-            "heavyLoss": true
           },
           {
             "index": 2,
-            "result": "D",
-            "score": "2-2",
-            "goalsFor": 2,
-            "goalsAgainst": 2,
-            "goalDiff": 0,
+            "date": "2026-06-08",
+            "opponent": "挪威",
+            "opponentCode": "NOR",
+            "opponentRank": 31,
+            "tournament": "友谊赛",
+            "result": "W",
+            "score": "3-1",
+            "goalsFor": 3,
+            "goalsAgainst": 1,
+            "goalDiff": 2,
             "cleanSheet": false,
             "failedToScore": false,
-            "bigWin": false,
+            "bigWin": true,
             "heavyLoss": false
           },
           {
             "index": 3,
-            "result": "W",
-            "score": "2-1",
-            "goalsFor": 2,
-            "goalsAgainst": 1,
-            "goalDiff": 1,
-            "cleanSheet": false,
-            "failedToScore": false,
-            "bigWin": false,
-            "heavyLoss": false
-          },
-          {
-            "index": 4,
+            "date": "2026-06-04",
+            "opponent": "科特迪瓦",
+            "opponentCode": "CIV",
+            "opponentRank": 33,
+            "tournament": "友谊赛",
             "result": "L",
             "score": "1-2",
             "goalsFor": 1,
@@ -114406,24 +114324,133 @@ window.MATCHES = [
             "heavyLoss": false
           },
           {
+            "index": 4,
+            "date": "2026-03-29",
+            "opponent": "哥伦比亚",
+            "opponentCode": "COL",
+            "opponentRank": 13,
+            "tournament": "友谊赛",
+            "result": "W",
+            "score": "3-1",
+            "goalsFor": 3,
+            "goalsAgainst": 1,
+            "goalDiff": 2,
+            "cleanSheet": false,
+            "failedToScore": false,
+            "bigWin": true,
+            "heavyLoss": false
+          },
+          {
             "index": 5,
-            "result": "D",
-            "score": "2-2",
+            "date": "2026-03-26",
+            "opponent": "巴西",
+            "opponentCode": "BRA",
+            "opponentRank": 6,
+            "tournament": "友谊赛",
+            "result": "W",
+            "score": "2-1",
             "goalsFor": 2,
-            "goalsAgainst": 2,
-            "goalDiff": 0,
+            "goalsAgainst": 1,
+            "goalDiff": 1,
             "cleanSheet": false,
             "failedToScore": false,
             "bigWin": false,
             "heavyLoss": false
           }
+        ],
+        "awayMatches": [
+          {
+            "index": 1,
+            "date": "2026-06-15",
+            "opponent": "佛得角",
+            "opponentCode": "CPV",
+            "opponentRank": 67,
+            "tournament": "世界杯",
+            "result": "D",
+            "score": "0-0",
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "goalDiff": 0,
+            "cleanSheet": true,
+            "failedToScore": true,
+            "bigWin": false,
+            "heavyLoss": false
+          },
+          {
+            "index": 2,
+            "date": "2026-06-08",
+            "opponent": "秘鲁",
+            "opponentCode": "PER",
+            "opponentRank": null,
+            "tournament": "友谊赛",
+            "result": "W",
+            "score": "3-1",
+            "goalsFor": 3,
+            "goalsAgainst": 1,
+            "goalDiff": 2,
+            "cleanSheet": false,
+            "failedToScore": false,
+            "bigWin": true,
+            "heavyLoss": false
+          },
+          {
+            "index": 3,
+            "date": "2026-06-04",
+            "opponent": "伊拉克",
+            "opponentCode": "IRQ",
+            "opponentRank": 57,
+            "tournament": "友谊赛",
+            "result": "D",
+            "score": "1-1",
+            "goalsFor": 1,
+            "goalsAgainst": 1,
+            "goalDiff": 0,
+            "cleanSheet": false,
+            "failedToScore": false,
+            "bigWin": false,
+            "heavyLoss": false
+          },
+          {
+            "index": 4,
+            "date": "2026-03-31",
+            "opponent": "埃及",
+            "opponentCode": "EGY",
+            "opponentRank": 29,
+            "tournament": "友谊赛",
+            "result": "D",
+            "score": "0-0",
+            "goalsFor": 0,
+            "goalsAgainst": 0,
+            "goalDiff": 0,
+            "cleanSheet": true,
+            "failedToScore": true,
+            "bigWin": false,
+            "heavyLoss": false
+          },
+          {
+            "index": 5,
+            "date": "2026-03-27",
+            "opponent": "塞尔维亚",
+            "opponentCode": "SRB",
+            "opponentRank": null,
+            "tournament": "友谊赛",
+            "result": "W",
+            "score": "3-0",
+            "goalsFor": 3,
+            "goalsAgainst": 0,
+            "goalDiff": 3,
+            "cleanSheet": true,
+            "failedToScore": false,
+            "bigWin": true,
+            "heavyLoss": false
+          }
         ]
       },
       "attackDefense": {
-        "homeAttack": 66,
-        "homeDefense": 66,
-        "awayAttack": 66,
-        "awayDefense": 66
+        "homeAttack": 88,
+        "homeDefense": 79,
+        "awayAttack": 89,
+        "awayDefense": 83
       },
       "motivation": {
         "home": null,
@@ -114435,30 +114462,72 @@ window.MATCHES = [
         }
       },
       "externalSignals": {
-        "marketStatus": "no-match",
-        "expertStatus": "no-match",
-        "marketWeight": 0,
-        "expertWeight": 0
+        "marketStatus": "connected",
+        "expertStatus": "connected",
+        "marketWeight": 0.5,
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "未识别到可量化临场新闻，保持中性。"
+        "homeScore": 46,
+        "awayScore": 48,
+        "goalLift": -0.09,
+        "confidenceDelta": 2,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
       }
     },
     "marketSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "The Odds API",
-      "weight": 0,
-      "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+      "weight": 0.5,
+      "eventId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+      "commenceTime": "2026-07-14T19:00:00Z",
+      "snapshotFile": null,
+      "bookmakers": 49,
+      "averageOdds": {
+        "home": 2.31,
+        "draw": 3.24,
+        "away": 3.26
+      },
+      "impliedProbabilities": [
+        42,
+        29,
+        29
+      ],
+      "marketFavorite": "法国",
+      "note": "已接入赔率市场，49 家公司均值：主 2.31 / 平 3.24 / 客 3.26。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 4,
+      "articles": [
+        {
+          "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
+          "pubDate": "Thu, 09 Jul 2026 22:13:13 GMT"
+        },
+        {
+          "title": "Lamine Yamal Thinks France, Not Spain, Should Be Worried About World Cup Semifinals - FOX Sports",
+          "source": "FOX Sports",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
+        },
+        {
+          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+        },
+        {
+          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
+          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
+        }
+      ],
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -114467,39 +114536,286 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "no-fixture-match",
+        "status": "connected",
         "provider": "API-Football",
+        "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "当前可用阵容线索不足，暂以球队整体风格、近期表现和大名单结构推断。",
-          "source": "model-projection",
-          "articles": []
+          "status": "last-start-projected",
+          "text": "当前以上一场首发为基底，并结合伤病名单与大名单补位生成预计首发。",
+          "source": "previous-match-lineup",
+          "teams": [
+            {
+              "team": "法国",
+              "formation": "上一场阵型",
+              "source": "last-start-adjusted",
+              "previousFixtureDate": "2026-07-09T20:00Z",
+              "previousOpponent": "Morocco",
+              "removedByInjury": 0,
+              "starters": [
+                {
+                  "name": "Mike Maignan",
+                  "position": "GK",
+                  "club": "AC Milan",
+                  "age": 30,
+                  "value": 14256000,
+                  "rating": 7.07
+                },
+                {
+                  "name": "William Saliba",
+                  "position": "DF",
+                  "club": "Arsenal",
+                  "age": 25,
+                  "value": 11970000,
+                  "rating": 6.92
+                },
+                {
+                  "name": "Dayot Upamecano",
+                  "position": "DF",
+                  "club": "FC Bayern München",
+                  "age": 27,
+                  "value": 13800000,
+                  "rating": 6.94
+                },
+                {
+                  "name": "Lucas Digne",
+                  "position": "DF",
+                  "club": "Aston Villa",
+                  "age": 32,
+                  "value": 7920000,
+                  "rating": 6.71
+                },
+                {
+                  "name": "Jules Koundé",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 6.99
+                },
+                {
+                  "name": "Michael Olise",
+                  "position": "FW",
+                  "club": "FC Bayern München",
+                  "age": 24,
+                  "value": 14490000,
+                  "rating": 7.81
+                },
+                {
+                  "name": "Adrien Rabiot",
+                  "position": "MF",
+                  "club": "AC Milan",
+                  "age": 31,
+                  "value": 16368000,
+                  "rating": 7.25
+                },
+                {
+                  "name": "Manu Koné",
+                  "position": "MF",
+                  "club": "Roma",
+                  "age": 25,
+                  "value": 14490000,
+                  "rating": 6.94
+                },
+                {
+                  "name": "Kylian Mbappé",
+                  "position": "FW",
+                  "club": "Real Madrid",
+                  "age": 27,
+                  "value": 9000000,
+                  "rating": 7.64
+                },
+                {
+                  "name": "Désiré Doué",
+                  "position": "FW",
+                  "club": "Paris Saint Germain",
+                  "age": 21,
+                  "value": 10080000,
+                  "rating": 7.22
+                },
+                {
+                  "name": "Ousmane Dembélé",
+                  "position": "FW",
+                  "club": "Paris Saint Germain",
+                  "age": 29,
+                  "value": 9000000,
+                  "rating": 7.54
+                }
+              ]
+            },
+            {
+              "team": "西班牙",
+              "formation": "上一场阵型",
+              "source": "last-start-adjusted",
+              "previousFixtureDate": "2026-07-10T19:00Z",
+              "previousOpponent": "Belgium",
+              "removedByInjury": 0,
+              "starters": [
+                {
+                  "name": "Unai Simón",
+                  "position": "GK",
+                  "club": "Athletic Club",
+                  "age": 29,
+                  "value": 16200000,
+                  "rating": 6.78
+                },
+                {
+                  "name": "Aymeric Laporte",
+                  "position": "DF",
+                  "club": "Athletic Club",
+                  "age": 32,
+                  "value": 16368000,
+                  "rating": 6.86
+                },
+                {
+                  "name": "Pau Cubarsí",
+                  "position": "DF",
+                  "club": "FC Barcelona",
+                  "age": 19,
+                  "value": 18144000,
+                  "rating": 7.02
+                },
+                {
+                  "name": "Marc Cucurella",
+                  "position": "DF",
+                  "club": "Chelsea",
+                  "age": 27,
+                  "value": 11400000,
+                  "rating": 6.85
+                },
+                {
+                  "name": "Pedro Porro",
+                  "position": "DF",
+                  "club": "Tottenham Hotspur",
+                  "age": 26,
+                  "value": 17010000,
+                  "rating": 7.01
+                },
+                {
+                  "name": "Dani Olmo",
+                  "position": "MF",
+                  "club": "FC Barcelona",
+                  "age": 28,
+                  "value": 13800000,
+                  "rating": 7.23
+                },
+                {
+                  "name": "Fabián Ruiz",
+                  "position": "MF",
+                  "club": "Paris Saint Germain",
+                  "age": 30,
+                  "value": 7920000,
+                  "rating": 7.07
+                },
+                {
+                  "name": "Rodri",
+                  "position": "MF",
+                  "club": "Manchester City",
+                  "age": 29,
+                  "value": 9000000,
+                  "rating": 7.3
+                },
+                {
+                  "name": "Mikel Oyarzabal",
+                  "position": "FW",
+                  "club": "Real Sociedad",
+                  "age": 29,
+                  "value": 18600000,
+                  "rating": 7.18
+                },
+                {
+                  "name": "Álex Baena",
+                  "position": "FW",
+                  "club": "Atlético Madrid",
+                  "age": 24,
+                  "value": 9450000,
+                  "rating": 6.92
+                },
+                {
+                  "name": "Lamine Yamal",
+                  "position": "FW",
+                  "club": "FC Barcelona",
+                  "age": 18,
+                  "value": 15456000,
+                  "rating": 8.02
+                }
+              ]
+            }
+          ],
+          "articles": [
+            {
+              "title": "France vs. Spain World Cup 2026 Preview, Odds and Team News - rg.org",
+              "source": "rg.org",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQkdXQUFzQ1djaFcxNVI5aHRZamFhQWdnUWJGVVhoVkFsMFVreGwxQ1pDemZ3VXN2eVpZdGNNeDloNUdCb1JJY3YwTDlqOWhRRGJtZGtDVnIxcW9JQ2pyTnJOZWZTRjNlaUkyYmJxUUhHX3N6aFBsUTJLU3VBTFBPN2Jn?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 15:34:38 GMT",
+              "description": "France vs. Spain World Cup 2026 Preview, Odds and Team News &nbsp;&nbsp; rg.org",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
-          "status": "none-confirmed",
-          "text": "权威数据源当前未返回本场伤停记录。",
-          "articles": []
+          "status": "missing",
+          "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
+          "source": "API-Football",
+          "players": [],
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France injury update: Latest on Mbappé, Tchouaméni, Saliba and Upamecano ahead of Spain World Cup semifinal - Diario AS",
+              "source": "Diario AS",
+              "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQW1KcndKb1RRZDlYY3VuWXBwTFIzLXZGd0Fnbi1Vb19IZ0swX3RMMy1vU0hSbFRFelpnVmtQazdRUmdmTHV0YU4xenJ1aE1oLXhEdnNCb0h6WnpjZGs0Zkl4UmhQQUFZSVhGbE5CTUNzQ3Y0Y0Y1ejA3SEM1b2RJLUNLMDBVdHZ3aktHSFRNY1g2d0hLa1g1WUM3WUZrWUxrQVVqTm5vMXVjUkUzWlY0Zi1LaDJNZWo5UmprWjUyTlpOdVFjNm1uUW1XVHF0YlRxcW1sVlVxaFBOZHNmaHRKQjRUMk_SAfgBQVVfeXFMTTJ6OVozU0dVd2Z6MVlSb2o4ZFlCemczbWZDdl93VUFuY29RNDdDbEFJSDFiNlZYMEsxd0NmTWhGMjdkeFNSaC1DX3pQWWVDcWZramJSLUZjcHByZ3k3VWR2TTdqMEsyNzNmLXRiR216OURwQ2RIZ0k0TFB1dDlTYWtOc01RNk84MTh0VThFTzRZc3FiSnpiSWxoS3NzOFhSenUzR0dEUWcyUVdlZE1HSkU0N3VWTTdVaUlYM3hJYWY4VDluYlNmT2xETFVUNnZDWklDUVNqczFHS1FrVEVEYkRyd2tDdVNVYzBld2ZFdWJiVmgxLVhyZHg?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:44:59 GMT",
+              "description": "France injury update: Latest on Mbappé, Tchouaméni, Saliba and Upamecano ahead of Spain World Cup semifinal &nbsp;&nbsp; Diario AS",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
-          "status": "model-derived",
-          "text": "当前以球队攻防风格、近期比分和出线目标推断战术倾向。",
-          "articles": []
+          "status": "projection-derived",
+          "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
+          "articles": [
+            {
+              "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
+              "source": "Yahoo Sports",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
+              "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "France defenders Saliba, Upamecano not in team training - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ0ozQjBOd1RuRDNpcnlVQ1lvbFF0dEZVMzBNTzNuOFRZX1h6cnZsY205ajNjSGtmTWxDSDh6MDUwXzEwQU9weEVtU2MzcXN3UnVfa25jTHU0aUFUQUdwTUtLN3NEd2xiSTlQdFMwZllqb1ozZEtXeXBpUWUtUlZzSTRocGlxdE9fRzJ5amlpQXdGN3o3bnFmZWMxNUExN0x4MWFz?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 20:43:35 GMT",
+              "description": "France defenders Saliba, Upamecano not in team training &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
+        "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
-          "verified": 2,
-          "missing": 4,
+          "verified": 4,
+          "missing": 2,
           "inferred": 1
         },
         "gaps": [
-          "赔率",
           "天气",
-          "预计首发",
           "伤停"
         ],
         "items": [
@@ -114520,9 +114836,9 @@ window.MATCHES = [
           {
             "key": "odds",
             "label": "赔率",
-            "status": "missing",
+            "status": "verified",
             "source": "The Odds API",
-            "text": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+            "text": "已采集市场赔率，博彩公司数量 49。"
           },
           {
             "key": "weather",
@@ -114534,9 +114850,9 @@ window.MATCHES = [
           {
             "key": "lineup",
             "label": "预计首发",
-            "status": "missing",
-            "source": "model-projection",
-            "text": "未采集到真实首发或预计首发线索，当前只能作为模型缺口上报。"
+            "status": "verified",
+            "source": "previous-match-lineup",
+            "text": "已找到上一场首发或公开阵容线索，并在页面标注来源。"
           },
           {
             "key": "injuries",
@@ -114557,15 +114873,15 @@ window.MATCHES = [
     },
     "insights": [
       "淘汰赛没有保平出线空间，90分钟打平会进入加时和点球，因此模型降低平局价值并提高求胜强度。",
-      "W97属于均衡型，场均进球参考值 1.2，大胜倾向 12%。W98属于均衡型，场均进球参考值 1.2，大胜倾向 12%。",
-      "W97 进攻指数 66，W98 防守指数 66；W98 进攻指数 66，W97 防守指数 66。",
-      "真实采集 2 项，模型推断 1 项，缺口 4 项。"
+      "法国属于主动压迫型，场均进球参考值 2.67，大胜倾向 83%。西班牙属于主动压迫型，场均进球参考值 1.83，大胜倾向 33%。",
+      "法国 进攻指数 88，西班牙 防守指数 83；西班牙 进攻指数 89，法国 防守指数 79。",
+      "真实采集 4 项，模型推断 1 项，缺口 2 项。"
     ],
     "expectedGoals": {
-      "home": 1.39,
-      "away": 1.41
+      "home": 2.28,
+      "away": 1.73
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12"
   },
   {
     "id": "w99-w100-102",
@@ -114781,7 +115097,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -114790,47 +115106,38 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      33,
-      36,
-      31
+      29,
+      39,
+      32
     ],
-    "confidence": 61,
+    "confidence": 64,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 10
-      },
-      {
-        "score": "2-1",
-        "chance": 8
+        "chance": 11
       },
       {
         "score": "1-2",
-        "chance": 7
+        "chance": 8
+      },
+      {
+        "score": "2-2",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 28,
+        "chance": 29,
         "examples": [
           "1-1",
           "0-0"
-        ]
-      },
-      {
-        "label": "主队小胜",
-        "chance": 20,
-        "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
         ]
       },
       {
@@ -114841,30 +115148,10 @@ window.MATCHES = [
           "0-1",
           "0-2"
         ]
-      }
-    ],
-    "scoreScenarios": [
-      {
-        "label": "主队不败低比分",
-        "chance": 50,
-        "examples": [
-          "1-1",
-          "0-0",
-          "2-1"
-        ]
       },
       {
-        "label": "客队不败低比分",
-        "chance": 49,
-        "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
-        ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 33,
+        "label": "主队小胜",
+        "chance": 17,
         "examples": [
           "2-1",
           "1-0",
@@ -114872,31 +115159,60 @@ window.MATCHES = [
         ]
       }
     ],
+    "scoreScenarios": [
+      {
+        "label": "客队不败低比分",
+        "chance": 51,
+        "examples": [
+          "1-1",
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
+        "label": "主队不败低比分",
+        "chance": 49,
+        "examples": [
+          "1-1",
+          "0-0",
+          "2-1"
+        ]
+      },
+      {
+        "label": "客队胜出覆盖",
+        "chance": 32,
+        "examples": [
+          "1-2",
+          "0-1",
+          "0-2"
+        ]
+      }
+    ],
     "expandedMarkets": {
       "over25": 49,
       "under25": 51,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 16,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.71,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.79,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        33,
-        36,
-        31
+        29,
+        39,
+        32
       ],
       "market": null,
       "blended": [
-        33,
-        36,
-        31
+        29,
+        39,
+        32
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -114977,7 +115293,7 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 48,
         "contribution": 0,
-        "evidence": "Atlanta：35.9°C / 降雨19% / 风速18.5km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
+        "evidence": "Atlanta：33.4°C / 降雨13% / 风速20.9km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       {
         "name": "临场新闻",
@@ -115202,15 +115518,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-11T09:44:46.707Z",
+        "fetchedAt": "2026-07-12T09:08:55.168Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
-        "temperatureMax": 35.9,
-        "temperatureMin": 25,
-        "precipitationProbability": 19,
-        "windSpeedMax": 18.5,
+        "temperatureMax": 33.4,
+        "temperatureMin": 22.8,
+        "precipitationProbability": 13,
+        "windSpeedMax": 20.9,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 25-35.9°C，降雨概率 19%，最大风速 18.5km/h。",
+        "text": "Atlanta 当日约 22.8-33.4°C，降雨概率 13%，最大风速 20.9km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -115233,9 +115549,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -115308,10 +115624,10 @@ window.MATCHES = [
       "真实采集 3 项，模型推断 1 项，缺口 3 项。"
     ],
     "expectedGoals": {
-      "home": 1.35,
+      "home": 1.44,
       "away": 1.36
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12"
   },
   {
     "id": "l101-l102-103",
@@ -115527,7 +115843,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -115536,17 +115852,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      31,
-      37,
-      32
+      30,
+      36,
+      34
     ],
-    "confidence": 62,
+    "confidence": 60,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "0-0",
@@ -115564,7 +115880,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
@@ -115572,7 +115888,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "1-2",
           "0-1",
@@ -115581,7 +115897,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 18,
+        "chance": 17,
         "examples": [
           "2-1",
           "1-0",
@@ -115592,7 +115908,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
@@ -115601,7 +115917,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 49,
+        "chance": 47,
         "examples": [
           "1-1",
           "0-0",
@@ -115610,7 +115926,7 @@ window.MATCHES = [
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 32,
+        "chance": 34,
         "examples": [
           "1-2",
           "0-1",
@@ -115619,14 +115935,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 61,
+      "bttsNo": 39,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.77,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.83,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -115634,15 +115950,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        31,
-        37,
-        32
+        30,
+        36,
+        34
       ],
       "market": null,
       "blended": [
-        31,
-        37,
-        32
+        30,
+        36,
+        34
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -115970,9 +116286,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -116046,10 +116362,10 @@ window.MATCHES = [
       "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
-      "home": 1.43,
-      "away": 1.34
+      "home": 1.41,
+      "away": 1.42
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12"
   },
   {
     "id": "w101-w102-104",
@@ -116265,7 +116581,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-11T09:44:46.707Z",
+      "fetchedAt": "2026-07-12T09:08:55.168Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -116274,35 +116590,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      32,
-      39,
-      29
+      33,
+      36,
+      31
     ],
-    "confidence": 64,
+    "confidence": 61,
     "tag": "均衡",
     "summary": "外部赛程数据已更新。本场模型倾向 平局 方向，最可能比分为 1-1。判断综合了世界排名、攻防综合、近期状态、球员质量、出线动机、天气/场地、临场新闻、赔率市场等 8 个因素，加权计算得出。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "0-0",
         "chance": 10
       },
       {
-        "score": "2-2",
+        "score": "2-1",
         "chance": 8
       },
       {
-        "score": "2-1",
-        "chance": 8
+        "score": "1-2",
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 29,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
@@ -116310,7 +116626,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "2-1",
           "1-0",
@@ -116319,7 +116635,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
           "1-2",
           "0-1",
@@ -116330,7 +116646,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 50,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
@@ -116348,7 +116664,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 32,
+        "chance": 33,
         "examples": [
           "2-1",
           "1-0",
@@ -116359,28 +116675,28 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 50,
       "under25": 50,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 15,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.85,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.78,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        32,
-        39,
-        29
+        33,
+        36,
+        31
       ],
       "market": null,
       "blended": [
-        32,
-        39,
-        29
+        33,
+        36,
+        31
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -116708,9 +117024,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-11T09:44:46.707Z",
+      "updatedAt": "2026-07-12T09:08:55.168Z",
       "dataQuality": {
-        "updatedAt": "2026-07-11T09:44:46.707Z",
+        "updatedAt": "2026-07-12T09:08:55.168Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -116784,40 +117100,226 @@ window.MATCHES = [
       "真实采集 2 项，模型推断 1 项，缺口 4 项。"
     ],
     "expectedGoals": {
-      "home": 1.37,
-      "away": 1.48
+      "home": 1.38,
+      "away": 1.4
     },
-    "analysisUpdated": "2026-07-11"
+    "analysisUpdated": "2026-07-12"
   }
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-07-11T09:44:46.707Z",
-  "completedCount": 98,
+  "updatedAt": "2026-07-12T09:08:55.168Z",
+  "completedCount": 100,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
   "topScoreCoverage": 41,
-  "scoreBandCoverage": 72,
-  "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5084,
-  "averageLogLoss": 0.8533,
-  "drawRecall": 23,
-  "lockedPredictionCount": 66,
+  "scoreBandCoverage": 69,
+  "scoreScenarioCoverage": 86,
+  "averageBrier": 0.515,
+  "averageLogLoss": 0.8626,
+  "drawRecall": 25,
+  "lockedPredictionCount": 68,
   "versionBreakdown": [
     {
       "key": "v3",
       "label": "第三版模型",
       "note": "当前线上模型，赛前锁定样本会进入这里",
-      "sampleCount": 62,
-      "outcomeHitRate": 68,
-      "topScoreCoverage": 35,
-      "scoreBandCoverage": 71,
-      "scoreScenarioCoverage": 89,
-      "averageBrier": 0.4812,
-      "averageLogLoss": 0.8245,
-      "lockedCount": 62,
+      "sampleCount": 64,
+      "outcomeHitRate": 66,
+      "topScoreCoverage": 38,
+      "scoreBandCoverage": 69,
+      "scoreScenarioCoverage": 88,
+      "averageBrier": 0.4951,
+      "averageLogLoss": 0.8427,
+      "lockedCount": 64,
       "rows": [
+        {
+          "id": "arg-sui-100",
+          "match": "阿根廷 vs 瑞士",
+          "date": "2026-07-12",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-07-12T01:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-07-09T10:28:56.310Z",
+          "modelVersion": "v3",
+          "modelVersionLabel": "第三版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 78,
+          "brier": 0.9546,
+          "logLoss": 1.4271,
+          "marketOutcome": "主胜",
+          "marketHit": false,
+          "probabilities": [
+            59,
+            24,
+            17
+          ],
+          "scoreBands": [
+            {
+              "label": "主队大胜",
+              "chance": 24,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            },
+            {
+              "label": "主队对攻胜",
+              "chance": 19,
+              "examples": [
+                "3-1",
+                "3-2",
+                "4-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 16,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "开放对攻",
+              "chance": 52,
+              "examples": [
+                "2-2",
+                "3-1",
+                "3-2"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 48,
+              "examples": [
+                "3-1",
+                "2-0",
+                "3-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 59,
+              "examples": [
+                "2-1",
+                "3-1",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            56,
+            27,
+            17
+          ]
+        },
+        {
+          "id": "nor-eng-99",
+          "match": "挪威 vs 英格兰",
+          "date": "2026-07-12",
+          "kickoffTime": "05:00",
+          "kickoff": "2026-07-11T21:00:00.000Z",
+          "predictionSource": "locked-pre-match",
+          "lockedAt": "2026-07-07T10:29:43.909Z",
+          "modelVersion": "v3",
+          "modelVersionLabel": "第三版模型",
+          "modelVersionNote": "赛前锁定样本",
+          "actualOutcome": "平局",
+          "predictedOutcome": "客胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8982,
+          "logLoss": 1.3863,
+          "marketOutcome": "客胜",
+          "marketHit": false,
+          "probabilities": [
+            21,
+            25,
+            54
+          ],
+          "scoreBands": [
+            {
+              "label": "客队小胜",
+              "chance": 20,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 19,
+              "examples": [
+                "0-3",
+                "1-4",
+                "0-4"
+              ]
+            },
+            {
+              "label": "客队对攻胜",
+              "chance": 16,
+              "examples": [
+                "1-3",
+                "2-3",
+                "2-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "开放对攻",
+              "chance": 43,
+              "examples": [
+                "2-2",
+                "1-3",
+                "2-3"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 40,
+              "examples": [
+                "1-1",
+                "1-2",
+                "0-2"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 41,
+              "examples": [
+                "1-3",
+                "0-2",
+                "0-3"
+              ]
+            }
+          ],
+          "marketProbabilities": [
+            24,
+            26,
+            50
+          ]
+        },
         {
           "id": "esp-bel-98",
           "match": "西班牙 vs 比利时",
@@ -122584,7 +123086,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 41,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122601,7 +123103,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 11,
+              "chance": 13,
               "examples": [
                 "1-0",
                 "2-1",
@@ -122612,7 +123114,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 78,
+              "chance": 74,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122630,7 +123132,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 41,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122683,7 +123185,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 31,
+              "chance": 34,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122691,19 +123193,19 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队小胜",
+              "label": "主队大胜",
               "chance": 10,
               "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
+                "3-0",
+                "4-0",
+                "4-1"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 79,
+              "chance": 81,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122712,7 +123214,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 52,
+              "chance": 50,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122766,7 +123268,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 23,
+              "chance": 21,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122794,7 +123296,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 46,
+              "chance": 43,
               "examples": [
                 "1-1",
                 "2-1",
@@ -122802,21 +123304,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "开放对攻",
+              "chance": 39,
+              "examples": [
+                "2-2",
+                "3-1",
+                "3-2"
+              ]
+            },
+            {
               "label": "主队胜出覆盖",
-              "chance": 52,
+              "chance": 50,
               "examples": [
                 "2-1",
                 "2-0",
                 "3-1"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
               ]
             }
           ],
@@ -122858,7 +123360,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 27,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122867,7 +123369,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 22,
+              "chance": 21,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122875,7 +123377,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 15,
+              "chance": 16,
               "examples": [
                 "3-0",
                 "4-1",
@@ -122886,7 +123388,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 56,
+              "chance": 54,
               "examples": [
                 "1-1",
                 "2-1",
@@ -122895,7 +123397,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 53,
+              "chance": 54,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122904,7 +123406,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 35,
+              "chance": 36,
               "examples": [
                 "2-0",
                 "3-1",
@@ -122925,12 +123427,12 @@ window.ANALYSIS_BACKTEST = {
       "label": "历史回放基准",
       "note": "未赛前锁定，按当前模型回放，只用于调参参考",
       "sampleCount": 32,
-      "outcomeHitRate": 47,
-      "topScoreCoverage": 50,
-      "scoreBandCoverage": 75,
-      "scoreScenarioCoverage": 78,
-      "averageBrier": 0.5633,
-      "averageLogLoss": 0.9156,
+      "outcomeHitRate": 50,
+      "topScoreCoverage": 47,
+      "scoreBandCoverage": 69,
+      "scoreScenarioCoverage": 84,
+      "averageBrier": 0.5578,
+      "averageLogLoss": 0.91,
       "lockedCount": 0,
       "rows": [
         {
@@ -122952,20 +123454,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.9374,
-          "logLoss": 1.5606,
+          "confidence": 68,
+          "brier": 0.965,
+          "logLoss": 1.6094,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
-            42,
-            21
+            35,
+            45,
+            20
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 35,
+              "chance": 40,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122973,7 +123475,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 23,
+              "chance": 24,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122982,7 +123484,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 15,
+              "chance": 16,
               "examples": [
                 "0-1",
                 "1-2",
@@ -122993,7 +123495,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 62,
+              "chance": 68,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123002,7 +123504,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 51,
+              "chance": 57,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123011,7 +123513,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 35,
+              "chance": 40,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123039,14 +123541,14 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 78,
-          "brier": 0.1746,
-          "logLoss": 0.4005,
+          "confidence": 76,
+          "brier": 0.1634,
+          "logLoss": 0.3857,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            67,
-            24,
+            68,
+            23,
             9
           ],
           "scoreBands": [
@@ -123061,7 +123563,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 23,
+              "chance": 24,
               "examples": [
                 "3-0",
                 "4-0",
@@ -123070,7 +123572,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 20,
+              "chance": 19,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123080,7 +123582,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 63,
+              "chance": 62,
               "examples": [
                 "2-0",
                 "1-0",
@@ -123089,7 +123591,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 67,
+              "chance": 68,
               "examples": [
                 "2-0",
                 "1-0",
@@ -123098,7 +123600,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 47,
+              "chance": 48,
               "examples": [
                 "2-0",
                 "3-0",
@@ -123127,15 +123629,15 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 69,
-          "brier": 0.4712,
-          "logLoss": 0.7765,
+          "confidence": 66,
+          "brier": 0.5042,
+          "logLoss": 0.821,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            14,
-            40,
-            46
+            15,
+            41,
+            44
           ],
           "scoreBands": [
             {
@@ -123148,7 +123650,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 27,
+              "chance": 26,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123157,7 +123659,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队大胜",
-              "chance": 12,
+              "chance": 11,
               "examples": [
                 "0-3",
                 "0-4",
@@ -123177,7 +123679,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 45,
+              "chance": 47,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123186,7 +123688,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队胜出覆盖",
-              "chance": 46,
+              "chance": 44,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123228,7 +123730,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 29,
+              "chance": 30,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123256,7 +123758,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 52,
+              "chance": 53,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123296,39 +123798,39 @@ window.ANALYSIS_BACKTEST = {
           "modelVersionLabel": "历史回放基准",
           "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
           "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
           "actualScore": "1-0",
           "actualScoreBand": "主队小胜",
-          "topScoreHit": false,
+          "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.3942,
-          "logLoss": 0.7133,
+          "confidence": 63,
+          "brier": 0.6008,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            49,
-            30,
-            21
+            38,
+            42,
+            20
           ],
           "scoreBands": [
             {
-              "label": "主队小胜",
-              "chance": 26,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
               "label": "低比分平局",
-              "chance": 23,
+              "chance": 34,
               "examples": [
                 "1-1",
                 "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
               ]
             },
             {
@@ -123344,29 +123846,29 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 54,
+              "chance": 59,
               "examples": [
                 "1-1",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 49,
-              "examples": [
-                "2-1",
-                "2-0",
+                "0-0",
                 "1-0"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 37,
+              "chance": 49,
               "examples": [
                 "1-1",
                 "0-0",
                 "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
               ]
             }
           ],
@@ -123391,20 +123893,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 66,
-          "brier": 0.5624,
-          "logLoss": 0.8675,
+          "confidence": 64,
+          "brier": 0.5352,
+          "logLoss": 0.821,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            42,
+            44,
             46,
-            12
+            10
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123412,7 +123914,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 30,
+              "chance": 32,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123421,7 +123923,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 11,
+              "chance": 9,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123432,7 +123934,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 77,
+              "chance": 81,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123441,7 +123943,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 54,
+              "chance": 53,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123450,7 +123952,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123476,22 +123978,22 @@ window.ANALYSIS_BACKTEST = {
           "actualScore": "4-1",
           "actualScoreBand": "主队大胜",
           "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 72,
-          "brier": 0.4344,
-          "logLoss": 0.734,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 67,
+          "brier": 0.4958,
+          "logLoss": 0.7985,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            48,
-            38,
-            14
+            45,
+            42,
+            13
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 31,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123499,49 +124001,48 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 26,
+              "chance": 29,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "2-1"
               ]
             },
             {
-              "label": "主队大胜",
-              "chance": 14,
+              "label": "客队小胜",
+              "chance": 11,
               "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
+                "0-1",
+                "1-2",
+                "0-2"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 63,
+              "chance": 71,
               "examples": [
                 "1-1",
                 "0-0",
-                "2-0"
+                "1-0"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 42,
+              "chance": 48,
               "examples": [
                 "1-1",
                 "0-0",
-                "1-2"
+                "0-1"
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 48,
+              "label": "低比分平局",
+              "chance": 37,
               "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -123566,28 +124067,28 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5208,
-          "logLoss": 0.8675,
+          "confidence": 62,
+          "brier": 0.5498,
+          "logLoss": 0.9163,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            38,
-            42,
-            20
+            37,
+            40,
+            23
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 38,
+              "chance": 36,
               "examples": [
-                "0-0",
-                "1-1"
+                "1-1",
+                "0-0"
               ]
             },
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 27,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123596,7 +124097,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 18,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123607,10 +124108,10 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 70,
+              "chance": 66,
               "examples": [
-                "0-0",
                 "1-1",
+                "0-0",
                 "1-0"
               ]
             },
@@ -123618,17 +124119,17 @@ window.ANALYSIS_BACKTEST = {
               "label": "客队不败低比分",
               "chance": 55,
               "examples": [
-                "0-0",
                 "1-1",
+                "0-0",
                 "0-1"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 38,
+              "chance": 36,
               "examples": [
-                "0-0",
-                "1-1"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -123652,38 +124153,38 @@ window.ANALYSIS_BACKTEST = {
           "actualScoreBand": "客队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 68,
-          "brier": 0.4824,
-          "logLoss": 0.7765,
+          "scoreScenarioHit": true,
+          "confidence": 78,
+          "brier": 0.2562,
+          "logLoss": 0.5108,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            12,
-            42,
-            46
+            11,
+            29,
+            60
           ],
           "scoreBands": [
             {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
               "label": "客队小胜",
-              "chance": 30,
+              "chance": 35,
               "examples": [
-                "0-1",
                 "0-2",
+                "0-1",
                 "1-2"
               ]
             },
             {
+              "label": "低比分平局",
+              "chance": 25,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
               "label": "客队大胜",
-              "chance": 11,
+              "chance": 17,
               "examples": [
                 "0-3",
                 "0-4",
@@ -123694,28 +124195,29 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 74,
+              "chance": 68,
               "examples": [
-                "0-0",
                 "1-1",
+                "0-2",
                 "0-1"
               ]
             },
             {
-              "label": "主队不败低比分",
-              "chance": 49,
+              "label": "客队胜出覆盖",
+              "chance": 60,
               "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
+                "0-2",
+                "0-1",
+                "1-2"
               ]
             },
             {
-              "label": "低比分平局",
+              "label": "客队优势胜",
               "chance": 38,
               "examples": [
-                "0-0",
-                "1-1"
+                "0-2",
+                "0-3",
+                "1-3"
               ]
             }
           ],
@@ -123737,23 +124239,23 @@ window.ANALYSIS_BACKTEST = {
           "outcomeHit": false,
           "actualScore": "1-0",
           "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
+          "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.9608,
-          "logLoss": 1.6094,
+          "confidence": 65,
+          "brier": 0.9854,
+          "logLoss": 1.6607,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            20,
-            42,
+            19,
+            43,
             38
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 39,
+              "chance": 40,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123770,7 +124272,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 17,
+              "chance": 16,
               "examples": [
                 "1-0",
                 "2-1",
@@ -123781,7 +124283,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 72,
+              "chance": 73,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123799,7 +124301,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 39,
+              "chance": 40,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123820,44 +124322,44 @@ window.ANALYSIS_BACKTEST = {
           "modelVersionLabel": "历史回放基准",
           "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
           "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
           "actualScore": "4-2",
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 0.6344,
-          "logLoss": 1.0217,
+          "confidence": 76,
+          "brier": 0.38,
+          "logLoss": 0.6931,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            36,
-            42,
-            22
+            50,
+            30,
+            20
           ],
           "scoreBands": [
             {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
               "label": "低比分平局",
-              "chance": 33,
+              "chance": 23,
               "examples": [
                 "1-1",
                 "0-0"
               ]
             },
             {
-              "label": "主队小胜",
-              "chance": 21,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
-            },
-            {
               "label": "客队小胜",
-              "chance": 15,
+              "chance": 13,
               "examples": [
                 "1-2",
                 "0-1",
@@ -123868,29 +124370,29 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 58,
+              "chance": 55,
               "examples": [
                 "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 49,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
+                "2-1",
+                "2-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 36,
+              "chance": 50,
               "examples": [
                 "2-1",
-                "1-0",
-                "2-0"
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
               ]
             }
           ],
@@ -123916,14 +124418,14 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.8666,
-          "logLoss": 1.2379,
+          "brier": 0.9294,
+          "logLoss": 1.3093,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            59,
-            29,
-            12
+            62,
+            27,
+            11
           ],
           "scoreBands": [
             {
@@ -123937,7 +124439,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 25,
+              "chance": 23,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123945,7 +124447,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 16,
+              "chance": 19,
               "examples": [
                 "3-0",
                 "4-0",
@@ -123956,16 +124458,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 67,
+              "chance": 65,
               "examples": [
-                "1-1",
                 "2-0",
+                "1-1",
                 "1-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 59,
+              "chance": 62,
               "examples": [
                 "2-0",
                 "1-0",
@@ -123974,7 +124476,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 37,
+              "chance": 41,
               "examples": [
                 "2-0",
                 "3-0",
@@ -124016,7 +124518,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124062,7 +124564,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 39,
+              "chance": 38,
               "examples": [
                 "2-0",
                 "3-0",
@@ -124092,19 +124594,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.2798,
-          "logLoss": 0.5621,
+          "brier": 0.2936,
+          "logLoss": 0.5798,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            57,
-            25,
+            56,
+            26,
             18
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 23,
+              "chance": 24,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124112,27 +124614,27 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "低比分平局",
+              "chance": 18,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
               "label": "主队大胜",
-              "chance": 19,
+              "chance": 18,
               "examples": [
                 "3-0",
                 "4-1",
                 "4-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 16,
-              "examples": [
-                "1-1",
-                "0-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 45,
+              "chance": 48,
               "examples": [
                 "1-1",
                 "2-1",
@@ -124140,21 +124642,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队优势胜",
-              "chance": 42,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
-              ]
-            },
-            {
               "label": "主队胜出覆盖",
-              "chance": 57,
+              "chance": 56,
               "examples": [
                 "2-1",
                 "2-0",
                 "3-1"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 40,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
               ]
             }
           ],
@@ -124179,20 +124681,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": false,
-          "confidence": 67,
-          "brier": 0.4958,
-          "logLoss": 0.7985,
+          "confidence": 64,
+          "brier": 0.5096,
+          "logLoss": 0.821,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            13,
+            14,
             42,
-            45
+            44
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 36,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124200,7 +124702,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 29,
+              "chance": 27,
               "examples": [
                 "0-1",
                 "0-2",
@@ -124220,7 +124722,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 71,
+              "chance": 69,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124238,7 +124740,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 36,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124264,17 +124766,17 @@ window.ANALYSIS_BACKTEST = {
           "actualScore": "3-1",
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": true,
-          "scoreBandHit": true,
+          "scoreBandHit": false,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.2198,
-          "logLoss": 0.478,
+          "brier": 0.2094,
+          "logLoss": 0.462,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            62,
+            63,
             23,
-            15
+            14
           ],
           "scoreBands": [
             {
@@ -124288,7 +124790,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 23,
+              "chance": 24,
               "examples": [
                 "3-0",
                 "4-1",
@@ -124296,19 +124798,18 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队对攻胜",
-              "chance": 16,
+              "label": "低比分平局",
+              "chance": 15,
               "examples": [
-                "3-1",
-                "3-2",
-                "4-2"
+                "1-1",
+                "0-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队优势胜",
-              "chance": 47,
+              "chance": 48,
               "examples": [
                 "2-0",
                 "3-1",
@@ -124317,7 +124818,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 45,
+              "chance": 46,
               "examples": [
                 "1-1",
                 "2-1",
@@ -124326,7 +124827,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 62,
+              "chance": 63,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124356,19 +124857,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": false,
           "confidence": 76,
-          "brier": 0.8862,
-          "logLoss": 1.2379,
+          "brier": 0.8442,
+          "logLoss": 1.1712,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            61,
-            29,
-            10
+            60,
+            31,
+            9
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 37,
+              "chance": 40,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124377,7 +124878,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 26,
+              "chance": 29,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124385,7 +124886,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 17,
+              "chance": 15,
               "examples": [
                 "3-0",
                 "4-0",
@@ -124396,16 +124897,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 71,
+              "chance": 77,
               "examples": [
                 "1-0",
-                "2-0",
-                "0-0"
+                "0-0",
+                "2-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 61,
+              "chance": 60,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124414,7 +124915,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 38,
+              "chance": 35,
               "examples": [
                 "2-0",
                 "3-0",
@@ -124531,19 +125032,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.8678,
+          "brier": 0.8754,
           "logLoss": 1.3093,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            55,
+            56,
             27,
-            18
+            17
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 25,
+              "chance": 26,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124580,7 +125081,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 55,
+              "chance": 56,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124589,7 +125090,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "2-0",
                 "3-1",
@@ -124615,362 +125116,12 @@ window.ANALYSIS_BACKTEST = {
           "outcomeHit": false,
           "actualScore": "0-0",
           "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
+          "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 78,
-          "brier": 0.9782,
-          "logLoss": 1.3471,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            65,
-            26,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 36,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 22,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 21,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 68,
-              "examples": [
-                "2-0",
-                "1-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 65,
-              "examples": [
-                "2-0",
-                "1-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 43,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "swe-tun-32",
-          "match": "瑞典 vs 突尼斯",
-          "date": "2026-06-15",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-15T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "5-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 64,
-          "brier": 0.6632,
-          "logLoss": 1.0788,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            34,
-            40,
-            26
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 25,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 20,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 63,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 57,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "civ-ecu-26",
-          "match": "科特迪瓦 vs 厄瓜多尔",
-          "date": "2026-06-15",
-          "kickoffTime": "07:00",
-          "kickoff": "2026-06-14T23:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 60,
-          "brier": 0.6362,
-          "logLoss": 1.0498,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            35,
-            36,
-            29
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 29,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 23,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 19,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 55,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 51,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 35,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ned-jpn-31",
-          "match": "荷兰 vs 日本",
-          "date": "2026-06-15",
-          "kickoffTime": "04:00",
-          "kickoff": "2026-06-14T20:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "2-2",
-          "actualScoreBand": "高比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.5582,
-          "logLoss": 0.9416,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            30,
-            39,
-            31
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 30,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 19,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 18,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 51,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 50,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 30,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ger-cuw-25",
-          "match": "德国 vs 库拉索",
-          "date": "2026-06-15",
-          "kickoffTime": "01:00",
-          "kickoff": "2026-06-14T17:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "7-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.1746,
-          "logLoss": 0.4005,
+          "brier": 1.0346,
+          "logLoss": 1.4271,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
@@ -124981,7 +125132,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 34,
+              "chance": 35,
               "examples": [
                 "2-0",
                 "1-0",
@@ -125009,7 +125160,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 64,
+              "chance": 65,
               "examples": [
                 "2-0",
                 "1-0",
@@ -125038,11 +125189,11 @@ window.ANALYSIS_BACKTEST = {
           "marketProbabilities": null
         },
         {
-          "id": "aus-tur-20",
-          "match": "澳大利亚 vs 土耳其",
-          "date": "2026-06-14",
-          "kickoffTime": "12:00",
-          "kickoff": "2026-06-14T04:00:00.000Z",
+          "id": "swe-tun-32",
+          "match": "瑞典 vs 突尼斯",
+          "date": "2026-06-15",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-15T02:00:00.000Z",
           "predictionSource": "current-model",
           "lockedAt": null,
           "modelVersion": "retro",
@@ -125051,534 +125202,10 @@ window.ANALYSIS_BACKTEST = {
           "actualOutcome": "主胜",
           "predictedOutcome": "平局",
           "outcomeHit": false,
-          "actualScore": "2-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.7602,
-          "logLoss": 1.2379,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            29,
-            40,
-            31
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 31,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 19,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 19,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 53,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 52,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 31,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "hai-sco-14",
-          "match": "海地 vs 苏格兰",
-          "date": "2026-06-14",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-14T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "0-1",
-          "actualScoreBand": "客队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.5624,
-          "logLoss": 0.8675,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            12,
-            46,
-            42
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 30,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 10,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 77,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 53,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "bra-mar-13",
-          "match": "巴西 vs 摩洛哥",
-          "date": "2026-06-14",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-13T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5958,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            30,
-            37,
-            33
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 24,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "1-2",
-                "0-2",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 14,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 42,
-              "examples": [
-                "1-1",
-                "1-2",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 40,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "开放对攻",
-              "chance": 39,
-              "examples": [
-                "2-2",
-                "1-3",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "qat-sui-8",
-          "match": "卡塔尔 vs 瑞士",
-          "date": "2026-06-14",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-13T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "客胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 65,
-          "brier": 0.5282,
-          "logLoss": 0.821,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            11,
-            44,
-            45
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 32,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "客队大胜",
-              "chance": 10,
-              "examples": [
-                "0-3",
-                "0-4",
-                "1-4"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 79,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 51,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "usa-par-19",
-          "match": "美国 vs 巴拉圭",
-          "date": "2026-06-13",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-13T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "4-1",
+          "actualScore": "5-1",
           "actualScoreBand": "主队大胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 67,
-          "brier": 0.6054,
-          "logLoss": 0.9676,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            38,
-            43,
-            19
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 36,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 23,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 14,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 63,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 51,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 36,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "can-bih-7",
-          "match": "加拿大 vs 波黑",
-          "date": "2026-06-13",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-12T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 69,
-          "brier": 0.6048,
-          "logLoss": 0.9163,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            48,
-            40,
-            12
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 29,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 13,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 70,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 45,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 48,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "kor-cze-2",
-          "match": "韩国 vs 捷克",
-          "date": "2026-06-12",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-12T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "2-1",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 62,
           "brier": 0.5928,
@@ -125638,8 +125265,885 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "主队胜出覆盖",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "civ-ecu-26",
+          "match": "科特迪瓦 vs 厄瓜多尔",
+          "date": "2026-06-15",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-14T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 60,
+          "brier": 0.6194,
+          "logLoss": 1.0217,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            36,
+            37,
+            27
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 31,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 24,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 19,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 59,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 52,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 36,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ned-jpn-31",
+          "match": "荷兰 vs 日本",
+          "date": "2026-06-15",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-14T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 62,
+          "brier": 0.5954,
+          "logLoss": 0.9943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            32,
+            37,
+            31
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 28,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 19,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 32,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ger-cuw-25",
+          "match": "德国 vs 库拉索",
+          "date": "2026-06-15",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-14T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "7-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.1862,
+          "logLoss": 0.4155,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            66,
+            25,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 36,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 22,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 21,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 66,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 66,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 45,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "aus-tur-20",
+          "match": "澳大利亚 vs 土耳其",
+          "date": "2026-06-14",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-14T04:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 0.7368,
+          "logLoss": 1.204,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            30,
+            38,
+            32
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 30,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 19,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 19,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 52,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 51,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 32,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "hai-sco-14",
+          "match": "海地 vs 苏格兰",
+          "date": "2026-06-14",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-14T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.5766,
+          "logLoss": 0.8916,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            13,
+            46,
+            41
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 31,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 12,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 78,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 55,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bra-mar-13",
+          "match": "巴西 vs 摩洛哥",
+          "date": "2026-06-14",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-13T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 65,
+          "brier": 0.5774,
+          "logLoss": 0.9676,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            29,
+            38,
+            33
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 26,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 17,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 15,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 46,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 44,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "开放对攻",
+              "chance": 34,
+              "examples": [
+                "2-2",
+                "1-3",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "qat-sui-8",
+          "match": "卡塔尔 vs 瑞士",
+          "date": "2026-06-14",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-13T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 68,
+          "brier": 0.4766,
+          "logLoss": 0.7765,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            13,
+            46,
+            41
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 11,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 77,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 55,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "usa-par-19",
+          "match": "美国 vs 巴拉圭",
+          "date": "2026-06-13",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-13T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.6008,
+          "logLoss": 0.9676,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            38,
+            42,
+            20
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 24,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 15,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 63,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 51,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "can-bih-7",
+          "match": "加拿大 vs 波黑",
+          "date": "2026-06-13",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-12T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.5496,
+          "logLoss": 0.8675,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            44,
+            42,
+            14
+          ],
+          "scoreBands": [
+            {
               "label": "低比分平局",
               "chance": 36,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 11,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 69,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 36,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "kor-cze-2",
+          "match": "韩国 vs 捷克",
+          "date": "2026-06-12",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-12T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-1",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.6306,
+          "logLoss": 1.0217,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            36,
+            41,
+            23
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 19,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 67,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 57,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
               "examples": [
                 "0-0",
                 "1-1"
@@ -125667,7 +126171,7 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 78,
+          "confidence": 75,
           "brier": 0.1862,
           "logLoss": 0.4155,
           "marketOutcome": "",
@@ -125748,9 +126252,9 @@ window.ANALYSIS_BACKTEST = {
     },
     {
       "outcome": "平局",
-      "actualCount": 26,
-      "hitCount": 6,
-      "hitRate": 23
+      "actualCount": 28,
+      "hitCount": 7,
+      "hitRate": 25
     },
     {
       "outcome": "客胜",
@@ -125762,15 +126266,15 @@ window.ANALYSIS_BACKTEST = {
   "predictedBreakdown": [
     {
       "outcome": "主胜",
-      "predictedCount": 48,
+      "predictedCount": 49,
       "hitCount": 33,
-      "precision": 69
+      "precision": 67
     },
     {
       "outcome": "平局",
-      "predictedCount": 21,
-      "hitCount": 6,
-      "precision": 29
+      "predictedCount": 22,
+      "hitCount": 7,
+      "precision": 32
     },
     {
       "outcome": "客胜",
@@ -125782,15 +126286,15 @@ window.ANALYSIS_BACKTEST = {
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 15,
-      "hitRate": 47,
-      "averageBrier": 0.6581
+      "count": 18,
+      "hitRate": 44,
+      "averageBrier": 0.6047
     },
     {
       "label": "中信心",
-      "count": 82,
+      "count": 81,
       "hitRate": 65,
-      "averageBrier": 0.4728
+      "averageBrier": 0.4869
     },
     {
       "label": "高信心",
@@ -125799,9 +126303,195 @@ window.ANALYSIS_BACKTEST = {
       "averageBrier": 1.1778
     }
   ],
-  "marketComparableCount": 66,
-  "marketHitRate": 70,
+  "marketComparableCount": 68,
+  "marketHitRate": 68,
   "rows": [
+    {
+      "id": "arg-sui-100",
+      "match": "阿根廷 vs 瑞士",
+      "date": "2026-07-12",
+      "kickoffTime": "09:00",
+      "kickoff": "2026-07-12T01:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-07-09T10:28:56.310Z",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "modelVersionNote": "赛前锁定样本",
+      "actualOutcome": "平局",
+      "predictedOutcome": "主胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": false,
+      "scoreScenarioHit": false,
+      "confidence": 78,
+      "brier": 0.9546,
+      "logLoss": 1.4271,
+      "marketOutcome": "主胜",
+      "marketHit": false,
+      "probabilities": [
+        59,
+        24,
+        17
+      ],
+      "scoreBands": [
+        {
+          "label": "主队大胜",
+          "chance": 24,
+          "examples": [
+            "3-0",
+            "4-1",
+            "4-0"
+          ]
+        },
+        {
+          "label": "主队对攻胜",
+          "chance": 19,
+          "examples": [
+            "3-1",
+            "3-2",
+            "4-2"
+          ]
+        },
+        {
+          "label": "主队小胜",
+          "chance": 16,
+          "examples": [
+            "2-1",
+            "2-0",
+            "1-0"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "开放对攻",
+          "chance": 52,
+          "examples": [
+            "2-2",
+            "3-1",
+            "3-2"
+          ]
+        },
+        {
+          "label": "主队优势胜",
+          "chance": 48,
+          "examples": [
+            "3-1",
+            "2-0",
+            "3-2"
+          ]
+        },
+        {
+          "label": "主队胜出覆盖",
+          "chance": 59,
+          "examples": [
+            "2-1",
+            "3-1",
+            "2-0"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        56,
+        27,
+        17
+      ]
+    },
+    {
+      "id": "nor-eng-99",
+      "match": "挪威 vs 英格兰",
+      "date": "2026-07-12",
+      "kickoffTime": "05:00",
+      "kickoff": "2026-07-11T21:00:00.000Z",
+      "predictionSource": "locked-pre-match",
+      "lockedAt": "2026-07-07T10:29:43.909Z",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "modelVersionNote": "赛前锁定样本",
+      "actualOutcome": "平局",
+      "predictedOutcome": "客胜",
+      "outcomeHit": false,
+      "actualScore": "1-1",
+      "actualScoreBand": "低比分平局",
+      "topScoreHit": true,
+      "scoreBandHit": false,
+      "scoreScenarioHit": true,
+      "confidence": 76,
+      "brier": 0.8982,
+      "logLoss": 1.3863,
+      "marketOutcome": "客胜",
+      "marketHit": false,
+      "probabilities": [
+        21,
+        25,
+        54
+      ],
+      "scoreBands": [
+        {
+          "label": "客队小胜",
+          "chance": 20,
+          "examples": [
+            "1-2",
+            "0-2",
+            "0-1"
+          ]
+        },
+        {
+          "label": "客队大胜",
+          "chance": 19,
+          "examples": [
+            "0-3",
+            "1-4",
+            "0-4"
+          ]
+        },
+        {
+          "label": "客队对攻胜",
+          "chance": 16,
+          "examples": [
+            "1-3",
+            "2-3",
+            "2-4"
+          ]
+        }
+      ],
+      "scoreScenarios": [
+        {
+          "label": "开放对攻",
+          "chance": 43,
+          "examples": [
+            "2-2",
+            "1-3",
+            "2-3"
+          ]
+        },
+        {
+          "label": "客队不败低比分",
+          "chance": 40,
+          "examples": [
+            "1-1",
+            "1-2",
+            "0-2"
+          ]
+        },
+        {
+          "label": "客队优势胜",
+          "chance": 41,
+          "examples": [
+            "1-3",
+            "0-2",
+            "0-3"
+          ]
+        }
+      ],
+      "marketProbabilities": [
+        24,
+        26,
+        50
+      ]
+    },
     {
       "id": "esp-bel-98",
       "match": "西班牙 vs 比利时",
@@ -128942,188 +129632,6 @@ window.ANALYSIS_BACKTEST = {
         8,
         15,
         77
-      ]
-    },
-    {
-      "id": "cpv-ksa-47",
-      "match": "佛得角 vs 沙特阿拉伯",
-      "date": "2026-06-27",
-      "kickoffTime": "08:00",
-      "kickoff": "2026-06-27T00:00:00.000Z",
-      "predictionSource": "locked-pre-match",
-      "lockedAt": "2026-06-21T08:46:18.598Z",
-      "modelVersion": "v3",
-      "modelVersionLabel": "第三版模型",
-      "modelVersionNote": "赛前锁定样本",
-      "actualOutcome": "平局",
-      "predictedOutcome": "平局",
-      "outcomeHit": true,
-      "actualScore": "0-0",
-      "actualScoreBand": "低比分平局",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 61,
-      "brier": 0.6146,
-      "logLoss": 1.0217,
-      "marketOutcome": "客胜",
-      "marketHit": false,
-      "probabilities": [
-        31,
-        36,
-        33
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 32,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 24,
-          "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 24,
-          "examples": [
-            "1-0",
-            "2-1",
-            "2-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 59,
-          "examples": [
-            "1-1",
-            "0-0",
-            "0-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 57,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 32,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "marketProbabilities": [
-        35,
-        26,
-        39
-      ]
-    },
-    {
-      "id": "uru-esp-48",
-      "match": "乌拉圭 vs 西班牙",
-      "date": "2026-06-27",
-      "kickoffTime": "08:00",
-      "kickoff": "2026-06-27T00:00:00.000Z",
-      "predictionSource": "locked-pre-match",
-      "lockedAt": "2026-06-21T08:46:18.598Z",
-      "modelVersion": "v3",
-      "modelVersionLabel": "第三版模型",
-      "modelVersionNote": "赛前锁定样本",
-      "actualOutcome": "客胜",
-      "predictedOutcome": "平局",
-      "outcomeHit": false,
-      "actualScore": "0-1",
-      "actualScoreBand": "客队小胜",
-      "topScoreHit": true,
-      "scoreBandHit": true,
-      "scoreScenarioHit": true,
-      "confidence": 66,
-      "brier": 0.585,
-      "logLoss": 0.9163,
-      "marketOutcome": "客胜",
-      "marketHit": true,
-      "probabilities": [
-        15,
-        45,
-        40
-      ],
-      "scoreBands": [
-        {
-          "label": "低比分平局",
-          "chance": 39,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        },
-        {
-          "label": "客队小胜",
-          "chance": 26,
-          "examples": [
-            "0-1",
-            "0-2",
-            "1-2"
-          ]
-        },
-        {
-          "label": "主队小胜",
-          "chance": 12,
-          "examples": [
-            "1-0",
-            "2-1",
-            "2-0"
-          ]
-        }
-      ],
-      "scoreScenarios": [
-        {
-          "label": "客队不败低比分",
-          "chance": 70,
-          "examples": [
-            "1-1",
-            "0-0",
-            "0-1"
-          ]
-        },
-        {
-          "label": "主队不败低比分",
-          "chance": 52,
-          "examples": [
-            "1-1",
-            "0-0",
-            "1-0"
-          ]
-        },
-        {
-          "label": "低比分平局",
-          "chance": 39,
-          "examples": [
-            "1-1",
-            "0-0"
-          ]
-        }
-      ],
-      "marketProbabilities": [
-        16,
-        23,
-        61
       ]
     }
   ],
