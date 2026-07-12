@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-07-12T09:29:29.113Z",
+  "updatedAt": "2026-07-12T09:59:03.100Z",
   "runDate": "2026-07-12",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-07-12T09:29:29.113Z",
+  "externalFetchedAt": "2026-07-12T09:59:03.100Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 2,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 56,
+  "expertArticleCount": 68,
   "expertArticleBodyCount": 1,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -572,7 +572,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -825,7 +825,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "South Africa World Cup midfielder Adams dies aged 25",
@@ -838,15 +838,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
           "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1082,9 +1088,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1480,7 +1486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2081,9 +2087,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2491,7 +2497,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2970,7 +2976,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3196,9 +3202,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3617,7 +3623,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4317,9 +4323,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -4741,7 +4747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5226,10 +5232,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-          "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT"
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -5458,9 +5464,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -5880,7 +5886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6092,7 +6098,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -6345,7 +6351,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
@@ -6364,9 +6370,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -6592,9 +6604,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -7002,7 +7014,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7689,9 +7701,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8088,7 +8100,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8580,7 +8592,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -8721,9 +8733,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9119,7 +9131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9599,7 +9611,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -9730,9 +9742,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -10139,7 +10151,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10827,9 +10839,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11226,7 +11238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11697,7 +11709,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -11828,9 +11840,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -12238,7 +12250,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12926,9 +12938,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13338,7 +13350,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13818,16 +13830,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13836,7 +13848,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -13970,9 +13982,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -14391,7 +14403,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14865,22 +14877,22 @@ window.MATCHES = [
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
-          "source": "ESPN",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         },
         {
-          "title": "Belgium Captain Youri Tielemans Out vs. Spain After Injury In Warmups - FOX Sports",
-          "source": "FOX Sports",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3lpRVpGT1M5Uy1BeWNhUnMtMmFzaUVxN0tvTS1xMkJ5c3JKTXBOVkEtZlBiQ0U5LVA5cVdaVlRvV1p6Mks5YnNjY3pXYzZMU1VRaThBUTBWNHVOSUpIaUU4M0RkSWZrTTRNYWMyN2RFS2ZnMkJ2eWRfbkxpM0REcktFWERQdHppcHZFU1IyTklOMEpXaVRpazZpWjN2UzhFSlQ1QUxJbHRyd9IBqgFBVV95cUxPZVpQa2tIaXhfSXhWOGNLSmZLWDY1V08zSm9MRHBSSXNmWWcwUERmVldOSHZlN2huUWNmenhiT2JSYldNRV81aTJVZllZOTZVZ3ItcFJtVUFyRUFsV0t0cU9hbHpQa0NhRVR1ek9uMFE3dUtrN1Q0aFN2UFZlTFpQdlA4YXRNYUFES0N4UkM3bkpWMEJxWHNyZVhfNER2SGh3ek1veDRxNGt2Zw?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 19:55:10 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -14889,7 +14901,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -15138,9 +15150,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -15547,7 +15559,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16234,9 +16246,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16644,7 +16656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17332,9 +17344,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17754,7 +17766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18228,6 +18240,12 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         },
         {
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
+        },
+        {
           "title": "Mbappé stunner ends Morocco resistance to send France into World Cup semi-finals",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/morocco-france-world-cup-quarter-final-match-report",
@@ -18238,12 +18256,6 @@ window.MATCHES = [
           "source": "FOX Sports",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFByV29LaS1EbUtNbUR4b0Y0d2Jkb0xzd3h3V0FYS1NoTjFIUmF1ZGd2R0JYcUJGaXd4NTBRZF9lenlNcmttMFp5WVdYdC04SzYxY0FfN3VQN2swT1plaFU2Slk4WEdFWkdjZXRIMHVZMmhOejFQNHhlVW1pa1NHRThNMldfRVNnRnJuRTYteVZJaWV3TWY3S2VCOVdVWU1vcUxFX0loWFFpN3BYMUFLc2hPb3pLSDBxWjVn0gG7AUFVX3lxTE1DcmduZ1FkQWs1TEZEMzIySTFUcElHOEUxYk9KakNjLUF0TnRnMFh4bk5BOVhMb3R0TkpNM1plZnZRNS0wcHNacjFHNDR0SWtoMTltS3o3NG0waTNISFF2V3V2eGtuTk9OZVpGWmYtdzd3R0sxV1huMnV1bU55eGFOTGQxQklWQ21ZeUdtVHhkU3RuQjVSN0xIWG1nNFlzMFNyN3JLMkhMUjMyRVdUbzU3MFIzTUszSm9iRnc?oc=5",
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
-        },
-        {
-          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -18510,9 +18522,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -18920,7 +18932,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19634,9 +19646,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20056,7 +20068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20554,7 +20566,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20783,9 +20795,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -21192,7 +21204,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21880,9 +21892,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22302,7 +22314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22773,7 +22785,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -23002,9 +23014,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -23423,7 +23435,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -24133,7 +24145,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -24150,7 +24162,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -24174,15 +24186,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -24590,7 +24602,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -25069,7 +25081,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -25295,9 +25307,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25717,7 +25729,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26203,7 +26215,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -26432,9 +26444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -26841,7 +26853,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27052,7 +27064,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -27305,7 +27317,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "South Africa World Cup midfielder Adams dies aged 25",
@@ -27318,15 +27330,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
           "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27552,9 +27570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27975,7 +27993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28460,10 +28478,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-          "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT"
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -28692,9 +28710,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -29102,7 +29120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29587,7 +29605,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29813,9 +29831,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -30211,7 +30229,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30823,9 +30841,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31246,7 +31264,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31738,7 +31756,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31977,9 +31995,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -32399,7 +32417,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -33099,9 +33117,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -33509,7 +33527,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33721,7 +33739,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -33974,7 +33992,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
@@ -33987,15 +34005,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -34221,9 +34245,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34619,7 +34643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -35220,9 +35244,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35630,7 +35654,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -36123,7 +36147,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -36349,9 +36373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36755,7 +36779,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -37257,7 +37281,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -37388,9 +37412,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37794,7 +37818,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -38286,7 +38310,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -38417,9 +38441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38834,7 +38858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39543,9 +39567,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39973,7 +39997,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40470,22 +40494,22 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
-        },
-        {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40494,7 +40518,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40723,9 +40747,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -41152,7 +41176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41649,22 +41673,22 @@ window.MATCHES = [
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
-          "source": "ESPN",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         },
         {
-          "title": "Belgium Captain Youri Tielemans Out vs. Spain After Injury In Warmups - FOX Sports",
-          "source": "FOX Sports",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3lpRVpGT1M5Uy1BeWNhUnMtMmFzaUVxN0tvTS1xMkJ5c3JKTXBOVkEtZlBiQ0U5LVA5cVdaVlRvV1p6Mks5YnNjY3pXYzZMU1VRaThBUTBWNHVOSUpIaUU4M0RkSWZrTTRNYWMyN2RFS2ZnMkJ2eWRfbkxpM0REcktFWERQdHppcHZFU1IyTklOMEpXaVRpazZpWjN2UzhFSlQ1QUxJbHRyd9IBqgFBVV95cUxPZVpQa2tIaXhfSXhWOGNLSmZLWDY1V08zSm9MRHBSSXNmWWcwUERmVldOSHZlN2huUWNmenhiT2JSYldNRV81aTJVZllZOTZVZ3ItcFJtVUFyRUFsV0t0cU9hbHpQa0NhRVR1ek9uMFE3dUtrN1Q0aFN2UFZlTFpQdlA4YXRNYUFES0N4UkM3bkpWMEJxWHNyZVhfNER2SGh3ek1veDRxNGt2Zw?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 19:55:10 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -41913,9 +41937,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -42320,7 +42344,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42945,9 +42969,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43363,7 +43387,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43857,7 +43881,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -44083,9 +44107,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -44512,7 +44536,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -45254,9 +45278,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -45685,7 +45709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -46189,16 +46213,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -46207,7 +46231,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -46465,9 +46489,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -46882,7 +46906,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -47630,9 +47654,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48049,7 +48073,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48760,9 +48784,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49190,7 +49214,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49684,7 +49708,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49913,9 +49937,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -50342,7 +50366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -51076,7 +51100,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -51093,7 +51117,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -51117,15 +51141,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -51541,7 +51565,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -52034,7 +52058,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -52260,9 +52284,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -52689,7 +52713,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -53418,9 +53442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -53850,7 +53874,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -54359,10 +54383,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-          "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT"
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -54371,7 +54395,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -54600,9 +54624,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -55017,7 +55041,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -55519,7 +55543,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -55745,9 +55769,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -56163,7 +56187,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56383,7 +56407,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -56651,7 +56675,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
@@ -56664,9 +56688,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -56889,9 +56919,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57319,7 +57349,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57822,7 +57852,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -58051,9 +58081,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -58468,7 +58498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58971,7 +59001,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -59197,9 +59227,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -59603,7 +59633,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59823,7 +59853,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -60091,7 +60121,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "South Africa World Cup midfielder Adams dies aged 25",
@@ -60104,9 +60134,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
           "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -60244,9 +60280,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -60640,7 +60676,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -61134,7 +61170,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -61165,9 +61201,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -61583,7 +61619,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -62304,9 +62340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62722,7 +62758,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -63433,9 +63469,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63851,7 +63887,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -64345,7 +64381,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -64571,9 +64607,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64989,7 +65025,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -65608,9 +65644,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -66026,7 +66062,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -66774,9 +66810,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67204,7 +67240,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67975,9 +68011,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -68393,7 +68429,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68890,10 +68926,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         },
         {
-          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -68902,7 +68938,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -69138,9 +69174,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69544,7 +69580,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -70046,7 +70082,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -70177,9 +70213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -70606,7 +70642,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -71102,22 +71138,22 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
-        },
-        {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -71346,9 +71382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -71764,7 +71800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -72258,7 +72294,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -72484,9 +72520,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72913,7 +72949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -73410,22 +73446,22 @@ window.MATCHES = [
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
-          "source": "ESPN",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         },
         {
-          "title": "Belgium Captain Youri Tielemans Out vs. Spain After Injury In Warmups - FOX Sports",
-          "source": "FOX Sports",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3lpRVpGT1M5Uy1BeWNhUnMtMmFzaUVxN0tvTS1xMkJ5c3JKTXBOVkEtZlBiQ0U5LVA5cVdaVlRvV1p6Mks5YnNjY3pXYzZMU1VRaThBUTBWNHVOSUpIaUU4M0RkSWZrTTRNYWMyN2RFS2ZnMkJ2eWRfbkxpM0REcktFWERQdHppcHZFU1IyTklOMEpXaVRpazZpWjN2UzhFSlQ1QUxJbHRyd9IBqgFBVV95cUxPZVpQa2tIaXhfSXhWOGNLSmZLWDY1V08zSm9MRHBSSXNmWWcwUERmVldOSHZlN2huUWNmenhiT2JSYldNRV81aTJVZllZOTZVZ3ItcFJtVUFyRUFsV0t0cU9hbHpQa0NhRVR1ek9uMFE3dUtrN1Q0aFN2UFZlTFpQdlA4YXRNYUFES0N4UkM3bkpWMEJxWHNyZVhfNER2SGh3ek1veDRxNGt2Zw?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 19:55:10 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -73434,7 +73470,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -73683,9 +73719,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -74112,7 +74148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -74846,7 +74882,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -74863,7 +74899,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -74887,15 +74923,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -75311,7 +75347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -75814,7 +75850,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -76040,9 +76076,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -76481,7 +76517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -77213,9 +77249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -77631,7 +77667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -78124,7 +78160,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -78350,9 +78386,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78767,7 +78803,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -79261,7 +79297,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -79487,9 +79523,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -79916,7 +79952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -80658,9 +80694,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -81076,7 +81112,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -81296,7 +81332,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -81564,7 +81600,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "South Africa World Cup midfielder Adams dies aged 25",
@@ -81577,9 +81613,15 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/11/south-africa-world-cup-midfielder-jayden-adams-dies-aged-25",
           "pubDate": "Sat, 11 Jul 2026 13:29:10 GMT"
+        },
+        {
+          "title": "South Africa's Adams, who played at WC, dies at 25...",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49333373/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-world-cup-appearance",
+          "pubDate": "Sun, 12 Jul 2026 03:22:33 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -81812,9 +81854,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82230,7 +82272,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -82451,7 +82493,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -82719,7 +82761,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Norway 1-2 England: World Cup quarter-final player ratings from Miami",
@@ -82732,15 +82774,21 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/04/colombia-ghana-world-cup-2026-last-32-match-report",
           "pubDate": "Sat, 04 Jul 2026 03:44:49 GMT"
+        },
+        {
+          "title": "Maldini, Leonardo hired for Italy team rebuild",
+          "source": "www.espn.com",
+          "link": "https://www.espn.com/soccer/story/_/id/49336670/italy-tap-paolo-maldini-leonardo-technical-director-advisor-roles",
+          "pubDate": "Sun, 12 Jul 2026 03:22:32 EST"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -82966,9 +83014,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -83383,7 +83431,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -84114,9 +84162,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84544,7 +84592,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -85268,9 +85316,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -85675,7 +85723,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -86318,9 +86366,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86748,7 +86796,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -87252,16 +87300,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -87519,9 +87567,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -87937,7 +87985,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -88440,7 +88488,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -88666,9 +88714,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -89095,7 +89143,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -89616,7 +89664,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -89837,7 +89885,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -89854,7 +89902,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -89878,15 +89926,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -90313,7 +90361,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -90811,22 +90859,22 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 07:25:09 GMT"
         },
         {
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
+        },
+        {
           "title": "Christian Pulisic suffered leg fracture in US loss to Belgium, out for several weeks",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/jul/09/christian-pulisic-injury-world-cup-usmnt",
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
-        },
-        {
-          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
-          "source": "ESPN",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -90835,7 +90883,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -91093,9 +91141,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -91522,7 +91570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -92237,9 +92285,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -92667,7 +92715,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -93165,22 +93213,22 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
-        },
-        {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -93409,9 +93457,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -93840,7 +93888,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -94334,7 +94382,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -94563,9 +94611,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -94994,7 +95042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -95503,10 +95551,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-          "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT"
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -95515,7 +95563,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -95744,9 +95792,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -96162,7 +96210,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -96905,9 +96953,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97324,7 +97372,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -97971,9 +98019,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -98401,7 +98449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -98910,7 +98958,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -99149,9 +99197,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -99578,7 +99626,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -100088,7 +100136,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -100317,9 +100365,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -100746,7 +100794,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -101256,10 +101304,10 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -101268,7 +101316,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -101526,9 +101574,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -101943,7 +101991,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -102682,9 +102730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103113,7 +103161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -103635,7 +103683,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -103856,7 +103904,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -103873,7 +103921,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -103897,15 +103945,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -104345,7 +104393,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -104842,22 +104890,22 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
-        },
-        {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -105089,9 +105137,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -105532,7 +105580,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -106030,22 +106078,22 @@ window.MATCHES = [
           "pubDate": "Thu, 09 Jul 2026 17:31:13 GMT"
         },
         {
-          "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 16:10:04 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Belgium's Courtois exits with injury before Spain winner - ESPN",
-          "source": "ESPN",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjlseGRJalZyYUNxeU42dFM2OEF5d29nRVp2TjZxQkdlVURqQ0x0YVVqaWNwUnRfd2hWLUdwaGxUSkZwWWFqbDNTOS0xQ29LSDgzM1FhT3pxYUN5OTcyT2pjNlYtM19VNWNwd3lwT3NqUUVNSW10RkZHLUJXVUxEUkd2SVdISHhycWFQZWZENHdfR1NrYnQzYnVZYlU5a3czRGxsWHlkMDdhcjR4eEgzZm1YMGg?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 20:46:00 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         },
         {
-          "title": "Belgium Captain Youri Tielemans Out vs. Spain After Injury In Warmups - FOX Sports",
-          "source": "FOX Sports",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3lpRVpGT1M5Uy1BeWNhUnMtMmFzaUVxN0tvTS1xMkJ5c3JKTXBOVkEtZlBiQ0U5LVA5cVdaVlRvV1p6Mks5YnNjY3pXYzZMU1VRaThBUTBWNHVOSUpIaUU4M0RkSWZrTTRNYWMyN2RFS2ZnMkJ2eWRfbkxpM0REcktFWERQdHppcHZFU1IyTklOMEpXaVRpazZpWjN2UzhFSlQ1QUxJbHRyd9IBqgFBVV95cUxPZVpQa2tIaXhfSXhWOGNLSmZLWDY1V08zSm9MRHBSSXNmWWcwUERmVldOSHZlN2huUWNmenhiT2JSYldNRV81aTJVZllZOTZVZ3ItcFJtVUFyRUFsV0t0cU9hbHpQa0NhRVR1ek9uMFE3dUtrN1Q0aFN2UFZlTFpQdlA4YXRNYUFES0N4UkM3bkpWMEJxWHNyZVhfNER2SGh3ek1veDRxNGt2Zw?oc=5",
-          "pubDate": "Fri, 10 Jul 2026 19:55:10 GMT"
+          "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+          "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -106054,7 +106102,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -106306,9 +106354,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -106735,7 +106783,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -107257,7 +107305,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -107486,9 +107534,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -107929,7 +107977,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -108438,10 +108486,10 @@ window.MATCHES = [
           "pubDate": "Sun, 12 Jul 2026 04:35:35 GMT"
         },
         {
-          "title": "World Cup 2026: England set up Argentina semi-final, Norway and Switzerland fume – live",
+          "title": "World Cup 2026: England set up Argentina semi, Norway and Switzerland fume, Senegal sack Thiaw – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/12/world-cup-2026-reaction-england-norway-argentina-switzerland-live",
-          "pubDate": "Sun, 12 Jul 2026 09:13:46 GMT"
+          "pubDate": "Sun, 12 Jul 2026 09:32:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108450,7 +108498,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -108702,9 +108750,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -109143,7 +109191,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -109647,16 +109695,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
+        },
+        {
           "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
           "source": "The Guardian",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
           "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
-        },
-        {
-          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -109926,9 +109974,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -110368,7 +110416,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -110580,7 +110628,7 @@ window.MATCHES = [
         "homeScore": 45,
         "awayScore": 45,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 4 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 4 条，客队 5 条。"
       },
       {
         "name": "赔率市场",
@@ -110828,7 +110876,7 @@ window.MATCHES = [
         "awayScore": 45,
         "goalLift": -0.14,
         "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 4 条。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 4 条，客队 5 条。"
       }
     },
     "marketSignals": {
@@ -110871,16 +110919,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "Will Spain keep finding a way? Re-ranking the World Cup teams with six games remaining - The Athletic - The New York Times",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjlkcFBrREZMNXFuUjJzbmU5X2hkWThQY3dsend4RlFSNVRkLXhHOGtleXhLd2p6U0JzZVlHV0NJOEpCN1FQcUlqTUhpazlqWDZIOGpDbjJsQ2pVcjFCT096WWdUM2RyY0M0T012Q0pQbi1tT3diZU5JZU5FcHV5UkpBbnhveEhndVZn?oc=5",
-          "pubDate": "Sun, 12 Jul 2026 06:51:39 GMT"
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -111115,6 +111163,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury - The Guardian",
+              "source": "The Guardian",
+              "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc0d4V0hSVnFvbmNHS1M3bTFOTTFuME12cTNHSkh5UmsySXZvS3llY28ycExvQmpCMFRPMHQ3NlFZUnBaaUl6SmZEeFBsOFJVM2tFa0g0S3BicUMyRnlJdVdxVnlrX2ZuVEZIZjJfZGRjeWVuVkNYdTZDeHlQUXA5UEdGWjRvdVJEQ29sYjBrMzFxQUV2cVdjbDRQckZ6c3VaMnA5MzdIMA?oc=5",
+              "pubDate": "Sun, 12 Jul 2026 01:30:00 GMT",
+              "description": "Merino puts Spain into World Cup semi-finals as Belgium rue costly Courtois injury &nbsp;&nbsp; The Guardian",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "Injured Belgium goalkeeper Thibaut Courtois leaves World Cup quarterfinal loss to Spain - AP News",
               "source": "AP News",
               "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdxTVN0MHl0MVVFRFNhNnNEQm4waWFXcXNISlNPaDVseGJXU2MxdTR4MnNTY01xaDM0UU9vZnpNOUM3a3JOZldlSmNOaUh4cmNPYVNpVy1LQXJpMm1ibXAzem9malI0ellJcnRXZVZHNFNpVWhVWGVSYkxFdkUxUXRKeGRST01acFpJUUhsdUM4MXU5V0NKMzhB?oc=5",
@@ -111155,13 +111212,22 @@ window.MATCHES = [
               "description": "Milan forward was subbed out in a 4-1 loss Pulisic had been criticized for his lack of availability Christian Pulisic suffered a microfracture and bone bruise in his leg in the United States’ 4-1 loss to Belgium in the World Cup last 16 on Monday, US Soccer announced. Pulisic suffered the injury in the second half in Seattle and was removed shortly afterward. He underwent X-ray and MRI scans on Tuesday to determine the extent of the injury, which is expected to keep Pulisic out for several weeks. US Soccer said the federation and Milan are working collaboratively on his rehab plan. Continue reading...",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
+              "source": "Reuters",
+              "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+              "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT",
+              "description": "Spain face toughest World Cup test against Belgium, coach says &nbsp;&nbsp; Reuters",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -111590,7 +111656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -112324,7 +112390,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             }
           ]
@@ -112341,7 +112407,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -112374,7 +112440,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cz75x4jgddpo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Sun, 12 Jul 2026 01:38:05 GMT",
               "description": "England are through to the World Cup semi-finals, but who would you pick in your starting XI?",
-              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 7 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card 0:27 Fans go wild as Bellingham scores England winner. 00:00:27, play video Fans go wild as Bellingham scores England winner Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time to set up England tie Live . World Cup 2026: England to renew Argentina rivalry - will Thr",
+              "bodyText": "& FAQs England Men's Scores & Fixtures World Cup: Knockout Path Pick your England XI for World Cup semi-final Image source, Getty Images Image caption, Declan Rice went off at half-time of the quarter-final win over Norway Published 8 hours ago England are through to the World Cup semi-finals, where they will play Argentina or Switzerland. The Three Lions beat Norway 2-1 to reach the last four, with Wednesday's match (20:00 BST) to be shown live on the BBC. Use our selector below to choose your starting XI. Who would you start for England at the World Cup? Select your best England XI for the World Cup Selected formation: 4-3-3 , Change formation Choose goalkeeper Choose right back Choose right centre back Choose left centre back Choose left back Choose right centre midfield Choose centre midfield Choose left centre midfield Choose right wing Choose strike Choose left wing Related topics Football England Men's Football Team FIFA World Cup 2026 More on this story When the World Cup finishes, the football continues on BBC Sport Published 1 day ago All your World Cup quizzes in one place England into semi-finals - what is their path to the final? Published 5 hours ago Shorts Previous Next 0:54 It was not a high-level game - Tuchel. 00:00:54, play video It was not a high-level game - Tuchel 0:56 'Pretty clear' ball hit wire - Norway boss. 00:00:56, play video 'Pretty clear' ball hit wire - Norway boss 0:39 Argentina fans react to facing England in semi-final. 00:00:39, play video Argentina fans react to facing England in semi-final 0:38 Did the aerial camera interfere with England's first goal? 00:00:38, play video Did the aerial camera interfere with England's first goal? 0:32 Tuchel doesn't know what it's like to face Haaland - Bellingham. 00:00:32, play video Tuchel doesn't know what it's like to face Haaland - Bellingham 0:31 'Look who's turned up!' 00:00:31, play video 'Look who's turned up!' 0:28 England fans react to Norway win. 00:00:28, play video England fans react to Norway win 0:31 Bellingham followed mum's advice to avoid yellow card. 00:00:31, play video Bellingham followed mum's advice to avoid yellow card Top stories Tuchel angry at 'lucky' England - but Bellingham defends players Published 6 hours ago Argentina beat 10-man Switzerland in extra time",
               "bodyError": ""
             },
             {
@@ -112389,9 +112455,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -112833,7 +112899,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -113039,7 +113105,7 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 48,
         "contribution": 0,
-        "evidence": "Kansas City：32.7°C / 降雨?% / 风速12.5km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
+        "evidence": "Kansas City：32.6°C / 降雨?% / 风速13km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       {
         "name": "临场新闻",
@@ -113356,15 +113422,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
-        "temperatureMax": 32.7,
+        "temperatureMax": 32.6,
         "temperatureMin": 20.8,
         "precipitationProbability": 0,
-        "windSpeedMax": 12.5,
+        "windSpeedMax": 13,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 20.8-32.7°C，降雨概率 0%，最大风速 12.5km/h。",
+        "text": "Kansas City 当日约 20.8-32.6°C，降雨概率 0%，最大风速 13km/h。",
         "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
@@ -113588,9 +113654,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -114029,7 +114095,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -114499,7 +114565,7 @@ window.MATCHES = [
       "eventId": "f9aa13a662d1658e5a02cfc06d6a2d73",
       "commenceTime": "2026-07-14T19:00:00Z",
       "snapshotFile": null,
-      "bookmakers": 49,
+      "bookmakers": 50,
       "averageOdds": {
         "home": 2.31,
         "draw": 3.23,
@@ -114511,7 +114577,7 @@ window.MATCHES = [
         29
       ],
       "marketFavorite": "法国",
-      "note": "已接入赔率市场，49 家公司均值：主 2.31 / 平 3.23 / 客 3.27。市场倾向 法国。"
+      "note": "已接入赔率市场，50 家公司均值：主 2.31 / 平 3.23 / 客 3.27。市场倾向 法国。"
     },
     "expertSignals": {
       "status": "connected",
@@ -114532,16 +114598,16 @@ window.MATCHES = [
           "pubDate": "Fri, 10 Jul 2026 23:53:31 GMT"
         },
         {
-          "title": "Spain full of belief as De la Fuente flags ‘high expectations’ for World Cup date with France - The Guardian",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTVN5T0VGTllZb2YtS3FhWXJHZl9VM3ZMN2EyZXBQaHFpQVFsQ3VKcnpGT1drWmhZa3E5QzQ4dHRWWEZWckFQRkZwOUlBMXowVFpnTl96OTZRcnBHMkQ2NzcyZU5naDZVWW50Z2tDNFJLQWRqc2Y1b2ZBalVrYXZFUlpHRTdrZVhDUDNiWWVvdjFHNlIwc081ZTVlWmRaM3R3LU1lQzBpcmptWWR4UTlUQkhZYUo4RU96MmN0Rjk4R0FzZVZENi1OM3NubzdzU0dOeWVoVXZDdw?oc=5",
-          "pubDate": "Sat, 11 Jul 2026 00:02:00 GMT"
+          "title": "Spain edges Belgium and will face France in World Cup semifinal - WXXI News",
+          "source": "WXXI News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcDlYcmp4Tmw3T1h6cXJTQTc0V1QtN0ZfZE9pMW4zWGF3RWVYWmV6OHU4QldZdmYtNUYtSlQyM0s1RjE5bkt4MUZ2Rm5lTnR2bFl4dlNtMy1LUlBBXzZadlJ2R1RiWTVOeUhpcnM1UTBfQ3NxQldlQlkwZjdqM1Z4OFpCSGhHcmp3ZnRBeFFsbnJGaUF4Qi1DYlhDRFgxNHlxX1lLaGtlU0M4WXlT?oc=5",
+          "pubDate": "Sat, 11 Jul 2026 06:58:00 GMT"
         },
         {
-          "title": "France are preparing for intense battle against cornered Iraq-Saliba - Reuters",
+          "title": "Spain face toughest World Cup test against Belgium, coach says - Reuters",
           "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkpWQzljUXNPOHc5UEx0T21ISWoyeHUxMGtNbFNac2tyYWJIaDVIUnpGQ2RxVTdaMHBCMzcxUE5VTVpMSWlCNFhWSm9OMzc2ejN3MVRUeUZ0bnpsd05yRVhudi1jNVJVcXhzNDFJZkp4cGlhZGQ0X2ItUXpKaDRoaHVONTZvYnpuaEpWX3FTVVg1OENWLXNDaGI0cXlLemRDNkIwRDJRMVp2cjJpdFc5UXNKWEM?oc=5",
-          "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVFIWFVZZ1RQLTdmTm1tNXZtSHcwZm1JeGRMWGxaQmlpN05NcGVsQmVPdW9tUjlfOG9ka3B6MUpTQmU2dzNDWEtlem15TEN6Y0duZU16S2Q0RHVfMWZMNjJfb042NkE4TWJIa3NFVDBUTEZ6NVJiQ1ZNQ09BQTZqQ0lYMkhtWmVxV3JKZENyMVJYSEpVNnZXR2g4OWFHczM3bDd0cmZQY194SDQ0WXNBRA?oc=5",
+          "pubDate": "Fri, 10 Jul 2026 07:25:44 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -114777,20 +114843,20 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
+              "title": "Kylian Mbappé Injury Update Before France’s World Cup Semi Vs. Spain - Forbes",
+              "source": "Forbes",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWl1clNLaDRKZVhmNFAxRTBaUGRwYU8tWHVaOW5RWklfWFdqM0J5Z0pRUVZTN0xZRmJYUG1oSThLSHNGU2IxM2RmdDFWaHItdTBucEI3a1oySzFxdjNYZE4wSHZ6SjJIMUlFLVloNFdqTHlHdnFBVWVNYVpsTmI0NlJoelVXY1dHQV95TEFxQktvSEZ4ek5QcFlMZUlUYU9CWUYtR2ZuWTZQcUY2YTMwelg0bzEyQWVvSTdBdnlB?oc=5",
+              "pubDate": "Sat, 11 Jul 2026 17:30:45 GMT",
+              "description": "Kylian Mbappé Injury Update Before France’s World Cup Semi Vs. Spain &nbsp;&nbsp; Forbes",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final - Yahoo Sports",
               "source": "Yahoo Sports",
               "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnk5LU40S21uekdfb3dFX1F1dXIyV1VWRE4wWElVM1pjWWpBbkU3MDlQT01GYTdWbUZkS2c5Q3RWWW1mTjdCYXM1QVpLTUZUYWJ0NXBaaUZHV3BoMDVYNGJ3MUJGdDd5RThJVnB4elI4TkVNSHJHNVhKU3ZwTXNRT05NR0ZUVmYtVkxYVDdfYw?oc=5",
               "pubDate": "Sat, 11 Jul 2026 20:00:00 GMT",
               "description": "William Saliba and Dayot Upamecano absent from France training ahead of World Cup semi-final &nbsp;&nbsp; Yahoo Sports",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "France injury update: Latest on Mbappé, Tchouaméni, Saliba and Upamecano ahead of Spain World Cup semifinal - Diario AS",
-              "source": "Diario AS",
-              "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQW1KcndKb1RRZDlYY3VuWXBwTFIzLXZGd0Fnbi1Vb19IZ0swX3RMMy1vU0hSbFRFelpnVmtQazdRUmdmTHV0YU4xenJ1aE1oLXhEdnNCb0h6WnpjZGs0Zkl4UmhQQUFZSVhGbE5CTUNzQ3Y0Y0Y1ejA3SEM1b2RJLUNLMDBVdHZ3aktHSFRNY1g2d0hLa1g1WUM3WUZrWUxrQVVqTm5vMXVjUkUzWlY0Zi1LaDJNZWo5UmprWjUyTlpOdVFjNm1uUW1XVHF0YlRxcW1sVlVxaFBOZHNmaHRKQjRUMk_SAfgBQVVfeXFMTTJ6OVozU0dVd2Z6MVlSb2o4ZFlCemczbWZDdl93VUFuY29RNDdDbEFJSDFiNlZYMEsxd0NmTWhGMjdkeFNSaC1DX3pQWWVDcWZramJSLUZjcHByZ3k3VWR2TTdqMEsyNzNmLXRiR216OURwQ2RIZ0k0TFB1dDlTYWtOc01RNk84MTh0VThFTzRZc3FiSnpiSWxoS3NzOFhSenUzR0dEUWcyUVdlZE1HSkU0N3VWTTdVaUlYM3hJYWY4VDluYlNmT2xETFVUNnZDWklDUVNqczFHS1FrVEVEYkRyd2tDdVNVYzBld2ZFdWJiVmgxLVhyZHg?oc=5",
-              "pubDate": "Sat, 11 Jul 2026 20:44:59 GMT",
-              "description": "France injury update: Latest on Mbappé, Tchouaméni, Saliba and Upamecano ahead of Spain World Cup semifinal &nbsp;&nbsp; Diario AS",
               "bodyText": "",
               "bodyError": ""
             }
@@ -114821,9 +114887,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -114855,7 +114921,7 @@ window.MATCHES = [
             "label": "赔率",
             "status": "verified",
             "source": "The Odds API",
-            "text": "已采集市场赔率，博彩公司数量 49。"
+            "text": "已采集市场赔率，博彩公司数量 50。"
           },
           {
             "key": "weather",
@@ -115114,7 +115180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "W99",
@@ -115535,7 +115601,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-12T09:29:29.113Z",
+        "fetchedAt": "2026-07-12T09:59:03.100Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 33.4,
@@ -115566,9 +115632,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -115860,7 +115926,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "L101",
@@ -116303,9 +116369,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -116598,7 +116664,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-12T09:29:29.113Z",
+      "fetchedAt": "2026-07-12T09:59:03.100Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "W101",
@@ -117041,9 +117107,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-12T09:29:29.113Z",
+      "updatedAt": "2026-07-12T09:59:03.100Z",
       "dataQuality": {
-        "updatedAt": "2026-07-12T09:29:29.113Z",
+        "updatedAt": "2026-07-12T09:59:03.100Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -117125,7 +117191,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-07-12T09:29:29.113Z",
+  "updatedAt": "2026-07-12T09:59:03.100Z",
   "completedCount": 100,
   "outcomeHitRate": 61,
   "highConfidenceCount": 1,
