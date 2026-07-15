@@ -1,7 +1,7 @@
 {
   "version": 1,
   "createdAt": "2026-06-20T15:04:11.154Z",
-  "updatedAt": "2026-07-14T10:06:22.650Z",
+  "updatedAt": "2026-07-15T09:16:30.227Z",
   "matches": {
     "ned-swe-33": {
       "matchId": "ned-swe-33",
@@ -15392,12 +15392,263 @@
         "modelVersion": "v3",
         "modelVersionLabel": "第三版模型"
       }
+    },
+    "fra-l102-103": {
+      "matchId": "fra-l102-103",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-15T09:16:30.227Z",
+      "kickoff": "2026-07-18T21:00:00.000Z",
+      "match": "法国 vs L102",
+      "date": "2026-07-19",
+      "time": "05:00",
+      "prediction": {
+        "probabilities": [
+          75,
+          17,
+          8
+        ],
+        "confidence": 78,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-0",
+            "chance": 11
+          },
+          {
+            "score": "3-0",
+            "chance": 9
+          },
+          {
+            "score": "2-1",
+            "chance": 9
+          },
+          {
+            "score": "3-1",
+            "chance": 8
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队大胜",
+            "chance": 34,
+            "examples": [
+              "3-0",
+              "4-0",
+              "4-1"
+            ]
+          },
+          {
+            "label": "主队小胜",
+            "chance": 26,
+            "examples": [
+              "2-0",
+              "2-1",
+              "1-0"
+            ]
+          },
+          {
+            "label": "主队对攻胜",
+            "chance": 15,
+            "examples": [
+              "3-1",
+              "3-2",
+              "4-2"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "主队优势胜",
+            "chance": 59,
+            "examples": [
+              "2-0",
+              "3-0",
+              "3-1"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 75,
+            "examples": [
+              "2-0",
+              "3-0",
+              "2-1"
+            ]
+          },
+          {
+            "label": "主队不败低比分",
+            "chance": 48,
+            "examples": [
+              "2-0",
+              "3-0",
+              "2-1"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.69,
+          "away": 0.85
+        },
+        "marketSignals": {
+          "status": "no-match",
+          "provider": "The Odds API",
+          "weight": 0,
+          "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+        },
+        "marketCalibration": {
+          "status": "no-match",
+          "modelOnly": [
+            75,
+            17,
+            8
+          ],
+          "market": null,
+          "blended": [
+            75,
+            17,
+            8
+          ],
+          "blendWeight": 0,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": null,
+          "summary": "暂无可用市场概率，模型未进行赔率校准。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
+    },
+    "esp-w102-104": {
+      "matchId": "esp-w102-104",
+      "modelVersion": "v3",
+      "modelVersionLabel": "第三版模型",
+      "lockedAt": "2026-07-15T09:16:30.227Z",
+      "kickoff": "2026-07-19T19:00:00.000Z",
+      "match": "西班牙 vs W102",
+      "date": "2026-07-20",
+      "time": "03:00",
+      "prediction": {
+        "probabilities": [
+          71,
+          20,
+          9
+        ],
+        "confidence": 76,
+        "tag": "稳健",
+        "scoreOdds": [
+          {
+            "score": "2-0",
+            "chance": 13
+          },
+          {
+            "score": "3-0",
+            "chance": 10
+          },
+          {
+            "score": "1-1",
+            "chance": 10
+          },
+          {
+            "score": "3-1",
+            "chance": 7
+          }
+        ],
+        "scoreBands": [
+          {
+            "label": "主队小胜",
+            "chance": 31,
+            "examples": [
+              "2-0",
+              "1-0",
+              "2-1"
+            ]
+          },
+          {
+            "label": "主队大胜",
+            "chance": 28,
+            "examples": [
+              "3-0",
+              "4-0",
+              "4-1"
+            ]
+          },
+          {
+            "label": "低比分平局",
+            "chance": 16,
+            "examples": [
+              "1-1",
+              "0-0"
+            ]
+          }
+        ],
+        "scoreScenarios": [
+          {
+            "label": "主队不败低比分",
+            "chance": 57,
+            "examples": [
+              "2-0",
+              "3-0",
+              "1-1"
+            ]
+          },
+          {
+            "label": "主队优势胜",
+            "chance": 52,
+            "examples": [
+              "2-0",
+              "3-0",
+              "3-1"
+            ]
+          },
+          {
+            "label": "主队胜出覆盖",
+            "chance": 71,
+            "examples": [
+              "2-0",
+              "3-0",
+              "1-0"
+            ]
+          }
+        ],
+        "expectedGoals": {
+          "home": 2.32,
+          "away": 0.73
+        },
+        "marketSignals": {
+          "status": "no-match",
+          "provider": "The Odds API",
+          "weight": 0,
+          "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
+        },
+        "marketCalibration": {
+          "status": "no-match",
+          "modelOnly": [
+            71,
+            20,
+            9
+          ],
+          "market": null,
+          "blended": [
+            71,
+            20,
+            9
+          ],
+          "blendWeight": 0,
+          "drawGuardApplied": false,
+          "drawGuardReason": null,
+          "deltas": null,
+          "summary": "暂无可用市场概率，模型未进行赔率校准。"
+        },
+        "modelVersion": "v3",
+        "modelVersionLabel": "第三版模型"
+      }
     }
   },
   "summary": {
-    "totalLocked": 112,
-    "createdThisRun": 0,
-    "retainedThisRun": 4,
+    "totalLocked": 114,
+    "createdThisRun": 2,
+    "retainedThisRun": 1,
     "upgradedThisRun": 0,
     "currentModelVersion": "v3"
   }
