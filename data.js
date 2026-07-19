@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-07-19T09:30:11.758Z",
+  "updatedAt": "2026-07-19T09:58:54.339Z",
   "runDate": "2026-07-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-07-19T09:30:11.758Z",
+  "externalFetchedAt": "2026-07-19T09:58:54.339Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,8 +21,8 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 1,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 53,
-  "expertArticleBodyCount": 3,
+  "expertArticleCount": 55,
+  "expertArticleBodyCount": 4,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -840,7 +840,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1066,9 +1066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1464,7 +1464,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2057,9 +2057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2467,7 +2467,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2937,7 +2937,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3163,9 +3163,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3572,7 +3572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4275,9 +4275,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4685,7 +4685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5382,9 +5382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5797,7 +5797,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6486,7 +6486,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -6504,9 +6504,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6914,7 +6914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7601,9 +7601,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8000,7 +8000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8492,7 +8492,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -8633,9 +8633,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9031,7 +9031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9502,7 +9502,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -9633,9 +9633,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -10042,7 +10042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10730,9 +10730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11129,7 +11129,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11609,7 +11609,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -11740,9 +11740,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -12150,7 +12150,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12837,9 +12837,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13249,7 +13249,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13735,10 +13735,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13747,7 +13747,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -13887,13 +13887,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -14300,7 +14309,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14771,7 +14780,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -14997,9 +15006,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -15406,7 +15415,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16102,9 +16111,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16512,7 +16521,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17200,9 +17209,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17622,7 +17631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17631,11 +17640,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      60,
-      24,
+      58,
+      26,
       16
     ],
-    "confidence": 78,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -17645,7 +17654,7 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
         "score": "2-0",
@@ -17659,7 +17668,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 26,
         "examples": [
           "2-1",
           "2-0",
@@ -17667,27 +17676,27 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 19,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 21,
+        "chance": 19,
         "examples": [
           "3-0",
           "4-1",
           "4-0"
-        ]
-      },
-      {
-        "label": "低比分平局",
-        "chance": 16,
-        "examples": [
-          "1-1",
-          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 47,
+        "chance": 52,
         "examples": [
           "1-1",
           "2-1",
@@ -17695,33 +17704,33 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "主队胜出覆盖",
+        "chance": 58,
+        "examples": [
+          "2-1",
+          "2-0",
+          "1-0"
+        ]
+      },
+      {
         "label": "主队优势胜",
-        "chance": 44,
+        "chance": 41,
         "examples": [
           "2-0",
           "3-1",
           "3-0"
         ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 60,
-        "examples": [
-          "2-1",
-          "2-0",
-          "3-1"
-        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 64,
-      "under25": 36,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 39,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.36,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -17729,14 +17738,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        60,
-        24,
+        58,
+        26,
         16
       ],
       "market": null,
       "blended": [
-        60,
-        24,
+        58,
+        26,
         16
       ],
       "blendWeight": 0,
@@ -17823,10 +17832,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -18070,11 +18079,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.24,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -18089,6 +18098,12 @@ window.MATCHES = [
       "weight": 0.08,
       "articleCount": 4,
       "articles": [
+        {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
         {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
@@ -18106,12 +18121,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -18325,24 +18334,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -18415,8 +18454,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.26,
-      "away": 1.11
+      "home": 2.1,
+      "away": 1.03
     },
     "analysisUpdated": "2026-07-19",
     "matchAutopsy": {
@@ -18750,7 +18789,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19453,9 +19492,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19875,7 +19914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20343,6 +20382,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -20359,12 +20404,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -20373,7 +20412,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20602,9 +20641,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -21011,7 +21050,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21699,9 +21738,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22109,7 +22148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22580,7 +22619,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -22806,9 +22845,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -23227,7 +23266,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23945,9 +23984,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -24355,7 +24394,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24825,7 +24864,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-          "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT"
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -24834,7 +24873,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -25060,9 +25099,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25470,7 +25509,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25940,7 +25979,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -26166,9 +26205,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26575,7 +26614,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27045,7 +27084,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27271,9 +27310,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27680,7 +27719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28377,9 +28416,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28787,7 +28826,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29257,7 +29296,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29483,9 +29522,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29881,7 +29920,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30483,9 +30522,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30894,7 +30933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31392,7 +31431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31628,9 +31667,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -32041,7 +32080,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32729,9 +32768,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33141,7 +33180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33621,7 +33660,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -33839,7 +33878,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -33857,9 +33896,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34255,7 +34294,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34848,9 +34887,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35258,7 +35297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35751,7 +35790,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -35977,9 +36016,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36383,7 +36422,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36876,7 +36915,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -37007,9 +37046,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37413,7 +37452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37914,7 +37953,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -38045,9 +38084,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38462,7 +38501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39171,9 +39210,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39601,7 +39640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40110,10 +40149,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40122,7 +40161,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40357,13 +40396,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -40778,7 +40826,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41489,9 +41537,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41896,7 +41944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42512,9 +42560,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42930,7 +42978,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43424,7 +43472,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -43650,9 +43698,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -44079,7 +44127,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44571,6 +44619,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -44587,12 +44641,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -44821,9 +44869,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -45252,7 +45300,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45345,15 +45393,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.54,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 38,
+      "bttsNo": 62,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.33,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -45462,10 +45510,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.3,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -45709,11 +45757,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "goalLift": -0.21,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -45744,6 +45792,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -45760,12 +45814,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -45774,7 +45822,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -45988,24 +46036,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -46420,7 +46498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -47146,9 +47224,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47565,7 +47643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48276,9 +48354,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48694,7 +48772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49188,7 +49266,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49414,9 +49492,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49843,7 +49921,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50585,9 +50663,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -51003,7 +51081,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51496,7 +51574,7 @@ window.MATCHES = [
           "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-          "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT"
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -51505,7 +51583,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -51731,9 +51809,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -52148,7 +52226,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52859,9 +52937,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53277,7 +53355,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53780,7 +53858,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -54006,9 +54084,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54423,7 +54501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54916,7 +54994,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -55142,9 +55220,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55562,7 +55640,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56274,7 +56352,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -56292,9 +56370,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56713,7 +56791,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57207,7 +57285,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -57433,9 +57511,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57850,7 +57928,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58353,7 +58431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -58579,9 +58657,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58985,7 +59063,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59601,9 +59679,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59997,7 +60075,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60491,7 +60569,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -60522,9 +60600,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60940,7 +61018,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61661,9 +61739,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62079,7 +62157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62790,9 +62868,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63208,7 +63286,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63702,7 +63780,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -63928,9 +64006,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64334,7 +64412,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64965,9 +65043,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65383,7 +65461,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -66125,9 +66203,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66555,7 +66633,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66648,14 +66726,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 68,
-      "under25": 32,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 41,
-      "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.55,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 39,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.31,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -66765,10 +66843,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -67012,11 +67090,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.24,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -67047,6 +67125,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -67063,12 +67147,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -67282,24 +67360,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -67715,7 +67823,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68209,7 +68317,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -68435,9 +68543,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68841,7 +68949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69343,7 +69451,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -69474,9 +69582,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69903,7 +70011,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70411,10 +70519,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -70649,13 +70757,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -71071,7 +71188,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71565,7 +71682,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -71791,9 +71908,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72208,7 +72325,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72702,7 +72819,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -72928,9 +73045,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -73357,7 +73474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -74089,9 +74206,9 @@ window.MATCHES = [
               "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-              "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
+              "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 2h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 2h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             }
           ]
@@ -74109,9 +74226,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -74527,7 +74644,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -75021,7 +75138,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -75247,9 +75364,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75664,7 +75781,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76375,9 +76492,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76793,7 +76910,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77286,7 +77403,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -77512,9 +77629,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77929,7 +78046,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78423,7 +78540,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -78649,9 +78766,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -79078,7 +79195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79570,6 +79687,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -79586,12 +79709,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -79820,9 +79937,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -80238,7 +80355,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80949,9 +81066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81369,7 +81486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81873,7 +81990,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -82091,7 +82208,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -82109,9 +82226,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82526,7 +82643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -83238,9 +83355,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83659,7 +83776,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84371,9 +84488,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84778,7 +84895,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85409,9 +85526,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85839,7 +85956,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85932,14 +86049,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 67,
-      "under25": 33,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 49,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 46,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 14,
-      "expectedTotalGoals": 3.49,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.28,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -86049,10 +86166,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "contribution": -0.3,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -86296,11 +86413,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "goalLift": -0.21,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -86331,6 +86448,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -86347,12 +86470,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -86566,24 +86683,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -86999,7 +87146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87502,7 +87649,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -87728,9 +87875,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88157,7 +88304,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88678,7 +88825,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -88907,9 +89054,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -89324,7 +89471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89819,7 +89966,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -90045,9 +90192,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90462,7 +90609,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -91189,9 +91336,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91619,7 +91766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92129,10 +92276,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -92367,13 +92514,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -92790,7 +92946,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93284,7 +93440,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -93510,9 +93666,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93927,7 +94083,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94430,7 +94586,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -94656,9 +94812,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -95074,7 +95230,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95817,9 +95973,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96236,7 +96392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96728,6 +96884,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -96744,12 +96906,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -96883,9 +97039,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -97301,7 +97457,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97795,7 +97951,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -98021,9 +98177,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98441,7 +98597,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98936,7 +99092,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -99162,9 +99318,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99591,7 +99747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99684,15 +99840,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 51,
-      "bttsNo": 49,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 48,
+      "bttsNo": 52,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 48,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.13,
-      "totalGoalsLean": "大于2.5球",
+      "awayWinBy2Plus": 45,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.92,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -99802,9 +99958,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "contribution": 0.3,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -100049,10 +100205,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "goalLift": -0.21,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -100083,6 +100239,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -100099,12 +100261,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -100113,7 +100269,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -100327,24 +100483,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -100761,7 +100947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101486,7 +101672,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -101504,9 +101690,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101934,7 +102120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -102456,7 +102642,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -102685,9 +102871,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -103115,7 +103301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103624,10 +103810,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -103862,13 +104048,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -104285,7 +104480,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104795,7 +104990,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -105021,9 +105216,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105451,7 +105646,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105943,6 +106138,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -105959,12 +106160,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -105973,7 +106168,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -106202,9 +106397,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -106619,7 +106814,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -107122,7 +107317,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -107348,9 +107543,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107780,7 +107975,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107873,14 +108068,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 29,
-      "awayWinBy2Plus": 11,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.29,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.05,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -107990,10 +108185,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -108237,11 +108432,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.24,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -108272,6 +108467,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -108288,12 +108489,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c1j1djgkg98o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:13:13 GMT"
-        },
-        {
-          "title": "Rice fires England into early lead against France",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c0qvzk59jn0o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 21:17:52 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108507,24 +108702,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -108952,7 +109177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109461,10 +109686,10 @@ window.MATCHES = [
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         },
         {
-          "title": "World Cup winner Capdevila appeals to Trump after US travel permit denied",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2l5jn17yjo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 10:43:40 GMT"
+          "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
+          "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -109699,13 +109924,22 @@ window.MATCHES = [
               "description": "Spain's final session before Sunday's World Cup final has been cancelled due to thunderstorms in New Jersey.",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -110134,7 +110368,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110876,9 +111110,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -111306,7 +111540,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111799,6 +112033,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cwy059qwdg4o?at_medium=RSS&at_campaign=rss",
@@ -111815,12 +112055,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
-        },
-        {
-          "title": "'No regrets' - Tuchel on England's defeat by Argentina",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/videos/c62v3q3qp99o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 15 Jul 2026 22:40:05 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -111829,7 +112063,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -112058,9 +112292,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -112499,7 +112733,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112591,14 +112825,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
+      "over25": 57,
+      "under25": 43,
       "bttsYes": 67,
       "bttsNo": 33,
       "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 15,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.23,
+      "expectedTotalGoals": 3.17,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -112708,10 +112942,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 43,
+        "awayScore": 43,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -112955,11 +113189,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.1,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 43,
+        "awayScore": 43,
+        "goalLift": -0.16,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -112990,6 +113224,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "England beat France in 10-goal thriller to win third-place play-off",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/cm2gn7v4jljo?at_medium=RSS&at_campaign=rss",
@@ -113000,12 +113240,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c0qvzqlp4pdo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:47:11 GMT"
-        },
-        {
-          "title": "Spain's final training session before World Cup final cancelled",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 17:32:45 GMT"
         },
         {
           "title": "Brilliant first half, turbulent second - Tuchel",
@@ -113230,12 +113464,21 @@ window.MATCHES = [
           ],
           "articles": [
             {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
+            {
               "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-              "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
+              "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 2h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 2h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -113244,7 +113487,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -113256,12 +113499,21 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
+            {
               "title": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -113270,6 +113522,15 @@ window.MATCHES = [
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
             {
               "title": "Spain's final training session before World Cup final cancelled",
               "source": "feeds.bbci.co.uk",
@@ -113285,7 +113546,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             },
             {
@@ -113296,13 +113557,22 @@ window.MATCHES = [
               "description": "The reigning champions may need to continue outperforming their xG to overcome Spain’s superb defensive record The World Cup final will feature the champions of South America and Europe for the first time. Argentina and Spain sit first and second in Fifa’s world ranking of men’s international teams. Opta’s supercomputer rated Luis de la Fuente’s side as favourites to win the tournament, with their opponents on Sunday deemed fourth likeliest. Both systems had England and France in their top four, suggesting the semi-finals featured the correct teams. But do the statistics from the World Cup indicate we have the best pair for the final? Continue reading...",
               "bodyText": "",
               "bodyError": ""
+            },
+            {
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
+              "bodyText": "",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -113742,7 +114012,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -114234,6 +114504,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
+        },
+        {
           "title": "Best England team for a long time? That's a fact, says Rice",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss",
@@ -114250,12 +114526,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:23:05 GMT"
-        },
-        {
-          "title": "How did England players rate during the World Cup?",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jljx84rwo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 23:31:46 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -114264,7 +114534,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:30:11.758Z",
+        "fetchedAt": "2026-07-19T09:58:54.339Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -114486,9 +114756,9 @@ window.MATCHES = [
               "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-              "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
+              "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 2h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 2h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -114497,7 +114767,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -114523,7 +114793,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -114547,7 +114817,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             },
             {
@@ -114562,9 +114832,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -115004,7 +115274,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -115096,14 +115366,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 65,
-      "under25": 35,
+      "over25": 64,
+      "under25": 36,
       "bttsYes": 68,
       "bttsNo": 32,
-      "homeWinBy2Plus": 25,
+      "homeWinBy2Plus": 24,
       "awayWinBy2Plus": 14,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.41,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.35,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -115213,10 +115483,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 43,
+        "awayScore": 43,
         "contribution": 0,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -115460,11 +115730,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.1,
-        "confidenceDelta": 2,
-        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 43,
+        "awayScore": 43,
+        "goalLift": -0.16,
+        "confidenceDelta": 0,
+        "evidence": "上一场首发可用，阵容连续性较高。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -115495,6 +115765,12 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Saka shows Tuchel why he's too good to leave out",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT"
+        },
+        {
           "title": "Best England team for a long time? That's a fact, says Rice",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c4g34gjmyl7o?at_medium=RSS&at_campaign=rss",
@@ -115511,12 +115787,6 @@ window.MATCHES = [
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c78g1p05025o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sun, 19 Jul 2026 00:23:05 GMT"
-        },
-        {
-          "title": "How did England players rate during the World Cup?",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cx2jljx84rwo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 23:31:46 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -115735,12 +116005,21 @@ window.MATCHES = [
           ],
           "articles": [
             {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
+            {
               "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-              "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
+              "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 2h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 2h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -115749,7 +116028,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -115761,12 +116040,21 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
+            {
               "title": "‘Something very special’: Tuchel reflects on World Cup after England claim third",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -115775,6 +116063,15 @@ window.MATCHES = [
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
+            {
+              "title": "Saka shows Tuchel why he's too good to leave out",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c0ejnwj0n4jo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Sun, 19 Jul 2026 09:52:44 GMT",
+              "description": "Bukayo Saka’s World Cup hat-trick against France reignited the selection debate and Thomas Tuchel’s decision to leave him out of the semi-final.",
+              "bodyText": "ushion. It made him only the fourth England player to score a World Cup hat-trick - after Geoff Hurst, Gary Lineker and Harry Kane - and only the second to do so in the knockout stages after Hurst's famous treble in the 1966 final. Figure caption, England beat France in 10-goal thriller to win 'bronze final' The semi-final decision In England's dramatic World Cup semi-final defeat by Argentina, Tuchel opted to start Morgan Rogers on the right, and the Aston Villa forward initially justified his selection by setting up Anthony Gordon's opening goal early in the second half. The Three Lions looked on course for a first World Cup final in 60 years before Tuchel switched to a more defensive shape midway through the second half. Argentina seized control, with Enzo Fernandez levelling in the 85th minute before Lautaro Martinez headed Lionel Messi's cross home in stoppage time to complete a remarkable comeback . Saka warmed up during the closing stages but never entered the contest - and the decision quickly became one of the tournament's defining talking points. Yet Tuchel insists it should not be interpreted as a loss of faith. \"He was excellent. Bukayo is a key player for me,\" the England manager said after the win over France. \"He was ready to go in the World Cup. I felt still the responsibility as a coach, and with the history given where he came from to take it slow with Bukayo. \"He started quite some matches, it was a tough decision for me to leave him out of the semi-final. I had a feeling after the Norway match that Morgan Rogers had something special to give to us with his physicality and his body in the match against Argentina. \"We had him warm up several times against Argentina, we were ready to change but the game became so crazy that in the end we opted for a different option. \"But nothing has changed during this World Cup for me. Bukayo is a fantastic team-mate, a fantastic football player, a key player for us. That will not change. He showed it again today. I'm happy for him and happy for us. He's excellent.\" Tuchel's cautious handling of Saka had been planned long before England arrived in North America. The 24-year-old entered the tournament managing a persistent Achilles problem after an injury-disrupted season with Arsenal. Tuchel repeatedly stres",
+              "bodyError": ""
+            },
             {
               "title": "Brilliant first half, turbulent second - Tuchel",
               "source": "feeds.bbci.co.uk",
@@ -115790,7 +116087,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             },
             {
@@ -115805,9 +116102,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -116248,7 +116545,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:30:11.758Z",
+      "fetchedAt": "2026-07-19T09:58:54.339Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116722,7 +117019,7 @@ window.MATCHES = [
       "bookmakers": 50,
       "averageOdds": {
         "home": 2.29,
-        "draw": 3.02,
+        "draw": 3.01,
         "away": 3.6
       },
       "impliedProbabilities": [
@@ -116731,7 +117028,7 @@ window.MATCHES = [
         27
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，50 家公司均值：主 2.29 / 平 3.02 / 客 3.6。市场倾向 西班牙。"
+      "note": "已接入赔率市场，50 家公司均值：主 2.29 / 平 3.01 / 客 3.6。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -116740,10 +117037,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Spain's final training session before World Cup final cancelled",
+          "title": "Messi on the brink of history - will it be his last World Cup game?",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 17:32:45 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cql1xxxpndlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sun, 19 Jul 2026 09:55:22 GMT"
         },
         {
           "title": "Argentina shatter England's World Cup dreams in semi-final",
@@ -116752,16 +117049,16 @@ window.MATCHES = [
           "pubDate": "Wed, 15 Jul 2026 22:05:15 GMT"
         },
         {
+          "title": "Spain's final training session before World Cup final cancelled",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cly878gpgrlo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Sat, 18 Jul 2026 17:32:45 GMT"
+        },
+        {
           "title": "The classroom moment that bonds finalists De la Fuente & Scaloni forever",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/c98v13rgyrmo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Sat, 18 Jul 2026 13:00:18 GMT"
-        },
-        {
-          "title": "Messi and Brady in disbelief over 'prophetic' Lamine Yamal photo",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5yejxqll3go?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Sat, 18 Jul 2026 08:59:23 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -116983,9 +117280,9 @@ window.MATCHES = [
               "title": "World Cup 2026: Spain v Argentina final buildup; England win 10-goal thriller – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
-              "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
+              "pubDate": "Sun, 19 Jul 2026 09:42:01 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 2h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 2h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -116994,7 +117291,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             },
             {
@@ -117038,7 +117335,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             }
           ]
@@ -117071,7 +117368,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
               "bodyError": ""
             },
             {
@@ -117084,20 +117381,20 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
-              "title": "Spain training session disrupted by bad weather the day before World Cup final against Argentina - WFAA",
-              "source": "WFAA",
-              "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOVUtLUmFWMk5nbGpuM2hRQ3E3eEVYdG5uaVRXdUFKcFFoNndsMENaWUZqNGxMSHRCT3B6b1VxSEpoZWZFZHZ1Z19PQnFBR2JVRFU5UTlpY1JDdlE3enhINWhpVW1EVGRxWVpua3pMbjlxWS1oODdhQ1NZZm1KUWw2MTVLN2J4SFVDbUw2Y0dob1dGY1BNRDhneDdwd1dCZk4xM1RJQUZ6T1BiMXJYZF8tMUVaUGRhNjNtcVJYRTEzQllZODhXTVRKenpCRG9Zcm02WGhRNHRRak13c1B5S0MyZnQ4Sy1qdFR1dGduT3phX2NlU21rYkM1Tk8yby1uQ3lPZlBrRmtkWTlneGpjVFNBZWljOVd5X0xJX1p5Mg?oc=5",
-              "pubDate": "Sat, 18 Jul 2026 16:32:00 GMT",
-              "description": "Spain training session disrupted by bad weather the day before World Cup final against Argentina &nbsp;&nbsp; WFAA",
+              "title": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic - The New York Times",
+              "source": "The New York Times",
+              "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM09Ld054ODBSNy1KMlQxR1VuWkNyZ1EwLVEyS0VoWk1TcmZKcnY4QVN5a0lKaU1DTjBtTmtKR3ZPQXFNdHZqclV4NFlzTklmeWxlOVBNQU93dm5WNUM3d3lyZG42TDZhY2p6dXVEa1Z4NFNmLXRKZDY4WDNyekNKaTJGRE9kU3lqRk9JTGl4RkNyLXVyRHc?oc=5",
+              "pubDate": "Sat, 18 Jul 2026 17:12:55 GMT",
+              "description": "Spain forced to cancel pre-World Cup final training due to adverse weather - The Athletic &nbsp;&nbsp; The New York Times",
               "bodyText": "",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:30:11.758Z",
+      "updatedAt": "2026-07-19T09:58:54.339Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:30:11.758Z",
+        "updatedAt": "2026-07-19T09:58:54.339Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -117177,7 +117474,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-07-19T09:30:11.758Z",
+  "updatedAt": "2026-07-19T09:58:54.339Z",
   "completedCount": 103,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
@@ -117185,8 +117482,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 41,
   "scoreBandCoverage": 69,
   "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5254,
-  "averageLogLoss": 0.8773,
+  "averageBrier": 0.5257,
+  "averageLogLoss": 0.8776,
   "drawRecall": 21,
   "lockedPredictionCount": 71,
   "versionBreakdown": [
@@ -123776,8 +124073,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 47,
       "scoreBandCoverage": 75,
       "scoreScenarioCoverage": 84,
-      "averageBrier": 0.5719,
-      "averageLogLoss": 0.9283,
+      "averageBrier": 0.5727,
+      "averageLogLoss": 0.9294,
       "lockedCount": 0,
       "rows": [
         {
@@ -125115,20 +125412,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": false,
           "scoreScenarioHit": true,
-          "confidence": 78,
-          "brier": 0.2432,
-          "logLoss": 0.5108,
+          "confidence": 76,
+          "brier": 0.2696,
+          "logLoss": 0.5447,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            60,
-            24,
+            58,
+            26,
             16
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 26,
               "examples": [
                 "2-1",
                 "2-0",
@@ -125136,27 +125433,27 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "低比分平局",
+              "chance": 19,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
               "label": "主队大胜",
-              "chance": 21,
+              "chance": 19,
               "examples": [
                 "3-0",
                 "4-1",
                 "4-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 16,
-              "examples": [
-                "1-1",
-                "0-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 47,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "2-1",
@@ -125164,21 +125461,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "主队胜出覆盖",
+              "chance": 58,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
               "label": "主队优势胜",
-              "chance": 44,
+              "chance": 41,
               "examples": [
                 "2-0",
                 "3-1",
                 "3-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 60,
-              "examples": [
-                "2-1",
-                "2-0",
-                "3-1"
               ]
             }
           ],
@@ -126642,7 +126939,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "中信心",
       "count": 86,
       "hitRate": 62,
-      "averageBrier": 0.4971
+      "averageBrier": 0.4974
     },
     {
       "label": "高信心",
