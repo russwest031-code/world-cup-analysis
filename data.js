@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-07-19T09:22:19.320Z",
+  "updatedAt": "2026-07-19T09:30:11.758Z",
   "runDate": "2026-07-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-07-19T09:22:19.320Z",
+  "externalFetchedAt": "2026-07-19T09:30:11.758Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -840,7 +840,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1066,9 +1066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1464,7 +1464,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2057,9 +2057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2467,7 +2467,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2937,7 +2937,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3163,9 +3163,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3572,7 +3572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4275,9 +4275,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4685,7 +4685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5382,9 +5382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5797,7 +5797,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6486,7 +6486,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -6504,9 +6504,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6914,7 +6914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7601,9 +7601,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8000,7 +8000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8492,7 +8492,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -8633,9 +8633,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9031,7 +9031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9502,7 +9502,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -9633,9 +9633,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -10042,7 +10042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10730,9 +10730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11129,7 +11129,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11609,7 +11609,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -11740,9 +11740,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -12150,7 +12150,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12837,9 +12837,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13249,7 +13249,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13747,7 +13747,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -13891,9 +13891,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -14300,7 +14300,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14771,7 +14771,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -14997,9 +14997,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -15406,7 +15406,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16102,9 +16102,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16512,7 +16512,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17200,9 +17200,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17622,7 +17622,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18340,9 +18340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -18750,7 +18750,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19453,9 +19453,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19875,7 +19875,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20373,7 +20373,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20602,9 +20602,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -21011,7 +21011,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21699,9 +21699,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21804,7 +21804,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -22109,7 +22109,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22580,7 +22580,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -22806,9 +22806,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -23227,7 +23227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23945,9 +23945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -24355,7 +24355,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24834,7 +24834,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -25060,9 +25060,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25470,7 +25470,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25940,7 +25940,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -26166,9 +26166,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26575,7 +26575,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27045,7 +27045,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27271,9 +27271,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27680,7 +27680,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28377,9 +28377,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28787,7 +28787,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29257,7 +29257,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29483,9 +29483,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29881,7 +29881,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30483,9 +30483,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30894,7 +30894,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31392,7 +31392,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31628,9 +31628,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -32041,7 +32041,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32729,9 +32729,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33141,7 +33141,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33621,7 +33621,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -33839,7 +33839,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -33857,9 +33857,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34255,7 +34255,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34848,9 +34848,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35258,7 +35258,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35751,7 +35751,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -35977,9 +35977,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36383,7 +36383,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36876,7 +36876,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -37007,9 +37007,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37413,7 +37413,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37914,7 +37914,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -38045,9 +38045,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38462,7 +38462,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39171,9 +39171,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39601,7 +39601,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40122,7 +40122,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40361,9 +40361,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -40778,7 +40778,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41489,9 +41489,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41896,7 +41896,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42512,9 +42512,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42930,7 +42930,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43424,7 +43424,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -43650,9 +43650,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -44079,7 +44079,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44821,9 +44821,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -45252,7 +45252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45774,7 +45774,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -46003,9 +46003,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -46420,7 +46420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -47146,9 +47146,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47565,7 +47565,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48276,9 +48276,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48694,7 +48694,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49188,7 +49188,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49414,9 +49414,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49843,7 +49843,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50585,9 +50585,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -51003,7 +51003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51505,7 +51505,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -51731,9 +51731,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -52148,7 +52148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52859,9 +52859,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53277,7 +53277,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53780,7 +53780,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -54006,9 +54006,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54423,7 +54423,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54916,7 +54916,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -55142,9 +55142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55562,7 +55562,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56274,7 +56274,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -56292,9 +56292,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56713,7 +56713,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57207,7 +57207,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -57433,9 +57433,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57850,7 +57850,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58353,7 +58353,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -58579,9 +58579,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58985,7 +58985,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59601,9 +59601,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59997,7 +59997,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60491,7 +60491,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -60522,9 +60522,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60940,7 +60940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61661,9 +61661,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62079,7 +62079,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62790,9 +62790,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63208,7 +63208,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63702,7 +63702,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -63928,9 +63928,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64334,7 +64334,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64965,9 +64965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65383,7 +65383,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -66125,9 +66125,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66555,7 +66555,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67297,9 +67297,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -67715,7 +67715,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68209,7 +68209,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -68435,9 +68435,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68841,7 +68841,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69343,7 +69343,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -69474,9 +69474,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69903,7 +69903,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70653,9 +70653,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -71071,7 +71071,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71565,7 +71565,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -71791,9 +71791,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72208,7 +72208,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72702,7 +72702,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -72928,9 +72928,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -73357,7 +73357,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -74091,7 +74091,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
               "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 1h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 1h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             }
           ]
@@ -74109,9 +74109,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -74527,7 +74527,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -75021,7 +75021,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -75247,9 +75247,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75664,7 +75664,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76375,9 +76375,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76793,7 +76793,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77286,7 +77286,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -77512,9 +77512,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77929,7 +77929,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78423,7 +78423,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -78649,9 +78649,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78761,7 +78761,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -79078,7 +79078,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79820,9 +79820,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -80238,7 +80238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80949,9 +80949,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81369,7 +81369,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81873,7 +81873,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -82091,7 +82091,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -82109,9 +82109,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82526,7 +82526,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -83238,9 +83238,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83659,7 +83659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84371,9 +84371,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84778,7 +84778,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85409,9 +85409,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85839,7 +85839,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86581,9 +86581,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -86999,7 +86999,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87502,7 +87502,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -87728,9 +87728,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88157,7 +88157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88678,7 +88678,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -88907,9 +88907,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -89324,7 +89324,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89819,7 +89819,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -90045,9 +90045,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90462,7 +90462,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -91189,9 +91189,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91619,7 +91619,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92371,9 +92371,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -92790,7 +92790,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93284,7 +93284,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -93510,9 +93510,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93927,7 +93927,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94430,7 +94430,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -94656,9 +94656,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -95074,7 +95074,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95817,9 +95817,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96236,7 +96236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96883,9 +96883,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -97301,7 +97301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97795,7 +97795,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -98021,9 +98021,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98441,7 +98441,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98936,7 +98936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -99162,9 +99162,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99591,7 +99591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -100113,7 +100113,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -100342,9 +100342,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -100761,7 +100761,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101486,7 +101486,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/18/manchester-united-start-new-signing-andrey-santos-in-pre-season-loss-to-wrexham",
               "pubDate": "Sat, 18 Jul 2026 19:15:10 GMT",
               "description": "Brazilian makes first appearance after joining from Chelsea Carrick rings changes at half-time as United lose 1-0 in Helsinki Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Continue reading...",
-              "bodyText": " EDT Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
+              "bodyText": " BST Share Prefer the Guardian on Google Andrey Santos made a bright first Manchester United appearance as they lost 1-0 in a pre-season friendly against Wrexham in Helsinki. Sam Smith scored the only goal with an easy finish six minutes before half-time, minutes after heading against his own crossbar defending a corner. United were without the players who have featured at the World Cup, including their new signing Youri Tielemans, as well as Benjamin Sesko, but Michael Carrick put out a strong starting XI in front of 20,000 spectators. Why did Manchester United pay Chelsea £48m for Andrey Santos? Read more Santos, who became United’s first summer signing when he joined from Chelsea at the start of the week for an initial £48m, took his place at the base of midfield alongside Mason Mount. Carrick had praised the Brazilian’s attitude before the match, saying: “He’s a fantastic character. He’s settled in so quickly and he’s buzzing to be here” The 22-year-old soon settled in, showing a good range of passing and winning several duels in a busy display. However, Wrexham , who played their first pre-season friendly against Wisla Krakow last weekend, were looking brighter and threatened when Bailey Cadamarteri nicked the ball off Ayden Heaven before the defender recovered. United’s first chance was a Joshua Zirkzee shot that fizzed wide in the 24th minute and they almost went ahead when Smith tried to clear a corner but hit the bar in the 36th minute. Smith was soon on the scoresheet, tapping in after Lewis O’Brien’s cross appeared to go through Harry Maguire’s legs. Twenty one of the 22 players were replaced at half-time, with only Wrexham’s Aaron James staying on, and Carrick sent out a side of academy products against a Wrexham team including Conor Coady and Kieffer Moore. View image in fullscreen Michael Carrick applauds the fans at the end of the pre-season friendly match against Wrexham at Helsingin Olympiastadion. Photograph: Ash Donelon/Manchester United/Getty Images United dominated the ball but struggled to fashion chances as the pace of the game dropped. Wrexham threatened with a low shot from Davis Keillor-Dunn but Radek Vitek made the save. skip past newsletter promotion Free newsletter | Every weekday Sign up to Football Daily Kick off your evenings wi",
               "bodyError": ""
             }
           ]
@@ -101504,9 +101504,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101934,7 +101934,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -102456,7 +102456,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -102685,9 +102685,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -103115,7 +103115,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103866,9 +103866,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -104285,7 +104285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104795,7 +104795,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -105021,9 +105021,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105451,7 +105451,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105973,7 +105973,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -106202,9 +106202,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -106619,7 +106619,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -107122,7 +107122,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -107348,9 +107348,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107780,7 +107780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -108522,9 +108522,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -108952,7 +108952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109703,9 +109703,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -110134,7 +110134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110876,9 +110876,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -111306,7 +111306,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111829,7 +111829,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -112058,9 +112058,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -112499,7 +112499,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -113235,7 +113235,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
               "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 1h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 1h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -113244,7 +113244,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -113261,7 +113261,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -113285,7 +113285,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             },
             {
@@ -113300,9 +113300,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -113742,7 +113742,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -114264,7 +114264,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-07-19T09:22:19.320Z",
+        "fetchedAt": "2026-07-19T09:30:11.758Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -114488,7 +114488,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
               "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 1h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 1h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -114497,7 +114497,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -114523,7 +114523,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -114547,7 +114547,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             },
             {
@@ -114562,9 +114562,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -115004,7 +115004,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -115740,7 +115740,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
               "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 1h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 1h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -115749,7 +115749,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -115766,7 +115766,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -115790,7 +115790,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             },
             {
@@ -115805,9 +115805,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -116248,7 +116248,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-07-19T09:22:19.320Z",
+      "fetchedAt": "2026-07-19T09:30:11.758Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116721,8 +116721,8 @@ window.MATCHES = [
       "snapshotFile": null,
       "bookmakers": 50,
       "averageOdds": {
-        "home": 2.3,
-        "draw": 3.01,
+        "home": 2.29,
+        "draw": 3.02,
         "away": 3.6
       },
       "impliedProbabilities": [
@@ -116731,7 +116731,7 @@ window.MATCHES = [
         27
       ],
       "marketFavorite": "西班牙",
-      "note": "已接入赔率市场，50 家公司均值：主 2.3 / 平 3.01 / 客 3.6。市场倾向 西班牙。"
+      "note": "已接入赔率市场，50 家公司均值：主 2.29 / 平 3.02 / 客 3.6。市场倾向 西班牙。"
     },
     "expertSignals": {
       "status": "connected",
@@ -116985,7 +116985,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live",
               "pubDate": "Sun, 19 Jul 2026 09:10:46 GMT",
               "description": "⚽ World Cup final starts at 3pm EST, 8pm BST, 5am AEST ⚽ Player guide | Golden Boot | Follow on TikTok | Mail us Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fine players, but given Bellingham is essential, I’d want only one, with the trio completed by a more technical and cerebral type – which needn’t be Mainoo, he was just the only one in the squad. Continue reading...",
-              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 04.07 EDT For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 04.19 EDT 1h ago 03.57 EDT What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 1h ago 03.54 EDT Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 03.47 EDT Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 03.38 EDT It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
+              "bodyText": "care. Fifa to announce record $15bn World Cup revenue, smashing expectations Read more Share 1h ago 09.07 BST For England, I’m not sure I’d want to use Rogers in the same XI as Jude Bellingham – initially, Tuchel felt the same and I’m not certain why he changed. If you’ve got Harry Kane in your team, you need wide players to service him, and Rogers is looking to score, not provide. View image in fullscreen Morgan Rogers, Jude Bellingham and Harry Kane – is there room for all three in an England starting XI? Photograph: Image Photo Agency/Getty Images Share Updated at 09.19 BST 2h ago 08.57 BST What do we think about this move? I guess I’m glad he’s not going to Arsenal, who I think need a winger more than a threat starting from wide – Christos Tzolis seems a better fit – and I’m interested to see how Xabi Alonso uses him. Arsenal close in on £34m deal for Club Brugge forward Christos Tzolis Read more The fee, of course, is astounding – he’s a good player but neither elite nor a cert to become so – but if any transfer succeeds, it’s worth the money a club is lucky enough to pay for it. Share 2h ago 08.54 BST Chelsea poised to sign Morgan Rogers from Aston Villa in record-breaking £117m deal Read more Share 2h ago 08.47 BST Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well have feared it, forced, at the very least, to leave defenders back to mark them, while their own team would’ve had out-balls and a serious threat, meaning when they cleared their lines, it wouldn’t have simply been to face yet another attack. Share 2h ago 08.38 BST It find it strange that, given his team struggled for control and also to break down tight defences, Tuchel didn’t give Mainoo a single second on the pitch – and seemed to have decided as much by the Panama game, when he brought on Henderson in preference. England desperately lacked midfield balance, control, poise and craft, a problem that eventually cost them – and is the main reason I’d have given them little chance of beating Spain had they made the final. Anderson and Rice are fin",
               "bodyError": ""
             },
             {
@@ -116994,7 +116994,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             },
             {
@@ -117038,7 +117038,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             }
           ]
@@ -117071,7 +117071,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/jul/19/thomas-tuchel-world-cup-england-third-france",
               "pubDate": "Sun, 19 Jul 2026 01:27:05 GMT",
               "description": "France beaten 6-4 on ‘very emotional’ day for squad ‘This will help – but you never fully celebrate bronze’ Thomas Tuchel has said England’s players can be proud of their efforts after a thrilling 6-4 victory over France sealed third place at the World Cup for the first time. England raced into a 4-0 lead at half-time thanks to goals from Declan Rice – the stand-in captain – Ezri Konsa and two from Bukayo Saka. But they were pegged back to within one goal after Didier Deschamps, taking charge of his final France game after 14 years, rang the changes at the break. Kylian Mbappé took his tally at this tournament to 10 goals and 22 at World Cups in total as he pushed to win a second successive Golden Boot and surpassed Lionel Messi’s all-time record. The Argentina forward will have a chance to overhaul him in Sunday’s final against Spain. Continue reading...",
-              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics World Cup 2026 World news Climate crisis Middle East Ukraine US immigration Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport World Cup 2026 Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph: Luke Hales/",
+              "bodyText": "‘Something very special’: Tuchel reflects on World Cup after England claim third | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Search jobs Sign in Int International edition UK edition US edition Australia edition Europe edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News World news World Cup 2026 US politics UK news Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries Opinion View all Opinion The Guardian view Columnists Cartoons Opinion videos Letters Sport View all Sport World Cup 2026 Football Cricket Rugby union Tennis Cycling F1 Golf US sports Culture View all Culture Books Music TV & radio Art & design Film Games Classical Stage Lifestyle View all Lifestyle Fashion Food Recipes Love & sex Health & fitness Home & garden Women Men Family Travel Money Search input google-search Search Support us Print subscriptions Search jobs Holidays Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Newsletters Today's paper Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Holidays Digital Archive Guardian Licensing Live events About Us World Cup 2026 Match centre Player guide Bracketology Golden Boot More football Thomas Tuchel shares a moment with Jude Bellingham, scorer of England’s sixth goal, after the win against France. Photograph",
               "bodyError": ""
             },
             {
@@ -117095,9 +117095,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-07-19T09:22:19.320Z",
+      "updatedAt": "2026-07-19T09:30:11.758Z",
       "dataQuality": {
-        "updatedAt": "2026-07-19T09:22:19.320Z",
+        "updatedAt": "2026-07-19T09:30:11.758Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 4 项，模型推断 1 项，缺口 2 项。",
         "counts": {
@@ -117177,7 +117177,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-07-19T09:22:19.320Z",
+  "updatedAt": "2026-07-19T09:30:11.758Z",
   "completedCount": 103,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
