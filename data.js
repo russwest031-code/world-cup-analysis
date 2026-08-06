@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-08-06T10:03:16.832Z",
+  "updatedAt": "2026-08-06T10:16:04.197Z",
   "runDate": "2026-08-06",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-08-06T10:03:16.832Z",
+  "externalFetchedAt": "2026-08-06T10:16:04.197Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -22,7 +22,7 @@ window.ANALYSIS_META = {
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
   "expertArticleCount": 26,
-  "expertArticleBodyCount": 2,
+  "expertArticleBodyCount": 1,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -840,7 +840,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": 23.2,
@@ -1066,9 +1066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1464,7 +1464,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2056,9 +2056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2466,7 +2466,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2937,7 +2937,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": 24.8,
@@ -3163,9 +3163,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3572,7 +3572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4274,9 +4274,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4686,7 +4686,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5382,9 +5382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5794,7 +5794,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6503,9 +6503,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6913,7 +6913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7600,9 +7600,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7999,7 +7999,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8491,7 +8491,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": 28.8,
@@ -8632,9 +8632,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9030,7 +9030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9510,7 +9510,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 28.9,
@@ -9641,9 +9641,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -10050,7 +10050,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10738,9 +10738,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11137,7 +11137,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11607,7 +11607,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.6,
@@ -11738,9 +11738,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -12148,7 +12148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12835,9 +12835,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13235,7 +13235,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13706,7 +13706,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 22.1,
@@ -13837,9 +13837,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -14246,7 +14246,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14717,7 +14717,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -14943,9 +14943,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -15352,7 +15352,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16039,9 +16039,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16449,7 +16449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17137,9 +17137,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17547,7 +17547,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18266,9 +18266,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18676,7 +18676,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19364,9 +19364,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19774,7 +19774,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -19986,7 +19986,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -20239,8 +20239,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -20248,13 +20254,13 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20480,9 +20486,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -20889,7 +20895,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21577,9 +21583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21987,7 +21993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22458,7 +22464,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -22684,9 +22690,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -23093,7 +23099,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23102,8 +23108,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      43,
+      38,
+      42,
       20
     ],
     "confidence": 64,
@@ -23116,15 +23122,15 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 16
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "2-0",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
@@ -23138,7 +23144,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-0",
@@ -23147,7 +23153,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 14,
+        "chance": 15,
         "examples": [
           "0-1",
           "1-2",
@@ -23158,7 +23164,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 62,
+        "chance": 63,
         "examples": [
           "1-1",
           "0-0",
@@ -23175,23 +23181,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 35,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 53,
-      "bttsNo": 47,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 51,
+      "bttsNo": 49,
       "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 8,
+      "awayWinBy2Plus": 7,
       "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.49,
+      "expectedTotalGoals": 2.38,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -23199,21 +23206,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        47,
-        33,
+        38,
+        42,
         20
       ],
       "market": null,
       "blended": [
-        37,
-        43,
+        38,
+        42,
         20
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -23293,10 +23300,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -23540,11 +23547,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -23560,16 +23567,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -23597,9 +23604,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -23792,54 +23799,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23885,7 +23862,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -23912,8 +23889,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.54,
-      "away": 0.95
+      "home": 1.48,
+      "away": 0.91
     },
     "analysisUpdated": "2026-08-06",
     "matchAutopsy": {
@@ -24247,7 +24224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24726,7 +24703,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -24952,9 +24929,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25362,7 +25339,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25832,7 +25809,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -26058,9 +26035,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26467,7 +26444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26946,7 +26923,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27172,9 +27149,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27583,7 +27560,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28271,9 +28248,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28681,7 +28658,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29160,7 +29137,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29386,9 +29363,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29784,7 +29761,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30376,9 +30353,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30787,7 +30764,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31285,7 +31262,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31521,9 +31498,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -31931,7 +31908,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32633,9 +32610,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33045,7 +33022,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33525,7 +33502,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -33751,9 +33728,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34149,7 +34126,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34750,9 +34727,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35160,7 +35137,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35653,7 +35630,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -35879,9 +35856,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36285,7 +36262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36787,7 +36764,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -36918,9 +36895,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37324,7 +37301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37816,7 +37793,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -37947,9 +37924,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38364,7 +38341,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39073,9 +39050,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39491,7 +39468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39985,7 +39962,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40211,9 +40188,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -40628,7 +40605,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41339,9 +41316,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41746,7 +41723,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42362,9 +42339,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42780,7 +42757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43274,7 +43251,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -43500,9 +43477,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43917,7 +43894,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44138,7 +44115,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -44406,8 +44383,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -44415,7 +44398,7 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44638,9 +44621,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45057,7 +45040,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45573,7 +45556,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -45799,9 +45782,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46216,7 +46199,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46936,9 +46919,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47355,7 +47338,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48066,9 +48049,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48484,7 +48467,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48978,7 +48961,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49204,9 +49187,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49621,7 +49604,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49714,14 +49697,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 38,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 36,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.3,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.19,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49831,10 +49814,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -50078,11 +50061,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -50113,16 +50096,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -50150,9 +50133,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -50345,54 +50328,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50438,7 +50391,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -50808,7 +50761,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51310,7 +51263,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -51536,9 +51489,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51953,7 +51906,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52664,9 +52617,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53084,7 +53037,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53578,7 +53531,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -53804,9 +53757,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54221,7 +54174,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54723,7 +54676,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -54949,9 +54902,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55369,7 +55322,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56089,9 +56042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56507,7 +56460,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57016,7 +56969,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -57242,9 +57195,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57659,7 +57612,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58153,7 +58106,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -58379,9 +58332,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58785,7 +58738,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59410,9 +59363,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59806,7 +59759,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60300,7 +60253,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -60331,9 +60284,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60749,7 +60702,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61470,9 +61423,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61888,7 +61841,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62599,9 +62552,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63017,7 +62970,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63511,7 +63464,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -63737,9 +63690,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64143,7 +64096,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64768,9 +64721,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65186,7 +65139,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65934,9 +65887,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66352,7 +66305,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67085,9 +67038,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67503,7 +67456,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68006,7 +67959,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -68232,9 +68185,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68638,7 +68591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69131,7 +69084,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -69262,9 +69215,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69679,7 +69632,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70389,9 +70342,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70807,7 +70760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71301,7 +71254,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -71527,9 +71480,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71944,7 +71897,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72438,7 +72391,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -72664,9 +72617,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -73081,7 +73034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73174,14 +73127,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 38,
+      "bttsNo": 62,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 37,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.36,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.25,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73292,9 +73245,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -73539,10 +73492,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -73573,16 +73526,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -73610,9 +73563,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴拿马",
@@ -73805,54 +73758,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73898,7 +73821,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -74268,7 +74191,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74771,7 +74694,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -74997,9 +74920,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75414,7 +75337,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76125,9 +76048,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76543,7 +76466,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77036,7 +76959,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -77262,9 +77185,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77679,7 +77602,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78173,7 +78096,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -78399,9 +78322,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78816,7 +78739,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79037,7 +78960,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -79305,8 +79228,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -79314,7 +79243,7 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -79537,9 +79466,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79955,7 +79884,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80675,9 +80604,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81095,7 +81024,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81599,7 +81528,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -81825,9 +81754,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82242,7 +82171,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82963,9 +82892,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83381,7 +83310,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84108,9 +84037,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84515,7 +84444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85131,9 +85060,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85549,7 +85478,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86282,9 +86211,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86700,7 +86629,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87194,7 +87123,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -87420,9 +87349,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87837,7 +87766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87929,15 +87858,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.54,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 40,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.43,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -88046,10 +87975,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -88293,11 +88222,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -88328,16 +88257,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -88358,7 +88287,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -88374,9 +88303,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -88569,54 +88498,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88661,7 +88560,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -89031,7 +88930,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89535,7 +89434,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -89761,9 +89660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90178,7 +90077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90899,9 +90798,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91317,7 +91216,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92029,9 +91928,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92448,7 +92347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92942,7 +92841,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -93168,9 +93067,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93587,7 +93486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94081,7 +93980,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -94307,9 +94206,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94725,7 +94624,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95468,9 +95367,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95875,7 +95774,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96096,7 +95995,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -96364,8 +96263,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -96373,7 +96278,7 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -96501,9 +96406,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96919,7 +96824,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97422,7 +97327,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -97648,9 +97553,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98065,7 +97970,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98575,7 +98480,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -98801,9 +98706,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99218,7 +99123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99740,7 +99645,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -99966,9 +99871,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100385,7 +100290,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101106,9 +101011,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101525,7 +101430,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101618,17 +101523,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 16,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.04,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.93,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -101736,9 +101641,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -101983,10 +101888,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -102017,16 +101922,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -102047,7 +101952,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -102063,9 +101968,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "墨西哥",
@@ -102258,54 +102163,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102350,7 +102225,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -102721,7 +102596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103432,9 +103307,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103851,7 +103726,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104355,7 +104230,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -104581,9 +104456,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104998,7 +104873,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105219,7 +105094,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -105487,8 +105362,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -105496,13 +105377,13 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -105728,9 +105609,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106147,7 +106028,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106641,7 +106522,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -106867,9 +106748,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107284,7 +107165,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -108023,9 +107904,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108441,7 +108322,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109152,9 +109033,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109571,7 +109452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109664,14 +109545,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 35,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.17,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.09,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -109781,10 +109662,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -110028,11 +109909,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -110063,16 +109944,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -110100,9 +109981,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "挪威",
@@ -110295,54 +110176,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110388,7 +110239,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -110760,7 +110611,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110982,7 +110833,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111250,8 +111101,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -111259,13 +111116,13 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -111491,9 +111348,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111908,7 +111765,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112640,9 +112497,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113058,7 +112915,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113151,15 +113008,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 17,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.13,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.02,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -113268,10 +113125,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -113515,11 +113372,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -113550,16 +113407,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -113580,7 +113437,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-06T10:03:16.832Z",
+        "fetchedAt": "2026-08-06T10:16:04.197Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -113596,9 +113453,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -113791,54 +113648,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113883,7 +113710,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -114254,7 +114081,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114346,14 +114173,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 61,
-      "under25": 39,
-      "bttsYes": 69,
-      "bttsNo": 31,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 3.32,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 3.21,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -114464,9 +114291,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 47,
-        "awayScore": 45,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 47,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       },
       {
         "name": "赔率市场",
@@ -114711,10 +114538,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 47,
-        "awayScore": 45,
-        "goalLift": -0.07,
-        "confidenceDelta": -3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 47,
+        "goalLift": -0.18,
+        "confidenceDelta": -2,
+        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。"
       }
     },
     "marketSignals": {
@@ -114745,16 +114572,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
+        {
           "title": "Defender Walker 'at ease' with England retirement",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/ce8kn37gj82o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 05 Aug 2026 21:18:14 GMT"
-        },
-        {
-          "title": "Parkinson gets England-U20s call before World Cup",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT"
         },
         {
           "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
@@ -114782,9 +114609,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "法国",
@@ -114977,48 +114804,19 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
-            {
-              "title": "Parkinson gets England-U20s call before World Cup",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cd0xk2n23ymo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Wed, 05 Aug 2026 16:03:10 GMT",
-              "description": "Midfielder Erica Meg Parkinson, 18, has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month.",
-              "bodyText": "England Under-20s World Cup: Teenager Erica Meg Parkinson named in preparatory squad - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Commonwealth Games Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Parkinson gets England-U20s call before World Cup Image source, Getty Images Image caption, Erica Meg Parkinson joined US side North Carolina Courage at the start of July Published 5 August 2026 Teenager Erica Meg Parkinson has been named in England's preparation squad for the Under-20 Women's World Cup in Poland next month. Boss Lydia Bedford has called up the North Carolina Courage midfielder, 18, as part of a 24-player squad for a warm weather training camp in Portugal next week. They will have a final opportunity to impress when they face their hosts in a friendly on Thursday, 13 August. Three players will get trimmed for the World Cup squad, which is due to be announced on Thursday, 20 August. Parkinson was part of S",
-              "bodyError": ""
-            },
             {
               "title": "Football transfer rumours: Arsenal back for £60m Konsa? Asencio to Liverpool?",
               "source": "www.theguardian.com",
@@ -115031,9 +114829,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115079,7 +114877,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115450,7 +115248,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-06T10:03:16.832Z",
+      "fetchedAt": "2026-08-06T10:16:04.197Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115671,7 +115469,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -115939,8 +115737,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Argentina mark World Cup win over England with 'National Football Teams Day'",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cn9n8q8w7ndo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 06 Aug 2026 10:02:31 GMT"
+        },
         {
           "title": "Fifa opens disciplinary proceedings against Argentina over Falklands banner and final chaos",
           "source": "www.theguardian.com",
@@ -115948,7 +115752,7 @@ window.MATCHES = [
           "pubDate": "Wed, 29 Jul 2026 17:09:36 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -116171,9 +115975,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-06T10:03:16.832Z",
+      "updatedAt": "2026-08-06T10:16:04.197Z",
       "dataQuality": {
-        "updatedAt": "2026-08-06T10:03:16.832Z",
+        "updatedAt": "2026-08-06T10:16:04.197Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116294,16 +116098,16 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-08-06T10:03:16.832Z",
+  "updatedAt": "2026-08-06T10:16:04.197Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
   "topScoreCoverage": 40,
   "scoreBandCoverage": 68,
-  "scoreScenarioCoverage": 84,
-  "averageBrier": 0.5304,
-  "averageLogLoss": 0.8829,
+  "scoreScenarioCoverage": 85,
+  "averageBrier": 0.5302,
+  "averageLogLoss": 0.8827,
   "drawRecall": 21,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122984,9 +122788,9 @@ window.ANALYSIS_BACKTEST = {
       "outcomeHitRate": 47,
       "topScoreCoverage": 47,
       "scoreBandCoverage": 72,
-      "scoreScenarioCoverage": 78,
-      "averageBrier": 0.5808,
-      "averageLogLoss": 0.9355,
+      "scoreScenarioCoverage": 81,
+      "averageBrier": 0.5801,
+      "averageLogLoss": 0.9346,
       "lockedCount": 0,
       "rows": [
         {
@@ -123880,15 +123684,15 @@ window.ANALYSIS_BACKTEST = {
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": false,
+          "scoreScenarioHit": true,
           "confidence": 64,
-          "brier": 0.6218,
-          "logLoss": 0.9943,
+          "brier": 0.6008,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
-            43,
+            38,
+            42,
             20
           ],
           "scoreBands": [
@@ -123902,7 +123706,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 23,
+              "chance": 24,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123911,7 +123715,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 14,
+              "chance": 15,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123922,7 +123726,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 62,
+              "chance": 63,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123939,11 +123743,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 35,
+              "label": "主队胜出覆盖",
+              "chance": 38,
               "examples": [
-                "1-1",
-                "0-0"
+                "1-0",
+                "2-0",
+                "2-1"
               ]
             }
           ],
@@ -125838,7 +125643,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "低信心",
       "count": 19,
       "hitRate": 53,
-      "averageBrier": 0.6112
+      "averageBrier": 0.6101
     },
     {
       "label": "中信心",
