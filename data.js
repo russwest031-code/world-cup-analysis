@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-08-16T07:37:17.017Z",
+  "updatedAt": "2026-08-16T07:38:47.076Z",
   "runDate": "2026-08-16",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-08-16T07:37:17.017Z",
+  "externalFetchedAt": "2026-08-16T07:38:47.076Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -831,7 +831,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": null,
@@ -1057,9 +1057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1161,11 +1161,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率66%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -1455,7 +1455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2056,9 +2056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2161,11 +2161,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率41%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -2466,7 +2466,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2936,7 +2936,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": null,
@@ -3162,9 +3162,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3270,7 +3270,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率48%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率45%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -3410,8 +3410,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 5,
         "avgAge": 26.1,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Folarin Balogun"
+        ],
         "lastStarters": null
       }
     },
@@ -3550,7 +3552,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 70,
         "away": 64
       },
       {
@@ -3560,7 +3562,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 61,
+        "home": 56,
         "away": 53
       },
       {
@@ -3571,7 +3573,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3580,9 +3582,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      35,
+      34,
       43,
-      22
+      23
     ],
     "confidence": 66,
     "tag": "已完场",
@@ -3608,7 +3610,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -3625,7 +3627,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "0-1",
           "1-2",
@@ -3645,7 +3647,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 54,
+        "chance": 55,
         "examples": [
           "1-1",
           "0-0",
@@ -3654,7 +3656,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -3662,14 +3664,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.36,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -3677,15 +3679,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        35,
+        34,
         43,
-        22
+        23
       ],
       "market": null,
       "blended": [
-        35,
+        34,
         43,
-        22
+        23
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -3731,10 +3733,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 67,
         "awayScore": 66,
-        "contribution": 1.2,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；巴拉圭 进攻64/防守80/中场53，综合66。"
+        "contribution": 0.24,
+        "evidence": "美国 进攻70/防守76/中场56，综合67；巴拉圭 进攻64/防守80/中场53，综合66。"
       },
       {
         "name": "近期状态",
@@ -3789,7 +3791,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 17,
         "awayRank": 41,
-        "homeAverageMetric": 71.5,
+        "homeAverageMetric": 69,
         "awayAverageMetric": 63.8
       },
       "recentForm": {
@@ -3997,7 +3999,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 70,
         "homeDefense": 76,
         "awayAttack": 64,
         "awayDefense": 80
@@ -4258,9 +4260,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4329,12 +4331,12 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。巴拉圭属于均衡型，场均进球参考值 0.6，大胜倾向 0%。",
-      "美国 进攻指数 75，巴拉圭 防守指数 80；巴拉圭 进攻指数 64，美国 防守指数 76。",
+      "美国 进攻指数 70，巴拉圭 防守指数 80；巴拉圭 进攻指数 64，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.4,
-      "away": 0.96
+      "home": 1.34,
+      "away": 0.97
     },
     "analysisUpdated": "2026-08-16",
     "matchAutopsy": {
@@ -4639,8 +4641,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -4648,7 +4652,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 56,
-        "away": 72
+        "away": 67
       },
       {
         "label": "防守",
@@ -4658,7 +4662,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 56
+        "away": 51
       },
       {
         "label": "近期状态",
@@ -4668,7 +4672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4678,16 +4682,16 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       11,
-      47,
-      42
+      48,
+      41
     ],
-    "confidence": 66,
+    "confidence": 68,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 27
+        "chance": 28
       },
       {
         "score": "1-1",
@@ -4695,7 +4699,7 @@ window.MATCHES = [
       },
       {
         "score": "0-1",
-        "chance": 15
+        "chance": 16
       },
       {
         "score": "0-2",
@@ -4705,7 +4709,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -4742,7 +4746,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 56,
         "examples": [
           "0-0",
           "1-1",
@@ -4751,7 +4755,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -4759,14 +4763,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 21,
-      "under25": 79,
-      "bttsYes": 32,
-      "bttsNo": 68,
+      "over25": 20,
+      "under25": 80,
+      "bttsYes": 31,
+      "bttsNo": 69,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 21,
-      "lowScoreDraw": 45,
-      "expectedTotalGoals": 1.76,
+      "awayWinBy2Plus": 20,
+      "lowScoreDraw": 46,
+      "expectedTotalGoals": 1.71,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -4775,14 +4779,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         11,
-        37,
-        52
+        38,
+        51
       ],
       "market": null,
       "blended": [
         11,
-        47,
-        42
+        48,
+        41
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -4829,9 +4833,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 56,
-        "awayScore": 70,
-        "contribution": -3.36,
-        "evidence": "卡塔尔 进攻56/防守74/中场39，综合56；瑞士 进攻72/防守82/中场56，综合70。"
+        "awayScore": 67,
+        "contribution": -2.64,
+        "evidence": "卡塔尔 进攻56/防守74/中场39，综合56；瑞士 进攻67/防守82/中场51，综合67。"
       },
       {
         "name": "近期状态",
@@ -4887,7 +4891,7 @@ window.MATCHES = [
         "homeRank": 56,
         "awayRank": 19,
         "homeAverageMetric": 50.8,
-        "awayAverageMetric": 67
+        "awayAverageMetric": 64.5
       },
       "recentForm": {
         "home": {
@@ -5096,7 +5100,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 56,
         "homeDefense": 74,
-        "awayAttack": 72,
+        "awayAttack": 67,
         "awayDefense": 82
       },
       "motivation": {
@@ -5355,9 +5359,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5426,12 +5430,12 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "卡塔尔属于均衡型，场均进球参考值 0.67，大胜倾向 0%。瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。",
-      "卡塔尔 进攻指数 56，瑞士 防守指数 82；瑞士 进攻指数 72，卡塔尔 防守指数 74。",
+      "卡塔尔 进攻指数 56，瑞士 防守指数 82；瑞士 进攻指数 67，卡塔尔 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.46,
-      "away": 1.3
+      "away": 1.25
     },
     "analysisUpdated": "2026-08-16",
     "matchAutopsy": {
@@ -5441,8 +5445,8 @@ window.MATCHES = [
       "away": "瑞士",
       "actualScore": "1-1",
       "actualResult": "平局",
-      "predictedResult": "客胜",
-      "correct": false,
+      "predictedResult": "平局",
+      "correct": true,
       "rightFactors": [
         "出线动机",
         "天气/场地",
@@ -5464,7 +5468,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向客胜（概率47%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率47%），与实际结果一致。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -5765,7 +5769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6453,9 +6457,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6562,7 +6566,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率38%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率37%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -6863,7 +6867,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7569,9 +7573,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7674,11 +7678,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率44%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率47%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -7968,7 +7972,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8459,7 +8463,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": null,
@@ -8600,9 +8604,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -8708,7 +8712,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率36%），但实际结果为主胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -8998,7 +9002,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9469,7 +9473,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": 29,
@@ -9600,9 +9604,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9708,7 +9712,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率66%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率68%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -10009,7 +10013,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10706,9 +10710,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10811,11 +10815,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率36%），与实际结果一致。 判断正确的因素：攻防综合、球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率37%），与实际结果一致。 判断正确的因素：攻防综合、球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -11105,7 +11109,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11575,7 +11579,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": 25.2,
@@ -11706,9 +11710,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -11815,7 +11819,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：近期状态。判断错误的因素：世界排名。  科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率40%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：近期状态。判断错误的因素：世界排名。  科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -12116,7 +12120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12803,9 +12807,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13203,7 +13207,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13689,7 +13693,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": 21.7,
@@ -13830,9 +13834,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -14239,7 +14243,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14710,7 +14714,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": 24.6,
@@ -14936,9 +14940,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -15044,7 +15048,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率56%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  埃及场均射门10.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率53%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  埃及场均射门10.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -15345,7 +15349,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16032,9 +16036,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16141,7 +16145,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率46%），与实际结果一致。 判断正确的因素：近期状态、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率48%），与实际结果一致。 判断正确的因素：近期状态、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -16442,7 +16446,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17130,9 +17134,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17239,7 +17243,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率62%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率61%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -17540,7 +17544,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18228,9 +18232,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18337,7 +18341,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率59%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  塞内加尔场均射门11.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率58%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  塞内加尔场均射门11.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -18638,7 +18642,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19325,9 +19329,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19735,7 +19739,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20206,7 +20210,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": 33.3,
@@ -20432,9 +20436,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -20540,7 +20544,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率44%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  阿尔及利亚场均射门8.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率45%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  阿尔及利亚场均射门8.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -20841,7 +20845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21529,9 +21533,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21638,7 +21642,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率61%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -21939,7 +21943,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22410,7 +22414,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 35.3,
@@ -22636,9 +22640,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -22744,7 +22748,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率47%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  刚果（金）场均射门6.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率60%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  刚果（金）场均射门6.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -23045,7 +23049,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23747,9 +23751,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23852,7 +23856,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -24157,7 +24161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24627,7 +24631,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 21.4,
@@ -24853,9 +24857,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -24962,7 +24966,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率43%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：球员质量。判断错误的因素：世界排名、近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率45%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：球员质量。判断错误的因素：世界排名、近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -25263,7 +25267,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25733,7 +25737,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -25959,9 +25963,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26044,8 +26048,8 @@ window.MATCHES = [
       "away": "哥伦比亚",
       "actualScore": "1-3",
       "actualResult": "客胜",
-      "predictedResult": "平局",
-      "correct": false,
+      "predictedResult": "客胜",
+      "correct": true,
       "rightFactors": [
         "世界排名",
         "攻防综合",
@@ -26067,7 +26071,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率46%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率45%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -26368,7 +26372,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26838,7 +26842,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 29.9,
@@ -27064,9 +27068,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27172,7 +27176,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率45%），与实际结果一致。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率42%），与实际结果一致。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -27312,8 +27316,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -27452,7 +27458,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 72,
+        "home": 67,
         "away": 65
       },
       {
@@ -27462,7 +27468,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 51,
         "away": 48
       },
       {
@@ -27473,7 +27479,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27482,11 +27488,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      48,
-      40,
+      47,
+      41,
       12
     ],
-    "confidence": 69,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -27496,11 +27502,11 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 17
       },
       {
         "score": "2-0",
@@ -27510,7 +27516,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -27527,7 +27533,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 13,
+        "chance": 12,
         "examples": [
           "3-0",
           "4-0",
@@ -27538,7 +27544,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 71,
         "examples": [
           "1-1",
           "0-0",
@@ -27547,7 +27553,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 45,
+        "chance": 46,
         "examples": [
           "1-1",
           "0-0",
@@ -27556,7 +27562,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 48,
+        "chance": 47,
         "examples": [
           "1-0",
           "2-0",
@@ -27565,29 +27571,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
+      "over25": 36,
+      "under25": 64,
       "bttsYes": 45,
       "bttsNo": 55,
-      "homeWinBy2Plus": 28,
+      "homeWinBy2Plus": 27,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.4,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.34,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
-        30,
+        57,
+        31,
         12
       ],
       "market": null,
       "blended": [
-        48,
-        40,
+        47,
+        41,
         12
       ],
       "blendWeight": 0,
@@ -27634,10 +27640,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 70,
+        "homeScore": 67,
         "awayScore": 64,
-        "contribution": 1.44,
-        "evidence": "瑞士 进攻72/防守82/中场56，综合70；波黑 进攻65/防守78/中场48，综合64。"
+        "contribution": 0.72,
+        "evidence": "瑞士 进攻67/防守82/中场51，综合67；波黑 进攻65/防守78/中场48，综合64。"
       },
       {
         "name": "近期状态",
@@ -27692,7 +27698,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 64,
-        "homeAverageMetric": 67,
+        "homeAverageMetric": 64.5,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -27900,7 +27906,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 72,
+        "homeAttack": 67,
         "homeDefense": 82,
         "awayAttack": 65,
         "awayDefense": 78
@@ -28161,9 +28167,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28232,12 +28238,12 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。波黑属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
-      "瑞士 进攻指数 72，波黑 防守指数 78；波黑 进攻指数 65，瑞士 防守指数 82。",
+      "瑞士 进攻指数 67，波黑 防守指数 78；波黑 进攻指数 65，瑞士 防守指数 82。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.72,
-      "away": 0.67
+      "home": 1.67,
+      "away": 0.68
     },
     "analysisUpdated": "2026-08-16",
     "matchAutopsy": {
@@ -28270,7 +28276,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率60%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率48%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -28571,7 +28577,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29041,7 +29047,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29267,9 +29273,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29665,7 +29671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30266,9 +30272,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30516,8 +30522,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 5,
         "avgAge": 26.1,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Folarin Balogun"
+        ],
         "lastStarters": null
       }
     },
@@ -30656,7 +30664,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 70,
         "away": 65
       },
       {
@@ -30666,7 +30674,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 61,
+        "home": 56,
         "away": 56
       },
       {
@@ -30677,7 +30685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -30686,9 +30694,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      35,
+      34,
       41,
-      24
+      25
     ],
     "confidence": 65,
     "tag": "已完场",
@@ -30703,11 +30711,11 @@ window.MATCHES = [
         "chance": 13
       },
       {
-        "score": "2-1",
+        "score": "1-0",
         "chance": 7
       },
       {
-        "score": "1-0",
+        "score": "2-1",
         "chance": 7
       }
     ],
@@ -30724,14 +30732,14 @@ window.MATCHES = [
         "label": "主队小胜",
         "chance": 21,
         "examples": [
-          "2-1",
           "1-0",
+          "2-1",
           "2-0"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "1-2",
           "0-1",
@@ -30746,12 +30754,12 @@ window.MATCHES = [
         "examples": [
           "1-1",
           "0-0",
-          "2-1"
+          "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
@@ -30759,24 +30767,23 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 35,
+        "label": "低比分平局",
+        "chance": 33,
         "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 18,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 10,
       "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.59,
+      "expectedTotalGoals": 2.54,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -30784,15 +30791,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        35,
+        34,
         41,
-        24
+        25
       ],
       "market": null,
       "blended": [
-        35,
+        34,
         41,
-        24
+        25
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -30838,10 +30845,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 67,
         "awayScore": 68,
-        "contribution": 0.72,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；澳大利亚 进攻65/防守83/中场56，综合68。"
+        "contribution": -0.24,
+        "evidence": "美国 进攻70/防守76/中场56，综合67；澳大利亚 进攻65/防守83/中场56，综合68。"
       },
       {
         "name": "近期状态",
@@ -30896,7 +30903,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 17,
         "awayRank": 27,
-        "homeAverageMetric": 71.5,
+        "homeAverageMetric": 69,
         "awayAverageMetric": 67.5
       },
       "recentForm": {
@@ -31104,7 +31111,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 70,
         "homeDefense": 76,
         "awayAttack": 65,
         "awayDefense": 83
@@ -31169,7 +31176,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 21.9,
@@ -31405,9 +31412,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -31475,11 +31482,11 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。澳大利亚属于防守控制型，场均进球参考值 0.75，大胜倾向 25%。",
-      "美国 进攻指数 75，澳大利亚 防守指数 83；澳大利亚 进攻指数 65，美国 防守指数 76。",
+      "美国 进攻指数 70，澳大利亚 防守指数 83；澳大利亚 进攻指数 65，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.51,
+      "home": 1.45,
       "away": 1.09
     },
     "analysisUpdated": "2026-08-16",
@@ -31514,7 +31521,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率42%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、球员质量。判断错误的因素：近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率41%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、球员质量。判断错误的因素：近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -31815,7 +31822,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32522,9 +32529,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32608,8 +32615,8 @@ window.MATCHES = [
       "away": "摩洛哥",
       "actualScore": "0-1",
       "actualResult": "客胜",
-      "predictedResult": "平局",
-      "correct": false,
+      "predictedResult": "客胜",
+      "correct": true,
       "rightFactors": [
         "世界排名",
         "攻防综合",
@@ -32627,11 +32634,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率42%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率60%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -32932,7 +32939,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33403,7 +33410,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.6,
@@ -33629,9 +33636,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -33737,7 +33744,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率64%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -34027,7 +34034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34619,9 +34626,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34728,7 +34735,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率41%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率43%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -35029,7 +35036,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35522,7 +35529,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.1,
@@ -35748,9 +35755,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36154,7 +36161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36647,7 +36654,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 21.5,
@@ -36778,9 +36785,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37184,7 +37191,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37676,7 +37683,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 25.5,
@@ -37807,9 +37814,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38224,7 +38231,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38942,9 +38949,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39055,7 +39062,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -39360,7 +39367,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39869,7 +39876,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 32,
@@ -40105,9 +40112,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -40522,7 +40529,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41233,9 +41240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41640,7 +41647,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42256,9 +42263,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42674,7 +42681,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43168,7 +43175,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 27.9,
@@ -43394,9 +43401,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43811,7 +43818,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44523,9 +44530,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44621,13 +44628,13 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "球员质量"
       ],
       "wrongFactors": [
         "近期状态"
       ],
       "neutralFactors": [
-        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -44641,7 +44648,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了主胜方向（主胜概率60%），与实际结果一致。 判断正确的因素：世界排名、球员质量。判断错误的因素：近期状态。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率60%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量。判断错误的因素：近期状态。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -44942,7 +44949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45437,7 +45444,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 22.9,
@@ -45663,9 +45670,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46080,7 +46087,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46791,9 +46798,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47210,7 +47217,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47921,9 +47928,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48339,7 +48346,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48833,7 +48840,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35.8,
@@ -49059,9 +49066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49476,7 +49483,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50203,9 +50210,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50316,7 +50323,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -50621,7 +50628,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51114,7 +51121,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 22.4,
@@ -51340,9 +51347,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51757,7 +51764,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52468,9 +52475,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52725,8 +52732,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -52865,7 +52874,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 72,
+        "home": 67,
         "away": 64
       },
       {
@@ -52875,7 +52884,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 51,
         "away": 57
       },
       {
@@ -52886,7 +52895,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -52978,14 +52987,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 11,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.73,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.68,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -53055,10 +53064,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 70,
+        "homeScore": 67,
         "awayScore": 70,
-        "contribution": 0,
-        "evidence": "瑞士 进攻72/防守82/中场56，综合70；加拿大 进攻64/防守88/中场57，综合70。"
+        "contribution": -0.72,
+        "evidence": "瑞士 进攻67/防守82/中场51，综合67；加拿大 进攻64/防守88/中场57，综合70。"
       },
       {
         "name": "近期状态",
@@ -53113,7 +53122,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 30,
-        "homeAverageMetric": 67,
+        "homeAverageMetric": 64.5,
         "awayAverageMetric": 64.8
       },
       "recentForm": {
@@ -53321,7 +53330,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 72,
+        "homeAttack": 67,
         "homeDefense": 82,
         "awayAttack": 64,
         "awayDefense": 88
@@ -53380,7 +53389,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.5,
@@ -53606,9 +53615,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -53676,7 +53685,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。加拿大属于防守控制型，场均进球参考值 1.8，大胜倾向 20%。",
-      "瑞士 进攻指数 72，加拿大 防守指数 88；加拿大 进攻指数 64，瑞士 防守指数 82。",
+      "瑞士 进攻指数 67，加拿大 防守指数 88；加拿大 进攻指数 64，瑞士 防守指数 82。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -54023,7 +54032,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54516,7 +54525,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 18.4,
@@ -54742,9 +54751,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55160,7 +55169,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55890,9 +55899,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56003,7 +56012,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -56308,7 +56317,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56802,7 +56811,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 28.4,
@@ -57028,9 +57037,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57445,7 +57454,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57939,7 +57948,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -58165,9 +58174,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58277,7 +58286,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -58571,7 +58580,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59196,9 +59205,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59309,7 +59318,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -59592,7 +59601,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60086,7 +60095,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.3,
@@ -60117,9 +60126,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60535,7 +60544,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61247,9 +61256,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61665,7 +61674,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62385,9 +62394,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62498,7 +62507,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -62803,7 +62812,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63297,7 +63306,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.2,
@@ -63523,9 +63532,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -63900,8 +63909,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 5,
         "avgAge": 26.1,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Folarin Balogun"
+        ],
         "lastStarters": null
       }
     },
@@ -63909,7 +63920,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 71,
-        "away": 75
+        "away": 70
       },
       {
         "label": "防守",
@@ -63919,7 +63930,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 58,
-        "away": 61
+        "away": 56
       },
       {
         "label": "近期状态",
@@ -63929,7 +63940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64021,17 +64032,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 17,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 15,
       "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.51,
+      "expectedTotalGoals": 2.45,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -64099,9 +64110,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 69,
-        "awayScore": 71,
-        "contribution": -0.48,
-        "evidence": "土耳其 进攻71/防守79/中场58，综合69；美国 进攻75/防守76/中场61，综合71。"
+        "awayScore": 67,
+        "contribution": 0.48,
+        "evidence": "土耳其 进攻71/防守79/中场58，综合69；美国 进攻70/防守76/中场56，综合67。"
       },
       {
         "name": "近期状态",
@@ -64157,7 +64168,7 @@ window.MATCHES = [
         "homeRank": 22,
         "awayRank": 17,
         "homeAverageMetric": 72.5,
-        "awayAverageMetric": 71.5
+        "awayAverageMetric": 69
       },
       "recentForm": {
         "home": {
@@ -64366,7 +64377,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 71,
         "homeDefense": 79,
-        "awayAttack": 75,
+        "awayAttack": 70,
         "awayDefense": 76
       },
       "motivation": {
@@ -64545,9 +64556,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64616,7 +64627,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "土耳其属于均衡型，场均进球参考值 1，大胜倾向 0%。美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。",
-      "土耳其 进攻指数 71，美国 防守指数 76；美国 进攻指数 75，土耳其 防守指数 79。",
+      "土耳其 进攻指数 71，美国 防守指数 76；美国 进攻指数 70，土耳其 防守指数 79。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -64963,7 +64974,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65705,9 +65716,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66123,7 +66134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66835,9 +66846,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67253,7 +67264,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67747,7 +67758,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 23.4,
@@ -67973,9 +67984,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68379,7 +68390,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68872,7 +68883,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35,
@@ -69003,9 +69014,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69420,7 +69431,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70155,9 +70166,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70573,7 +70584,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71067,7 +71078,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 19.2,
@@ -71293,9 +71304,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71710,7 +71721,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72204,7 +72215,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 20.2,
@@ -72430,9 +72441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72847,7 +72858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73574,9 +73585,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73687,7 +73698,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -73992,7 +74003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74486,7 +74497,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 27,
@@ -74712,9 +74723,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75129,7 +75140,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75840,9 +75851,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76258,7 +76269,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76751,7 +76762,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 33.3,
@@ -76977,9 +76988,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77394,7 +77405,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77888,7 +77899,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 32.7,
@@ -78114,9 +78125,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78531,7 +78542,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79243,9 +79254,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79661,7 +79672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80372,9 +80383,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80790,7 +80801,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81294,7 +81305,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.9,
@@ -81520,9 +81531,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -81632,7 +81643,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -81937,7 +81948,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82649,9 +82660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83067,7 +83078,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83779,9 +83790,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84186,7 +84197,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84802,9 +84813,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85220,7 +85231,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85932,9 +85943,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86350,7 +86361,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86844,7 +86855,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -87070,9 +87081,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87182,7 +87193,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -87487,7 +87498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87996,7 +88007,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -88222,9 +88233,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88334,7 +88345,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -88639,7 +88650,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89134,7 +89145,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -89360,9 +89371,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -89616,8 +89627,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 5,
         "avgAge": 26.1,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Folarin Balogun"
+        ],
         "lastStarters": null
       }
     },
@@ -89756,7 +89769,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 70,
         "away": 65
       },
       {
@@ -89766,7 +89779,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 61,
+        "home": 56,
         "away": 48
       },
       {
@@ -89777,7 +89790,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -89870,14 +89883,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 34,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.32,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 27,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.27,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -89947,10 +89960,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 67,
         "awayScore": 64,
-        "contribution": 1.68,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；波黑 进攻65/防守78/中场48，综合64。"
+        "contribution": 0.72,
+        "evidence": "美国 进攻70/防守76/中场56，综合67；波黑 进攻65/防守78/中场48，综合64。"
       },
       {
         "name": "近期状态",
@@ -90005,7 +90018,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 17,
         "awayRank": 64,
-        "homeAverageMetric": 71.5,
+        "homeAverageMetric": 69,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -90213,7 +90226,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 70,
         "homeDefense": 76,
         "awayAttack": 65,
         "awayDefense": 78
@@ -90489,9 +90502,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90560,7 +90573,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。波黑属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
-      "美国 进攻指数 75，波黑 防守指数 78；波黑 进攻指数 65，美国 防守指数 76。",
+      "美国 进攻指数 70，波黑 防守指数 78；波黑 进攻指数 65，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -90907,7 +90920,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91644,9 +91657,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92063,7 +92076,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92557,7 +92570,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -92783,9 +92796,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93039,8 +93052,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -93179,7 +93194,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 72,
+        "home": 67,
         "away": 70
       },
       {
@@ -93189,7 +93204,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 51,
         "away": 55
       },
       {
@@ -93200,7 +93215,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93292,14 +93307,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.36,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
@@ -93369,10 +93384,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 70,
+        "homeScore": 67,
         "awayScore": 72,
-        "contribution": -0.48,
-        "evidence": "瑞士 进攻72/防守82/中场56，综合70；阿尔及利亚 进攻70/防守92/中场55，综合72。"
+        "contribution": -1.2,
+        "evidence": "瑞士 进攻67/防守82/中场51，综合67；阿尔及利亚 进攻70/防守92/中场55，综合72。"
       },
       {
         "name": "近期状态",
@@ -93427,7 +93442,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 28,
-        "homeAverageMetric": 67,
+        "homeAverageMetric": 64.5,
         "awayAverageMetric": 74.8
       },
       "recentForm": {
@@ -93635,7 +93650,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 72,
+        "homeAttack": 67,
         "homeDefense": 82,
         "awayAttack": 70,
         "awayDefense": 92
@@ -93694,7 +93709,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -93920,9 +93935,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93990,7 +94005,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。阿尔及利亚属于防守控制型，场均进球参考值 1.25，大胜倾向 0%。",
-      "瑞士 进攻指数 72，阿尔及利亚 防守指数 92；阿尔及利亚 进攻指数 70，瑞士 防守指数 82。",
+      "瑞士 进攻指数 67，阿尔及利亚 防守指数 92；阿尔及利亚 进攻指数 70，瑞士 防守指数 82。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -94337,7 +94352,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95080,9 +95095,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95487,7 +95502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96104,9 +96119,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96522,7 +96537,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97016,7 +97031,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -97242,9 +97257,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97659,7 +97674,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98154,7 +98169,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -98380,9 +98395,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98797,7 +98812,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99292,7 +99307,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -99518,9 +99533,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99935,7 +99950,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100647,9 +100662,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101065,7 +101080,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101575,7 +101590,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -101801,9 +101816,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -101914,7 +101929,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -102219,7 +102234,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102955,9 +102970,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103213,8 +103228,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 5,
         "avgAge": 26.1,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Folarin Balogun"
+        ],
         "lastStarters": null
       }
     },
@@ -103353,7 +103370,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 75,
+        "home": 70,
         "away": 81
       },
       {
@@ -103363,7 +103380,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 61,
+        "home": 56,
         "away": 68
       },
       {
@@ -103374,7 +103391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -103467,14 +103484,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 67,
-      "bttsNo": 33,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 19,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.18,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 13,
+      "awayWinBy2Plus": 23,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.13,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -103544,10 +103561,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 67,
         "awayScore": 78,
-        "contribution": -1.68,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；比利时 进攻81/防守86/中场68，综合78。"
+        "contribution": -2.64,
+        "evidence": "美国 进攻70/防守76/中场56，综合67；比利时 进攻81/防守86/中场68，综合78。"
       },
       {
         "name": "近期状态",
@@ -103602,7 +103619,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 17,
         "awayRank": 9,
-        "homeAverageMetric": 71.5,
+        "homeAverageMetric": 69,
         "awayAverageMetric": 77.3
       },
       "recentForm": {
@@ -103810,7 +103827,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 75,
+        "homeAttack": 70,
         "homeDefense": 76,
         "awayAttack": 81,
         "awayDefense": 86
@@ -103869,7 +103886,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -104095,9 +104112,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104165,7 +104182,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "美国 进攻指数 75，比利时 防守指数 86；比利时 进攻指数 81，美国 防守指数 76。",
+      "美国 进攻指数 70，比利时 防守指数 86；比利时 进攻指数 81，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -104192,11 +104209,11 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "近期状态"
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "球员质量",
         "出线动机",
         "天气/场地",
@@ -104211,7 +104228,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了客胜方向（客胜概率40%），与实际结果一致。 判断正确的因素：世界排名、近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率40%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -104512,7 +104529,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105007,7 +105024,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -105233,9 +105250,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105489,8 +105506,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -105629,7 +105648,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 72,
+        "home": 67,
         "away": 74
       },
       {
@@ -105639,7 +105658,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 56,
+        "home": 51,
         "away": 63
       },
       {
@@ -105650,7 +105669,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -105742,17 +105761,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.89,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.84,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -105819,10 +105838,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 70,
+        "homeScore": 67,
         "awayScore": 73,
-        "contribution": -0.72,
-        "evidence": "瑞士 进攻72/防守82/中场56，综合70；哥伦比亚 进攻74/防守81/中场63，综合73。"
+        "contribution": -1.44,
+        "evidence": "瑞士 进攻67/防守82/中场51，综合67；哥伦比亚 进攻74/防守81/中场63，综合73。"
       },
       {
         "name": "近期状态",
@@ -105877,7 +105896,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 19,
         "awayRank": 13,
-        "homeAverageMetric": 67,
+        "homeAverageMetric": 64.5,
         "awayAverageMetric": 75
       },
       "recentForm": {
@@ -106085,7 +106104,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 72,
+        "homeAttack": 67,
         "homeDefense": 82,
         "awayAttack": 74,
         "awayDefense": 81
@@ -106144,7 +106163,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -106370,9 +106389,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106440,7 +106459,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。哥伦比亚属于均衡型，场均进球参考值 1，大胜倾向 20%。",
-      "瑞士 进攻指数 72，哥伦比亚 防守指数 81；哥伦比亚 进攻指数 74，瑞士 防守指数 82。",
+      "瑞士 进攻指数 67，哥伦比亚 防守指数 81；哥伦比亚 进攻指数 74，瑞士 防守指数 82。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -106787,7 +106806,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107499,9 +107518,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107917,7 +107936,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108653,9 +108672,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109072,7 +109091,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109799,9 +109818,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109912,7 +109931,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -110188,8 +110207,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 1,
         "avgAge": 27.8,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Breel Embolo"
+        ],
         "lastStarters": null
       }
     },
@@ -110197,7 +110218,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 75,
-        "away": 72
+        "away": 67
       },
       {
         "label": "防守",
@@ -110207,7 +110228,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 77,
-        "away": 56
+        "away": 51
       },
       {
         "label": "近期状态",
@@ -110217,7 +110238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110311,14 +110332,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 34,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.1,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.05,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -110389,9 +110410,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 81,
-        "awayScore": 70,
-        "contribution": 2.64,
-        "evidence": "阿根廷 进攻75/防守92/中场77，综合81；瑞士 进攻72/防守82/中场56，综合70。"
+        "awayScore": 67,
+        "contribution": 3.36,
+        "evidence": "阿根廷 进攻75/防守92/中场77，综合81；瑞士 进攻67/防守82/中场51，综合67。"
       },
       {
         "name": "近期状态",
@@ -110447,7 +110468,7 @@ window.MATCHES = [
         "homeRank": 1,
         "awayRank": 19,
         "homeAverageMetric": 85.5,
-        "awayAverageMetric": 67
+        "awayAverageMetric": 64.5
       },
       "recentForm": {
         "home": {
@@ -110656,7 +110677,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 75,
         "homeDefense": 92,
-        "awayAttack": 72,
+        "awayAttack": 67,
         "awayDefense": 82
       },
       "motivation": {
@@ -110713,7 +110734,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -110939,9 +110960,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111009,7 +111030,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "阿根廷属于防守控制型，场均进球参考值 1.88，大胜倾向 38%。瑞士属于防守控制型，场均进球参考值 1.67，大胜倾向 33%。",
-      "阿根廷 进攻指数 75，瑞士 防守指数 82；瑞士 进攻指数 72，阿根廷 防守指数 92。",
+      "阿根廷 进攻指数 75，瑞士 防守指数 82；瑞士 进攻指数 67，阿根廷 防守指数 92。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -111356,7 +111377,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112092,9 +112113,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112510,7 +112531,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113020,7 +113041,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-16T07:37:17.017Z",
+        "fetchedAt": "2026-08-16T07:38:47.076Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -113246,9 +113267,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113359,7 +113380,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -113664,7 +113685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114390,9 +114411,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114504,7 +114525,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -114809,7 +114830,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-16T07:37:17.017Z",
+      "fetchedAt": "2026-08-16T07:38:47.076Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115546,9 +115567,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-16T07:37:17.017Z",
+      "updatedAt": "2026-08-16T07:38:47.076Z",
       "dataQuality": {
-        "updatedAt": "2026-08-16T07:37:17.017Z",
+        "updatedAt": "2026-08-16T07:38:47.076Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115669,7 +115690,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-08-16T07:37:17.017Z",
+  "updatedAt": "2026-08-16T07:38:47.076Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
@@ -115677,8 +115698,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 41,
   "scoreBandCoverage": 67,
   "scoreScenarioCoverage": 83,
-  "averageBrier": 0.5297,
-  "averageLogLoss": 0.8838,
+  "averageBrier": 0.53,
+  "averageLogLoss": 0.8843,
   "drawRecall": 24,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122360,8 +122381,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 50,
       "scoreBandCoverage": 69,
       "scoreScenarioCoverage": 75,
-      "averageBrier": 0.5785,
-      "averageLogLoss": 0.9382,
+      "averageBrier": 0.5796,
+      "averageLogLoss": 0.94,
       "lockedCount": 0,
       "rows": [
         {
@@ -122647,14 +122668,14 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 65,
-          "brier": 0.6482,
-          "logLoss": 1.0498,
+          "brier": 0.6662,
+          "logLoss": 1.0788,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            35,
+            34,
             41,
-            24
+            25
           ],
           "scoreBands": [
             {
@@ -122669,14 +122690,14 @@ window.ANALYSIS_BACKTEST = {
               "label": "主队小胜",
               "chance": 21,
               "examples": [
-                "2-1",
                 "1-0",
+                "2-1",
                 "2-0"
               ]
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "1-2",
                 "0-1",
@@ -122691,12 +122712,12 @@ window.ANALYSIS_BACKTEST = {
               "examples": [
                 "1-1",
                 "0-0",
-                "2-1"
+                "1-0"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 50,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122704,12 +122725,11 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 35,
+              "label": "低比分平局",
+              "chance": 33,
               "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -122908,20 +122928,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 69,
-          "brier": 0.4448,
-          "logLoss": 0.734,
+          "confidence": 67,
+          "brier": 0.4634,
+          "logLoss": 0.755,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            48,
-            40,
+            47,
+            41,
             12
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 35,
+              "chance": 36,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122938,7 +122958,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 13,
+              "chance": 12,
               "examples": [
                 "3-0",
                 "4-0",
@@ -122949,7 +122969,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 70,
+              "chance": 71,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122958,7 +122978,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 45,
+              "chance": 46,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122967,7 +122987,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 48,
+              "chance": 47,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124746,20 +124766,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.4694,
-          "logLoss": 0.755,
+          "confidence": 68,
+          "brier": 0.4506,
+          "logLoss": 0.734,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
             11,
-            47,
-            42
+            48,
+            41
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 45,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124796,7 +124816,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 56,
               "examples": [
                 "0-0",
                 "1-1",
@@ -124805,7 +124825,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 45,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124834,19 +124854,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": false,
           "confidence": 66,
-          "brier": 0.6558,
-          "logLoss": 1.0498,
+          "brier": 0.6734,
+          "logLoss": 1.0788,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            35,
+            34,
             43,
-            22
+            23
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124863,7 +124883,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "0-1",
                 "1-2",
@@ -124883,7 +124903,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 54,
+              "chance": 55,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124892,7 +124912,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125217,7 +125237,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "中信心",
       "count": 89,
       "hitRate": 60,
-      "averageBrier": 0.5057
+      "averageBrier": 0.5061
     },
     {
       "label": "高信心",
@@ -128558,13 +128578,13 @@ window.ANALYSIS_BACKTEST = {
     }
   ],
   "learningLoop": {
-    "accuracy": 55.8,
-    "correct": 58,
+    "accuracy": 58.7,
+    "correct": 61,
     "totalMatches": 104,
     "needsAdjust": false,
     "factorAccuracy": {
       "世界排名": 62,
-      "攻防综合": 58,
+      "攻防综合": 60,
       "近期状态": 55,
       "球员质量": 63,
       "出线动机": 28,
