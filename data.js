@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-08-31T16:06:27.705Z",
-  "runDate": "2026-08-31",
+  "updatedAt": "2026-09-01T12:30:32.021Z",
+  "runDate": "2026-09-01",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-08-31T16:06:27.705Z",
+  "externalFetchedAt": "2026-09-01T12:30:32.021Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,8 +21,8 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 18,
-  "expertArticleBodyCount": 2,
+  "expertArticleCount": 16,
+  "expertArticleBodyCount": 1,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
   "liveTeamNewsProvider": "API-Football",
@@ -58,7 +58,7 @@ window.ANALYSIS_META = {
   },
   "predictionLockCount": 116,
   "predictionLocksCreated": 0,
-  "oddsSnapshotFile": "snapshots/odds/2026-08-31.json"
+  "oddsSnapshotFile": "snapshots/odds/2026-09-01.json"
 };
 
 window.MATCHES = [
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -379,7 +379,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 14
+        "chance": 15
       },
       {
         "score": "1-0",
@@ -443,7 +443,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 43,
+        "chance": 42,
         "examples": [
           "2-0",
           "3-0",
@@ -452,14 +452,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
+      "over25": 44,
+      "under25": 56,
       "bttsYes": 40,
       "bttsNo": 60,
       "homeWinBy2Plus": 41,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.49,
+      "expectedTotalGoals": 2.47,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -831,7 +831,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": null,
@@ -1057,9 +1057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1131,10 +1131,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.9,
-      "away": 0.6
+      "home": 1.88,
+      "away": 0.59
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "mex-rsa-1",
       "date": "2026-06-12",
@@ -1455,7 +1455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1465,34 +1465,34 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       36,
-      40,
-      24
+      42,
+      22
     ],
-    "confidence": 63,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 10
       },
       {
-        "score": "0-1",
-        "chance": 9
+        "score": "2-0",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -1500,7 +1500,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 25,
         "examples": [
           "1-0",
           "2-0",
@@ -1509,7 +1509,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 19,
+        "chance": 17,
         "examples": [
           "0-1",
           "1-2",
@@ -1529,7 +1529,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 56,
+        "chance": 55,
         "examples": [
           "1-1",
           "0-0",
@@ -1538,7 +1538,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -1546,30 +1546,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.04,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.18,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
         36,
-        40,
-        24
+        42,
+        22
       ],
       "market": null,
       "blended": [
         36,
-        40,
-        24
+        42,
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -2047,9 +2047,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2122,10 +2122,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.15,
-      "away": 0.89
+      "home": 1.29,
+      "away": 0.9
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "kor-cze-2",
       "date": "2026-06-12",
@@ -2457,7 +2457,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2466,25 +2466,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      48,
-      41,
+      46,
+      43,
       11
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 12
-      },
-      {
-        "score": "1-1",
-        "chance": 18
+        "chance": 13
       },
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 20
+      },
+      {
+        "score": "1-1",
+        "chance": 19
       },
       {
         "score": "2-0",
@@ -2494,10 +2494,10 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 39,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
@@ -2511,7 +2511,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 12,
+        "chance": 11,
         "examples": [
           "3-0",
           "4-0",
@@ -2522,41 +2522,40 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 73,
+        "chance": 75,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 46,
+        "chance": 49,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 48,
+        "label": "低比分平局",
+        "chance": 39,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "0-0",
+          "1-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 28,
+      "over25": 30,
+      "under25": 70,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.26,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.13,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -2564,14 +2563,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
-        31,
+        56,
+        33,
         11
       ],
       "market": null,
       "blended": [
-        48,
-        41,
+        46,
+        43,
         11
       ],
       "blendWeight": 0,
@@ -2928,7 +2927,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": null,
@@ -3154,9 +3153,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3228,10 +3227,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.65,
-      "away": 0.61
+      "home": 1.55,
+      "away": 0.58
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "can-bih-7",
       "date": "2026-06-13",
@@ -3563,7 +3562,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3572,9 +3571,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      43,
-      20
+      35,
+      41,
+      24
     ],
     "confidence": 65,
     "tag": "已完场",
@@ -3586,21 +3585,21 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 17
+        "chance": 13
       },
       {
         "score": "1-0",
-        "chance": 9
+        "chance": 7
       },
       {
-        "score": "2-0",
-        "chance": 8
+        "score": "2-1",
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 33,
         "examples": [
           "1-1",
           "0-0"
@@ -3608,19 +3607,19 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 21,
         "examples": [
           "1-0",
-          "2-0",
-          "2-1"
+          "2-1",
+          "2-0"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 17,
         "examples": [
-          "0-1",
           "1-2",
+          "0-1",
           "0-2"
         ]
       }
@@ -3628,7 +3627,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 65,
+        "chance": 58,
         "examples": [
           "1-1",
           "0-0",
@@ -3637,16 +3636,16 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 53,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "1-2"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 33,
         "examples": [
           "1-1",
           "0-0"
@@ -3654,30 +3653,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 50,
-      "bttsNo": 50,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.31,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.55,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
-      "upsetRisk": "低"
+      "bttsLean": "双方进球",
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
-        43,
-        20
+        35,
+        41,
+        24
       ],
       "market": null,
       "blended": [
-        37,
-        43,
-        20
+        35,
+        41,
+        24
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -4250,9 +4249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4325,10 +4324,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.41,
-      "away": 0.9
+      "home": 1.49,
+      "away": 1.06
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "usa-par-19",
       "date": "2026-06-13",
@@ -4660,7 +4659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4669,35 +4668,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      9,
-      44,
-      47
+      10,
+      46,
+      44
     ],
-    "confidence": 65,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "0-1",
-        "chance": 15
-      },
-      {
         "score": "0-0",
-        "chance": 24
+        "chance": 26
       },
       {
         "score": "1-1",
         "chance": 17
       },
       {
+        "score": "0-1",
+        "chance": 15
+      },
+      {
         "score": "0-2",
-        "chance": 12
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -4705,7 +4704,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 33,
+        "chance": 32,
         "examples": [
           "0-1",
           "0-2",
@@ -4714,7 +4713,7 @@ window.MATCHES = [
       },
       {
         "label": "客队大胜",
-        "chance": 10,
+        "chance": 9,
         "examples": [
           "0-3",
           "0-4",
@@ -4725,7 +4724,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 80,
+        "chance": 81,
         "examples": [
           "0-0",
           "1-1",
@@ -4734,7 +4733,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 50,
+        "chance": 53,
         "examples": [
           "0-0",
           "1-1",
@@ -4743,7 +4742,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -4751,14 +4750,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 33,
-      "bttsNo": 67,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 32,
+      "bttsNo": 68,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 25,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.91,
+      "awayWinBy2Plus": 23,
+      "lowScoreDraw": 44,
+      "expectedTotalGoals": 1.82,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -4766,15 +4765,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        9,
-        34,
-        57
+        10,
+        36,
+        54
       ],
       "market": null,
       "blended": [
-        9,
-        44,
-        47
+        10,
+        46,
+        44
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -5347,9 +5346,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5423,9 +5422,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 0.46,
-      "away": 1.45
+      "away": 1.36
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "qat-sui-8",
       "date": "2026-06-14",
@@ -5757,7 +5756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5766,35 +5765,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      29,
-      37,
-      34
+      30,
+      38,
+      32
     ],
-    "confidence": 61,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 16
+        "chance": 18
+      },
+      {
+        "score": "0-0",
+        "chance": 9
       },
       {
         "score": "2-2",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "1-2",
         "chance": 8
-      },
-      {
-        "score": "0-0",
-        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
@@ -5802,16 +5801,16 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
           "1-2",
-          "0-2",
-          "0-1"
+          "0-1",
+          "0-2"
         ]
       },
       {
         "label": "主队小胜",
-        "chance": 14,
+        "chance": 16,
         "examples": [
           "2-1",
           "2-0",
@@ -5822,16 +5821,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 43,
+        "chance": 47,
         "examples": [
           "1-1",
-          "1-2",
-          "0-0"
+          "0-0",
+          "1-2"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 40,
+        "chance": 45,
         "examples": [
           "1-1",
           "0-0",
@@ -5840,7 +5839,7 @@ window.MATCHES = [
       },
       {
         "label": "开放对攻",
-        "chance": 38,
+        "chance": 32,
         "examples": [
           "2-2",
           "1-3",
@@ -5849,30 +5848,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 69,
-      "bttsNo": 31,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.31,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.02,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        29,
-        37,
-        34
+        30,
+        38,
+        32
       ],
       "market": null,
       "blended": [
-        29,
-        37,
-        34
+        30,
+        38,
+        32
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -5969,7 +5968,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -6200,9 +6199,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -6219,10 +6218,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -6445,9 +6453,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6520,10 +6528,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.68,
-      "away": 1.63
+      "home": 1.56,
+      "away": 1.46
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "bra-mar-13",
       "date": "2026-06-14",
@@ -6855,7 +6863,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6864,25 +6872,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      14,
+      13,
       46,
-      40
+      41
     ],
-    "confidence": 67,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 25
+        "chance": 24
       },
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-1",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "0-2",
@@ -6909,7 +6917,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 12,
+        "chance": 11,
         "examples": [
           "1-0",
           "2-1",
@@ -6929,7 +6937,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 56,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -6946,14 +6954,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 23,
-      "under25": 77,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 19,
+      "over25": 25,
+      "under25": 75,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 21,
       "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.79,
+      "expectedTotalGoals": 1.91,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -6961,21 +6969,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        14,
-        46,
-        40
+        13,
+        36,
+        51
       ],
       "market": null,
       "blended": [
-        14,
+        13,
         46,
-        40
+        41
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -7066,7 +7074,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7297,9 +7305,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -7316,10 +7324,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7542,9 +7559,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7617,10 +7634,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.56,
-      "away": 1.23
+      "home": 0.55,
+      "away": 1.35
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "hai-sco-14",
       "date": "2026-06-14",
@@ -7941,7 +7958,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -7950,35 +7967,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      38,
-      32
+      28,
+      36,
+      36
     ],
-    "confidence": 63,
+    "confidence": 59,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "0-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "0-1",
         "chance": 9
       },
       {
-        "score": "1-0",
+        "score": "1-2",
         "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 32,
+        "chance": 30,
         "examples": [
           "1-1",
           "0-0"
@@ -7986,7 +8003,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 22,
+        "chance": 24,
         "examples": [
           "0-1",
           "1-2",
@@ -7995,7 +8012,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 21,
+        "chance": 19,
         "examples": [
           "1-0",
           "2-1",
@@ -8006,7 +8023,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 57,
+        "chance": 56,
         "examples": [
           "1-1",
           "0-0",
@@ -8015,7 +8032,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -8023,39 +8040,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 32,
+        "label": "客队胜出覆盖",
+        "chance": 36,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 50,
-      "bttsNo": 50,
-      "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.32,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 12,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        30,
-        38,
-        32
+        28,
+        36,
+        36
       ],
       "market": null,
       "blended": [
-        30,
-        38,
-        32
+        28,
+        36,
+        36
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -8152,7 +8170,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -8405,8 +8423,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -8426,13 +8450,13 @@ window.MATCHES = [
           "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": null,
@@ -8573,9 +8597,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -8648,9 +8672,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 1.13,
-      "away": 1.19
+      "away": 1.3
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "aus-tur-20",
       "date": "2026-06-14",
@@ -8971,7 +8995,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9070,7 +9094,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 45,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 2.81,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -9183,7 +9207,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -9414,9 +9438,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -9433,16 +9457,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": null,
@@ -9573,9 +9606,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -9647,10 +9680,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.14,
+      "home": 2.13,
       "away": 0.67
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "ger-cuw-25",
       "date": "2026-06-15",
@@ -9982,7 +10015,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -9991,11 +10024,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      39,
-      31
+      32,
+      38,
+      30
     ],
-    "confidence": 65,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -10005,15 +10038,15 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 10
-      },
-      {
-        "score": "2-2",
-        "chance": 8
+        "chance": 11
       },
       {
         "score": "1-2",
-        "chance": 8
+        "chance": 7
+      },
+      {
+        "score": "2-1",
+        "chance": 7
       }
     ],
     "scoreBands": [
@@ -10027,7 +10060,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "1-2",
           "0-1",
@@ -10036,7 +10069,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 17,
+        "chance": 19,
         "examples": [
           "2-1",
           "1-0",
@@ -10046,17 +10079,8 @@ window.MATCHES = [
     ],
     "scoreScenarios": [
       {
-        "label": "客队不败低比分",
-        "chance": 49,
-        "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
-        ]
-      },
-      {
         "label": "主队不败低比分",
-        "chance": 48,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -10064,24 +10088,33 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队胜出覆盖",
-        "chance": 31,
+        "label": "客队不败低比分",
+        "chance": 50,
         "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
+          "1-1",
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 32,
+        "examples": [
+          "2-1",
+          "1-0",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 14,
       "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.88,
+      "expectedTotalGoals": 2.72,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -10089,15 +10122,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        30,
-        39,
-        31
+        32,
+        38,
+        30
       ],
       "market": null,
       "blended": [
-        30,
-        39,
-        31
+        32,
+        38,
+        30
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -10194,7 +10227,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -10425,9 +10458,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -10444,10 +10477,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -10670,9 +10712,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10745,10 +10787,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.5,
-      "away": 1.38
+      "home": 1.43,
+      "away": 1.29
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "ned-jpn-31",
       "date": "2026-06-15",
@@ -11069,7 +11111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11078,35 +11120,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      33,
-      43,
-      24
+      36,
+      37,
+      27
     ],
-    "confidence": 66,
+    "confidence": 60,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 14
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "2-1",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -11114,7 +11156,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 22,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-1",
@@ -11123,7 +11165,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 17,
+        "chance": 19,
         "examples": [
           "0-1",
           "1-2",
@@ -11134,7 +11176,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 61,
+        "chance": 59,
         "examples": [
           "1-1",
           "0-0",
@@ -11143,7 +11185,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
@@ -11151,23 +11193,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
+        "label": "主队胜出覆盖",
         "chance": 36,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-1",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.37,
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.33,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -11175,15 +11218,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        33,
-        43,
-        24
+        36,
+        37,
+        27
       ],
       "market": null,
       "blended": [
-        33,
-        43,
-        24
+        36,
+        37,
+        27
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -11539,7 +11582,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": null,
@@ -11670,9 +11713,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -11744,10 +11787,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.35,
-      "away": 1.02
+      "home": 1.26,
+      "away": 1.07
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "civ-ecu-26",
       "date": "2026-06-15",
@@ -12080,7 +12123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12111,7 +12154,7 @@ window.MATCHES = [
       },
       {
         "score": "0-1",
-        "chance": 10
+        "chance": 9
       }
     ],
     "scoreBands": [
@@ -12173,12 +12216,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 28,
       "under25": 72,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 14,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 9,
       "lowScoreDraw": 38,
-      "expectedTotalGoals": 1.89,
+      "expectedTotalGoals": 1.91,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -12767,9 +12810,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12842,10 +12885,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.05,
+      "home": 1.07,
       "away": 0.84
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "swe-tun-32",
       "date": "2026-06-15",
@@ -13167,7 +13210,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13176,52 +13219,52 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      60,
+      31,
       9
     ],
-    "confidence": 75,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
+      {
+        "score": "1-0",
+        "chance": 17
+      },
+      {
+        "score": "0-0",
+        "chance": 16
+      },
       {
         "score": "2-0",
         "chance": 15
       },
       {
-        "score": "1-0",
-        "chance": 15
-      },
-      {
         "score": "1-1",
-        "chance": 12
-      },
-      {
-        "score": "0-0",
-        "chance": 12
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 40,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "2-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 29,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "主队大胜",
-        "chance": 19,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-0",
@@ -13232,25 +13275,25 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 71,
+        "chance": 76,
         "examples": [
-          "2-0",
           "1-0",
-          "1-1"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 60,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "3-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 41,
+        "chance": 35,
         "examples": [
           "2-0",
           "3-0",
@@ -13259,14 +13302,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 39,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.39,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.09,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -13274,14 +13317,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        60,
+        31,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        60,
+        31,
         9
       ],
       "blendWeight": 0,
@@ -13368,10 +13411,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -13615,11 +13658,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -13635,16 +13678,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13653,7 +13696,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": null,
@@ -13669,9 +13712,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -13769,54 +13812,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -13861,7 +13874,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -13888,10 +13901,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.82,
-      "away": 0.57
+      "home": 1.59,
+      "away": 0.5
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "esp-cpv-43",
       "date": "2026-06-16",
@@ -14062,7 +14075,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -14202,7 +14215,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 68
       },
       {
@@ -14212,7 +14225,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 56
       },
       {
@@ -14223,7 +14236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14232,11 +14245,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      53,
+      55,
       28,
-      19
+      17
     ],
-    "confidence": 74,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -14250,17 +14263,17 @@ window.MATCHES = [
       },
       {
         "score": "2-0",
-        "chance": 9
+        "chance": 10
       },
       {
-        "score": "3-1",
-        "chance": 6
+        "score": "1-0",
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 25,
+        "chance": 28,
         "examples": [
           "2-1",
           "2-0",
@@ -14269,7 +14282,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 20,
+        "chance": 21,
         "examples": [
           "1-1",
           "0-0"
@@ -14277,7 +14290,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
           "3-0",
           "4-1",
@@ -14288,7 +14301,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 51,
+        "chance": 55,
         "examples": [
           "1-1",
           "2-1",
@@ -14297,7 +14310,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 53,
+        "chance": 55,
         "examples": [
           "2-1",
           "2-0",
@@ -14306,7 +14319,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "2-0",
           "3-1",
@@ -14315,30 +14328,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 32,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.06,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 33,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.88,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        53,
+        55,
         28,
-        19
+        17
       ],
       "market": null,
       "blended": [
-        53,
+        55,
         28,
-        19
+        17
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -14356,7 +14369,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -14384,10 +14397,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 68,
-        "contribution": 2.4,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；埃及 进攻68/防守80/中场56，综合68。"
+        "contribution": 0.96,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；埃及 进攻68/防守80/中场56，综合68。"
       },
       {
         "name": "近期状态",
@@ -14435,14 +14448,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 29,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 65.5
       },
       "recentForm": {
@@ -14650,7 +14663,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 68,
         "awayDefense": 80
@@ -14666,9 +14679,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -14685,16 +14698,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": null,
@@ -14920,9 +14942,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -14989,15 +15011,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
-      "比利时 进攻指数 81，埃及 防守指数 80；埃及 进攻指数 68，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
+      "比利时 进攻指数 71，埃及 防守指数 80；埃及 进攻指数 68，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.94,
-      "away": 1.12
+      "home": 1.88,
+      "away": 1
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "bel-egy-37",
       "date": "2026-06-16",
@@ -15329,7 +15351,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15338,25 +15360,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      15,
-      43,
-      42
+      12,
+      49,
+      39
     ],
-    "confidence": 63,
+    "confidence": 70,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 26
-      },
-      {
-        "score": "0-1",
-        "chance": 18
+        "chance": 30
       },
       {
         "score": "1-1",
-        "chance": 15
+        "chance": 17
+      },
+      {
+        "score": "0-1",
+        "chance": 16
       },
       {
         "score": "0-2",
@@ -15366,7 +15388,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 47,
         "examples": [
           "0-0",
           "1-1"
@@ -15374,7 +15396,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 34,
+        "chance": 31,
         "examples": [
           "0-1",
           "0-2",
@@ -15383,7 +15405,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 14,
+        "chance": 11,
         "examples": [
           "1-0",
           "2-1",
@@ -15394,16 +15416,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 79,
+        "chance": 82,
         "examples": [
           "0-0",
-          "0-1",
-          "1-1"
+          "1-1",
+          "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 58,
         "examples": [
           "0-0",
           "1-1",
@@ -15412,7 +15434,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 47,
         "examples": [
           "0-0",
           "1-1"
@@ -15420,14 +15442,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 19,
-      "under25": 81,
-      "bttsYes": 29,
-      "bttsNo": 71,
-      "homeWinBy2Plus": 4,
+      "over25": 18,
+      "under25": 82,
+      "bttsYes": 30,
+      "bttsNo": 70,
+      "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.55,
+      "lowScoreDraw": 47,
+      "expectedTotalGoals": 1.6,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -15435,15 +15457,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        15,
-        43,
-        42
+        12,
+        49,
+        39
       ],
       "market": null,
       "blended": [
-        15,
-        43,
-        42
+        12,
+        49,
+        39
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -15540,7 +15562,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -15771,9 +15793,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -15790,19 +15812,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -16025,9 +16038,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16100,10 +16113,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.5,
-      "away": 1.05
+      "home": 0.47,
+      "away": 1.12
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "ksa-uru-44",
       "date": "2026-06-16",
@@ -16435,7 +16448,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16444,8 +16457,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      62,
-      29,
+      59,
+      32,
       9
     ],
     "confidence": 76,
@@ -16454,15 +16467,15 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 17
+      },
+      {
+        "score": "0-0",
+        "chance": 17
       },
       {
         "score": "2-0",
         "chance": 15
-      },
-      {
-        "score": "0-0",
-        "chance": 13
       },
       {
         "score": "1-1",
@@ -16472,7 +16485,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 40,
         "examples": [
           "1-0",
           "2-0",
@@ -16481,7 +16494,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 26,
+        "chance": 30,
         "examples": [
           "0-0",
           "1-1"
@@ -16489,7 +16502,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 17,
+        "chance": 14,
         "examples": [
           "3-0",
           "4-0",
@@ -16500,16 +16513,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 77,
         "examples": [
           "1-0",
-          "2-0",
-          "0-0"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 62,
+        "chance": 59,
         "examples": [
           "1-0",
           "2-0",
@@ -16518,7 +16531,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 34,
         "examples": [
           "2-0",
           "3-0",
@@ -16527,14 +16540,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 37,
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.3,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.05,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -16542,14 +16555,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        62,
-        29,
+        59,
+        32,
         9
       ],
       "market": null,
       "blended": [
-        62,
-        29,
+        59,
+        32,
         9
       ],
       "blendWeight": 0,
@@ -17123,9 +17136,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17198,10 +17211,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.74,
-      "away": 0.56
+      "home": 1.56,
+      "away": 0.49
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "irn-nzl-38",
       "date": "2026-06-16",
@@ -17533,7 +17546,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17542,8 +17555,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      61,
-      25,
+      62,
+      24,
       14
     ],
     "confidence": 76,
@@ -17551,15 +17564,15 @@ window.MATCHES = [
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-0",
+        "score": "2-1",
         "chance": 10
       },
       {
         "score": "1-1",
-        "chance": 12
+        "chance": 11
       },
       {
-        "score": "2-1",
+        "score": "2-0",
         "chance": 10
       },
       {
@@ -17570,25 +17583,25 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 26,
         "examples": [
-          "2-0",
           "2-1",
+          "2-0",
           "1-0"
         ]
       },
       {
         "label": "主队大胜",
-        "chance": 20,
+        "chance": 22,
         "examples": [
           "3-0",
-          "4-0",
-          "4-1"
+          "4-1",
+          "4-0"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 19,
+        "chance": 17,
         "examples": [
           "1-1",
           "0-0"
@@ -17598,41 +17611,41 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 50,
         "examples": [
           "1-1",
-          "2-0",
-          "2-1"
-        ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 61,
-        "examples": [
-          "2-0",
           "2-1",
-          "1-0"
+          "2-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 43,
+        "chance": 45,
         "examples": [
           "2-0",
-          "3-0",
+          "3-1",
+          "3-0"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 62,
+        "examples": [
+          "2-1",
+          "2-0",
           "3-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 39,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 41,
       "awayWinBy2Plus": 5,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.06,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.24,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -17640,14 +17653,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        61,
-        25,
+        62,
+        24,
         14
       ],
       "market": null,
       "blended": [
-        61,
-        25,
+        62,
+        24,
         14
       ],
       "blendWeight": 0,
@@ -17745,7 +17758,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -17976,9 +17989,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -17995,10 +18008,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -18221,9 +18249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18296,10 +18324,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.1,
-      "away": 0.97
+      "home": 2.24,
+      "away": 1
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "fra-sen-49",
       "date": "2026-06-17",
@@ -18326,7 +18354,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -18631,7 +18659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -18640,25 +18668,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      13,
-      40,
-      47
+      14,
+      44,
+      42
     ],
-    "confidence": 68,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-4。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "0-1",
-        "chance": 11
+        "score": "0-0",
+        "chance": 20
       },
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
-        "score": "0-0",
-        "chance": 16
+        "score": "0-1",
+        "chance": 12
       },
       {
         "score": "0-2",
@@ -18668,10 +18696,10 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 39,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
@@ -18684,37 +18712,37 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队大胜",
+        "label": "主队小胜",
         "chance": 12,
         "examples": [
-          "0-3",
-          "0-4",
-          "1-4"
+          "1-0",
+          "2-1",
+          "2-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 69,
+        "chance": 72,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 46,
+        "chance": 51,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 47,
+        "chance": 42,
         "examples": [
           "0-1",
           "0-2",
@@ -18723,30 +18751,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 46,
-      "bttsNo": 54,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 43,
+      "bttsNo": 57,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 28,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.4,
+      "awayWinBy2Plus": 23,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.16,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        13,
-        30,
-        57
+        14,
+        34,
+        52
       ],
       "market": null,
       "blended": [
-        13,
-        40,
-        47
+        14,
+        44,
+        42
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -19319,9 +19347,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19394,10 +19422,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.69,
-      "away": 1.71
+      "home": 0.67,
+      "away": 1.49
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "irq-nor-50",
       "date": "2026-06-17",
@@ -19729,7 +19757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -19738,11 +19766,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      44,
-      40,
-      16
+      46,
+      39,
+      15
     ],
-    "confidence": 65,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -19766,7 +19794,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 32,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -19774,7 +19802,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 25,
         "examples": [
           "2-0",
           "1-0",
@@ -19783,7 +19811,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 12,
+        "chance": 13,
         "examples": [
           "3-0",
           "4-0",
@@ -19803,7 +19831,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 45,
+        "chance": 43,
         "examples": [
           "1-1",
           "0-0",
@@ -19812,7 +19840,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 44,
+        "chance": 46,
         "examples": [
           "2-0",
           "1-0",
@@ -19821,14 +19849,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 26,
-      "awayWinBy2Plus": 6,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.67,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.69,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -19836,15 +19864,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        54,
-        30,
-        16
+        56,
+        29,
+        15
       ],
       "market": null,
       "blended": [
-        44,
-        40,
-        16
+        46,
+        39,
+        15
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -19930,10 +19958,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 48,
+        "awayScore": 48,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -20177,11 +20205,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 48,
+        "awayScore": 48,
+        "goalLift": -0.06,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -20197,22 +20225,22 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
-        {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -20221,7 +20249,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": null,
@@ -20439,7 +20467,17 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -20447,9 +20485,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -20521,10 +20559,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.78,
-      "away": 0.89
+      "home": 1.82,
+      "away": 0.87
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "arg-alg-55",
       "date": "2026-06-17",
@@ -20551,7 +20589,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -20856,7 +20894,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -20865,8 +20903,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      63,
-      28,
+      60,
+      31,
       9
     ],
     "confidence": 76,
@@ -20875,25 +20913,25 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 17
+      },
+      {
+        "score": "0-0",
+        "chance": 16
       },
       {
         "score": "2-0",
         "chance": 15
       },
       {
-        "score": "0-0",
-        "chance": 13
-      },
-      {
         "score": "1-1",
-        "chance": 12
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -20902,7 +20940,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 25,
+        "chance": 29,
         "examples": [
           "0-0",
           "1-1"
@@ -20910,7 +20948,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 18,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-0",
@@ -20921,16 +20959,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 76,
         "examples": [
           "1-0",
-          "2-0",
-          "0-0"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 63,
+        "chance": 60,
         "examples": [
           "1-0",
           "2-0",
@@ -20939,7 +20977,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 40,
+        "chance": 36,
         "examples": [
           "2-0",
           "3-0",
@@ -20948,14 +20986,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 38,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.32,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.12,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -20963,14 +21001,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        63,
-        28,
+        60,
+        31,
         9
       ],
       "market": null,
       "blended": [
-        63,
-        28,
+        60,
+        31,
         9
       ],
       "blendWeight": 0,
@@ -21057,10 +21095,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -21068,7 +21106,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -21304,11 +21342,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
+        "goalLift": -0.03,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -21321,16 +21359,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
+        {
+          "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+          "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21545,7 +21595,17 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+              "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT",
+              "description": "Former SCR Altach employee now banned worldwide Move follows pressure from players’ unions Fifa has extended worldwide the ban on a former match official and SCR Altach employee found guilty of taking secret videos and photographs of members of the club’s women’s team. In February, a regional court in Feldkirch, Austria, handed the man a seven-month suspended prison sentence, a €1,200 (£1,046) fine and ordered him to pay the victims €625 (£545) each in compensation after he was found guilty of filming and taking photographs of players, including minors, in the changing room, gym and showers of Altach’s women’s team between 2018 and 2025. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -21553,9 +21613,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21628,10 +21688,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.76,
-      "away": 0.56
+      "home": 1.61,
+      "away": 0.51
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "aut-jor-56",
       "date": "2026-06-17",
@@ -21658,7 +21718,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -21965,7 +22025,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -21974,17 +22034,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      47,
-      40,
+      45,
+      42,
       13
     ],
-    "confidence": 68,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 11
+        "chance": 12
       },
       {
         "score": "1-1",
@@ -21992,7 +22052,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 18
       },
       {
         "score": "2-0",
@@ -22002,7 +22062,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -22010,7 +22070,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 29,
         "examples": [
           "1-0",
           "2-0",
@@ -22018,19 +22078,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 12,
+        "label": "客队小胜",
+        "chance": 11,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 69,
+        "chance": 71,
         "examples": [
           "1-1",
           "0-0",
@@ -22039,7 +22099,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 45,
+        "chance": 48,
         "examples": [
           "1-1",
           "0-0",
@@ -22047,39 +22107,38 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 47,
+        "label": "低比分平局",
+        "chance": 37,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 27,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 44,
+      "bttsNo": 56,
+      "homeWinBy2Plus": 25,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.4,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.26,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        57,
-        30,
+        55,
+        32,
         13
       ],
       "market": null,
       "blended": [
-        47,
-        40,
+        45,
+        42,
         13
       ],
       "blendWeight": 0,
@@ -22177,7 +22236,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -22408,9 +22467,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -22427,16 +22486,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": 34.7,
@@ -22662,9 +22730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -22736,10 +22804,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.7,
-      "away": 0.7
+      "home": 1.59,
+      "away": 0.66
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "por-cod-61",
       "date": "2026-06-18",
@@ -22910,8 +22978,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -23050,7 +23121,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 72,
         "away": 71
       },
       {
@@ -23060,7 +23131,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 75,
+        "home": 70,
         "away": 59
       },
       {
@@ -23071,7 +23142,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23080,29 +23151,29 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
-      41,
-      21
+      35,
+      43,
+      22
     ],
-    "confidence": 63,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 21
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "1-0",
-        "chance": 9
+        "chance": 7
       },
       {
-        "score": "2-0",
-        "chance": 8
+        "score": "2-2",
+        "chance": 7
       }
     ],
     "scoreBands": [
@@ -23116,19 +23187,19 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 21,
         "examples": [
           "1-0",
-          "2-0",
-          "2-1"
+          "2-1",
+          "2-0"
         ]
       },
       {
         "label": "客队小胜",
         "chance": 15,
         "examples": [
-          "0-1",
           "1-2",
+          "0-1",
           "0-2"
         ]
       }
@@ -23136,7 +23207,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 61,
+        "chance": 59,
         "examples": [
           "1-1",
           "0-0",
@@ -23145,54 +23216,53 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "1-2"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 38,
+        "label": "低比分平局",
+        "chance": 34,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 8,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 9,
       "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.45,
+      "expectedTotalGoals": 2.59,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
-      "upsetRisk": "低"
+      "bttsLean": "双方进球",
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        38,
-        41,
-        21
+        45,
+        33,
+        22
       ],
       "market": null,
       "blended": [
-        38,
-        41,
-        21
+        35,
+        43,
+        22
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -23204,7 +23274,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -23232,10 +23302,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 81,
+        "homeScore": 77,
         "awayScore": 69,
-        "contribution": 2.88,
-        "evidence": "英格兰 进攻77/防守90/中场75，综合81；克罗地亚 进攻71/防守78/中场59，综合69。"
+        "contribution": 1.92,
+        "evidence": "英格兰 进攻72/防守90/中场70，综合77；克罗地亚 进攻71/防守78/中场59，综合69。"
       },
       {
         "name": "近期状态",
@@ -23283,14 +23353,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 11,
-        "homeAverageMetric": 83,
+        "homeAverageMetric": 80.5,
         "awayAverageMetric": 70.5
       },
       "recentForm": {
@@ -23498,7 +23568,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
+        "homeAttack": 72,
         "homeDefense": 90,
         "awayAttack": 71,
         "awayDefense": 78
@@ -23514,9 +23584,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -23533,10 +23603,31 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -23759,9 +23850,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23829,15 +23920,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。克罗地亚属于均衡型，场均进球参考值 1.5，大胜倾向 0%。",
-      "英格兰 进攻指数 77，克罗地亚 防守指数 78；克罗地亚 进攻指数 71，英格兰 防守指数 90。",
+      "英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。克罗地亚属于均衡型，场均进球参考值 1.5，大胜倾向 0%。",
+      "英格兰 进攻指数 72，克罗地亚 防守指数 78；克罗地亚 进攻指数 71，英格兰 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.5,
-      "away": 0.95
+      "home": 1.55,
+      "away": 1.04
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "eng-cro-67",
       "date": "2026-06-18",
@@ -23864,7 +23955,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -24169,7 +24260,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24178,11 +24269,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      18,
-      45,
-      37
+      19,
+      46,
+      35
     ],
-    "confidence": 67,
+    "confidence": 69,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -24191,11 +24282,11 @@ window.MATCHES = [
         "chance": 27
       },
       {
-        "score": "0-1",
-        "chance": 16
+        "score": "1-1",
+        "chance": 17
       },
       {
-        "score": "1-1",
+        "score": "0-1",
         "chance": 16
       },
       {
@@ -24206,7 +24297,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -24214,7 +24305,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 30,
+        "chance": 29,
         "examples": [
           "0-1",
           "0-2",
@@ -24223,7 +24314,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "1-0",
           "2-0",
@@ -24234,16 +24325,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 76,
+        "chance": 75,
         "examples": [
           "0-0",
-          "0-1",
-          "1-1"
+          "1-1",
+          "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 60,
+        "chance": 61,
         "examples": [
           "0-0",
           "1-1",
@@ -24252,7 +24343,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 43,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -24262,11 +24353,11 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 19,
       "under25": 81,
-      "bttsYes": 30,
-      "bttsNo": 70,
+      "bttsYes": 31,
+      "bttsNo": 69,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 43,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 44,
       "expectedTotalGoals": 1.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
@@ -24275,15 +24366,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        18,
-        45,
-        37
+        19,
+        46,
+        35
       ],
       "market": null,
       "blended": [
-        18,
-        45,
-        37
+        19,
+        46,
+        35
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -24639,7 +24730,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": 18.3,
@@ -24865,9 +24956,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -24939,10 +25030,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.58,
-      "away": 0.97
+      "home": 0.62,
+      "away": 0.93
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "gha-pan-68",
       "date": "2026-06-18",
@@ -25275,7 +25366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25284,25 +25375,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      12,
-      43,
-      45
+      14,
+      44,
+      42
     ],
     "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-3。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "0-1",
-        "chance": 12
-      },
-      {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "0-0",
         "chance": 19
+      },
+      {
+        "score": "0-1",
+        "chance": 11
       },
       {
         "score": "0-2",
@@ -25312,7 +25403,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-1",
           "0-0"
@@ -25320,7 +25411,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 28,
         "examples": [
           "0-1",
           "0-2",
@@ -25328,19 +25419,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队大胜",
+        "label": "主队小胜",
         "chance": 11,
         "examples": [
-          "0-3",
-          "0-4",
-          "1-4"
+          "1-0",
+          "2-1",
+          "2-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 73,
+        "chance": 72,
         "examples": [
           "1-1",
           "0-0",
@@ -25349,7 +25440,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 49,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -25357,23 +25448,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 38,
+        "label": "客队胜出覆盖",
+        "chance": 42,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-1",
+          "0-2",
+          "1-2"
         ]
       }
     ],
     "expandedMarkets": {
       "over25": 32,
       "under25": 68,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "bttsYes": 44,
+      "bttsNo": 56,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 25,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.2,
+      "awayWinBy2Plus": 23,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.19,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -25381,15 +25473,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        12,
-        33,
-        55
+        14,
+        34,
+        52
       ],
       "market": null,
       "blended": [
-        12,
-        43,
-        45
+        14,
+        44,
+        42
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -25745,7 +25837,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": 24.5,
@@ -25971,9 +26063,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26045,10 +26137,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.64,
-      "away": 1.56
+      "home": 0.68,
+      "away": 1.51
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "uzb-col-62",
       "date": "2026-06-18",
@@ -26380,7 +26472,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26390,34 +26482,34 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       38,
-      42,
-      20
+      40,
+      22
     ],
-    "confidence": 64,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 22
+        "chance": 18
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "1-0",
-        "chance": 14
+        "chance": 12
       },
       {
-        "score": "0-1",
-        "chance": 9
+        "score": "2-0",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 39,
+        "chance": 36,
         "examples": [
           "0-0",
           "1-1"
@@ -26425,7 +26517,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 30,
+        "chance": 28,
         "examples": [
           "1-0",
           "2-0",
@@ -26434,7 +26526,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 17,
+        "chance": 18,
         "examples": [
           "0-1",
           "1-2",
@@ -26445,7 +26537,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 67,
         "examples": [
           "0-0",
           "1-1",
@@ -26454,7 +26546,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 57,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -26462,39 +26554,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 39,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "0-0",
-          "1-1"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 6,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.79,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
         38,
-        42,
-        20
+        40,
+        22
       ],
       "market": null,
       "blended": [
         38,
-        42,
-        20
+        40,
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -26850,7 +26943,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": 31.1,
@@ -27076,9 +27169,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27150,10 +27243,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.08,
-      "away": 0.71
+      "home": 1.16,
+      "away": 0.84
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "cze-rsa-3",
       "date": "2026-06-19",
@@ -27485,7 +27578,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28173,9 +28266,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28248,10 +28341,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.76,
+      "home": 1.77,
       "away": 0.71
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "sui-bih-9",
       "date": "2026-06-19",
@@ -28583,7 +28676,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -28592,35 +28685,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      40,
-      49,
+      42,
+      47,
       11
     ],
-    "confidence": 70,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 6-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 30
+        "chance": 27
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "1-0",
-        "chance": 16
+        "chance": 15
       },
       {
         "score": "2-0",
-        "chance": 10
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 47,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -28648,7 +28741,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 82,
+        "chance": 80,
         "examples": [
           "0-0",
           "1-1",
@@ -28657,7 +28750,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 57,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -28666,7 +28759,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 47,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -28674,14 +28767,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 19,
-      "under25": 81,
-      "bttsYes": 30,
-      "bttsNo": 70,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 47,
-      "expectedTotalGoals": 1.66,
+      "over25": 22,
+      "under25": 78,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 21,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 44,
+      "expectedTotalGoals": 1.8,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -28689,14 +28782,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        50,
-        39,
+        52,
+        37,
         11
       ],
       "market": null,
       "blended": [
-        40,
-        49,
+        42,
+        47,
         11
       ],
       "blendWeight": 0,
@@ -29053,7 +29146,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": 22.4,
@@ -29279,9 +29372,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29353,10 +29446,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.22,
-      "away": 0.45
+      "home": 1.33,
+      "away": 0.48
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "can-qat-10",
       "date": "2026-06-19",
@@ -29677,7 +29770,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -29686,11 +29779,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
+      39,
       42,
-      20
+      19
     ],
-    "confidence": 64,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -29700,21 +29793,21 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 14
+        "chance": 16
       },
       {
         "score": "1-0",
-        "chance": 7
+        "chance": 9
       },
       {
         "score": "2-0",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 34,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -29722,7 +29815,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 22,
+        "chance": 25,
         "examples": [
           "1-0",
           "2-0",
@@ -29733,8 +29826,8 @@ window.MATCHES = [
         "label": "客队小胜",
         "chance": 14,
         "examples": [
-          "1-2",
           "0-1",
+          "1-2",
           "0-2"
         ]
       }
@@ -29742,7 +29835,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 60,
+        "chance": 65,
         "examples": [
           "1-1",
           "0-0",
@@ -29751,16 +29844,16 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 49,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
-          "1-2"
+          "0-1"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -29769,36 +29862,36 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 21,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.62,
+      "over25": 37,
+      "under25": 63,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 20,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.36,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        48,
-        32,
-        20
+        39,
+        42,
+        19
       ],
       "market": null,
       "blended": [
-        38,
+        39,
         42,
-        20
+        19
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -30270,9 +30363,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30345,10 +30438,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.63,
-      "away": 0.99
+      "home": 1.47,
+      "away": 0.89
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "mex-kor-4",
       "date": "2026-06-19",
@@ -30681,7 +30774,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -30690,17 +30783,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      34,
-      42,
-      24
+      35,
+      40,
+      25
     ],
-    "confidence": 66,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 19
       },
       {
         "score": "0-0",
@@ -30708,7 +30801,7 @@ window.MATCHES = [
       },
       {
         "score": "2-2",
-        "chance": 8
+        "chance": 7
       },
       {
         "score": "2-1",
@@ -30718,7 +30811,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 32,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -30726,7 +30819,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "2-1",
           "1-0",
@@ -30735,7 +30828,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
           "1-2",
           "0-1",
@@ -30746,7 +30839,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 54,
         "examples": [
           "1-1",
           "0-0",
@@ -30763,23 +30856,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 32,
+        "label": "主队胜出覆盖",
+        "chance": 35,
         "examples": [
-          "1-1",
-          "0-0"
+          "2-1",
+          "1-0",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.75,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.71,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -30787,21 +30881,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        44,
-        32,
-        24
+        35,
+        40,
+        25
       ],
       "market": null,
       "blended": [
-        34,
-        42,
-        24
+        35,
+        40,
+        25
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -31172,7 +31266,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": 25.1,
@@ -31408,9 +31502,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -31482,10 +31576,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.6,
-      "away": 1.15
+      "home": 1.56,
+      "away": 1.16
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "usa-aus-21",
       "date": "2026-06-20",
@@ -31818,7 +31912,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -31827,43 +31921,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      16,
-      40,
-      44
+      13,
+      28,
+      59
     ],
-    "confidence": 65,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-2",
-        "chance": 9
+        "chance": 11
       },
       {
         "score": "1-1",
-        "chance": 19
-      },
-      {
-        "score": "0-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "0-1",
+        "chance": 10
+      },
+      {
+        "score": "1-2",
         "chance": 9
       }
     ],
     "scoreBands": [
       {
-        "label": "低比分平局",
-        "chance": 33,
-        "examples": [
-          "1-1",
-          "0-0"
-        ]
-      },
-      {
         "label": "客队小胜",
-        "chance": 25,
+        "chance": 31,
         "examples": [
           "0-2",
           "0-1",
@@ -31871,8 +31957,16 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 23,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "客队大胜",
-        "chance": 12,
+        "chance": 18,
         "examples": [
           "0-3",
           "0-4",
@@ -31883,63 +31977,63 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 63,
+        "chance": 61,
         "examples": [
           "1-1",
-          "0-0",
-          "0-2"
-        ]
-      },
-      {
-        "label": "主队不败低比分",
-        "chance": 45,
-        "examples": [
-          "1-1",
-          "0-0",
-          "2-1"
+          "0-2",
+          "0-1"
         ]
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 44,
+        "chance": 59,
         "examples": [
           "0-2",
           "0-1",
           "1-2"
         ]
+      },
+      {
+        "label": "客队优势胜",
+        "chance": 39,
+        "examples": [
+          "0-2",
+          "0-3",
+          "1-3"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 26,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.59,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.72,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        16,
-        30,
-        54
+        13,
+        28,
+        59
       ],
       "market": null,
       "blended": [
-        16,
-        40,
-        44
+        13,
+        28,
+        59
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -32030,7 +32124,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32261,9 +32355,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -32280,10 +32374,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32506,9 +32609,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32581,10 +32684,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.85,
-      "away": 1.74
+      "home": 0.83,
+      "away": 1.89
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "sco-mar-15",
       "date": "2026-06-20",
@@ -32916,7 +33019,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -32939,7 +33042,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "1-1",
@@ -32953,11 +33056,20 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 36,
+        "chance": 35,
         "examples": [
           "2-0",
           "1-0",
           "2-1"
+        ]
+      },
+      {
+        "label": "主队大胜",
+        "chance": 22,
+        "examples": [
+          "3-0",
+          "4-0",
+          "4-1"
         ]
       },
       {
@@ -32967,21 +33079,12 @@ window.MATCHES = [
           "1-1",
           "0-0"
         ]
-      },
-      {
-        "label": "主队大胜",
-        "chance": 21,
-        "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
-        ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 67,
+        "chance": 66,
         "examples": [
           "2-0",
           "1-0",
@@ -32999,7 +33102,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 44,
+        "chance": 45,
         "examples": [
           "2-0",
           "3-0",
@@ -33008,14 +33111,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 42,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.6,
+      "expectedTotalGoals": 2.65,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -33128,7 +33231,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -33359,9 +33462,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -33378,16 +33481,25 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": 28.8,
@@ -33613,9 +33725,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -33687,10 +33799,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.97,
-      "away": 0.62
+      "home": 2.01,
+      "away": 0.64
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "bra-hai-16",
       "date": "2026-06-20",
@@ -34011,7 +34123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34020,9 +34132,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      35,
+      34,
       44,
-      21
+      22
     ],
     "confidence": 66,
     "tag": "已完场",
@@ -34030,19 +34142,19 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 21
       },
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "1-0",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "2-0",
-        "chance": 8
+        "chance": 7
       }
     ],
     "scoreBands": [
@@ -34056,7 +34168,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 23,
         "examples": [
           "1-0",
           "2-0",
@@ -34065,7 +34177,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "0-1",
           "1-2",
@@ -34076,7 +34188,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 65,
+        "chance": 64,
         "examples": [
           "1-1",
           "0-0",
@@ -34102,30 +34214,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 48,
-      "bttsNo": 52,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 49,
+      "bttsNo": 51,
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.21,
+      "expectedTotalGoals": 2.25,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        35,
+        34,
         44,
-        21
+        22
       ],
       "market": null,
       "blended": [
-        35,
+        34,
         44,
-        21
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -34222,7 +34334,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -34453,9 +34565,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -34472,10 +34584,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -34603,9 +34724,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34679,9 +34800,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 1.34,
-      "away": 0.87
+      "away": 0.91
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "matchAutopsy": {
       "matchId": "tur-par-22",
       "date": "2026-06-20",
@@ -35013,7 +35134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35050,7 +35171,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 27,
+        "chance": 26,
         "examples": [
           "2-1",
           "2-0",
@@ -35059,7 +35180,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 23,
+        "chance": 20,
         "examples": [
           "1-1",
           "0-0"
@@ -35067,7 +35188,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 14,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-1",
@@ -35078,7 +35199,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 52,
         "examples": [
           "1-1",
           "2-1",
@@ -35087,7 +35208,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 51,
+        "chance": 53,
         "examples": [
           "2-1",
           "2-0",
@@ -35096,7 +35217,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 33,
+        "chance": 36,
         "examples": [
           "2-0",
           "3-1",
@@ -35105,15 +35226,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 30,
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 32,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.82,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.03,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -35233,7 +35354,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -35464,9 +35585,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -35497,16 +35618,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.7 / 平 4 / 客 4.71。市场倾向 荷兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": 31.8,
@@ -35732,9 +35862,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -35809,7 +35939,7 @@ window.MATCHES = [
       "home": 2.2,
       "away": 1.64
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -36138,7 +36268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36175,7 +36305,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 22,
         "examples": [
           "2-1",
           "2-0",
@@ -36184,7 +36314,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 20,
+        "chance": 17,
         "examples": [
           "1-1",
           "0-0"
@@ -36192,7 +36322,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "3-0",
           "4-1",
@@ -36203,7 +36333,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 51,
+        "chance": 44,
         "examples": [
           "1-1",
           "2-1",
@@ -36211,33 +36341,33 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 55,
-        "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
-        ]
-      },
-      {
         "label": "主队优势胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "2-0",
           "3-1",
           "3-0"
         ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 54,
+        "examples": [
+          "2-1",
+          "2-0",
+          "3-1"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 65,
+      "under25": 35,
+      "bttsYes": 65,
+      "bttsNo": 35,
       "homeWinBy2Plus": 34,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.07,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.4,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -36358,7 +36488,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -36589,9 +36719,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -36622,16 +36752,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.49 / 平 4.63 / 客 6.19。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": 23.8,
@@ -36762,9 +36901,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36839,7 +36978,7 @@ window.MATCHES = [
       "home": 2.92,
       "away": 1.33
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -37168,7 +37307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37205,7 +37344,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -37213,7 +37352,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 32,
+        "chance": 33,
         "examples": [
           "1-0",
           "2-0",
@@ -37222,7 +37361,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 9,
+        "chance": 8,
         "examples": [
           "0-1",
           "1-2",
@@ -37233,16 +37372,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 80,
+        "chance": 84,
         "examples": [
           "0-0",
-          "1-1",
-          "1-0"
+          "1-0",
+          "1-1"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -37251,7 +37390,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -37259,14 +37398,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 33,
-      "bttsNo": 67,
-      "homeWinBy2Plus": 24,
+      "over25": 18,
+      "under25": 82,
+      "bttsYes": 27,
+      "bttsNo": 73,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.86,
+      "lowScoreDraw": 46,
+      "expectedTotalGoals": 1.64,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -37660,7 +37799,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": 26.7,
@@ -37791,9 +37930,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37868,7 +38007,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 0.55
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -38208,7 +38347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38245,7 +38384,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -38253,7 +38392,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 31,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -38262,7 +38401,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 12,
+        "chance": 10,
         "examples": [
           "1-0",
           "2-1",
@@ -38273,7 +38412,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 78,
+        "chance": 77,
         "examples": [
           "0-0",
           "1-1",
@@ -38282,7 +38421,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 53,
         "examples": [
           "0-0",
           "1-1",
@@ -38291,7 +38430,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -38299,14 +38438,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 23,
-      "under25": 77,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 37,
+      "bttsNo": 63,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 21,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.79,
+      "awayWinBy2Plus": 22,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.95,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -38917,9 +39056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38995,7 +39134,7 @@ window.MATCHES = [
       "home": 0.59,
       "away": 1.87
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -39335,7 +39474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39429,12 +39568,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 40,
       "under25": 60,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "bttsYes": 37,
+      "bttsNo": 63,
       "homeWinBy2Plus": 38,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.33,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -39544,10 +39683,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -39791,11 +39930,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -39826,16 +39965,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -39844,7 +39983,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": 33.3,
@@ -39860,9 +39999,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -40055,54 +40194,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -40147,7 +40256,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -40177,7 +40286,7 @@ window.MATCHES = [
       "home": 1.88,
       "away": 0.59
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -40356,7 +40465,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -40496,7 +40605,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 66
       },
       {
@@ -40506,7 +40615,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 56
       },
       {
@@ -40517,7 +40626,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40609,15 +40718,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 35,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 25,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.1,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -40658,7 +40767,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -40686,10 +40795,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 69,
-        "contribution": 2.16,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；伊朗 进攻66/防守85/中场56，综合69。"
+        "contribution": 0.72,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；伊朗 进攻66/防守85/中场56，综合69。"
       },
       {
         "name": "近期状态",
@@ -40744,7 +40853,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 20,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 68.3
       },
       "recentForm": {
@@ -40952,7 +41061,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 66,
         "awayDefense": 85
@@ -41228,9 +41337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41298,15 +41407,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
-      "比利时 进攻指数 81，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
+      "比利时 进攻指数 71，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.01,
       "away": 1.39
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -41635,7 +41744,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -41727,14 +41836,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 20,
-      "under25": 80,
-      "bttsYes": 31,
-      "bttsNo": 69,
+      "over25": 18,
+      "under25": 82,
+      "bttsYes": 28,
+      "bttsNo": 72,
       "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 4,
+      "awayWinBy2Plus": 3,
       "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.64,
+      "expectedTotalGoals": 1.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42251,9 +42360,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42329,7 +42438,7 @@ window.MATCHES = [
       "home": 1.61,
       "away": 0.51
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -42669,7 +42778,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -42761,14 +42870,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 36,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.28,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 35,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.13,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42889,7 +42998,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -43120,9 +43229,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -43154,16 +43263,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": 26.5,
@@ -43389,9 +43507,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43466,7 +43584,7 @@ window.MATCHES = [
       "home": 0.62,
       "away": 1.95
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -43806,7 +43924,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -43899,14 +44017,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 61,
-      "under25": 39,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 31,
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 29,
       "awayWinBy2Plus": 9,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.21,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -44016,10 +44134,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "homeScore": 48,
+        "awayScore": 46,
+        "contribution": 0.12,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -44027,7 +44145,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -44263,11 +44381,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 48,
+        "awayScore": 46,
+        "goalLift": -0.09,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -44295,14 +44413,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
-        {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
@@ -44310,13 +44422,25 @@ window.MATCHES = [
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
+        {
+          "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+          "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44531,7 +44655,26 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+              "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT",
+              "description": "Former SCR Altach employee now banned worldwide Move follows pressure from players’ unions Fifa has extended worldwide the ban on a former match official and SCR Altach employee found guilty of taking secret videos and photographs of members of the club’s women’s team. In February, a regional court in Feldkirch, Austria, handed the man a seven-month suspended prison sentence, a €1,200 (£1,046) fine and ordered him to pay the victims €625 (£545) each in compensation after he was found guilty of filming and taking photographs of players, including minors, in the changing room, gym and showers of Altach’s women’s team between 2018 and 2025. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -44539,9 +44682,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44617,7 +44760,7 @@ window.MATCHES = [
       "home": 2.61,
       "away": 1.64
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -44653,7 +44796,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -44958,7 +45101,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45051,14 +45194,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.53,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.64,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -45179,7 +45322,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -45410,9 +45553,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -45444,16 +45587,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.07 / 平 12.6 / 客 31.51。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": 25,
@@ -45679,9 +45837,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -45756,7 +45914,7 @@ window.MATCHES = [
       "home": 2.6,
       "away": 0.82
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -45791,7 +45949,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -46096,7 +46254,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46188,17 +46346,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 15,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.77,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.97,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -46807,9 +46965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46885,7 +47043,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 1.91
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -47226,7 +47384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47318,14 +47476,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
+      "over25": 28,
+      "under25": 72,
       "bttsYes": 36,
       "bttsNo": 64,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 24,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.96,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.04,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -47446,7 +47604,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -47677,9 +47835,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -47711,10 +47869,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 6.38 / 平 4.24 / 客 1.52。市场倾向 阿尔及利亚。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -47937,9 +48104,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48015,7 +48182,7 @@ window.MATCHES = [
       "home": 0.61,
       "away": 1.74
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -48357,7 +48524,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48449,14 +48616,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 33,
-      "bttsNo": 67,
-      "homeWinBy2Plus": 33,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 27,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.06,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.05,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -48577,7 +48744,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -48808,9 +48975,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -48842,16 +49009,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.69。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": 35,
@@ -49077,9 +49253,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49154,7 +49330,7 @@ window.MATCHES = [
       "home": 1.92,
       "away": 0.61
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -49333,8 +49509,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -49473,7 +49652,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 72,
         "away": 62
       },
       {
@@ -49483,7 +49662,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 75,
+        "home": 70,
         "away": 49
       },
       {
@@ -49494,7 +49673,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49587,14 +49766,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 35,
-      "under25": 65,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 35,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.16,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49636,7 +49815,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -49664,10 +49843,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 81,
+        "homeScore": 77,
         "awayScore": 63,
-        "contribution": 4.32,
-        "evidence": "英格兰 进攻77/防守90/中场75，综合81；加纳 进攻62/防守79/中场49，综合63。"
+        "contribution": 3.36,
+        "evidence": "英格兰 进攻72/防守90/中场70，综合77；加纳 进攻62/防守79/中场49，综合63。"
       },
       {
         "name": "近期状态",
@@ -49715,14 +49894,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 73,
-        "homeAverageMetric": 83,
+        "homeAverageMetric": 80.5,
         "awayAverageMetric": 62
       },
       "recentForm": {
@@ -49930,7 +50109,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
+        "homeAttack": 72,
         "homeDefense": 90,
         "awayAttack": 62,
         "awayDefense": 79
@@ -49946,9 +50125,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -49980,10 +50159,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.21 / 平 6.59 / 客 14.13。市场倾向 英格兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -50206,9 +50406,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50276,15 +50476,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。加纳属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
-      "英格兰 进攻指数 77，加纳 防守指数 79；加纳 进攻指数 62，英格兰 防守指数 90。",
+      "英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。加纳属于均衡型，场均进球参考值 0.5，大胜倾向 0%。",
+      "英格兰 进攻指数 72，加纳 防守指数 79；加纳 进攻指数 62，英格兰 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.52,
       "away": 0.8
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -50319,7 +50519,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -50624,7 +50824,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -50717,12 +50917,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 26,
       "under25": 74,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 5,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 6,
       "awayWinBy2Plus": 17,
       "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.9,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -51117,7 +51317,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": 24.8,
@@ -51343,9 +51543,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51420,7 +51620,7 @@ window.MATCHES = [
       "home": 1.07,
       "away": 1.47
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -51760,7 +51960,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -51852,14 +52052,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 54,
-      "bttsNo": 46,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 48,
+      "bttsNo": 52,
       "homeWinBy2Plus": 22,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.58,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.33,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -52471,9 +52671,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52549,7 +52749,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.98
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -52889,7 +53089,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -52981,15 +53181,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.76,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.54,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -53383,7 +53583,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": 20.1,
@@ -53609,9 +53809,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -53686,7 +53886,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.65
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -54026,7 +54226,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54119,10 +54319,10 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 21,
       "under25": 79,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 11,
-      "awayWinBy2Plus": 8,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 10,
+      "awayWinBy2Plus": 9,
       "lowScoreDraw": 43,
       "expectedTotalGoals": 1.63,
       "totalGoalsLean": "小于2.5球",
@@ -54519,7 +54719,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": 21.8,
@@ -54745,9 +54945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54822,7 +55022,7 @@ window.MATCHES = [
       "home": 1.1,
       "away": 1.01
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -55163,7 +55363,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55255,15 +55455,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 50,
-      "bttsNo": 50,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 28,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.55,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.66,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -55383,7 +55583,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -55614,9 +55814,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -55648,10 +55848,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 7.67 / 平 5.09 / 客 1.38。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -55874,9 +56083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55952,7 +56161,7 @@ window.MATCHES = [
       "home": 1.06,
       "away": 2.09
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -56292,7 +56501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56786,7 +56995,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": 30.8,
@@ -57012,9 +57221,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57089,7 +57298,7 @@ window.MATCHES = [
       "home": 2.16,
       "away": 0.68
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -57429,7 +57638,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57521,15 +57730,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 27,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.69,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 25,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.51,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -57923,7 +58132,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": 22.6,
@@ -58149,9 +58358,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58226,7 +58435,7 @@ window.MATCHES = [
       "home": 0.98,
       "away": 2.46
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -58555,7 +58764,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -58647,14 +58856,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 22,
-      "under25": 78,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 35,
+      "bttsNo": 65,
       "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.76,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.75,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -59171,9 +59380,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59249,7 +59458,7 @@ window.MATCHES = [
       "home": 0.78,
       "away": 1.84
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -59567,7 +59776,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -59659,14 +59868,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 35,
+      "bttsNo": 65,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 37,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.27,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.18,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -60061,7 +60270,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": 29.8,
@@ -60092,9 +60301,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60170,7 +60379,7 @@ window.MATCHES = [
       "home": 0.64,
       "away": 2.03
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -60510,7 +60719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -60603,16 +60812,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 25,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.53,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.79,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -60731,7 +60940,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -60962,9 +61171,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -60996,10 +61205,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 3.59 / 平 3.74 / 客 1.96。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -61222,9 +61440,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61300,7 +61518,7 @@ window.MATCHES = [
       "home": 1.45,
       "away": 2.42
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -61640,7 +61858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -61732,14 +61950,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
+      "over25": 45,
+      "under25": 55,
       "bttsYes": 57,
       "bttsNo": 43,
       "homeWinBy2Plus": 22,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.72,
+      "expectedTotalGoals": 2.71,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -62351,9 +62569,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62429,7 +62647,7 @@ window.MATCHES = [
       "home": 2.45,
       "away": 1.61
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -62769,7 +62987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -62861,14 +63079,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 22,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.93,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 23,
+      "lowScoreDraw": 40,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -62989,7 +63207,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -63220,9 +63438,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -63254,16 +63472,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 17.67 / 平 7.73 / 客 1.16。市场倾向 荷兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": 26.1,
@@ -63489,9 +63716,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -63566,7 +63793,7 @@ window.MATCHES = [
       "home": 0.7,
       "away": 1.94
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -63895,7 +64122,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -63987,15 +64214,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 16,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.55,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.45,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
     },
@@ -64115,7 +64342,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -64346,9 +64573,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -64380,10 +64607,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 3.25 / 平 4.02 / 客 2.01。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -64511,9 +64747,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64589,7 +64825,7 @@ window.MATCHES = [
       "home": 2.14,
       "away": 1.1
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -64929,7 +65165,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65021,14 +65257,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 43,
-      "bttsNo": 57,
-      "homeWinBy2Plus": 8,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 9,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.04,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.1,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -65671,9 +65907,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65749,7 +65985,7 @@ window.MATCHES = [
       "home": 1.32,
       "away": 1.74
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -66089,7 +66325,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66182,14 +66418,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 42,
-      "lowScoreDraw": 17,
-      "expectedTotalGoals": 3.24,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 7,
+      "awayWinBy2Plus": 35,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.09,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -66310,7 +66546,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -66541,9 +66777,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -66575,10 +66811,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 4.26 / 平 3.75 / 客 1.8。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -66801,9 +67052,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66879,7 +67130,7 @@ window.MATCHES = [
       "home": 1.27,
       "away": 2.98
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -66914,7 +67165,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -67219,7 +67470,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67311,16 +67562,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 22,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 2.06,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -67713,7 +67964,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": 24.7,
@@ -67939,9 +68190,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68016,7 +68267,7 @@ window.MATCHES = [
       "home": 1.59,
       "away": 0.77
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -68345,7 +68596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68436,14 +68687,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 11,
-      "awayWinBy2Plus": 11,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.85,
+      "over25": 20,
+      "under25": 80,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 10,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.61,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -68564,7 +68815,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -68795,9 +69046,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -68829,25 +69080,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.76 / 平 3.6 / 客 2.4。市场倾向 沙特阿拉伯。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": 35.1,
@@ -68978,9 +69220,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69055,7 +69297,7 @@ window.MATCHES = [
       "home": 0.99,
       "away": 1.09
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -69395,7 +69637,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69486,14 +69728,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 42,
-      "bttsNo": 58,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 19,
+      "awayWinBy2Plus": 18,
       "lowScoreDraw": 40,
-      "expectedTotalGoals": 2.04,
+      "expectedTotalGoals": 1.92,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -69604,9 +69846,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -69851,10 +70093,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -69885,16 +70127,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -69910,9 +70152,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "乌拉圭",
@@ -70105,54 +70347,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70198,7 +70410,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -70228,7 +70440,7 @@ window.MATCHES = [
       "home": 0.74,
       "away": 1.52
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -70568,7 +70780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -70662,12 +70874,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 46,
       "under25": 54,
-      "bttsYes": 56,
-      "bttsNo": 44,
+      "bttsYes": 55,
+      "bttsNo": 45,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 14,
+      "awayWinBy2Plus": 15,
       "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.58,
+      "expectedTotalGoals": 2.57,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -70788,7 +71000,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -71019,9 +71231,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -71053,16 +71265,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.06 / 平 3.15 / 客 3.91。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": 20.9,
@@ -71288,9 +71509,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71365,7 +71586,7 @@ window.MATCHES = [
       "home": 1.21,
       "away": 1.77
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -71676,7 +71897,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -71685,7 +71906,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 60,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -71695,7 +71916,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -71705,7 +71926,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -71797,15 +72018,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 43,
-      "bttsNo": 57,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 43,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.63,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 39,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.4,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -71854,7 +72075,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -71875,9 +72096,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 56,
-        "awayScore": 78,
-        "contribution": -5.28,
-        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": -3.84,
+        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -71933,7 +72154,7 @@ window.MATCHES = [
         "homeRank": 85,
         "awayRank": 9,
         "homeAverageMetric": 50.8,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -72142,7 +72363,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 60,
         "homeDefense": 70,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -72199,7 +72420,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": 17.3,
@@ -72425,9 +72646,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72494,15 +72715,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "新西兰 进攻指数 60，比利时 防守指数 86；比利时 进攻指数 81，新西兰 防守指数 70。",
+      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "新西兰 进攻指数 60，比利时 防守指数 86；比利时 进攻指数 71，新西兰 防守指数 70。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.75,
       "away": 2.37
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -72813,8 +73034,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -72822,7 +73046,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 66,
-        "away": 77
+        "away": 72
       },
       {
         "label": "防守",
@@ -72832,7 +73056,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 49,
-        "away": 75
+        "away": 70
       },
       {
         "label": "近期状态",
@@ -72842,7 +73066,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -72935,14 +73159,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 36,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.25,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 35,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.13,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -72992,7 +73216,7 @@ window.MATCHES = [
         "failedToScoreRate": 100
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -73013,9 +73237,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 63,
-        "awayScore": 81,
-        "contribution": -4.32,
-        "evidence": "巴拿马 进攻66/防守74/中场49，综合63；英格兰 进攻77/防守90/中场75，综合81。"
+        "awayScore": 77,
+        "contribution": -3.36,
+        "evidence": "巴拿马 进攻66/防守74/中场49，综合63；英格兰 进攻72/防守90/中场70，综合77。"
       },
       {
         "name": "近期状态",
@@ -73063,7 +73287,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -73071,7 +73295,7 @@ window.MATCHES = [
         "homeRank": 34,
         "awayRank": 4,
         "homeAverageMetric": 61.8,
-        "awayAverageMetric": 83
+        "awayAverageMetric": 80.5
       },
       "recentForm": {
         "home": {
@@ -73280,7 +73504,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 66,
         "homeDefense": 74,
-        "awayAttack": 77,
+        "awayAttack": 72,
         "awayDefense": 90
       },
       "motivation": {
@@ -73294,9 +73518,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -73328,10 +73552,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 11.29 / 平 6.69 / 客 1.22。市场倾向 英格兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -73554,9 +73799,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73624,15 +73869,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。",
-      "巴拿马 进攻指数 66，英格兰 防守指数 90；英格兰 进攻指数 77，巴拿马 防守指数 74。",
+      "巴拿马属于均衡型，场均进球参考值 0，大胜倾向 0%。英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。",
+      "巴拿马 进攻指数 66，英格兰 防守指数 90；英格兰 进攻指数 72，巴拿马 防守指数 74。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.08,
       "away": 2.21
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -73667,7 +73912,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -73972,7 +74217,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74064,14 +74309,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 23,
-      "under25": 77,
+      "over25": 21,
+      "under25": 79,
       "bttsYes": 31,
       "bttsNo": 69,
-      "homeWinBy2Plus": 24,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.82,
+      "lowScoreDraw": 45,
+      "expectedTotalGoals": 1.74,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -74466,7 +74711,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": 28.1,
@@ -74692,9 +74937,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -74769,7 +75014,7 @@ window.MATCHES = [
       "home": 1.82,
       "away": 0.57
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -75111,7 +75356,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75203,14 +75448,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 10,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.57,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 12,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.64,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -75331,7 +75576,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -75562,9 +75807,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -75596,10 +75841,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 3.57 / 平 3.44 / 客 2.05。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -75822,9 +76076,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75900,7 +76154,7 @@ window.MATCHES = [
       "home": 1.47,
       "away": 1.83
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -76240,7 +76494,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76331,14 +76585,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.92,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.02,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -76733,7 +76987,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": 35.4,
@@ -76959,9 +77213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77036,7 +77290,7 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.17
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -77376,7 +77630,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77468,14 +77722,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 53,
-      "bttsNo": 47,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 50,
+      "bttsNo": 50,
       "homeWinBy2Plus": 12,
       "awayWinBy2Plus": 16,
       "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.43,
+      "expectedTotalGoals": 2.3,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -77585,10 +77839,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "homeScore": 48,
+        "awayScore": 46,
+        "contribution": 0.12,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -77596,7 +77850,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -77832,11 +78086,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 48,
+        "awayScore": 46,
+        "goalLift": -0.09,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -77864,22 +78118,34 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 3,
       "articles": [
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
+        {
+          "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+          "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": 31.7,
@@ -78097,7 +78363,26 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+              "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT",
+              "description": "Former SCR Altach employee now banned worldwide Move follows pressure from players’ unions Fifa has extended worldwide the ban on a former match official and SCR Altach employee found guilty of taking secret videos and photographs of members of the club’s women’s team. In February, a regional court in Feldkirch, Austria, handed the man a seven-month suspended prison sentence, a €1,200 (£1,046) fine and ordered him to pay the victims €625 (£545) each in compensation after he was found guilty of filming and taking photographs of players, including minors, in the changing room, gym and showers of Altach’s women’s team between 2018 and 2025. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -78105,9 +78390,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78182,7 +78467,7 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.89
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -78217,7 +78502,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -78522,7 +78807,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -78615,14 +78900,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 44,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.68,
+      "awayWinBy2Plus": 41,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.53,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -79014,22 +79299,22 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
-        {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -79255,9 +79540,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79333,7 +79618,7 @@ window.MATCHES = [
       "home": 0.83,
       "away": 2.64
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -79368,7 +79653,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -79673,7 +79958,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -79765,14 +80050,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "over25": 28,
+      "under25": 72,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 20,
+      "awayWinBy2Plus": 19,
       "lowScoreDraw": 41,
-      "expectedTotalGoals": 2.11,
+      "expectedTotalGoals": 1.97,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -80384,9 +80669,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80462,7 +80747,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 1.99
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -80802,7 +81087,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -80895,15 +81180,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 24,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 13,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 3.06,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.85,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -81023,7 +81308,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -81254,9 +81539,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -81288,16 +81573,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.72 / 平 3.72 / 客 5.04。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": 35.4,
@@ -81523,9 +81817,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -81600,7 +81894,7 @@ window.MATCHES = [
       "home": 2.15,
       "away": 1.73
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -81940,7 +82234,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82033,15 +82327,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 44,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 47,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.76,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 2.94,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -82161,7 +82455,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -82392,9 +82686,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -82426,10 +82720,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.35 / 平 5.05 / 客 9.2。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -82652,9 +82955,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82730,7 +83033,7 @@ window.MATCHES = [
       "home": 2.83,
       "away": 0.97
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -83070,7 +83373,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83163,17 +83466,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.11,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -83291,7 +83594,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -83522,9 +83825,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -83556,10 +83859,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 2.13 / 平 3.27 / 客 3.64。市场倾向 荷兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -83782,9 +84094,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83860,7 +84172,7 @@ window.MATCHES = [
       "home": 1.94,
       "away": 2.09
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -84189,7 +84501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84281,14 +84593,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 64,
-      "bttsNo": 36,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 63,
+      "bttsNo": 37,
       "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 14,
+      "awayWinBy2Plus": 13,
       "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.04,
+      "expectedTotalGoals": 2.97,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -84805,9 +85117,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84883,7 +85195,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.7
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -85223,7 +85535,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85316,14 +85628,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 61,
-      "under25": 39,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 48,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 50,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 16,
-      "expectedTotalGoals": 3.19,
+      "lowScoreDraw": 15,
+      "expectedTotalGoals": 3.24,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -85444,7 +85756,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -85675,9 +85987,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -85709,10 +86021,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.27 / 平 5.93 / 客 11。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -85935,9 +86262,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86013,7 +86340,7 @@ window.MATCHES = [
       "home": 3.04,
       "away": 1.21
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -86048,7 +86375,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -86353,7 +86680,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86445,14 +86772,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 23,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.58,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.54,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -86847,7 +87174,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": 20.1,
@@ -87073,9 +87400,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87150,7 +87477,7 @@ window.MATCHES = [
       "home": 2.1,
       "away": 1.31
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -87329,8 +87656,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -87469,7 +87799,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 72,
         "away": 63
       },
       {
@@ -87479,7 +87809,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 75,
+        "home": 70,
         "away": 49
       },
       {
@@ -87490,7 +87820,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87582,14 +87912,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 44,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.52,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.66,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -87631,7 +87961,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -87659,10 +87989,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 81,
+        "homeScore": 77,
         "awayScore": 64,
-        "contribution": 4.08,
-        "evidence": "英格兰 进攻77/防守90/中场75，综合81；刚果（金） 进攻63/防守80/中场49，综合64。"
+        "contribution": 3.12,
+        "evidence": "英格兰 进攻72/防守90/中场70，综合77；刚果（金） 进攻63/防守80/中场49，综合64。"
       },
       {
         "name": "近期状态",
@@ -87710,14 +88040,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 46,
-        "homeAverageMetric": 83,
+        "homeAverageMetric": 80.5,
         "awayAverageMetric": 62.5
       },
       "recentForm": {
@@ -87925,7 +88255,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
+        "homeAttack": 72,
         "homeDefense": 90,
         "awayAttack": 63,
         "awayDefense": 80
@@ -87941,9 +88271,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -87975,16 +88305,37 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 1.27 / 平 5.52 / 客 12.41。市场倾向 英格兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 38.3,
@@ -88210,9 +88561,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88279,15 +88630,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。刚果（金）属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
-      "英格兰 进攻指数 77，刚果（金） 防守指数 80；刚果（金） 进攻指数 63，英格兰 防守指数 90。",
+      "英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。刚果（金）属于均衡型，场均进球参考值 1.25，大胜倾向 25%。",
+      "英格兰 进攻指数 72，刚果（金） 防守指数 80；刚果（金） 进攻指数 63，英格兰 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.49,
       "away": 0.78
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -88322,7 +88673,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -88466,7 +88817,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -88606,7 +88957,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 71
       },
       {
@@ -88616,7 +88967,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 55
       },
       {
@@ -88627,7 +88978,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -88720,14 +89071,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 33,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.31,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 30,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -88769,7 +89120,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -88797,10 +89148,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 70,
-        "contribution": 1.92,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；塞内加尔 进攻71/防守83/中场55，综合70。"
+        "contribution": 0.48,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；塞内加尔 进攻71/防守83/中场55，综合70。"
       },
       {
         "name": "近期状态",
@@ -88855,7 +89206,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 15,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 70.8
       },
       "recentForm": {
@@ -89063,7 +89414,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 71,
         "awayDefense": 83
@@ -89122,7 +89473,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 21,
@@ -89348,9 +89699,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -89417,15 +89768,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于防守控制型，场均进球参考值 2.5，大胜倾向 25%。",
-      "比利时 进攻指数 81，塞内加尔 防守指数 83；塞内加尔 进攻指数 71，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于防守控制型，场均进球参考值 2.5，大胜倾向 25%。",
+      "比利时 进攻指数 71，塞内加尔 防守指数 83；塞内加尔 进攻指数 71，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.55,
       "away": 1.67
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -89765,7 +90116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -89858,14 +90209,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 49,
-      "bttsNo": 51,
-      "homeWinBy2Plus": 29,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 46,
+      "bttsNo": 54,
+      "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.54,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.32,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -90477,9 +90828,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90555,7 +90906,7 @@ window.MATCHES = [
       "home": 2.54,
       "away": 0.89
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -90895,7 +91246,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -90988,15 +91339,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 55,
-      "under25": 45,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 25,
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 11,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.93,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.61,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -91106,9 +91457,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 48,
-        "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 46,
+        "contribution": 0.12,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -91116,7 +91467,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91353,10 +91704,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 48,
-        "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 46,
+        "goalLift": -0.09,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -91384,7 +91735,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
@@ -91393,19 +91744,25 @@ window.MATCHES = [
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
+        {
+          "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+          "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91418,9 +91775,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -91613,17 +91970,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -91632,12 +91979,21 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
+              "title": "Fifa extends ban on man who secretly filmed female footballers in Austria",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/fifa-worldwide-ban-man-secretly-filmed-female-footballers-austria-altach",
+              "pubDate": "Mon, 31 Aug 2026 16:06:11 GMT",
+              "description": "Former SCR Altach employee now banned worldwide Move follows pressure from players’ unions Fifa has extended worldwide the ban on a former match official and SCR Altach employee found guilty of taking secret videos and photographs of members of the club’s women’s team. In February, a regional court in Feldkirch, Austria, handed the man a seven-month suspended prison sentence, a €1,200 (£1,046) fine and ordered him to pay the victims €625 (£545) each in compensation after he was found guilty of filming and taking photographs of players, including minors, in the changing room, gym and showers of Altach’s women’s team between 2018 and 2025. Continue reading...",
+              "bodyText": "",
               "bodyError": ""
             }
           ]
@@ -91645,22 +92001,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91706,7 +92052,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -91736,7 +92082,7 @@ window.MATCHES = [
       "home": 2.02,
       "away": 1.44
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -91772,7 +92118,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -92079,7 +92425,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92171,14 +92517,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.33,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -92299,7 +92645,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -92530,9 +92876,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -92564,16 +92910,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.83 / 平 3.46 / 客 4.67。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 34.8,
@@ -92799,9 +93154,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -92876,7 +93231,7 @@ window.MATCHES = [
       "home": 1.85,
       "away": 1.39
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -93216,7 +93571,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93308,14 +93663,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
+      "over25": 42,
+      "under25": 58,
       "bttsYes": 53,
       "bttsNo": 47,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.47,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
@@ -93436,7 +93791,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -93667,9 +94022,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -93701,16 +94056,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.88 / 平 3.56 / 客 4.18。市场倾向 瑞士。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 18.8,
@@ -93936,9 +94300,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94013,7 +94377,7 @@ window.MATCHES = [
       "home": 1.93,
       "away": 1.77
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -94353,7 +94717,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -94446,16 +94810,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.53,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.22,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -94574,7 +94938,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -94842,8 +95206,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -94863,7 +95233,7 @@ window.MATCHES = [
           "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -95096,9 +95466,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95174,7 +95544,7 @@ window.MATCHES = [
       "home": 1.84,
       "away": 1.66
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -95503,7 +95873,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -95601,10 +95971,10 @@ window.MATCHES = [
       "bttsYes": 41,
       "bttsNo": 59,
       "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 2,
+      "awayWinBy2Plus": 3,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.51,
-      "totalGoalsLean": "小于2.5球",
+      "expectedTotalGoals": 2.52,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -95995,22 +96365,22 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
-        {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -96141,9 +96511,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96219,7 +96589,7 @@ window.MATCHES = [
       "home": 2.93,
       "away": 0.93
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -96254,7 +96624,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -96559,7 +96929,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -96651,14 +97021,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
+      "over25": 38,
+      "under25": 62,
       "bttsYes": 38,
       "bttsNo": 62,
-      "homeWinBy2Plus": 25,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.07,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.25,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -97053,7 +97423,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 25.5,
@@ -97279,9 +97649,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97356,7 +97726,7 @@ window.MATCHES = [
       "home": 2.36,
       "away": 0.74
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -97696,7 +98066,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -97789,15 +98159,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
+      "over25": 45,
+      "under25": 55,
       "bttsYes": 56,
       "bttsNo": 44,
       "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 31,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.87,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 24,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.69,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -98191,7 +98561,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -98417,9 +98787,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98494,7 +98864,7 @@ window.MATCHES = [
       "home": 1.3,
       "away": 2.56
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -98834,7 +99204,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -98934,7 +99304,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 44,
       "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.74,
+      "expectedTotalGoals": 2.73,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -99055,7 +99425,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -99286,9 +99656,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -99320,16 +99690,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 16.77 / 平 6.98 / 客 1.18。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -99555,9 +99940,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99632,7 +100017,7 @@ window.MATCHES = [
       "home": 0.95,
       "away": 3.02
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -99667,7 +100052,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -99972,7 +100357,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100065,14 +100450,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 29,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.25,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.97,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -100193,7 +100578,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -100424,9 +100809,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -100458,10 +100843,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.9 / 平 3.57 / 客 4.1。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -100684,9 +101078,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100762,7 +101156,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.41
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -101073,8 +101467,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -101082,7 +101479,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 68,
-        "away": 77
+        "away": 72
       },
       {
         "label": "防守",
@@ -101092,7 +101489,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 69,
-        "away": 75
+        "away": 70
       },
       {
         "label": "近期状态",
@@ -101102,7 +101499,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101195,17 +101592,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 63,
-      "bttsNo": 37,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 66,
+      "bttsNo": 34,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.92,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.09,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -101252,7 +101649,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -101273,9 +101670,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 76,
-        "awayScore": 81,
-        "contribution": -1.2,
-        "evidence": "墨西哥 进攻68/防守92/中场69，综合76；英格兰 进攻77/防守90/中场75，综合81。"
+        "awayScore": 77,
+        "contribution": -0.24,
+        "evidence": "墨西哥 进攻68/防守92/中场69，综合76；英格兰 进攻72/防守90/中场70，综合77。"
       },
       {
         "name": "近期状态",
@@ -101323,7 +101720,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -101331,7 +101728,7 @@ window.MATCHES = [
         "homeRank": 14,
         "awayRank": 4,
         "homeAverageMetric": 79.8,
-        "awayAverageMetric": 83
+        "awayAverageMetric": 80.5
       },
       "recentForm": {
         "home": {
@@ -101540,7 +101937,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 68,
         "homeDefense": 92,
-        "awayAttack": 77,
+        "awayAttack": 72,
         "awayDefense": 90
       },
       "motivation": {
@@ -101554,9 +101951,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -101588,16 +101985,37 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 3.05 / 平 3.11 / 客 2.49。市场倾向 英格兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -101823,9 +102241,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -101892,15 +102310,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "墨西哥属于防守控制型，场均进球参考值 2，大胜倾向 60%。英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。",
-      "墨西哥 进攻指数 68，英格兰 防守指数 90；英格兰 进攻指数 77，墨西哥 防守指数 92。",
+      "墨西哥属于防守控制型，场均进球参考值 2，大胜倾向 60%。英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。",
+      "墨西哥 进攻指数 68，英格兰 防守指数 90；英格兰 进攻指数 72，墨西哥 防守指数 92。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.9,
       "away": 2.12
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -101936,7 +102354,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -102243,7 +102661,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102335,14 +102753,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.72,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.6,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -102452,10 +102870,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -102699,11 +103117,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -102734,16 +103152,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -102759,9 +103177,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "葡萄牙",
@@ -102954,54 +103372,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103047,7 +103435,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -103077,7 +103465,7 @@ window.MATCHES = [
       "home": 1.76,
       "away": 1.88
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -103389,7 +103777,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -103398,7 +103786,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 75,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -103408,7 +103796,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 61,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -103418,7 +103806,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -103511,15 +103899,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 61,
-      "under25": 39,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 12,
-      "awayWinBy2Plus": 26,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.21,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 13,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -103568,7 +103956,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -103589,9 +103977,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 71,
-        "awayScore": 78,
-        "contribution": -1.68,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": -0.24,
+        "evidence": "美国 进攻75/防守76/中场61，综合71；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -103647,7 +104035,7 @@ window.MATCHES = [
         "homeRank": 17,
         "awayRank": 9,
         "homeAverageMetric": 71.5,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -103856,7 +104244,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 75,
         "homeDefense": 76,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -103913,7 +104301,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -104139,9 +104527,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104208,15 +104596,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "美国 进攻指数 75，比利时 防守指数 86；比利时 进攻指数 81，美国 防守指数 76。",
+      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "美国 进攻指数 75，比利时 防守指数 86；比利时 进攻指数 71，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.66,
       "away": 2.09
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -104556,7 +104944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -104649,14 +105037,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 49,
-      "bttsNo": 51,
-      "homeWinBy2Plus": 39,
-      "awayWinBy2Plus": 4,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 36,
+      "awayWinBy2Plus": 5,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.76,
+      "expectedTotalGoals": 2.91,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -104766,10 +105154,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 48,
+        "awayScore": 48,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -105013,11 +105401,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
+        "homeScore": 48,
+        "awayScore": 48,
+        "goalLift": -0.06,
         "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -105048,22 +105436,22 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
-        {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -105072,7 +105460,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -105290,7 +105678,17 @@ window.MATCHES = [
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -105298,9 +105696,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105375,7 +105773,7 @@ window.MATCHES = [
       "home": 2.75,
       "away": 1.19
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -105410,7 +105808,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -105715,7 +106113,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -105807,17 +106205,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 16,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 15,
       "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.62,
+      "expectedTotalGoals": 2.89,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -106209,7 +106607,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -106435,9 +106833,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106512,7 +106910,7 @@ window.MATCHES = [
       "home": 1.81,
       "away": 2.06
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -106852,7 +107250,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -106945,14 +107343,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 67,
-      "bttsNo": 33,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.23,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.26,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -107073,7 +107471,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -107304,9 +107702,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -107338,10 +107736,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 1.57 / 平 3.92 / 客 6.33。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 2,
+      "articles": [
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -107564,9 +107977,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107642,7 +108055,7 @@ window.MATCHES = [
       "home": 2.3,
       "away": 1.65
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -107677,7 +108090,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -107953,7 +108366,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -107962,7 +108375,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 76,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -107972,7 +108385,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 71,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -107982,7 +108395,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108074,17 +108487,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.24,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.99,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -108131,7 +108544,7 @@ window.MATCHES = [
         "failedToScoreRate": 25
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -108152,9 +108565,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 79,
-        "awayScore": 78,
-        "contribution": 0.24,
-        "evidence": "西班牙 进攻76/防守90/中场71，综合79；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": 1.68,
+        "evidence": "西班牙 进攻76/防守90/中场71，综合79；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -108191,10 +108604,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -108210,7 +108623,7 @@ window.MATCHES = [
         "homeRank": 2,
         "awayRank": 9,
         "homeAverageMetric": 77.8,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -108419,7 +108832,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 76,
         "homeDefense": 90,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -108438,11 +108851,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -108473,16 +108886,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108498,9 +108911,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -108693,54 +109106,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108786,7 +109169,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -108808,15 +109191,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "西班牙属于防守控制型，场均进球参考值 1.63，大胜倾向 38%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "西班牙 进攻指数 76，比利时 防守指数 86；比利时 进攻指数 81，西班牙 防守指数 90。",
+      "西班牙属于防守控制型，场均进球参考值 1.63，大胜倾向 38%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "西班牙 进攻指数 76，比利时 防守指数 86；比利时 进攻指数 71，西班牙 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2,
       "away": 1.92
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -109128,8 +109511,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -109137,7 +109523,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 80,
-        "away": 77
+        "away": 72
       },
       {
         "label": "防守",
@@ -109147,7 +109533,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 66,
-        "away": 75
+        "away": 70
       },
       {
         "label": "近期状态",
@@ -109157,7 +109543,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109250,15 +109636,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 57,
+      "bttsNo": 43,
       "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 32,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.02,
-      "totalGoalsLean": "大于2.5球",
+      "awayWinBy2Plus": 31,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -109307,7 +109693,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -109328,9 +109714,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 76,
-        "awayScore": 81,
-        "contribution": -1.2,
-        "evidence": "挪威 进攻80/防守83/中场66，综合76；英格兰 进攻77/防守90/中场75，综合81。"
+        "awayScore": 77,
+        "contribution": -0.24,
+        "evidence": "挪威 进攻80/防守83/中场66，综合76；英格兰 进攻72/防守90/中场70，综合77。"
       },
       {
         "name": "近期状态",
@@ -109378,7 +109764,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -109386,7 +109772,7 @@ window.MATCHES = [
         "homeRank": 31,
         "awayRank": 4,
         "homeAverageMetric": 75.8,
-        "awayAverageMetric": 83
+        "awayAverageMetric": 80.5
       },
       "recentForm": {
         "home": {
@@ -109595,7 +109981,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 80,
         "homeDefense": 83,
-        "awayAttack": 77,
+        "awayAttack": 72,
         "awayDefense": 90
       },
       "motivation": {
@@ -109609,9 +109995,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -109643,10 +110029,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 4.04 / 平 3.66 / 客 1.89。市场倾向 英格兰。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109869,9 +110276,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109939,15 +110346,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。",
-      "挪威 进攻指数 80，英格兰 防守指数 90；英格兰 进攻指数 77，挪威 防守指数 83。",
+      "挪威属于主动压迫型，场均进球参考值 2.17，大胜倾向 17%。英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。",
+      "挪威 进攻指数 80，英格兰 防守指数 90；英格兰 进攻指数 72，挪威 防守指数 83。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.33,
       "away": 2.3
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -109982,7 +110389,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -110287,7 +110694,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110381,14 +110788,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 34,
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.1,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.17,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -110780,22 +111187,22 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
-        {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -110804,7 +111211,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -111030,9 +111437,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111107,7 +111514,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.42
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -111142,7 +111549,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -111447,7 +111854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -111539,14 +111946,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 24,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.18,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -111657,9 +112064,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -111667,7 +112074,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111904,10 +112311,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -111935,22 +112342,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Esther González, Saudi Arabia and the questions around an unexpected transfer saga",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/28/esther-gonzalez-saudi-arabia-gotham-nwsl",
-          "pubDate": "Fri, 28 Aug 2026 13:00:01 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -111963,9 +112376,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "法国",
@@ -112158,54 +112571,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112251,7 +112634,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -112281,7 +112664,7 @@ window.MATCHES = [
       "home": 2.28,
       "away": 1.73
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -112316,7 +112699,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -112460,8 +112843,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -112600,7 +112986,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 77,
+        "home": 72,
         "away": 75
       },
       {
@@ -112610,7 +112996,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 75,
+        "home": 70,
         "away": 77
       },
       {
@@ -112621,7 +113007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -112714,15 +113100,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 69,
-      "bttsNo": 31,
-      "homeWinBy2Plus": 18,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.32,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.93,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -112763,7 +113149,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -112791,10 +113177,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 81,
+        "homeScore": 77,
         "awayScore": 81,
-        "contribution": 0,
-        "evidence": "英格兰 进攻77/防守90/中场75，综合81；阿根廷 进攻75/防守92/中场77，综合81。"
+        "contribution": -0.96,
+        "evidence": "英格兰 进攻72/防守90/中场70，综合77；阿根廷 进攻75/防守92/中场77，综合81。"
       },
       {
         "name": "近期状态",
@@ -112842,14 +113228,14 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
       "teamStrength": {
         "homeRank": 4,
         "awayRank": 1,
-        "homeAverageMetric": 83,
+        "homeAverageMetric": 80.5,
         "awayAverageMetric": 85.5
       },
       "recentForm": {
@@ -113057,7 +113443,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 77,
+        "homeAttack": 72,
         "homeDefense": 90,
         "awayAttack": 75,
         "awayDefense": 92
@@ -113110,13 +113496,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
+          "title": "Beckham and Mourinho pay tribute to Messi",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
         },
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
@@ -113125,19 +113511,25 @@ window.MATCHES = [
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-08-31T16:06:27.705Z",
+        "fetchedAt": "2026-09-01T12:30:32.021Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -113363,9 +113755,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113432,15 +113824,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。阿根廷属于防守控制型，场均进球参考值 1.88，大胜倾向 38%。",
-      "英格兰 进攻指数 77，阿根廷 防守指数 92；阿根廷 进攻指数 75，英格兰 防守指数 90。",
+      "英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。阿根廷属于防守控制型，场均进球参考值 1.88，大胜倾向 38%。",
+      "英格兰 进攻指数 72，阿根廷 防守指数 92；阿根廷 进攻指数 75，英格兰 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.75,
       "away": 2.13
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -113476,7 +113868,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -113752,8 +114144,11 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 8,
         "avgAge": 26.9,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Declan Rice",
+          "Jude Bellingham"
+        ],
         "lastStarters": null
       }
     },
@@ -113761,7 +114156,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 76,
-        "away": 77
+        "away": 72
       },
       {
         "label": "防守",
@@ -113771,7 +114166,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 69,
-        "away": 75
+        "away": 70
       },
       {
         "label": "近期状态",
@@ -113781,7 +114176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -113873,14 +114268,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 67,
-      "bttsNo": 33,
-      "homeWinBy2Plus": 23,
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 15,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.28,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 3.29,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -113930,7 +114325,7 @@ window.MATCHES = [
         "failedToScoreRate": 13
       },
       "away": {
-        "tempo": "均衡型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.38,
         "avgGoalsAgainst": 1.5,
         "bigWinRate": 38,
@@ -113951,9 +114346,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 76,
-        "awayScore": 81,
-        "contribution": -1.2,
-        "evidence": "法国 进攻76/防守82/中场69，综合76；英格兰 进攻77/防守90/中场75，综合81。"
+        "awayScore": 77,
+        "contribution": -0.24,
+        "evidence": "法国 进攻76/防守82/中场69，综合76；英格兰 进攻72/防守90/中场70，综合77。"
       },
       {
         "name": "近期状态",
@@ -113993,7 +114388,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -114001,7 +114396,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -114009,7 +114404,7 @@ window.MATCHES = [
         "homeRank": 3,
         "awayRank": 4,
         "homeAverageMetric": 79.3,
-        "awayAverageMetric": 83
+        "awayAverageMetric": 80.5
       },
       "recentForm": {
         "home": {
@@ -114218,7 +114613,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 76,
         "homeDefense": 82,
-        "awayAttack": 77,
+        "awayAttack": 72,
         "awayDefense": 90
       },
       "motivation": {
@@ -114232,16 +114627,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -114266,10 +114661,31 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.89 / 平 3.85 / 客 3.83。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 3,
+      "articles": [
+        {
+          "title": "Beckham and Mourinho pay tribute to Messi",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cdx0nw1n9y8o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Tue, 01 Sep 2026 12:01:17 GMT"
+        },
+        {
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
+        },
+        {
+          "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+          "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT"
+        }
+      ],
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -114282,9 +114698,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "法国",
@@ -114477,7 +114893,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+              "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT",
+              "description": "Al-Hilal’s signing from Villa is thrown straight into big game against Al-Ahli and faces the highest of expectations Ollie Watkins and Ivan Toney spent 33 minutes on the pitch together a few weeks ago in Miami as England defeated France 6-4 in a game for third place at the World Cup. They will be reunited on Tuesday in Riyadh for Al-Hilal v Al-Ahli, the first big clash between title hopefuls in the Saudi Pro League season. Aston Villa fans will be hoping that, starting against Arsenal on Monday, Nicolas Jackson can quickly help them to forget their departed talisman. That’s what Toney did at Brentford in 2020 when he replaced Watkins. It may not only be supporters in the West Midlands and west London who will be curious to see how their alumni get on in west Asia. England’s head coach, Thomas Tuchel, will surely tune in (or even turn up?) to get a look at the two forwards battling to become the clear understudy to Harry Kane as a new international cycle starts. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -114489,12 +114915,22 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+              "pubDate": "Mon, 31 Aug 2026 09:01:39 GMT",
+              "description": "Al-Hilal’s signing from Villa is thrown straight into big game against Al-Ahli and faces the highest of expectations Ollie Watkins and Ivan Toney spent 33 minutes on the pitch together a few weeks ago in Miami as England defeated France 6-4 in a game for third place at the World Cup. They will be reunited on Tuesday in Riyadh for Al-Hilal v Al-Ahli, the first big clash between title hopefuls in the Saudi Pro League season. Aston Villa fans will be hoping that, starting against Arsenal on Monday, Nicolas Jackson can quickly help them to forget their departed talisman. That’s what Toney did at Brentford in 2020 when he replaced Watkins. It may not only be supporters in the West Midlands and west London who will be curious to see how their alumni get on in west Asia. England’s head coach, Thomas Tuchel, will surely tune in (or even turn up?) to get a look at the two forwards battling to become the clear understudy to Harry Kane as a new international cycle starts. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114540,7 +114976,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -114562,15 +114998,15 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "法国属于防守控制型，场均进球参考值 2.5，大胜倾向 63%。英格兰属于均衡型，场均进球参考值 2.38，大胜倾向 38%。",
-      "法国 进攻指数 76，英格兰 防守指数 90；英格兰 进攻指数 77，法国 防守指数 82。",
+      "法国属于防守控制型，场均进球参考值 2.5，大胜倾向 63%。英格兰属于防守控制型，场均进球参考值 2.38，大胜倾向 38%。",
+      "法国 进攻指数 76，英格兰 防守指数 90；英格兰 进攻指数 72，法国 防守指数 82。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 1.98,
       "away": 1.58
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -114606,7 +115042,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -114911,7 +115347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-08-31T16:06:27.705Z",
+      "fetchedAt": "2026-09-01T12:30:32.021Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115004,14 +115440,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 63,
-      "bttsNo": 37,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 64,
+      "bttsNo": 36,
       "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.91,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.99,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -115124,7 +115560,7 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 48,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -115132,7 +115568,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -115370,9 +115806,9 @@ window.MATCHES = [
       "newsImpact": {
         "homeScore": 48,
         "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": -0.06,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -115400,14 +115836,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
-        {
-          "title": "Messi retires from Argentina duty with 'nothing left to give'",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 31 Aug 2026 15:18:39 GMT"
-        },
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
@@ -115415,19 +115845,19 @@ window.MATCHES = [
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
         },
         {
-          "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+          "title": "Football transfer deadline day: Manchester City move for Fernández, Villa sign Mbaye, and more – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina",
-          "pubDate": "Mon, 31 Aug 2026 15:19:13 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/sep/01/football-transfer-deadline-day-fernandez-alvarez-mudryk-ndiaye-latest-news-updates",
+          "pubDate": "Tue, 01 Sep 2026 12:06:52 GMT"
         },
         {
-          "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+          "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-          "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT"
+          "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+          "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -115440,9 +115870,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -115635,17 +116065,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -115654,12 +116074,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
+              "title": "Lionel Messi’s international retirement serves as a reminder: watch him while you still can",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
+              "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can",
+              "pubDate": "Mon, 31 Aug 2026 18:51:49 GMT",
+              "description": "The Argentinian’s international career was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final . Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match wearing that famous Argentina kit. It was not the first time he’d cried at the tournament. There had been tears of joy in Argentina’s opening match, when Messi rolled back the clock to his glory days with a trio of spectacular goals against Algeria. There had been more when his brace against Austria pushed Argentina through to the knockout round as group winners, and even more when his equalizer against Egypt threw la Albiceleste a much-needed lifeline. Later, the world found out that Messi had been struggling all the while with the health struggles of his father , Jorge, a fact that clearly weighed heavily on him as Argentina made a dramatic return to the final in a bid to defend their 2022 title. Continue reading...",
+              "bodyText": "",
               "bodyError": ""
             }
           ]
@@ -115667,22 +116087,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/aug/30/mikel-arteta-premier-league-matchday-squad-player-welfare-arsenal",
-              "pubDate": "Sun, 30 Aug 2026 21:30:06 GMT",
-              "description": "Arsenal manager says dropping players ‘affects wellbeing’ Serie A allows 25-player matchday squads and La Liga 23 Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25. Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup , as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
-              "bodyText": "Mikel Arteta ‘begging’ Premier League to expand 20-man matchday squads | Arsenal | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Mikel Arteta believes larger matchday squads will help with players’ mental wellbeing. Photograph: Ian Stephen/Every Second Media/Shutterstock View im",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-08-31T16:06:27.705Z",
+      "updatedAt": "2026-09-01T12:30:32.021Z",
       "dataQuality": {
-        "updatedAt": "2026-08-31T16:06:27.705Z",
+        "updatedAt": "2026-09-01T12:30:32.021Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115728,7 +116138,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115758,7 +116168,7 @@ window.MATCHES = [
       "home": 1.71,
       "away": 2.06
     },
-    "analysisUpdated": "2026-08-31",
+    "analysisUpdated": "2026-09-01",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -115793,7 +116203,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -115803,17 +116213,17 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-08-31T16:06:27.705Z",
+  "updatedAt": "2026-09-01T12:30:32.021Z",
   "completedCount": 104,
-  "outcomeHitRate": 58,
+  "outcomeHitRate": 57,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
-  "topScoreCoverage": 41,
-  "scoreBandCoverage": 68,
+  "topScoreCoverage": 40,
+  "scoreBandCoverage": 67,
   "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5268,
-  "averageLogLoss": 0.8791,
-  "drawRecall": 21,
+  "averageBrier": 0.5215,
+  "averageLogLoss": 0.8724,
+  "drawRecall": 24,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
     {
@@ -122149,7 +122559,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 43,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122157,7 +122567,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 31,
+              "chance": 30,
               "examples": [
                 "0-1",
                 "0-2",
@@ -122166,7 +122576,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 12,
+              "chance": 10,
               "examples": [
                 "1-0",
                 "2-1",
@@ -122177,7 +122587,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 78,
+              "chance": 77,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122186,7 +122596,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 54,
+              "chance": 53,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122195,7 +122605,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 43,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122240,7 +122650,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122248,7 +122658,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 32,
+              "chance": 33,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122257,7 +122667,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 9,
+              "chance": 8,
               "examples": [
                 "0-1",
                 "1-2",
@@ -122268,16 +122678,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 80,
+              "chance": 84,
               "examples": [
                 "0-0",
-                "1-1",
-                "1-0"
+                "1-0",
+                "1-1"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 52,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122286,7 +122696,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122331,7 +122741,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 26,
+              "chance": 22,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122340,7 +122750,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 20,
+              "chance": 17,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122348,7 +122758,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "3-0",
                 "4-1",
@@ -122359,7 +122769,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 51,
+              "chance": 44,
               "examples": [
                 "1-1",
                 "2-1",
@@ -122367,21 +122777,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 55,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
               "label": "主队优势胜",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "2-0",
                 "3-1",
                 "3-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 54,
+              "examples": [
+                "2-1",
+                "2-0",
+                "3-1"
               ]
             }
           ],
@@ -122423,7 +122833,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 27,
+              "chance": 26,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122432,7 +122842,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 23,
+              "chance": 20,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122440,7 +122850,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 14,
+              "chance": 15,
               "examples": [
                 "3-0",
                 "4-1",
@@ -122451,7 +122861,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "2-1",
@@ -122460,7 +122870,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 51,
+              "chance": 53,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122469,7 +122879,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 33,
+              "chance": 36,
               "examples": [
                 "2-0",
                 "3-1",
@@ -122490,12 +122900,12 @@ window.ANALYSIS_BACKTEST = {
       "label": "历史回放基准",
       "note": "未赛前锁定，按当前模型回放，只用于调参参考",
       "sampleCount": 32,
-      "outcomeHitRate": 44,
-      "topScoreCoverage": 50,
-      "scoreBandCoverage": 72,
+      "outcomeHitRate": 41,
+      "topScoreCoverage": 47,
+      "scoreBandCoverage": 69,
       "scoreScenarioCoverage": 81,
-      "averageBrier": 0.5691,
-      "averageLogLoss": 0.923,
+      "averageBrier": 0.552,
+      "averageLogLoss": 0.9014,
       "lockedCount": 0,
       "rows": [
         {
@@ -122518,14 +122928,14 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 66,
-          "brier": 0.9402,
-          "logLoss": 1.5606,
+          "brier": 0.9176,
+          "logLoss": 1.5141,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            35,
+            34,
             44,
-            21
+            22
           ],
           "scoreBands": [
             {
@@ -122538,7 +122948,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 23,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122547,7 +122957,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "0-1",
                 "1-2",
@@ -122558,7 +122968,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 65,
+              "chance": 64,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122617,11 +123027,20 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 36,
+              "chance": 35,
               "examples": [
                 "2-0",
                 "1-0",
                 "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 22,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
               ]
             },
             {
@@ -122631,21 +123050,12 @@ window.ANALYSIS_BACKTEST = {
                 "1-1",
                 "0-0"
               ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 21,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 67,
+              "chance": 66,
               "examples": [
                 "2-0",
                 "1-0",
@@ -122663,7 +123073,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 44,
+              "chance": 45,
               "examples": [
                 "2-0",
                 "3-0",
@@ -122692,28 +123102,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 65,
-          "brier": 0.4992,
-          "logLoss": 0.821,
+          "confidence": 76,
+          "brier": 0.2634,
+          "logLoss": 0.5276,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            16,
-            40,
-            44
+            13,
+            28,
+            59
           ],
           "scoreBands": [
             {
-              "label": "低比分平局",
-              "chance": 33,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
               "label": "客队小胜",
-              "chance": 25,
+              "chance": 31,
               "examples": [
                 "0-2",
                 "0-1",
@@ -122721,8 +123123,16 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
               "label": "客队大胜",
-              "chance": 12,
+              "chance": 18,
               "examples": [
                 "0-3",
                 "0-4",
@@ -122733,29 +123143,29 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 63,
+              "chance": 61,
               "examples": [
                 "1-1",
-                "0-0",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 45,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
+                "0-2",
+                "0-1"
               ]
             },
             {
               "label": "客队胜出覆盖",
-              "chance": 44,
+              "chance": 59,
               "examples": [
                 "0-2",
                 "0-1",
                 "1-2"
+              ]
+            },
+            {
+              "label": "客队优势胜",
+              "chance": 39,
+              "examples": [
+                "0-2",
+                "0-3",
+                "1-3"
               ]
             }
           ],
@@ -122780,20 +123190,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.6696,
-          "logLoss": 1.0788,
+          "confidence": 64,
+          "brier": 0.645,
+          "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            34,
-            42,
-            24
+            35,
+            40,
+            25
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 32,
+              "chance": 31,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122801,7 +123211,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 19,
+              "chance": 20,
               "examples": [
                 "2-1",
                 "1-0",
@@ -122810,7 +123220,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 15,
+              "chance": 16,
               "examples": [
                 "1-2",
                 "0-1",
@@ -122821,7 +123231,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 54,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122838,11 +123248,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 32,
+              "label": "主队胜出覆盖",
+              "chance": 35,
               "examples": [
-                "1-1",
-                "0-0"
+                "2-1",
+                "1-0",
+                "2-0"
               ]
             }
           ],
@@ -122867,20 +123278,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.6008,
-          "logLoss": 0.9676,
+          "confidence": 63,
+          "brier": 0.5846,
+          "logLoss": 0.9416,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            38,
+            39,
             42,
-            20
+            19
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 34,
+              "chance": 36,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122888,7 +123299,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 22,
+              "chance": 25,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122899,8 +123310,8 @@ window.ANALYSIS_BACKTEST = {
               "label": "客队小胜",
               "chance": 14,
               "examples": [
-                "1-2",
                 "0-1",
+                "1-2",
                 "0-2"
               ]
             }
@@ -122908,7 +123319,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 60,
+              "chance": 65,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122917,16 +123328,16 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 49,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
-                "1-2"
+                "0-1"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122955,20 +123366,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 70,
-          "brier": 0.6122,
-          "logLoss": 0.9163,
+          "confidence": 66,
+          "brier": 0.5694,
+          "logLoss": 0.8675,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            40,
-            49,
+            42,
+            47,
             11
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 47,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122996,7 +123407,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 82,
+              "chance": 80,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123005,7 +123416,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 57,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123014,7 +123425,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 47,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123130,20 +123541,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5208,
-          "logLoss": 0.8675,
+          "confidence": 62,
+          "brier": 0.5528,
+          "logLoss": 0.9163,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
             38,
-            42,
-            20
+            40,
+            22
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 39,
+              "chance": 36,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123151,7 +123562,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 30,
+              "chance": 28,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123160,7 +123571,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 17,
+              "chance": 18,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123171,7 +123582,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 72,
+              "chance": 67,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123180,7 +123591,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 57,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123188,11 +123599,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 39,
+              "label": "主队胜出覆盖",
+              "chance": 38,
               "examples": [
-                "0-0",
-                "1-1"
+                "1-0",
+                "2-0",
+                "2-1"
               ]
             }
           ],
@@ -123210,27 +123622,27 @@ window.ANALYSIS_BACKTEST = {
           "modelVersionLabel": "历史回放基准",
           "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
           "actualOutcome": "客胜",
-          "predictedOutcome": "客胜",
-          "outcomeHit": true,
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
           "actualScore": "1-3",
           "actualScoreBand": "客队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": false,
+          "scoreScenarioHit": true,
           "confidence": 64,
-          "brier": 0.5018,
-          "logLoss": 0.7985,
+          "brier": 0.5496,
+          "logLoss": 0.8675,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            12,
-            43,
-            45
+            14,
+            44,
+            42
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123238,7 +123650,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 29,
+              "chance": 28,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123246,19 +123658,19 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队大胜",
+              "label": "主队小胜",
               "chance": 11,
               "examples": [
-                "0-3",
-                "0-4",
-                "1-4"
+                "1-0",
+                "2-1",
+                "2-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 73,
+              "chance": 72,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123267,7 +123679,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 49,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123275,11 +123687,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 38,
+              "label": "客队胜出覆盖",
+              "chance": 42,
               "examples": [
-                "1-1",
-                "0-0"
+                "0-1",
+                "0-2",
+                "1-2"
               ]
             }
           ],
@@ -123304,20 +123717,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 1.0118,
-          "logLoss": 1.7148,
+          "confidence": 69,
+          "brier": 0.9902,
+          "logLoss": 1.6607,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            18,
-            45,
-            37
+            19,
+            46,
+            35
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123325,7 +123738,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 30,
+              "chance": 29,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123334,7 +123747,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123345,16 +123758,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 76,
+              "chance": 75,
               "examples": [
                 "0-0",
-                "0-1",
-                "1-1"
+                "1-1",
+                "0-1"
               ]
             },
             {
               "label": "主队不败低比分",
-              "chance": 60,
+              "chance": 61,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123363,7 +123776,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 43,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123390,16 +123803,16 @@ window.ANALYSIS_BACKTEST = {
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.5966,
-          "logLoss": 0.9676,
+          "scoreScenarioHit": false,
+          "confidence": 66,
+          "brier": 0.6558,
+          "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            38,
-            41,
-            21
+            35,
+            43,
+            22
           ],
           "scoreBands": [
             {
@@ -123412,19 +123825,19 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 21,
               "examples": [
                 "1-0",
-                "2-0",
-                "2-1"
+                "2-1",
+                "2-0"
               ]
             },
             {
               "label": "客队小胜",
               "chance": 15,
               "examples": [
-                "0-1",
                 "1-2",
+                "0-1",
                 "0-2"
               ]
             }
@@ -123432,7 +123845,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 61,
+              "chance": 59,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123441,20 +123854,19 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 50,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
-                "0-1"
+                "1-2"
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 38,
+              "label": "低比分平局",
+              "chance": 34,
               "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -123479,20 +123891,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 68,
-          "brier": 0.5978,
-          "logLoss": 0.9163,
+          "confidence": 65,
+          "brier": 0.5558,
+          "logLoss": 0.8675,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            47,
-            40,
+            45,
+            42,
             13
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 35,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123500,7 +123912,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 29,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123508,19 +123920,19 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队大胜",
-              "chance": 12,
+              "label": "客队小胜",
+              "chance": 11,
               "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
+                "0-1",
+                "1-2",
+                "0-2"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 69,
+              "chance": 71,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123529,7 +123941,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 45,
+              "chance": 48,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123537,12 +123949,11 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 47,
+              "label": "低比分平局",
+              "chance": 37,
               "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -123568,19 +123979,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": true,
           "confidence": 76,
-          "brier": 0.2234,
-          "logLoss": 0.462,
+          "brier": 0.2642,
+          "logLoss": 0.5108,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            63,
-            28,
+            60,
+            31,
             9
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 38,
+              "chance": 39,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123589,7 +124000,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 25,
+              "chance": 29,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123597,7 +124008,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 18,
+              "chance": 15,
               "examples": [
                 "3-0",
                 "4-0",
@@ -123608,16 +124019,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 72,
+              "chance": 76,
               "examples": [
                 "1-0",
-                "2-0",
-                "0-0"
+                "0-0",
+                "2-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 63,
+              "chance": 60,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123626,7 +124037,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 40,
+              "chance": 36,
               "examples": [
                 "2-0",
                 "3-0",
@@ -123655,20 +124066,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 65,
-          "brier": 0.4992,
-          "logLoss": 0.821,
+          "confidence": 67,
+          "brier": 0.4662,
+          "logLoss": 0.7765,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            44,
-            40,
-            16
+            46,
+            39,
+            15
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 32,
+              "chance": 31,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123676,7 +124087,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 25,
               "examples": [
                 "2-0",
                 "1-0",
@@ -123685,7 +124096,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 12,
+              "chance": 13,
               "examples": [
                 "3-0",
                 "4-0",
@@ -123705,7 +124116,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 45,
+              "chance": 43,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123714,7 +124125,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 44,
+              "chance": 46,
               "examples": [
                 "2-0",
                 "1-0",
@@ -123736,30 +124147,30 @@ window.ANALYSIS_BACKTEST = {
           "modelVersionLabel": "历史回放基准",
           "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
           "actualOutcome": "客胜",
-          "predictedOutcome": "客胜",
-          "outcomeHit": true,
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
           "actualScore": "1-4",
           "actualScoreBand": "客队大胜",
           "topScoreHit": false,
-          "scoreBandHit": true,
+          "scoreBandHit": false,
           "scoreScenarioHit": true,
-          "confidence": 68,
-          "brier": 0.4578,
-          "logLoss": 0.755,
+          "confidence": 64,
+          "brier": 0.5496,
+          "logLoss": 0.8675,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            13,
-            40,
-            47
+            14,
+            44,
+            42
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 35,
+              "chance": 39,
               "examples": [
-                "1-1",
-                "0-0"
+                "0-0",
+                "1-1"
               ]
             },
             {
@@ -123772,37 +124183,37 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队大胜",
+              "label": "主队小胜",
               "chance": 12,
               "examples": [
-                "0-3",
-                "0-4",
-                "1-4"
+                "1-0",
+                "2-1",
+                "2-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 69,
+              "chance": 72,
               "examples": [
-                "1-1",
                 "0-0",
+                "1-1",
                 "0-1"
               ]
             },
             {
               "label": "主队不败低比分",
-              "chance": 46,
+              "chance": 51,
               "examples": [
-                "1-1",
                 "0-0",
+                "1-1",
                 "1-0"
               ]
             },
             {
               "label": "客队胜出覆盖",
-              "chance": 47,
+              "chance": 42,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123832,37 +124243,37 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": true,
           "confidence": 76,
-          "brier": 0.2342,
-          "logLoss": 0.4943,
+          "brier": 0.2216,
+          "logLoss": 0.478,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            61,
-            25,
+            62,
+            24,
             14
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 26,
               "examples": [
-                "2-0",
                 "2-1",
+                "2-0",
                 "1-0"
               ]
             },
             {
               "label": "主队大胜",
-              "chance": 20,
+              "chance": 22,
               "examples": [
                 "3-0",
-                "4-0",
-                "4-1"
+                "4-1",
+                "4-0"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 19,
+              "chance": 17,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123872,28 +124283,28 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 54,
+              "chance": 50,
               "examples": [
                 "1-1",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 61,
-              "examples": [
-                "2-0",
                 "2-1",
-                "1-0"
+                "2-0"
               ]
             },
             {
               "label": "主队优势胜",
-              "chance": 43,
+              "chance": 45,
               "examples": [
                 "2-0",
-                "3-0",
+                "3-1",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 62,
+              "examples": [
+                "2-1",
+                "2-0",
                 "3-1"
               ]
             }
@@ -123920,19 +124331,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": false,
           "confidence": 76,
-          "brier": 0.8966,
-          "logLoss": 1.2379,
+          "brier": 0.8186,
+          "logLoss": 1.1394,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            62,
-            29,
+            59,
+            32,
             9
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 38,
+              "chance": 40,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123941,7 +124352,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 26,
+              "chance": 30,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123949,7 +124360,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 17,
+              "chance": 14,
               "examples": [
                 "3-0",
                 "4-0",
@@ -123960,16 +124371,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 72,
+              "chance": 77,
               "examples": [
                 "1-0",
-                "2-0",
-                "0-0"
+                "0-0",
+                "2-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 62,
+              "chance": 59,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123978,7 +124389,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 39,
+              "chance": 34,
               "examples": [
                 "2-0",
                 "3-0",
@@ -124007,20 +124418,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.5238,
-          "logLoss": 0.844,
+          "confidence": 70,
+          "brier": 0.4266,
+          "logLoss": 0.7133,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            15,
-            43,
-            42
+            12,
+            49,
+            39
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 47,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124028,7 +124439,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 34,
+              "chance": 31,
               "examples": [
                 "0-1",
                 "0-2",
@@ -124037,7 +124448,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 14,
+              "chance": 11,
               "examples": [
                 "1-0",
                 "2-1",
@@ -124048,16 +124459,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 79,
+              "chance": 82,
               "examples": [
                 "0-0",
-                "0-1",
-                "1-1"
+                "1-1",
+                "0-1"
               ]
             },
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 58,
               "examples": [
                 "0-0",
                 "1-1",
@@ -124066,7 +124477,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 47,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124094,20 +124505,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 74,
-          "brier": 0.8354,
+          "confidence": 76,
+          "brier": 0.8498,
           "logLoss": 1.273,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            53,
+            55,
             28,
-            19
+            17
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 25,
+              "chance": 28,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124116,7 +124527,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 20,
+              "chance": 21,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124124,7 +124535,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 15,
+              "chance": 16,
               "examples": [
                 "3-0",
                 "4-1",
@@ -124135,7 +124546,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 51,
+              "chance": 55,
               "examples": [
                 "1-1",
                 "2-1",
@@ -124144,7 +124555,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 53,
+              "chance": 55,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124153,7 +124564,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "2-0",
                 "3-1",
@@ -124182,37 +124593,37 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 75,
-          "brier": 0.9506,
-          "logLoss": 1.3093,
+          "confidence": 76,
+          "brier": 0.8442,
+          "logLoss": 1.1712,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            64,
-            27,
+            60,
+            31,
             9
           ],
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 38,
+              "chance": 40,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "2-1"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 29,
               "examples": [
-                "1-1",
-                "0-0"
+                "0-0",
+                "1-1"
               ]
             },
             {
               "label": "主队大胜",
-              "chance": 19,
+              "chance": 15,
               "examples": [
                 "3-0",
                 "4-0",
@@ -124223,25 +124634,25 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 71,
+              "chance": 76,
               "examples": [
-                "2-0",
                 "1-0",
-                "1-1"
+                "0-0",
+                "2-0"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 64,
+              "chance": 60,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "3-0"
               ]
             },
             {
               "label": "主队优势胜",
-              "chance": 41,
+              "chance": 35,
               "examples": [
                 "2-0",
                 "3-0",
@@ -124357,20 +124768,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.6914,
-          "logLoss": 1.1087,
+          "confidence": 60,
+          "brier": 0.6194,
+          "logLoss": 1.0217,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            33,
-            43,
-            24
+            36,
+            37,
+            27
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 31,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124378,7 +124789,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 22,
+              "chance": 24,
               "examples": [
                 "1-0",
                 "2-1",
@@ -124387,7 +124798,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 17,
+              "chance": 19,
               "examples": [
                 "0-1",
                 "1-2",
@@ -124398,7 +124809,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 61,
+              "chance": 59,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124407,7 +124818,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 55,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124415,11 +124826,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
+              "label": "主队胜出覆盖",
               "chance": 36,
               "examples": [
-                "1-1",
-                "0-0"
+                "1-0",
+                "2-1",
+                "2-0"
               ]
             }
           ],
@@ -124441,18 +124853,18 @@ window.ANALYSIS_BACKTEST = {
           "outcomeHit": true,
           "actualScore": "2-2",
           "actualScoreBand": "高比分平局",
-          "topScoreHit": true,
+          "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.5582,
-          "logLoss": 0.9416,
+          "confidence": 63,
+          "brier": 0.5768,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            30,
-            39,
-            31
+            32,
+            38,
+            30
           ],
           "scoreBands": [
             {
@@ -124465,7 +124877,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 18,
+              "chance": 19,
               "examples": [
                 "1-2",
                 "0-1",
@@ -124474,7 +124886,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 17,
+              "chance": 19,
               "examples": [
                 "2-1",
                 "1-0",
@@ -124484,17 +124896,8 @@ window.ANALYSIS_BACKTEST = {
           ],
           "scoreScenarios": [
             {
-              "label": "客队不败低比分",
-              "chance": 49,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
               "label": "主队不败低比分",
-              "chance": 48,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124502,12 +124905,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队胜出覆盖",
-              "chance": 31,
+              "label": "客队不败低比分",
+              "chance": 50,
               "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 32,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
               ]
             }
           ],
@@ -124620,20 +125032,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.7368,
-          "logLoss": 1.204,
+          "confidence": 59,
+          "brier": 0.7776,
+          "logLoss": 1.273,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            30,
-            38,
-            32
+            28,
+            36,
+            36
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 32,
+              "chance": 30,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124641,7 +125053,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 22,
+              "chance": 24,
               "examples": [
                 "0-1",
                 "1-2",
@@ -124650,7 +125062,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 21,
+              "chance": 19,
               "examples": [
                 "1-0",
                 "2-1",
@@ -124661,7 +125073,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 57,
+              "chance": 56,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124670,7 +125082,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124678,11 +125090,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 32,
+              "label": "客队胜出覆盖",
+              "chance": 36,
               "examples": [
-                "1-1",
-                "0-0"
+                "0-1",
+                "1-2",
+                "0-2"
               ]
             }
           ],
@@ -124707,15 +125120,15 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 0.5912,
-          "logLoss": 0.9163,
+          "confidence": 66,
+          "brier": 0.5766,
+          "logLoss": 0.8916,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            14,
+            13,
             46,
-            40
+            41
           ],
           "scoreBands": [
             {
@@ -124737,7 +125150,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 12,
+              "chance": 11,
               "examples": [
                 "1-0",
                 "2-1",
@@ -124757,7 +125170,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 56,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -124794,20 +125207,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.5966,
-          "logLoss": 0.9943,
+          "confidence": 63,
+          "brier": 0.5768,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            29,
-            37,
-            34
+            30,
+            38,
+            32
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 27,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124815,16 +125228,16 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 18,
               "examples": [
                 "1-2",
-                "0-2",
-                "0-1"
+                "0-1",
+                "0-2"
               ]
             },
             {
               "label": "主队小胜",
-              "chance": 14,
+              "chance": 16,
               "examples": [
                 "2-1",
                 "2-0",
@@ -124835,16 +125248,16 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 43,
+              "chance": 47,
               "examples": [
                 "1-1",
-                "1-2",
-                "0-0"
+                "0-0",
+                "1-2"
               ]
             },
             {
               "label": "主队不败低比分",
-              "chance": 40,
+              "chance": 45,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124853,7 +125266,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "开放对攻",
-              "chance": 38,
+              "chance": 32,
               "examples": [
                 "2-2",
                 "1-3",
@@ -124875,27 +125288,27 @@ window.ANALYSIS_BACKTEST = {
           "modelVersionLabel": "历史回放基准",
           "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
           "actualOutcome": "平局",
-          "predictedOutcome": "客胜",
-          "outcomeHit": false,
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
           "actualScore": "1-1",
           "actualScoreBand": "低比分平局",
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 65,
-          "brier": 0.5426,
-          "logLoss": 0.821,
+          "confidence": 64,
+          "brier": 0.4952,
+          "logLoss": 0.7765,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            9,
-            44,
-            47
+            10,
+            46,
+            44
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124903,7 +125316,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 33,
+              "chance": 32,
               "examples": [
                 "0-1",
                 "0-2",
@@ -124912,7 +125325,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队大胜",
-              "chance": 10,
+              "chance": 9,
               "examples": [
                 "0-3",
                 "0-4",
@@ -124923,7 +125336,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 80,
+              "chance": 81,
               "examples": [
                 "0-0",
                 "1-1",
@@ -124932,7 +125345,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 50,
+              "chance": 53,
               "examples": [
                 "0-0",
                 "1-1",
@@ -124941,7 +125354,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124970,19 +125383,19 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": false,
           "scoreScenarioHit": false,
           "confidence": 65,
-          "brier": 0.6218,
-          "logLoss": 0.9943,
+          "brier": 0.6482,
+          "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
-            43,
-            20
+            35,
+            41,
+            24
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 33,
               "examples": [
                 "1-1",
                 "0-0"
@@ -124990,19 +125403,19 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 21,
               "examples": [
                 "1-0",
-                "2-0",
-                "2-1"
+                "2-1",
+                "2-0"
               ]
             },
             {
               "label": "客队小胜",
-              "chance": 15,
+              "chance": 17,
               "examples": [
-                "0-1",
                 "1-2",
+                "0-1",
                 "0-2"
               ]
             }
@@ -125010,7 +125423,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 65,
+              "chance": 58,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125019,16 +125432,16 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 53,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
-                "0-1"
+                "1-2"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 33,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125056,23 +125469,23 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 68,
-          "brier": 0.5906,
-          "logLoss": 0.8916,
+          "confidence": 65,
+          "brier": 0.5486,
+          "logLoss": 0.844,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            48,
-            41,
+            46,
+            43,
             11
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 39,
               "examples": [
-                "1-1",
-                "0-0"
+                "0-0",
+                "1-1"
               ]
             },
             {
@@ -125086,7 +125499,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 12,
+              "chance": 11,
               "examples": [
                 "3-0",
                 "4-0",
@@ -125097,29 +125510,28 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 73,
+              "chance": 75,
               "examples": [
-                "1-1",
                 "0-0",
+                "1-1",
                 "1-0"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 46,
+              "chance": 49,
               "examples": [
-                "1-1",
                 "0-0",
+                "1-1",
                 "0-1"
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 48,
+              "label": "低比分平局",
+              "chance": 39,
               "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
+                "0-0",
+                "1-1"
               ]
             }
           ],
@@ -125144,20 +125556,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.6272,
+          "confidence": 65,
+          "brier": 0.6344,
           "logLoss": 1.0217,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
             36,
-            40,
-            24
+            42,
+            22
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125165,7 +125577,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 26,
+              "chance": 25,
               "examples": [
                 "1-0",
                 "2-0",
@@ -125174,7 +125586,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 19,
+              "chance": 17,
               "examples": [
                 "0-1",
                 "1-2",
@@ -125194,7 +125606,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 56,
+              "chance": 55,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125203,7 +125615,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125290,7 +125702,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 43,
+              "chance": 42,
               "examples": [
                 "2-0",
                 "3-0",
@@ -125313,14 +125725,14 @@ window.ANALYSIS_BACKTEST = {
     {
       "outcome": "平局",
       "actualCount": 29,
-      "hitCount": 6,
-      "hitRate": 21
+      "hitCount": 7,
+      "hitRate": 24
     },
     {
       "outcome": "客胜",
       "actualCount": 29,
-      "hitCount": 22,
-      "hitRate": 76
+      "hitCount": 20,
+      "hitRate": 69
     }
   ],
   "predictedBreakdown": [
@@ -125332,29 +125744,29 @@ window.ANALYSIS_BACKTEST = {
     },
     {
       "outcome": "平局",
-      "predictedCount": 22,
-      "hitCount": 6,
-      "precision": 27
+      "predictedCount": 25,
+      "hitCount": 7,
+      "precision": 28
     },
     {
       "outcome": "客胜",
-      "predictedCount": 32,
-      "hitCount": 22,
+      "predictedCount": 29,
+      "hitCount": 20,
       "precision": 69
     }
   ],
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 15,
-      "hitRate": 53,
-      "averageBrier": 0.6181
+      "count": 17,
+      "hitRate": 47,
+      "averageBrier": 0.6173
     },
     {
       "label": "中信心",
-      "count": 88,
+      "count": 86,
       "hitRate": 59,
-      "averageBrier": 0.5038
+      "averageBrier": 0.495
     },
     {
       "label": "高信心",
