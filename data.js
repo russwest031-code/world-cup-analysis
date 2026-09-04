@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-09-04T12:15:10.545Z",
+  "updatedAt": "2026-09-04T12:40:14.447Z",
   "runDate": "2026-09-04",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-09-04T12:15:10.545Z",
+  "externalFetchedAt": "2026-09-04T12:40:14.447Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -22,7 +22,7 @@ window.ANALYSIS_META = {
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
   "expertArticleCount": 15,
-  "expertArticleBodyCount": 1,
+  "expertArticleBodyCount": 2,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 51,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -831,7 +831,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Mexico City",
         "date": "2026-06-12",
         "temperatureMax": null,
@@ -1057,9 +1057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -1455,7 +1455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2047,9 +2047,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2457,7 +2457,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2928,7 +2928,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-06-13",
         "temperatureMax": null,
@@ -3154,9 +3154,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -3563,7 +3563,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4250,9 +4250,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4660,7 +4660,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5356,9 +5356,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5766,7 +5766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6463,9 +6463,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6873,7 +6873,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7560,9 +7560,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7959,7 +7959,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8450,7 +8450,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-06-14",
         "temperatureMax": null,
@@ -8591,9 +8591,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -8989,7 +8989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9460,7 +9460,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-15",
         "temperatureMax": null,
@@ -9591,9 +9591,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -10000,7 +10000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10688,9 +10688,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11087,7 +11087,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11558,7 +11558,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "temperatureMax": null,
@@ -11689,9 +11689,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -12099,7 +12099,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12786,9 +12786,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13186,7 +13186,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13195,17 +13195,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      63,
-      28,
+      62,
+      29,
       9
     ],
-    "confidence": 76,
+    "confidence": 73,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 16
       },
       {
         "score": "2-0",
@@ -13213,11 +13213,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 14
       },
       {
         "score": "1-1",
-        "chance": 12
+        "chance": 13
       }
     ],
     "scoreBands": [
@@ -13232,7 +13232,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 25,
+        "chance": 26,
         "examples": [
           "0-0",
           "1-1"
@@ -13240,7 +13240,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 18,
+        "chance": 17,
         "examples": [
           "3-0",
           "4-0",
@@ -13251,7 +13251,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 74,
         "examples": [
           "1-0",
           "2-0",
@@ -13260,7 +13260,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 63,
+        "chance": 62,
         "examples": [
           "1-0",
           "2-0",
@@ -13269,7 +13269,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 38,
         "examples": [
           "2-0",
           "3-0",
@@ -13278,14 +13278,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 38,
+      "over25": 37,
+      "under25": 63,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.3,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.23,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -13293,14 +13293,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        63,
-        28,
+        62,
+        29,
         9
       ],
       "market": null,
       "blended": [
-        63,
-        28,
+        62,
+        29,
         9
       ],
       "blendWeight": 0,
@@ -13387,10 +13387,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -13398,7 +13398,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -13634,11 +13634,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "goalLift": -0.07,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -13651,8 +13651,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        },
         {
           "title": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
           "source": "www.theguardian.com",
@@ -13660,13 +13666,13 @@ window.MATCHES = [
           "pubDate": "Thu, 03 Sep 2026 16:00:42 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-06-16",
         "temperatureMax": null,
@@ -13682,9 +13688,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "西班牙",
@@ -13782,24 +13788,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -13844,7 +13880,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -13871,8 +13907,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.75,
-      "away": 0.55
+      "home": 1.69,
+      "away": 0.53
     },
     "analysisUpdated": "2026-09-04",
     "matchAutopsy": {
@@ -14045,7 +14081,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -14185,7 +14221,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 68
       },
       {
@@ -14195,7 +14231,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 56
       },
       {
@@ -14206,7 +14242,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14215,72 +14251,43 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      55,
-      29,
-      16
+      42,
+      40,
+      18
     ],
-    "confidence": 76,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 10
+        "chance": 8
       },
       {
         "score": "1-1",
-        "chance": 14
+        "chance": 19
+      },
+      {
+        "score": "0-0",
+        "chance": 12
       },
       {
         "score": "2-1",
-        "chance": 10
-      },
-      {
-        "score": "1-0",
-        "chance": 9
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
-        "label": "主队小胜",
-        "chance": 29,
-        "examples": [
-          "2-0",
-          "2-1",
-          "1-0"
-        ]
-      },
-      {
         "label": "低比分平局",
-        "chance": 23,
+        "chance": 32,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 16,
-        "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
-        ]
-      }
-    ],
-    "scoreScenarios": [
-      {
-        "label": "主队不败低比分",
-        "chance": 57,
-        "examples": [
-          "1-1",
-          "2-0",
-          "2-1"
-        ]
-      },
-      {
-        "label": "主队胜出覆盖",
-        "chance": 55,
+        "label": "主队小胜",
+        "chance": 23,
         "examples": [
           "2-0",
           "2-1",
@@ -14288,46 +14295,75 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队优势胜",
-        "chance": 36,
+        "label": "客队小胜",
+        "chance": 12,
+        "examples": [
+          "1-2",
+          "0-1",
+          "0-2"
+        ]
+      }
+    ],
+    "scoreScenarios": [
+      {
+        "label": "主队不败低比分",
+        "chance": 59,
+        "examples": [
+          "1-1",
+          "0-0",
+          "2-0"
+        ]
+      },
+      {
+        "label": "客队不败低比分",
+        "chance": 45,
+        "examples": [
+          "1-1",
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 42,
         "examples": [
           "2-0",
-          "3-0",
-          "3-1"
+          "2-1",
+          "1-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 33,
-      "awayWinBy2Plus": 6,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.82,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.72,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        55,
-        29,
-        16
+        52,
+        30,
+        18
       ],
       "market": null,
       "blended": [
-        55,
-        29,
-        16
+        42,
+        40,
+        18
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -14339,7 +14375,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -14367,10 +14403,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 68,
-        "contribution": 2.4,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；埃及 进攻68/防守80/中场56，综合68。"
+        "contribution": 0.96,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；埃及 进攻68/防守80/中场56，综合68。"
       },
       {
         "name": "近期状态",
@@ -14425,7 +14461,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 29,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 65.5
       },
       "recentForm": {
@@ -14633,7 +14669,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 68,
         "awayDefense": 80
@@ -14677,7 +14713,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-06-16",
         "temperatureMax": null,
@@ -14903,9 +14939,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -14972,13 +15008,13 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
-      "比利时 进攻指数 81，埃及 防守指数 80；埃及 进攻指数 68，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。",
+      "比利时 进攻指数 71，埃及 防守指数 80；埃及 进攻指数 68，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.87,
-      "away": 0.95
+      "home": 1.76,
+      "away": 0.96
     },
     "analysisUpdated": "2026-09-04",
     "matchAutopsy": {
@@ -15312,7 +15348,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15999,9 +16035,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16409,7 +16445,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17097,9 +17133,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17507,7 +17543,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18195,9 +18231,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18605,7 +18641,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19292,9 +19328,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19702,7 +19738,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20182,7 +20218,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-06-17",
         "temperatureMax": null,
@@ -20408,9 +20444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -20817,7 +20853,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21514,9 +21550,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21924,7 +21960,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22395,7 +22431,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -22621,9 +22657,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -23030,7 +23066,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23507,7 +23543,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -23753,9 +23789,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24163,7 +24199,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24642,7 +24678,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -24868,9 +24904,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25278,7 +25314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25748,7 +25784,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -25974,9 +26010,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26383,7 +26419,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26853,7 +26889,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": null,
@@ -27079,9 +27115,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27488,7 +27524,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28185,9 +28221,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28595,7 +28631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29065,7 +29101,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": null,
@@ -29291,9 +29327,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29689,7 +29725,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30281,9 +30317,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30692,7 +30728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31184,7 +31220,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": null,
@@ -31420,9 +31456,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -31830,7 +31866,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32527,9 +32563,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32937,7 +32973,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33408,7 +33444,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": null,
@@ -33634,9 +33670,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34032,7 +34068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34624,9 +34660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35034,7 +35070,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35527,7 +35563,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -35753,9 +35789,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36159,7 +36195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36652,7 +36688,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -36783,9 +36819,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37189,7 +37225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37681,7 +37717,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -37812,9 +37848,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38229,7 +38265,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38938,9 +38974,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39356,7 +39392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39448,14 +39484,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 36,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.2,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.13,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -39565,10 +39601,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -39576,7 +39612,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -39807,16 +39843,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "goalLift": -0.07,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -39841,16 +39877,25 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.15 / 平 10.37 / 客 23.77。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": null,
@@ -39866,9 +39911,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "西班牙",
@@ -40061,24 +40106,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -40123,7 +40198,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -40332,7 +40407,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -40472,7 +40547,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 66
       },
       {
@@ -40482,7 +40557,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 56
       },
       {
@@ -40493,7 +40568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40585,14 +40660,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 32,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 30,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.05,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.95,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -40634,7 +40709,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -40662,10 +40737,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 69,
-        "contribution": 2.16,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；伊朗 进攻66/防守85/中场56，综合69。"
+        "contribution": 0.72,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；伊朗 进攻66/防守85/中场56，综合69。"
       },
       {
         "name": "近期状态",
@@ -40720,7 +40795,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 20,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 68.3
       },
       "recentForm": {
@@ -40928,7 +41003,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 66,
         "awayDefense": 85
@@ -41204,9 +41279,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41274,8 +41349,8 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
-      "比利时 进攻指数 81，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
+      "比利时 进攻指数 71，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -41611,7 +41686,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42236,9 +42311,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42654,7 +42729,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43148,7 +43223,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": null,
@@ -43374,9 +43449,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43791,7 +43866,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44512,9 +44587,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44931,7 +45006,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45426,7 +45501,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": null,
@@ -45652,9 +45727,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46069,7 +46144,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46780,9 +46855,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47199,7 +47274,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47910,9 +47985,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48328,7 +48403,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48822,7 +48897,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -49048,9 +49123,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49465,7 +49540,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49966,7 +50041,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         },
         {
           "title": "World Cup wishlists, early movers, big clearouts: 2026 summer transfer window trends",
@@ -50218,9 +50293,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50636,7 +50711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51129,7 +51204,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -51355,9 +51430,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51772,7 +51847,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52483,9 +52558,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52901,7 +52976,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53404,7 +53479,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -53630,9 +53705,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54047,7 +54122,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54540,7 +54615,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -54766,9 +54841,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55184,7 +55259,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55895,9 +55970,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56313,7 +56388,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56816,7 +56891,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -57042,9 +57117,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57459,7 +57534,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57953,7 +58028,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -58179,9 +58254,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58585,7 +58660,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59201,9 +59276,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59597,7 +59672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60091,7 +60166,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -60122,9 +60197,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60540,7 +60615,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61252,9 +61327,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61670,7 +61745,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62381,9 +62456,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62799,7 +62874,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63293,7 +63368,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -63519,9 +63594,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -63925,7 +64000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64541,9 +64616,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64959,7 +65034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65701,9 +65776,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66119,7 +66194,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66831,9 +66906,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67249,7 +67324,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67743,7 +67818,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -67969,9 +68044,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68375,7 +68450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68877,7 +68952,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -69008,9 +69083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69425,7 +69500,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69516,14 +69591,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 28,
-      "under25": 72,
-      "bttsYes": 42,
-      "bttsNo": 58,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 2,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -69634,9 +69709,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "contribution": 0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -69644,7 +69719,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -69875,16 +69950,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "goalLift": -0.07,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -69909,10 +69984,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 5.98 / 平 4.15 / 客 1.54。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -69925,9 +70009,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "乌拉圭",
@@ -70120,24 +70204,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70183,7 +70297,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -70553,7 +70667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71047,7 +71161,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -71273,9 +71387,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71661,7 +71775,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -71670,7 +71784,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 60,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -71680,7 +71794,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 39,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -71690,7 +71804,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -71782,15 +71896,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 42,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.57,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 40,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.46,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -71839,7 +71953,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -71860,9 +71974,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 56,
-        "awayScore": 78,
-        "contribution": -5.28,
-        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": -3.84,
+        "evidence": "新西兰 进攻60/防守70/中场39，综合56；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -71918,7 +72032,7 @@ window.MATCHES = [
         "homeRank": 85,
         "awayRank": 9,
         "homeAverageMetric": 50.8,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -72127,7 +72241,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 60,
         "homeDefense": 70,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -72184,7 +72298,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -72410,9 +72524,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72479,8 +72593,8 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "新西兰 进攻指数 60，比利时 防守指数 86；比利时 进攻指数 81，新西兰 防守指数 70。",
+      "新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "新西兰 进攻指数 60，比利时 防守指数 86；比利时 进攻指数 71，新西兰 防守指数 70。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -72827,7 +72941,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73328,7 +73442,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -73574,9 +73688,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73992,7 +74106,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74495,7 +74609,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -74721,9 +74835,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75138,7 +75252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75849,9 +75963,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76267,7 +76381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76760,7 +76874,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -76986,9 +77100,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77403,7 +77517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77906,7 +78020,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -78132,9 +78246,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78549,7 +78663,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79270,9 +79384,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79688,7 +79802,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80399,9 +80513,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80817,7 +80931,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81312,7 +81426,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": null,
@@ -81538,9 +81652,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -81955,7 +82069,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82667,9 +82781,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83085,7 +83199,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83806,9 +83920,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84213,7 +84327,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84829,9 +84943,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85247,7 +85361,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85959,9 +86073,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86377,7 +86491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86871,7 +86985,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": null,
@@ -87097,9 +87211,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87514,7 +87628,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88014,7 +88128,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -88023,7 +88137,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -88269,9 +88383,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88525,7 +88639,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -88665,7 +88779,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 81,
+        "home": 71,
         "away": 71
       },
       {
@@ -88675,7 +88789,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 68,
+        "home": 58,
         "away": 55
       },
       {
@@ -88686,7 +88800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -88779,17 +88893,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 30,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 3.01,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -88828,7 +88942,7 @@ window.MATCHES = [
     },
     "tacticalProfile": {
       "home": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -88856,10 +88970,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 78,
+        "homeScore": 72,
         "awayScore": 70,
-        "contribution": 1.92,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；塞内加尔 进攻71/防守83/中场55，综合70。"
+        "contribution": 0.48,
+        "evidence": "比利时 进攻71/防守86/中场58，综合72；塞内加尔 进攻71/防守83/中场55，综合70。"
       },
       {
         "name": "近期状态",
@@ -88914,7 +89028,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 9,
         "awayRank": 15,
-        "homeAverageMetric": 77.3,
+        "homeAverageMetric": 72.3,
         "awayAverageMetric": 70.8
       },
       "recentForm": {
@@ -89122,7 +89236,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 81,
+        "homeAttack": 71,
         "homeDefense": 86,
         "awayAttack": 71,
         "awayDefense": 83
@@ -89181,7 +89295,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -89407,9 +89521,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -89476,8 +89590,8 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于防守控制型，场均进球参考值 2.5，大胜倾向 25%。",
-      "比利时 进攻指数 81，塞内加尔 防守指数 83；塞内加尔 进攻指数 71，比利时 防守指数 86。",
+      "比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。塞内加尔属于防守控制型，场均进球参考值 2.5，大胜倾向 25%。",
+      "比利时 进攻指数 71，塞内加尔 防守指数 83；塞内加尔 进攻指数 71，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -89824,7 +89938,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90536,9 +90650,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90954,7 +91068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91047,16 +91161,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 16,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 11,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.53,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -91164,10 +91278,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -91175,7 +91289,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91411,11 +91525,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.1,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -91443,16 +91557,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
+        },
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91465,9 +91585,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "西班牙",
@@ -91660,24 +91780,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91723,7 +91873,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -92094,7 +92244,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92588,7 +92738,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -92814,9 +92964,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93231,7 +93381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93734,7 +93884,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -93960,9 +94110,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94377,7 +94527,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95120,9 +95270,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95527,7 +95677,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96159,9 +96309,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96577,7 +96727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97080,7 +97230,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": null,
@@ -97306,9 +97456,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97723,7 +97873,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98227,7 +98377,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -98453,9 +98603,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98870,7 +99020,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99365,7 +99515,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -99591,9 +99741,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100008,7 +100158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100720,9 +100870,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101138,7 +101288,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101639,7 +101789,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -101648,7 +101798,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 23.1,
@@ -101894,9 +102044,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102312,7 +102462,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102404,14 +102554,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 54,
-      "bttsNo": 46,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 52,
+      "bttsNo": 48,
       "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.52,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.42,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -102521,10 +102671,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -102532,7 +102682,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -102763,16 +102913,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.1,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -102797,10 +102947,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 4.04 / 平 3.6 / 客 1.91。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -102813,9 +102972,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "葡萄牙",
@@ -103008,24 +103167,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103071,7 +103260,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -103413,7 +103602,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -103422,7 +103611,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 75,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -103432,7 +103621,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 61,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -103442,7 +103631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -103535,15 +103724,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 62,
-      "bttsNo": 38,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
       "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 23,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 3.03,
-      "totalGoalsLean": "大于2.5球",
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.93,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -103592,7 +103781,7 @@ window.MATCHES = [
         "failedToScoreRate": 0
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -103613,9 +103802,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 71,
-        "awayScore": 78,
-        "contribution": -1.68,
-        "evidence": "美国 进攻75/防守76/中场61，综合71；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": -0.24,
+        "evidence": "美国 进攻75/防守76/中场61，综合71；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -103671,7 +103860,7 @@ window.MATCHES = [
         "homeRank": 17,
         "awayRank": 9,
         "homeAverageMetric": 71.5,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -103880,7 +104069,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 75,
         "homeDefense": 76,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -103937,7 +104126,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 22.5,
@@ -104163,9 +104352,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104232,8 +104421,8 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "美国 进攻指数 75，比利时 防守指数 86；比利时 进攻指数 81，美国 防守指数 76。",
+      "美国属于均衡型，场均进球参考值 2.2，大胜倾向 60%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "美国 进攻指数 75，比利时 防守指数 86；比利时 进攻指数 71，美国 防守指数 76。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -104580,7 +104769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105084,7 +105273,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 33.2,
@@ -105310,9 +105499,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105727,7 +105916,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106230,7 +106419,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 21.3,
@@ -106456,9 +106645,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106873,7 +107062,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107594,9 +107783,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107983,7 +108172,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.1,
-        "injuryPenalty": 0,
+        "injuryPenalty": -10,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -107992,7 +108181,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 76,
-        "away": 81
+        "away": 71
       },
       {
         "label": "防守",
@@ -108002,7 +108191,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 71,
-        "away": 68
+        "away": 58
       },
       {
         "label": "近期状态",
@@ -108012,7 +108201,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108104,17 +108293,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 63,
-      "bttsNo": 37,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 60,
+      "bttsNo": 40,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.92,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.75,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -108161,7 +108350,7 @@ window.MATCHES = [
         "failedToScoreRate": 25
       },
       "away": {
-        "tempo": "主动压迫型",
+        "tempo": "防守控制型",
         "avgGoalsFor": 2.17,
         "avgGoalsAgainst": 1.17,
         "bigWinRate": 33,
@@ -108182,9 +108371,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 79,
-        "awayScore": 78,
-        "contribution": 0.24,
-        "evidence": "西班牙 进攻76/防守90/中场71，综合79；比利时 进攻81/防守86/中场68，综合78。"
+        "awayScore": 72,
+        "contribution": 1.68,
+        "evidence": "西班牙 进攻76/防守90/中场71，综合79；比利时 进攻71/防守86/中场58，综合72。"
       },
       {
         "name": "近期状态",
@@ -108221,10 +108410,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -108232,7 +108421,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -108240,7 +108429,7 @@ window.MATCHES = [
         "homeRank": 2,
         "awayRank": 9,
         "homeAverageMetric": 77.8,
-        "awayAverageMetric": 77.3
+        "awayAverageMetric": 72.3
       },
       "recentForm": {
         "home": {
@@ -108449,7 +108638,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 76,
         "homeDefense": 90,
-        "awayAttack": 81,
+        "awayAttack": 71,
         "awayDefense": 86
       },
       "motivation": {
@@ -108463,16 +108652,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 45,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "goalLift": -0.07,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -108497,10 +108686,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.62 / 平 3.93 / 客 5.57。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -108513,9 +108711,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "西班牙",
@@ -108708,24 +108906,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108771,7 +108999,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -108793,8 +109021,8 @@ window.MATCHES = [
     },
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
-      "西班牙属于防守控制型，场均进球参考值 1.63，大胜倾向 38%。比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。",
-      "西班牙 进攻指数 76，比利时 防守指数 86；比利时 进攻指数 81，西班牙 防守指数 90。",
+      "西班牙属于防守控制型，场均进球参考值 1.63，大胜倾向 38%。比利时属于防守控制型，场均进球参考值 2.17，大胜倾向 33%。",
+      "西班牙 进攻指数 76，比利时 防守指数 86；比利时 进攻指数 71，西班牙 防守指数 90。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -109142,7 +109370,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109643,7 +109871,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -109889,9 +110117,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110307,7 +110535,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110818,7 +111046,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -111044,9 +111272,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111461,7 +111689,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -111553,15 +111781,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 19,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 14,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.12,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.05,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -111671,9 +111899,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "contribution": 0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -111681,7 +111909,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111912,16 +112140,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 45,
+        "goalLift": -0.07,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -111946,10 +112174,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 2.31 / 平 3.24 / 客 3.26。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -111962,9 +112199,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "法国",
@@ -112157,24 +112394,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112220,7 +112487,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -112590,7 +112857,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113097,7 +113364,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -113106,7 +113373,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-04T12:15:10.545Z",
+        "fetchedAt": "2026-09-04T12:40:14.447Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -113352,9 +113619,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113770,7 +114037,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114270,7 +114537,7 @@ window.MATCHES = [
           "title": "Former referees’ boss says Dean ‘in fantasy land’; Spurs axe Richarlison; Liverpool head to Ipswich: football – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/04/mike-dean-refereeing-ipswich-liverpool-wsl-wcl-transfers-live",
-          "pubDate": "Fri, 04 Sep 2026 11:59:24 GMT"
+          "pubDate": "Fri, 04 Sep 2026 12:30:01 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -114516,9 +114783,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114935,7 +115202,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-04T12:15:10.545Z",
+      "fetchedAt": "2026-09-04T12:40:14.447Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115028,17 +115295,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 14,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 13,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.87,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.77,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -115145,10 +115412,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
-        "awayScore": 50,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -115156,7 +115423,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -115392,11 +115659,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": -0.1,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏保守，降低总进球预期。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -115424,16 +115691,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
         {
           "title": "How Messi broke Klose's World Cup goalscoring record",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/czj8m1zgrzvo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Mon, 22 Jun 2026 18:11:50 GMT"
+        },
+        {
+          "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+          "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -115446,9 +115719,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "西班牙",
@@ -115641,24 +115914,54 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/sep/04/wsl-womens-football-expert-suzanne-wrack-reader-questions",
+              "pubDate": "Fri, 04 Sep 2026 12:31:06 GMT",
+              "description": "The WSL season kicks off tonight and the Guardian’s women’s football writer Suzanne Wrack is here now answering your questions – from what to expect from London City Lionesses after their signing spree to whether Manchester City can go back to back. Ask a question: log in or sign up here . Laughable asks: Do you think Manchester United can surprise people? How far can good tactics, high motivation and an attacking strategy take them? I think there will be new signings that fit Eva Olid’s style of play in the January window and that they will they do quite well this season and perhaps break into the top three within three years. Am I wrong? Suzanne: Interestingly, I did a profile of new manager Eva Olid when Hearts, the team she left in the summer after leading the Scottish side to the SWPL title, had five games of the season remaining. Having known nothing about her I got an incredible impression from the various interviews I read with her about her coaching philosophy and her time coaching boys in Spain and managing in the women’s game. My fear is that United won’t give her the resources required to punch as high above their financial weight as they will need to be doing to be competitive in the WSL. Yes, she worked wonders at Hearts, having arrived with the team having finished at the bottom of the league (only avoiding relegation thanks to the expansion of the SWPL), but Hearts did increase their support for the women’s team alongside her shrewd coaching and player development during her five years. Arguably, their transfer window was one of the most disappointing of all the WSL teams this season. Their four signings are promising, but they see some high-level WSL experience leave in their seven outgoing players. They will benefit from no Champions League football, but I don’t think they have the squad to be able to ‘do a Man City’ and take advantage of that significantly in the league, not when so many mid-table teams have looked to have strengthened really well. I hope I’m wrong, I would love to see United do well and Olid be really successful there, but without a greater commitment from the club from the top down, not just financially, I struggle to see much to be excited about. The League Cup is a great opportunity for silverware though, with no City, Arsenal or Chelsea involved, but others will be sensing that opportunity too. Suzanne: Losing Vivianne Miedema is of course a huge blow for any length of time and I think her absence towards the end of last season coinciding with City’s slight faltering and lack of rhythm wasn’t a coincidence. As you say, you could view City’s lack of action in that area in the transfer window, bar the late attempt to Fiamma Benítez as costly, or you can view it as an opportunity for the likes of Mary Fowler or Iman Beney to step up and really make that position their own. Is that a risk or not getting Benítez a blow? Maybe, but I think I personally prefer players being given a chance rather than cautious clubs recruiting and blocking the route to starting games for those younger talents. However, if City didn’t think Fowler or Beney or anything else is ready for that role and they really wanted Benítez then they should have gone harder for her much much sooner, because Miedema’s injuries issues haven’t been a secret in recent years. Continue reading...",
+              "bodyText": "Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 6 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Conversations Soccer Women’s Super League Q&A: football writer Suzanne Wrack answers your questions now The WSL season k",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-04T12:15:10.545Z",
+      "updatedAt": "2026-09-04T12:40:14.447Z",
       "dataQuality": {
-        "updatedAt": "2026-09-04T12:15:10.545Z",
+        "updatedAt": "2026-09-04T12:40:14.447Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115704,7 +116007,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115779,7 +116082,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-09-04T12:15:10.545Z",
+  "updatedAt": "2026-09-04T12:40:14.447Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
@@ -115787,8 +116090,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 41,
   "scoreBandCoverage": 67,
   "scoreScenarioCoverage": 84,
-  "averageBrier": 0.5258,
-  "averageLogLoss": 0.8779,
+  "averageBrier": 0.523,
+  "averageLogLoss": 0.8744,
   "drawRecall": 24,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122470,8 +122773,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 50,
       "scoreBandCoverage": 69,
       "scoreScenarioCoverage": 78,
-      "averageBrier": 0.5658,
-      "averageLogLoss": 0.919,
+      "averageBrier": 0.5567,
+      "averageLogLoss": 0.9078,
       "lockedCount": 0,
       "rows": [
         {
@@ -124069,57 +124372,28 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.8322,
-          "logLoss": 1.2379,
+          "confidence": 63,
+          "brier": 0.5688,
+          "logLoss": 0.9163,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            55,
-            29,
-            16
+            42,
+            40,
+            18
           ],
           "scoreBands": [
             {
-              "label": "主队小胜",
-              "chance": 29,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
               "label": "低比分平局",
-              "chance": 23,
+              "chance": 32,
               "examples": [
                 "1-1",
                 "0-0"
               ]
             },
             {
-              "label": "主队大胜",
-              "chance": 16,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 57,
-              "examples": [
-                "1-1",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 55,
+              "label": "主队小胜",
+              "chance": 23,
               "examples": [
                 "2-0",
                 "2-1",
@@ -124127,12 +124401,41 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队优势胜",
-              "chance": 36,
+              "label": "客队小胜",
+              "chance": 12,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 59,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 45,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 42,
               "examples": [
                 "2-0",
-                "3-0",
-                "3-1"
+                "2-1",
+                "1-0"
               ]
             }
           ],
@@ -124157,14 +124460,14 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.9234,
-          "logLoss": 1.273,
+          "confidence": 73,
+          "brier": 0.8966,
+          "logLoss": 1.2379,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            63,
-            28,
+            62,
+            29,
             9
           ],
           "scoreBands": [
@@ -124179,7 +124482,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 25,
+              "chance": 26,
               "examples": [
                 "0-0",
                 "1-1"
@@ -124187,7 +124490,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 18,
+              "chance": 17,
               "examples": [
                 "3-0",
                 "4-0",
@@ -124198,7 +124501,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 72,
+              "chance": 74,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124207,7 +124510,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 63,
+              "chance": 62,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124216,7 +124519,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 39,
+              "chance": 38,
               "examples": [
                 "2-0",
                 "3-0",
@@ -125322,15 +125625,15 @@ window.ANALYSIS_BACKTEST = {
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 21,
-      "hitRate": 43,
-      "averageBrier": 0.6374
+      "count": 22,
+      "hitRate": 41,
+      "averageBrier": 0.6343
     },
     {
       "label": "中信心",
-      "count": 82,
-      "hitRate": 63,
-      "averageBrier": 0.4892
+      "count": 81,
+      "hitRate": 64,
+      "averageBrier": 0.4847
     },
     {
       "label": "高信心",
