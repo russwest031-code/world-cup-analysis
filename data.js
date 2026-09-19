@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-09-19T11:54:10.475Z",
+  "updatedAt": "2026-09-19T11:57:50.360Z",
   "runDate": "2026-09-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-09-19T11:54:10.475Z",
+  "externalFetchedAt": "2026-09-19T11:57:50.360Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1060,9 +1060,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1459,7 +1459,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2051,9 +2051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2461,7 +2461,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3151,9 +3151,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3563,7 +3563,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4250,9 +4250,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4660,7 +4660,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5347,9 +5347,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5757,7 +5757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6445,9 +6445,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6855,7 +6855,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7542,9 +7542,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7941,7 +7941,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8567,9 +8567,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8966,7 +8966,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9562,9 +9562,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9972,7 +9972,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10660,9 +10660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11059,7 +11059,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11654,9 +11654,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12065,7 +12065,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12752,9 +12752,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13152,7 +13152,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13757,9 +13757,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14167,7 +14167,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14858,9 +14858,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15268,7 +15268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15955,9 +15955,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16365,7 +16365,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17053,9 +17053,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17463,7 +17463,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18176,9 +18176,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18586,7 +18586,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19273,9 +19273,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19683,7 +19683,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20389,9 +20389,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20799,7 +20799,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21487,9 +21487,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21897,7 +21897,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22368,7 +22368,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -22594,9 +22594,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -23003,7 +23003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23719,7 +23719,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -23760,15 +23760,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24176,7 +24176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24646,7 +24646,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Toronto",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -24872,9 +24872,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -25282,7 +25282,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25753,7 +25753,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Mexico City",
         "date": "2026-06-18",
         "temperatureMax": null,
@@ -25979,9 +25979,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -26388,7 +26388,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26858,7 +26858,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-06-19",
         "temperatureMax": null,
@@ -27084,9 +27084,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -27493,7 +27493,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28181,9 +28181,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28591,7 +28591,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29061,7 +29061,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-06-19",
         "temperatureMax": null,
@@ -29287,9 +29287,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -29685,7 +29685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30287,9 +30287,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30700,7 +30700,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31191,7 +31191,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Seattle",
         "date": "2026-06-20",
         "temperatureMax": null,
@@ -31427,9 +31427,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -31837,7 +31837,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32525,9 +32525,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32935,7 +32935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33406,7 +33406,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "temperatureMax": null,
@@ -33632,9 +33632,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -34030,7 +34030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34622,9 +34622,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35032,7 +35032,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35525,7 +35525,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -35751,9 +35751,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -36157,7 +36157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36650,7 +36650,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Toronto",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -36781,9 +36781,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -37187,7 +37187,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37679,7 +37679,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Kansas City",
         "date": "2026-06-21",
         "temperatureMax": null,
@@ -37810,9 +37810,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -38227,7 +38227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38936,9 +38936,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39354,7 +39354,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39857,7 +39857,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-06-22",
         "temperatureMax": null,
@@ -40083,9 +40083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -40500,7 +40500,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41211,9 +41211,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41618,7 +41618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42234,9 +42234,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42652,7 +42652,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43146,7 +43146,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-06-22",
         "temperatureMax": null,
@@ -43372,9 +43372,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -43789,7 +43789,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44516,9 +44516,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44935,7 +44935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45445,7 +45445,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": null,
@@ -45681,9 +45681,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46098,7 +46098,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46818,9 +46818,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47237,7 +47237,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47948,9 +47948,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48366,7 +48366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48860,7 +48860,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -49086,9 +49086,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49503,7 +49503,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50243,7 +50243,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -50284,15 +50284,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50708,7 +50708,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51201,7 +51201,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -51427,9 +51427,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51844,7 +51844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52555,9 +52555,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52973,7 +52973,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53467,7 +53467,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -53693,9 +53693,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54110,7 +54110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54603,7 +54603,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -54829,9 +54829,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55247,7 +55247,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55958,9 +55958,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56376,7 +56376,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56870,7 +56870,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -57096,9 +57096,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57513,7 +57513,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58016,7 +58016,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -58242,9 +58242,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58648,7 +58648,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59264,9 +59264,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59660,7 +59660,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60154,7 +60154,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -60185,9 +60185,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60603,7 +60603,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61315,9 +61315,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61733,7 +61733,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62444,9 +62444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62862,7 +62862,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63356,7 +63356,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -63582,9 +63582,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -63990,7 +63990,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64606,9 +64606,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65024,7 +65024,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65766,9 +65766,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66184,7 +66184,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66921,9 +66921,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67339,7 +67339,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67842,7 +67842,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -68068,9 +68068,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68474,7 +68474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68967,7 +68967,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -69098,9 +69098,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69515,7 +69515,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70234,9 +70234,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70652,7 +70652,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71146,7 +71146,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -71372,9 +71372,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71789,7 +71789,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72283,7 +72283,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -72509,9 +72509,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72926,7 +72926,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73666,7 +73666,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -73707,15 +73707,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74131,7 +74131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74625,7 +74625,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -74851,9 +74851,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75268,7 +75268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75979,9 +75979,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76397,7 +76397,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76890,7 +76890,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -77116,9 +77116,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77533,7 +77533,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78027,7 +78027,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -78253,9 +78253,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78670,7 +78670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79397,9 +79397,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79815,7 +79815,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80526,9 +80526,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80944,7 +80944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81439,7 +81439,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": null,
@@ -81665,9 +81665,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82082,7 +82082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82794,9 +82794,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83212,7 +83212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83924,9 +83924,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84331,7 +84331,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84947,9 +84947,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85365,7 +85365,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86102,9 +86102,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86520,7 +86520,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87023,7 +87023,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": null,
@@ -87249,9 +87249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87666,7 +87666,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88187,7 +88187,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -88414,7 +88414,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -88455,15 +88455,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88878,7 +88878,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89382,7 +89382,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -89608,9 +89608,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90027,7 +90027,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90739,9 +90739,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91157,7 +91157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91878,9 +91878,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92297,7 +92297,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92791,7 +92791,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -93017,9 +93017,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93434,7 +93434,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93928,7 +93928,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -94154,9 +94154,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94571,7 +94571,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95314,9 +95314,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95721,7 +95721,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96353,9 +96353,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96771,7 +96771,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97265,7 +97265,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": null,
@@ -97491,9 +97491,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97908,7 +97908,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98403,7 +98403,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -98629,9 +98629,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99046,7 +99046,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99556,7 +99556,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -99792,9 +99792,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100209,7 +100209,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100921,9 +100921,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101339,7 +101339,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101861,7 +101861,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -102088,7 +102088,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             },
             {
@@ -102147,7 +102147,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             },
             {
@@ -102162,9 +102162,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102580,7 +102580,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103300,9 +103300,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103721,7 +103721,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104216,7 +104216,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104442,9 +104442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104859,7 +104859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105064,7 +105064,7 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 48,
         "contribution": 0,
-        "evidence": "Atlanta：?°C / 降雨3% / 风速?km/h。天气风险未见明显异常，暂不显著调整基础判断。"
+        "evidence": "Atlanta：32.1°C / 降雨3% / 风速16.6km/h。气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       {
         "name": "临场新闻",
@@ -105369,16 +105369,16 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
-        "temperatureMax": null,
-        "temperatureMin": null,
+        "temperatureMax": 32.1,
+        "temperatureMin": 28.1,
         "precipitationProbability": 3,
-        "windSpeedMax": null,
+        "windSpeedMax": 16.6,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 ---°C，降雨概率 3%，最大风速 -km/h。",
-        "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
+        "text": "Atlanta 当日约 28.1-32.1°C，降雨概率 3%，最大风速 16.6km/h。",
+        "impact": "气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
         "status": "connected",
@@ -105595,9 +105595,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106012,7 +106012,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106213,10 +106213,10 @@ window.MATCHES = [
       {
         "name": "天气/场地",
         "weight": 8,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "Vancouver：?°C / 降雨2% / 风速?km/h。天气风险未见明显异常，暂不显著调整基础判断。"
+        "evidence": "Vancouver：19.9°C / 降雨2% / 风速10.7km/h。天气风险未见明显异常，暂不显著调整基础判断。"
       },
       {
         "name": "临场新闻",
@@ -106506,15 +106506,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
-        "temperatureMax": null,
-        "temperatureMin": null,
+        "temperatureMax": 19.9,
+        "temperatureMin": 16.1,
         "precipitationProbability": 2,
-        "windSpeedMax": null,
+        "windSpeedMax": 10.7,
         "timezone": "America/Vancouver",
-        "text": "Vancouver 当日约 ---°C，降雨概率 2%，最大风速 -km/h。",
+        "text": "Vancouver 当日约 16.1-19.9°C，降雨概率 2%，最大风速 10.7km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -106732,9 +106732,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107149,7 +107149,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107886,9 +107886,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108304,7 +108304,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109024,9 +109024,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109443,7 +109443,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110183,7 +110183,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -110224,15 +110224,15 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110648,7 +110648,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110851,10 +110851,10 @@ window.MATCHES = [
       {
         "name": "天气/场地",
         "weight": 8,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "Kansas City：?°C / 降雨?% / 风速?km/h。天气风险未见明显异常，暂不显著调整基础判断。"
+        "evidence": "Kansas City：28.9°C / 降雨?% / 风速14.4km/h。天气风险未见明显异常，暂不显著调整基础判断。"
       },
       {
         "name": "临场新闻",
@@ -111159,15 +111159,15 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
-        "temperatureMax": null,
-        "temperatureMin": null,
+        "temperatureMax": 28.9,
+        "temperatureMin": 17.7,
         "precipitationProbability": 0,
-        "windSpeedMax": null,
+        "windSpeedMax": 14.4,
         "timezone": "America/Chicago",
-        "text": "Kansas City 当日约 ---°C，降雨概率 0%，最大风速 -km/h。",
+        "text": "Kansas City 当日约 17.7-28.9°C，降雨概率 0%，最大风速 14.4km/h。",
         "impact": "天气风险未见明显异常，暂不显著调整基础判断。"
       },
       "teamNews": {
@@ -111385,9 +111385,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111802,7 +111802,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112544,9 +112544,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112962,7 +112962,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113167,7 +113167,7 @@ window.MATCHES = [
         "homeScore": 44,
         "awayScore": 44,
         "contribution": 0,
-        "evidence": "Atlanta：?°C / 降雨100% / 风速?km/h。降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+        "evidence": "Atlanta：33.1°C / 降雨100% / 风速15.8km/h。降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       {
         "name": "临场新闻",
@@ -113484,16 +113484,16 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-19T11:54:10.475Z",
+        "fetchedAt": "2026-09-19T11:57:50.360Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
-        "temperatureMax": null,
-        "temperatureMin": null,
+        "temperatureMax": 33.1,
+        "temperatureMin": 22.2,
         "precipitationProbability": 100,
-        "windSpeedMax": null,
+        "windSpeedMax": 15.8,
         "timezone": "America/New_York",
-        "text": "Atlanta 当日约 ---°C，降雨概率 100%，最大风速 -km/h。",
-        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+        "text": "Atlanta 当日约 22.2-33.1°C，降雨概率 100%，最大风速 15.8km/h。",
+        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重；气温偏高，体能消耗和下半场节奏需要保守评估。"
       },
       "teamNews": {
         "status": "connected",
@@ -113711,7 +113711,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             },
             {
@@ -113770,7 +113770,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             },
             {
@@ -113794,9 +113794,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -114212,7 +114212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114951,7 +114951,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             }
           ]
@@ -114992,7 +114992,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/videos/c61wx5x33jyjo?at_medium=RSS&at_campaign=rss",
               "pubDate": "Fri, 18 Sep 2026 11:49:14 GMT",
               "description": "Thomas Tuchel recalls Trent Alexander-Arnold and Cole Palmer to his first England squad since the 2026 World Cup.",
-              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Ice cream and a bike - how Tuchel spends his downtime. Video, 00:00:48 Ice cream and a bike - how Tuchel spends his downtime Subsection England Men Published 15 July 0:48 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Sectio",
+              "bodyText": " your Sport topics will appear in My Sport and in a collection on the Sport homepage . Football Follow Football close panel You are now following Football Updates from your Sport topics will appear in My Sport and in a collection on the Sport homepage . Read description Explore more Tuchel recalls Palmer and Alexander-Arnold for England. Video, 00:02:21 Tuchel recalls Palmer and Alexander-Arnold for England Subsection England Men Published 1 day ago 2:21 Up Next. Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad. Video, 00:02:34 Tuchel explains Man Utd players selection & Alexander-Arnold omission from squad Subsection England Men Published 20 March Up Next 2:34 Tuchel explains England World Cup squad selections. Video, 00:04:07 Tuchel explains England World Cup squad selections Subsection England Men Published 22 May 4:07 England could not get momentum back - Tuchel. Video, 00:01:41 England could not get momentum back - Tuchel Subsection England Men Published 16 July 1:41 Tuchel on his starting XI - tough calls and final preparations. Video, 00:09:09 Tuchel on his starting XI - tough calls and final preparations Subsection England Men Published 17 June 9:09 Editor's recommendations Beckham says Messi should win Ballon d'Or. Video, 00:01:09 Beckham says Messi should win Ballon d'Or Subsection Football Published 21 hours ago 1:09 I feel like I'm in a good place - Isak. Video, 00:02:34 I feel like I'm in a good place - Isak Subsection Football Published 1 day ago 2:34 Verstappen easily beats 100 racers in a go-kart. Video, 00:01:24 Verstappen easily beats 100 racers in a go-kart Subsection Formula 1 Published 1 day ago 1:24 Carrick says Man Utd have enough talent to recover. Video, 00:00:45 Carrick says Man Utd have enough talent to recover Subsection Football Published 2 days ago 0:45 'Sometimes it happens for you' - Maresca on VAR fallout. Video, 00:00:35 'Sometimes it happens for you' - Maresca on VAR fallout Subsection Premier League Published 2 days ago 0:35 It's a joy to have Dowman - Arteta. Video, 00:01:47 It's a joy to have Dowman - Arteta Subsection Football Published 3 days ago 1:47 Why football rules are 'impossible to understand' Video, 00:03:08 Why football rules are 'impossible to understand' Section Sport Published ",
               "bodyError": ""
             },
             {
@@ -115007,9 +115007,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115426,7 +115426,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-19T11:54:10.475Z",
+      "fetchedAt": "2026-09-19T11:57:50.360Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116159,9 +116159,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-19T11:54:10.475Z",
+      "updatedAt": "2026-09-19T11:57:50.360Z",
       "dataQuality": {
-        "updatedAt": "2026-09-19T11:54:10.475Z",
+        "updatedAt": "2026-09-19T11:57:50.360Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116282,7 +116282,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-09-19T11:54:10.475Z",
+  "updatedAt": "2026-09-19T11:57:50.360Z",
   "completedCount": 104,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
