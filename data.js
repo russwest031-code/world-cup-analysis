@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-09-24T12:52:51.171Z",
+  "updatedAt": "2026-09-24T13:29:30.775Z",
   "runDate": "2026-09-24",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-09-24T12:52:51.171Z",
+  "externalFetchedAt": "2026-09-24T13:29:30.775Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -22,7 +22,7 @@ window.ANALYSIS_META = {
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
   "expertArticleCount": 26,
-  "expertArticleBodyCount": 1,
+  "expertArticleBodyCount": 0,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 31,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3143,9 +3143,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3553,7 +3553,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4240,9 +4240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4650,7 +4650,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5337,9 +5337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5747,7 +5747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6444,9 +6444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6854,7 +6854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7541,9 +7541,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7940,7 +7940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8566,9 +8566,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8965,7 +8965,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9576,9 +9576,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9986,7 +9986,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10683,9 +10683,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11082,7 +11082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11678,9 +11678,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12089,7 +12089,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12776,9 +12776,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13176,7 +13176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13388,7 +13388,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -13641,8 +13641,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -13662,7 +13668,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -13793,9 +13799,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14203,7 +14209,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14894,9 +14900,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15304,7 +15310,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15991,9 +15997,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16401,7 +16407,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17088,9 +17094,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17498,7 +17504,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18195,9 +18201,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18605,7 +18611,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19293,9 +19299,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19703,7 +19709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -19915,7 +19921,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -20168,14 +20174,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -20189,7 +20189,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -20415,9 +20415,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20825,7 +20825,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21513,9 +21513,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21923,7 +21923,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22629,9 +22629,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23039,7 +23039,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23048,21 +23048,21 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
-      44,
+      39,
+      43,
       18
     ],
-    "confidence": 65,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 21
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 17
+        "chance": 16
       },
       {
         "score": "1-0",
@@ -23076,7 +23076,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -23104,7 +23104,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 66,
+        "chance": 64,
         "examples": [
           "1-1",
           "0-0",
@@ -23113,7 +23113,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -23121,23 +23121,24 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 37,
+        "label": "主队胜出覆盖",
+        "chance": 39,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 50,
-      "bttsNo": 50,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 51,
+      "bttsNo": 49,
       "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.37,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -23145,14 +23146,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        48,
-        34,
+        49,
+        33,
         18
       ],
       "market": null,
       "blended": [
-        38,
-        44,
+        39,
+        43,
         18
       ],
       "blendWeight": 0,
@@ -23239,10 +23240,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -23486,11 +23487,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.06,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -23506,16 +23507,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -23543,9 +23544,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -23738,34 +23739,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -23788,22 +23769,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23849,7 +23821,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -23876,8 +23848,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.53,
-      "away": 0.84
+      "home": 1.56,
+      "away": 0.86
     },
     "analysisUpdated": "2026-09-24",
     "matchAutopsy": {
@@ -24211,7 +24183,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24901,9 +24873,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25312,7 +25284,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26002,9 +25974,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26412,7 +26384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27102,9 +27074,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27512,7 +27484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28200,9 +28172,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28610,7 +28582,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29300,9 +29272,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29699,7 +29671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30291,9 +30263,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30702,7 +30674,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31423,9 +31395,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31834,7 +31806,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32531,9 +32503,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32941,7 +32913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33632,9 +33604,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34031,7 +34003,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34623,9 +34595,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35033,7 +35005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35755,9 +35727,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36162,7 +36134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36795,9 +36767,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37202,7 +37174,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37819,9 +37791,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38237,7 +38209,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38946,9 +38918,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39364,7 +39336,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39584,7 +39556,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -39852,8 +39824,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -39873,7 +39851,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -40099,9 +40077,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40517,7 +40495,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41228,9 +41206,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41635,7 +41613,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42251,9 +42229,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42669,7 +42647,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43383,9 +43361,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43801,7 +43779,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44022,7 +44000,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -44290,14 +44268,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -44311,7 +44283,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44534,9 +44506,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44953,7 +44925,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45448,7 +45420,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "temperatureMax": null,
@@ -45674,9 +45646,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -46091,7 +46063,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46811,9 +46783,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47230,7 +47202,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47941,9 +47913,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48359,7 +48331,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48868,7 +48840,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -49094,9 +49066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49511,7 +49483,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49604,14 +49576,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
+      "over25": 39,
+      "under25": 61,
       "bttsYes": 37,
       "bttsNo": 63,
       "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.27,
+      "expectedTotalGoals": 2.3,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49721,10 +49693,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -49968,11 +49940,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -50003,16 +49975,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -50040,9 +50012,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -50235,34 +50207,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -50285,22 +50237,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50346,7 +50289,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -50716,7 +50659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51209,7 +51152,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -51435,9 +51378,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51852,7 +51795,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52563,9 +52506,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52981,7 +52924,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53475,7 +53418,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -53701,9 +53644,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54118,7 +54061,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54611,7 +54554,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -54837,9 +54780,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55255,7 +55198,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55966,9 +55909,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56384,7 +56327,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56887,7 +56830,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -57113,9 +57056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57530,7 +57473,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58024,7 +57967,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -58250,9 +58193,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58656,7 +58599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59272,9 +59215,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59668,7 +59611,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60162,7 +60105,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -60193,9 +60136,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60611,7 +60554,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61338,9 +61281,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61756,7 +61699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62467,9 +62410,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62885,7 +62828,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63388,7 +63331,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -63614,9 +63557,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64020,7 +63963,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64636,9 +64579,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65054,7 +64997,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65796,9 +65739,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66214,7 +66157,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66926,9 +66869,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67344,7 +67287,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67847,7 +67790,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -68073,9 +68016,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68479,7 +68422,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68972,7 +68915,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -69103,9 +69046,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69520,7 +69463,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69739,7 +69682,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -70007,8 +69950,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -70028,7 +69977,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -70251,9 +70200,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70669,7 +70618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71163,7 +71112,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -71389,9 +71338,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71806,7 +71755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72300,7 +72249,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -72526,9 +72475,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72943,7 +72892,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73036,14 +72985,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 39,
+      "bttsNo": 61,
       "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 27,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.12,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.18,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73153,10 +73102,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -73400,11 +73349,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": -0.06,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -73435,16 +73384,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -73472,9 +73421,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴拿马",
@@ -73667,34 +73616,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -73717,22 +73646,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73778,7 +73698,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -74148,7 +74068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74642,7 +74562,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -74868,9 +74788,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75285,7 +75205,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76011,9 +75931,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76429,7 +76349,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76922,7 +76842,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -77148,9 +77068,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77565,7 +77485,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78059,7 +77979,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -78285,9 +78205,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78702,7 +78622,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -78923,7 +78843,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -79191,14 +79111,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -79212,7 +79126,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -79435,9 +79349,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79853,7 +79767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80564,9 +80478,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80982,7 +80896,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81477,7 +81391,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": null,
@@ -81703,9 +81617,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82120,7 +82034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82847,9 +82761,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83265,7 +83179,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83992,9 +83906,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84399,7 +84313,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85015,9 +84929,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85433,7 +85347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86145,9 +86059,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86563,7 +86477,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87057,7 +86971,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": null,
@@ -87283,9 +87197,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87700,7 +87614,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87792,14 +87706,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 42,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.6,
+      "expectedTotalGoals": 2.63,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -87909,10 +87823,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -88156,11 +88070,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -88191,16 +88105,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -88221,7 +88135,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -88237,9 +88151,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -88432,34 +88346,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -88482,22 +88376,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88542,7 +88427,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -88912,7 +88797,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89416,7 +89301,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -89642,9 +89527,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90059,7 +89944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90771,9 +90656,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91189,7 +91074,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91410,7 +91295,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91678,8 +91563,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -91699,7 +91590,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91922,9 +91813,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92341,7 +92232,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92850,7 +92741,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -93076,9 +92967,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93493,7 +93384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93987,7 +93878,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -94213,9 +94104,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94630,7 +94521,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95373,9 +95264,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95780,7 +95671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96001,7 +95892,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -96269,14 +96160,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -96290,7 +96175,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -96418,9 +96303,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96836,7 +96721,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97330,7 +97215,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": null,
@@ -97556,9 +97441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97973,7 +97858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98477,7 +98362,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -98703,9 +98588,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99120,7 +99005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99615,7 +99500,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -99841,9 +99726,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100258,7 +100143,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100970,9 +100855,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101388,7 +101273,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101483,13 +101368,13 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 55,
       "under25": 45,
-      "bttsYes": 65,
-      "bttsNo": 35,
+      "bttsYes": 66,
+      "bttsNo": 34,
       "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 17,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.06,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.09,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -101599,9 +101484,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -101846,10 +101731,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -101880,16 +101765,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -101910,7 +101795,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -101926,9 +101811,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "墨西哥",
@@ -102121,34 +102006,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -102171,22 +102036,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102231,7 +102087,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -102602,7 +102458,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103099,6 +102955,12 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 16:26:38 GMT"
         },
         {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
+        {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/sep/24/anthony-gordon-backs-tuchel-over-england-possession-problem-world-cup-nations-league",
@@ -103109,12 +102971,6 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/sep/23/cristiano-ronaldo-portugal-wales-nations-league",
           "pubDate": "Wed, 23 Sep 2026 16:02:57 GMT"
-        },
-        {
-          "title": "Harry Kane admits England’s World Cup 2026 exit ‘hurt more than any other’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/23/harry-kane-england-world-cup-argentina-nations-league-spain",
-          "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -103350,9 +103206,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103769,7 +103625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104264,7 +104120,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104490,9 +104346,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104907,7 +104763,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105128,7 +104984,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -105396,14 +105252,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -105417,13 +105267,13 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105649,9 +105499,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106066,7 +105916,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106560,7 +106410,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106786,9 +106636,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107203,7 +107053,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107924,9 +107774,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108342,7 +108192,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108562,7 +108412,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -108830,8 +108680,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -108851,7 +108707,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109074,9 +108930,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109493,7 +109349,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109586,14 +109442,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
+      "over25": 60,
+      "under25": 40,
       "bttsYes": 59,
       "bttsNo": 41,
       "homeWinBy2Plus": 6,
       "awayWinBy2Plus": 37,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.12,
+      "expectedTotalGoals": 3.15,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -109704,9 +109560,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -109951,10 +109807,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -109985,16 +109841,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -110022,9 +109878,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "挪威",
@@ -110217,34 +110073,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -110267,22 +110103,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110328,7 +110155,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -110698,7 +110525,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110920,7 +110747,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111188,14 +111015,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
-        {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -111209,13 +111030,13 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111441,9 +111262,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111858,7 +111679,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112078,7 +111899,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -112346,8 +112167,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
+        },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
           "source": "www.theguardian.com",
@@ -112367,7 +112194,7 @@ window.MATCHES = [
           "pubDate": "Wed, 23 Sep 2026 18:00:55 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -112590,9 +112417,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113008,7 +112835,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113108,7 +112935,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 15,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.18,
+      "expectedTotalGoals": 3.21,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -113218,10 +113045,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -113465,11 +113292,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0.14,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -113500,16 +113327,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -113530,7 +113357,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-24T12:52:51.171Z",
+        "fetchedAt": "2026-09-24T13:29:30.775Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113546,9 +113373,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -113741,34 +113568,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -113800,22 +113607,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113860,7 +113658,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -114231,7 +114029,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114323,17 +114121,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 55,
-      "under25": 45,
+      "over25": 56,
+      "under25": 44,
       "bttsYes": 66,
       "bttsNo": 34,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 16,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 17,
       "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.09,
+      "expectedTotalGoals": 3.12,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -114441,9 +114239,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -114688,10 +114486,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -114722,16 +114520,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
-        },
-        {
           "title": "The footballer who had a heart transplant - then became a World Cup winner",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cmgjqx96nxdeo?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 23 Sep 2026 17:45:20 GMT"
+        },
+        {
+          "title": "Football Daily",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "Archive, 1985: Alcohol banned from football grounds in England and Wales",
@@ -114759,9 +114557,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "法国",
@@ -114954,34 +114752,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -115004,22 +114782,13 @@ window.MATCHES = [
               "description": "Manager is not responsible for underlying weaknesses but there are reasons for optimism in the buildup to Euro 2028 In the end, Steve, Brian, Gaz or similar, he’s just not done the job he was hired to do. The job? The one he was hired to do? He’s not done it. How can I put this? There are three things here. The job. The being hired. The doing it. And him. Four things. And if you put those things together, there is no clear equation of … no linear semiotic cluster, he’s not, he’s just not, what I’m saying is … How many times have you heard variations on this statement in the few short, tender weeks since England’s World Cup campaign ? Perhaps you strayed too close to a sport-themed radio show, or accidentally ingested a celebrity football pundit podcast. Either way the verdict is pretty much universal, and delivered always with an air of finality, a sad shake of the head. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Dockers derby delivers and England squad upheaval | Football Weekly video",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/video/2026/sep/22/dockers-derby-delivers-and-england-squad-upheaval-football-weekly",
-              "pubDate": "Tue, 22 Sep 2026 11:46:14 GMT",
-              "description": "Max Rushden &nbsp;is joined by&nbsp;Barry Glendenning, George Elek and Sanny Rudravajhala for an update across the EFL and the latest from the England camp.&nbsp; Continue reading...",
-              "bodyText": "Dockers derby delivers and England squad upheaval | Football Weekly video | Soccer | The Guardian Skip to main content Skip to navigation Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs 52:30 Football Weekly video episodes Soccer Dockers derby delivers and England squad upheaval | Football Weekly video Max Rushden is joined by Barry Glendenning, George Elek and Sanny Rudravajhala for an update",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115065,7 +114834,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115436,7 +115205,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-24T12:52:51.171Z",
+      "fetchedAt": "2026-09-24T13:29:30.775Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115928,10 +115697,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "England players carrying World Cup scar - Saka",
+          "title": "Football Daily",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cvde0jw2l6g4o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 23 Sep 2026 14:03:42 GMT"
+          "link": "https://www.bbc.co.uk/sounds/play/m0032km2?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 24 Sep 2026 12:19:00 GMT"
         },
         {
           "title": "‘It’s not in us’: Anthony Gordon backs Tuchel over England’s possession problem",
@@ -116185,9 +115954,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-24T12:52:51.171Z",
+      "updatedAt": "2026-09-24T13:29:30.775Z",
       "dataQuality": {
-        "updatedAt": "2026-09-24T12:52:51.171Z",
+        "updatedAt": "2026-09-24T13:29:30.775Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116308,16 +116077,16 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-09-24T12:52:51.171Z",
+  "updatedAt": "2026-09-24T13:29:30.775Z",
   "completedCount": 104,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
   "topScoreCoverage": 41,
   "scoreBandCoverage": 68,
-  "scoreScenarioCoverage": 84,
-  "averageBrier": 0.5268,
-  "averageLogLoss": 0.8792,
+  "scoreScenarioCoverage": 85,
+  "averageBrier": 0.5266,
+  "averageLogLoss": 0.8789,
   "drawRecall": 21,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122998,9 +122767,9 @@ window.ANALYSIS_BACKTEST = {
       "outcomeHitRate": 44,
       "topScoreCoverage": 50,
       "scoreBandCoverage": 72,
-      "scoreScenarioCoverage": 78,
-      "averageBrier": 0.5693,
-      "averageLogLoss": 0.9232,
+      "scoreScenarioCoverage": 81,
+      "averageBrier": 0.5686,
+      "averageLogLoss": 0.9224,
       "lockedCount": 0,
       "rows": [
         {
@@ -123894,21 +123663,21 @@ window.ANALYSIS_BACKTEST = {
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.6104,
-          "logLoss": 0.9676,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.5894,
+          "logLoss": 0.9416,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            38,
-            44,
+            39,
+            43,
             18
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 36,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123936,7 +123705,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 66,
+              "chance": 64,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123945,7 +123714,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 52,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123953,11 +123722,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 37,
+              "label": "主队胜出覆盖",
+              "chance": 39,
               "examples": [
-                "1-1",
-                "0-0"
+                "1-0",
+                "2-0",
+                "2-1"
               ]
             }
           ],
@@ -125849,15 +125619,15 @@ window.ANALYSIS_BACKTEST = {
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 13,
-      "hitRate": 54,
-      "averageBrier": 0.628
+      "count": 14,
+      "hitRate": 50,
+      "averageBrier": 0.6253
     },
     {
       "label": "中信心",
-      "count": 90,
-      "hitRate": 59,
-      "averageBrier": 0.505
+      "count": 89,
+      "hitRate": 60,
+      "averageBrier": 0.5038
     },
     {
       "label": "高信心",
