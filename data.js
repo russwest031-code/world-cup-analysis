@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-09-25T12:57:09.941Z",
+  "updatedAt": "2026-09-25T13:36:25.336Z",
   "runDate": "2026-09-25",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-09-25T12:57:09.941Z",
+  "externalFetchedAt": "2026-09-25T13:36:25.336Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,8 +21,8 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 26,
-  "expertArticleBodyCount": 3,
+  "expertArticleCount": 27,
+  "expertArticleBodyCount": 2,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 30,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3143,9 +3143,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3553,7 +3553,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4241,9 +4241,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4651,7 +4651,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5338,9 +5338,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5748,7 +5748,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6216,10 +6216,10 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
@@ -6467,9 +6467,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6877,7 +6877,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6890,7 +6890,7 @@ window.MATCHES = [
       46,
       41
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7080,7 +7080,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -7088,7 +7088,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7319,16 +7319,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -7338,10 +7338,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+          "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7354,9 +7363,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "海地",
@@ -7549,7 +7558,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -7561,12 +7580,22 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7612,7 +7641,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -7963,7 +7992,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8430,10 +8459,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -8595,9 +8624,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8994,7 +9023,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9599,9 +9628,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10009,7 +10038,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10706,9 +10735,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11105,7 +11134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11700,9 +11729,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12111,7 +12140,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12798,9 +12827,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13198,7 +13227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13671,10 +13700,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -13820,9 +13849,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14230,7 +14259,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14950,9 +14979,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15360,7 +15389,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16047,9 +16076,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16457,7 +16486,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16925,10 +16954,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -17154,9 +17183,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17564,7 +17593,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18252,9 +18281,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18662,7 +18691,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19350,9 +19379,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19760,7 +19789,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20450,9 +20479,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20860,7 +20889,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21548,9 +21577,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21958,7 +21987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22649,9 +22678,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23059,7 +23088,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23532,10 +23561,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -23812,9 +23841,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24222,7 +24251,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24912,9 +24941,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25323,7 +25352,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26013,9 +26042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26423,7 +26452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27113,9 +27142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27523,7 +27552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28211,9 +28240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28621,7 +28650,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29311,9 +29340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29710,7 +29739,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30302,9 +30331,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30713,7 +30742,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31180,10 +31209,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -31440,9 +31469,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31851,7 +31880,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -31864,7 +31893,7 @@ window.MATCHES = [
       41,
       46
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -32055,7 +32084,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -32063,7 +32092,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32294,16 +32323,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -32313,10 +32342,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+          "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32329,9 +32367,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "苏格兰",
@@ -32524,7 +32562,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -32536,12 +32584,22 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": []
+          "articles": [
+            {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32587,7 +32645,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -32949,7 +33007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33417,10 +33475,10 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
@@ -33671,9 +33729,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34070,7 +34128,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34662,9 +34720,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35072,7 +35130,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35785,9 +35843,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36192,7 +36250,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36819,9 +36877,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37226,7 +37284,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37843,9 +37901,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38261,7 +38319,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38979,9 +39037,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39397,7 +39455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39894,10 +39952,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -40138,9 +40196,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40556,7 +40614,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41053,10 +41111,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 09:00:46 GMT"
         },
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -41302,9 +41360,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41709,7 +41767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42325,9 +42383,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42743,7 +42801,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43457,9 +43515,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43875,7 +43933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44587,9 +44645,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45006,7 +45064,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45721,9 +45779,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46139,7 +46197,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46850,9 +46908,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47269,7 +47327,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47980,9 +48038,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48398,7 +48456,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48892,7 +48950,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Houston",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -49118,9 +49176,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -49535,7 +49593,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50033,10 +50091,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -50284,9 +50342,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50702,7 +50760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51204,7 +51262,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Toronto",
         "date": "2026-06-24",
         "temperatureMax": null,
@@ -51430,9 +51488,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -51847,7 +51905,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52558,9 +52616,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52976,7 +53034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53470,7 +53528,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Vancouver",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -53696,9 +53754,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -54113,7 +54171,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54606,7 +54664,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Seattle",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -54832,9 +54890,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -55250,7 +55308,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55342,13 +55400,13 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 29,
-      "lowScoreDraw": 31,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 36,
+      "lowScoreDraw": 23,
       "expectedTotalGoals": 2.7,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
@@ -55459,10 +55517,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 47,
         "awayScore": 47,
-        "contribution": 0.18,
-        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
       },
       {
         "name": "赔率市场",
@@ -55470,7 +55528,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -55706,11 +55764,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 47,
         "awayScore": 47,
         "goalLift": 0,
-        "confidenceDelta": -2,
-        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
       }
     },
     "marketSignals": {
@@ -55738,13 +55796,19 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+          "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT"
+        },
+        {
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
@@ -55759,7 +55823,7 @@ window.MATCHES = [
           "pubDate": "Thu, 24 Sep 2026 15:00:20 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -55772,9 +55836,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "苏格兰",
@@ -55967,7 +56031,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -55981,6 +56055,15 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
+              "title": "Pocognoli deserves time but Scottish FA must also prove their credentials",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/sep/25/sebastien-pocognoli-scotland-scottish-fa-slovenia",
+              "pubDate": "Fri, 25 Sep 2026 13:13:04 GMT",
+              "description": "Scotland’s unproven head coach represents a gamble made by an organisation who could do without another embarrassing episode If time is the commodity most cherished by a manager, Sébastien Pocognoli’s decision to lead Scotland is no surprise. Host nation status for Euro 2028 means it will be exceptionally difficult for them not to qualify for the tournament. In the Nations League, starting on Saturday in Slovenia, Pocognoli can experiment without fear of serious consequence. The 39-year-old has taken over a national team that represents a country which had not only – and partly unfairly – grown weary of Steve Clarke but screamed for a brave new dawn. The public wants what the public gets. They are unlikely to turn on Pocognoli, even if the start to his international management career proves bumpy. The Belgian has cannily called up a batch of untried and young players for his opening set of fixtures. Not all will be cut out for international football – Clarke’s mainstays remain crucial – yet the head coach will gain kudos for giving opportunity. An improvement in talent identification, including sourcing more players who qualify for Scotland through family bloodlines, is now a priority. Pocognoli’s salary, understood to be seven figures at base level, underlines the Scottish Football Association’s sense that they have sourced a difference maker from the out-of-work market. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/sep/24/raphinha-barcelona-interview-la-liga-no9",
@@ -55992,9 +56075,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56040,7 +56123,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -56410,7 +56493,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56904,7 +56987,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Atlanta",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -57130,9 +57213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -57547,7 +57630,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58041,7 +58124,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Mexico City",
         "date": "2026-06-25",
         "temperatureMax": null,
@@ -58267,9 +58350,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -58673,7 +58756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59289,9 +59372,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59685,7 +59768,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60179,7 +60262,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Philadelphia",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -60210,9 +60293,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 1 项，缺口 3 项。",
         "counts": {
@@ -60628,7 +60711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61349,9 +61432,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61767,7 +61850,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62487,9 +62570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62905,7 +62988,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63399,7 +63482,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Kansas City",
         "date": "2026-06-26",
         "temperatureMax": null,
@@ -63625,9 +63708,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -64031,7 +64114,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64647,9 +64730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65065,7 +65148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65556,10 +65639,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -65813,9 +65896,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66231,7 +66314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66943,9 +67026,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67361,7 +67444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67855,7 +67938,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Toronto",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -68081,9 +68164,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -68487,7 +68570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68980,7 +69063,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Houston",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -69111,9 +69194,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -69528,7 +69611,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70024,10 +70107,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -70265,9 +70348,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70683,7 +70766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71174,10 +71257,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -71186,7 +71269,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Seattle",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -71412,9 +71495,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -71829,7 +71912,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72332,7 +72415,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Vancouver",
         "date": "2026-06-27",
         "temperatureMax": null,
@@ -72578,9 +72661,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -72995,7 +73078,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73493,10 +73576,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -73744,9 +73827,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74162,7 +74245,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74665,7 +74748,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -74891,9 +74974,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75308,7 +75391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76019,9 +76102,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76437,7 +76520,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76930,7 +77013,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -77156,9 +77239,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77573,7 +77656,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78067,7 +78150,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -78293,9 +78376,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78710,7 +78793,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79422,9 +79505,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79840,7 +79923,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80551,9 +80634,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80969,7 +81052,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81467,10 +81550,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 11:42:08 GMT"
         },
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
@@ -81491,7 +81574,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": null,
@@ -81727,9 +81810,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -82144,7 +82227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82865,9 +82948,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83283,7 +83366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83995,9 +84078,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84402,7 +84485,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85018,9 +85101,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85436,7 +85519,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86148,9 +86231,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86566,7 +86649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87060,7 +87143,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": null,
@@ -87286,9 +87369,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87703,7 +87786,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88200,10 +88283,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -88224,7 +88307,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -88460,9 +88543,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88877,7 +88960,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89381,7 +89464,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -89627,9 +89710,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90044,7 +90127,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90756,9 +90839,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91174,7 +91257,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91672,10 +91755,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -91913,9 +91996,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92332,7 +92415,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92835,7 +92918,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -93061,9 +93144,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93478,7 +93561,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93972,7 +94055,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -94198,9 +94281,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94615,7 +94698,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95107,10 +95190,10 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -95364,9 +95447,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95771,7 +95854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96388,9 +96471,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96806,7 +96889,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97300,7 +97383,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": null,
@@ -97526,9 +97609,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97943,7 +98026,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98438,7 +98521,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -98664,9 +98747,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99081,7 +99164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99576,7 +99659,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -99802,9 +99885,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100219,7 +100302,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100711,10 +100794,10 @@ window.MATCHES = [
       "articleCount": 3,
       "articles": [
         {
-          "title": "Australia 1-1 Brazil: men’s international football friendly – live reaction",
+          "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/live/2026/sep/25/australia-socceroos-v-brazil-mens-international-football-live-kick-off",
-          "pubDate": "Fri, 25 Sep 2026 12:26:29 GMT"
+          "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report",
+          "pubDate": "Fri, 25 Sep 2026 12:42:06 GMT"
         },
         {
           "title": "Raphinha: ‘In my head I was leaving Barça, but a few small words can change you’",
@@ -100962,9 +101045,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101380,7 +101463,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101878,10 +101961,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -101902,7 +101985,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -102138,9 +102221,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102556,7 +102639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103053,10 +103136,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -103294,9 +103377,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103713,7 +103796,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104217,7 +104300,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104463,9 +104546,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104880,7 +104963,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105375,7 +105458,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105601,9 +105684,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106018,7 +106101,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106512,7 +106595,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106738,9 +106821,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107155,7 +107238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107867,9 +107950,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108285,7 +108368,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108782,10 +108865,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "Mauricio Pochettino regrets not being ‘more involved’ with Balogun decision",
@@ -109043,9 +109126,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109462,7 +109545,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109960,10 +110043,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -110211,9 +110294,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110629,7 +110712,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111125,7 +111208,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111351,9 +111434,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111768,7 +111851,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112265,10 +112348,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -112506,9 +112589,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112924,7 +113007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113422,10 +113505,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -113446,7 +113529,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-25T12:57:09.941Z",
+        "fetchedAt": "2026-09-25T13:36:25.336Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113682,9 +113765,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -114100,7 +114183,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114597,10 +114680,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -114848,9 +114931,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115267,7 +115350,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-25T12:57:09.941Z",
+      "fetchedAt": "2026-09-25T13:36:25.336Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115765,10 +115848,10 @@ window.MATCHES = [
           "pubDate": "Fri, 25 Sep 2026 06:20:57 GMT"
         },
         {
-          "title": "Havertz returns to Arsenal; Bellingham scoops England award; Nations League buildup: football news – live",
+          "title": "Tuchel says Palmer misses too many England camps; injured Havertz returns to Arsenal: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live",
-          "pubDate": "Fri, 25 Sep 2026 12:42:59 GMT"
+          "pubDate": "Fri, 25 Sep 2026 13:24:09 GMT"
         },
         {
           "title": "De la Fuente brings insatiable Spain to England knowing World Cup is not enough",
@@ -116006,9 +116089,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-25T12:57:09.941Z",
+      "updatedAt": "2026-09-25T13:36:25.336Z",
       "dataQuality": {
-        "updatedAt": "2026-09-25T12:57:09.941Z",
+        "updatedAt": "2026-09-25T13:36:25.336Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116129,7 +116212,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-09-25T12:57:09.941Z",
+  "updatedAt": "2026-09-25T13:36:25.336Z",
   "completedCount": 104,
   "outcomeHitRate": 57,
   "highConfidenceCount": 1,
@@ -123018,7 +123101,7 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
+          "confidence": 65,
           "brier": 0.4766,
           "logLoss": 0.7765,
           "marketOutcome": "",
@@ -125029,7 +125112,7 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
+          "confidence": 65,
           "brier": 0.5766,
           "logLoss": 0.8916,
           "marketOutcome": "",
