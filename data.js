@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-09-29T14:19:35.065Z",
+  "updatedAt": "2026-09-29T14:47:30.848Z",
   "runDate": "2026-09-29",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-09-29T14:19:35.065Z",
+  "externalFetchedAt": "2026-09-29T14:47:30.848Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3142,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3552,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4239,9 +4239,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4649,7 +4649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5371,9 +5371,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5781,7 +5781,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6478,9 +6478,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6888,7 +6888,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7590,9 +7590,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7989,7 +7989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8621,9 +8621,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9020,7 +9020,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9616,9 +9616,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9999,8 +9999,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Wataru Endo"
+        ],
         "lastStarters": null
       }
     },
@@ -10008,7 +10010,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 68,
-        "away": 67
+        "away": 62
       },
       {
         "label": "防守",
@@ -10018,7 +10020,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 54,
-        "away": 60
+        "away": 55
       },
       {
         "label": "近期状态",
@@ -10028,7 +10030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10037,11 +10039,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      32,
-      36,
-      32
+      34,
+      35,
+      31
     ],
-    "confidence": 61,
+    "confidence": 59,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -10054,21 +10056,30 @@ window.MATCHES = [
         "chance": 11
       },
       {
-        "score": "1-2",
+        "score": "2-1",
         "chance": 8
       },
       {
-        "score": "2-1",
+        "score": "1-2",
         "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 28,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
+        ]
+      },
+      {
+        "label": "主队小胜",
+        "chance": 21,
+        "examples": [
+          "2-1",
+          "1-0",
+          "2-0"
         ]
       },
       {
@@ -10079,30 +10090,12 @@ window.MATCHES = [
           "0-1",
           "0-2"
         ]
-      },
-      {
-        "label": "主队小胜",
-        "chance": 20,
-        "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
-        ]
       }
     ],
     "scoreScenarios": [
       {
-        "label": "客队不败低比分",
-        "chance": 50,
-        "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
-        ]
-      },
-      {
         "label": "主队不败低比分",
-        "chance": 50,
+        "chance": 51,
         "examples": [
           "1-1",
           "0-0",
@@ -10110,8 +10103,17 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "客队不败低比分",
+        "chance": 49,
+        "examples": [
+          "1-1",
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
         "label": "主队胜出覆盖",
-        "chance": 32,
+        "chance": 34,
         "examples": [
           "2-1",
           "1-0",
@@ -10120,14 +10122,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.69,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.64,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -10135,15 +10137,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        32,
-        36,
-        32
+        34,
+        35,
+        31
       ],
       "market": null,
       "blended": [
-        32,
-        36,
-        32
+        34,
+        35,
+        31
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -10190,9 +10192,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 68,
-        "awayScore": 71,
-        "contribution": -0.72,
-        "evidence": "荷兰 进攻68/防守83/中场54，综合68；日本 进攻67/防守86/中场60，综合71。"
+        "awayScore": 68,
+        "contribution": 0,
+        "evidence": "荷兰 进攻68/防守83/中场54，综合68；日本 进攻62/防守86/中场55，综合68。"
       },
       {
         "name": "近期状态",
@@ -10248,7 +10250,7 @@ window.MATCHES = [
         "homeRank": 8,
         "awayRank": 18,
         "homeAverageMetric": 69.8,
-        "awayAverageMetric": 71.8
+        "awayAverageMetric": 69.3
       },
       "recentForm": {
         "home": {
@@ -10457,7 +10459,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 68,
         "homeDefense": 83,
-        "awayAttack": 67,
+        "awayAttack": 62,
         "awayDefense": 86
       },
       "motivation": {
@@ -10716,9 +10718,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10787,12 +10789,12 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "荷兰属于防守控制型，场均进球参考值 2.75，大胜倾向 50%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "荷兰 进攻指数 68，日本 防守指数 86；日本 进攻指数 67，荷兰 防守指数 83。",
+      "荷兰 进攻指数 68，日本 防守指数 86；日本 进攻指数 62，荷兰 防守指数 83。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.36,
-      "away": 1.33
+      "home": 1.35,
+      "away": 1.28
     },
     "analysisUpdated": "2026-09-29",
     "matchAutopsy": {
@@ -11115,7 +11117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11711,9 +11713,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12122,7 +12124,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12810,9 +12812,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13210,7 +13212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13815,9 +13817,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14225,7 +14227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14916,9 +14918,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15326,7 +15328,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16013,9 +16015,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16423,7 +16425,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17120,9 +17122,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17530,7 +17532,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18218,9 +18220,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18628,7 +18630,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19315,9 +19317,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19725,7 +19727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20425,9 +20427,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20835,7 +20837,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21523,9 +21525,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21933,7 +21935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22624,9 +22626,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23034,7 +23036,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23741,7 +23743,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -23776,7 +23778,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -23800,7 +23802,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -23824,9 +23826,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24234,7 +24236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24924,9 +24926,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25335,7 +25337,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26025,9 +26027,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26435,7 +26437,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27125,9 +27127,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27535,7 +27537,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28258,9 +28260,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28668,7 +28670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29358,9 +29360,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29757,7 +29759,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30349,9 +30351,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30760,7 +30762,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31487,9 +31489,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31898,7 +31900,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32601,9 +32603,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33011,7 +33013,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33711,9 +33713,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34110,7 +34112,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34702,9 +34704,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35114,7 +35116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35827,9 +35829,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36234,7 +36236,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36852,9 +36854,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37259,7 +37261,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37876,9 +37878,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38265,8 +38267,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Wataru Endo"
+        ],
         "lastStarters": null
       }
     },
@@ -38274,7 +38278,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 64,
-        "away": 67
+        "away": 62
       },
       {
         "label": "防守",
@@ -38284,7 +38288,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 46,
-        "away": 60
+        "away": 55
       },
       {
         "label": "近期状态",
@@ -38294,7 +38298,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38331,7 +38335,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -38339,7 +38343,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 31,
         "examples": [
           "0-1",
           "0-2",
@@ -38368,7 +38372,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 56,
+        "chance": 54,
         "examples": [
           "0-0",
           "1-1",
@@ -38377,7 +38381,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -38387,12 +38391,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 23,
       "under25": 77,
-      "bttsYes": 35,
-      "bttsNo": 65,
+      "bttsYes": 34,
+      "bttsNo": 66,
       "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 20,
-      "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.84,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.79,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -38463,9 +38467,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 67,
-        "awayScore": 71,
-        "contribution": -0.96,
-        "evidence": "突尼斯 进攻64/防守91/中场46，综合67；日本 进攻67/防守86/中场60，综合71。"
+        "awayScore": 68,
+        "contribution": -0.24,
+        "evidence": "突尼斯 进攻64/防守91/中场46，综合67；日本 进攻62/防守86/中场55，综合68。"
       },
       {
         "name": "近期状态",
@@ -38521,7 +38525,7 @@ window.MATCHES = [
         "homeRank": 45,
         "awayRank": 18,
         "homeAverageMetric": 62.8,
-        "awayAverageMetric": 71.8
+        "awayAverageMetric": 69.3
       },
       "recentForm": {
         "home": {
@@ -38730,7 +38734,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 64,
         "homeDefense": 91,
-        "awayAttack": 67,
+        "awayAttack": 62,
         "awayDefense": 86
       },
       "motivation": {
@@ -39003,9 +39007,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39074,7 +39078,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "突尼斯属于防守控制型，场均进球参考值 0.67，大胜倾向 0%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "突尼斯 进攻指数 64，日本 防守指数 86；日本 进攻指数 67，突尼斯 防守指数 91。",
+      "突尼斯 进攻指数 64，日本 防守指数 86；日本 进攻指数 62，突尼斯 防守指数 91。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -39421,7 +39425,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40144,9 +40148,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40562,7 +40566,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41282,9 +41286,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41689,7 +41693,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42305,9 +42309,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42723,7 +42727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43437,9 +43441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43855,7 +43859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44576,9 +44580,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44995,7 +44999,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45710,9 +45714,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46128,7 +46132,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46839,9 +46843,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47258,7 +47262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47969,9 +47973,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48387,7 +48391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49101,9 +49105,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49519,7 +49523,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50250,7 +50254,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -50285,7 +50289,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -50309,7 +50313,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -50333,9 +50337,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50751,7 +50755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51464,9 +51468,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51882,7 +51886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52593,9 +52597,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53011,7 +53015,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53760,9 +53764,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54178,7 +54182,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54891,9 +54895,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55310,7 +55314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56042,9 +56046,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56460,7 +56464,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57174,9 +57178,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57592,7 +57596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58306,9 +58310,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58713,7 +58717,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59329,9 +59333,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59725,7 +59729,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60244,9 +60248,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60663,7 +60667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61375,9 +61379,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61632,8 +61636,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Wataru Endo"
+        ],
         "lastStarters": null
       }
     },
@@ -61772,7 +61778,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 67,
+        "home": 62,
         "away": 66
       },
       {
@@ -61782,7 +61788,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 60,
+        "home": 55,
         "away": 47
       },
       {
@@ -61793,7 +61799,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -61885,14 +61891,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
+      "over25": 53,
+      "under25": 47,
       "bttsYes": 57,
       "bttsNo": 43,
-      "homeWinBy2Plus": 31,
+      "homeWinBy2Plus": 29,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.91,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.86,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -61962,10 +61968,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 71,
+        "homeScore": 68,
         "awayScore": 61,
-        "contribution": 2.4,
-        "evidence": "日本 进攻67/防守86/中场60，综合71；瑞典 进攻66/防守70/中场47，综合61。"
+        "contribution": 1.68,
+        "evidence": "日本 进攻62/防守86/中场55，综合68；瑞典 进攻66/防守70/中场47，综合61。"
       },
       {
         "name": "近期状态",
@@ -62020,7 +62026,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 18,
         "awayRank": 38,
-        "homeAverageMetric": 71.8,
+        "homeAverageMetric": 69.3,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -62228,7 +62234,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 67,
+        "homeAttack": 62,
         "homeDefense": 86,
         "awayAttack": 66,
         "awayDefense": 70
@@ -62504,9 +62510,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62575,7 +62581,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。",
-      "日本 进攻指数 67，瑞典 防守指数 70；瑞典 进攻指数 66，日本 防守指数 86。",
+      "日本 进攻指数 62，瑞典 防守指数 70；瑞典 进攻指数 66，日本 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -62924,7 +62930,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63638,9 +63644,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64045,7 +64051,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64661,9 +64667,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65079,7 +65085,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65827,9 +65833,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66245,7 +66251,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66957,9 +66963,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67375,7 +67381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68089,9 +68095,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68496,7 +68502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69114,9 +69120,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69532,7 +69538,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70251,9 +70257,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70669,7 +70675,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71392,9 +71398,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71810,7 +71816,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72524,9 +72530,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72942,7 +72948,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73673,7 +73679,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -73708,7 +73714,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -73732,7 +73738,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -73756,9 +73762,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74174,7 +74180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74668,7 +74674,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Philadelphia",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -74894,9 +74900,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -75311,7 +75317,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76022,9 +76028,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76440,7 +76446,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76933,7 +76939,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Atlanta",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -77159,9 +77165,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -77576,7 +77582,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78070,7 +78076,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Kansas City",
         "date": "2026-06-28",
         "temperatureMax": null,
@@ -78296,9 +78302,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -78713,7 +78719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79434,9 +79440,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79852,7 +79858,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80563,9 +80569,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80952,8 +80958,10 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": 0,
-        "injuredPlayers": [],
+        "injuryPenalty": -5,
+        "injuredPlayers": [
+          "Wataru Endo"
+        ],
         "lastStarters": null
       }
     },
@@ -80961,7 +80969,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 77,
-        "away": 67
+        "away": 62
       },
       {
         "label": "防守",
@@ -80971,7 +80979,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 64,
-        "away": 60
+        "away": 55
       },
       {
         "label": "近期状态",
@@ -80981,7 +80989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81074,15 +81082,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 55,
-      "under25": 45,
-      "bttsYes": 61,
-      "bttsNo": 39,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 60,
+      "bttsNo": 40,
       "homeWinBy2Plus": 24,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.96,
-      "totalGoalsLean": "大于2.5球",
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.91,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -81152,9 +81160,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 74,
-        "awayScore": 71,
-        "contribution": 0.72,
-        "evidence": "巴西 进攻77/防守80/中场64，综合74；日本 进攻67/防守86/中场60，综合71。"
+        "awayScore": 68,
+        "contribution": 1.44,
+        "evidence": "巴西 进攻77/防守80/中场64，综合74；日本 进攻62/防守86/中场55，综合68。"
       },
       {
         "name": "近期状态",
@@ -81210,7 +81218,7 @@ window.MATCHES = [
         "homeRank": 6,
         "awayRank": 18,
         "homeAverageMetric": 71.8,
-        "awayAverageMetric": 71.8
+        "awayAverageMetric": 69.3
       },
       "recentForm": {
         "home": {
@@ -81419,7 +81427,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 77,
         "homeDefense": 80,
-        "awayAttack": 67,
+        "awayAttack": 62,
         "awayDefense": 86
       },
       "motivation": {
@@ -81485,7 +81493,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Houston",
         "date": "2026-06-30",
         "temperatureMax": null,
@@ -81711,9 +81719,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -81781,7 +81789,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "巴西属于均衡型，场均进球参考值 2，大胜倾向 40%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "巴西 进攻指数 77，日本 防守指数 86；日本 进攻指数 67，巴西 防守指数 80。",
+      "巴西 进攻指数 77，日本 防守指数 86；日本 进攻指数 62，巴西 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -82128,7 +82136,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82840,9 +82848,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83260,7 +83268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83972,9 +83980,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84379,7 +84387,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84995,9 +85003,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85413,7 +85421,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86125,9 +86133,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86543,7 +86551,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87037,7 +87045,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
         "temperatureMax": null,
@@ -87263,9 +87271,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -87680,7 +87688,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88201,7 +88209,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -88419,7 +88427,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -88454,7 +88462,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -88478,7 +88486,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -88502,9 +88510,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88919,7 +88927,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89414,7 +89422,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": null,
@@ -89640,9 +89648,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -90057,7 +90065,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90769,9 +90777,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91187,7 +91195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91908,9 +91916,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92327,7 +92335,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92821,7 +92829,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -93047,9 +93055,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -93464,7 +93472,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93973,7 +93981,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": null,
@@ -94219,9 +94227,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94636,7 +94644,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95385,9 +95393,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95792,7 +95800,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96418,9 +96426,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96836,7 +96844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97330,7 +97338,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": null,
@@ -97556,9 +97564,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97973,7 +97981,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98468,7 +98476,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -98694,9 +98702,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99111,7 +99119,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99606,7 +99614,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": null,
@@ -99832,9 +99840,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -100249,7 +100257,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100970,9 +100978,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101388,7 +101396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101910,7 +101918,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": null,
@@ -102128,7 +102136,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -102163,7 +102171,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -102187,7 +102195,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -102211,9 +102219,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -102629,7 +102637,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103349,9 +103357,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103768,7 +103776,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104263,7 +104271,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104489,9 +104497,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104906,7 +104914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105410,7 +105418,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105636,9 +105644,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106053,7 +106061,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106562,7 +106570,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106808,9 +106816,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107225,7 +107233,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107937,9 +107945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108355,7 +108363,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109075,9 +109083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109494,7 +109502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110225,7 +110233,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -110260,7 +110268,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -110284,7 +110292,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -110308,9 +110316,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110726,7 +110734,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111243,7 +111251,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111489,9 +111497,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111906,7 +111914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112626,9 +112634,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113044,7 +113052,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113566,7 +113574,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-09-29T14:19:35.065Z",
+        "fetchedAt": "2026-09-29T14:47:30.848Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113784,7 +113792,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -113819,7 +113827,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -113843,7 +113851,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -113867,9 +113875,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -114285,7 +114293,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -115015,7 +115023,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -115050,7 +115058,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -115074,7 +115082,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c6y9z7dlq199o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 29 Sep 2026 11:39:35 GMT",
               "description": "Manchester United midfielder Ella Toone misses out on selection for England's Women's World Cup qualifying matches this month.",
-              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 2 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
+              "bodyText": "es News Feeds Help & FAQs England Men's Scores & Fixtures World Cup: Knockout Path Toone and Kelly miss out on Lionesses squad Image source, Getty Images Image caption, Chloe Kelly and Ella Toone have 136 England appearances between them By Emma Sanders BBC Sport women’s football news reporter Published 29 September 2026, 11:00 BST Updated 3 hours ago England manager Sarina Wiegman says Ella Toone and Chloe Kelly have \"not been playing to their potential\" and that is why they have missed out on selection. The Lionesses face Greece in their Women's World Cup qualifying play-off matches in October. Manchester United midfielder Toone, 27, and Arsenal forward Kelly, 28 have had inconsistent starts to the season. They both had crucial involvements at Euro 2022 and Euro 2025 as the Lionesses won back-to-back titles, but Wiegman is \"convinced they can be better\". \"Of course, I still believe in these players. They are really good and have shown so much for us,\" Wiegman told BBC Radio 5 Live. \"But that is also why I didn't pick them this time, because they have not played to their potential in my opinion in the last couple of weeks. \"I had those conversations with them and that was very hard to take. They took it well and of course, they want to work on that.\" On reports suggesting Kelly's absence may have been linked to an injury, Wiegman added in her media conference: \"I had the conversation with Chloe and for me, it was just what I saw on the pitch. I kept that with football with her.\" In addition, Chelsea forward Aggie Beever-Jones and Arsenal duo Lotte Wubben-Moy and Taylor Hinds have not made the 23-player squad. Captain Leah Williamson returns having missed June's 4-0 defeat by Spain and 3-0 win over Ukraine. \"I think she's played really well in the last few weeks and at the start of the season. She is happy and you can see,\" added Wiegman. Figure caption, England manager Sarina Wiegman explains reason for dropping Ella Toone and Chloe Kelly Impressive Potter shows 'courage' Meanwhile, there is a first senior call-up for Chelsea midfielder Lexi Potter, 20, who has impressed alongside England's Keira Walsh in the Women's Super League. She has started three of Chelsea's opening four matches and was a standout performer in their 1-0 win over Arsenal on Sunday. \"Her",
               "bodyError": ""
             },
             {
@@ -115098,9 +115106,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115517,7 +115525,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-09-29T14:19:35.065Z",
+      "fetchedAt": "2026-09-29T14:47:30.848Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116238,9 +116246,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-09-29T14:19:35.065Z",
+      "updatedAt": "2026-09-29T14:47:30.848Z",
       "dataQuality": {
-        "updatedAt": "2026-09-29T14:19:35.065Z",
+        "updatedAt": "2026-09-29T14:47:30.848Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116361,7 +116369,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-09-29T14:19:35.065Z",
+  "updatedAt": "2026-09-29T14:47:30.848Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
@@ -116369,8 +116377,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 40,
   "scoreBandCoverage": 67,
   "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5264,
-  "averageLogLoss": 0.8788,
+  "averageBrier": 0.5266,
+  "averageLogLoss": 0.8791,
   "drawRecall": 24,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122707,7 +122715,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 44,
+              "chance": 42,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122715,7 +122723,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 29,
+              "chance": 31,
               "examples": [
                 "0-1",
                 "0-2",
@@ -122744,7 +122752,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 56,
+              "chance": 54,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122753,7 +122761,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 44,
+              "chance": 42,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123052,8 +123060,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 47,
       "scoreBandCoverage": 72,
       "scoreScenarioCoverage": 81,
-      "averageBrier": 0.5678,
-      "averageLogLoss": 0.922,
+      "averageBrier": 0.5684,
+      "averageLogLoss": 0.9229,
       "lockedCount": 0,
       "rows": [
         {
@@ -125002,23 +125010,32 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 61,
-          "brier": 0.6144,
-          "logLoss": 1.0217,
+          "confidence": 59,
+          "brier": 0.6342,
+          "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            32,
-            36,
-            32
+            34,
+            35,
+            31
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 28,
+              "chance": 27,
               "examples": [
                 "1-1",
                 "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 21,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
               ]
             },
             {
@@ -125029,30 +125046,12 @@ window.ANALYSIS_BACKTEST = {
                 "0-1",
                 "0-2"
               ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 20,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
             }
           ],
           "scoreScenarios": [
             {
-              "label": "客队不败低比分",
-              "chance": 50,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
               "label": "主队不败低比分",
-              "chance": 50,
+              "chance": 51,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125060,8 +125059,17 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "客队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
               "label": "主队胜出覆盖",
-              "chance": 32,
+              "chance": 34,
               "examples": [
                 "2-1",
                 "1-0",
@@ -125905,7 +125913,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "低信心",
       "count": 20,
       "hitRate": 50,
-      "averageBrier": 0.6223
+      "averageBrier": 0.6233
     },
     {
       "label": "中信心",
