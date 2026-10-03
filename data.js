@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-10-02T14:40:11.118Z",
-  "runDate": "2026-10-02",
+  "updatedAt": "2026-10-03T12:24:46.429Z",
+  "runDate": "2026-10-03",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-10-02T14:40:11.118Z",
+  "externalFetchedAt": "2026-10-03T12:24:46.429Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,10 +21,10 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 21,
-  "expertArticleBodyCount": 1,
+  "expertArticleCount": 15,
+  "expertArticleBodyCount": 0,
   "weatherProvider": "Open-Meteo",
-  "weatherForecastCount": 14,
+  "weatherForecastCount": 13,
   "liveTeamNewsProvider": "API-Football",
   "liveFixtureCount": 0,
   "liveLineupFixtureCount": 0,
@@ -32,9 +32,9 @@ window.ANALYSIS_META = {
   "dataQualitySummary": {
     "policy": "daily-verified-or-report-gap",
     "totals": {
-      "verified": 222,
+      "verified": 221,
       "inferred": 207,
-      "missing": 299
+      "missing": 300
     },
     "topGaps": [
       {
@@ -47,7 +47,7 @@ window.ANALYSIS_META = {
       },
       {
         "label": "天气",
-        "count": 90
+        "count": 91
       },
       {
         "label": "预计首发",
@@ -58,7 +58,7 @@ window.ANALYSIS_META = {
   },
   "predictionLockCount": 116,
   "predictionLocksCreated": 0,
-  "oddsSnapshotFile": "snapshots/odds/2026-10-02.json"
+  "oddsSnapshotFile": "snapshots/odds/2026-10-03.json"
 };
 
 window.MATCHES = [
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -369,8 +369,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      63,
+      28,
       9
     ],
     "confidence": 76,
@@ -378,20 +378,20 @@ window.MATCHES = [
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-0",
-        "chance": 14
+        "score": "1-0",
+        "chance": 15
       },
       {
-        "score": "1-0",
-        "chance": 14
+        "score": "2-0",
+        "chance": 15
       },
       {
         "score": "1-1",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "0-0",
-        "chance": 11
+        "chance": 12
       }
     ],
     "scoreBands": [
@@ -399,14 +399,14 @@ window.MATCHES = [
         "label": "主队小胜",
         "chance": 37,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "2-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 25,
         "examples": [
           "1-1",
           "0-0"
@@ -414,7 +414,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 20,
+        "chance": 18,
         "examples": [
           "3-0",
           "4-0",
@@ -425,25 +425,25 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 69,
+        "chance": 71,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "1-1"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 63,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "3-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 42,
+        "chance": 40,
         "examples": [
           "2-0",
           "3-0",
@@ -452,14 +452,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 39,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.47,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -467,14 +467,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        63,
+        28,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        63,
+        28,
         9
       ],
       "blendWeight": 0,
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1126,10 +1126,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.88,
-      "away": 0.59
+      "home": 1.8,
+      "away": 0.57
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "mex-rsa-1",
       "date": "2026-06-12",
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1459,17 +1459,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
+      35,
       41,
-      22
+      24
     ],
-    "confidence": 63,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 20
+        "chance": 19
       },
       {
         "score": "1-1",
@@ -1477,7 +1477,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "0-1",
@@ -1495,7 +1495,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 26,
         "examples": [
           "1-0",
           "2-0",
@@ -1504,7 +1504,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "0-1",
           "1-2",
@@ -1515,7 +1515,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 68,
+        "chance": 66,
         "examples": [
           "0-0",
           "1-1",
@@ -1524,7 +1524,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 56,
+        "chance": 58,
         "examples": [
           "0-0",
           "1-1",
@@ -1541,14 +1541,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 28,
-      "under25": 72,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 8,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 9,
       "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.91,
+      "expectedTotalGoals": 1.95,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -1556,15 +1556,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
+        35,
         41,
-        22
+        24
       ],
       "market": null,
       "blended": [
-        37,
+        35,
         41,
-        22
+        24
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2117,10 +2117,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.1,
-      "away": 0.81
+      "home": 1.09,
+      "away": 0.87
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "kor-cze-2",
       "date": "2026-06-12",
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2517,7 +2517,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 75,
+        "chance": 74,
         "examples": [
           "0-0",
           "1-1",
@@ -2543,14 +2543,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 31,
-      "under25": 69,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 26,
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 27,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.14,
+      "expectedTotalGoals": 2.17,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -3142,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3217,10 +3217,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.57,
-      "away": 0.57
+      "home": 1.59,
+      "away": 0.58
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "can-bih-7",
       "date": "2026-06-13",
@@ -3552,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3561,9 +3561,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      36,
-      41,
-      23
+      38,
+      42,
+      20
     ],
     "confidence": 64,
     "tag": "已完场",
@@ -3582,14 +3582,14 @@ window.MATCHES = [
         "chance": 7
       },
       {
-        "score": "2-1",
+        "score": "2-0",
         "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 33,
+        "chance": 34,
         "examples": [
           "1-1",
           "0-0"
@@ -3600,13 +3600,13 @@ window.MATCHES = [
         "chance": 22,
         "examples": [
           "1-0",
-          "2-1",
-          "2-0"
+          "2-0",
+          "2-1"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 14,
         "examples": [
           "1-2",
           "0-1",
@@ -3617,7 +3617,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 58,
+        "chance": 60,
         "examples": [
           "1-1",
           "0-0",
@@ -3626,7 +3626,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
@@ -3635,11 +3635,11 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 36,
+        "chance": 38,
         "examples": [
           "1-0",
-          "2-1",
-          "2-0"
+          "2-0",
+          "2-1"
         ]
       }
     ],
@@ -3648,32 +3648,32 @@ window.MATCHES = [
       "under25": 57,
       "bttsYes": 56,
       "bttsNo": 44,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.59,
+      "homeWinBy2Plus": 21,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.63,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        36,
-        41,
-        23
+        48,
+        32,
+        20
       ],
       "market": null,
       "blended": [
-        36,
-        41,
-        23
+        38,
+        42,
+        20
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -4249,9 +4249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4324,10 +4324,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.52,
-      "away": 1.07
+      "home": 1.63,
+      "away": 1
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "usa-par-19",
       "date": "2026-06-13",
@@ -4659,7 +4659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4668,35 +4668,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      11,
-      45,
-      44
+      10,
+      42,
+      48
     ],
-    "confidence": 63,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "0-0",
-        "chance": 23
-      },
-      {
-        "score": "1-1",
-        "chance": 18
-      },
       {
         "score": "0-1",
         "chance": 14
       },
       {
+        "score": "0-0",
+        "chance": 22
+      },
+      {
+        "score": "1-1",
+        "chance": 17
+      },
+      {
         "score": "0-2",
-        "chance": 11
+        "chance": 12
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 39,
         "examples": [
           "0-0",
           "1-1"
@@ -4704,7 +4704,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 31,
+        "chance": 33,
         "examples": [
           "0-1",
           "0-2",
@@ -4712,12 +4712,12 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队小胜",
-        "chance": 10,
+        "label": "客队大胜",
+        "chance": 11,
         "examples": [
-          "1-0",
-          "2-1",
-          "2-0"
+          "0-3",
+          "0-4",
+          "1-4"
         ]
       }
     ],
@@ -4733,7 +4733,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 52,
+        "chance": 48,
         "examples": [
           "0-0",
           "1-1",
@@ -4742,7 +4742,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 39,
         "examples": [
           "0-0",
           "1-1"
@@ -4750,14 +4750,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 23,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.95,
+      "over25": 28,
+      "under25": 72,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 27,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.03,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -4765,15 +4765,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        11,
-        35,
-        54
+        10,
+        32,
+        58
       ],
       "market": null,
       "blended": [
-        11,
-        45,
-        44
+        10,
+        42,
+        48
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -4870,7 +4870,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -5123,22 +5123,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "US lined up instead of Qatar to host inaugural Women’s Club World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/01/united-states-host-first-womens-club-world-cup-football",
-          "pubDate": "Thu, 01 Oct 2026 12:05:22 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -5361,9 +5355,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5436,10 +5430,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.53,
-      "away": 1.42
+      "home": 0.5,
+      "away": 1.53
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "qat-sui-8",
       "date": "2026-06-14",
@@ -5771,7 +5765,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5780,72 +5774,63 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      34,
-      37,
-      29
+      28,
+      38,
+      34
     ],
-    "confidence": 61,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
+      },
+      {
+        "score": "0-0",
+        "chance": 9
       },
       {
         "score": "2-2",
         "chance": 9
       },
       {
-        "score": "2-1",
-        "chance": 8
-      },
-      {
-        "score": "0-0",
+        "score": "1-2",
         "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 27,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "主队小胜",
-        "chance": 17,
-        "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
-        ]
-      },
-      {
         "label": "客队小胜",
-        "chance": 14,
+        "chance": 18,
         "examples": [
           "1-2",
           "0-2",
           "0-1"
         ]
+      },
+      {
+        "label": "主队小胜",
+        "chance": 15,
+        "examples": [
+          "2-1",
+          "2-0",
+          "1-0"
+        ]
       }
     ],
     "scoreScenarios": [
       {
-        "label": "主队不败低比分",
-        "chance": 44,
-        "examples": [
-          "1-1",
-          "2-1",
-          "0-0"
-        ]
-      },
-      {
         "label": "客队不败低比分",
-        "chance": 41,
+        "chance": 47,
         "examples": [
           "1-1",
           "0-0",
@@ -5853,40 +5838,49 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "开放对攻",
-        "chance": 37,
+        "label": "主队不败低比分",
+        "chance": 44,
         "examples": [
-          "2-2",
-          "3-1",
-          "1-3"
+          "1-1",
+          "0-0",
+          "2-1"
+        ]
+      },
+      {
+        "label": "客队胜出覆盖",
+        "chance": 34,
+        "examples": [
+          "1-2",
+          "0-2",
+          "0-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.26,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.06,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        34,
-        37,
-        29
+        28,
+        38,
+        34
       ],
       "market": null,
       "blended": [
-        34,
-        37,
-        29
+        28,
+        38,
+        34
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -5983,7 +5977,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -6214,9 +6208,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -6233,19 +6227,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -6468,9 +6453,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6543,10 +6528,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.6,
-      "away": 1.66
+      "home": 1.55,
+      "away": 1.51
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "bra-mar-13",
       "date": "2026-06-14",
@@ -6558,6 +6543,7 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "球员质量",
         "出线动机",
         "天气/场地",
@@ -6565,7 +6551,6 @@ window.MATCHES = [
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "近期状态",
         {
           "name": "赔率市场",
@@ -6577,7 +6562,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率37%），与实际结果一致。 判断正确的因素：世界排名、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率37%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -6878,7 +6863,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6887,11 +6872,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      13,
-      45,
-      42
+      14,
+      46,
+      40
     ],
-    "confidence": 65,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -6901,7 +6886,7 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "0-1",
@@ -6909,13 +6894,13 @@ window.MATCHES = [
       },
       {
         "score": "0-2",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -6923,7 +6908,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 32,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -6943,7 +6928,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 78,
+        "chance": 77,
         "examples": [
           "0-0",
           "1-1",
@@ -6952,7 +6937,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 56,
         "examples": [
           "0-0",
           "1-1",
@@ -6961,7 +6946,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -6971,12 +6956,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 23,
       "under25": 77,
-      "bttsYes": 33,
-      "bttsNo": 67,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 20,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.77,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.8,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -6984,15 +6969,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        13,
-        45,
-        42
+        14,
+        46,
+        40
       ],
       "market": null,
       "blended": [
-        13,
-        45,
-        42
+        14,
+        46,
+        40
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -7565,9 +7550,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7640,10 +7625,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.52,
-      "away": 1.26
+      "home": 0.57,
+      "away": 1.23
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "hai-sco-14",
       "date": "2026-06-14",
@@ -7964,7 +7949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -7973,11 +7958,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      27,
-      38,
+      28,
+      37,
       35
     ],
-    "confidence": 62,
+    "confidence": 61,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -7987,11 +7972,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "0-1",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "1-0",
@@ -8001,7 +7986,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 33,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -8029,7 +8014,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 60,
+        "chance": 58,
         "examples": [
           "1-1",
           "0-0",
@@ -8038,7 +8023,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 53,
         "examples": [
           "1-1",
           "0-0",
@@ -8056,14 +8041,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 48,
-      "bttsNo": 52,
-      "homeWinBy2Plus": 11,
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 12,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.23,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.34,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -8071,14 +8056,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        27,
-        38,
+        28,
+        37,
         35
       ],
       "market": null,
       "blended": [
-        27,
-        38,
+        28,
+        37,
         35
       ],
       "blendWeight": 0,
@@ -8176,7 +8161,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -8429,7 +8414,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -8448,15 +8433,9 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "pubDate": "Tue, 22 Mar 2022 16:57:35 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -8597,9 +8576,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8672,10 +8651,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.03,
-      "away": 1.21
+      "home": 1.09,
+      "away": 1.26
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "aus-tur-20",
       "date": "2026-06-14",
@@ -8996,7 +8975,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9005,8 +8984,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      67,
-      24,
+      64,
+      27,
       9
     ],
     "confidence": 76,
@@ -9015,25 +8994,25 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 14
+        "chance": 15
       },
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 14
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
-        "score": "3-0",
-        "chance": 9
+        "score": "0-0",
+        "chance": 12
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 34,
+        "chance": 37,
         "examples": [
           "2-0",
           "1-0",
@@ -9041,27 +9020,27 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 24,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 23,
+        "chance": 19,
         "examples": [
           "3-0",
           "4-0",
           "4-1"
-        ]
-      },
-      {
-        "label": "低比分平局",
-        "chance": 20,
-        "examples": [
-          "1-1",
-          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 64,
+        "chance": 70,
         "examples": [
           "2-0",
           "1-0",
@@ -9070,7 +9049,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 67,
+        "chance": 64,
         "examples": [
           "2-0",
           "1-0",
@@ -9079,7 +9058,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 47,
+        "chance": 41,
         "examples": [
           "2-0",
           "3-0",
@@ -9088,29 +9067,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 44,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.75,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 40,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.41,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        67,
-        24,
+        64,
+        27,
         9
       ],
       "market": null,
       "blended": [
-        67,
-        24,
+        64,
+        27,
         9
       ],
       "blendWeight": 0,
@@ -9601,9 +9580,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9676,10 +9655,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.09,
-      "away": 0.66
+      "home": 1.83,
+      "away": 0.58
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "ger-cuw-25",
       "date": "2026-06-15",
@@ -9982,10 +9961,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Wataru Endo"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": null
       }
     },
@@ -9993,7 +9970,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 73,
-        "away": 62
+        "away": 67
       },
       {
         "label": "防守",
@@ -10003,7 +9980,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 59,
-        "away": 55
+        "away": 60
       },
       {
         "label": "近期状态",
@@ -10013,7 +9990,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10022,47 +9999,38 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      31,
-      36,
-      33
+      32,
+      39,
+      29
     ],
-    "confidence": 61,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "0-0",
         "chance": 10
       },
       {
-        "score": "1-2",
+        "score": "2-2",
         "chance": 8
       },
       {
         "score": "2-1",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 27,
+        "chance": 28,
         "examples": [
           "1-1",
           "0-0"
-        ]
-      },
-      {
-        "label": "客队小胜",
-        "chance": 20,
-        "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
         ]
       },
       {
@@ -10073,30 +10041,10 @@ window.MATCHES = [
           "1-0",
           "2-0"
         ]
-      }
-    ],
-    "scoreScenarios": [
-      {
-        "label": "客队不败低比分",
-        "chance": 49,
-        "examples": [
-          "1-1",
-          "0-0",
-          "1-2"
-        ]
       },
       {
-        "label": "主队不败低比分",
-        "chance": 48,
-        "examples": [
-          "1-1",
-          "0-0",
-          "2-1"
-        ]
-      },
-      {
-        "label": "客队胜出覆盖",
-        "chance": 33,
+        "label": "客队小胜",
+        "chance": 16,
         "examples": [
           "1-2",
           "0-1",
@@ -10104,31 +10052,60 @@ window.MATCHES = [
         ]
       }
     ],
+    "scoreScenarios": [
+      {
+        "label": "主队不败低比分",
+        "chance": 49,
+        "examples": [
+          "1-1",
+          "0-0",
+          "2-1"
+        ]
+      },
+      {
+        "label": "客队不败低比分",
+        "chance": 47,
+        "examples": [
+          "1-1",
+          "0-0",
+          "1-2"
+        ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 32,
+        "examples": [
+          "2-1",
+          "1-0",
+          "2-0"
+        ]
+      }
+    ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.8,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.94,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        31,
-        36,
-        33
+        32,
+        39,
+        29
       ],
       "market": null,
       "blended": [
-        31,
-        36,
-        33
+        32,
+        39,
+        29
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -10175,9 +10152,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 72,
-        "awayScore": 68,
-        "contribution": 0.96,
-        "evidence": "荷兰 进攻73/防守83/中场59，综合72；日本 进攻62/防守86/中场55，综合68。"
+        "awayScore": 71,
+        "contribution": 0.24,
+        "evidence": "荷兰 进攻73/防守83/中场59，综合72；日本 进攻67/防守86/中场60，综合71。"
       },
       {
         "name": "近期状态",
@@ -10233,7 +10210,7 @@ window.MATCHES = [
         "homeRank": 8,
         "awayRank": 18,
         "homeAverageMetric": 72.3,
-        "awayAverageMetric": 69.3
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -10442,7 +10419,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 73,
         "homeDefense": 83,
-        "awayAttack": 62,
+        "awayAttack": 67,
         "awayDefense": 86
       },
       "motivation": {
@@ -10701,9 +10678,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10772,14 +10749,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "荷兰属于防守控制型，场均进球参考值 2.75，大胜倾向 50%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "荷兰 进攻指数 73，日本 防守指数 86；日本 进攻指数 62，荷兰 防守指数 83。",
+      "荷兰 进攻指数 73，日本 防守指数 86；日本 进攻指数 67，荷兰 防守指数 83。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.42,
-      "away": 1.38
+      "home": 1.43,
+      "away": 1.51
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "ned-jpn-31",
       "date": "2026-06-15",
@@ -11100,7 +11077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11109,11 +11086,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
+      35,
       39,
-      24
+      26
     ],
-    "confidence": 61,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -11127,7 +11104,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 11
+        "chance": 10
       },
       {
         "score": "0-1",
@@ -11145,7 +11122,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 25,
         "examples": [
           "1-0",
           "2-0",
@@ -11154,7 +11131,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 20,
         "examples": [
           "0-1",
           "1-2",
@@ -11165,7 +11142,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 62,
         "examples": [
           "1-1",
           "0-0",
@@ -11174,7 +11151,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 54,
+        "chance": 55,
         "examples": [
           "1-1",
           "0-0",
@@ -11182,24 +11159,23 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 37,
+        "label": "低比分平局",
+        "chance": 34,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 9,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 10,
       "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.15,
+      "expectedTotalGoals": 2.17,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -11207,15 +11183,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
+        35,
         39,
-        24
+        26
       ],
       "market": null,
       "blended": [
-        37,
+        35,
         39,
-        24
+        26
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -11696,9 +11672,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11771,10 +11747,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.23,
-      "away": 0.92
+      "home": 1.18,
+      "away": 0.99
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "civ-ecu-26",
       "date": "2026-06-15",
@@ -12107,7 +12083,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12117,24 +12093,24 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       35,
-      42,
-      23
+      40,
+      25
     ],
-    "confidence": 65,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 5-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "0-0",
-        "chance": 20
-      },
       {
         "score": "1-1",
         "chance": 18
       },
       {
+        "score": "0-0",
+        "chance": 17
+      },
+      {
         "score": "1-0",
-        "chance": 13
+        "chance": 11
       },
       {
         "score": "0-1",
@@ -12144,15 +12120,15 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 35,
         "examples": [
-          "0-0",
-          "1-1"
+          "1-1",
+          "0-0"
         ]
       },
       {
         "label": "主队小胜",
-        "chance": 27,
+        "chance": 26,
         "examples": [
           "1-0",
           "2-0",
@@ -12172,40 +12148,40 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 68,
+        "chance": 64,
         "examples": [
-          "0-0",
           "1-1",
+          "0-0",
           "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 58,
+        "chance": 56,
         "examples": [
-          "0-0",
           "1-1",
+          "0-0",
           "0-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 35,
         "examples": [
-          "0-0",
-          "1-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 1.87,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -12214,14 +12190,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         35,
-        42,
-        23
+        40,
+        25
       ],
       "market": null,
       "blended": [
         35,
-        42,
-        23
+        40,
+        25
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -12794,9 +12770,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12869,10 +12845,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.05,
-      "away": 0.82
+      "home": 1.14,
+      "away": 0.94
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "swe-tun-32",
       "date": "2026-06-15",
@@ -13194,7 +13170,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13203,8 +13179,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      60,
-      31,
+      59,
+      32,
       9
     ],
     "confidence": 76,
@@ -13217,7 +13193,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 17
       },
       {
         "score": "2-0",
@@ -13231,7 +13207,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 39,
+        "chance": 40,
         "examples": [
           "1-0",
           "2-0",
@@ -13240,7 +13216,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 29,
+        "chance": 30,
         "examples": [
           "0-0",
           "1-1"
@@ -13248,7 +13224,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 15,
+        "chance": 14,
         "examples": [
           "3-0",
           "4-0",
@@ -13259,7 +13235,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 76,
+        "chance": 77,
         "examples": [
           "1-0",
           "0-0",
@@ -13268,7 +13244,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 60,
+        "chance": 59,
         "examples": [
           "1-0",
           "2-0",
@@ -13277,7 +13253,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 36,
+        "chance": 34,
         "examples": [
           "2-0",
           "3-0",
@@ -13286,14 +13262,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 34,
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.12,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.05,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -13301,14 +13277,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        60,
-        31,
+        59,
+        32,
         9
       ],
       "market": null,
       "blended": [
-        60,
-        31,
+        59,
+        32,
         9
       ],
       "blendWeight": 0,
@@ -13406,7 +13382,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -13659,22 +13635,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -13805,9 +13775,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13880,10 +13850,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.61,
-      "away": 0.51
+      "home": 1.56,
+      "away": 0.49
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "esp-cpv-43",
       "date": "2026-06-16",
@@ -14215,7 +14185,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14261,7 +14231,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 21,
+        "chance": 22,
         "examples": [
           "1-1",
           "0-0"
@@ -14313,7 +14283,7 @@ window.MATCHES = [
       "bttsNo": 45,
       "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 21,
+      "lowScoreDraw": 22,
       "expectedTotalGoals": 2.86,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
@@ -14906,9 +14876,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14984,7 +14954,7 @@ window.MATCHES = [
       "home": 1.88,
       "away": 0.98
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "bel-egy-37",
       "date": "2026-06-16",
@@ -15316,7 +15286,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15326,20 +15296,20 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       14,
-      43,
-      43
+      44,
+      42
     ],
-    "confidence": 62,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 26
+        "chance": 27
       },
       {
         "score": "0-1",
-        "chance": 19
+        "chance": 18
       },
       {
         "score": "1-1",
@@ -15347,13 +15317,13 @@ window.MATCHES = [
       },
       {
         "score": "0-2",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -15361,7 +15331,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 35,
+        "chance": 34,
         "examples": [
           "0-1",
           "0-2",
@@ -15390,7 +15360,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -15399,7 +15369,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -15409,12 +15379,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 19,
       "under25": 81,
-      "bttsYes": 28,
-      "bttsNo": 72,
+      "bttsYes": 29,
+      "bttsNo": 71,
       "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.55,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.56,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -15423,14 +15393,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         14,
-        43,
-        43
+        44,
+        42
       ],
       "market": null,
       "blended": [
         14,
-        43,
-        43
+        44,
+        42
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -15527,7 +15497,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15780,22 +15750,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -16018,9 +15982,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16093,10 +16057,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.5,
-      "away": 1.05
+      "home": 0.52,
+      "away": 1.04
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "ksa-uru-44",
       "date": "2026-06-16",
@@ -16428,7 +16392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16437,25 +16401,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      62,
-      29,
+      59,
+      32,
       9
     ],
-    "confidence": 75,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 16
+        "chance": 17
+      },
+      {
+        "score": "0-0",
+        "chance": 17
       },
       {
         "score": "2-0",
         "chance": 15
-      },
-      {
-        "score": "0-0",
-        "chance": 14
       },
       {
         "score": "1-1",
@@ -16465,7 +16429,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 39,
+        "chance": 40,
         "examples": [
           "1-0",
           "2-0",
@@ -16474,7 +16438,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 26,
+        "chance": 30,
         "examples": [
           "0-0",
           "1-1"
@@ -16482,7 +16446,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 17,
+        "chance": 14,
         "examples": [
           "3-0",
           "4-0",
@@ -16493,16 +16457,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 74,
+        "chance": 77,
         "examples": [
           "1-0",
-          "2-0",
-          "0-0"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 62,
+        "chance": 59,
         "examples": [
           "1-0",
           "2-0",
@@ -16511,7 +16475,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 38,
+        "chance": 34,
         "examples": [
           "2-0",
           "3-0",
@@ -16520,14 +16484,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 37,
+      "over25": 32,
+      "under25": 68,
+      "bttsYes": 33,
+      "bttsNo": 67,
+      "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.22,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.05,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -16535,14 +16499,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        62,
-        29,
+        59,
+        32,
         9
       ],
       "market": null,
       "blended": [
-        62,
-        29,
+        59,
+        32,
         9
       ],
       "blendWeight": 0,
@@ -16632,7 +16596,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -16640,7 +16604,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -16871,16 +16835,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.14,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -16890,19 +16854,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -16915,9 +16870,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "伊朗",
@@ -17110,17 +17065,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-              "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT",
-              "description": "The exciting crop of young players is in part a product of Australia’s early World Cup qualification which allowed them to break in and step up Even before a ball was kicked in the Socceroos’ two-game series against Brazil, Tony Popovic was musing about the shift in demeanour he’d noticed among the players. Yes, it had only been three months since they last saw each other at the World Cup, but change, the coach felt, was afoot. And while that may not seem like sufficient time for a notable shift in mentality, it would be in keeping with a journey that began more than 12 months ago, when their World Cup qualification was sealed early. Because as well entrenched as the players may now feel in the squad and the public consciousness, it’s worth remembering that when Australia beat Saudi Arabia and punched their tickets to North America in June 2025, neither Nestory Irankunda nor Mohamed Touré were regular selections. Their true international breakouts came in the October friendlies against New Zealand. Paul Okon-Engstler, Patrick Beach, and Lucas Herrington had not made their debuts, while Cristian Volpato was still playing for Italy’s junior teams. Jacob Italiano was toiling in relative obscurity in Austria and Tete Yengi was known as “Kusini’s younger brother”. Continue reading...",
-              "bodyText": "ble shift in mentality, it would be in keeping with a journey that began more than 12 months ago, when their World Cup qualification was sealed early. Australia go down fighting to Brazil in fiery 4-2 friendly defeat Read more Because as well entrenched as the players may now feel in the squad and the public consciousness, it’s worth remembering that when Australia beat Saudi Arabia and punched their tickets to North America in June 2025, neither Nestory Irankunda nor Mohamed Touré were regular selections. Their true international breakouts came in the October friendlies against New Zealand. Paul Okon-Engstler, Patrick Beach, and Lucas Herrington had not made their debuts, while Cristian Volpato was still playing for Italy’s junior teams. Jacob Italiano was toiling in relative obscurity in Austria and Tete Yengi was known as “Kusini’s younger brother”. Now, though, they’ve all been to a World Cup and most have secured moves to the sink-or-swim surroundings of bigger leagues, with Herrington’s rise taking him from the A-League Men to the Premier League via MLS in 12 months. Their clubs’ expectations on them are higher, and Popovic says their “understanding of the game is certainly improving”. View image in fullscreen The Socceroos put the heartbreak of their World Cup elimination behind them to face Brazil. Photograph: Kai Pfaffenbach/Reuters Assembling for the first time since their penalty shootout elimination against Egypt, the Socceroos acquitted themselves well against the Seleção in Queensland, letting a lead slip late and drawing 1-1 on a horror pitch in Townsville , before fading in a fiery 4-2 defeat in Brisbane. And, results aside, there was an air that the Socceroos took a step forward in both games. Sign up for Football Desk Australia: our free newsletter from Jonathan Wilson The hard running and physicality expected of them were still there – until the late fadeouts when the strength of Brazil’s depth showed as they finished strongly. Yet within this framework there was a shift in Australia’s intent, too. A willingness to press higher , to drive between the lines, make the risky pass, and to try to play, not just battle, their way out of trouble. View image in fullscreen Nestory Irankunda celebrates his stunning goal in the first game against Brazi",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -17132,22 +17077,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-              "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT",
-              "description": "The exciting crop of young players is in part a product of Australia’s early World Cup qualification which allowed them to break in and step up Even before a ball was kicked in the Socceroos’ two-game series against Brazil, Tony Popovic was musing about the shift in demeanour he’d noticed among the players. Yes, it had only been three months since they last saw each other at the World Cup, but change, the coach felt, was afoot. And while that may not seem like sufficient time for a notable shift in mentality, it would be in keeping with a journey that began more than 12 months ago, when their World Cup qualification was sealed early. Because as well entrenched as the players may now feel in the squad and the public consciousness, it’s worth remembering that when Australia beat Saudi Arabia and punched their tickets to North America in June 2025, neither Nestory Irankunda nor Mohamed Touré were regular selections. Their true international breakouts came in the October friendlies against New Zealand. Paul Okon-Engstler, Patrick Beach, and Lucas Herrington had not made their debuts, while Cristian Volpato was still playing for Italy’s junior teams. Jacob Italiano was toiling in relative obscurity in Austria and Tete Yengi was known as “Kusini’s younger brother”. Continue reading...",
-              "bodyText": "ble shift in mentality, it would be in keeping with a journey that began more than 12 months ago, when their World Cup qualification was sealed early. Australia go down fighting to Brazil in fiery 4-2 friendly defeat Read more Because as well entrenched as the players may now feel in the squad and the public consciousness, it’s worth remembering that when Australia beat Saudi Arabia and punched their tickets to North America in June 2025, neither Nestory Irankunda nor Mohamed Touré were regular selections. Their true international breakouts came in the October friendlies against New Zealand. Paul Okon-Engstler, Patrick Beach, and Lucas Herrington had not made their debuts, while Cristian Volpato was still playing for Italy’s junior teams. Jacob Italiano was toiling in relative obscurity in Austria and Tete Yengi was known as “Kusini’s younger brother”. Now, though, they’ve all been to a World Cup and most have secured moves to the sink-or-swim surroundings of bigger leagues, with Herrington’s rise taking him from the A-League Men to the Premier League via MLS in 12 months. Their clubs’ expectations on them are higher, and Popovic says their “understanding of the game is certainly improving”. View image in fullscreen The Socceroos put the heartbreak of their World Cup elimination behind them to face Brazil. Photograph: Kai Pfaffenbach/Reuters Assembling for the first time since their penalty shootout elimination against Egypt, the Socceroos acquitted themselves well against the Seleção in Queensland, letting a lead slip late and drawing 1-1 on a horror pitch in Townsville , before fading in a fiery 4-2 defeat in Brisbane. And, results aside, there was an air that the Socceroos took a step forward in both games. Sign up for Football Desk Australia: our free newsletter from Jonathan Wilson The hard running and physicality expected of them were still there – until the late fadeouts when the strength of Brazil’s depth showed as they finished strongly. Yet within this framework there was a shift in Australia’s intent, too. A willingness to press higher , to drive between the lines, make the risky pass, and to try to play, not just battle, their way out of trouble. View image in fullscreen Nestory Irankunda celebrates his stunning goal in the first game against Brazi",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17193,7 +17128,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -17220,10 +17155,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.69,
-      "away": 0.53
+      "home": 1.56,
+      "away": 0.49
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "irn-nzl-38",
       "date": "2026-06-16",
@@ -17555,7 +17490,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17564,9 +17499,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      56,
-      27,
-      17
+      59,
+      25,
+      16
     ],
     "confidence": 76,
     "tag": "已完场",
@@ -17578,7 +17513,7 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "2-0",
@@ -17600,27 +17535,27 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 20,
-        "examples": [
-          "1-1",
-          "0-0"
-        ]
-      },
-      {
         "label": "主队大胜",
-        "chance": 17,
+        "chance": 20,
         "examples": [
           "3-0",
           "4-1",
           "4-0"
+        ]
+      },
+      {
+        "label": "低比分平局",
+        "chance": 18,
+        "examples": [
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 52,
+        "chance": 50,
         "examples": [
           "1-1",
           "2-1",
@@ -17629,7 +17564,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 56,
+        "chance": 59,
         "examples": [
           "2-1",
           "2-0",
@@ -17638,7 +17573,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 42,
         "examples": [
           "2-0",
           "3-1",
@@ -17647,14 +17582,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
+      "over25": 61,
+      "under25": 39,
       "bttsYes": 59,
       "bttsNo": 41,
-      "homeWinBy2Plus": 35,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.09,
+      "homeWinBy2Plus": 38,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.18,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -17662,15 +17597,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        56,
-        27,
-        17
+        59,
+        25,
+        16
       ],
       "market": null,
       "blended": [
-        56,
-        27,
-        17
+        59,
+        25,
+        16
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -18243,9 +18178,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18318,10 +18253,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.02,
-      "away": 1.07
+      "home": 2.13,
+      "away": 1.05
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "fra-sen-49",
       "date": "2026-06-17",
@@ -18653,7 +18588,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -18663,24 +18598,24 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       15,
-      44,
-      41
+      42,
+      43
     ],
-    "confidence": 64,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-4。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
+      {
+        "score": "0-1",
+        "chance": 10
+      },
       {
         "score": "1-1",
         "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 19
-      },
-      {
-        "score": "0-1",
-        "chance": 11
+        "chance": 16
       },
       {
         "score": "0-2",
@@ -18690,7 +18625,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 39,
+        "chance": 36,
         "examples": [
           "1-1",
           "0-0"
@@ -18698,7 +18633,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 27,
+        "chance": 26,
         "examples": [
           "0-1",
           "0-2",
@@ -18718,7 +18653,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 70,
+        "chance": 67,
         "examples": [
           "1-1",
           "0-0",
@@ -18727,7 +18662,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 51,
+        "chance": 48,
         "examples": [
           "1-1",
           "0-0",
@@ -18735,24 +18670,23 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队胜出覆盖",
-        "chance": 41,
+        "label": "低比分平局",
+        "chance": 36,
         "examples": [
-          "0-1",
-          "0-2",
-          "1-2"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 45,
-      "bttsNo": 55,
+      "over25": 37,
+      "under25": 63,
+      "bttsYes": 48,
+      "bttsNo": 52,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 22,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.24,
+      "awayWinBy2Plus": 24,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.4,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -18761,14 +18695,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         15,
-        34,
-        51
+        32,
+        53
       ],
       "market": null,
       "blended": [
         15,
-        44,
-        41
+        42,
+        43
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -19341,9 +19275,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19416,10 +19350,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.72,
-      "away": 1.52
+      "home": 0.77,
+      "away": 1.63
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "irq-nor-50",
       "date": "2026-06-17",
@@ -19751,7 +19685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -19760,119 +19694,119 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      55,
-      28,
-      17
+      45,
+      40,
+      15
     ],
-    "confidence": 76,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-1",
-        "chance": 10
+        "score": "2-0",
+        "chance": 9
       },
       {
         "score": "1-1",
+        "chance": 19
+      },
+      {
+        "score": "0-0",
         "chance": 13
       },
       {
-        "score": "2-0",
-        "chance": 10
-      },
-      {
-        "score": "3-1",
-        "chance": 6
+        "score": "1-0",
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
-        "label": "主队小胜",
-        "chance": 28,
-        "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
-        ]
-      },
-      {
         "label": "低比分平局",
-        "chance": 21,
+        "chance": 33,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
+        "label": "主队小胜",
+        "chance": 25,
+        "examples": [
+          "2-0",
+          "1-0",
+          "2-1"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 12,
         "examples": [
           "3-0",
-          "4-1",
-          "4-0"
+          "4-0",
+          "4-1"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 63,
         "examples": [
           "1-1",
-          "2-1",
+          "0-0",
           "2-0"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 55,
+        "label": "客队不败低比分",
+        "chance": 44,
         "examples": [
-          "2-1",
-          "2-0",
-          "1-0"
+          "1-1",
+          "0-0",
+          "1-2"
         ]
       },
       {
-        "label": "主队优势胜",
-        "chance": 37,
+        "label": "主队胜出覆盖",
+        "chance": 45,
         "examples": [
           "2-0",
-          "3-1",
-          "3-0"
+          "1-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 55,
-      "under25": 45,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 33,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.91,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 27,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.64,
+      "totalGoalsLean": "小于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
         55,
-        28,
-        17
+        30,
+        15
       ],
       "market": null,
       "blended": [
-        55,
-        28,
-        17
+        45,
+        40,
+        15
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -19963,7 +19897,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -20216,22 +20150,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -20457,9 +20385,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20532,10 +20460,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.91,
-      "away": 1.01
+      "home": 1.78,
+      "away": 0.86
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "arg-alg-55",
       "date": "2026-06-17",
@@ -20867,7 +20795,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -20876,8 +20804,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      61,
+      30,
       9
     ],
     "confidence": 76,
@@ -20885,43 +20813,43 @@ window.MATCHES = [
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-0",
-        "chance": 14
-      },
-      {
         "score": "1-0",
-        "chance": 14
+        "chance": 16
       },
       {
-        "score": "1-1",
-        "chance": 12
+        "score": "2-0",
+        "chance": 15
       },
       {
         "score": "0-0",
-        "chance": 11
+        "chance": 15
+      },
+      {
+        "score": "1-1",
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 37,
+        "chance": 39,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "2-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 27,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "主队大胜",
-        "chance": 19,
+        "chance": 16,
         "examples": [
           "3-0",
           "4-0",
@@ -20932,25 +20860,25 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 75,
         "examples": [
-          "2-0",
           "1-0",
-          "1-1"
+          "2-0",
+          "0-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 61,
         "examples": [
-          "2-0",
           "1-0",
+          "2-0",
           "3-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 41,
+        "chance": 37,
         "examples": [
           "2-0",
           "3-0",
@@ -20959,14 +20887,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 36,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.44,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.17,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -20974,14 +20902,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        61,
+        30,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        61,
+        30,
         9
       ],
       "blendWeight": 0,
@@ -21079,7 +21007,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -21310,9 +21238,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -21329,19 +21257,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21564,9 +21483,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21639,10 +21558,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.86,
-      "away": 0.59
+      "home": 1.65,
+      "away": 0.52
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "aut-jor-56",
       "date": "2026-06-17",
@@ -21974,7 +21893,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -21983,35 +21902,43 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      59,
-      31,
-      10
+      46,
+      42,
+      12
     ],
-    "confidence": 76,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 16
-      },
-      {
-        "score": "0-0",
-        "chance": 14
-      },
-      {
-        "score": "2-0",
-        "chance": 14
+        "chance": 12
       },
       {
         "score": "1-1",
-        "chance": 14
+        "chance": 19
+      },
+      {
+        "score": "0-0",
+        "chance": 18
+      },
+      {
+        "score": "2-0",
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
+        "label": "低比分平局",
+        "chance": 37,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 29,
         "examples": [
           "1-0",
           "2-0",
@@ -22019,16 +21946,8 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 28,
-        "examples": [
-          "0-0",
-          "1-1"
-        ]
-      },
-      {
         "label": "主队大胜",
-        "chance": 15,
+        "chance": 11,
         "examples": [
           "3-0",
           "4-0",
@@ -22039,41 +21958,40 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 73,
+        "chance": 72,
         "examples": [
-          "1-0",
+          "1-1",
           "0-0",
-          "2-0"
+          "1-0"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 59,
+        "label": "客队不败低比分",
+        "chance": 48,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0",
+          "0-1"
         ]
       },
       {
-        "label": "主队优势胜",
-        "chance": 35,
+        "label": "低比分平局",
+        "chance": 37,
         "examples": [
-          "2-0",
-          "3-0",
-          "3-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 34,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.21,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.26,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -22081,21 +21999,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        59,
-        31,
-        10
+        56,
+        32,
+        12
       ],
       "market": null,
       "blended": [
-        59,
-        31,
-        10
+        46,
+        42,
+        12
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -22665,9 +22583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22740,10 +22658,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.64,
-      "away": 0.57
+      "home": 1.61,
+      "away": 0.64
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "por-cod-61",
       "date": "2026-06-18",
@@ -23075,7 +22993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23084,9 +23002,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
+      37,
       42,
-      20
+      21
     ],
     "confidence": 64,
     "tag": "已完场",
@@ -23098,21 +23016,21 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 14
+        "chance": 13
       },
       {
-        "score": "1-0",
+        "score": "2-2",
         "chance": 7
       },
       {
-        "score": "2-0",
+        "score": "2-1",
         "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 34,
+        "chance": 33,
         "examples": [
           "1-1",
           "0-0"
@@ -23120,11 +23038,11 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 22,
+        "chance": 21,
         "examples": [
+          "2-1",
           "1-0",
-          "2-0",
-          "2-1"
+          "2-0"
         ]
       },
       {
@@ -23140,11 +23058,11 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 60,
+        "chance": 58,
         "examples": [
           "1-1",
           "0-0",
-          "1-0"
+          "2-1"
         ]
       },
       {
@@ -23158,23 +23076,23 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 38,
+        "chance": 37,
         "examples": [
+          "2-1",
           "1-0",
-          "2-0",
-          "2-1"
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 21,
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 20,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.63,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.67,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -23182,15 +23100,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        48,
+        47,
         32,
-        20
+        21
       ],
       "market": null,
       "blended": [
-        38,
+        37,
         42,
-        20
+        21
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -23287,7 +23205,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -23540,22 +23458,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -23788,9 +23700,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23863,10 +23775,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.65,
-      "away": 0.98
+      "home": 1.64,
+      "away": 1.04
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "eng-cro-67",
       "date": "2026-06-18",
@@ -24198,7 +24110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24208,20 +24120,20 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       19,
-      46,
-      35
+      45,
+      36
     ],
-    "confidence": 69,
+    "confidence": 68,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 27
+        "chance": 26
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 16
       },
       {
         "score": "0-1",
@@ -24235,7 +24147,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -24243,7 +24155,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -24272,7 +24184,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 61,
+        "chance": 60,
         "examples": [
           "0-0",
           "1-1",
@@ -24281,7 +24193,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -24295,8 +24207,8 @@ window.MATCHES = [
       "bttsNo": 69,
       "homeWinBy2Plus": 5,
       "awayWinBy2Plus": 14,
-      "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.55,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.56,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -24305,14 +24217,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         19,
-        46,
-        35
+        45,
+        36
       ],
       "market": null,
       "blended": [
         19,
-        46,
-        35
+        45,
+        36
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -24888,9 +24800,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24964,9 +24876,9 @@ window.MATCHES = [
     ],
     "expectedGoals": {
       "home": 0.62,
-      "away": 0.93
+      "away": 0.95
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "gha-pan-68",
       "date": "2026-06-18",
@@ -25299,7 +25211,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25309,24 +25221,24 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       12,
-      41,
-      47
+      43,
+      45
     ],
-    "confidence": 67,
+    "confidence": 64,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-3。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-1",
-        "chance": 11
-      },
-      {
-        "score": "1-1",
-        "chance": 19
+        "chance": 13
       },
       {
         "score": "0-0",
-        "chance": 17
+        "chance": 21
+      },
+      {
+        "score": "1-1",
+        "chance": 18
       },
       {
         "score": "0-2",
@@ -25336,15 +25248,15 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 39,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -25353,7 +25265,7 @@ window.MATCHES = [
       },
       {
         "label": "客队大胜",
-        "chance": 12,
+        "chance": 10,
         "examples": [
           "0-3",
           "0-4",
@@ -25364,41 +25276,40 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 71,
+        "chance": 75,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 46,
+        "chance": 50,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
-        "label": "客队胜出覆盖",
-        "chance": 47,
+        "label": "低比分平局",
+        "chance": 39,
         "examples": [
-          "0-1",
-          "0-2",
-          "1-2"
+          "0-0",
+          "1-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 35,
-      "under25": 65,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 27,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.32,
+      "over25": 30,
+      "under25": 70,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 25,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -25407,14 +25318,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         12,
-        31,
-        57
+        33,
+        55
       ],
       "market": null,
       "blended": [
         12,
-        41,
-        47
+        43,
+        45
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -25990,9 +25901,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26065,10 +25976,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.65,
-      "away": 1.67
+      "home": 0.58,
+      "away": 1.5
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "uzb-col-62",
       "date": "2026-06-18",
@@ -26400,7 +26311,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26409,9 +26320,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      38,
+      37,
       42,
-      20
+      21
     ],
     "confidence": 64,
     "tag": "已完场",
@@ -26419,7 +26330,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 20
+        "chance": 21
       },
       {
         "score": "1-1",
@@ -26427,17 +26338,17 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 14
       },
       {
-        "score": "2-0",
+        "score": "0-1",
         "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "0-0",
           "1-1"
@@ -26445,7 +26356,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 29,
         "examples": [
           "1-0",
           "2-0",
@@ -26454,7 +26365,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
           "0-1",
           "1-2",
@@ -26474,7 +26385,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 56,
+        "chance": 57,
         "examples": [
           "0-0",
           "1-1",
@@ -26483,7 +26394,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "0-0",
           "1-1"
@@ -26491,14 +26402,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 18,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 38,
+      "bttsNo": 62,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 1.95,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 1.82,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -26506,15 +26417,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        38,
+        37,
         42,
-        20
+        21
       ],
       "market": null,
       "blended": [
-        38,
+        37,
         42,
-        20
+        21
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -27090,9 +27001,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27165,10 +27076,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.19,
+      "home": 1.06,
       "away": 0.76
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "cze-rsa-3",
       "date": "2026-06-19",
@@ -27500,7 +27411,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27509,17 +27420,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      47,
-      41,
-      12
+      45,
+      42,
+      13
     ],
-    "confidence": 67,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 11
       },
       {
         "score": "1-1",
@@ -27527,17 +27438,17 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "2-0",
-        "chance": 11
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -27553,12 +27464,12 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 12,
+        "label": "客队小胜",
+        "chance": 11,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
@@ -27574,7 +27485,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 46,
+        "chance": 48,
         "examples": [
           "1-1",
           "0-0",
@@ -27582,24 +27493,23 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 47,
+        "label": "低比分平局",
+        "chance": 37,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
       "over25": 35,
       "under25": 65,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 27,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 25,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.3,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -27607,15 +27517,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        57,
-        31,
-        12
+        55,
+        32,
+        13
       ],
       "market": null,
       "blended": [
-        47,
-        41,
-        12
+        45,
+        42,
+        13
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -28188,9 +28098,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28263,10 +28173,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.64,
-      "away": 0.66
+      "home": 1.59,
+      "away": 0.69
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "sui-bih-9",
       "date": "2026-06-19",
@@ -28598,7 +28508,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -28607,35 +28517,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      46,
       44,
-      10
+      45,
+      11
     ],
-    "confidence": 64,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 6-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "1-0",
-        "chance": 15
-      },
       {
         "score": "0-0",
         "chance": 24
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
+      },
+      {
+        "score": "1-0",
+        "chance": 15
       },
       {
         "score": "2-0",
-        "chance": 12
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -28643,7 +28553,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 32,
+        "chance": 31,
         "examples": [
           "1-0",
           "2-0",
@@ -28651,12 +28561,12 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
+        "label": "客队小胜",
         "chance": 10,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
@@ -28672,7 +28582,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 52,
         "examples": [
           "0-0",
           "1-1",
@@ -28681,7 +28591,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -28691,12 +28601,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 25,
       "under25": 75,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 25,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.93,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.9,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -28704,15 +28614,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        56,
-        34,
-        10
+        54,
+        35,
+        11
       ],
       "market": null,
       "blended": [
-        46,
         44,
-        10
+        45,
+        11
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -28809,7 +28719,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -29062,22 +28972,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "US lined up instead of Qatar to host inaugural Women’s Club World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/01/united-states-host-first-womens-club-world-cup-football",
-          "pubDate": "Thu, 01 Oct 2026 12:05:22 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -29303,9 +29207,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29378,10 +29282,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.45,
-      "away": 0.48
+      "home": 1.39,
+      "away": 0.51
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "can-qat-10",
       "date": "2026-06-19",
@@ -29702,7 +29606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -29711,11 +29615,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      42,
+      36,
+      43,
       21
     ],
-    "confidence": 64,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -29725,7 +29629,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 17
       },
       {
         "score": "1-0",
@@ -29739,7 +29643,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -29747,7 +29651,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-0",
@@ -29756,7 +29660,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
           "0-1",
           "1-2",
@@ -29767,7 +29671,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 62,
+        "chance": 64,
         "examples": [
           "1-1",
           "0-0",
@@ -29776,7 +29680,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 54,
         "examples": [
           "1-1",
           "0-0",
@@ -29785,7 +29689,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -29793,14 +29697,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 19,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.39,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -29808,14 +29712,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
-        42,
+        36,
+        43,
         21
       ],
       "market": null,
       "blended": [
-        37,
-        42,
+        36,
+        43,
         21
       ],
       "blendWeight": 0,
@@ -30294,9 +30198,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30369,10 +30273,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.47,
-      "away": 0.93
+      "home": 1.41,
+      "away": 0.9
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "mex-kor-4",
       "date": "2026-06-19",
@@ -30705,7 +30609,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -30714,24 +30618,24 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      34,
-      40,
+      32,
+      42,
       26
     ],
-    "confidence": 64,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 14
       },
       {
-        "score": "2-2",
+        "score": "1-0",
         "chance": 7
       },
       {
@@ -30742,7 +30646,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 31,
+        "chance": 34,
         "examples": [
           "1-1",
           "0-0"
@@ -30752,14 +30656,14 @@ window.MATCHES = [
         "label": "主队小胜",
         "chance": 20,
         "examples": [
-          "2-1",
           "1-0",
+          "2-1",
           "2-0"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 17,
+        "chance": 18,
         "examples": [
           "1-2",
           "0-1",
@@ -30770,16 +30674,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 57,
         "examples": [
           "1-1",
           "0-0",
-          "2-1"
+          "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 54,
         "examples": [
           "1-1",
           "0-0",
@@ -30787,39 +30691,38 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
+        "label": "低比分平局",
         "chance": 34,
         "examples": [
-          "2-1",
-          "1-0",
-          "2-0"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 58,
-      "bttsNo": 42,
-      "homeWinBy2Plus": 18,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 11,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.7,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.51,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        34,
-        40,
+        32,
+        42,
         26
       ],
       "market": null,
       "blended": [
-        34,
-        40,
+        32,
+        42,
         26
       ],
       "blendWeight": 0,
@@ -31173,12 +31076,6 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "Criminal or saviour? Rui Pinto abandoned by Portuguese authorities after Manchester City leaks",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/01/fears-manchester-city-whistleblower-rui-pinto-loses-protected-witness-status",
-          "pubDate": "Thu, 01 Oct 2026 18:40:17 GMT"
-        },
-        {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up",
@@ -31195,6 +31092,12 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "pubDate": "Tue, 22 Mar 2022 16:57:35 GMT"
+        },
+        {
+          "title": "Criminal or saviour? Rui Pinto abandoned by Portuguese authorities after Manchester City leaks",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/01/fears-manchester-city-whistleblower-rui-pinto-loses-protected-witness-status",
+          "pubDate": "Thu, 01 Oct 2026 18:40:17 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -31433,9 +31336,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31508,10 +31411,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.53,
-      "away": 1.17
+      "home": 1.41,
+      "away": 1.1
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "usa-aus-21",
       "date": "2026-06-20",
@@ -31844,7 +31747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -31853,35 +31756,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      16,
-      42,
-      42
+      14,
+      38,
+      48
     ],
-    "confidence": 62,
+    "confidence": 70,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "1-1",
-        "chance": 20
-      },
-      {
-        "score": "0-0",
-        "chance": 16
-      },
-      {
-        "score": "0-1",
+        "score": "0-2",
         "chance": 10
       },
       {
-        "score": "0-2",
+        "score": "1-1",
+        "chance": 18
+      },
+      {
+        "score": "0-0",
+        "chance": 13
+      },
+      {
+        "score": "0-1",
         "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -31891,59 +31794,59 @@ window.MATCHES = [
         "label": "客队小胜",
         "chance": 26,
         "examples": [
-          "0-1",
           "0-2",
+          "0-1",
           "1-2"
         ]
       },
       {
-        "label": "主队小胜",
-        "chance": 12,
+        "label": "客队大胜",
+        "chance": 14,
         "examples": [
-          "1-0",
-          "2-1",
-          "2-0"
+          "0-3",
+          "0-4",
+          "1-4"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 66,
+        "chance": 63,
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "0-2"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 49,
+        "chance": 42,
         "examples": [
           "1-1",
           "0-0",
-          "1-0"
+          "2-1"
         ]
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 42,
+        "chance": 48,
         "examples": [
-          "0-1",
           "0-2",
+          "0-1",
           "1-2"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 49,
-      "bttsNo": 51,
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 52,
+      "bttsNo": 48,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 24,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.42,
+      "awayWinBy2Plus": 29,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.66,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -31951,15 +31854,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        16,
-        32,
-        52
+        14,
+        28,
+        58
       ],
       "market": null,
       "blended": [
-        16,
-        42,
-        42
+        14,
+        38,
+        48
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -32532,9 +32435,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32607,10 +32510,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.8,
-      "away": 1.62
+      "home": 0.81,
+      "away": 1.84
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "sco-mar-15",
       "date": "2026-06-20",
@@ -32942,7 +32845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -32951,8 +32854,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      65,
+      26,
       9
     ],
     "confidence": 76,
@@ -32961,11 +32864,11 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "2-0",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "1-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "1-1",
@@ -32973,13 +32876,13 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 36,
         "examples": [
           "2-0",
           "1-0",
@@ -32988,7 +32891,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
@@ -32996,7 +32899,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "3-0",
           "4-0",
@@ -33007,7 +32910,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 68,
         "examples": [
           "2-0",
           "1-0",
@@ -33016,7 +32919,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 65,
         "examples": [
           "2-0",
           "1-0",
@@ -33025,7 +32928,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 41,
+        "chance": 43,
         "examples": [
           "2-0",
           "3-0",
@@ -33034,29 +32937,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 39,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.4,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.52,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "blendWeight": 0,
@@ -33154,7 +33057,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -33385,9 +33288,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -33404,19 +33307,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -33642,9 +33536,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33717,10 +33611,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.83,
-      "away": 0.58
+      "home": 1.92,
+      "away": 0.61
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "bra-hai-16",
       "date": "2026-06-20",
@@ -33751,7 +33645,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率64%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -34041,7 +33935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34051,16 +33945,16 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       36,
-      41,
-      23
+      43,
+      21
     ],
-    "confidence": 64,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "0-0",
@@ -34068,7 +33962,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "2-0",
@@ -34078,7 +33972,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -34086,7 +33980,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 25,
+        "chance": 24,
         "examples": [
           "1-0",
           "2-0",
@@ -34095,7 +33989,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 16,
         "examples": [
           "0-1",
           "1-2",
@@ -34115,7 +34009,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 54,
         "examples": [
           "1-1",
           "0-0",
@@ -34124,7 +34018,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -34132,30 +34026,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 47,
-      "bttsNo": 53,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.18,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.29,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
         36,
-        41,
-        23
+        43,
+        21
       ],
       "market": null,
       "blended": [
         36,
-        41,
-        23
+        43,
+        21
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -34633,9 +34527,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34708,10 +34602,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.27,
-      "away": 0.91
+      "home": 1.38,
+      "away": 0.92
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "matchAutopsy": {
       "matchId": "tur-par-22",
       "date": "2026-06-20",
@@ -35043,7 +34937,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35080,10 +34974,10 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 28,
         "examples": [
-          "2-1",
           "2-0",
+          "2-1",
           "1-0"
         ]
       },
@@ -35096,55 +34990,55 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队小胜",
-        "chance": 13,
+        "label": "主队大胜",
+        "chance": 15,
         "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
+          "3-0",
+          "4-0",
+          "4-1"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 57,
         "examples": [
           "1-1",
-          "2-1",
-          "2-0"
+          "2-0",
+          "2-1"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 50,
+        "chance": 54,
         "examples": [
-          "2-1",
           "2-0",
+          "2-1",
           "1-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 32,
+        "chance": 36,
         "examples": [
           "2-0",
-          "3-1",
-          "3-0"
+          "3-0",
+          "3-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 57,
-      "bttsNo": 43,
-      "homeWinBy2Plus": 29,
-      "awayWinBy2Plus": 8,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 32,
+      "awayWinBy2Plus": 6,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.83,
+      "expectedTotalGoals": 2.81,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -35756,9 +35650,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35834,7 +35728,7 @@ window.MATCHES = [
       "home": 2.2,
       "away": 1.64
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -36163,7 +36057,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36200,7 +36094,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 23,
+        "chance": 22,
         "examples": [
           "2-1",
           "2-0",
@@ -36209,26 +36103,26 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 18,
+        "chance": 19,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 15,
+        "label": "客队小胜",
+        "chance": 13,
         "examples": [
-          "3-0",
-          "4-1",
-          "4-0"
+          "1-2",
+          "0-1",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 46,
+        "chance": 45,
         "examples": [
           "1-1",
           "2-1",
@@ -36236,36 +36130,36 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "开放对攻",
+        "chance": 36,
+        "examples": [
+          "2-2",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
         "label": "主队胜出覆盖",
-        "chance": 52,
+        "chance": 48,
         "examples": [
           "2-1",
           "2-0",
           "3-1"
-        ]
-      },
-      {
-        "label": "主队优势胜",
-        "chance": 37,
-        "examples": [
-          "2-0",
-          "3-1",
-          "3-0"
         ]
       }
     ],
     "expandedMarkets": {
       "over25": 62,
       "under25": 38,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 32,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.27,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.24,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -36790,9 +36684,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36868,7 +36762,7 @@ window.MATCHES = [
       "home": 2.92,
       "away": 1.33
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -37197,7 +37091,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37234,7 +37128,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -37250,28 +37144,28 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 9,
+        "label": "客队小胜",
+        "chance": 8,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 82,
+        "chance": 84,
         "examples": [
           "0-0",
-          "1-1",
-          "1-0"
+          "1-0",
+          "1-1"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -37280,7 +37174,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 44,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -37288,14 +37182,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 21,
-      "under25": 79,
-      "bttsYes": 30,
-      "bttsNo": 70,
-      "homeWinBy2Plus": 23,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 28,
+      "bttsNo": 72,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.77,
+      "lowScoreDraw": 46,
+      "expectedTotalGoals": 1.66,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -37814,9 +37708,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37892,7 +37786,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 0.55
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -38203,10 +38097,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Wataru Endo"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": null
       }
     },
@@ -38214,7 +38106,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 64,
-        "away": 62
+        "away": 67
       },
       {
         "label": "防守",
@@ -38224,7 +38116,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 46,
-        "away": 55
+        "away": 60
       },
       {
         "label": "近期状态",
@@ -38234,7 +38126,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38271,7 +38163,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -38279,7 +38171,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 30,
+        "chance": 31,
         "examples": [
           "0-1",
           "0-2",
@@ -38288,7 +38180,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 13,
+        "chance": 12,
         "examples": [
           "1-0",
           "2-1",
@@ -38299,7 +38191,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 75,
+        "chance": 79,
         "examples": [
           "0-0",
           "1-1",
@@ -38308,7 +38200,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 56,
         "examples": [
           "0-0",
           "1-1",
@@ -38317,7 +38209,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 44,
         "examples": [
           "0-0",
           "1-1"
@@ -38325,14 +38217,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 4,
+      "over25": 22,
+      "under25": 78,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 19,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.87,
+      "lowScoreDraw": 44,
+      "expectedTotalGoals": 1.75,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -38403,9 +38295,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 67,
-        "awayScore": 68,
-        "contribution": -0.24,
-        "evidence": "突尼斯 进攻64/防守91/中场46，综合67；日本 进攻62/防守86/中场55，综合68。"
+        "awayScore": 71,
+        "contribution": -0.96,
+        "evidence": "突尼斯 进攻64/防守91/中场46，综合67；日本 进攻67/防守86/中场60，综合71。"
       },
       {
         "name": "近期状态",
@@ -38461,7 +38353,7 @@ window.MATCHES = [
         "homeRank": 45,
         "awayRank": 18,
         "homeAverageMetric": 62.8,
-        "awayAverageMetric": 69.3
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -38670,7 +38562,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 64,
         "homeDefense": 91,
-        "awayAttack": 62,
+        "awayAttack": 67,
         "awayDefense": 86
       },
       "motivation": {
@@ -38943,9 +38835,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39014,14 +38906,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "突尼斯属于防守控制型，场均进球参考值 0.67，大胜倾向 0%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "突尼斯 进攻指数 64，日本 防守指数 86；日本 进攻指数 62，突尼斯 防守指数 91。",
+      "突尼斯 进攻指数 64，日本 防守指数 86；日本 进攻指数 67，突尼斯 防守指数 91。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 0.59,
       "away": 1.87
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -39361,7 +39253,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39453,14 +39345,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 33,
-      "bttsNo": 67,
-      "homeWinBy2Plus": 33,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 37,
+      "bttsNo": 63,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.05,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -39581,7 +39473,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -39849,28 +39741,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -40106,9 +39986,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40184,7 +40064,7 @@ window.MATCHES = [
       "home": 1.88,
       "away": 0.59
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -40524,7 +40404,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40616,15 +40496,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 57,
-      "bttsNo": 43,
-      "homeWinBy2Plus": 24,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.76,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.05,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -40744,7 +40624,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -40975,9 +40855,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -41009,19 +40889,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -41244,9 +41115,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41322,7 +41193,7 @@ window.MATCHES = [
       "home": 2.01,
       "away": 1.39
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -41651,7 +41522,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -41743,14 +41614,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 21,
-      "under25": 79,
-      "bttsYes": 32,
-      "bttsNo": 68,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 4,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 29,
+      "bttsNo": 71,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 3,
       "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.66,
+      "expectedTotalGoals": 1.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42267,9 +42138,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42345,7 +42216,7 @@ window.MATCHES = [
       "home": 1.61,
       "away": 0.51
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -42685,7 +42556,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -42781,10 +42652,10 @@ window.MATCHES = [
       "under25": 64,
       "bttsYes": 36,
       "bttsNo": 64,
-      "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 36,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 35,
       "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.2,
+      "expectedTotalGoals": 2.19,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42905,7 +42776,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -43136,9 +43007,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -43170,19 +43041,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 5.93 / 平 3.93 / 客 1.66。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -43408,9 +43270,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43486,7 +43348,7 @@ window.MATCHES = [
       "home": 0.62,
       "away": 1.95
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -43826,7 +43688,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -43919,17 +43781,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 28,
       "awayWinBy2Plus": 9,
       "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.99,
-      "totalGoalsLean": "大于2.5球",
+      "expectedTotalGoals": 2.91,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "connected",
@@ -44047,7 +43909,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -44278,9 +44140,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -44312,25 +44174,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.45 / 平 4.37 / 客 7.72。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44553,9 +44400,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44631,7 +44478,7 @@ window.MATCHES = [
       "home": 2.61,
       "away": 1.64
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -44972,7 +44819,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45065,15 +44912,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.45,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.54,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -45687,9 +45534,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45765,7 +45612,7 @@ window.MATCHES = [
       "home": 2.6,
       "away": 0.82
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -46105,7 +45952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46197,14 +46044,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.77,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.05,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -46816,9 +46663,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46894,7 +46741,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 1.91
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -47235,7 +47082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47327,14 +47174,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 31,
-      "under25": 69,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 3,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 2,
       "awayWinBy2Plus": 27,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.13,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 2.06,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -47955,9 +47802,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48033,7 +47880,7 @@ window.MATCHES = [
       "home": 0.61,
       "away": 1.74
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -48373,7 +48220,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48465,14 +48312,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 32,
-      "bttsNo": 68,
-      "homeWinBy2Plus": 33,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.02,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.09,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49087,9 +48934,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49165,7 +49012,7 @@ window.MATCHES = [
       "home": 1.92,
       "away": 0.61
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -49505,7 +49352,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49598,14 +49445,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 36,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.2,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.1,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49726,7 +49573,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -49994,22 +49841,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -50242,9 +50083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50320,7 +50161,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.8
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -50660,7 +50501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -50751,14 +50592,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.79,
+      "over25": 28,
+      "under25": 72,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 19,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 1.97,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -51373,9 +51214,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51451,7 +51292,7 @@ window.MATCHES = [
       "home": 1.07,
       "away": 1.47
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -51791,7 +51632,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -51883,14 +51724,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.4,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.53,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -52502,9 +52343,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52580,7 +52421,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.98
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -52920,7 +52761,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53012,14 +52853,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 11,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.73,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.65,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -53634,9 +53475,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53712,7 +53553,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.65
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -54052,7 +53893,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54143,14 +53984,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 22,
-      "under25": 78,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 11,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 32,
+      "bttsNo": 68,
+      "homeWinBy2Plus": 10,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.66,
+      "lowScoreDraw": 45,
+      "expectedTotalGoals": 1.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -54271,7 +54112,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -54539,22 +54380,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "US lined up instead of Qatar to host inaugural Women’s Club World Cup",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/01/united-states-host-first-womens-club-world-cup-football",
-          "pubDate": "Thu, 01 Oct 2026 12:05:22 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -54780,9 +54615,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54858,7 +54693,7 @@ window.MATCHES = [
       "home": 1.1,
       "away": 1.01
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -55199,7 +55034,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55291,15 +55126,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 47,
-      "bttsNo": 53,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 39,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.65,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 29,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.61,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -55419,7 +55254,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -55650,9 +55485,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -55684,19 +55519,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 7.67 / 平 5.09 / 客 1.38。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -55919,9 +55745,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55997,7 +55823,7 @@ window.MATCHES = [
       "home": 1.06,
       "away": 2.09
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -56017,12 +55843,12 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "近期状态",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -56036,7 +55862,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了客胜方向（客胜概率62%），与实际结果一致。 判断正确的因素：世界排名、近期状态、球员质量。 赔率市场正确预判了客胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率62%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。 赔率市场正确预判了客胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -56337,7 +56163,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56429,14 +56255,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.53,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.62,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -57051,9 +56877,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57129,7 +56955,7 @@ window.MATCHES = [
       "home": 2.16,
       "away": 0.68
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -57469,7 +57295,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57561,14 +57387,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 50,
-      "bttsNo": 50,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 52,
+      "bttsNo": 48,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 26,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.48,
+      "awayWinBy2Plus": 29,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.69,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -58183,9 +58009,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58261,7 +58087,7 @@ window.MATCHES = [
       "home": 0.98,
       "away": 2.46
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -58590,7 +58416,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -58684,12 +58510,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 25,
       "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "bttsYes": 38,
+      "bttsNo": 62,
       "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 19,
-      "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.87,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.9,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -59206,9 +59032,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59284,7 +59110,7 @@ window.MATCHES = [
       "home": 0.78,
       "away": 1.84
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -59602,7 +59428,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -59694,14 +59520,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 39,
-      "bttsNo": 61,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 36,
+      "bttsNo": 64,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 40,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.41,
+      "awayWinBy2Plus": 37,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.24,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -60121,9 +59947,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60200,7 +60026,7 @@ window.MATCHES = [
       "home": 0.64,
       "away": 2.03
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -60540,7 +60366,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -60633,14 +60459,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 22,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.53,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -61261,9 +61087,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61339,7 +61165,7 @@ window.MATCHES = [
       "home": 1.45,
       "away": 2.42
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -61518,10 +61344,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Wataru Endo"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": null
       }
     },
@@ -61660,7 +61484,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 62,
+        "home": 67,
         "away": 66
       },
       {
@@ -61670,7 +61494,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 55,
+        "home": 60,
         "away": 47
       },
       {
@@ -61681,7 +61505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -61773,14 +61597,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
+      "over25": 53,
+      "under25": 47,
       "bttsYes": 57,
       "bttsNo": 43,
-      "homeWinBy2Plus": 23,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.72,
+      "homeWinBy2Plus": 29,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.83,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -61850,10 +61674,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 68,
+        "homeScore": 71,
         "awayScore": 61,
-        "contribution": 1.68,
-        "evidence": "日本 进攻62/防守86/中场55，综合68；瑞典 进攻66/防守70/中场47，综合61。"
+        "contribution": 2.4,
+        "evidence": "日本 进攻67/防守86/中场60，综合71；瑞典 进攻66/防守70/中场47，综合61。"
       },
       {
         "name": "近期状态",
@@ -61908,7 +61732,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 18,
         "awayRank": 38,
-        "homeAverageMetric": 69.3,
+        "homeAverageMetric": 71.8,
         "awayAverageMetric": 58.3
       },
       "recentForm": {
@@ -62116,7 +61940,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 62,
+        "homeAttack": 67,
         "homeDefense": 86,
         "awayAttack": 66,
         "awayDefense": 70
@@ -62392,9 +62216,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62463,14 +62287,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。瑞典属于均衡型，场均进球参考值 1.75，大胜倾向 25%。",
-      "日本 进攻指数 62，瑞典 防守指数 70；瑞典 进攻指数 66，日本 防守指数 86。",
+      "日本 进攻指数 67，瑞典 防守指数 70；瑞典 进攻指数 66，日本 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.45,
       "away": 1.61
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -62810,7 +62634,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -62902,14 +62726,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 39,
+      "bttsNo": 61,
       "homeWinBy2Plus": 4,
       "awayWinBy2Plus": 20,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.89,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.94,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -63524,9 +63348,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63602,7 +63426,7 @@ window.MATCHES = [
       "home": 0.7,
       "away": 1.94
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -63931,7 +63755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64023,14 +63847,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 14,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 16,
       "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.62,
+      "expectedTotalGoals": 2.58,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -64556,9 +64380,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64634,7 +64458,7 @@ window.MATCHES = [
       "home": 2.14,
       "away": 1.1
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -64974,7 +64798,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65066,16 +64890,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.97,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 9,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 33,
+      "expectedTotalGoals": 2.2,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -65194,7 +65018,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -65462,7 +65286,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -65481,15 +65305,9 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "pubDate": "Tue, 22 Mar 2022 16:57:35 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -65722,9 +65540,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65800,7 +65618,7 @@ window.MATCHES = [
       "home": 1.32,
       "away": 1.74
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -66140,7 +65958,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66233,14 +66051,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 64,
-      "under25": 36,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 37,
-      "lowScoreDraw": 17,
-      "expectedTotalGoals": 3.33,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 38,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.1,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -66852,9 +66670,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66930,7 +66748,7 @@ window.MATCHES = [
       "home": 1.27,
       "away": 2.98
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -67270,7 +67088,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67362,14 +67180,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 21,
-      "awayWinBy2Plus": 5,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 3,
       "lowScoreDraw": 40,
-      "expectedTotalGoals": 2.19,
+      "expectedTotalGoals": 2.07,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -67984,9 +67802,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68062,7 +67880,7 @@ window.MATCHES = [
       "home": 1.59,
       "away": 0.77
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -68391,7 +68209,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68482,14 +68300,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 20,
-      "under25": 80,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 21,
+      "under25": 79,
+      "bttsYes": 35,
+      "bttsNo": 65,
       "homeWinBy2Plus": 10,
       "awayWinBy2Plus": 9,
       "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.61,
+      "expectedTotalGoals": 1.65,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -68610,7 +68428,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -68878,22 +68696,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -69024,9 +68836,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69102,7 +68914,7 @@ window.MATCHES = [
       "home": 0.99,
       "away": 1.09
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -69442,7 +69254,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69533,14 +69345,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 32,
-      "under25": 68,
-      "bttsYes": 45,
-      "bttsNo": 55,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.13,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.92,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -69661,7 +69473,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -69929,22 +69741,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -70167,9 +69973,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70245,7 +70051,7 @@ window.MATCHES = [
       "home": 0.74,
       "away": 1.52
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -70585,7 +70391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -70677,14 +70483,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.38,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.48,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
@@ -70805,7 +70611,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -71036,9 +70842,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -71070,19 +70876,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.06 / 平 3.15 / 客 3.91。市场倾向 埃及。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -71308,9 +71105,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71386,7 +71183,7 @@ window.MATCHES = [
       "home": 1.21,
       "away": 1.77
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -71726,7 +71523,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -71818,14 +71615,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 44,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.68,
+      "awayWinBy2Plus": 41,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.54,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -71946,7 +71743,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -72177,9 +71974,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -72211,19 +72008,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 12.31 / 平 6.19 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -72449,9 +72237,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72527,7 +72315,7 @@ window.MATCHES = [
       "home": 0.75,
       "away": 2.37
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -72867,7 +72655,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -72960,14 +72748,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 27,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.21,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 37,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.24,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73088,7 +72876,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -73356,22 +73144,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -73604,9 +73386,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73682,7 +73464,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 2.21
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -74022,7 +73804,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74114,14 +73896,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 32,
-      "bttsNo": 68,
-      "homeWinBy2Plus": 25,
+      "over25": 18,
+      "under25": 82,
+      "bttsYes": 27,
+      "bttsNo": 73,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.88,
+      "lowScoreDraw": 46,
+      "expectedTotalGoals": 1.63,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -74736,9 +74518,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74814,7 +74596,7 @@ window.MATCHES = [
       "home": 1.82,
       "away": 0.57
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -75154,7 +74936,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75246,16 +75028,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 54,
+      "bttsNo": 46,
       "homeWinBy2Plus": 9,
-      "awayWinBy2Plus": 20,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.76,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.49,
+      "totalGoalsLean": "小于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -75865,9 +75647,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75943,7 +75725,7 @@ window.MATCHES = [
       "home": 1.47,
       "away": 1.83
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -76283,7 +76065,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76374,14 +76156,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 12,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.74,
+      "over25": 28,
+      "under25": 72,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 1.91,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -76996,9 +76778,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77074,7 +76856,7 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.17
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -77414,7 +77196,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77506,16 +77288,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 54,
-      "bttsNo": 46,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 58,
+      "bttsNo": 42,
       "homeWinBy2Plus": 12,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.49,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.65,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -77634,7 +77416,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -77902,22 +77684,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -78143,9 +77919,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78221,7 +77997,7 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.89
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -78561,7 +78337,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -78654,14 +78430,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
+      "over25": 42,
+      "under25": 58,
       "bttsYes": 39,
       "bttsNo": 61,
       "homeWinBy2Plus": 2,
       "awayWinBy2Plus": 40,
       "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.43,
+      "expectedTotalGoals": 2.42,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -78782,7 +78558,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -79013,9 +78789,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -79047,19 +78823,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 13.66 / 平 6.85 / 客 1.19。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -79282,9 +79049,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79360,7 +79127,7 @@ window.MATCHES = [
       "home": 0.83,
       "away": 2.64
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -79700,7 +79467,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -79792,14 +79559,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 35,
-      "under25": 65,
+      "over25": 34,
+      "under25": 66,
       "bttsYes": 47,
       "bttsNo": 53,
       "homeWinBy2Plus": 5,
       "awayWinBy2Plus": 22,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.29,
+      "lowScoreDraw": 38,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -80411,9 +80178,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80489,7 +80256,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 1.99
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -80800,10 +80567,8 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 3,
         "avgAge": 27.2,
-        "injuryPenalty": -5,
-        "injuredPlayers": [
-          "Wataru Endo"
-        ],
+        "injuryPenalty": 0,
+        "injuredPlayers": [],
         "lastStarters": null
       }
     },
@@ -80811,7 +80576,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 77,
-        "away": 62
+        "away": 67
       },
       {
         "label": "防守",
@@ -80821,7 +80586,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 64,
-        "away": 55
+        "away": 60
       },
       {
         "label": "近期状态",
@@ -80831,7 +80596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -80924,14 +80689,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.03,
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.82,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -81002,9 +80767,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 74,
-        "awayScore": 68,
-        "contribution": 1.44,
-        "evidence": "巴西 进攻77/防守80/中场64，综合74；日本 进攻62/防守86/中场55，综合68。"
+        "awayScore": 71,
+        "contribution": 0.72,
+        "evidence": "巴西 进攻77/防守80/中场64，综合74；日本 进攻67/防守86/中场60，综合71。"
       },
       {
         "name": "近期状态",
@@ -81052,7 +80817,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -81060,7 +80825,7 @@ window.MATCHES = [
         "homeRank": 6,
         "awayRank": 18,
         "homeAverageMetric": 71.8,
-        "awayAverageMetric": 69.3
+        "awayAverageMetric": 71.8
       },
       "recentForm": {
         "home": {
@@ -81269,7 +81034,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 77,
         "homeDefense": 80,
-        "awayAttack": 62,
+        "awayAttack": 67,
         "awayDefense": 86
       },
       "motivation": {
@@ -81283,9 +81048,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -81317,19 +81082,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.72 / 平 3.72 / 客 5.04。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -81555,9 +81311,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81626,14 +81382,14 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "巴西属于均衡型，场均进球参考值 2，大胜倾向 40%。日本属于防守控制型，场均进球参考值 2，大胜倾向 25%。",
-      "巴西 进攻指数 77，日本 防守指数 86；日本 进攻指数 62，巴西 防守指数 80。",
+      "巴西 进攻指数 77，日本 防守指数 86；日本 进攻指数 67，巴西 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
       "home": 2.15,
       "away": 1.73
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -81653,11 +81409,11 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "近期状态",
         "出线动机",
         "天气/场地",
@@ -81672,7 +81428,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了主胜方向（主胜概率50%），与实际结果一致。 判断正确的因素：世界排名、球员质量。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率50%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -81973,7 +81729,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82066,14 +81822,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
+      "over25": 51,
+      "under25": 49,
       "bttsYes": 47,
       "bttsNo": 53,
-      "homeWinBy2Plus": 37,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.64,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.76,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -82694,9 +82450,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82772,7 +82528,7 @@ window.MATCHES = [
       "home": 2.83,
       "away": 0.97
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -83112,7 +82868,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83205,17 +82961,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
+      "over25": 51,
+      "under25": 49,
       "bttsYes": 63,
       "bttsNo": 37,
       "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 18,
+      "awayWinBy2Plus": 16,
       "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.94,
+      "expectedTotalGoals": 2.91,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -83824,9 +83580,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83902,7 +83658,7 @@ window.MATCHES = [
       "home": 1.94,
       "away": 2.09
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -84231,7 +83987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84323,15 +84079,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 18,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 24,
       "awayWinBy2Plus": 13,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.89,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.08,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -84847,9 +84603,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84925,7 +84681,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.7
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -85265,7 +85021,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85360,14 +85116,14 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 65,
       "under25": 35,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 53,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 49,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 14,
-      "expectedTotalGoals": 3.38,
+      "expectedTotalGoals": 3.36,
       "totalGoalsLean": "大于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -85977,9 +85733,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86055,7 +85811,7 @@ window.MATCHES = [
       "home": 3.04,
       "away": 1.21
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -86395,7 +86151,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86487,14 +86243,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
+      "over25": 41,
+      "under25": 59,
       "bttsYes": 52,
       "bttsNo": 48,
-      "homeWinBy2Plus": 25,
+      "homeWinBy2Plus": 23,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.57,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.53,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -86596,10 +86352,10 @@ window.MATCHES = [
       {
         "name": "天气/场地",
         "weight": 8,
-        "homeScore": 51,
-        "awayScore": 46,
+        "homeScore": 55,
+        "awayScore": 50,
         "contribution": 0.4,
-        "evidence": "Mexico City：20.1°C / 降雨99% / 风速8.9km/h。降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+        "evidence": "暂无天气数据，场地因素按中立场地处理。"
       },
       {
         "name": "临场新闻",
@@ -86887,18 +86643,12 @@ window.MATCHES = [
     },
     "matchIntelligence": {
       "weather": {
-        "status": "connected",
+        "status": "unavailable",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
         "venue": "Mexico City",
         "date": "2026-07-01",
-        "temperatureMax": 20.1,
-        "temperatureMin": 13.6,
-        "precipitationProbability": 99,
-        "windSpeedMax": 8.9,
-        "timezone": "America/Mexico_City",
-        "text": "Mexico City 当日约 13.6-20.1°C，降雨概率 99%，最大风速 8.9km/h。",
-        "impact": "降雨概率较高，可能降低传控稳定性并增加定位球/失误权重。"
+        "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -87115,18 +86865,19 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
-        "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
+        "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
-          "verified": 3,
-          "missing": 2,
+          "verified": 2,
+          "missing": 3,
           "inferred": 2
         },
         "gaps": [
           "赔率",
+          "天气",
           "伤停"
         ],
         "items": [
@@ -87154,9 +86905,9 @@ window.MATCHES = [
           {
             "key": "weather",
             "label": "天气",
-            "status": "verified",
+            "status": "missing",
             "source": "Open-Meteo",
-            "text": "已采集比赛地当日天气并用于风险提示。"
+            "text": "未采集到本场天气数据。"
           },
           {
             "key": "lineup",
@@ -87192,7 +86943,7 @@ window.MATCHES = [
       "home": 2.1,
       "away": 1.31
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -87532,7 +87283,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87624,14 +87375,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
+      "over25": 48,
+      "under25": 52,
       "bttsYes": 42,
       "bttsNo": 58,
-      "homeWinBy2Plus": 42,
+      "homeWinBy2Plus": 43,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.6,
+      "expectedTotalGoals": 2.62,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -87752,7 +87503,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -88020,28 +87771,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Atlanta",
         "date": "2026-07-02",
         "temperatureMax": 36.8,
@@ -88277,9 +88022,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -88354,7 +88099,7 @@ window.MATCHES = [
       "home": 2.49,
       "away": 0.78
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -88694,7 +88439,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -88787,17 +88532,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 27,
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 32,
       "awayWinBy2Plus": 9,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.89,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.19,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "connected",
@@ -89189,7 +88934,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Seattle",
         "date": "2026-07-02",
         "temperatureMax": 19.3,
@@ -89415,9 +89160,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -89492,7 +89237,7 @@ window.MATCHES = [
       "home": 2.55,
       "away": 1.67
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -89832,7 +89577,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -89929,10 +89674,10 @@ window.MATCHES = [
       "under25": 63,
       "bttsYes": 46,
       "bttsNo": 54,
-      "homeWinBy2Plus": 26,
+      "homeWinBy2Plus": 27,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.38,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -90553,9 +90298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90631,7 +90376,7 @@ window.MATCHES = [
       "home": 2.54,
       "away": 0.89
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -90971,7 +90716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91064,16 +90809,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.55,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -91192,7 +90937,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91460,28 +91205,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91704,9 +91437,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91782,7 +91515,7 @@ window.MATCHES = [
       "home": 2.02,
       "away": 1.44
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -92123,7 +91856,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92215,14 +91948,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.35,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 38,
+      "expectedTotalGoals": 2.26,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -92617,7 +92350,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Toronto",
         "date": "2026-07-03",
         "temperatureMax": 28.4,
@@ -92843,9 +92576,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -92920,7 +92653,7 @@ window.MATCHES = [
       "home": 1.85,
       "away": 1.39
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -93260,7 +92993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93352,16 +93085,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 57,
-      "bttsNo": 43,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.67,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.46,
+      "totalGoalsLean": "小于2.5球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
     },
     "marketCalibration": {
@@ -93763,7 +93496,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Vancouver",
         "date": "2026-07-03",
         "temperatureMax": 20.6,
@@ -93989,9 +93722,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -94066,7 +93799,7 @@ window.MATCHES = [
       "home": 1.93,
       "away": 1.77
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -94406,7 +94139,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -94499,14 +94232,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 16,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 12,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.44,
+      "expectedTotalGoals": 2.4,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -94627,7 +94360,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -94895,7 +94628,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
@@ -94914,15 +94647,9 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "pubDate": "Tue, 22 Mar 2022 16:57:35 GMT"
-        },
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -95155,9 +94882,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95233,7 +94960,7 @@ window.MATCHES = [
       "home": 1.84,
       "away": 1.66
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -95562,7 +95289,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -95655,14 +95382,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 42,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.6,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.55,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -95783,7 +95510,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -96014,9 +95741,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -96048,19 +95775,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.14 / 平 8.27 / 客 20.6。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -96188,9 +95906,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96266,7 +95984,7 @@ window.MATCHES = [
       "home": 2.93,
       "away": 0.93
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -96606,7 +96324,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -96698,14 +96416,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 26,
-      "awayWinBy2Plus": 2,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.98,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 35,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.19,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -97100,7 +96818,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Kansas City",
         "date": "2026-07-04",
         "temperatureMax": 27.5,
@@ -97326,9 +97044,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -97403,7 +97121,7 @@ window.MATCHES = [
       "home": 2.36,
       "away": 0.74
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -97743,7 +97461,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -97836,15 +97554,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 59,
-      "bttsNo": 41,
-      "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 32,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.99,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 7,
+      "awayWinBy2Plus": 24,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.76,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -98238,7 +97956,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Houston",
         "date": "2026-07-05",
         "temperatureMax": 35.8,
@@ -98464,9 +98182,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -98541,7 +98259,7 @@ window.MATCHES = [
       "home": 1.3,
       "away": 2.56
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -98881,7 +98599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -98974,14 +98692,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
+      "over25": 53,
+      "under25": 47,
       "bttsYes": 46,
       "bttsNo": 54,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 40,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.65,
+      "awayWinBy2Plus": 45,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.82,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -99376,7 +99094,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Philadelphia",
         "date": "2026-07-05",
         "temperatureMax": 33.4,
@@ -99602,9 +99320,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -99679,7 +99397,7 @@ window.MATCHES = [
       "home": 0.95,
       "away": 3.02
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -100019,7 +99737,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100114,15 +99832,15 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 58,
       "under25": 42,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 32,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.05,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 29,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.07,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -100240,7 +99958,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -100471,9 +100189,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -100505,19 +100223,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.9 / 平 3.57 / 客 4.1。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "The Socceroos were unrecognisable against Brazil as a ‘new golden generation’ takes shape | Joey Lynch",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/02/socceroos-australia-brazil-new-football-golden-generation",
-          "pubDate": "Thu, 01 Oct 2026 15:00:55 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -100740,9 +100449,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100818,7 +100527,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.41
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -100836,15 +100545,14 @@ window.MATCHES = [
       "actualResult": "客胜",
       "predictedResult": "主胜",
       "correct": false,
-      "rightFactors": [
-        "攻防综合"
-      ],
+      "rightFactors": [],
       "wrongFactors": [
         "世界排名",
         "近期状态",
         "球员质量"
       ],
       "neutralFactors": [
+        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -100858,7 +100566,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率56%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：攻防综合。判断错误的因素：世界排名、近期状态、球员质量。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率56%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、近期状态、球员质量。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -101159,7 +100867,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101256,13 +100964,13 @@ window.MATCHES = [
       "under25": 45,
       "bttsYes": 65,
       "bttsNo": 35,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 14,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.08,
-      "totalGoalsLean": "大于2.5球",
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.07,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -101380,7 +101088,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -101648,28 +101356,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Mexico City",
         "date": "2026-07-06",
         "temperatureMax": 22.7,
@@ -101905,9 +101607,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -101982,7 +101684,7 @@ window.MATCHES = [
       "home": 1.9,
       "away": 2.12
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -102323,7 +102025,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102415,16 +102117,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 56,
-      "bttsNo": 44,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 53,
+      "bttsNo": 47,
       "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 16,
+      "awayWinBy2Plus": 17,
       "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.57,
+      "expectedTotalGoals": 2.45,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
@@ -102543,7 +102245,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -102811,22 +102513,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -103049,9 +102745,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103127,7 +102823,7 @@ window.MATCHES = [
       "home": 1.76,
       "away": 1.88
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -103468,7 +103164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -103561,15 +103257,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.24,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.94,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
     },
@@ -103972,7 +103668,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": 23.3,
@@ -104198,9 +103894,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104275,7 +103971,7 @@ window.MATCHES = [
       "home": 1.66,
       "away": 2.09
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -104615,7 +104311,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -104710,12 +104406,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 57,
       "under25": 43,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 42,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.02,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 39,
+      "awayWinBy2Plus": 5,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 2.98,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -104836,7 +104532,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -105067,9 +104763,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -105101,25 +104797,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.37 / 平 4.74 / 客 9.25。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": 32.3,
@@ -105345,9 +105032,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105422,7 +105109,7 @@ window.MATCHES = [
       "home": 2.75,
       "away": 1.19
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -105762,7 +105449,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -105858,10 +105545,10 @@ window.MATCHES = [
       "under25": 52,
       "bttsYes": 57,
       "bttsNo": 43,
-      "homeWinBy2Plus": 15,
+      "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.65,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.67,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -106256,7 +105943,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": 23,
@@ -106482,9 +106169,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106559,7 +106246,7 @@ window.MATCHES = [
       "home": 1.81,
       "away": 2.06
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -106899,7 +106586,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -106992,14 +106679,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 64,
-      "under25": 36,
+      "over25": 63,
+      "under25": 37,
       "bttsYes": 67,
       "bttsNo": 33,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.36,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.31,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -107611,9 +107298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107689,7 +107376,7 @@ window.MATCHES = [
       "home": 2.3,
       "away": 1.65
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -108029,7 +107716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108121,15 +107808,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 15,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 17,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.01,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.07,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -108249,7 +107936,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -108517,22 +108204,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -108755,9 +108436,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108833,7 +108514,7 @@ window.MATCHES = [
       "home": 2,
       "away": 1.92
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -109174,7 +108855,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109267,14 +108948,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 31,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.86,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 33,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.88,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -109395,7 +109076,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -109663,22 +109344,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109911,9 +109586,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109989,7 +109664,7 @@ window.MATCHES = [
       "home": 1.33,
       "away": 2.3
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -110329,7 +110004,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110423,14 +110098,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 33,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.24,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 34,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.94,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -110551,7 +110226,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -110782,9 +110457,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -110816,25 +110491,16 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.7 / 平 3.57 / 客 5.58。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": 30.3,
@@ -111060,9 +110726,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111137,7 +110803,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.42
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -111477,7 +111143,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -111569,17 +111235,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.16,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.97,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -111697,7 +111363,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111965,22 +111631,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -112203,9 +111863,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112281,7 +111941,7 @@ window.MATCHES = [
       "home": 2.28,
       "away": 1.73
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -112621,7 +112281,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -112714,15 +112374,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.98,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 3.23,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
     },
@@ -112834,7 +112494,7 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 50,
         "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -112842,7 +112502,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -113081,8 +112741,8 @@ window.MATCHES = [
         "homeScore": 48,
         "awayScore": 50,
         "goalLift": -0.03,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -113110,28 +112770,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-02T14:40:11.118Z",
+        "fetchedAt": "2026-10-03T12:24:46.429Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": 31.1,
@@ -113147,9 +112801,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -113342,17 +112996,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-              "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT",
-              "description": "Impressive against Spain, England’s best player against Czechia, the move to La Liga has transformed the winger The way that Anthony Gordon sees it, he is still the same player, the same guy – on a journey, striving for self-improvement, a thinker, immensely driven. The way that an increasing number of people see him is changing, certainly in the UK. And, for that, it is impossible to overlook the Barcelona factor. The winger had a positive World Cup for England, despite a slow start, culminating in the dream moment when he gave his team their 1-0 lead in the semi‑final against Argentina . It was the prelude to the nightmare when he was withdrawn as Thomas Tuchel switched to a back five. England were reeled in, beaten 2-1, left with eternal regrets. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -113377,9 +113021,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113424,7 +113068,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -113454,7 +113098,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 2.13
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -113795,7 +113439,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -113887,17 +113531,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 62,
-      "under25": 38,
-      "bttsYes": 70,
-      "bttsNo": 30,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 3.39,
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.07,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -114015,7 +113659,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -114283,22 +113927,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "How Gordon became one of England's main men",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/articles/cm9qrqelnd49o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Fri, 02 Oct 2026 13:15:44 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -114531,9 +114169,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114609,7 +114247,7 @@ window.MATCHES = [
       "home": 1.98,
       "away": 1.58
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -114950,7 +114588,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-02T14:40:11.118Z",
+      "fetchedAt": "2026-10-03T12:24:46.429Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115043,17 +114681,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 55,
-      "under25": 45,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.06,
+      "over25": 49,
+      "under25": 51,
+      "bttsYes": 61,
+      "bttsNo": 39,
+      "homeWinBy2Plus": 13,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -115163,7 +114801,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -115171,7 +114809,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -115410,8 +115048,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -115439,22 +115077,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
           "title": "Yemen and football in the face of civil war: ‘It would be very nice to give the world a different headline’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/01/yemen-football-civil-war-gulf-cup",
           "pubDate": "Thu, 01 Oct 2026 13:23:17 GMT"
-        },
-        {
-          "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-          "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -115467,9 +115099,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -115662,17 +115294,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "‘A lot more to my game’: Gordon rises to a new level after Barcelona rebirth",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/sep/30/anthony-gordon-england-nations-league-world-cup-barcelona",
-              "pubDate": "Wed, 30 Sep 2026 18:00:14 GMT",
-              "description": "Impressive against Spain, England’s best player against Czechia, the move to La Liga has transformed the winger The way that Anthony Gordon sees it, he is still the same player, the same guy – on a journey, striving for self-improvement, a thinker, immensely driven. The way that an increasing number of people see him is changing, certainly in the UK. And, for that, it is impossible to overlook the Barcelona factor. The winger had a positive World Cup for England, despite a slow start, culminating in the dream moment when he gave his team their 1-0 lead in the semi‑final against Argentina . It was the prelude to the nightmare when he was withdrawn as Thomas Tuchel switched to a back five. England were reeled in, beaten 2-1, left with eternal regrets. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -115687,9 +115309,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-02T14:40:11.118Z",
+      "updatedAt": "2026-10-03T12:24:46.429Z",
       "dataQuality": {
-        "updatedAt": "2026-10-02T14:40:11.118Z",
+        "updatedAt": "2026-10-03T12:24:46.429Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115735,7 +115357,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115765,7 +115387,7 @@ window.MATCHES = [
       "home": 1.71,
       "away": 2.06
     },
-    "analysisUpdated": "2026-10-02",
+    "analysisUpdated": "2026-10-03",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -115810,17 +115432,17 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-10-02T14:40:11.118Z",
+  "updatedAt": "2026-10-03T12:24:46.429Z",
   "completedCount": 104,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
-  "topScoreCoverage": 40,
-  "scoreBandCoverage": 67,
-  "scoreScenarioCoverage": 87,
-  "averageBrier": 0.5278,
-  "averageLogLoss": 0.8799,
-  "drawRecall": 24,
+  "topScoreCoverage": 41,
+  "scoreBandCoverage": 66,
+  "scoreScenarioCoverage": 84,
+  "averageBrier": 0.5273,
+  "averageLogLoss": 0.8796,
+  "drawRecall": 21,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
     {
@@ -122118,7 +121740,7 @@ window.ANALYSIS_BACKTEST = {
       "sampleCount": 4,
       "outcomeHitRate": 75,
       "topScoreCoverage": 50,
-      "scoreBandCoverage": 50,
+      "scoreBandCoverage": 75,
       "scoreScenarioCoverage": 75,
       "averageBrier": 0.4907,
       "averageLogLoss": 0.8017,
@@ -122156,7 +121778,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122164,7 +121786,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 30,
+              "chance": 31,
               "examples": [
                 "0-1",
                 "0-2",
@@ -122173,7 +121795,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 13,
+              "chance": 12,
               "examples": [
                 "1-0",
                 "2-1",
@@ -122184,7 +121806,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 75,
+              "chance": 79,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122193,7 +121815,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 56,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122202,7 +121824,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 42,
+              "chance": 44,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122247,7 +121869,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 44,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122263,28 +121885,28 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队大胜",
-              "chance": 9,
+              "label": "客队小胜",
+              "chance": 8,
               "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
+                "0-1",
+                "1-2",
+                "0-2"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 82,
+              "chance": 84,
               "examples": [
                 "0-0",
-                "1-1",
-                "1-0"
+                "1-0",
+                "1-1"
               ]
             },
             {
               "label": "客队不败低比分",
-              "chance": 52,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122293,7 +121915,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 44,
+              "chance": 46,
               "examples": [
                 "0-0",
                 "1-1"
@@ -122338,7 +121960,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 23,
+              "chance": 22,
               "examples": [
                 "2-1",
                 "2-0",
@@ -122347,26 +121969,26 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 18,
+              "chance": 19,
               "examples": [
                 "1-1",
                 "0-0"
               ]
             },
             {
-              "label": "主队大胜",
-              "chance": 15,
+              "label": "客队小胜",
+              "chance": 13,
               "examples": [
-                "3-0",
-                "4-1",
-                "4-0"
+                "1-2",
+                "0-1",
+                "0-2"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 46,
+              "chance": 45,
               "examples": [
                 "1-1",
                 "2-1",
@@ -122374,21 +121996,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "开放对攻",
+              "chance": 36,
+              "examples": [
+                "2-2",
+                "3-1",
+                "3-2"
+              ]
+            },
+            {
               "label": "主队胜出覆盖",
-              "chance": 52,
+              "chance": 48,
               "examples": [
                 "2-1",
                 "2-0",
                 "3-1"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
               ]
             }
           ],
@@ -122415,7 +122037,7 @@ window.ANALYSIS_BACKTEST = {
           "actualScore": "5-1",
           "actualScoreBand": "主队大胜",
           "topScoreHit": false,
-          "scoreBandHit": false,
+          "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 74,
           "brier": 0.3606,
@@ -122430,10 +122052,10 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 26,
+              "chance": 28,
               "examples": [
-                "2-1",
                 "2-0",
+                "2-1",
                 "1-0"
               ]
             },
@@ -122446,41 +122068,41 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队小胜",
-              "chance": 13,
+              "label": "主队大胜",
+              "chance": 15,
               "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
+                "3-0",
+                "4-0",
+                "4-1"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 55,
+              "chance": 57,
               "examples": [
                 "1-1",
-                "2-1",
-                "2-0"
+                "2-0",
+                "2-1"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 50,
+              "chance": 54,
               "examples": [
-                "2-1",
                 "2-0",
+                "2-1",
                 "1-0"
               ]
             },
             {
               "label": "主队优势胜",
-              "chance": 32,
+              "chance": 36,
               "examples": [
                 "2-0",
-                "3-1",
-                "3-0"
+                "3-0",
+                "3-1"
               ]
             }
           ],
@@ -122498,11 +122120,11 @@ window.ANALYSIS_BACKTEST = {
       "note": "未赛前锁定，按当前模型回放，只用于调参参考",
       "sampleCount": 32,
       "outcomeHitRate": 44,
-      "topScoreCoverage": 47,
-      "scoreBandCoverage": 72,
-      "scoreScenarioCoverage": 88,
-      "averageBrier": 0.5725,
-      "averageLogLoss": 0.9255,
+      "topScoreCoverage": 50,
+      "scoreBandCoverage": 66,
+      "scoreScenarioCoverage": 78,
+      "averageBrier": 0.5707,
+      "averageLogLoss": 0.9247,
       "lockedCount": 0,
       "rows": [
         {
@@ -122524,20 +122146,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.8906,
-          "logLoss": 1.4697,
+          "confidence": 66,
+          "brier": 0.9386,
+          "logLoss": 1.5606,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
             36,
-            41,
-            23
+            43,
+            21
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122545,7 +122167,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 25,
+              "chance": 24,
               "examples": [
                 "1-0",
                 "2-0",
@@ -122554,7 +122176,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 18,
+              "chance": 16,
               "examples": [
                 "0-1",
                 "1-2",
@@ -122574,7 +122196,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 55,
+              "chance": 54,
               "examples": [
                 "1-1",
                 "0-0",
@@ -122583,7 +122205,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 36,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -122612,6 +122234,1930 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 76,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            65,
+            26,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 36,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 68,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sco-mar-15",
+          "match": "苏格兰 vs 摩洛哥",
+          "date": "2026-06-20",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-19T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 70,
+          "brier": 0.4344,
+          "logLoss": 0.734,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            14,
+            38,
+            48
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 31,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 26,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 14,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 63,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 42,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 48,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "usa-aus-21",
+          "match": "美国 vs 澳大利亚",
+          "date": "2026-06-20",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-19T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.7064,
+          "logLoss": 1.1394,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            32,
+            42,
+            26
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 20,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 57,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 54,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "mex-kor-4",
+          "match": "墨西哥 vs 韩国",
+          "date": "2026-06-19",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-19T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.6386,
+          "logLoss": 1.0217,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            36,
+            43,
+            21
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 24,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 16,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 64,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 54,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "can-qat-10",
+          "match": "加拿大 vs 卡塔尔",
+          "date": "2026-06-19",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-18T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "6-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 63,
+          "brier": 0.5282,
+          "logLoss": 0.821,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            44,
+            45,
+            11
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 31,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 10,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 79,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 52,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sui-bih-9",
+          "match": "瑞士 vs 波黑",
+          "date": "2026-06-19",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-18T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 65,
+          "brier": 0.4958,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            45,
+            42,
+            13
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 29,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 11,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 71,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "cze-rsa-3",
+          "match": "捷克 vs 南非",
+          "date": "2026-06-19",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-18T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.5174,
+          "logLoss": 0.8675,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            37,
+            42,
+            21
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 29,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 70,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 57,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "uzb-col-62",
+          "match": "乌兹别克斯坦 vs 哥伦比亚",
+          "date": "2026-06-18",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-18T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "1-3",
+          "actualScoreBand": "客队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 64,
+          "brier": 0.5018,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            12,
+            43,
+            45
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 10,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 75,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 50,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "gha-pan-68",
+          "match": "加纳 vs 巴拿马",
+          "date": "2026-06-18",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-17T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 68,
+          "brier": 0.9882,
+          "logLoss": 1.6607,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            19,
+            45,
+            36
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 75,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 60,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "eng-cro-67",
+          "match": "英格兰 vs 克罗地亚",
+          "date": "2026-06-18",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-17T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "4-2",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.6174,
+          "logLoss": 0.9943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            37,
+            42,
+            21
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 33,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 21,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 14,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 58,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 37,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "por-cod-61",
+          "match": "葡萄牙 vs 刚果（金）",
+          "date": "2026-06-18",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-17T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.5624,
+          "logLoss": 0.8675,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            46,
+            42,
+            12
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 29,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 11,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 72,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "aut-jor-56",
+          "match": "奥地利 vs 约旦",
+          "date": "2026-06-17",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-17T04:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2502,
+          "logLoss": 0.4943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            61,
+            30,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 39,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 27,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 16,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 75,
+              "examples": [
+                "1-0",
+                "2-0",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "arg-alg-55",
+          "match": "阿根廷 vs 阿尔及利亚",
+          "date": "2026-06-17",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-17T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 66,
+          "brier": 0.485,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            45,
+            40,
+            15
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 33,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 25,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 12,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 63,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 44,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 45,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irq-nor-50",
+          "match": "伊拉克 vs 挪威",
+          "date": "2026-06-17",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-16T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "1-4",
+          "actualScoreBand": "客队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 63,
+          "brier": 0.5238,
+          "logLoss": 0.844,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            15,
+            42,
+            43
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 36,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 26,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 12,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 67,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 36,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "fra-sen-49",
+          "match": "法国 vs 塞内加尔",
+          "date": "2026-06-17",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-16T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2562,
+          "logLoss": 0.5276,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            59,
+            25,
+            16
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 26,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 18,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 50,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 59,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 42,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irn-nzl-38",
+          "match": "伊朗 vs 新西兰",
+          "date": "2026-06-16",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-16T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 76,
+          "brier": 0.8186,
+          "logLoss": 1.1394,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            59,
+            32,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 40,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 30,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 14,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 77,
+              "examples": [
+                "1-0",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 59,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 34,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ksa-uru-44",
+          "match": "沙特阿拉伯 vs 乌拉圭",
+          "date": "2026-06-16",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-15T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.5096,
+          "logLoss": 0.821,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            14,
+            44,
+            42
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 34,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 13,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 80,
+              "examples": [
+                "0-0",
+                "0-1",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 55,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bel-egy-37",
+          "match": "比利时 vs 埃及",
+          "date": "2026-06-16",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-15T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8498,
+          "logLoss": 1.273,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            55,
+            28,
+            17
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 22,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 16,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 56,
+              "examples": [
+                "1-1",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 55,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "esp-cpv-43",
+          "match": "西班牙 vs 佛得角",
+          "date": "2026-06-16",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-15T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "0-0",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8186,
+          "logLoss": 1.1394,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            59,
+            32,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 40,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 30,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 14,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 77,
+              "examples": [
+                "1-0",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 59,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 34,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "swe-tun-32",
+          "match": "瑞典 vs 突尼斯",
+          "date": "2026-06-15",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-15T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "5-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 64,
+          "brier": 0.645,
+          "logLoss": 1.0498,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            35,
+            40,
+            25
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 26,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 19,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 64,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 56,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "civ-ecu-26",
+          "match": "科特迪瓦 vs 厄瓜多尔",
+          "date": "2026-06-15",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-14T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 0.6422,
+          "logLoss": 1.0498,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            35,
+            39,
+            26
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 25,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 20,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 62,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 55,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ned-jpn-31",
+          "match": "荷兰 vs 日本",
+          "date": "2026-06-15",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-14T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 64,
+          "brier": 0.5586,
+          "logLoss": 0.9416,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            32,
+            39,
+            29
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 28,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 18,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 16,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 47,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 32,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ger-cuw-25",
+          "match": "德国 vs 库拉索",
+          "date": "2026-06-15",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-14T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "7-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
           "brier": 0.2106,
           "logLoss": 0.4463,
           "marketOutcome": "",
@@ -122624,7 +124170,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 38,
+              "chance": 37,
               "examples": [
                 "2-0",
                 "1-0",
@@ -122681,99 +124227,11 @@ window.ANALYSIS_BACKTEST = {
           "marketProbabilities": null
         },
         {
-          "id": "sco-mar-15",
-          "match": "苏格兰 vs 摩洛哥",
-          "date": "2026-06-20",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-19T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "0-1",
-          "actualScoreBand": "客队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 62,
-          "brier": 0.5384,
-          "logLoss": 0.8675,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            16,
-            42,
-            42
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 36,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 26,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 12,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 66,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 49,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 42,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "usa-aus-21",
-          "match": "美国 vs 澳大利亚",
-          "date": "2026-06-20",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-19T19:00:00.000Z",
+          "id": "aus-tur-20",
+          "match": "澳大利亚 vs 土耳其",
+          "date": "2026-06-14",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-14T04:00:00.000Z",
           "predictionSource": "current-model",
           "lockedAt": null,
           "modelVersion": "retro",
@@ -122787,15 +124245,15 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.6632,
-          "logLoss": 1.0788,
+          "confidence": 61,
+          "brier": 0.7778,
+          "logLoss": 1.273,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            34,
-            40,
-            26
+            28,
+            37,
+            35
           ],
           "scoreBands": [
             {
@@ -122807,323 +124265,148 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队小胜",
-              "chance": 20,
+              "label": "客队小胜",
+              "chance": 24,
               "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
+                "0-1",
+                "1-2",
+                "0-2"
               ]
             },
             {
-              "label": "客队小胜",
-              "chance": 17,
+              "label": "主队小胜",
+              "chance": 20,
               "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
+                "1-0",
+                "2-1",
+                "2-0"
               ]
             }
           ],
           "scoreScenarios": [
             {
-              "label": "主队不败低比分",
-              "chance": 54,
+              "label": "客队不败低比分",
+              "chance": 58,
               "examples": [
                 "1-1",
                 "0-0",
-                "2-1"
+                "0-1"
               ]
             },
             {
-              "label": "客队不败低比分",
-              "chance": 50,
+              "label": "主队不败低比分",
+              "chance": 53,
               "examples": [
                 "1-1",
                 "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 35,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "hai-sco-14",
+          "match": "海地 vs 苏格兰",
+          "date": "2026-06-14",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-14T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 67,
+          "brier": 0.5912,
+          "logLoss": 0.9163,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            14,
+            46,
+            40
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
                 "1-2"
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 34,
+              "label": "主队小胜",
+              "chance": 12,
               "examples": [
-                "2-1",
                 "1-0",
+                "2-1",
                 "2-0"
               ]
             }
           ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "mex-kor-4",
-          "match": "墨西哥 vs 韩国",
-          "date": "2026-06-19",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-19T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.6174,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            37,
-            42,
-            21
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 23,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 15,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
           "scoreScenarios": [
             {
-              "label": "主队不败低比分",
-              "chance": 62,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
               "label": "客队不败低比分",
-              "chance": 52,
+              "chance": 77,
               "examples": [
-                "1-1",
                 "0-0",
+                "1-1",
                 "0-1"
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 35,
+              "label": "主队不败低比分",
+              "chance": 56,
               "examples": [
+                "0-0",
                 "1-1",
-                "0-0"
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
               ]
             }
           ],
           "marketProbabilities": null
         },
         {
-          "id": "can-qat-10",
-          "match": "加拿大 vs 卡塔尔",
-          "date": "2026-06-19",
+          "id": "bra-mar-13",
+          "match": "巴西 vs 摩洛哥",
+          "date": "2026-06-14",
           "kickoffTime": "06:00",
-          "kickoff": "2026-06-18T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "6-0",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": false,
-          "confidence": 64,
-          "brier": 0.4952,
-          "logLoss": 0.7765,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            46,
-            44,
-            10
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 32,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 10,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 79,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 50,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "sui-bih-9",
-          "match": "瑞士 vs 波黑",
-          "date": "2026-06-19",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-18T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "4-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 0.4634,
-          "logLoss": 0.755,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            47,
-            41,
-            12
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 36,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 29,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 12,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 71,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 46,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 47,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "cze-rsa-3",
-          "match": "捷克 vs 南非",
-          "date": "2026-06-19",
-          "kickoffTime": "00:00",
-          "kickoff": "2026-06-18T16:00:00.000Z",
+          "kickoff": "2026-06-13T22:00:00.000Z",
           "predictionSource": "current-model",
           "lockedAt": null,
           "modelVersion": "retro",
@@ -123137,107 +124420,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5208,
-          "logLoss": 0.8675,
+          "confidence": 62,
+          "brier": 0.5784,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
+            28,
             38,
-            42,
-            20
+            34
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 28,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 70,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 56,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "uzb-col-62",
-          "match": "乌兹别克斯坦 vs 哥伦比亚",
-          "date": "2026-06-18",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-18T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "客胜",
-          "outcomeHit": true,
-          "actualScore": "1-3",
-          "actualScoreBand": "客队对攻胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 0.4634,
-          "logLoss": 0.755,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            12,
-            41,
-            47
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 36,
+              "chance": 27,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123245,7 +124441,95 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 29,
+              "chance": 18,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 15,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 47,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 44,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 34,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "qat-sui-8",
+          "match": "卡塔尔 vs 瑞士",
+          "date": "2026-06-14",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-13T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "客胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 67,
+          "brier": 0.5768,
+          "logLoss": 0.8675,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            10,
+            42,
+            48
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 39,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 33,
               "examples": [
                 "0-1",
                 "0-2",
@@ -123254,7 +124538,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队大胜",
-              "chance": 12,
+              "chance": 11,
               "examples": [
                 "0-3",
                 "0-4",
@@ -123265,95 +124549,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 71,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 46,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 47,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "gha-pan-68",
-          "match": "加纳 vs 巴拿马",
-          "date": "2026-06-18",
-          "kickoffTime": "07:00",
-          "kickoff": "2026-06-17T23:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 69,
-          "brier": 0.9902,
-          "logLoss": 1.6607,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            19,
-            46,
-            35
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 44,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 29,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 17,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 75,
+              "chance": 78,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123362,7 +124558,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 61,
+              "chance": 48,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123371,7 +124567,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 44,
+              "chance": 39,
               "examples": [
                 "0-0",
                 "1-1"
@@ -123381,11 +124577,11 @@ window.ANALYSIS_BACKTEST = {
           "marketProbabilities": null
         },
         {
-          "id": "eng-cro-67",
-          "match": "英格兰 vs 克罗地亚",
-          "date": "2026-06-18",
-          "kickoffTime": "04:00",
-          "kickoff": "2026-06-17T20:00:00.000Z",
+          "id": "usa-par-19",
+          "match": "美国 vs 巴拉圭",
+          "date": "2026-06-13",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-13T01:00:00.000Z",
           "predictionSource": "current-model",
           "lockedAt": null,
           "modelVersion": "retro",
@@ -123394,8 +124590,8 @@ window.ANALYSIS_BACKTEST = {
           "actualOutcome": "主胜",
           "predictedOutcome": "平局",
           "outcomeHit": false,
-          "actualScore": "4-2",
-          "actualScoreBand": "主队对攻胜",
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": true,
@@ -123469,1586 +124665,6 @@ window.ANALYSIS_BACKTEST = {
           "marketProbabilities": null
         },
         {
-          "id": "por-cod-61",
-          "match": "葡萄牙 vs 刚果（金）",
-          "date": "2026-06-18",
-          "kickoffTime": "01:00",
-          "kickoff": "2026-06-17T17:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.8342,
-          "logLoss": 1.1712,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            59,
-            31,
-            10
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 38,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 28,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 15,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 73,
-              "examples": [
-                "1-0",
-                "0-0",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 59,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 35,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "aut-jor-56",
-          "match": "奥地利 vs 约旦",
-          "date": "2026-06-17",
-          "kickoffTime": "12:00",
-          "kickoff": "2026-06-17T04:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-1",
-          "actualScoreBand": "主队对攻胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.2106,
-          "logLoss": 0.4463,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            64,
-            27,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 24,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 19,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 70,
-              "examples": [
-                "2-0",
-                "1-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 64,
-              "examples": [
-                "2-0",
-                "1-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 41,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "arg-alg-55",
-          "match": "阿根廷 vs 阿尔及利亚",
-          "date": "2026-06-17",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-17T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-0",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.3098,
-          "logLoss": 0.5978,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            55,
-            28,
-            17
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 28,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 21,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 16,
-              "examples": [
-                "3-0",
-                "4-1",
-                "4-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 55,
-              "examples": [
-                "1-1",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 55,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "irq-nor-50",
-          "match": "伊拉克 vs 挪威",
-          "date": "2026-06-17",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-16T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-4",
-          "actualScoreBand": "客队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5642,
-          "logLoss": 0.8916,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            15,
-            44,
-            41
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 39,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 27,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 12,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 70,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 51,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 41,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "fra-sen-49",
-          "match": "法国 vs 塞内加尔",
-          "date": "2026-06-17",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-16T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-1",
-          "actualScoreBand": "主队对攻胜",
-          "topScoreHit": true,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.2954,
-          "logLoss": 0.5798,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            56,
-            27,
-            17
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 26,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 20,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 17,
-              "examples": [
-                "3-0",
-                "4-1",
-                "4-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 52,
-              "examples": [
-                "1-1",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 56,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 39,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "irn-nzl-38",
-          "match": "伊朗 vs 新西兰",
-          "date": "2026-06-16",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-16T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "2-2",
-          "actualScoreBand": "高比分平局",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 75,
-          "brier": 0.8966,
-          "logLoss": 1.2379,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            62,
-            29,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 39,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 26,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 17,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 74,
-              "examples": [
-                "1-0",
-                "2-0",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 62,
-              "examples": [
-                "1-0",
-                "2-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 38,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ksa-uru-44",
-          "match": "沙特阿拉伯 vs 乌拉圭",
-          "date": "2026-06-16",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-15T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 62,
-          "brier": 0.5294,
-          "logLoss": 0.844,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            14,
-            43,
-            43
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 35,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 13,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 80,
-              "examples": [
-                "0-0",
-                "0-1",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 54,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "bel-egy-37",
-          "match": "比利时 vs 埃及",
-          "date": "2026-06-16",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-15T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.8498,
-          "logLoss": 1.273,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            55,
-            28,
-            17
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 28,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 21,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 16,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 56,
-              "examples": [
-                "1-1",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 55,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "esp-cpv-43",
-          "match": "西班牙 vs 佛得角",
-          "date": "2026-06-16",
-          "kickoffTime": "00:00",
-          "kickoff": "2026-06-15T16:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "0-0",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.8442,
-          "logLoss": 1.1712,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            60,
-            31,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 39,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 29,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 15,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 76,
-              "examples": [
-                "1-0",
-                "0-0",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 60,
-              "examples": [
-                "1-0",
-                "2-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 36,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "swe-tun-32",
-          "match": "瑞典 vs 突尼斯",
-          "date": "2026-06-15",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-15T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "5-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.6518,
-          "logLoss": 1.0498,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            35,
-            42,
-            23
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 27,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 19,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 68,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 58,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "civ-ecu-26",
-          "match": "科特迪瓦 vs 厄瓜多尔",
-          "date": "2026-06-15",
-          "kickoffTime": "07:00",
-          "kickoff": "2026-06-14T23:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.6066,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            37,
-            39,
-            24
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 34,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 26,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 18,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 63,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 54,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 37,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ned-jpn-31",
-          "match": "荷兰 vs 日本",
-          "date": "2026-06-15",
-          "kickoffTime": "04:00",
-          "kickoff": "2026-06-14T20:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "2-2",
-          "actualScoreBand": "高比分平局",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 61,
-          "brier": 0.6146,
-          "logLoss": 1.0217,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            31,
-            36,
-            33
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 27,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 20,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 18,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 49,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 48,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 33,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ger-cuw-25",
-          "match": "德国 vs 库拉索",
-          "date": "2026-06-15",
-          "kickoffTime": "01:00",
-          "kickoff": "2026-06-14T17:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "7-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.1746,
-          "logLoss": 0.4005,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            67,
-            24,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 34,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 23,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 20,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 64,
-              "examples": [
-                "2-0",
-                "1-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 67,
-              "examples": [
-                "2-0",
-                "1-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 47,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "aus-tur-20",
-          "match": "澳大利亚 vs 土耳其",
-          "date": "2026-06-14",
-          "kickoffTime": "12:00",
-          "kickoff": "2026-06-14T04:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "2-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 62,
-          "brier": 0.7998,
-          "logLoss": 1.3093,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            27,
-            38,
-            35
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 33,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 24,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 20,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 60,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 54,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 35,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "hai-sco-14",
-          "match": "海地 vs 苏格兰",
-          "date": "2026-06-14",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-14T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "0-1",
-          "actualScoreBand": "客队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 65,
-          "brier": 0.5558,
-          "logLoss": 0.8675,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            13,
-            45,
-            42
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 32,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 12,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 78,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 54,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "bra-mar-13",
-          "match": "巴西 vs 摩洛哥",
-          "date": "2026-06-14",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-13T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.5966,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            34,
-            37,
-            29
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 24,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 17,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 14,
-              "examples": [
-                "1-2",
-                "0-2",
-                "0-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 44,
-              "examples": [
-                "1-1",
-                "2-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 41,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "开放对攻",
-              "chance": 37,
-              "examples": [
-                "2-2",
-                "3-1",
-                "1-3"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "qat-sui-8",
-          "match": "卡塔尔 vs 瑞士",
-          "date": "2026-06-14",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-13T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.5082,
-          "logLoss": 0.7985,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            11,
-            45,
-            44
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 31,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 10,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 78,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 52,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "usa-par-19",
-          "match": "美国 vs 巴拉圭",
-          "date": "2026-06-13",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-13T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "4-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.6306,
-          "logLoss": 1.0217,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            36,
-            41,
-            23
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 33,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 22,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 58,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 50,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 36,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
           "id": "can-bih-7",
           "match": "加拿大 vs 波黑",
           "date": "2026-06-13",
@@ -125108,7 +124724,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 75,
+              "chance": 74,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125154,15 +124770,15 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.6134,
-          "logLoss": 0.9943,
+          "confidence": 65,
+          "brier": 0.6482,
+          "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
+            35,
             41,
-            22
+            24
           ],
           "scoreBands": [
             {
@@ -125175,7 +124791,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 26,
               "examples": [
                 "1-0",
                 "2-0",
@@ -125184,7 +124800,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 18,
+              "chance": 19,
               "examples": [
                 "0-1",
                 "1-2",
@@ -125195,7 +124811,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 68,
+              "chance": 66,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125204,7 +124820,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 56,
+              "chance": 58,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125242,13 +124858,13 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 76,
-          "brier": 0.2106,
-          "logLoss": 0.4463,
+          "brier": 0.2234,
+          "logLoss": 0.462,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            64,
-            27,
+            63,
+            28,
             9
           ],
           "scoreBands": [
@@ -125256,14 +124872,14 @@ window.ANALYSIS_BACKTEST = {
               "label": "主队小胜",
               "chance": 37,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "2-1"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 25,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125271,7 +124887,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 20,
+              "chance": 18,
               "examples": [
                 "3-0",
                 "4-0",
@@ -125282,25 +124898,25 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 69,
+              "chance": 71,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "1-1"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 64,
+              "chance": 63,
               "examples": [
-                "2-0",
                 "1-0",
+                "2-0",
                 "3-0"
               ]
             },
             {
               "label": "主队优势胜",
-              "chance": 42,
+              "chance": 40,
               "examples": [
                 "2-0",
                 "3-0",
@@ -125317,54 +124933,54 @@ window.ANALYSIS_BACKTEST = {
     {
       "outcome": "主胜",
       "actualCount": 46,
-      "hitCount": 33,
-      "hitRate": 72
+      "hitCount": 32,
+      "hitRate": 70
     },
     {
       "outcome": "平局",
       "actualCount": 29,
-      "hitCount": 7,
-      "hitRate": 24
+      "hitCount": 6,
+      "hitRate": 21
     },
     {
       "outcome": "客胜",
       "actualCount": 29,
-      "hitCount": 20,
-      "hitRate": 69
+      "hitCount": 22,
+      "hitRate": 76
     }
   ],
   "predictedBreakdown": [
     {
       "outcome": "主胜",
-      "predictedCount": 51,
-      "hitCount": 33,
-      "precision": 65
+      "predictedCount": 50,
+      "hitCount": 32,
+      "precision": 64
     },
     {
       "outcome": "平局",
-      "predictedCount": 24,
-      "hitCount": 7,
-      "precision": 29
+      "predictedCount": 22,
+      "hitCount": 6,
+      "precision": 27
     },
     {
       "outcome": "客胜",
-      "predictedCount": 29,
-      "hitCount": 20,
+      "predictedCount": 32,
+      "hitCount": 22,
       "precision": 69
     }
   ],
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 23,
-      "hitRate": 43,
-      "averageBrier": 0.6242
+      "count": 19,
+      "hitRate": 53,
+      "averageBrier": 0.6088
     },
     {
       "label": "中信心",
-      "count": 80,
-      "hitRate": 63,
-      "averageBrier": 0.492
+      "count": 84,
+      "hitRate": 60,
+      "averageBrier": 0.5011
     },
     {
       "label": "高信心",
@@ -128711,7 +128327,7 @@ window.ANALYSIS_BACKTEST = {
     "needsAdjust": false,
     "factorAccuracy": {
       "世界排名": 62,
-      "攻防综合": 61,
+      "攻防综合": 63,
       "近期状态": 55,
       "球员质量": 63,
       "出线动机": 28,
