@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-10-08T14:54:15.114Z",
+  "updatedAt": "2026-10-08T15:29:41.982Z",
   "runDate": "2026-10-08",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-10-08T14:54:15.114Z",
+  "externalFetchedAt": "2026-10-08T15:29:41.982Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 30,
+  "expertArticleCount": 31,
   "expertArticleBodyCount": 2,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 5,
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1070,9 +1070,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1469,7 +1469,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2061,9 +2061,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2471,7 +2471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3161,9 +3161,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3573,7 +3573,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4261,9 +4261,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4351,11 +4351,11 @@ window.MATCHES = [
       "correct": false,
       "rightFactors": [
         "世界排名",
-        "攻防综合",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
+        "攻防综合",
         "近期状态",
         "出线动机",
         "天气/场地",
@@ -4370,7 +4370,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率40%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率41%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -4671,7 +4671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5358,9 +5358,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5768,7 +5768,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6477,9 +6477,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6887,7 +6887,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7583,9 +7583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7982,7 +7982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8608,9 +8608,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9007,7 +9007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9622,9 +9622,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10032,7 +10032,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10720,9 +10720,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11119,7 +11119,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11714,9 +11714,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12125,7 +12125,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12812,9 +12812,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13212,7 +13212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13817,9 +13817,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14227,7 +14227,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14918,9 +14918,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15328,7 +15328,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16015,9 +16015,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16425,7 +16425,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17113,9 +17113,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17525,7 +17525,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18213,9 +18213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18623,7 +18623,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19310,9 +19310,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19720,7 +19720,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20432,9 +20432,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20842,7 +20842,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21054,7 +21054,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -21285,9 +21285,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -21304,19 +21304,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21539,9 +21530,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21644,7 +21635,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -21949,7 +21940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22649,9 +22640,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23059,7 +23050,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23086,7 +23077,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 9
+        "chance": 8
       },
       {
         "score": "2-0",
@@ -23104,7 +23095,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 23,
         "examples": [
           "1-0",
           "2-0",
@@ -23115,8 +23106,8 @@ window.MATCHES = [
         "label": "客队小胜",
         "chance": 15,
         "examples": [
-          "0-1",
           "1-2",
+          "0-1",
           "0-2"
         ]
       }
@@ -23137,7 +23128,7 @@ window.MATCHES = [
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "1-2"
         ]
       },
       {
@@ -23158,7 +23149,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 20,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.47,
+      "expectedTotalGoals": 2.5,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -23260,10 +23251,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 48,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -23507,11 +23498,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 48,
-        "goalLift": 0.05,
+        "goalLift": 0.08,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -23539,16 +23530,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -23766,7 +23757,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -23794,15 +23785,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -23816,7 +23798,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -23836,22 +23818,13 @@ window.MATCHES = [
               "description": "Head coach pleased ‘everyone bought in’ to new ideas Jarell Quansah says: ‘We can really dominate teams’ Thomas Tuchel believes England have unlocked a new level after moving forward with his tactical tweaks in the opening Nations League fixtures. The head coach wanted the players to retain their aggression, especially in the high press, to step on to the front foot and to harness the chaos often seen in the Premier League. But he has also tried to get them to play with greater freedom, to trust and follow their instincts more – while being alive to the need to cover for their teammates. The results have been positive. After losing to Spain at Wembley , England recorded three wins: two against Czechia either side of the 7-0 victory against Croatia in Rijeka. They have in essence guaranteed their progress into the quarter-finals of a competition regarded as a tune-up for Euro 2028, while putting a bit of distance between themselves and the heartbreaking World Cup semi-final defeat by Argentina in July. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23924,7 +23897,7 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.49,
+      "home": 1.51,
       "away": 0.98
     },
     "analysisUpdated": "2026-10-08",
@@ -24259,7 +24232,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24949,9 +24922,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25360,7 +25333,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26060,9 +26033,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26470,7 +26443,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27160,9 +27133,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27570,7 +27543,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28258,9 +28231,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28668,7 +28641,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29358,9 +29331,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29757,7 +29730,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30369,9 +30342,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30782,7 +30755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31504,9 +31477,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31915,7 +31888,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32612,9 +32585,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33022,7 +32995,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33734,9 +33707,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34133,7 +34106,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34725,9 +34698,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35135,7 +35108,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35848,9 +35821,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36255,7 +36228,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36892,9 +36865,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37299,7 +37272,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37916,9 +37889,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38334,7 +38307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39043,9 +39016,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39461,7 +39434,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40184,9 +40157,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40602,7 +40575,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41313,9 +41286,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41720,7 +41693,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42336,9 +42309,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42754,7 +42727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43468,9 +43441,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43886,7 +43859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44107,7 +44080,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -44375,19 +44348,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Watch: Every Messi World Cup goal for Argentina",
           "source": "feeds.bbci.co.uk",
           "link": "https://www.bbc.co.uk/sport/football/videos/c61kdn0nwld4o?at_medium=RSS&at_campaign=rss",
           "pubDate": "Wed, 07 Oct 2026 05:24:54 GMT"
-        },
-        {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
         },
         {
           "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
@@ -44402,7 +44369,7 @@ window.MATCHES = [
           "pubDate": "Wed, 07 Oct 2026 17:02:22 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44625,9 +44592,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44739,7 +44706,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -45046,7 +45013,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45761,9 +45728,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46179,7 +46146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46890,9 +46857,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47309,7 +47276,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48020,9 +47987,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48438,7 +48405,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49167,9 +49134,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49585,7 +49552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49678,14 +49645,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
+      "over25": 41,
+      "under25": 59,
       "bttsYes": 38,
       "bttsNo": 62,
-      "homeWinBy2Plus": 38,
+      "homeWinBy2Plus": 39,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.33,
+      "expectedTotalGoals": 2.36,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49795,10 +49762,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -50042,11 +50009,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0.08,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -50089,16 +50056,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -50316,7 +50283,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -50344,15 +50311,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -50366,7 +50324,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -50377,22 +50335,13 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50808,7 +50757,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51530,9 +51479,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51948,7 +51897,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52659,9 +52608,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53077,7 +53026,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53791,9 +53740,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54209,7 +54158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54922,9 +54871,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55341,7 +55290,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56079,9 +56028,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56497,7 +56446,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57211,9 +57160,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57629,7 +57578,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58362,9 +58311,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58769,7 +58718,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59385,9 +59334,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59781,7 +59730,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60300,9 +60249,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60719,7 +60668,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61450,9 +61399,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61868,7 +61817,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62579,9 +62528,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62997,7 +62946,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63711,9 +63660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64120,7 +64069,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64736,9 +64685,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65154,7 +65103,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65896,9 +65845,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66316,7 +66265,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67028,9 +66977,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67446,7 +67395,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68160,9 +68109,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68567,7 +68516,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69185,9 +69134,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69603,7 +69552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70322,9 +70271,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70740,7 +70689,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71454,9 +71403,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71872,7 +71821,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72586,9 +72535,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73004,7 +72953,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73097,14 +73046,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 43,
-      "bttsNo": 57,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 44,
+      "bttsNo": 56,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 38,
+      "awayWinBy2Plus": 39,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.53,
+      "expectedTotalGoals": 2.56,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73215,9 +73164,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 48,
-        "awayScore": 46,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 48,
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -73462,10 +73411,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 48,
-        "awayScore": 46,
-        "goalLift": 0.05,
+        "awayScore": 48,
+        "goalLift": 0.08,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -73508,16 +73457,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -73735,7 +73684,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -73763,15 +73712,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -73785,7 +73725,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -73796,22 +73736,13 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74227,7 +74158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74950,9 +74881,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75368,7 +75299,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76088,9 +76019,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76506,7 +76437,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77228,9 +77159,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77646,7 +77577,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77866,7 +77797,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -78097,9 +78028,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -78131,19 +78062,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 3.04 / 平 3.04 / 客 2.47。市场倾向 奥地利。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -78369,9 +78291,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78482,7 +78404,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -78787,7 +78709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79520,9 +79442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79938,7 +79860,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80649,9 +80571,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81067,7 +80989,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81803,9 +81725,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82221,7 +82143,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82952,9 +82874,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83370,7 +83292,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84082,9 +84004,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84489,7 +84411,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85105,9 +85027,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85525,7 +85447,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86237,9 +86159,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86655,7 +86577,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87388,9 +87310,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87806,7 +87728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87898,14 +87820,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
+      "over25": 51,
+      "under25": 49,
       "bttsYes": 44,
       "bttsNo": 56,
       "homeWinBy2Plus": 44,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.72,
+      "expectedTotalGoals": 2.75,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -88015,10 +87937,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -88262,11 +88184,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0.08,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -88309,16 +88231,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -88539,7 +88461,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -88567,15 +88489,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -88589,7 +88502,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -88600,22 +88513,13 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89031,7 +88935,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89746,9 +89650,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90166,7 +90070,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90878,9 +90782,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90976,12 +90880,12 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
-        "攻防综合",
         "近期状态",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
+        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -90995,7 +90899,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了主胜方向（主胜概率70%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率70%），与实际结果一致。 判断正确的因素：世界排名、近期状态、球员质量。 赔率市场正确预判了主胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -91296,7 +91200,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91517,7 +91421,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91785,14 +91689,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
         {
           "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
           "source": "www.theguardian.com",
@@ -91800,7 +91698,7 @@ window.MATCHES = [
           "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -92023,9 +91921,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92137,7 +92035,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -92442,7 +92340,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93171,9 +93069,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93589,7 +93487,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94303,9 +94201,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94721,7 +94619,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95464,9 +95362,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95871,7 +95769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96509,9 +96407,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96927,7 +96825,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97641,9 +97539,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98059,7 +97957,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98774,9 +98672,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -99194,7 +99092,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99909,9 +99807,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100327,7 +100225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101060,9 +100958,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101478,7 +101376,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101571,14 +101469,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 67,
-      "bttsNo": 33,
+      "over25": 59,
+      "under25": 41,
+      "bttsYes": 68,
+      "bttsNo": 32,
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.22,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 3.25,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -101689,9 +101587,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 47,
-        "awayScore": 43,
-        "contribution": 0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 45,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -101936,10 +101834,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 47,
-        "awayScore": 43,
-        "goalLift": 0.08,
+        "awayScore": 45,
+        "goalLift": 0.11,
         "confidenceDelta": -3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -101982,16 +101880,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/08/mexico-soccer-team-rafael-marquez",
+          "pubDate": "Thu, 08 Oct 2026 11:22:24 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -102212,7 +102110,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -102240,15 +102138,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -102262,7 +102151,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -102282,22 +102171,13 @@ window.MATCHES = [
               "description": "A series of dispiriting friendly results have El Tri reeling. But the problems run much deeper than the team’s new coach When a new coach ascends to lead Mexico’s national team, fans say he is sitting in “la silla mas caliente” – the hottest seat in town; one that can also burn. Usually the coach arrives with a new idea, a new vocabulary, a new promise. For a while, everyone agrees that something has changed. Then comes the first bad night. The mood changes. The new idea becomes a failed experiment; the promise, another deception; the coach becomes just another name on a long list of those who were supposed to fix Mexican soccer, but couldn’t. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102714,7 +102594,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103440,9 +103320,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103861,7 +103741,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104356,7 +104236,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:54:15.114Z",
+        "fetchedAt": "2026-10-08T15:29:41.982Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104582,9 +104462,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -104679,11 +104559,11 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "近期状态"
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "球员质量",
         "出线动机",
         "天气/场地",
@@ -104698,7 +104578,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了客胜方向（客胜概率40%），与实际结果一致。 判断正确的因素：世界排名、近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率40%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -104999,7 +104879,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105515,7 +105395,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:54:15.114Z",
+        "fetchedAt": "2026-10-08T15:29:41.982Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105741,9 +105621,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106158,7 +106038,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106652,7 +106532,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:54:15.114Z",
+        "fetchedAt": "2026-10-08T15:29:41.982Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106878,9 +106758,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107297,7 +107177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -108009,9 +107889,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108427,7 +108307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109147,9 +109027,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109566,7 +109446,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109659,14 +109539,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 58,
-      "bttsNo": 42,
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 6,
       "awayWinBy2Plus": 37,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.1,
+      "expectedTotalGoals": 3.16,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -109776,10 +109656,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
-        "awayScore": 46,
+        "homeScore": 48,
+        "awayScore": 48,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -110023,11 +109903,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
-        "awayScore": 46,
-        "goalLift": 0.02,
+        "homeScore": 48,
+        "awayScore": 48,
+        "goalLift": 0.08,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -110070,16 +109950,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -110297,7 +110177,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -110325,15 +110205,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -110347,7 +110218,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -110358,22 +110229,13 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110789,7 +110651,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111306,7 +111168,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:54:15.114Z",
+        "fetchedAt": "2026-10-08T15:29:41.982Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111532,9 +111394,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111951,7 +111813,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112671,9 +112533,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113090,7 +112952,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113183,14 +113045,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
+      "over25": 61,
+      "under25": 39,
       "bttsYes": 69,
       "bttsNo": 31,
       "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.33,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 3.36,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -113300,10 +113162,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -113547,11 +113409,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0.08,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -113600,10 +113462,10 @@ window.MATCHES = [
           "pubDate": "Wed, 07 Oct 2026 05:24:54 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
+          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -113612,7 +113474,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:54:15.114Z",
+        "fetchedAt": "2026-10-08T15:29:41.982Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113830,7 +113692,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -113858,15 +113720,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -113880,7 +113733,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -113900,22 +113753,13 @@ window.MATCHES = [
               "description": "Head coach pleased ‘everyone bought in’ to new ideas Jarell Quansah says: ‘We can really dominate teams’ Thomas Tuchel believes England have unlocked a new level after moving forward with his tactical tweaks in the opening Nations League fixtures. The head coach wanted the players to retain their aggression, especially in the high press, to step on to the front foot and to harness the chaos often seen in the Premier League. But he has also tried to get them to play with greater freedom, to trust and follow their instincts more – while being alive to the need to cover for their teammates. The results have been positive. After losing to Spain at Wembley , England recorded three wins: two against Czechia either side of the 7-0 victory against Croatia in Rijeka. They have in essence guaranteed their progress into the quarter-finals of a competition regarded as a tune-up for Euro 2028, while putting a bit of distance between themselves and the heartbreaking World Cup semi-final defeat by Argentina in July. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -114333,7 +114177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114425,17 +114269,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
+      "over25": 61,
+      "under25": 39,
       "bttsYes": 69,
       "bttsNo": 31,
       "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.32,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 3.35,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -114543,9 +114387,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 46,
-        "contribution": 0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -114790,10 +114634,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 46,
-        "goalLift": 0.08,
+        "awayScore": 48,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -114836,16 +114680,16 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 07:01:10 GMT"
         },
         {
-          "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:38:27 GMT"
-        },
-        {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
           "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
+        },
+        {
+          "title": "England ready to level up and embrace ‘calculated risks’, claims Tuchel",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/oct/07/england-level-up-thomas-tuchel-tactics-jarell-quansah",
+          "pubDate": "Wed, 07 Oct 2026 18:00:03 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -115063,7 +114907,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -115091,15 +114935,6 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         },
@@ -115113,7 +114948,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/c962yzlgln8po?at_medium=RSS&at_campaign=rss",
               "pubDate": "Thu, 08 Oct 2026 09:04:00 GMT",
               "description": "Manchester United midfielder Ella Toone receives a late England call-up for this month's World Cup play-off games against Greece.",
-              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 5 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
+              "bodyText": "Women's World Cup play-offs: Ella Toone called up by England as Lucy Bronze withdraws - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Women's Scores & Fixtures Men's Table Women's Table Toone comes into England squad as Bronze withdraws Image source, Getty Images Image caption, Ella Toone has made 69 England appearances since making her debut in February 2021 By Marissa Thomas BBC Sport journalist Published 6 hours ago Ella Toone has received a late call into the England squad for this month's Women's World Cup play-off ties against Greece. Manchester United midfielder Toone, and Arsenal winger Chloe Kelly, were omitted from the initial squad with manager Sarina Wiegman saying \"they have not played to their potential in my opinion in the last couple of weeks\". Toone has scored 24 goals in 69 senior England appearances, winning Euro 2022 and Euro 2025 as well as starting in England's 2023",
               "bodyError": ""
             },
             {
@@ -115124,22 +114959,13 @@ window.MATCHES = [
               "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
               "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
               "bodyError": ""
-            },
-            {
-              "title": "Eckert’s Spygate ban may be lenient, but no sane manager will try the same trick again",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-              "pubDate": "Wed, 07 Oct 2026 20:00:04 GMT",
-              "description": "Verdict has been a long time coming and the Southampton head coach has recaptured hearts and minds at St Mary’s “Hi Tonda, are you a cheat?” That simple, succinct, question cut to the heart of a matter that has vexed the Football Association all summer. It was posed by the Northern Echo’s Dominic Shaw after Southampton overcame Middlesbrough in the second leg of May’s Championship playoff semi‑final and proved the cue for Tonda Eckert to walk out of his press conference at St Mary’s. Although Southampton’s manager subsequently admitted to authorising spying on opponents, England’s football authorities struggled to decide what punishment best fitted an act some regard as heinous but which others fail to take seriously. Now, in autumn, we finally have an FA verdict, with Eckert given a six-week ban suspended until the end of the 2027-28 season, a £28,000 fine and a reprimand. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115556,7 +115382,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:54:15.114Z",
+      "fetchedAt": "2026-10-08T15:29:41.982Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116299,9 +116125,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:54:15.114Z",
+      "updatedAt": "2026-10-08T15:29:41.982Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:54:15.114Z",
+        "updatedAt": "2026-10-08T15:29:41.982Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116422,7 +116248,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-10-08T14:54:15.114Z",
+  "updatedAt": "2026-10-08T15:29:41.982Z",
   "completedCount": 104,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
@@ -124033,7 +123859,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 23,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124044,8 +123870,8 @@ window.ANALYSIS_BACKTEST = {
               "label": "客队小胜",
               "chance": 15,
               "examples": [
-                "0-1",
                 "1-2",
+                "0-1",
                 "0-2"
               ]
             }
@@ -124066,7 +123892,7 @@ window.ANALYSIS_BACKTEST = {
               "examples": [
                 "1-1",
                 "0-0",
-                "0-1"
+                "1-2"
               ]
             },
             {
@@ -129321,7 +129147,7 @@ window.ANALYSIS_BACKTEST = {
     "needsAdjust": false,
     "factorAccuracy": {
       "世界排名": 62,
-      "攻防综合": 62,
+      "攻防综合": 61,
       "近期状态": 55,
       "球员质量": 63,
       "出线动机": 28,
