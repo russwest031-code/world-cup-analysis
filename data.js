@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-10-08T14:30:41.185Z",
+  "updatedAt": "2026-10-08T14:31:16.903Z",
   "runDate": "2026-10-08",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-10-08T14:30:41.185Z",
+  "externalFetchedAt": "2026-10-08T14:31:16.903Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1070,9 +1070,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1175,7 +1175,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -1469,7 +1469,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2061,9 +2061,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2166,11 +2166,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率41%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -2471,7 +2471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3161,9 +3161,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3270,7 +3270,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率48%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率46%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：球员质量、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -3571,7 +3571,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4259,9 +4259,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4368,7 +4368,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率44%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率40%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -4669,7 +4669,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5356,9 +5356,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5442,8 +5442,8 @@ window.MATCHES = [
       "away": "瑞士",
       "actualScore": "1-1",
       "actualResult": "平局",
-      "predictedResult": "客胜",
-      "correct": false,
+      "predictedResult": "平局",
+      "correct": true,
       "rightFactors": [
         "出线动机",
         "天气/场地",
@@ -5465,7 +5465,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向客胜（概率59%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率45%），与实际结果一致。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -5766,7 +5766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6475,9 +6475,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6565,6 +6565,7 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "球员质量",
         "出线动机",
         "天气/场地",
@@ -6572,7 +6573,6 @@ window.MATCHES = [
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "近期状态",
         {
           "name": "赔率市场",
@@ -6580,11 +6580,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率38%），与实际结果一致。 判断正确的因素：世界排名、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率37%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量、出线动机、天气/场地、临场新闻。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -6885,7 +6885,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7581,9 +7581,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7690,7 +7690,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率47%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率46%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -7980,7 +7980,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8606,9 +8606,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8715,7 +8715,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率36%），但实际结果为主胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -9005,7 +9005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9620,9 +9620,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9729,7 +9729,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率68%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率65%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -10030,7 +10030,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10718,9 +10718,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11117,7 +11117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11712,9 +11712,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11822,7 +11822,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率37%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：近期状态。判断错误的因素：世界排名。  科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率40%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：近期状态。判断错误的因素：世界排名。  科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -12123,7 +12123,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12810,9 +12810,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12920,7 +12920,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率39%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。判断错误的因素：攻防综合。  突尼斯场均射门7次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率43%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、近期状态、球员质量。判断错误的因素：攻防综合。  突尼斯场均射门7次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -13210,7 +13210,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13815,9 +13815,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13920,11 +13920,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率61%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率59%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -14225,7 +14225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14916,9 +14916,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15002,8 +15002,8 @@ window.MATCHES = [
       "away": "埃及",
       "actualScore": "1-1",
       "actualResult": "平局",
-      "predictedResult": "平局",
-      "correct": true,
+      "predictedResult": "主胜",
+      "correct": false,
       "rightFactors": [
         "攻防综合",
         "出线动机",
@@ -15025,7 +15025,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率41%），与实际结果一致。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  埃及场均射门10.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率55%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  埃及场均射门10.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -15326,7 +15326,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16013,9 +16013,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16122,7 +16122,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率48%），与实际结果一致。 判断正确的因素：近期状态、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率46%），与实际结果一致。 判断正确的因素：近期状态、出线动机、天气/场地、临场新闻。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -16423,7 +16423,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17111,9 +17111,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17523,7 +17523,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18211,9 +18211,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18301,12 +18301,12 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
-        "攻防综合",
         "近期状态",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
+        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -18316,11 +18316,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  塞内加尔场均射门11.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率55%），与实际结果一致。 判断正确的因素：世界排名、近期状态、球员质量。  塞内加尔场均射门11.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -18621,7 +18621,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19308,9 +19308,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19394,8 +19394,8 @@ window.MATCHES = [
       "away": "挪威",
       "actualScore": "1-4",
       "actualResult": "客胜",
-      "predictedResult": "平局",
-      "correct": false,
+      "predictedResult": "客胜",
+      "correct": true,
       "rightFactors": [
         "世界排名",
         "攻防综合",
@@ -19417,7 +19417,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率44%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率46%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -19718,7 +19718,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20430,9 +20430,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20539,7 +20539,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率43%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  阿尔及利亚场均射门8.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率54%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  阿尔及利亚场均射门8.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -20840,7 +20840,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21528,9 +21528,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21938,7 +21938,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22638,9 +22638,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22743,11 +22743,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率59%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  刚果（金）场均射门6.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率60%），但实际结果为平局。模型对本场判断存在偏差。 判断正确的因素：出线动机、天气/场地、临场新闻。  刚果（金）场均射门6.3次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -23048,7 +23048,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23061,7 +23061,7 @@ window.MATCHES = [
       42,
       21
     ],
-    "confidence": 63,
+    "confidence": 61,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -23075,11 +23075,11 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "2-0",
-        "chance": 7
+        "chance": 8
       }
     ],
     "scoreBands": [
@@ -23122,7 +23122,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 51,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
@@ -23130,12 +23130,11 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 37,
+        "label": "低比分平局",
+        "chance": 35,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
@@ -23147,7 +23146,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 19,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.44,
+      "expectedTotalGoals": 2.42,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -23249,10 +23248,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
-        "awayScore": 48,
-        "contribution": -0.18,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 42,
+        "awayScore": 43,
+        "contribution": -0.06,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -23496,11 +23495,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
-        "awayScore": 48,
-        "goalLift": 0.02,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 42,
+        "awayScore": 43,
+        "goalLift": 0,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -23531,7 +23530,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -23762,8 +23761,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -23788,8 +23787,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -23827,6 +23826,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -23856,9 +23864,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23931,8 +23939,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.47,
-      "away": 0.96
+      "home": 1.46,
+      "away": 0.95
     },
     "analysisUpdated": "2026-10-08",
     "matchAutopsy": {
@@ -23942,8 +23950,8 @@ window.MATCHES = [
       "away": "克罗地亚",
       "actualScore": "4-2",
       "actualResult": "主胜",
-      "predictedResult": "主胜",
-      "correct": true,
+      "predictedResult": "平局",
+      "correct": false,
       "rightFactors": [
         "世界排名",
         "攻防综合",
@@ -23965,7 +23973,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率41%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率42%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -24266,7 +24274,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24956,9 +24964,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25066,7 +25074,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率44%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：球员质量。判断错误的因素：世界排名、近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率45%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：球员质量。判断错误的因素：世界排名、近期状态。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -25367,7 +25375,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26067,9 +26075,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26153,8 +26161,8 @@ window.MATCHES = [
       "away": "哥伦比亚",
       "actualScore": "1-3",
       "actualResult": "客胜",
-      "predictedResult": "客胜",
-      "correct": true,
+      "predictedResult": "平局",
+      "correct": false,
       "rightFactors": [
         "世界排名",
         "攻防综合",
@@ -26176,7 +26184,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了客胜方向（客胜概率46%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率44%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -26477,7 +26485,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27167,9 +27175,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27272,11 +27280,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了平局方向（平局概率44%），与实际结果一致。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了平局方向（平局概率41%），与实际结果一致。 判断正确的因素：攻防综合、出线动机、天气/场地、临场新闻。  南非场均射门15.5次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -27577,7 +27585,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28265,9 +28273,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28374,7 +28382,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了主胜方向（主胜概率48%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率47%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -28675,7 +28683,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29365,9 +29373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29474,7 +29482,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率46%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率49%），但实际结果为主胜。模型对本场判断存在偏差。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -29764,7 +29772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30376,9 +30384,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30787,7 +30795,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31509,9 +31517,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31920,7 +31928,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32617,9 +32625,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32726,7 +32734,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型正确预测了客胜方向（客胜概率46%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率45%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。  摩洛哥场均射门15.4次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -33027,7 +33035,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33739,9 +33747,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33844,7 +33852,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
@@ -34138,7 +34146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34730,9 +34738,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34839,7 +34847,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向平局（概率45%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向平局（概率43%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、球员质量。   比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -35140,7 +35148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35853,9 +35861,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36260,7 +36268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36897,9 +36905,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36995,11 +37003,11 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
-        "攻防综合",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
+        "攻防综合",
         "近期状态",
         "出线动机",
         "天气/场地",
@@ -37014,7 +37022,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、球员质量。 赔率市场正确预判了主胜方向。 科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了主胜方向（主胜概率63%），与实际结果一致。 判断正确的因素：世界排名、球员质量。 赔率市场正确预判了主胜方向。 科特迪瓦场均射门16.6次。 比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -37304,7 +37312,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37921,9 +37929,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38339,7 +38347,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39048,9 +39056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39466,7 +39474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40189,9 +40197,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40302,7 +40310,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -40607,7 +40615,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41318,9 +41326,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41725,7 +41733,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42341,9 +42349,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42759,7 +42767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43473,9 +43481,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43891,7 +43899,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44624,9 +44632,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45045,7 +45053,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45760,9 +45768,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45873,7 +45881,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -46178,7 +46186,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46889,9 +46897,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47308,7 +47316,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48019,9 +48027,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48437,7 +48445,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49166,9 +49174,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49584,7 +49592,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49794,10 +49802,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
+        "homeScore": 42,
         "awayScore": 50,
-        "contribution": -0.3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": -0.48,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -50041,11 +50049,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
+        "homeScore": 42,
         "awayScore": 50,
         "goalLift": 0.05,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -50091,7 +50099,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -50322,8 +50330,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -50348,8 +50356,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -50387,6 +50395,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -50407,9 +50424,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50825,7 +50842,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51547,9 +51564,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51660,7 +51677,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -51965,7 +51982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52676,9 +52693,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52789,7 +52806,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -53094,7 +53111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53808,9 +53825,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54226,7 +54243,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54939,9 +54956,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55358,7 +55375,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -56096,9 +56113,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56194,12 +56211,12 @@ window.MATCHES = [
       "correct": true,
       "rightFactors": [
         "世界排名",
+        "攻防综合",
         "近期状态",
         "球员质量"
       ],
       "wrongFactors": [],
       "neutralFactors": [
-        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -56209,11 +56226,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
-      "text": "模型正确预测了客胜方向（客胜概率62%），与实际结果一致。 判断正确的因素：世界排名、近期状态、球员质量。 赔率市场正确预判了客胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型正确预测了客胜方向（客胜概率62%），与实际结果一致。 判断正确的因素：世界排名、攻防综合、近期状态、球员质量。 赔率市场正确预判了客胜方向。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -56514,7 +56531,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57228,9 +57245,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57646,7 +57663,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58379,9 +58396,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58786,7 +58803,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59402,9 +59419,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59515,7 +59532,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": false,
@@ -59798,7 +59815,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60317,9 +60334,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60736,7 +60753,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61467,9 +61484,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61885,7 +61902,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62596,9 +62613,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63014,7 +63031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63728,9 +63745,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64135,7 +64152,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64751,9 +64768,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65169,7 +65186,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65911,9 +65928,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66331,7 +66348,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67043,9 +67060,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67156,7 +67173,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -67461,7 +67478,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68175,9 +68192,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68582,7 +68599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69200,9 +69217,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69618,7 +69635,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70337,9 +70354,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70450,7 +70467,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -70755,7 +70772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71469,9 +71486,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71887,7 +71904,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72601,9 +72618,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73019,7 +73036,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73229,10 +73246,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 45,
+        "homeScore": 45,
+        "awayScore": 42,
         "contribution": 0.18,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -73476,11 +73493,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 45,
+        "homeScore": 45,
+        "awayScore": 42,
         "goalLift": 0.02,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -73526,7 +73543,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -73757,8 +73774,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -73783,8 +73800,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -73822,6 +73839,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -73842,9 +73868,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74260,7 +74286,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74983,9 +75009,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75096,7 +75122,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -75401,7 +75427,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76121,9 +76147,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76539,7 +76565,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77261,9 +77287,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77374,7 +77400,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -77679,7 +77705,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78393,9 +78419,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78811,7 +78837,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79544,9 +79570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79962,7 +79988,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80673,9 +80699,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81091,7 +81117,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81827,9 +81853,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81940,7 +81966,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -82245,7 +82271,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82976,9 +83002,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83394,7 +83420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84106,9 +84132,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84513,7 +84539,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85129,9 +85155,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85549,7 +85575,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86261,9 +86287,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86374,7 +86400,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -86679,7 +86705,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87412,9 +87438,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87525,7 +87551,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -87830,7 +87856,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88039,10 +88065,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
+        "homeScore": 42,
         "awayScore": 50,
-        "contribution": -0.3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": -0.48,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -88286,11 +88312,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
+        "homeScore": 42,
         "awayScore": 50,
         "goalLift": 0.05,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -88336,7 +88362,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -88570,8 +88596,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -88596,8 +88622,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -88635,6 +88661,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -88655,9 +88690,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89073,7 +89108,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89788,9 +89823,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90206,7 +90241,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90918,9 +90953,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91336,7 +91371,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92057,9 +92092,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92171,7 +92206,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -92476,7 +92511,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93205,9 +93240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93318,7 +93353,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -93623,7 +93658,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94337,9 +94372,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94755,7 +94790,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95498,9 +95533,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95905,7 +95940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96543,9 +96578,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96961,7 +96996,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97675,9 +97710,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98093,7 +98128,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98808,9 +98843,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -99228,7 +99263,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99943,9 +99978,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100056,7 +100091,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -100361,7 +100396,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101094,9 +101129,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101190,15 +101225,14 @@ window.MATCHES = [
       "actualResult": "客胜",
       "predictedResult": "主胜",
       "correct": false,
-      "rightFactors": [
-        "攻防综合"
-      ],
+      "rightFactors": [],
       "wrongFactors": [
         "世界排名",
         "近期状态",
         "球员质量"
       ],
       "neutralFactors": [
+        "攻防综合",
         "出线动机",
         "天气/场地",
         "临场新闻",
@@ -101208,11 +101242,11 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率56%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：攻防综合。判断错误的因素：世界排名、近期状态、球员质量。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率56%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：世界排名、近期状态、球员质量。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -101513,7 +101547,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -102020,7 +102054,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -102254,8 +102288,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -102280,8 +102314,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -102319,6 +102353,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -102348,9 +102391,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102767,7 +102810,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103493,9 +103536,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103607,7 +103650,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -103912,7 +103955,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104407,7 +104450,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:30:41.185Z",
+        "fetchedAt": "2026-10-08T14:31:16.903Z",
         "venue": "Seattle",
         "date": "2026-07-07",
         "temperatureMax": null,
@@ -104633,9 +104676,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105050,7 +105093,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105566,7 +105609,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:30:41.185Z",
+        "fetchedAt": "2026-10-08T14:31:16.903Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105792,9 +105835,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106209,7 +106252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106703,7 +106746,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:30:41.185Z",
+        "fetchedAt": "2026-10-08T14:31:16.903Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106929,9 +106972,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -107348,7 +107391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -108060,9 +108103,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108173,7 +108216,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+          "evidence": "暂无可用赔率或专业球评信号。"
         }
       ],
       "marketCorrect": true,
@@ -108478,7 +108521,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -109198,9 +109241,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109312,7 +109355,7 @@ window.MATCHES = [
           "homeScore": 50,
           "awayScore": 50,
           "contribution": 0,
-          "evidence": "暂无可用赔率或专业球评信号。"
+          "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
         }
       ],
       "marketCorrect": true,
@@ -109617,7 +109660,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109827,10 +109870,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
-        "awayScore": 45,
-        "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 43,
+        "awayScore": 42,
+        "contribution": 0.06,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -110074,11 +110117,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
-        "awayScore": 45,
+        "homeScore": 43,
+        "awayScore": 42,
         "goalLift": 0,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -110124,7 +110167,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -110355,8 +110398,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -110381,8 +110424,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -110420,6 +110463,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -110440,9 +110492,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110858,7 +110910,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111375,7 +111427,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:30:41.185Z",
+        "fetchedAt": "2026-10-08T14:31:16.903Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111601,9 +111653,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -112020,7 +112072,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112740,9 +112792,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112836,13 +112888,14 @@ window.MATCHES = [
       "actualResult": "客胜",
       "predictedResult": "主胜",
       "correct": false,
-      "rightFactors": [],
+      "rightFactors": [
+        "攻防综合"
+      ],
       "wrongFactors": [
         "近期状态"
       ],
       "neutralFactors": [
         "世界排名",
-        "攻防综合",
         "球员质量",
         "出线动机",
         "天气/场地",
@@ -112857,7 +112910,7 @@ window.MATCHES = [
         }
       ],
       "marketCorrect": false,
-      "text": "模型预测倾向主胜（概率44%），但实际结果为客胜。模型对本场判断存在偏差。 判断错误的因素：近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
+      "text": "模型预测倾向主胜（概率44%），但实际结果为客胜。模型对本场判断存在偏差。 判断正确的因素：攻防综合。判断错误的因素：近期状态。 赔率市场倾向主胜，实际结果为客胜，市场也判断错了。  比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。"
     }
   },
   {
@@ -113158,7 +113211,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113251,14 +113304,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
+      "over25": 60,
+      "under25": 40,
+      "bttsYes": 69,
+      "bttsNo": 31,
       "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 18,
       "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.27,
+      "expectedTotalGoals": 3.3,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -113368,10 +113421,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 45,
-        "awayScore": 48,
-        "contribution": -0.18,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 42,
+        "awayScore": 47,
+        "contribution": -0.3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -113615,11 +113668,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 45,
-        "awayScore": 48,
-        "goalLift": 0.02,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 42,
+        "awayScore": 47,
+        "goalLift": 0.05,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 3 条，客队 0 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -113671,7 +113724,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -113680,7 +113733,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-08T14:30:41.185Z",
+        "fetchedAt": "2026-10-08T14:31:16.903Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113905,8 +113958,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -113931,8 +113984,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -113970,6 +114023,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -113999,9 +114061,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -114419,7 +114481,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114629,9 +114691,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 45,
-        "contribution": 0.3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 42,
+        "contribution": 0.48,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -114876,10 +114938,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 45,
+        "awayScore": 42,
         "goalLift": 0.05,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 3 条。 战术新闻偏主动，抬高比赛节奏。"
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 3 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -114925,7 +114987,7 @@ window.MATCHES = [
           "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-          "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT"
+          "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT"
         },
         {
           "title": "All aboard the Tuchel train? England camp has clear winners and losers",
@@ -115156,8 +115218,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -115182,8 +115244,8 @@ window.MATCHES = [
               "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
-              "pubDate": "Thu, 08 Oct 2026 14:13:47 GMT",
-              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part chymist asks : When will the myth that the Premier League is ‘the best league in the world’ be finally put to rest? Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Ed says: Hello everyone and it’s an interesting place to start… It’s hard to argue against the premise that City’s success since 2018 was not built on the period for which they have been found guilty of so many charges, because it obviously had an enormous impact on their ability to sign new players given the increased revenue that generated. Would they have been able to sign Erling Haaland in 2022 from Borussia Dortmund without it, for example? But the question of whether they could face more charges in future due to what some have called the “snowball effect” would of course depend on whether there is any evidence of any new breaches of the financial regulations in that period. And there is a strong possibility that the Premier League could revisit some of those figures given that City have been found guilty of so many charges between 2009 and 2018 Continue reading...",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
               "bodyText": "",
               "bodyError": ""
             },
@@ -115221,6 +115283,15 @@ window.MATCHES = [
               "bodyError": ""
             },
             {
+              "title": "Football Q&A: ask Ed Aarons your questions as the Premier League returns – live",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/sport/live/2026/oct/08/football-qa-ask-ed-aarons-your-questions-as-the-premier-league-returns",
+              "pubDate": "Thu, 08 Oct 2026 14:19:51 GMT",
+              "description": "After a lengthy international break dominated by the Manchester City verdict, the Premier League is back on Saturday. Football writer Ed Aarons is online now answering your questions Sign in or sign up to take part trinder19 asks : Ed, great feature. What do you see as the main tactical changes in the Premier League this season? Do you see styles, tactics and approaches diverging more or less across the league? Ed says: I think it’s a bit early to see any major changes but more generally there has been a bit of a shift away from controlling games by pure possession and a much more direct approach from many teams. Pep Guardiola’s style of play was so influential in the Premier League and beyond but even he went a bit more direct towards the end of his reign at City and lots of other teams have been trying to get the ball forward much earlier. There’s also been even more emphasis on taking greater risks with pressing much higher up the pitch, as Brighton showed with their masterclass against Arsenal before the international break. But the arrival of so many new managers in the summer means that it will be interesting to see how the likes of Liverpool, Chelsea and Manchester City evolve as the weeks go on. Ed says: There were only five Premier League players shortlisted for the Ballon d’Or this year and that is an indication that most of the biggest stars in world football still play overseas. While English clubs have been dominating European competitions over the past few years with Arsenal, Aston Villa and Crystal Palace all reaching finals last year, I think the attraction of playing for the likes of Real Madrid, Barcelona, Bayern Munich and these days Paris Saint-Germain outweighs the benefits of playing in the Premier League for many of the very best. But there is no doubting that the overall level is far higher in England than anywhere else given the financial might of the Premier League that allows clubs to bring in and develop better players. You just have to look at results at the start of this season to see that anyone can beat almost anyone at the moment and that makes it a much better competition. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "All aboard the Tuchel train? England camp has clear winners and losers",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
@@ -115241,9 +115312,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115660,7 +115731,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-08T14:30:41.185Z",
+      "fetchedAt": "2026-10-08T14:31:16.903Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116403,9 +116474,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-08T14:30:41.185Z",
+      "updatedAt": "2026-10-08T14:31:16.903Z",
       "dataQuality": {
-        "updatedAt": "2026-10-08T14:30:41.185Z",
+        "updatedAt": "2026-10-08T14:31:16.903Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116526,14 +116597,14 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-10-08T14:30:41.185Z",
+  "updatedAt": "2026-10-08T14:31:16.903Z",
   "completedCount": 104,
   "outcomeHitRate": 58,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
   "topScoreCoverage": 40,
   "scoreBandCoverage": 67,
-  "scoreScenarioCoverage": 86,
+  "scoreScenarioCoverage": 85,
   "averageBrier": 0.5295,
   "averageLogLoss": 0.8826,
   "drawRecall": 24,
@@ -123216,7 +123287,7 @@ window.ANALYSIS_BACKTEST = {
       "outcomeHitRate": 44,
       "topScoreCoverage": 47,
       "scoreBandCoverage": 72,
-      "scoreScenarioCoverage": 84,
+      "scoreScenarioCoverage": 81,
       "averageBrier": 0.5777,
       "averageLogLoss": 0.9343,
       "lockedCount": 0,
@@ -124115,8 +124186,8 @@ window.ANALYSIS_BACKTEST = {
           "actualScoreBand": "主队对攻胜",
           "topScoreHit": false,
           "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 63,
+          "scoreScenarioHit": false,
+          "confidence": 61,
           "brier": 0.6174,
           "logLoss": 0.9943,
           "marketOutcome": "",
@@ -124166,7 +124237,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 51,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "0-0",
@@ -124174,12 +124245,11 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 37,
+              "label": "低比分平局",
+              "chance": 35,
               "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
+                "1-1",
+                "0-0"
               ]
             }
           ],
@@ -129419,8 +129489,8 @@ window.ANALYSIS_BACKTEST = {
     }
   ],
   "learningLoop": {
-    "accuracy": 58.7,
-    "correct": 61,
+    "accuracy": 57.7,
+    "correct": 60,
     "totalMatches": 104,
     "needsAdjust": false,
     "factorAccuracy": {
