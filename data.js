@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-10-09T14:37:55.425Z",
+  "updatedAt": "2026-10-09T15:12:18.991Z",
   "runDate": "2026-10-09",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-10-09T14:37:55.425Z",
+  "externalFetchedAt": "2026-10-09T15:12:18.991Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -22,7 +22,7 @@ window.ANALYSIS_META = {
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
   "expertArticleCount": 24,
-  "expertArticleBodyCount": 5,
+  "expertArticleBodyCount": 4,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 4,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1070,9 +1070,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1469,7 +1469,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2061,9 +2061,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2471,7 +2471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3162,9 +3162,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3572,7 +3572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4260,9 +4260,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4670,7 +4670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5357,9 +5357,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5767,7 +5767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6464,9 +6464,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6874,7 +6874,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7561,9 +7561,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7960,7 +7960,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8592,9 +8592,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8991,7 +8991,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9606,9 +9606,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10016,7 +10016,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10704,9 +10704,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11103,7 +11103,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11699,9 +11699,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12110,7 +12110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12798,9 +12798,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13198,7 +13198,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13666,10 +13666,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13803,9 +13803,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14213,7 +14213,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14904,9 +14904,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15314,7 +15314,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16001,9 +16001,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16411,7 +16411,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17099,9 +17099,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17511,7 +17511,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18199,9 +18199,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18609,7 +18609,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19297,9 +19297,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19707,7 +19707,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20407,9 +20407,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20817,7 +20817,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21505,9 +21505,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21915,7 +21915,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22615,9 +22615,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23025,7 +23025,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23034,11 +23034,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      42,
+      38,
+      41,
       21
     ],
-    "confidence": 61,
+    "confidence": 60,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -23048,11 +23048,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "2-2",
-        "chance": 7
+        "chance": 8
       },
       {
         "score": "2-1",
@@ -23062,7 +23062,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 33,
+        "chance": 32,
         "examples": [
           "1-1",
           "0-0"
@@ -23073,8 +23073,8 @@ window.MATCHES = [
         "chance": 21,
         "examples": [
           "2-1",
-          "1-0",
-          "2-0"
+          "2-0",
+          "1-0"
         ]
       },
       {
@@ -23090,7 +23090,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 58,
+        "chance": 57,
         "examples": [
           "1-1",
           "0-0",
@@ -23099,7 +23099,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 48,
+        "chance": 47,
         "examples": [
           "1-1",
           "0-0",
@@ -23108,38 +23108,38 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 37,
+        "chance": 38,
         "examples": [
           "2-1",
-          "1-0",
-          "2-0"
+          "2-0",
+          "1-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 57,
-      "bttsNo": 43,
-      "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.69,
-      "totalGoalsLean": "小于2.5球",
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 58,
+      "bttsNo": 42,
+      "homeWinBy2Plus": 21,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.75,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        47,
-        32,
+        48,
+        31,
         21
       ],
       "market": null,
       "blended": [
-        37,
-        42,
+        38,
+        41,
         21
       ],
       "blendWeight": 0,
@@ -23226,10 +23226,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 43,
-        "awayScore": 43,
+        "homeScore": 45,
+        "awayScore": 45,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -23237,7 +23237,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -23473,11 +23473,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 43,
-        "awayScore": 43,
-        "goalLift": 0.02,
+        "homeScore": 45,
+        "awayScore": 45,
+        "goalLift": 0.08,
         "confidenceDelta": -3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 2 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -23490,28 +23490,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -23728,15 +23722,6 @@ window.MATCHES = [
               "description": "Michael Carrick is wary of ‘Dr Tottenham’, Oliver Glasner returns to Selhurst Park and will Manchester City summon a siege mentality at Anfield? Premier League top scorers | View the league table Declan Rice’s future role in England’s midfield was questioned by Gary Lineker after Alex Scott’s impressive first senior international start in the 7-0 thrashing of Croatia. But the decision to withdraw from Thomas Tuchel’s squad in an attempt to manage his workload made sense after Rice had only three weeks off post-World Cup before returning to pre-season training. The 27-year-old has struggled with persistent back problems after suffering a hamstring injury last December and Mikel Arteta will hope that the rest has done Rice – who is thought to be close to agreeing a lucrative new contract at the Emirates – the world of good as they prepare to resume the defence of their Premier League title against Leeds on Saturday. Ed Aarons Arsenal v Leeds, Saturday 12.30pm (all times BST) Aston Villa v Brentford, Saturday 3pm Continue reading...",
               "bodyText": "rst league win, the German’s side squandered nine points from winning positions in four of their first five games – and it was the 23-year-old who was central in ensuring Bournemouth had those leads in the first place. With just 55 minutes of football behind him this season, it seems unlikely Alex Toth will get the nod to replace Scott when Bournemouth travel to Chelsea with the older, more experienced Ryan Christie available and in good form. But having forced his way into the Hungary starting lineup during the international break it would be no surprise to see the 20-year-old get more minutes with a view to being used far more often given his side’s gruelling schedule of nine matches in the next month. Barry Glendenning Chelsea v Bournemouth, Saturday 3pm View image in fullscreen Alex Toth impressed for Hungary during the international break and will look to make his mark for Bournemouth. Photograph: Peter Morrison/AP 4 Ipswich’s calm an obstacle for Fulham Ipswich’s place in mid-table, their total of six points, came via victories over Sunderland and Crystal Palace . Gary O’Neil’s team were presented with a tough opening schedule, and while defeated by Manchester United, Liverpool and Arsenal, their manager has not allowed those reverses to dilute team spirit. Speaking to the media following the home defeat by Liverpool , O’Neil painted an ultra-positive picture that defied most observers’ view of a game beyond his team’s reach from the early stages. Thus far, a successful strategy, certainly by comparison to early season at winless Fulham. Like O’Neil, Álvaro Arbeloa is new to his job. An improved performance in the draw against United did not result in a victory Fulham deserved, though there were signs of the progressive, attacking football the arrival of the former Real Madrid interim promised. Much of the burden has fallen on Josh King, the teenager building on last year’s breakthrough season. John Brewin Ipswich v Fulham , Saturday 3pm 5 Ballard’s absence a boon for Brighton Still in the Carabao Cup, with a Europa League campaign to negotiate and just four points acquired from their opening five Premier League excursions, the games are about to start coming thick and fast for a Sunderland side whose ability to cope with such a hectic schedule remains t",
               "bodyError": ""
-            },
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
             }
           ]
         },
@@ -23754,15 +23739,6 @@ window.MATCHES = [
               "description": "Michael Carrick is wary of ‘Dr Tottenham’, Oliver Glasner returns to Selhurst Park and will Manchester City summon a siege mentality at Anfield? Premier League top scorers | View the league table Declan Rice’s future role in England’s midfield was questioned by Gary Lineker after Alex Scott’s impressive first senior international start in the 7-0 thrashing of Croatia. But the decision to withdraw from Thomas Tuchel’s squad in an attempt to manage his workload made sense after Rice had only three weeks off post-World Cup before returning to pre-season training. The 27-year-old has struggled with persistent back problems after suffering a hamstring injury last December and Mikel Arteta will hope that the rest has done Rice – who is thought to be close to agreeing a lucrative new contract at the Emirates – the world of good as they prepare to resume the defence of their Premier League title against Leeds on Saturday. Ed Aarons Arsenal v Leeds, Saturday 12.30pm (all times BST) Aston Villa v Brentford, Saturday 3pm Continue reading...",
               "bodyText": "rst league win, the German’s side squandered nine points from winning positions in four of their first five games – and it was the 23-year-old who was central in ensuring Bournemouth had those leads in the first place. With just 55 minutes of football behind him this season, it seems unlikely Alex Toth will get the nod to replace Scott when Bournemouth travel to Chelsea with the older, more experienced Ryan Christie available and in good form. But having forced his way into the Hungary starting lineup during the international break it would be no surprise to see the 20-year-old get more minutes with a view to being used far more often given his side’s gruelling schedule of nine matches in the next month. Barry Glendenning Chelsea v Bournemouth, Saturday 3pm View image in fullscreen Alex Toth impressed for Hungary during the international break and will look to make his mark for Bournemouth. Photograph: Peter Morrison/AP 4 Ipswich’s calm an obstacle for Fulham Ipswich’s place in mid-table, their total of six points, came via victories over Sunderland and Crystal Palace . Gary O’Neil’s team were presented with a tough opening schedule, and while defeated by Manchester United, Liverpool and Arsenal, their manager has not allowed those reverses to dilute team spirit. Speaking to the media following the home defeat by Liverpool , O’Neil painted an ultra-positive picture that defied most observers’ view of a game beyond his team’s reach from the early stages. Thus far, a successful strategy, certainly by comparison to early season at winless Fulham. Like O’Neil, Álvaro Arbeloa is new to his job. An improved performance in the draw against United did not result in a victory Fulham deserved, though there were signs of the progressive, attacking football the arrival of the former Real Madrid interim promised. Much of the burden has fallen on Josh King, the teenager building on last year’s breakthrough season. John Brewin Ipswich v Fulham , Saturday 3pm 5 Ballard’s absence a boon for Brighton Still in the Carabao Cup, with a Europa League campaign to negotiate and just four points acquired from their opening five Premier League excursions, the games are about to start coming thick and fast for a Sunderland side whose ability to cope with such a hectic schedule remains t",
               "bodyError": ""
-            },
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
             }
           ]
         },
@@ -23778,22 +23754,13 @@ window.MATCHES = [
               "description": "Michael Carrick is wary of ‘Dr Tottenham’, Oliver Glasner returns to Selhurst Park and will Manchester City summon a siege mentality at Anfield? Premier League top scorers | View the league table Declan Rice’s future role in England’s midfield was questioned by Gary Lineker after Alex Scott’s impressive first senior international start in the 7-0 thrashing of Croatia. But the decision to withdraw from Thomas Tuchel’s squad in an attempt to manage his workload made sense after Rice had only three weeks off post-World Cup before returning to pre-season training. The 27-year-old has struggled with persistent back problems after suffering a hamstring injury last December and Mikel Arteta will hope that the rest has done Rice – who is thought to be close to agreeing a lucrative new contract at the Emirates – the world of good as they prepare to resume the defence of their Premier League title against Leeds on Saturday. Ed Aarons Arsenal v Leeds, Saturday 12.30pm (all times BST) Aston Villa v Brentford, Saturday 3pm Continue reading...",
               "bodyText": "rst league win, the German’s side squandered nine points from winning positions in four of their first five games – and it was the 23-year-old who was central in ensuring Bournemouth had those leads in the first place. With just 55 minutes of football behind him this season, it seems unlikely Alex Toth will get the nod to replace Scott when Bournemouth travel to Chelsea with the older, more experienced Ryan Christie available and in good form. But having forced his way into the Hungary starting lineup during the international break it would be no surprise to see the 20-year-old get more minutes with a view to being used far more often given his side’s gruelling schedule of nine matches in the next month. Barry Glendenning Chelsea v Bournemouth, Saturday 3pm View image in fullscreen Alex Toth impressed for Hungary during the international break and will look to make his mark for Bournemouth. Photograph: Peter Morrison/AP 4 Ipswich’s calm an obstacle for Fulham Ipswich’s place in mid-table, their total of six points, came via victories over Sunderland and Crystal Palace . Gary O’Neil’s team were presented with a tough opening schedule, and while defeated by Manchester United, Liverpool and Arsenal, their manager has not allowed those reverses to dilute team spirit. Speaking to the media following the home defeat by Liverpool , O’Neil painted an ultra-positive picture that defied most observers’ view of a game beyond his team’s reach from the early stages. Thus far, a successful strategy, certainly by comparison to early season at winless Fulham. Like O’Neil, Álvaro Arbeloa is new to his job. An improved performance in the draw against United did not result in a victory Fulham deserved, though there were signs of the progressive, attacking football the arrival of the former Real Madrid interim promised. Much of the burden has fallen on Josh King, the teenager building on last year’s breakthrough season. John Brewin Ipswich v Fulham , Saturday 3pm 5 Ballard’s absence a boon for Brighton Still in the Carabao Cup, with a Europa League campaign to negotiate and just four points acquired from their opening five Premier League excursions, the games are about to start coming thick and fast for a Sunderland side whose ability to cope with such a hectic schedule remains t",
               "bodyError": ""
-            },
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23866,8 +23833,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.64,
-      "away": 1.05
+      "home": 1.68,
+      "away": 1.07
     },
     "analysisUpdated": "2026-10-09",
     "matchAutopsy": {
@@ -24201,7 +24168,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24891,9 +24858,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25302,7 +25269,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25992,9 +25959,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26402,7 +26369,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27092,9 +27059,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27502,7 +27469,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28189,9 +28156,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28599,7 +28566,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29289,9 +29256,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29688,7 +29655,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30299,9 +30266,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30710,7 +30677,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31438,9 +31405,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31849,7 +31816,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32537,9 +32504,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32947,7 +32914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33647,9 +33614,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34046,7 +34013,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34639,9 +34606,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35049,7 +35016,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35762,9 +35729,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36169,7 +36136,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36806,9 +36773,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37213,7 +37180,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37830,9 +37797,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38248,7 +38215,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38957,9 +38924,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39375,7 +39342,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39866,10 +39833,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40098,9 +40065,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40516,7 +40483,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41227,9 +41194,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41634,7 +41601,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42250,9 +42217,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42668,7 +42635,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43382,9 +43349,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43800,7 +43767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44521,9 +44488,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44942,7 +44909,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45657,9 +45624,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46075,7 +46042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46786,9 +46753,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47205,7 +47172,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47916,9 +47883,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48334,7 +48301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49057,9 +49024,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49475,7 +49442,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49568,14 +49535,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 40,
-      "bttsNo": 60,
-      "homeWinBy2Plus": 40,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 38,
+      "bttsNo": 62,
+      "homeWinBy2Plus": 38,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.47,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.36,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -49685,10 +49652,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -49696,7 +49663,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -49932,11 +49899,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -49964,28 +49931,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -49998,9 +49959,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -50193,54 +50154,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50286,7 +50217,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -50656,7 +50587,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51378,9 +51309,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51796,7 +51727,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52507,9 +52438,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52925,7 +52856,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53639,9 +53570,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54057,7 +53988,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54770,9 +54701,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55189,7 +55120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55909,9 +55840,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56327,7 +56258,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57041,9 +56972,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57459,7 +57390,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58192,9 +58123,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58599,7 +58530,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59215,9 +59146,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59611,7 +59542,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60130,9 +60061,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60549,7 +60480,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61280,9 +61211,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61698,7 +61629,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62409,9 +62340,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62827,7 +62758,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63541,9 +63472,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63948,7 +63879,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64564,9 +64495,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64982,7 +64913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65730,9 +65661,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66150,7 +66081,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66862,9 +66793,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67280,7 +67211,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67994,9 +67925,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68401,7 +68332,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69019,9 +68950,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69437,7 +69368,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69927,10 +69858,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -70156,9 +70087,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70574,7 +70505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71288,9 +71219,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71706,7 +71637,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72420,9 +72351,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72838,7 +72769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -72931,15 +72862,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 42,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.57,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 2,
+      "awayWinBy2Plus": 41,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.49,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -73048,10 +72979,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -73059,7 +72990,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -73295,11 +73226,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -73327,28 +73258,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -73361,9 +73286,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴拿马",
@@ -73556,54 +73481,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73649,7 +73544,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -74019,7 +73914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74742,9 +74637,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75160,7 +75055,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75880,9 +75775,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76298,7 +76193,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77011,9 +76906,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77429,7 +77324,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78143,9 +78038,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78561,7 +78456,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79282,9 +79177,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79700,7 +79595,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80411,9 +80306,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80829,7 +80724,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81553,9 +81448,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81971,7 +81866,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82702,9 +82597,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83120,7 +83015,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83832,9 +83727,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84239,7 +84134,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84855,9 +84750,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85275,7 +85170,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85987,9 +85882,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86405,7 +86300,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87138,9 +87033,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87556,7 +87451,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87648,15 +87543,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 43,
-      "bttsNo": 57,
-      "homeWinBy2Plus": 43,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.63,
-      "totalGoalsLean": "大小球均衡",
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.52,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -87765,10 +87660,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -87776,7 +87671,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -88012,11 +87907,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -88044,28 +87939,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -88081,9 +87970,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -88276,54 +88165,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88369,7 +88228,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -88739,7 +88598,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89454,9 +89313,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89872,7 +89731,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90584,9 +90443,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91002,7 +90861,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91494,10 +91353,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -91723,9 +91582,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92142,7 +92001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92871,9 +92730,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93289,7 +93148,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94003,9 +93862,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94421,7 +94280,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95170,9 +95029,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95577,7 +95436,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96203,9 +96062,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96621,7 +96480,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97335,9 +97194,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97753,7 +97612,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98468,9 +98327,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98888,7 +98747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99603,9 +99462,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100021,7 +99880,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100742,9 +100601,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101160,7 +101019,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101253,17 +101112,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 65,
-      "bttsNo": 35,
-      "homeWinBy2Plus": 14,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 15,
       "awayWinBy2Plus": 17,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.03,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.92,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -101371,9 +101230,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 47,
-        "awayScore": 45,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": -0.18,
+        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
       },
       {
         "name": "赔率市场",
@@ -101381,7 +101240,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -101618,10 +101477,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 47,
-        "awayScore": 45,
-        "goalLift": 0.11,
-        "confidenceDelta": -3,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": -2,
+        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
       }
     },
     "marketSignals": {
@@ -101649,8 +101508,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
@@ -101658,25 +101523,13 @@ window.MATCHES = [
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
         },
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
           "title": "‘¡Qué Horror!’: Mexico’s World Cup honeymoon is over but is Rafa Márquez really to blame?",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/08/mexico-soccer-team-rafael-marquez",
           "pubDate": "Thu, 08 Oct 2026 11:22:24 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -101692,9 +101545,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "墨西哥",
@@ -101887,34 +101740,14 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
@@ -101928,22 +101761,13 @@ window.MATCHES = [
               "description": "A series of dispiriting friendly results have El Tri reeling. But the problems run much deeper than the team’s new coach When a new coach ascends to lead Mexico’s national team, fans say he is sitting in “la silla mas caliente” – the hottest seat in town; one that can also burn. Usually the coach arrives with a new idea, a new vocabulary, a new promise. For a while, everyone agrees that something has changed. Then comes the first bad night. The mood changes. The new idea becomes a failed experiment; the promise, another deception; the coach becomes just another name on a long list of those who were supposed to fix Mexican soccer, but couldn’t. Continue reading...",
               "bodyText": "",
               "bodyError": ""
-            },
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101989,7 +101813,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -102360,7 +102184,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102851,10 +102675,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         },
         {
           "title": "‘Like a movie script’: Michael McArdle backs Northern Ireland to make history",
@@ -103086,9 +102910,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103505,7 +103329,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104220,9 +104044,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104638,7 +104462,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105142,7 +104966,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-09T14:37:55.425Z",
+        "fetchedAt": "2026-10-09T15:12:18.991Z",
         "venue": "Atlanta",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -105368,9 +105192,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -105785,7 +105609,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106279,7 +106103,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-09T14:37:55.425Z",
+        "fetchedAt": "2026-10-09T15:12:18.991Z",
         "venue": "Vancouver",
         "date": "2026-07-08",
         "temperatureMax": null,
@@ -106505,9 +106329,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -106924,7 +106748,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107636,9 +107460,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108054,7 +107878,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108545,10 +108369,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108774,9 +108598,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109193,7 +109017,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109286,14 +109110,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 58,
+      "bttsNo": 42,
       "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 34,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.05,
+      "awayWinBy2Plus": 33,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.97,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -109403,10 +109227,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -109414,7 +109238,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -109650,11 +109474,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -109682,28 +109506,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109716,9 +109534,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "挪威",
@@ -109911,54 +109729,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110004,7 +109792,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -110374,7 +110162,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110879,7 +110667,7 @@ window.MATCHES = [
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-09T14:37:55.425Z",
+        "fetchedAt": "2026-10-09T15:12:18.991Z",
         "venue": "Kansas City",
         "date": "2026-07-12",
         "temperatureMax": null,
@@ -111105,9 +110893,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -111524,7 +111312,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112015,10 +111803,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -112244,9 +112032,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112663,7 +112451,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -112756,14 +112544,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 66,
+      "bttsNo": 34,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.24,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.13,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -112873,10 +112661,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -112884,7 +112672,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -113120,11 +112908,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -113152,7 +112940,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Watch: Every Messi World Cup goal for Argentina",
@@ -113161,31 +112949,25 @@ window.MATCHES = [
           "pubDate": "Wed, 07 Oct 2026 05:24:54 GMT"
         },
         {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
+        {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
         "status": "connected",
         "provider": "Open-Meteo",
-        "fetchedAt": "2026-10-09T14:37:55.425Z",
+        "fetchedAt": "2026-10-09T15:12:18.991Z",
         "venue": "Atlanta",
         "date": "2026-07-16",
         "temperatureMax": null,
@@ -113201,9 +112983,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "英格兰",
@@ -113396,54 +113178,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 3 项，模型推断 2 项，缺口 2 项。",
         "counts": {
@@ -113488,7 +113240,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -113861,7 +113613,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -113953,14 +113705,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
-      "bttsYes": 71,
-      "bttsNo": 29,
+      "over25": 61,
+      "under25": 39,
+      "bttsYes": 69,
+      "bttsNo": 31,
       "homeWinBy2Plus": 16,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 3.45,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 3.34,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -114071,9 +113823,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -114081,7 +113833,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -114318,10 +114070,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -114349,28 +114101,22 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
+        },
         {
           "title": "Premier League: 10 things to look out for this weekend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/oct/09/premier-league-10-things-to-look-out-for-this-weekend",
           "pubDate": "Thu, 08 Oct 2026 23:01:31 GMT"
-        },
-        {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
-        },
-        {
-          "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-          "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -114383,9 +114129,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "法国",
@@ -114578,54 +114324,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "All aboard the Tuchel train? England camp has clear winners and losers",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/oct/07/england-winners-and-losers-thomas-tuchel-tactics-squad-selection",
-              "pubDate": "Wed, 07 Oct 2026 18:00:01 GMT",
-              "description": "While it’s full steam ahead for Alex Scott, Lewis Hall and Myles Lewis-Skelly, others look likely to be left behind Thomas Tuchel’s original idea had been for continuity. The England manager wanted to build on the positives from the World Cup and he was minded to stand by the vast majority of the players who had been a part of the journey to the semi-finals in North America over the summer. His squad for the four-match Nations League window and the beginning of a new international cycle would not be defined by radical change. What was it about the best-laid plans? As Tuchel prepared to name his group in mid-September, he knew that he would be without a clutch of World Cup players because of injury. He then lost another handful after the announcement. Fast forward to the Czechia game at Wembley on Tuesday night – the final one of the quartet – and, after further withdrawals, Tuchel could count only 12 players who were available to him during the World Cup. He knows the train moves quickly in football, stopping for nobody. That flexibility is a prerequisite in his line of work. This felt like something else. Continue reading...",
-              "bodyText": "All aboard the Tuchel train? England camp has clear winners and losers | England | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Myles Lewis-Skelly (centre) and Lewis Hall (right) were among those who impressed. Photograph: Michael Regan/The FA/Getty Images View image in fullscr",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114671,7 +114387,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -115042,7 +114758,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-10-09T14:37:55.425Z",
+      "fetchedAt": "2026-10-09T15:12:18.991Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115540,10 +115256,10 @@ window.MATCHES = [
           "pubDate": "Wed, 07 Oct 2026 05:24:54 GMT"
         },
         {
-          "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+          "title": "Greece v England: Women’s World Cup playoff semi-final, first leg – live",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
-          "pubDate": "Thu, 08 Oct 2026 16:33:25 GMT"
+          "link": "https://www.theguardian.com/football/live/2026/oct/09/greece-v-england-womens-world-cup-playoff-semi-final-first-leg-live",
+          "pubDate": "Fri, 09 Oct 2026 15:03:58 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -115769,9 +115485,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-10-09T14:37:55.425Z",
+      "updatedAt": "2026-10-09T15:12:18.991Z",
       "dataQuality": {
-        "updatedAt": "2026-10-09T14:37:55.425Z",
+        "updatedAt": "2026-10-09T15:12:18.991Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115892,7 +115608,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-10-09T14:37:55.425Z",
+  "updatedAt": "2026-10-09T15:12:18.991Z",
   "completedCount": 104,
   "outcomeHitRate": 57,
   "highConfidenceCount": 1,
@@ -115900,8 +115616,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 41,
   "scoreBandCoverage": 66,
   "scoreScenarioCoverage": 86,
-  "averageBrier": 0.5264,
-  "averageLogLoss": 0.8781,
+  "averageBrier": 0.5262,
+  "averageLogLoss": 0.8779,
   "drawRecall": 21,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122583,8 +122299,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 50,
       "scoreBandCoverage": 66,
       "scoreScenarioCoverage": 84,
-      "averageBrier": 0.5677,
-      "averageLogLoss": 0.9199,
+      "averageBrier": 0.5671,
+      "averageLogLoss": 0.919,
       "lockedCount": 0,
       "rows": [
         {
@@ -123480,20 +123196,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.6174,
-          "logLoss": 0.9943,
+          "confidence": 60,
+          "brier": 0.5966,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
-            42,
+            38,
+            41,
             21
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 33,
+              "chance": 32,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123504,8 +123220,8 @@ window.ANALYSIS_BACKTEST = {
               "chance": 21,
               "examples": [
                 "2-1",
-                "1-0",
-                "2-0"
+                "2-0",
+                "1-0"
               ]
             },
             {
@@ -123521,7 +123237,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 58,
+              "chance": 57,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123530,7 +123246,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 48,
+              "chance": 47,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123539,11 +123255,11 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 37,
+              "chance": 38,
               "examples": [
                 "2-1",
-                "1-0",
-                "2-0"
+                "2-0",
+                "1-0"
               ]
             }
           ],
@@ -125440,7 +125156,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "低信心",
       "count": 19,
       "hitRate": 37,
-      "averageBrier": 0.6425
+      "averageBrier": 0.6414
     },
     {
       "label": "中信心",
