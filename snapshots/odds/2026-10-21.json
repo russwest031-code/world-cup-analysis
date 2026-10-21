@@ -1,0 +1,9 @@
+{
+  "status": "connected",
+  "provider": "The Odds API",
+  "sportKey": "soccer_fifa_world_cup",
+  "regions": "eu,uk,us",
+  "markets": "h2h",
+  "fetchedAt": "2026-10-21T12:51:12.285Z",
+  "events": []
+}
