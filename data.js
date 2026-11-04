@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-04T15:19:57.693Z",
+  "updatedAt": "2026-11-04T15:32:52.761Z",
   "runDate": "2026-11-04",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-04T15:19:57.693Z",
+  "externalFetchedAt": "2026-11-04T15:32:52.761Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,8 +21,8 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 18,
-  "expertArticleBodyCount": 2,
+  "expertArticleCount": 19,
+  "expertArticleBodyCount": 3,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 0,
   "liveTeamNewsProvider": "API-Football",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -572,7 +572,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -803,9 +803,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -822,10 +822,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -1051,9 +1060,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1459,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2461,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2664,7 +2673,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -2895,9 +2904,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -2914,10 +2923,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -3143,9 +3161,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3553,7 +3571,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4241,9 +4259,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4651,7 +4669,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5338,9 +5356,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5748,7 +5766,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6436,9 +6454,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6846,7 +6864,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7057,7 +7075,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7288,9 +7306,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -7307,10 +7325,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7533,9 +7560,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7932,7 +7959,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8565,9 +8592,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8964,7 +8991,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9560,9 +9587,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9970,7 +9997,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10658,9 +10685,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11057,7 +11084,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11653,9 +11680,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12064,7 +12091,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12751,9 +12778,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13151,7 +13178,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13747,9 +13774,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14157,7 +14184,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14369,7 +14396,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -14600,9 +14627,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -14619,10 +14646,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -14848,9 +14884,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15258,7 +15294,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15271,7 +15307,7 @@ window.MATCHES = [
       48,
       39
     ],
-    "confidence": 68,
+    "confidence": 69,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -15461,7 +15497,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -15469,7 +15505,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15708,8 +15744,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -15722,14 +15758,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-          "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT"
-        },
         {
           "title": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
           "source": "www.theguardian.com",
@@ -15737,7 +15767,7 @@ window.MATCHES = [
           "pubDate": "Tue, 03 Nov 2026 23:54:13 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -15750,9 +15780,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "沙特阿拉伯",
@@ -15945,17 +15975,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-              "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT",
-              "description": "Tournament pushed back 11 months with proposed start on 23 December New dates with 21 January 2028 final must be approved by Fifa The 2027 Asian Cup in Saudi Arabia has been postponed as a result of the conflict in the Middle East. After a month of speculation following the airport attack on Riyadh’s international airport, the Asian Football Confederation (AFC) confirmed on Tuesday that the tournament had been pushed back 11 months. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -15970,9 +15990,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16018,7 +16038,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -16380,7 +16400,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17068,9 +17088,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17478,7 +17498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18211,9 +18231,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18621,7 +18641,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19309,9 +19329,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19719,7 +19739,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20410,9 +20430,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20820,7 +20840,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21508,9 +21528,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21918,7 +21938,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22609,9 +22629,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23022,7 +23042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23770,9 +23790,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24180,7 +24200,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24870,9 +24890,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25281,7 +25301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25972,9 +25992,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26382,7 +26402,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27073,9 +27093,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27483,7 +27503,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28171,9 +28191,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28581,7 +28601,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -28792,7 +28812,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -29023,9 +29043,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -29042,10 +29062,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -29271,9 +29300,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29670,7 +29699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -29882,7 +29911,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -30113,9 +30142,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -30132,10 +30161,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -30263,9 +30301,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30674,7 +30712,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31402,9 +31440,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31813,7 +31851,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32501,9 +32539,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32911,7 +32949,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33123,7 +33161,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -33354,9 +33392,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -33373,10 +33411,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -33602,9 +33649,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34001,7 +34048,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34593,9 +34640,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35003,7 +35050,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35716,9 +35763,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36123,7 +36170,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36741,9 +36788,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37148,7 +37195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37765,9 +37812,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38183,7 +38230,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38892,9 +38939,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39310,7 +39357,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39522,7 +39569,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -39530,7 +39577,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -39769,8 +39816,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -39798,14 +39845,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-          "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT"
-        },
         {
           "title": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
           "source": "www.theguardian.com",
@@ -39813,7 +39854,7 @@ window.MATCHES = [
           "pubDate": "Tue, 03 Nov 2026 23:54:13 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -39829,9 +39870,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -40024,17 +40065,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-              "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT",
-              "description": "Tournament pushed back 11 months with proposed start on 23 December New dates with 21 January 2028 final must be approved by Fifa The 2027 Asian Cup in Saudi Arabia has been postponed as a result of the conflict in the Middle East. After a month of speculation following the airport attack on Riyadh’s international airport, the Asian Football Confederation (AFC) confirmed on Tuesday that the tournament had been pushed back 11 months. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -40049,9 +40080,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40097,7 +40128,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -40467,7 +40498,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40687,7 +40718,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -40918,9 +40949,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -40952,10 +40983,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -41178,9 +41218,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41585,7 +41625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42201,9 +42241,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42619,7 +42659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43333,9 +43373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43751,7 +43791,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44463,9 +44503,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44882,7 +44922,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45642,9 +45682,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46060,7 +46100,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46771,9 +46811,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47190,7 +47230,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47901,9 +47941,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48319,7 +48359,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49033,9 +49073,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49454,7 +49494,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50226,9 +50266,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50644,7 +50684,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51357,9 +51397,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51775,7 +51815,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52486,9 +52526,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52904,7 +52944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53124,7 +53164,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -53355,9 +53395,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -53389,10 +53429,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 2.43 / 平 3.08 / 客 3.19。市场倾向 瑞士。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -53618,9 +53667,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54036,7 +54085,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54749,9 +54798,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55168,7 +55217,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55879,9 +55928,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56297,7 +56346,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56517,7 +56566,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -56748,9 +56797,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -56782,10 +56831,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.19 / 平 6.84 / 客 15.78。市场倾向 摩洛哥。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -57011,9 +57069,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57429,7 +57487,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57649,7 +57707,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -57880,9 +57938,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -57914,10 +57972,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.73 / 客 1.96。市场倾向 墨西哥。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -58143,9 +58210,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58550,7 +58617,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59166,9 +59233,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59562,7 +59629,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60081,9 +60148,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60500,7 +60567,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61212,9 +61279,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61630,7 +61697,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62341,9 +62408,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62759,7 +62826,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63473,9 +63540,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63880,7 +63947,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64496,9 +64563,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64914,7 +64981,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65662,9 +65729,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66080,7 +66147,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66837,9 +66904,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67255,7 +67322,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67969,9 +68036,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68376,7 +68443,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68587,7 +68654,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -68595,7 +68662,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -68834,8 +68901,8 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "goalLift": 0,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。"
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -68863,14 +68930,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-          "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT"
-        },
         {
           "title": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
           "source": "www.theguardian.com",
@@ -68878,7 +68939,7 @@ window.MATCHES = [
           "pubDate": "Tue, 03 Nov 2026 23:54:13 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -68894,9 +68955,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "沙特阿拉伯",
@@ -68994,17 +69055,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-              "pubDate": "Tue, 03 Nov 2026 07:30:40 GMT",
-              "description": "Tournament pushed back 11 months with proposed start on 23 December New dates with 21 January 2028 final must be approved by Fifa The 2027 Asian Cup in Saudi Arabia has been postponed as a result of the conflict in the Middle East. After a month of speculation following the airport attack on Riyadh’s international airport, the Asian Football Confederation (AFC) confirmed on Tuesday that the tournament had been pushed back 11 months. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -69019,9 +69070,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69067,7 +69118,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -69437,7 +69488,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70147,9 +70198,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70565,7 +70616,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71279,9 +71330,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71697,7 +71748,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -71917,7 +71968,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -72148,9 +72199,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -72182,10 +72233,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 12.31 / 平 6.19 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -72411,9 +72471,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72832,7 +72892,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73604,9 +73664,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74022,7 +74082,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74736,9 +74796,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75154,7 +75214,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75865,9 +75925,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76283,7 +76343,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76996,9 +77056,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77414,7 +77474,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78128,9 +78188,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78546,7 +78606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79258,9 +79318,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79676,7 +79736,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -79896,7 +79956,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -80127,9 +80187,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -80161,10 +80221,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 5.43 / 平 3.6 / 客 1.7。市场倾向 加拿大。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -80387,9 +80456,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80805,7 +80874,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81520,9 +81589,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81938,7 +82007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82650,9 +82719,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83068,7 +83137,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83780,9 +83849,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84187,7 +84256,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84803,9 +84872,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85221,7 +85290,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85978,9 +86047,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86396,7 +86465,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86616,7 +86685,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -86847,9 +86916,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -86881,10 +86950,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 2.19 / 平 3.01 / 客 3.8。市场倾向 墨西哥。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -87110,9 +87188,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87531,7 +87609,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88305,9 +88383,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88723,7 +88801,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -88944,7 +89022,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -89175,9 +89253,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -89209,10 +89287,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 2.14 / 平 3.21 / 客 3.68。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -89438,9 +89525,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89856,7 +89943,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90568,9 +90655,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90986,7 +91073,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91698,9 +91785,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92117,7 +92204,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92831,9 +92918,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93249,7 +93336,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93963,9 +94050,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94381,7 +94468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95130,9 +95217,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95537,7 +95624,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96154,9 +96241,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96572,7 +96659,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97286,9 +97373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97704,7 +97791,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -97925,7 +98012,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -98156,9 +98243,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -98190,10 +98277,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 4.81 / 平 3.47 / 客 1.81。市场倾向 摩洛哥。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -98419,9 +98515,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98837,7 +98933,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99597,9 +99693,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100015,7 +100111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100727,9 +100823,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101148,7 +101244,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101369,7 +101465,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -101637,13 +101733,19 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
           "pubDate": "Wed, 04 Nov 2026 13:00:11 GMT"
+        },
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
         },
         {
           "title": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
@@ -101658,7 +101760,7 @@ window.MATCHES = [
           "pubDate": "Tue, 03 Nov 2026 20:08:27 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -101923,9 +102025,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102342,7 +102444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103053,9 +103155,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103472,7 +103574,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -103693,7 +103795,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -103924,9 +104026,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -103958,10 +104060,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.53 / 平 3.45 / 客 2.73。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -104187,9 +104298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104605,7 +104716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105320,9 +105431,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105738,7 +105849,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106452,9 +106563,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -106870,7 +106981,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107627,9 +107738,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108045,7 +108156,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108265,7 +108376,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -108496,9 +108607,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -108530,10 +108641,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.62 / 平 3.93 / 客 5.57。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+          "pubDate": "Wed, 04 Nov 2026 15:10:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -108756,9 +108876,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109178,7 +109298,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109950,9 +110070,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110368,7 +110488,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111084,9 +111204,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111502,7 +111622,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112258,9 +112378,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112679,7 +112799,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113454,9 +113574,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113876,7 +113996,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114680,9 +114800,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115099,7 +115219,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-04T15:19:57.693Z",
+      "fetchedAt": "2026-11-04T15:32:52.761Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115811,9 +115931,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-04T15:19:57.693Z",
+      "updatedAt": "2026-11-04T15:32:52.761Z",
       "dataQuality": {
-        "updatedAt": "2026-11-04T15:19:57.693Z",
+        "updatedAt": "2026-11-04T15:32:52.761Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115934,7 +116054,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-04T15:19:57.693Z",
+  "updatedAt": "2026-11-04T15:32:52.761Z",
   "completedCount": 104,
   "outcomeHitRate": 60,
   "highConfidenceCount": 1,
@@ -124141,7 +124261,7 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 68,
+          "confidence": 69,
           "brier": 0.4394,
           "logLoss": 0.734,
           "marketOutcome": "",
