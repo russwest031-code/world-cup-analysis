@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-06T14:56:26.810Z",
+  "updatedAt": "2026-11-06T15:11:20.108Z",
   "runDate": "2026-11-06",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-06T14:56:26.810Z",
+  "externalFetchedAt": "2026-11-06T15:11:20.108Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -14,7 +14,7 @@ window.ANALYSIS_META = {
   "refreshTimeLocal": "15:00",
   "refreshTimeZone": "Asia/Shanghai",
   "weatherSignals": "unavailable",
-  "liveTeamNewsSignals": "error",
+  "liveTeamNewsSignals": "connected",
   "teamData": "real-kaggle-results",
   "teamDataCount": 92,
   "oddsProvider": "The Odds API",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -837,7 +837,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1923,7 +1923,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2928,7 +2928,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -3142,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3552,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4025,7 +4025,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -4239,9 +4239,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4649,7 +4649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5123,7 +5123,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -5337,9 +5337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5747,7 +5747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6221,7 +6221,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -6435,9 +6435,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6845,7 +6845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7318,7 +7318,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -7532,9 +7532,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7931,7 +7931,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8429,7 +8429,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -8558,9 +8558,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8957,7 +8957,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9434,7 +9434,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -9553,9 +9553,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9965,7 +9965,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10439,7 +10439,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -10653,9 +10653,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11052,7 +11052,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11529,7 +11529,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -11648,9 +11648,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12059,7 +12059,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12532,7 +12532,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -12746,9 +12746,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13146,7 +13146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13638,7 +13638,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -13767,9 +13767,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14177,7 +14177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14654,7 +14654,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -14868,9 +14868,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15278,7 +15278,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15751,7 +15751,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -15965,9 +15965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16375,7 +16375,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16857,7 +16857,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -17071,9 +17071,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17481,7 +17481,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17964,7 +17964,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -18178,9 +18178,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18588,7 +18588,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19061,7 +19061,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -19275,9 +19275,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19685,7 +19685,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20162,7 +20162,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -20376,9 +20376,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20786,7 +20786,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21260,7 +21260,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -21474,9 +21474,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21884,7 +21884,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22387,7 +22387,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -22621,9 +22621,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23035,7 +23035,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23054,11 +23054,11 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "1-0",
@@ -23100,7 +23100,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 62,
+        "chance": 61,
         "examples": [
           "1-1",
           "0-0",
@@ -23109,7 +23109,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 51,
+        "chance": 50,
         "examples": [
           "1-1",
           "0-0",
@@ -23129,12 +23129,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 40,
       "under25": 60,
-      "bttsYes": 52,
-      "bttsNo": 48,
+      "bttsYes": 53,
+      "bttsNo": 47,
       "homeWinBy2Plus": 20,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.43,
+      "expectedTotalGoals": 2.46,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -23237,9 +23237,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 48,
-        "awayScore": 48,
-        "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -23484,10 +23484,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
+        "awayScore": 50,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -23503,10 +23503,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -23524,7 +23524,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -23725,12 +23725,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -23742,12 +23742,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -23757,20 +23757,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23843,8 +23843,8 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.48,
-      "away": 0.96
+      "home": 1.49,
+      "away": 0.97
     },
     "analysisUpdated": "2026-11-06",
     "matchAutopsy": {
@@ -24178,7 +24178,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24654,7 +24654,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -24868,9 +24868,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25279,7 +25279,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25756,7 +25756,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -25970,9 +25970,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26380,7 +26380,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26856,7 +26856,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -27070,9 +27070,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27480,7 +27480,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27954,7 +27954,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -28168,9 +28168,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28578,7 +28578,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29054,7 +29054,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -29268,9 +29268,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29667,7 +29667,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30141,7 +30141,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -30260,9 +30260,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30671,7 +30671,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31168,7 +31168,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -31392,9 +31392,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31803,7 +31803,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32277,7 +32277,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -32491,9 +32491,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32901,7 +32901,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33378,7 +33378,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -33592,9 +33592,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33991,7 +33991,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34464,7 +34464,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -34583,9 +34583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34995,7 +34995,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35494,7 +35494,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -35708,9 +35708,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36115,7 +36115,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36614,7 +36614,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -36733,9 +36733,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37140,7 +37140,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37638,7 +37638,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -37757,9 +37757,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38175,7 +38175,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38670,7 +38670,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -38884,9 +38884,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39302,7 +39302,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39811,7 +39811,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -40035,9 +40035,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40453,7 +40453,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40950,7 +40950,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -41164,9 +41164,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41571,7 +41571,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42077,7 +42077,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -42196,9 +42196,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42614,7 +42614,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43123,7 +43123,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -43337,9 +43337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43755,7 +43755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44253,7 +44253,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -44467,9 +44467,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44886,7 +44886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45396,7 +45396,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -45610,9 +45610,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46028,7 +46028,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46525,7 +46525,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -46739,9 +46739,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47158,7 +47158,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47655,7 +47655,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -47869,9 +47869,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48287,7 +48287,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48814,7 +48814,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -49048,9 +49048,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49470,7 +49470,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49962,10 +49962,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -49983,7 +49983,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -50184,12 +50184,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -50201,12 +50201,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -50216,20 +50216,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50645,7 +50645,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51144,7 +51144,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -51358,9 +51358,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51776,7 +51776,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52273,7 +52273,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -52487,9 +52487,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52905,7 +52905,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53405,7 +53405,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -53619,9 +53619,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54037,7 +54037,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54536,7 +54536,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -54750,9 +54750,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55169,7 +55169,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55666,7 +55666,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -55880,9 +55880,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56298,7 +56298,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56798,7 +56798,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -57012,9 +57012,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57430,7 +57430,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57930,7 +57930,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -58144,9 +58144,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58551,7 +58551,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59048,7 +59048,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -59167,9 +59167,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59563,7 +59563,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60063,7 +60063,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "error",
+        "status": "no-fixture-match",
         "provider": "API-Football",
         "lineup": {
           "status": "projected",
@@ -60082,9 +60082,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60501,7 +60501,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -60999,7 +60999,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -61213,9 +61213,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61631,7 +61631,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62128,7 +62128,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -62342,9 +62342,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62762,7 +62762,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63262,7 +63262,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -63476,9 +63476,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63883,7 +63883,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64380,7 +64380,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -64499,9 +64499,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64917,7 +64917,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65435,7 +65435,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -65659,9 +65659,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66077,7 +66077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66584,7 +66584,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -66798,9 +66798,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67216,7 +67216,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67716,7 +67716,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -67930,9 +67930,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68337,7 +68337,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68845,7 +68845,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -68964,9 +68964,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69382,7 +69382,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69887,7 +69887,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -70111,9 +70111,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70529,7 +70529,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71029,7 +71029,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -71243,9 +71243,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71661,7 +71661,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72170,7 +72170,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -72384,9 +72384,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72806,7 +72806,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -72899,14 +72899,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 36,
-      "bttsNo": 64,
+      "over25": 37,
+      "under25": 63,
+      "bttsYes": 37,
+      "bttsNo": 63,
       "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 35,
       "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.19,
+      "expectedTotalGoals": 2.22,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73016,10 +73016,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 48,
-        "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -73263,11 +73263,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 48,
-        "goalLift": 0.08,
+        "goalLift": 0.11,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -73298,10 +73298,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -73319,7 +73319,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -73520,12 +73520,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -73537,12 +73537,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -73552,20 +73552,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73981,7 +73981,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74481,7 +74481,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -74695,9 +74695,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75113,7 +75113,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75637,7 +75637,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -75871,9 +75871,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76289,7 +76289,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76788,7 +76788,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -77002,9 +77002,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77420,7 +77420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77920,7 +77920,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -78134,9 +78134,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78552,7 +78552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79050,7 +79050,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -79264,9 +79264,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79682,7 +79682,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80179,7 +80179,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -80393,9 +80393,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80811,7 +80811,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81312,7 +81312,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -81526,9 +81526,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81944,7 +81944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82442,7 +82442,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -82656,9 +82656,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83076,7 +83076,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83574,7 +83574,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -83788,9 +83788,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84195,7 +84195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84692,7 +84692,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -84811,9 +84811,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85229,7 +85229,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85736,7 +85736,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -85950,9 +85950,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86368,7 +86368,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86868,7 +86868,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -87082,9 +87082,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87504,7 +87504,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87995,10 +87995,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -88019,7 +88019,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -88220,12 +88220,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -88237,12 +88237,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -88252,20 +88252,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88681,7 +88681,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89182,7 +89182,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -89396,9 +89396,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89814,7 +89814,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90312,7 +90312,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -90526,9 +90526,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90944,7 +90944,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91451,7 +91451,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -91675,9 +91675,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92094,7 +92094,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92621,7 +92621,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -92855,9 +92855,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93273,7 +93273,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93773,7 +93773,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -93987,9 +93987,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94405,7 +94405,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -94924,7 +94924,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -95148,9 +95148,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95555,7 +95555,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96062,7 +96062,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -96181,9 +96181,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96599,7 +96599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97099,7 +97099,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -97313,9 +97313,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97731,7 +97731,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98232,7 +98232,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -98446,9 +98446,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98864,7 +98864,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99374,7 +99374,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -99588,9 +99588,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100006,7 +100006,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100504,7 +100504,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -100718,9 +100718,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101140,7 +101140,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101632,10 +101632,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -101656,7 +101656,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -101857,12 +101857,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -101874,12 +101874,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -101889,20 +101889,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102319,7 +102319,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102843,7 +102843,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -103086,9 +103086,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103505,7 +103505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104006,7 +104006,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -104220,9 +104220,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104638,7 +104638,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105139,7 +105139,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -105353,9 +105353,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105771,7 +105771,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106271,7 +106271,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -106485,9 +106485,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -106903,7 +106903,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107410,7 +107410,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -107624,9 +107624,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108042,7 +108042,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108548,7 +108548,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -108772,9 +108772,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109195,7 +109195,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109687,10 +109687,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -109708,7 +109708,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -109909,12 +109909,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -109926,12 +109926,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -109941,20 +109941,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110370,7 +110370,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -110872,7 +110872,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -111086,9 +111086,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111504,7 +111504,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112016,7 +112016,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -112240,9 +112240,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112662,7 +112662,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113154,10 +113154,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -113178,7 +113178,7 @@ window.MATCHES = [
         "error": "400 Bad Request"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -113379,12 +113379,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -113396,12 +113396,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -113411,20 +113411,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113845,7 +113845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -113939,12 +113939,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 57,
       "under25": 43,
-      "bttsYes": 67,
-      "bttsNo": 33,
+      "bttsYes": 66,
+      "bttsNo": 34,
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 15,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 3.17,
+      "expectedTotalGoals": 3.14,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -114054,10 +114054,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -114301,11 +114301,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 48,
-        "goalLift": 0.11,
+        "goalLift": 0.08,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -114336,10 +114336,10 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+          "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -114357,7 +114357,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -114558,12 +114558,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -114575,12 +114575,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
@@ -114590,20 +114590,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+              "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 14:43:38 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:00:21 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail Luke What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live | Soccer | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 8 Next image Previous image Toggle caption Skip to key events Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Weekend football countdown Soccer Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: footba",
+              "bodyText": " 4h ago Tuchel discusses Palmer's omission 5h ago Full England squad; Cole Palmer left out 5h ago Jobe Bellingham and Josh King called up by England 6h ago Preamble 2m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 8m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 11m ago 10.00 EST Over to you John. Share 11m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this mo",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115020,7 +115020,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T14:56:26.810Z",
+      "fetchedAt": "2026-11-06T15:11:20.108Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115527,7 +115527,7 @@ window.MATCHES = [
         "text": "未找到该场馆比赛日天气数据。"
       },
       "teamNews": {
-        "status": "partial",
+        "status": "connected",
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
@@ -115751,9 +115751,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T14:56:26.810Z",
+      "updatedAt": "2026-11-06T15:11:20.108Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T14:56:26.810Z",
+        "updatedAt": "2026-11-06T15:11:20.108Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115874,7 +115874,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-06T14:56:26.810Z",
+  "updatedAt": "2026-11-06T15:11:20.108Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
@@ -123504,7 +123504,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 62,
+              "chance": 61,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123513,7 +123513,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 51,
+              "chance": 50,
               "examples": [
                 "1-1",
                 "0-0",
