@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-06T15:21:29.484Z",
+  "updatedAt": "2026-11-06T15:51:17.282Z",
   "runDate": "2026-11-06",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-06T15:21:29.484Z",
+  "externalFetchedAt": "2026-11-06T15:51:17.282Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 23,
+  "expertArticleCount": 24,
   "expertArticleBodyCount": 1,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 0,
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3142,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3552,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4239,9 +4239,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4649,7 +4649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5337,9 +5337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5747,7 +5747,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6435,9 +6435,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6845,7 +6845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7532,9 +7532,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7931,7 +7931,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8558,9 +8558,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8957,7 +8957,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9553,9 +9553,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9965,7 +9965,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10653,9 +10653,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11052,7 +11052,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11648,9 +11648,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12059,7 +12059,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12746,9 +12746,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13146,7 +13146,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13767,9 +13767,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14177,7 +14177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14868,9 +14868,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15278,7 +15278,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15965,9 +15965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16214,7 +16214,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 0,
         "avgAge": 29.1,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -16354,7 +16354,7 @@ window.MATCHES = [
     "metrics": [
       {
         "label": "进攻",
-        "home": 56,
+        "home": 66,
         "away": 60
       },
       {
@@ -16364,7 +16364,7 @@ window.MATCHES = [
       },
       {
         "label": "中场",
-        "home": 50,
+        "home": 56,
         "away": 39
       },
       {
@@ -16375,7 +16375,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16384,43 +16384,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      48,
-      42,
-      10
+      61,
+      30,
+      9
     ],
-    "confidence": 67,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 14
-      },
-      {
-        "score": "0-0",
-        "chance": 21
-      },
-      {
-        "score": "1-1",
-        "chance": 17
+        "chance": 16
       },
       {
         "score": "2-0",
-        "chance": 12
+        "chance": 15
+      },
+      {
+        "score": "0-0",
+        "chance": 15
+      },
+      {
+        "score": "1-1",
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
-        "label": "低比分平局",
-        "chance": 39,
-        "examples": [
-          "0-0",
-          "1-1"
-        ]
-      },
-      {
         "label": "主队小胜",
-        "chance": 32,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -16428,8 +16420,16 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 27,
+        "examples": [
+          "0-0",
+          "1-1"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 12,
+        "chance": 16,
         "examples": [
           "3-0",
           "4-0",
@@ -16440,40 +16440,41 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 77,
+        "chance": 75,
         "examples": [
-          "0-0",
-          "1-1",
-          "1-0"
+          "1-0",
+          "2-0",
+          "0-0"
         ]
       },
       {
-        "label": "客队不败低比分",
-        "chance": 48,
+        "label": "主队胜出覆盖",
+        "chance": 61,
         "examples": [
-          "0-0",
-          "1-1",
-          "0-1"
+          "1-0",
+          "2-0",
+          "3-0"
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 39,
+        "label": "主队优势胜",
+        "chance": 37,
         "examples": [
-          "0-0",
-          "1-1"
+          "2-0",
+          "3-0",
+          "3-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 27,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 36,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.07,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.18,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -16481,21 +16482,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
-        32,
-        10
+        61,
+        30,
+        9
       ],
       "market": null,
       "blended": [
-        48,
-        42,
-        10
+        61,
+        30,
+        9
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -16535,10 +16536,10 @@ window.MATCHES = [
       {
         "name": "攻防综合",
         "weight": 24,
-        "homeScore": 64,
+        "homeScore": 69,
         "awayScore": 56,
-        "contribution": 1.92,
-        "evidence": "伊朗 进攻56/防守85/中场50，综合64；新西兰 进攻60/防守70/中场39，综合56。"
+        "contribution": 3.12,
+        "evidence": "伊朗 进攻66/防守85/中场56，综合69；新西兰 进攻60/防守70/中场39，综合56。"
       },
       {
         "name": "近期状态",
@@ -16593,7 +16594,7 @@ window.MATCHES = [
       "teamStrength": {
         "homeRank": 20,
         "awayRank": 85,
-        "homeAverageMetric": 64.3,
+        "homeAverageMetric": 68.3,
         "awayAverageMetric": 50.8
       },
       "recentForm": {
@@ -16801,7 +16802,7 @@ window.MATCHES = [
         ]
       },
       "attackDefense": {
-        "homeAttack": 56,
+        "homeAttack": 66,
         "homeDefense": 85,
         "awayAttack": 60,
         "awayDefense": 70
@@ -17071,9 +17072,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17142,12 +17143,12 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。新西兰属于均衡型，场均进球参考值 1.33，大胜倾向 0%。",
-      "伊朗 进攻指数 56，新西兰 防守指数 70；新西兰 进攻指数 60，伊朗 防守指数 85。",
+      "伊朗 进攻指数 66，新西兰 防守指数 70；新西兰 进攻指数 60，伊朗 防守指数 85。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.56,
-      "away": 0.51
+      "home": 1.65,
+      "away": 0.52
     },
     "analysisUpdated": "2026-11-06",
     "matchAutopsy": {
@@ -17481,7 +17482,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18178,9 +18179,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18588,7 +18589,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19275,9 +19276,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19685,7 +19686,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20376,9 +20377,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20786,7 +20787,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21474,9 +21475,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21884,7 +21885,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22621,9 +22622,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23035,7 +23036,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23506,7 +23507,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -23728,9 +23729,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -23745,9 +23746,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -23760,17 +23761,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24178,7 +24179,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24868,9 +24869,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25279,7 +25280,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25970,9 +25971,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26380,7 +26381,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27070,9 +27071,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27480,7 +27481,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28168,9 +28169,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28578,7 +28579,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29268,9 +29269,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29667,7 +29668,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30260,9 +30261,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30671,7 +30672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31392,9 +31393,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31803,7 +31804,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32491,9 +32492,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32901,7 +32902,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33592,9 +33593,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33991,7 +33992,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34583,9 +34584,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34995,7 +34996,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35708,9 +35709,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36115,7 +36116,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36733,9 +36734,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37140,7 +37141,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37757,9 +37758,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38175,7 +38176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38884,9 +38885,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39302,7 +39303,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40035,9 +40036,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40424,7 +40425,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 0,
         "avgAge": 29.1,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -40433,7 +40434,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 81,
-        "away": 56
+        "away": 66
       },
       {
         "label": "防守",
@@ -40443,7 +40444,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 68,
-        "away": 50
+        "away": 56
       },
       {
         "label": "近期状态",
@@ -40453,7 +40454,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40545,14 +40546,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
+      "over25": 54,
+      "under25": 46,
       "bttsYes": 54,
       "bttsNo": 46,
-      "homeWinBy2Plus": 30,
-      "awayWinBy2Plus": 5,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.79,
+      "homeWinBy2Plus": 36,
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.89,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -40623,9 +40624,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 78,
-        "awayScore": 64,
-        "contribution": 3.36,
-        "evidence": "比利时 进攻81/防守86/中场68，综合78；伊朗 进攻56/防守85/中场50，综合64。"
+        "awayScore": 69,
+        "contribution": 2.16,
+        "evidence": "比利时 进攻81/防守86/中场68，综合78；伊朗 进攻66/防守85/中场56，综合69。"
       },
       {
         "name": "近期状态",
@@ -40681,7 +40682,7 @@ window.MATCHES = [
         "homeRank": 9,
         "awayRank": 20,
         "homeAverageMetric": 77.3,
-        "awayAverageMetric": 64.3
+        "awayAverageMetric": 68.3
       },
       "recentForm": {
         "home": {
@@ -40890,7 +40891,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 81,
         "homeDefense": 86,
-        "awayAttack": 56,
+        "awayAttack": 66,
         "awayDefense": 85
       },
       "motivation": {
@@ -41164,9 +41165,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41235,7 +41236,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "比利时属于主动压迫型，场均进球参考值 2.17，大胜倾向 33%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
-      "比利时 进攻指数 81，伊朗 防守指数 85；伊朗 进攻指数 56，比利时 防守指数 86。",
+      "比利时 进攻指数 81，伊朗 防守指数 85；伊朗 进攻指数 66，比利时 防守指数 86。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -41571,7 +41572,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42196,9 +42197,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42614,7 +42615,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43337,9 +43338,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43755,7 +43756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44467,9 +44468,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44886,7 +44887,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45610,9 +45611,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46028,7 +46029,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46739,9 +46740,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47158,7 +47159,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47869,9 +47870,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48287,7 +48288,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49048,9 +49049,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49470,7 +49471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49965,7 +49966,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -50187,9 +50188,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -50204,9 +50205,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -50219,17 +50220,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50645,7 +50646,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51358,9 +51359,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51776,7 +51777,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52487,9 +52488,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52905,7 +52906,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53619,9 +53620,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54037,7 +54038,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54750,9 +54751,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55169,7 +55170,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55880,9 +55881,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56298,7 +56299,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57012,9 +57013,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57430,7 +57431,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58144,9 +58145,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58551,7 +58552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59167,9 +59168,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59563,7 +59564,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60082,9 +60083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60501,7 +60502,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61213,9 +61214,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61631,7 +61632,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62342,9 +62343,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62762,7 +62763,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63476,9 +63477,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63883,7 +63884,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64499,9 +64500,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64917,7 +64918,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65659,9 +65660,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66077,7 +66078,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66798,9 +66799,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67216,7 +67217,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67930,9 +67931,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68337,7 +68338,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68964,9 +68965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69382,7 +69383,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70111,9 +70112,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70500,7 +70501,7 @@ window.MATCHES = [
         "starterCount": 0,
         "starCount": 0,
         "avgAge": 29.1,
-        "injuryPenalty": -10,
+        "injuryPenalty": 0,
         "injuredPlayers": [],
         "lastStarters": null
       }
@@ -70509,7 +70510,7 @@ window.MATCHES = [
       {
         "label": "进攻",
         "home": 68,
-        "away": 56
+        "away": 66
       },
       {
         "label": "防守",
@@ -70519,7 +70520,7 @@ window.MATCHES = [
       {
         "label": "中场",
         "home": 56,
-        "away": 50
+        "away": 56
       },
       {
         "label": "近期状态",
@@ -70529,7 +70530,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -70621,14 +70622,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 55,
-      "bttsNo": 45,
+      "over25": 48,
+      "under25": 52,
+      "bttsYes": 57,
+      "bttsNo": 43,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.56,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.66,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -70699,9 +70700,9 @@ window.MATCHES = [
         "name": "攻防综合",
         "weight": 24,
         "homeScore": 68,
-        "awayScore": 64,
-        "contribution": 0.96,
-        "evidence": "埃及 进攻68/防守80/中场56，综合68；伊朗 进攻56/防守85/中场50，综合64。"
+        "awayScore": 69,
+        "contribution": -0.24,
+        "evidence": "埃及 进攻68/防守80/中场56，综合68；伊朗 进攻66/防守85/中场56，综合69。"
       },
       {
         "name": "近期状态",
@@ -70757,7 +70758,7 @@ window.MATCHES = [
         "homeRank": 29,
         "awayRank": 20,
         "homeAverageMetric": 65.5,
-        "awayAverageMetric": 64.3
+        "awayAverageMetric": 68.3
       },
       "recentForm": {
         "home": {
@@ -70966,7 +70967,7 @@ window.MATCHES = [
       "attackDefense": {
         "homeAttack": 68,
         "homeDefense": 80,
-        "awayAttack": 56,
+        "awayAttack": 66,
         "awayDefense": 85
       },
       "motivation": {
@@ -71243,9 +71244,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71314,7 +71315,7 @@ window.MATCHES = [
     "insights": [
       "比赛已经结束，本场动机因子用于复盘模型判断与真实结果的偏差。",
       "埃及属于均衡型，场均进球参考值 1.6，大胜倾向 20%。伊朗属于防守控制型，场均进球参考值 1，大胜倾向 0%。",
-      "埃及 进攻指数 68，伊朗 防守指数 85；伊朗 进攻指数 56，埃及 防守指数 80。",
+      "埃及 进攻指数 68，伊朗 防守指数 85；伊朗 进攻指数 66，埃及 防守指数 80。",
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
@@ -71661,7 +71662,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72384,9 +72385,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72806,7 +72807,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73301,7 +73302,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -73523,9 +73524,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -73540,9 +73541,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -73555,17 +73556,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73981,7 +73982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74695,9 +74696,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75113,7 +75114,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75871,9 +75872,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76289,7 +76290,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77002,9 +77003,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77420,7 +77421,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78134,9 +78135,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78552,7 +78553,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79264,9 +79265,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79682,7 +79683,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80393,9 +80394,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80811,7 +80812,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81526,9 +81527,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81944,7 +81945,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82656,9 +82657,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83076,7 +83077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83788,9 +83789,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84195,7 +84196,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84811,9 +84812,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85229,7 +85230,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85950,9 +85951,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86368,7 +86369,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87082,9 +87083,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87504,7 +87505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -87998,7 +87999,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -88223,9 +88224,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -88240,9 +88241,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -88255,17 +88256,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88681,7 +88682,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89396,9 +89397,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89814,7 +89815,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90526,9 +90527,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90944,7 +90945,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91675,9 +91676,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92094,7 +92095,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92855,9 +92856,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93273,7 +93274,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93987,9 +93988,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94405,7 +94406,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95148,9 +95149,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95555,7 +95556,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96181,9 +96182,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96599,7 +96600,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97313,9 +97314,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97731,7 +97732,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98446,9 +98447,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98864,7 +98865,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99588,9 +99589,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100006,7 +100007,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100718,9 +100719,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101140,7 +101141,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101635,7 +101636,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -101860,9 +101861,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -101877,9 +101878,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -101892,17 +101893,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102319,7 +102320,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102828,10 +102829,10 @@ window.MATCHES = [
           "pubDate": "Thu, 05 Nov 2026 14:29:40 GMT"
         },
         {
-          "title": "Cristiano Ronaldo merely the latest example of a great player who couldn’t let go | Jonathan Wilson",
+          "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/05/cristiano-ronaldo-retires-international-football-career-portugal",
-          "pubDate": "Thu, 05 Nov 2026 13:32:02 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
+          "pubDate": "Thu, 05 Nov 2026 22:03:49 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -103086,9 +103087,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103505,7 +103506,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104220,9 +104221,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104638,7 +104639,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105353,9 +105354,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105771,7 +105772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106485,9 +106486,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -106903,7 +106904,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107624,9 +107625,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108042,7 +108043,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108772,9 +108773,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109195,7 +109196,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109690,7 +109691,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -109912,9 +109913,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -109929,9 +109930,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -109944,17 +109945,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110370,7 +110371,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111086,9 +111087,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111504,7 +111505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112240,9 +112241,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112662,7 +112663,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113157,7 +113158,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -113382,9 +113383,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -113399,9 +113400,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -113414,17 +113415,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113845,7 +113846,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114339,7 +114340,7 @@ window.MATCHES = [
           "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-          "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT"
+          "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT"
         },
         {
           "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
@@ -114561,9 +114562,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -114578,9 +114579,9 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
@@ -114593,17 +114594,17 @@ window.MATCHES = [
               "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-              "pubDate": "Fri, 06 Nov 2026 15:11:50 GMT",
+              "pubDate": "Fri, 06 Nov 2026 15:39:23 GMT",
               "description": "⚽ All the latest heading into a busy weekend of football ⚽ Premier League: 10 things to look out for | Mail John What do we make of that then? Josh King a better player than Cole Palmer? Looks like this goes beyond just playing ability. Tuchel’s press conference is set for 11am so we’ll see how he explains what looks like a huge snub. The other big news in Tuchel’s squad announcement is that there is again no place for Cole Palmer. Other surprise omissions include Noni Madueke and Kobbie Mainoo. Continue reading...",
-              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 11m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 17m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 20m ago 10.00 EST Over to you John. Share 20m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
+              "bodyText": "against their centre-backs he could be a threat, especially in behind [them]. But he is a winger and he will be mostly - 90% of the time - used as a winger.” Share 42m ago 10.08 EST More Arsenal: William Saliba may be called up by France when he is yet to play a match for the Gunners this season. Mikel Arteta is relying on Zinedine Zidane to nurse such an important player along. “We have been in very close contact. I think they are announcing their squad at 5pm this evening. They have all the information. Now it is about them and Zinedine [Zidane] and we will accept whatever it is. “I think it is something between them. William needs minutes and I know how much he loves to be in and around the national team. It’s a new manager and a really exciting one as well so whatever is decided is fine for us.” Share 48m ago 10.02 EST Arteta admits he 'can't help' leaving his technical area Ed Aarons Mikel Arteta has promised he will try harder not to leave his technical area but admitted he “can’t help it sometimes”. The Arsenal manager claimed that he had a “massive library” of clips that proved he isn’t the worst offender after being shown a yellow card in the victory over Everton last week. But Arteta called for consistency as he prepares to face Hull at the Emirates on Saturday. “If I leave the technical area, it’s my mistake, I’m wrong, that’s it,” he said. “You don’t have to look at anybody else. The thing is, as we always say, let’s be consistent. If you are out, you are out, and then it’s a yellow. If it’s one centimetre, you are out, you are out, then it has to be a yellow. Otherwise, it’s sometimes yes, sometimes no. And that’s what knowledge only means. That’s a collaboration that we need to have with everybody. I will try to do my best, but I can’t help it sometimes.” Share 51m ago 10.00 EST Over to you John. Share 51m ago 10.00 EST Before I hand over to John Brewin , here is a bit of Régis le Bris, reflecting on Sunderland’s poor run of form before Sunday afternoon’s Premier League visit of Chelsea. “It’s part of the journey. It’s not a comfortable period,” said Le Bris. “We don’t like it. But at the same time, we have to show the way. Keep the energy high. When I wake up in the morning I have this energy, and I have to give it to the players. I think this m",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115020,7 +115021,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-06T15:21:29.484Z",
+      "fetchedAt": "2026-11-06T15:51:17.282Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115751,9 +115752,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-06T15:21:29.484Z",
+      "updatedAt": "2026-11-06T15:51:17.282Z",
       "dataQuality": {
-        "updatedAt": "2026-11-06T15:21:29.484Z",
+        "updatedAt": "2026-11-06T15:51:17.282Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115874,7 +115875,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-06T15:21:29.484Z",
+  "updatedAt": "2026-11-06T15:51:17.282Z",
   "completedCount": 104,
   "outcomeHitRate": 59,
   "highConfidenceCount": 1,
@@ -115882,8 +115883,8 @@ window.ANALYSIS_BACKTEST = {
   "topScoreCoverage": 40,
   "scoreBandCoverage": 69,
   "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5209,
-  "averageLogLoss": 0.8725,
+  "averageBrier": 0.5237,
+  "averageLogLoss": 0.8757,
   "drawRecall": 24,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122565,8 +122566,8 @@ window.ANALYSIS_BACKTEST = {
       "topScoreCoverage": 47,
       "scoreBandCoverage": 75,
       "scoreScenarioCoverage": 81,
-      "averageBrier": 0.5498,
-      "averageLogLoss": 0.9016,
+      "averageBrier": 0.559,
+      "averageLogLoss": 0.9121,
       "lockedCount": 0,
       "rows": [
         {
@@ -123989,28 +123990,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 67,
-          "brier": 0.5768,
-          "logLoss": 0.8675,
+          "confidence": 76,
+          "brier": 0.8702,
+          "logLoss": 1.204,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            48,
-            42,
-            10
+            61,
+            30,
+            9
           ],
           "scoreBands": [
             {
-              "label": "低比分平局",
-              "chance": 39,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
               "label": "主队小胜",
-              "chance": 32,
+              "chance": 39,
               "examples": [
                 "1-0",
                 "2-0",
@@ -124018,8 +124011,16 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
+              "label": "低比分平局",
+              "chance": 27,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
               "label": "主队大胜",
-              "chance": 12,
+              "chance": 16,
               "examples": [
                 "3-0",
                 "4-0",
@@ -124030,28 +124031,29 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 77,
+              "chance": 75,
               "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
+                "1-0",
+                "2-0",
+                "0-0"
               ]
             },
             {
-              "label": "客队不败低比分",
-              "chance": 48,
+              "label": "主队胜出覆盖",
+              "chance": 61,
               "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
+                "1-0",
+                "2-0",
+                "3-0"
               ]
             },
             {
-              "label": "低比分平局",
-              "chance": 39,
+              "label": "主队优势胜",
+              "chance": 37,
               "examples": [
-                "0-0",
-                "1-1"
+                "2-0",
+                "3-0",
+                "3-1"
               ]
             }
           ],
@@ -125425,7 +125427,7 @@ window.ANALYSIS_BACKTEST = {
       "label": "中信心",
       "count": 86,
       "hitRate": 62,
-      "averageBrier": 0.4946
+      "averageBrier": 0.498
     },
     {
       "label": "高信心",
