@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-10T15:31:08.665Z",
+  "updatedAt": "2026-11-10T15:39:43.312Z",
   "runDate": "2026-11-10",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-10T15:31:08.665Z",
+  "externalFetchedAt": "2026-11-10T15:39:43.312Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -3142,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3552,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4240,9 +4240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4650,7 +4650,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5346,9 +5346,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5756,7 +5756,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6444,9 +6444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6854,7 +6854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7541,9 +7541,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7940,7 +7940,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8567,9 +8567,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8966,7 +8966,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9587,9 +9587,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10001,7 +10001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10689,9 +10689,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11088,7 +11088,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11683,9 +11683,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12094,7 +12094,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12781,9 +12781,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13181,7 +13181,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13649,16 +13649,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -13822,9 +13822,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14232,7 +14232,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14923,9 +14923,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15333,7 +15333,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16029,9 +16029,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16439,7 +16439,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17127,9 +17127,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17537,7 +17537,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18225,9 +18225,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18635,7 +18635,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19323,9 +19323,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19735,7 +19735,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20461,9 +20461,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20871,7 +20871,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21559,9 +21559,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21969,7 +21969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22660,9 +22660,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23073,7 +23073,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23808,9 +23808,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24218,7 +24218,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24908,9 +24908,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25319,7 +25319,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -26010,9 +26010,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26420,7 +26420,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -27110,9 +27110,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27520,7 +27520,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28208,9 +28208,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28618,7 +28618,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29317,9 +29317,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29716,7 +29716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30308,9 +30308,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30719,7 +30719,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31441,9 +31441,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31852,7 +31852,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32540,9 +32540,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32950,7 +32950,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33641,9 +33641,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34040,7 +34040,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34632,9 +34632,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35044,7 +35044,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35757,9 +35757,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36164,7 +36164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36807,9 +36807,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37214,7 +37214,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37831,9 +37831,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38251,7 +38251,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38960,9 +38960,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39378,7 +39378,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39869,16 +39869,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40137,9 +40137,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40555,7 +40555,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41266,9 +41266,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41673,7 +41673,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42298,9 +42298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42716,7 +42716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43430,9 +43430,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43850,7 +43850,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44597,9 +44597,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45016,7 +45016,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45731,9 +45731,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46149,7 +46149,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46860,9 +46860,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47279,7 +47279,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47990,9 +47990,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48408,7 +48408,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49122,9 +49122,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49543,7 +49543,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50282,9 +50282,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50700,7 +50700,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51422,9 +51422,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51840,7 +51840,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52551,9 +52551,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52969,7 +52969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53683,9 +53683,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54101,7 +54101,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54823,9 +54823,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55242,7 +55242,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55953,9 +55953,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56371,7 +56371,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57085,9 +57085,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57503,7 +57503,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58217,9 +58217,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58624,7 +58624,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59240,9 +59240,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59636,7 +59636,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60155,9 +60155,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60574,7 +60574,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61311,9 +61311,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61731,7 +61731,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62442,9 +62442,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62862,7 +62862,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63576,9 +63576,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63983,7 +63983,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64599,9 +64599,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65017,7 +65017,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65759,9 +65759,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66177,7 +66177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66889,9 +66889,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67307,7 +67307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68021,9 +68021,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68428,7 +68428,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69046,9 +69046,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69464,7 +69464,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69960,16 +69960,16 @@ window.MATCHES = [
           "pubDate": "Mon, 09 Nov 2026 20:00:17 GMT"
         },
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -70225,9 +70225,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70643,7 +70643,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71357,9 +71357,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71775,7 +71775,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72489,9 +72489,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72910,7 +72910,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73649,9 +73649,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74067,7 +74067,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74790,9 +74790,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75208,7 +75208,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75919,9 +75919,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76337,7 +76337,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77050,9 +77050,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77468,7 +77468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78182,9 +78182,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78602,7 +78602,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79349,9 +79349,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79767,7 +79767,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80478,9 +80478,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80898,7 +80898,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81613,9 +81613,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82031,7 +82031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82768,9 +82768,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83188,7 +83188,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83900,9 +83900,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84307,7 +84307,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84923,9 +84923,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85341,7 +85341,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86053,9 +86053,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86471,7 +86471,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87185,9 +87185,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87606,7 +87606,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88347,9 +88347,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88765,7 +88765,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89480,9 +89480,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89898,7 +89898,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90610,9 +90610,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91028,7 +91028,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91520,16 +91520,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -91785,9 +91785,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92204,7 +92204,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92927,9 +92927,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93345,7 +93345,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94059,9 +94059,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94477,7 +94477,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95220,9 +95220,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95629,7 +95629,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96281,9 +96281,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96699,7 +96699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97413,9 +97413,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97831,7 +97831,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98546,9 +98546,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98964,7 +98964,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99679,9 +99679,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100097,7 +100097,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100809,9 +100809,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101230,7 +101230,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101972,9 +101972,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102391,7 +102391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102882,16 +102882,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -103147,9 +103147,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103566,7 +103566,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104281,9 +104281,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104701,7 +104701,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105451,9 +105451,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105869,7 +105869,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106583,9 +106583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107001,7 +107001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107713,9 +107713,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108131,7 +108131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108622,16 +108622,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -108887,9 +108887,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109309,7 +109309,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110048,9 +110048,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110468,7 +110468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111219,9 +111219,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111637,7 +111637,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112128,16 +112128,16 @@ window.MATCHES = [
       "articleCount": 2,
       "articles": [
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -112393,9 +112393,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112816,7 +112816,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113578,9 +113578,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114000,7 +114000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114738,9 +114738,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115159,7 +115159,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-10T15:31:08.665Z",
+      "fetchedAt": "2026-11-10T15:39:43.312Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115657,12 +115657,6 @@ window.MATCHES = [
           "pubDate": "Mon, 09 Nov 2026 17:30:23 GMT"
         },
         {
-          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
-        },
-        {
           "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
@@ -115673,6 +115667,12 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
           "pubDate": "Mon, 09 Nov 2026 22:30:20 GMT"
+        },
+        {
+          "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+          "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -115885,21 +115885,21 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-              "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT",
-              "description": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “We don’t have this shirt today for the sake of it. He was not chosen, and nor are we. It could have happened to anyone, anyone. Let us go knowing that we’re grateful to be on the pitch: playing, watching, warming up, sitting on the bench, whatever it may be. Boys, we were not chosen: not us, not him. Let us go, gratefully. Without thought. We have a grand day before us.” With that, Osasuna’s players turned left out of the room, where they were joined in the tunnel by footballers from Athletic Club, rivals from the north, and together they went out past the little shrine of Saint Fermin on to the field. They carried white lilies and all wore the same white shirts with a No 9 on the back, a black ribbon and the name of Jesús de Miguel, the Tenerife striker who died after a collision on the pitch five days earlier at the age of 30. At almost exactly the same time, 2,000km away to the west, Tenerife’s squad were walking out at the Heliodoro Rodríguez López in Santa Cruz. They did not have anyone alongside them, wore black suits not white shirts and did not have a game to play either, not this week. Continue reading...",
-              "bodyText": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’ | Tenerife | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 5 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Tenerife players and staff line up during the tribute to the striker Jesús de Miguel. Photograph: Alberto Valdés/EPA View image in fullscreen Tener",
-              "bodyError": ""
-            },
-            {
               "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
               "pubDate": "Tue, 10 Nov 2026 12:00:51 GMT",
               "description": "In the days before squad numbers, the number on a shirt was an indicator of position, as well as the attributes a player was supposed to demonstrate Ultimate 1-50: check out our complete list of players Numbers have a fascination. The No 10 is revered almost everywhere, but perhaps most especially in Argentina, where it denotes the playmaker, the enganche , the quasi-mythical figure who links the front and back of the team. Liverpool and Manchester United have reasons to celebrate their No 7. Ajax retired No 14 for Johan Cruyff, Milan their No 3 and No 6 for Paolo Maldini and Franco Baresi respectively and Birmingham their 22 for Jude Bellingham as gestures of respect for their abilities. Other numbers have been retired to mark premature deaths: the No 20 at Liverpool for Diogo Jota, the No 23 at Manchester City for Marc-Vivian Foé, the 21 at Espanyol for Daniel Jarque. But numbers are not just about individuals. In the days before squad numbers, the number on a shirt was an indicator of position, and the expectations of particular numbers in particular cultures, as well as the attributes a player in that shirt was supposed to demonstrate, themselves tell a story of tactical evolution. Continue reading...",
               "bodyText": "arly, 1-22 numbering was used in the 1933 FA Cup final, in part because Everton and Manchester City were forced to wear change kits due to a colour clash, although the presence of the touring West Indies cricket side, who were not expected to be familiar with the individual players, was also cited. It wasn’t until June 1939, though, that the Football League took a vote to introduce squad numbers. It passed 24-20, and it was decided both teams should wear 1-11, but in strict order, as though the formation had been laid out on a page with the goalkeeper at the top. This was complicated by the fact that, although almost every team by that stage had responded to the 1925 change in the offside law by adopting the W-M formation (a 3-2-2-3), there was still a belief that the “right” way to play was a 2-3-5. Thus the goalkeeper wore No 1, the right-back No 2, the left-back No 3, the right-half No 4, the centre-half No 5 and so on up to the centre-forward in No 9, the inside-left in No 10 and the left-winger in No 11. In practice, though, the centre-half (5), played between the full-backs (2 and 3) while the inside-forwards (8 and 10) played deeper than the wingers and centre-forward (7, 9 and 11). Numbers rapidly became sacrosanct. When Hungary came to Wembley in 1953 and became the first foreign side to beat England at the national stadium, they provoked consternation because they were “incorrectly” numbered. The centre-back Mihaly Lantos wore No 4. The midfield creator Jozsef Bozsik wore No 5. Most bafflingly of all, Nandor Hidegkuti, the No 9, didn’t play as a centre-forward but created from midfield. What was Harry Johnston, England’s hapless centre-half, to do? Convention said he, the No 5, should pick up the No 9, but if he did that he left a huge hole in the back line. And if he did not, Hidegkuti was free to pick England apart. View image in fullscreen Javier Zanetti wore No 4 for Inter, the traditional number for right-backs in Argentina. Photograph: Alessandro Bianchi/Reuters The introspection provoked by that defeat led within a decade or so to a number of leading English teams adopting a back four, usually by withdrawing the left-half (the No 6) into the defensive line. As Alf Ramsey’s 1966 World Cup winners showed the value of packing midfield, so the win",
+              "bodyError": ""
+            },
+            {
+              "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+              "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT",
+              "description": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “We don’t have this shirt today for the sake of it. He was not chosen, and nor are we. It could have happened to anyone, anyone. Let us go knowing that we’re grateful to be on the pitch: playing, watching, warming up, sitting on the bench, whatever it may be. Boys, we were not chosen: not us, not him. Let us go, gratefully. Without thought. We have a grand day before us.” With that, Osasuna’s players turned left out of the room, where they were joined in the tunnel by footballers from Athletic Club, rivals from the north, and together they went out past the little shrine of Saint Fermin on to the field. They carried white lilies and all wore the same white shirts with a No 9 on the back, a black ribbon and the name of Jesús de Miguel, the Tenerife striker who died after a collision on the pitch five days earlier at the age of 30. At almost exactly the same time, 2,000km away to the west, Tenerife’s squad were walking out at the Heliodoro Rodríguez López in Santa Cruz. They did not have anyone alongside them, wore black suits not white shirts and did not have a game to play either, not this week. Continue reading...",
+              "bodyText": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’ | Tenerife | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 5 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Tenerife players and staff line up during the tribute to the striker Jesús de Miguel. Photograph: Alberto Valdés/EPA View image in fullscreen Tener",
               "bodyError": ""
             }
           ]
@@ -115926,15 +115926,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
-              "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT",
-              "description": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “We don’t have this shirt today for the sake of it. He was not chosen, and nor are we. It could have happened to anyone, anyone. Let us go knowing that we’re grateful to be on the pitch: playing, watching, warming up, sitting on the bench, whatever it may be. Boys, we were not chosen: not us, not him. Let us go, gratefully. Without thought. We have a grand day before us.” With that, Osasuna’s players turned left out of the room, where they were joined in the tunnel by footballers from Athletic Club, rivals from the north, and together they went out past the little shrine of Saint Fermin on to the field. They carried white lilies and all wore the same white shirts with a No 9 on the back, a black ribbon and the name of Jesús de Miguel, the Tenerife striker who died after a collision on the pitch five days earlier at the age of 30. At almost exactly the same time, 2,000km away to the west, Tenerife’s squad were walking out at the Heliodoro Rodríguez López in Santa Cruz. They did not have anyone alongside them, wore black suits not white shirts and did not have a game to play either, not this week. Continue reading...",
-              "bodyText": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’ | Tenerife | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 5 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Tenerife players and staff line up during the tribute to the striker Jesús de Miguel. Photograph: Alberto Valdés/EPA View image in fullscreen Tener",
-              "bodyError": ""
-            },
-            {
               "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
@@ -115942,13 +115933,22 @@ window.MATCHES = [
               "description": "In the days before squad numbers, the number on a shirt was an indicator of position, as well as the attributes a player was supposed to demonstrate Ultimate 1-50: check out our complete list of players Numbers have a fascination. The No 10 is revered almost everywhere, but perhaps most especially in Argentina, where it denotes the playmaker, the enganche , the quasi-mythical figure who links the front and back of the team. Liverpool and Manchester United have reasons to celebrate their No 7. Ajax retired No 14 for Johan Cruyff, Milan their No 3 and No 6 for Paolo Maldini and Franco Baresi respectively and Birmingham their 22 for Jude Bellingham as gestures of respect for their abilities. Other numbers have been retired to mark premature deaths: the No 20 at Liverpool for Diogo Jota, the No 23 at Manchester City for Marc-Vivian Foé, the 21 at Espanyol for Daniel Jarque. But numbers are not just about individuals. In the days before squad numbers, the number on a shirt was an indicator of position, and the expectations of particular numbers in particular cultures, as well as the attributes a player in that shirt was supposed to demonstrate, themselves tell a story of tactical evolution. Continue reading...",
               "bodyText": "arly, 1-22 numbering was used in the 1933 FA Cup final, in part because Everton and Manchester City were forced to wear change kits due to a colour clash, although the presence of the touring West Indies cricket side, who were not expected to be familiar with the individual players, was also cited. It wasn’t until June 1939, though, that the Football League took a vote to introduce squad numbers. It passed 24-20, and it was decided both teams should wear 1-11, but in strict order, as though the formation had been laid out on a page with the goalkeeper at the top. This was complicated by the fact that, although almost every team by that stage had responded to the 1925 change in the offside law by adopting the W-M formation (a 3-2-2-3), there was still a belief that the “right” way to play was a 2-3-5. Thus the goalkeeper wore No 1, the right-back No 2, the left-back No 3, the right-half No 4, the centre-half No 5 and so on up to the centre-forward in No 9, the inside-left in No 10 and the left-winger in No 11. In practice, though, the centre-half (5), played between the full-backs (2 and 3) while the inside-forwards (8 and 10) played deeper than the wingers and centre-forward (7, 9 and 11). Numbers rapidly became sacrosanct. When Hungary came to Wembley in 1953 and became the first foreign side to beat England at the national stadium, they provoked consternation because they were “incorrectly” numbered. The centre-back Mihaly Lantos wore No 4. The midfield creator Jozsef Bozsik wore No 5. Most bafflingly of all, Nandor Hidegkuti, the No 9, didn’t play as a centre-forward but created from midfield. What was Harry Johnston, England’s hapless centre-half, to do? Convention said he, the No 5, should pick up the No 9, but if he did that he left a huge hole in the back line. And if he did not, Hidegkuti was free to pick England apart. View image in fullscreen Javier Zanetti wore No 4 for Inter, the traditional number for right-backs in Argentina. Photograph: Alessandro Bianchi/Reuters The introspection provoked by that defeat led within a decade or so to a number of leading English teams adopting a back four, usually by withdrawing the left-half (the No 6) into the defensive line. As Alf Ramsey’s 1966 World Cup winners showed the value of packing midfield, so the win",
               "bodyError": ""
+            },
+            {
+              "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+              "pubDate": "Mon, 09 Nov 2026 11:00:13 GMT",
+              "description": "Across La Liga and beyond this weekend, footballers took to the field knowing it could have been them In the final few minutes before stepping into the arena once more, heading out for his 199th Osasuna match on Saturday evening, the man who has scored more first division goals than anyone in their history stopped his teammates for a moment and told them what it meant to wear the shirt. “This is very important,” Ante Budimir began as the dressing room, their sanctuary, fell silent around him. “We don’t have this shirt today for the sake of it. He was not chosen, and nor are we. It could have happened to anyone, anyone. Let us go knowing that we’re grateful to be on the pitch: playing, watching, warming up, sitting on the bench, whatever it may be. Boys, we were not chosen: not us, not him. Let us go, gratefully. Without thought. We have a grand day before us.” With that, Osasuna’s players turned left out of the room, where they were joined in the tunnel by footballers from Athletic Club, rivals from the north, and together they went out past the little shrine of Saint Fermin on to the field. They carried white lilies and all wore the same white shirts with a No 9 on the back, a black ribbon and the name of Jesús de Miguel, the Tenerife striker who died after a collision on the pitch five days earlier at the age of 30. At almost exactly the same time, 2,000km away to the west, Tenerife’s squad were walking out at the Heliodoro Rodríguez López in Santa Cruz. They did not have anyone alongside them, wore black suits not white shirts and did not have a game to play either, not this week. Continue reading...",
+              "bodyText": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’ | Tenerife | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 5 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Tenerife players and staff line up during the tribute to the striker Jesús de Miguel. Photograph: Alberto Valdés/EPA View image in fullscreen Tener",
+              "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-10T15:31:08.665Z",
+      "updatedAt": "2026-11-10T15:39:43.312Z",
       "dataQuality": {
-        "updatedAt": "2026-11-10T15:31:08.665Z",
+        "updatedAt": "2026-11-10T15:39:43.312Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116069,7 +116069,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-10T15:31:08.665Z",
+  "updatedAt": "2026-11-10T15:39:43.312Z",
   "completedCount": 104,
   "outcomeHitRate": 57,
   "highConfidenceCount": 1,
