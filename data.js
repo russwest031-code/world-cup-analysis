@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-16T17:24:50.539Z",
+  "updatedAt": "2026-11-16T18:19:52.449Z",
   "runDate": "2026-11-16",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-16T17:24:50.539Z",
+  "externalFetchedAt": "2026-11-16T18:19:52.449Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 27,
+  "expertArticleCount": 28,
   "expertArticleBodyCount": 2,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 0,
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -834,7 +834,7 @@ window.MATCHES = [
         "venue": "Mexico City",
         "date": "2026-06-12",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -1051,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1450,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2042,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2452,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2926,7 +2926,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-13",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -3143,9 +3143,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3555,7 +3555,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4252,9 +4252,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4662,7 +4662,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -5349,9 +5349,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5759,7 +5759,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6476,9 +6476,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6886,7 +6886,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7097,7 +7097,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7350,7 +7350,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -7359,13 +7359,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "Record-breaking Andy Robertson is Scotland’s finest captain",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
           "pubDate": "Sun, 15 Nov 2026 12:00:16 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7588,9 +7594,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7987,7 +7993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8482,7 +8488,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-14",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -8614,9 +8620,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9013,7 +9019,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9496,7 +9502,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-15",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -9628,9 +9634,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10038,7 +10044,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10726,9 +10732,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11125,7 +11131,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11599,7 +11605,7 @@ window.MATCHES = [
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -11721,9 +11727,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12132,7 +12138,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12819,9 +12825,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13219,7 +13225,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13431,7 +13437,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -13684,7 +13690,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -13693,13 +13699,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -13708,7 +13720,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-16",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -13830,9 +13842,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14240,7 +14252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14723,7 +14735,7 @@ window.MATCHES = [
         "venue": "Seattle",
         "date": "2026-06-16",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -14940,9 +14952,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15350,7 +15362,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16037,9 +16049,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16447,7 +16459,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17135,9 +17147,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17545,7 +17557,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18233,9 +18245,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18643,7 +18655,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19340,9 +19352,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19750,7 +19762,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20224,7 +20236,7 @@ window.MATCHES = [
         "venue": "Kansas City",
         "date": "2026-06-17",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -20441,9 +20453,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20851,7 +20863,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21539,9 +21551,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21949,7 +21961,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22161,7 +22173,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -22414,8 +22426,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
         {
           "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
           "source": "www.theguardian.com",
@@ -22429,7 +22447,7 @@ window.MATCHES = [
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -22438,7 +22456,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -22665,9 +22683,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23075,7 +23093,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23549,21 +23567,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -23790,9 +23808,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24200,7 +24218,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24673,7 +24691,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -24890,9 +24908,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25301,7 +25319,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25774,7 +25792,7 @@ window.MATCHES = [
         "venue": "Mexico City",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -25991,9 +26009,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26401,7 +26419,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26874,7 +26892,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-19",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -27091,9 +27109,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27501,7 +27519,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -28189,9 +28207,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28599,7 +28617,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29072,7 +29090,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-19",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -29289,9 +29307,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29688,7 +29706,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30280,9 +30298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30693,7 +30711,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31194,7 +31212,7 @@ window.MATCHES = [
         "venue": "Seattle",
         "date": "2026-06-20",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -31421,9 +31439,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31832,7 +31850,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32043,7 +32061,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32296,8 +32314,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
         {
           "title": "Record-breaking Andy Robertson is Scotland’s finest captain",
           "source": "www.theguardian.com",
@@ -32305,7 +32329,7 @@ window.MATCHES = [
           "pubDate": "Sun, 15 Nov 2026 12:00:16 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32528,9 +32552,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32938,7 +32962,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33427,7 +33451,7 @@ window.MATCHES = [
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -33664,9 +33688,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34063,7 +34087,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34656,9 +34680,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35066,7 +35090,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35562,7 +35586,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-21",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "This operation was aborted"
+        "error": "400 Bad Request"
       },
       "teamNews": {
         "status": "connected",
@@ -35779,9 +35803,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36186,7 +36210,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36823,9 +36847,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37230,7 +37254,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37847,9 +37871,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38265,7 +38289,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38974,9 +38998,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39392,7 +39416,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39612,7 +39636,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -39880,7 +39904,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -39889,13 +39913,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -40121,9 +40151,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40539,7 +40569,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -41259,9 +41289,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41666,7 +41696,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42282,9 +42312,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42700,7 +42730,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43414,9 +43444,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43832,7 +43862,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44544,9 +44574,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44963,7 +44993,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45678,9 +45708,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46096,7 +46126,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46816,9 +46846,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47235,7 +47265,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47946,9 +47976,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48364,7 +48394,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48584,7 +48614,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -48852,8 +48882,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
         {
           "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
           "source": "www.theguardian.com",
@@ -48867,7 +48903,7 @@ window.MATCHES = [
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -49103,9 +49139,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49521,7 +49557,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50019,21 +50055,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -50260,9 +50296,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50678,7 +50714,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51391,9 +51427,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51809,7 +51845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52520,9 +52556,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52938,7 +52974,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53652,9 +53688,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54070,7 +54106,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54783,9 +54819,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55202,7 +55238,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55422,7 +55458,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -55690,7 +55726,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "A long wait, some magic and that smile: Ronaldinho savours Ravenna debut at 46",
@@ -55699,13 +55735,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 12:49:11 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "Record-breaking Andy Robertson is Scotland’s finest captain",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
           "pubDate": "Sun, 15 Nov 2026 12:00:16 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -55948,9 +55990,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56366,7 +56408,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57089,9 +57131,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57507,7 +57549,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58221,9 +58263,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58628,7 +58670,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59244,9 +59286,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59640,7 +59682,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60159,9 +60201,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60578,7 +60620,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -61309,9 +61351,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61727,7 +61769,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62438,9 +62480,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62856,7 +62898,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63570,9 +63612,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63979,7 +64021,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64604,9 +64646,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65022,7 +65064,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65764,9 +65806,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66182,7 +66224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66903,9 +66945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67321,7 +67363,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68035,9 +68077,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68442,7 +68484,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69060,9 +69102,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69478,7 +69520,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69697,7 +69739,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -69965,7 +70007,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -69974,13 +70016,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -70203,9 +70251,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70621,7 +70669,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71335,9 +71383,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71753,7 +71801,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72476,9 +72524,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72894,7 +72942,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73392,21 +73440,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -73633,9 +73681,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74051,7 +74099,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74765,9 +74813,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75183,7 +75231,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75403,7 +75451,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -75671,8 +75719,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
         {
           "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
           "source": "www.theguardian.com",
@@ -75686,7 +75740,7 @@ window.MATCHES = [
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -75919,9 +75973,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76337,7 +76391,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77050,9 +77104,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77468,7 +77522,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78182,9 +78236,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78600,7 +78654,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79312,9 +79366,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79730,7 +79784,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80441,9 +80495,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80859,7 +80913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81603,9 +81657,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82021,7 +82075,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82752,9 +82806,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83170,7 +83224,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83882,9 +83936,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84289,7 +84343,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84914,9 +84968,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85332,7 +85386,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86044,9 +86098,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86462,7 +86516,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87176,9 +87230,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87594,7 +87648,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88091,21 +88145,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -88335,9 +88389,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88753,7 +88807,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89477,9 +89531,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89897,7 +89951,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90618,9 +90672,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91036,7 +91090,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91257,7 +91311,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -91525,7 +91579,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -91534,13 +91588,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91763,9 +91823,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92182,7 +92242,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92402,7 +92462,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -92670,8 +92730,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
         {
           "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
           "source": "www.theguardian.com",
@@ -92685,7 +92751,7 @@ window.MATCHES = [
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -92921,9 +92987,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93339,7 +93405,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -94053,9 +94119,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94471,7 +94537,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95214,9 +95280,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95621,7 +95687,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96238,9 +96304,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96656,7 +96722,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97370,9 +97436,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97788,7 +97854,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98503,9 +98569,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98921,7 +98987,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99636,9 +99702,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100054,7 +100120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100801,9 +100867,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101219,7 +101285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101717,21 +101783,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -101961,9 +102027,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102380,7 +102446,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102472,16 +102538,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.46,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.6,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "高"
     },
     "marketCalibration": {
@@ -102590,9 +102656,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 47,
-        "awayScore": 50,
-        "contribution": -0.18,
-        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
+        "awayScore": 47,
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       },
       {
         "name": "赔率市场",
@@ -102837,10 +102903,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 47,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": -2,
-        "evidence": "预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。"
+        "awayScore": 47,
+        "goalLift": 0.14,
+        "confidenceDelta": -3,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 新闻出现轮换/休息信号，降低对应方稳定性。 战术新闻偏主动，抬高比赛节奏。"
       }
     },
     "marketSignals": {
@@ -102877,6 +102943,12 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend",
@@ -102887,12 +102959,6 @@ window.MATCHES = [
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
-        },
-        {
-          "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
-          "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -102908,9 +102974,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "葡萄牙",
@@ -103103,7 +103169,17 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+              "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT",
+              "description": "While the head coach, players and Spanish press were magnanimous in defeat, there was pride mixed in with disappointment – and confidence the future is still bright “With every game, defeat gets closer,” Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competitive game since Scotland in March 2023 back when the coach hadn’t won anything and didn’t look like he ever would – and that solitary loss was on penalties in the 2025 Nations League final . Statistically, they said, penalties don’t count, so while Portugal lifted the trophy that night, the team that won the European Championship and World Cup in the summers either side also claimed a Fifa record of 44 official games unbeaten. And then England turned up at the Metropolitano . A night that started with Iker Casillas, Fernando Torres and Fernando Llorente handing the World Cup to Unai Simón ended with Spain trying to overhaul a shock 3-0 deficit. Against 10 men and led by a superb Lamine Yamal, Spain made De la Fuente think for a while that they would, but it wasn’t to be. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
@@ -103117,6 +103193,15 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
+              "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+              "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT",
+              "description": "While the head coach, players and Spanish press were magnanimous in defeat, there was pride mixed in with disappointment – and confidence the future is still bright “With every game, defeat gets closer,” Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competitive game since Scotland in March 2023 back when the coach hadn’t won anything and didn’t look like he ever would – and that solitary loss was on penalties in the 2025 Nations League final . Statistically, they said, penalties don’t count, so while Portugal lifted the trophy that night, the team that won the European Championship and World Cup in the summers either side also claimed a Fifa record of 44 official games unbeaten. And then England turned up at the Metropolitano . A night that started with Iker Casillas, Fernando Torres and Fernando Llorente handing the World Cup to Unai Simón ended with Spain trying to overhaul a shock 3-0 deficit. Against 10 men and led by a superb Lamine Yamal, Spain made De la Fuente think for a while that they would, but it wasn’t to be. Continue reading...",
+              "bodyText": "",
+              "bodyError": ""
+            },
+            {
               "title": "Portugal immortalise Cristiano Ronaldo’s No 7 shirt in tribute to national legend",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/14/portugal-immortalise-cristiano-ronaldos-no-7-shirt-in-tribute-to-national-legend",
@@ -103128,9 +103213,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103176,7 +103261,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -103549,7 +103634,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104279,9 +104364,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104697,7 +104782,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105412,9 +105497,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105830,7 +105915,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106544,9 +106629,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -106962,7 +107047,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107674,9 +107759,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108092,7 +108177,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108312,7 +108397,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -108580,7 +108665,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
         {
           "title": "Belgium's Lukaku retires from internationals",
@@ -108595,13 +108680,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -108824,9 +108915,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109243,7 +109334,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109741,22 +109832,22 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Nations League roundup: Portugal mauled by Denmark as Norway sink Wales",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/14/clinical-norway-dent-wales-nations-league-top-tier-hopes-with-victory-in-oslo",
           "pubDate": "Sat, 14 Nov 2026 22:23:39 GMT"
-        },
-        {
-          "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -109982,9 +110073,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110400,7 +110491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111116,9 +111207,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111534,7 +111625,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -111754,7 +111845,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -112022,7 +112113,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -112031,13 +112122,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -112260,9 +112357,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112678,7 +112775,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113176,21 +113273,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -113420,9 +113517,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113839,7 +113936,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114336,21 +114433,21 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
-          "title": "Beckham firm sues after fragrance found for sale in Poundland",
+          "title": "Beckham firm sues after fragrance found for sale in discount store",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-          "pubDate": "Mon, 16 Nov 2026 13:26:35 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:35:59 GMT"
+        },
+        {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
         },
         {
           "title": "Terry Butcher: ‘I’ve learned to live with the Hand of God goal better’",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/15/terry-butcher-ive-learned-to-live-with-the-hand-of-god-goal-better",
-          "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
-        },
-        {
-          "title": "AFC Wimbledon, a failed £87m investment bid and the challenge for fan ownership",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/15/afc-wimbledon-a-failed-87m-investment-bid-and-the-challenge-for-fan-ownership",
           "pubDate": "Sun, 15 Nov 2026 08:00:09 GMT"
         }
       ],
@@ -114577,9 +114674,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114996,7 +115093,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-16T17:24:50.539Z",
+      "fetchedAt": "2026-11-16T18:19:52.449Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115217,7 +115314,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -115485,7 +115582,7 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
         {
           "title": "Football Daily | England’s Nations League triumph in Spain sparks familiar rush to glory",
@@ -115494,13 +115591,19 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 16:20:21 GMT"
         },
         {
+          "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+          "pubDate": "Mon, 16 Nov 2026 17:48:38 GMT"
+        },
+        {
           "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
           "pubDate": "Mon, 16 Nov 2026 12:56:01 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -115723,9 +115826,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-16T17:24:50.539Z",
+      "updatedAt": "2026-11-16T18:19:52.449Z",
       "dataQuality": {
-        "updatedAt": "2026-11-16T17:24:50.539Z",
+        "updatedAt": "2026-11-16T18:19:52.449Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115846,7 +115949,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-16T17:24:50.539Z",
+  "updatedAt": "2026-11-16T18:19:52.449Z",
   "completedCount": 104,
   "outcomeHitRate": 56,
   "highConfidenceCount": 1,
