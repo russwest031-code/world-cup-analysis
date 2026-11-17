@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-17T17:03:00.463Z",
+  "updatedAt": "2026-11-17T17:32:11.134Z",
   "runDate": "2026-11-17",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-17T17:03:00.463Z",
+  "externalFetchedAt": "2026-11-17T17:32:11.134Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,7 +21,7 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 25,
+  "expertArticleCount": 23,
   "expertArticleBodyCount": 4,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 0,
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -849,7 +849,7 @@ window.MATCHES = [
         "venue": "Mexico City",
         "date": "2026-06-12",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -1066,9 +1066,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1465,7 +1465,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -2057,9 +2057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2467,7 +2467,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2941,7 +2941,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-13",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -3158,9 +3158,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3568,7 +3568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -4255,9 +4255,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4665,7 +4665,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4876,7 +4876,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -5129,8 +5129,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -5138,7 +5144,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -5361,9 +5367,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5771,7 +5777,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -6488,9 +6494,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6898,7 +6904,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -7109,7 +7115,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7362,8 +7368,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -7371,7 +7383,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7594,9 +7606,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7993,7 +8005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8488,7 +8500,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-14",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -8620,9 +8632,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9019,7 +9031,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9231,7 +9243,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -9484,14 +9496,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Klopp says Infantino worse than Blatter",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT"
-        },
         {
           "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
           "source": "www.theguardian.com",
@@ -9499,7 +9505,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 15:23:15 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -9508,7 +9514,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-15",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -9639,15 +9645,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Klopp says Infantino worse than Blatter",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT",
-              "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
@@ -9659,9 +9656,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10069,7 +10066,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10757,9 +10754,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11156,7 +11153,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11630,7 +11627,7 @@ window.MATCHES = [
         "venue": "Philadelphia",
         "date": "2026-06-15",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -11752,9 +11749,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12163,7 +12160,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12850,9 +12847,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13250,7 +13247,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13733,7 +13730,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-16",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -13855,9 +13852,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -14265,7 +14262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14477,7 +14474,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -14708,9 +14705,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -14727,10 +14724,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -14739,7 +14745,7 @@ window.MATCHES = [
         "venue": "Seattle",
         "date": "2026-06-16",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -14956,9 +14962,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15366,7 +15372,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -16053,9 +16059,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16463,7 +16469,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -17151,9 +17157,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17561,7 +17567,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -18278,9 +18284,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18688,7 +18694,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -19376,9 +19382,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19786,7 +19792,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -20281,7 +20287,7 @@ window.MATCHES = [
         "venue": "Kansas City",
         "date": "2026-06-17",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -20498,9 +20504,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20908,7 +20914,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -21596,9 +21602,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22006,7 +22012,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22480,7 +22486,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -22697,9 +22703,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23107,7 +23113,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23589,13 +23595,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -23813,7 +23819,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -23854,7 +23860,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -23869,9 +23875,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -24279,7 +24285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24752,7 +24758,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -24969,9 +24975,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25380,7 +25386,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25854,7 +25860,7 @@ window.MATCHES = [
         "venue": "Mexico City",
         "date": "2026-06-18",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -26071,9 +26077,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26481,7 +26487,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26963,7 +26969,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-19",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -27180,9 +27186,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27590,7 +27596,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27802,7 +27808,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -28055,8 +28061,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -28064,7 +28076,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -28287,9 +28299,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28697,7 +28709,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -29170,7 +29182,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-19",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -29387,9 +29399,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29786,7 +29798,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -30387,9 +30399,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30798,7 +30810,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -31292,7 +31304,7 @@ window.MATCHES = [
         "venue": "Seattle",
         "date": "2026-06-20",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -31519,9 +31531,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31930,7 +31942,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -32142,7 +32154,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32395,8 +32407,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -32404,7 +32422,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32627,9 +32645,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33037,7 +33055,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33520,7 +33538,7 @@ window.MATCHES = [
         "venue": "Philadelphia",
         "date": "2026-06-20",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -33757,9 +33775,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34156,7 +34174,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34748,9 +34766,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -35158,7 +35176,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35654,7 +35672,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-21",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -35871,9 +35889,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36278,7 +36296,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36498,7 +36516,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -36765,14 +36783,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Klopp says Infantino worse than Blatter",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT"
-        },
         {
           "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
           "source": "www.theguardian.com",
@@ -36780,7 +36792,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 15:23:15 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -36789,7 +36801,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-21",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -36920,15 +36932,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Klopp says Infantino worse than Blatter",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT",
-              "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
@@ -36940,9 +36943,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37347,7 +37350,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37842,7 +37845,7 @@ window.MATCHES = [
         "venue": "Kansas City",
         "date": "2026-06-21",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -37964,9 +37967,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38382,7 +38385,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -39091,9 +39094,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39509,7 +39512,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -40015,7 +40018,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-22",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -40232,9 +40235,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40650,7 +40653,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40870,7 +40873,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -41101,9 +41104,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -41135,10 +41138,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -41361,9 +41373,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41768,7 +41780,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -42384,9 +42396,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42802,7 +42814,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -43299,7 +43311,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-22",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -43516,9 +43528,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43934,7 +43946,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44661,9 +44673,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45080,7 +45092,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45587,7 +45599,7 @@ window.MATCHES = [
         "venue": "Philadelphia",
         "date": "2026-06-23",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -45824,9 +45836,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -46242,7 +46254,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46953,9 +46965,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47372,7 +47384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -48092,9 +48104,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48510,7 +48522,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -49007,7 +49019,7 @@ window.MATCHES = [
         "venue": "Houston",
         "date": "2026-06-24",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -49224,9 +49236,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49642,7 +49654,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -50149,13 +50161,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -50373,7 +50385,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -50414,7 +50426,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -50429,9 +50441,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50847,7 +50859,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -51343,7 +51355,7 @@ window.MATCHES = [
         "venue": "Toronto",
         "date": "2026-06-24",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -51560,9 +51572,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51978,7 +51990,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52689,9 +52701,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53107,7 +53119,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53327,7 +53339,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -53595,8 +53607,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -53604,7 +53622,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -53613,7 +53631,7 @@ window.MATCHES = [
         "venue": "Vancouver",
         "date": "2026-06-25",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -53830,9 +53848,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -54248,7 +54266,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54744,7 +54762,7 @@ window.MATCHES = [
         "venue": "Seattle",
         "date": "2026-06-25",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -54961,9 +54979,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55380,7 +55398,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55600,7 +55618,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -55868,8 +55886,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -55883,7 +55907,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 12:49:11 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -56126,9 +56150,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56544,7 +56568,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -57041,7 +57065,7 @@ window.MATCHES = [
         "venue": "Atlanta",
         "date": "2026-06-25",
         "note": "天气接口当前未返回该比赛日预报，可能超出可预报窗口。",
-        "error": "400 Bad Request"
+        "error": "This operation was aborted"
       },
       "teamNews": {
         "status": "connected",
@@ -57258,9 +57282,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57676,7 +57700,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -58399,9 +58423,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58806,7 +58830,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -59431,9 +59455,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59827,7 +59851,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -60346,9 +60370,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60765,7 +60789,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -60986,7 +61010,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -61254,14 +61278,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Klopp says Infantino worse than Blatter",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT"
-        },
         {
           "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
           "source": "www.theguardian.com",
@@ -61269,7 +61287,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 15:23:15 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -61501,15 +61519,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Klopp says Infantino worse than Blatter",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT",
-              "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
@@ -61521,9 +61530,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61939,7 +61948,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62650,9 +62659,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63068,7 +63077,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63782,9 +63791,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64189,7 +64198,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64805,9 +64814,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -65223,7 +65232,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65965,9 +65974,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66383,7 +66392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -67124,9 +67133,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67542,7 +67551,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -68256,9 +68265,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68663,7 +68672,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -69281,9 +69290,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69699,7 +69708,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -70418,9 +70427,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70836,7 +70845,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -71550,9 +71559,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71968,7 +71977,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72188,7 +72197,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -72419,9 +72428,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -72453,10 +72462,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 12.31 / 平 6.19 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -72682,9 +72700,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -73100,7 +73118,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73607,13 +73625,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -73831,7 +73849,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -73872,7 +73890,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -73887,9 +73905,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74305,7 +74323,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -75019,9 +75037,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75437,7 +75455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -76148,9 +76166,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76566,7 +76584,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -77279,9 +77297,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77697,7 +77715,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -78420,9 +78438,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78838,7 +78856,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79565,9 +79583,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79983,7 +80001,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80703,9 +80721,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81121,7 +81139,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81865,9 +81883,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -82283,7 +82301,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82504,7 +82522,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -82772,14 +82790,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
-        {
-          "title": "Klopp says Infantino worse than Blatter",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT"
-        },
         {
           "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
           "source": "www.theguardian.com",
@@ -82787,7 +82799,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 15:23:15 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -83019,15 +83031,6 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "Klopp says Infantino worse than Blatter",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Mon, 16 Nov 2026 15:54:36 GMT",
-              "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
               "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
@@ -83039,9 +83042,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83457,7 +83460,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -84169,9 +84172,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84576,7 +84579,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -85192,9 +85195,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85610,7 +85613,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -86351,9 +86354,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86769,7 +86772,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -87492,9 +87495,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87910,7 +87913,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88416,13 +88419,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -88643,7 +88646,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -88684,7 +88687,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -88699,9 +88702,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89117,7 +89120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89338,7 +89341,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -89569,9 +89572,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -89603,10 +89606,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 2.14 / 平 3.21 / 客 3.68。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -89832,9 +89844,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -90250,7 +90262,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90962,9 +90974,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91380,7 +91392,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -92101,9 +92113,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92520,7 +92532,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -93234,9 +93246,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93652,7 +93664,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93872,7 +93884,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -94140,8 +94152,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 3,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
           "source": "www.theguardian.com",
@@ -94155,7 +94173,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -94381,9 +94399,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94799,7 +94817,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -95542,9 +95560,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95949,7 +95967,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96581,9 +96599,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96999,7 +97017,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97713,9 +97731,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98131,7 +98149,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98846,9 +98864,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -99264,7 +99282,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -100008,9 +100026,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100426,7 +100444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -101167,9 +101185,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101585,7 +101603,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -102092,13 +102110,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -102319,7 +102337,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -102369,7 +102387,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -102393,9 +102411,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102812,7 +102830,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -103532,9 +103550,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103951,7 +103969,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104172,7 +104190,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -104403,9 +104421,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -104437,10 +104455,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.53 / 平 3.45 / 客 2.73。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -104666,9 +104693,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105084,7 +105111,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105814,9 +105841,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -106232,7 +106259,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106452,7 +106479,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -106720,8 +106747,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
           "source": "www.theguardian.com",
@@ -106729,7 +106762,7 @@ window.MATCHES = [
           "pubDate": "Mon, 16 Nov 2026 21:53:32 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -106955,9 +106988,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107373,7 +107406,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -108114,9 +108147,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108532,7 +108565,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108752,7 +108785,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -109020,8 +109053,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 1,
+      "articleCount": 2,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
           "source": "www.theguardian.com",
@@ -109029,7 +109068,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
         }
       ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109252,9 +109291,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109671,7 +109710,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -110178,13 +110217,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -110402,7 +110441,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -110443,7 +110482,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -110458,9 +110497,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110876,7 +110915,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111098,7 +111137,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -111366,8 +111405,14 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 4,
       "articles": [
+        {
+          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+        },
         {
           "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
           "source": "www.theguardian.com",
@@ -111387,7 +111432,7 @@ window.MATCHES = [
           "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -111613,9 +111658,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112031,7 +112076,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112777,9 +112822,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -113195,7 +113240,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113702,13 +113747,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -113929,7 +113974,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -113979,16 +114024,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
-              "bodyError": ""
-            },
-            {
-              "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-              "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT",
-              "description": "A new film about the historic World Cup quarter-final clash finds new angles for a new generation “Is there anything new to say about it?” Gary Lineker asked the producer Flora Fernandez-Marengo when she first approached him to take part in The Match, a documentary about the 1986 World Cup quarter-final between England and Argentina. Flora told an audience at the London film festival premiere of the film that she played her best card then and showed Lineker an image of Maradona with Queen in 1981, during the band’s tour of Argentina. Maradona wearing a union jack T-shirt and Freddie Mercury an Argentina strip. It worked. Lineker said yes. The rock’n’roll angle, with Brian May as a talking head, is one of the very few details the film-makers added to Andrés Burgo’s book, The Match, on which the documentary is based. The directors Juan Cabral and Santiago Franco play with the timeline, hopping between past and present across 91 minutes, the exact duration of the match itself. Anecdotes that now form part of Argentina’s football folklore are spliced with excellent archive material. Continue reading...",
-              "bodyText": "",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -113998,6 +114034,15 @@ window.MATCHES = [
               "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
               "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
               "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photograph: ",
+              "bodyError": ""
+            },
+            {
+              "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+              "source": "www.theguardian.com",
+              "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
+              "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT",
+              "description": "A new film about the historic World Cup quarter-final clash finds new angles for a new generation “Is there anything new to say about it?” Gary Lineker asked the producer Flora Fernandez-Marengo when she first approached him to take part in The Match, a documentary about the 1986 World Cup quarter-final between England and Argentina. Flora told an audience at the London film festival premiere of the film that she played her best card then and showed Lineker an image of Maradona with Queen in 1981, during the band’s tour of Argentina. Maradona wearing a union jack T-shirt and Freddie Mercury an Argentina strip. It worked. Lineker said yes. The rock’n’roll angle, with Brian May as a talking head, is one of the very few details the film-makers added to Andrés Burgo’s book, The Match, on which the documentary is based. The directors Juan Cabral and Santiago Franco play with the timeline, hopping between past and present across 91 minutes, the exact duration of the match itself. Anecdotes that now form part of Argentina’s football folklore are spliced with excellent archive material. Continue reading...",
+              "bodyText": "",
               "bodyError": ""
             },
             {
@@ -114012,9 +114057,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114431,7 +114476,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114937,13 +114982,13 @@ window.MATCHES = [
           "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 15:52:32 GMT"
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+          "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -115161,7 +115206,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -115211,7 +115256,7 @@ window.MATCHES = [
               "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
               "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
               "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 5 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
+              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 6 hours ago London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the games t",
               "bodyError": ""
             },
             {
@@ -115235,9 +115280,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115654,7 +115699,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-17T17:03:00.463Z",
+      "fetchedAt": "2026-11-17T17:32:11.134Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -116401,9 +116446,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-17T17:03:00.463Z",
+      "updatedAt": "2026-11-17T17:32:11.134Z",
       "dataQuality": {
-        "updatedAt": "2026-11-17T17:03:00.463Z",
+        "updatedAt": "2026-11-17T17:32:11.134Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116524,7 +116569,7 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-17T17:03:00.463Z",
+  "updatedAt": "2026-11-17T17:32:11.134Z",
   "completedCount": 104,
   "outcomeHitRate": 57,
   "highConfidenceCount": 1,
